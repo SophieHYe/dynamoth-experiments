@@ -7,15 +7,17 @@ import sys
 import datetime
 from core.Config import conf
 
+tools = ["NopolPC", "NopolC", "Genprog", "Kali"]
+
 reload(sys)  
 sys.setdefaultencoding('Cp1252')
 
-tools = ["NopolPC", "NopolC", "BrutpolPC", "BrutpolC", "Genprog", "Kali"]
 
 root = conf.resultsRoot
 resultsAll = {}
 resultsAllPath = os.path.join(root, "results.json")
-resultsMdPath = os.path.join(root, "results.md")
+resultsMdPath = os.path.join(root, "readme.md")
+detailedResultsMdPath = os.path.join(root, "detailed-results.md")
 resultsTexPath = os.path.join(root, "results.tex")
 rankingAll = {}
 
