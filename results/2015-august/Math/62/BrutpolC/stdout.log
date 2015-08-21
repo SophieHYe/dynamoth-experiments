@@ -8,20 +8,20 @@ Date: `date`
 
 Nb classes : 471
 Nb methods : 3308
-Nb statements: 19729
+Nb statements: 19730
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 2365
-Nb Statements Analyzed : 18291
+Nb Statements Analyzed : 18292
 Nb Statements with Angelic Value Found : 0
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 2443092ms
+NoPol Execution time : 2428094ms
 
 
-Node: graphene-25.nancy.grid5000.fr
+Node: graphene-7.nancy.grid5000.fr
 
 
-Date: Wed Aug 12 23:58:07 CEST 2015
+Date: Thu Aug 20 01:04:15 CEST 2015
 
 

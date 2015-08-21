@@ -1,11 +1,11 @@
 {
-    "date": "Tue Aug  4 19:09:43 CEST 2015\n\n", 
-    "executionTime": 282370, 
+    "date": "Thu Aug 20 20:41:05 CEST 2015\n\n", 
+    "executionTime": 465696, 
     "nbAngelicValue": 2, 
     "nbSMTInput": 2065, 
     "nbSMTVariable": 25, 
     "nbStatement": 26, 
-    "node": "graphene-26.nancy.grid5000.fr", 
+    "node": "griffon-29.nancy.grid5000.fr", 
     "patch": "((tailZone == null) && (i == (ruleSetCount - 1))) && ((!(outputID)) || (0 < (ruleSetCount - 1)))", 
     "patchLocation": {
         "className": "org.joda.time.tz.DateTimeZoneBuilder", 

@@ -1,4 +1,19 @@
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:101)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:42)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:85)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:84)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
+	at fr.inria.lille.repair.Main.main(Main.java:59)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
+	... 9 more
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
 	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:95)
 	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:63)
@@ -1328,6 +1343,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	42m37.875s
-user	80m29.682s
-sys	3m5.440s
+real	47m16.892s
+user	108m2.641s
+sys	3m10.992s

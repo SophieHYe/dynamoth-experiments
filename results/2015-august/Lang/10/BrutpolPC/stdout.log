@@ -12,16 +12,16 @@ Nb statements: 10537
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 2198
-Nb Statements Analyzed : 82
-Nb Statements with Angelic Value Found : 18
-Nb run failing test  : [2, 2, 2, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [4, 4, 4, 31, 38, 4, 38, 4, 38, 38, 38, 38, 38, 38, 38, 4, 4, 4, 4, 42, 4, 4, 4, 4, 4, 4, 4, 4, 4, 50, 1, 1, 4, 4, 4, 4, 4, 4, 4]
-NoPol Execution time : 4444285ms
+Nb Statements Analyzed : 140
+Nb Statements with Angelic Value Found : 32
+Nb run failing test  : [2, 2, 2, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 0, 0, 0, 2, 2, 2, 2, 2, 0, 1, 1, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+Nb run passing test : [4, 4, 4, 31, 38, 4, 38, 4, 38, 38, 38, 38, 38, 38, 38, 4, 4, 4, 4, 42, 4, 4, 4, 4, 4, 4, 4, 4, 4, 50, 1, 1, 4, 4, 4, 4, 4, 4, 4, 79, 4, 79, 79, 79, 4, 4, 4, 4, 4, 79, 78, 78, 4, 4, 78, 78, 78, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+NoPol Execution time : 3705839ms
 
 
-Node: graphene-34.nancy.grid5000.fr
+Node: graphene-81.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 05:00:30 CEST 2015
+Date: Thu Aug 20 05:45:02 CEST 2015
 
 

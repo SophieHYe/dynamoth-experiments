@@ -8,7 +8,7 @@ Date: `date`
 
 Nb classes : 578
 Nb methods : 3768
-Nb statements: 24373
+Nb statements: 24374
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 3194
@@ -16,14 +16,14 @@ Nb Statements Analyzed : 15
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2, 2]
 Nb run passing test : [1, 6]
-NoPol Execution time : 557290ms
+NoPol Execution time : 469064ms
 ----PATCH FOUND----
 org.apache.commons.math.stat.descriptive.moment.Variance:509: CONDITIONAL mean <= length
 
 
-Node: griffon-22.nancy.grid5000.fr
+Node: graphene-79.nancy.grid5000.fr
 
 
-Date: Wed Aug 12 23:49:43 CEST 2015
+Date: Thu Aug 20 00:53:02 CEST 2015
 
 

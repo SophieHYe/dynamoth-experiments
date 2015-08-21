@@ -1,11 +1,11 @@
 {
-    "date": "Thu Aug 13 00:41:54 CEST 2015\n\n", 
-    "executionTime": 95191, 
+    "date": "Thu Aug 20 01:45:39 CEST 2015\n\n", 
+    "executionTime": 95571, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 68, 
-    "node": "graphene-40.nancy.grid5000.fr", 
+    "node": "graphene-46.nancy.grid5000.fr", 
     "patch": "min == 1", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.BrentSolver", 

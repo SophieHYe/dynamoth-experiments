@@ -435,26 +435,18 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
-Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at java.util.Arrays.copyOfRange(Arrays.java:2694)
-	at java.lang.String.<init>(String.java:203)
-	at java.util.zip.ZipCoder.toString(ZipCoder.java:59)
-	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:531)
-	at java.util.zip.ZipFile.access$900(ZipFile.java:56)
-	at java.util.zip.ZipFile$1.nextElement(ZipFile.java:513)
-	at java.util.zip.ZipFile$1.nextElement(ZipFile.java:483)
-	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.isPackage(ClasspathJar.java:155)
-	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.findClass(ClasspathJar.java:94)
-	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findClass(FileSystem.java:262)
-	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findType(FileSystem.java:354)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createPackage(LookupEnvironment.java:755)
-	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.buildTypeBindings(CompilationUnitScope.java:107)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:188)
-	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:723)
-	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:383)
-	at spoon.support.compiler.jdt.TreeBuilderCompiler.buildUnits(TreeBuilderCompiler.java:36)
-	at spoon.support.compiler.jdt.JDTBatchCompiler.getUnits(JDTBatchCompiler.java:121)
-	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:224)
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at org.eclipse.jdt.internal.compiler.util.Util.getInputStreamAsCharArray(Util.java:577)
+	at org.eclipse.jdt.internal.compiler.util.Util.getFileCharContent(Util.java:413)
+	at org.eclipse.jdt.internal.compiler.batch.CompilationUnit.getContents(CompilationUnit.java:77)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.getJavaDoc(JDTTreeBuilder.java:1408)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:2239)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse(MethodDeclaration.java:317)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:2946)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse(TypeDeclaration.java:1338)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:745)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:706)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:229)
 	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:505)
 	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
@@ -467,6 +459,6 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	61m40.518s
-user	152m49.941s
-sys	0m22.609s
+real	83m25.602s
+user	233m4.530s
+sys	0m33.542s

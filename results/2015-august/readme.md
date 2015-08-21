@@ -2,18 +2,17 @@
 
 BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | Kali      | Total
 ----------------- | --------- | --------- | --------- | --------- | --------- | --------- | ------
-[C1](#chart-1)    | TIMEOUT   | TIMEOUT   | No        | No        | Yes       | Yes       |      2
-[C3](#chart-3)    | TIMEOUT   | Yes       | No        | No        | Yes       | No       |      2
-[C4](#chart-4)    | TIMEOUT   | TIMEOUT   | Yes       | No        | No       | No       |      1
-[C5](#chart-5)    | TIMEOUT   | Yes       | No        | Yes       | Yes       | Yes       |      4
-[C6](#chart-6)    | Yes       | Yes       | Yes       | Yes       | Yes       | No       |      5
-[C7](#chart-7)    | TIMEOUT   | TIMEOUT   | No        | No        | Yes       | No       |      1
-[C8](#chart-8)    | TIMEOUT   | No        | No        | No        | Yes       | TIMEOUT   |      1
-[C9](#chart-9)    | TIMEOUT   | TIMEOUT   | Yes       | Yes       | Yes       | No       |      3
+[C1](#chart-1)    | No        | No        | No        | No        | Yes       | Yes       |      2
+[C3](#chart-3)    | No        | Yes       | No        | No        | Yes       | No       |      2
+[C5](#chart-5)    | No        | Yes       | No        | Yes       | Yes       | Yes       |      4
+[C6](#chart-6)    | TIMEOUT   | No        | Yes       | No        | Yes       | No       |      2
+[C7](#chart-7)    | No        | No        | No        | No        | Yes       | No       |      1
+[C8](#chart-8)    | No        | No        | No        | No        | Yes       | TIMEOUT   |      1
+[C9](#chart-9)    | Yes       | Yes       | Yes       | Yes       | Yes       | No       |      5
 [C13](#chart-13)  | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
-[C15](#chart-15)  | TIMEOUT   | TIMEOUT   | No        | No        | Yes       | Yes       |      2
-[C17](#chart-17)  | TIMEOUT   | No        | Yes       | Yes       | No       | No       |      2
-[C21](#chart-21)  | Yes       | Yes       | No        | No        | Yes       | Yes       |      4
+[C15](#chart-15)  | No        | No        | No        | No        | Yes       | Yes       |      2
+[C17](#chart-17)  | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+[C21](#chart-21)  | Yes       | No        | Yes       | No        | Yes       | Yes       |      4
 [C25](#chart-25)  | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
 [C26](#chart-26)  | Yes       | Yes       | No        | Yes       | No    | Yes       |      4
 [L39](#lang-39)   | Yes       | No        | Yes       | No        | No       | No       |      2
@@ -24,20 +23,20 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [L55](#lang-55)   | Yes       | No        | No        | No        | No    | No    |      1
 [L58](#lang-58)   | Yes       | Yes       | No        | No        | No       | No       |      2
 [M2](#math-2)     | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | Yes       | Yes       |      2
-[M5](#math-5)     | TIMEOUT   | No        | No        | No        | Yes       | No       |      1
-[M8](#math-8)     | TIMEOUT   | No        | No        | No        | Yes       | Yes       |      2
-[M28](#math-28)   | No        | TIMEOUT   | No        | No        | Yes       | Yes       |      2
+[M5](#math-5)     | No        | No        | No        | No        | Yes       | No       |      1
+[M8](#math-8)     | No        | No        | No        | No        | Yes       | Yes       |      2
+[M28](#math-28)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | Yes       |      2
 [M32](#math-32)   | Yes       | No        | No        | Yes       | No    | Yes       |      3
 [M33](#math-33)   | Yes       | Yes       | Yes       | No        | No       | No       |      3
-[M40](#math-40)   | No        | Yes       | No        | No        | Yes       | Yes       |      3
+[M40](#math-40)   | No        | Yes       | No        | ERROR     | Yes       | Yes       |      3
 [M41](#math-41)   | No       | No       | Yes       | Yes       | No       | No       |      2
 [M42](#math-42)   | Yes       | TIMEOUT   | Yes       | Yes       | No       | No       |      3
-[M44](#math-44)   | TIMEOUT   | No        | No        | No        | Yes       | Yes       |      2
+[M44](#math-44)   | No        | No        | No        | No        | Yes       | Yes       |      2
 [M46](#math-46)   | No        | No        | Yes       | No        | No       | No       |      1
 [M49](#math-49)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
-[M50](#math-50)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
+[M50](#math-50)   | Yes       | Yes       | Yes       | ERROR     | Yes       | Yes       |      5
 [M53](#math-53)   | No        | No        | No        | No        | Yes       | No       |      1
-[M56](#math-56)   | No        | No        | No        | No        | Yes       | No       |      1
+[M56](#math-56)   | No        | No        | TIMEOUT   | No        | Yes       | No       |      1
 [M57](#math-57)   | Yes       | Yes       | No        | No        | No       | No       |      2
 [M58](#math-58)   | Yes       | Yes       | Yes       | ERROR     | No    | TIMEOUT   |      3
 [M69](#math-69)   | Yes       | No        | No        | No        | No       | No       |      1
@@ -52,65 +51,65 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [M85](#math-85)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
 [M87](#math-87)   | Yes       | Yes       | Yes       | No        | No       | No       |      3
 [M88](#math-88)   | Yes       | No        | Yes       | No        | No       | No       |      2
-[M95](#math-95)   | TIMEOUT   | No        | No        | No        | Yes       | Yes       |      2
+[M95](#math-95)   | No        | No        | No        | No        | Yes       | Yes       |      2
 [M96](#math-96)   | No        | No        | No        | Yes       | No       | No       |      1
 [M97](#math-97)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
 [M99](#math-99)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
-[M104](#math-104) | No        | Yes       | No        | No        | No    | No       |      1
+[M104](#math-104) | No        | Yes       | ERROR     | No        | No    | No       |      1
 [M105](#math-105) | Yes       | No        | Yes       | No        | No       | No       |      2
 [T4](#time-4)     | No        | No        | No        | No        | Yes       | Yes       |      2
 [T7](#time-7)     | TIMEOUT   | TIMEOUT   | Yes       | ERROR     | No       | No       |      1
 [T11](#time-11)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
-Total             | 30 (13%)  | 25 (11%)  | 24 (10%)  | 14 (6%)   | 33 (14%)  | 24 (10%)  |    150
-Fixed bugs: 59/224 (26%)
+Total             | 31 (13%)  | 25 (11%)  | 24 (10%)  | 13 (5%)   | 33 (14%)  | 24 (10%)  |    150
+Fixed bugs: 58/224 (25%)
 
 Nb bugs ends with an execution error: 15
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 149
+Nb bugs ends with the Grid5000 timeout: 76
 
-Total execution time: 36 days, 23:03:34.852000
+Total execution time: 36 days, 18:37:42.495000
 # Complete data
 
 BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | Kali      | Total
 ----------------- | --------- | --------- | --------- | --------- | --------- | --------- | ------
-[C1](#chart-1)    | TIMEOUT   | TIMEOUT   | No        | No        | Yes       | Yes       |      2
-[C2](#chart-2)    | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
-[C3](#chart-3)    | TIMEOUT   | Yes       | No        | No        | Yes       | No       |      2
-[C4](#chart-4)    | TIMEOUT   | TIMEOUT   | Yes       | No        | No       | No       |      1
-[C5](#chart-5)    | TIMEOUT   | Yes       | No        | Yes       | Yes       | Yes       |      4
-[C6](#chart-6)    | Yes       | Yes       | Yes       | Yes       | Yes       | No       |      5
-[C7](#chart-7)    | TIMEOUT   | TIMEOUT   | No        | No        | Yes       | No       |      1
-[C8](#chart-8)    | TIMEOUT   | No        | No        | No        | Yes       | TIMEOUT   |      1
-[C9](#chart-9)    | TIMEOUT   | TIMEOUT   | Yes       | Yes       | Yes       | No       |      3
-[C10](#chart-10)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[C11](#chart-11)  | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
-[C12](#chart-12)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[C1](#chart-1)    | No        | No        | No        | No        | Yes       | Yes       |      2
+[C2](#chart-2)    | No        | No        | No        | No        | No       | No       |      0
+[C3](#chart-3)    | No        | Yes       | No        | No        | Yes       | No       |      2
+[C4](#chart-4)    | No        | No        | No        | No        | No       | No       |      0
+[C5](#chart-5)    | No        | Yes       | No        | Yes       | Yes       | Yes       |      4
+[C6](#chart-6)    | TIMEOUT   | No        | Yes       | No        | Yes       | No       |      2
+[C7](#chart-7)    | No        | No        | No        | No        | Yes       | No       |      1
+[C8](#chart-8)    | No        | No        | No        | No        | Yes       | TIMEOUT   |      1
+[C9](#chart-9)    | Yes       | Yes       | Yes       | Yes       | Yes       | No       |      5
+[C10](#chart-10)  | No        | No        | No        | No        | No       | No       |      0
+[C11](#chart-11)  | No        | No        | No        | No        | No       | No       |      0
+[C12](#chart-12)  | No        | No        | No        | No        | No       | No       |      0
 [C13](#chart-13)  | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
-[C14](#chart-14)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[C15](#chart-15)  | TIMEOUT   | TIMEOUT   | No        | No        | Yes       | Yes       |      2
-[C16](#chart-16)  | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
-[C17](#chart-17)  | TIMEOUT   | No        | Yes       | Yes       | No       | No       |      2
-[C18](#chart-18)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[C19](#chart-19)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[C20](#chart-20)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[C21](#chart-21)  | Yes       | Yes       | No        | No        | Yes       | Yes       |      4
-[C22](#chart-22)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[C23](#chart-23)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[C24](#chart-24)  | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[C14](#chart-14)  | No        | No        | No        | No        | No       | No       |      0
+[C15](#chart-15)  | No        | No        | No        | No        | Yes       | Yes       |      2
+[C16](#chart-16)  | No        | No        | No        | No        | No       | No       |      0
+[C17](#chart-17)  | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+[C18](#chart-18)  | No        | No        | No        | No        | No       | No       |      0
+[C19](#chart-19)  | No        | No        | No        | No        | No       | No       |      0
+[C20](#chart-20)  | No        | No        | No        | No        | No       | No       |      0
+[C21](#chart-21)  | Yes       | No        | Yes       | No        | Yes       | Yes       |      4
+[C22](#chart-22)  | No        | No        | No        | No        | No       | No       |      0
+[C23](#chart-23)  | No        | No        | No        | No        | No       | No       |      0
+[C24](#chart-24)  | No        | No        | No        | No        | No       | No       |      0
 [C25](#chart-25)  | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
 [C26](#chart-26)  | Yes       | Yes       | No        | Yes       | No    | Yes       |      4
 [L1](#lang-1)     | No        | No        | No        | No        | No       | No       |      0
 [L2](#lang-2)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
 [L3](#lang-3)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[L4](#lang-4)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[L5](#lang-5)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[L4](#lang-4)     | No        | No        | No        | No        | No       | No       |      0
+[L5](#lang-5)     | No        | No        | No        | No        | No       | No       |      0
 [L6](#lang-6)     | No        | No        | No        | No        | No       | No    |      0
 [L7](#lang-7)     | TIMEOUT   | No        | No        | No        | No    | No       |      0
-[L8](#lang-8)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[L9](#lang-9)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[L10](#lang-10)   | TIMEOUT   | TIMEOUT   | No       | No       | No       | No    |      0
+[L8](#lang-8)     | No        | No        | No        | No        | No       | No       |      0
+[L9](#lang-9)     | No        | No        | No        | No        | No       | No       |      0
+[L10](#lang-10)   | TIMEOUT   | TIMEOUT   | No       | TIMEOUT   | No       | No    |      0
 [L11](#lang-11)   | No        | No        | No        | No        | No       | No       |      0
 [L12](#lang-12)   | No        | No        | No        | No        | No       | No       |      0
 [L13](#lang-13)   | No        | No        | No        | No        | No       | No       |      0
@@ -118,15 +117,15 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [L15](#lang-15)   | No        | No        | No        | No        | No       | No       |      0
 [L16](#lang-16)   | No        | No        | No        | No        | No    | TIMEOUT   |      0
 [L17](#lang-17)   | No        | No        | No        | No        | No    | TIMEOUT   |      0
-[L18](#lang-18)   | TIMEOUT   | No        | No        | No        | No    | No    |      0
+[L18](#lang-18)   | No        | No        | No        | No        | No    | No    |      0
 [L19](#lang-19)   | No        | No        | No        | No        | No       | No       |      0
 [L20](#lang-20)   | No        | No        | No        | No        | No    | No    |      0
 [L21](#lang-21)   | No        | No        | No        | No        | No    | No    |      0
-[L22](#lang-22)   | TIMEOUT   | TIMEOUT   | No        | No        | No    | No    |      0
-[L23](#lang-23)   | No        | TIMEOUT   | No        | TIMEOUT   | No       | No       |      0
+[L22](#lang-22)   | TIMEOUT   | No        | No        | No        | No    | No    |      0
+[L23](#lang-23)   | No        | No        | No        | No        | No       | No       |      0
 [L24](#lang-24)   | No        | No        | No        | No        | No       | No       |      0
 [L25](#lang-25)   | No        | No        | No        | No        | No    | No    |      0
-[L26](#lang-26)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[L26](#lang-26)   | No        | No        | No        | No        | No       | No       |      0
 [L27](#lang-27)   | No        | No        | No        | No        | No       | No       |      0
 [L28](#lang-28)   | No        | No        | No        | No        | No       | No       |      0
 [L29](#lang-29)   | No        | No        | No        | No        | No       | No       |      0
@@ -134,11 +133,11 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [L31](#lang-31)   | No        | No        | No        | No        | No       | No       |      0
 [L32](#lang-32)   | No        | No        | No        | No        | No       | No       |      0
 [L33](#lang-33)   | No        | No        | No        | No        | No       | No       |      0
-[L34](#lang-34)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[L34](#lang-34)   | No        | No        | No        | No        | No       | No       |      0
 [L35](#lang-35)   | No        | No        | No        | No        | No    | No    |      0
 [L36](#lang-36)   | No        | No        | No        | No        | No       | No       |      0
 [L37](#lang-37)   | No        | No        | No        | No        | No       | No       |      0
-[L38](#lang-38)   | No        | No        | No        | No        | No       | No       |      0
+[L38](#lang-38)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
 [L39](#lang-39)   | Yes       | No        | Yes       | No        | No       | No       |      2
 [L40](#lang-40)   | No        | No        | No        | No        | No    | No    |      0
 [L41](#lang-41)   | No        | No        | No        | No        | No       | No       |      0
@@ -149,7 +148,7 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [L46](#lang-46)   | Yes       | No        | No        | No        | No    | No    |      1
 [L47](#lang-47)   | No        | No        | No        | No        | No    | No    |      0
 [L48](#lang-48)   | No        | No        | No        | No        | No       | No       |      0
-[L49](#lang-49)   | TIMEOUT   | No        | No        | No        | No    | TIMEOUT   |      0
+[L49](#lang-49)   | No        | No        | No        | No        | No    | TIMEOUT   |      0
 [L50](#lang-50)   | No        | No        | No        | No        | No    | No    |      0
 [L51](#lang-51)   | No        | Yes       | No        | No        | No    | No    |      1
 [L52](#lang-52)   | No        | No        | No        | No        | No    | No    |      0
@@ -163,38 +162,38 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [L60](#lang-60)   | No        | No        | No        | No        | No    | No    |      0
 [L61](#lang-61)   | No        | No        | No        | No        | No    | No    |      0
 [L62](#lang-62)   | No        | No        | No        | No        | No       | No       |      0
-[L63](#lang-63)   | TIMEOUT   | No        | No        | No        | No    | No    |      0
+[L63](#lang-63)   | No        | No        | No        | No        | No    | No    |      0
 [L64](#lang-64)   | No        | No        | No        | No        | No    | No    |      0
 [L65](#lang-65)   | No        | No        | No        | No        | No       | No       |      0
-[M1](#math-1)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[M1](#math-1)     | No        | No        | No        | No        | No       | No       |      0
 [M2](#math-2)     | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | Yes       | Yes       |      2
-[M3](#math-3)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[M4](#math-4)     | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
-[M5](#math-5)     | TIMEOUT   | No        | No        | No        | Yes       | No       |      1
-[M6](#math-6)     | TIMEOUT   | No        | No        | No        | ERROR     | ERROR     |      0
-[M7](#math-7)     | TIMEOUT   | TIMEOUT   | No        | No        | No    | TIMEOUT   |      0
-[M8](#math-8)     | TIMEOUT   | No        | No        | No        | Yes       | Yes       |      2
-[M9](#math-9)     | TIMEOUT   | No        | No        | No        | No       | No    |      0
-[M10](#math-10)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[M11](#math-11)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
+[M3](#math-3)     | No        | No        | No        | No        | No       | No       |      0
+[M4](#math-4)     | TIMEOUT   | TIMEOUT   | No        | TIMEOUT   | No       | No       |      0
+[M5](#math-5)     | No        | No        | No        | No        | Yes       | No       |      1
+[M6](#math-6)     | No        | No        | No        | No        | ERROR     | ERROR     |      0
+[M7](#math-7)     | No       | TIMEOUT   | No        | No        | No    | TIMEOUT   |      0
+[M8](#math-8)     | No        | No        | No        | No        | Yes       | Yes       |      2
+[M9](#math-9)     | No        | No        | No        | No        | No       | No    |      0
+[M10](#math-10)   | No        | No        | No        | No        | No       | No       |      0
+[M11](#math-11)   | No        | No        | No        | No        | No       | No       |      0
 [M12](#math-12)   | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | No       | TIMEOUT   |      0
-[M13](#math-13)   | TIMEOUT   | No        | No        | No        | No       | TIMEOUT   |      0
-[M14](#math-14)   | TIMEOUT   | No        | No        | No        | No       | TIMEOUT   |      0
-[M15](#math-15)   | TIMEOUT   | No        | No        | TIMEOUT   | No       | TIMEOUT   |      0
-[M16](#math-16)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | TIMEOUT   |      0
-[M17](#math-17)   | No        | TIMEOUT   | No        | No        | No       | No       |      0
-[M18](#math-18)   | TIMEOUT   | No        | TIMEOUT   | TIMEOUT   | No       | TIMEOUT   |      0
+[M13](#math-13)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
+[M14](#math-14)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
+[M15](#math-15)   | No        | TIMEOUT   | No        | TIMEOUT   | No       | TIMEOUT   |      0
+[M16](#math-16)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
+[M17](#math-17)   | No        | No        | No        | No        | No       | No       |      0
+[M18](#math-18)   | No        | No        | TIMEOUT   | TIMEOUT   | No       | TIMEOUT   |      0
 [M19](#math-19)   | No        | No        | No        | No        | No       | No       |      0
-[M20](#math-20)   | TIMEOUT   | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | ERROR     |      0
+[M20](#math-20)   | No        | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | ERROR     |      0
 [M21](#math-21)   | No        | No        | No        | No        | No       | No       |      0
 [M22](#math-22)   | No        | No        | No        | No        | No       | No       |      0
 [M23](#math-23)   | No        | TIMEOUT   | No        | No        | No       | No    |      0
 [M24](#math-24)   | No        | No        | No        | No        | No    | TIMEOUT   |      0
 [M25](#math-25)   | No        | No        | No        | No        | No       | No       |      0
-[M26](#math-26)   | No        | No        | No        | No        | No    | No       |      0
-[M27](#math-27)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
-[M28](#math-28)   | No        | TIMEOUT   | No        | No        | Yes       | Yes       |      2
-[M29](#math-29)   | No        | TIMEOUT   | No        | TIMEOUT   | No       | No       |      0
+[M26](#math-26)   | No        | No        | No        | TIMEOUT   | No    | No       |      0
+[M27](#math-27)   | No        | No        | No        | No        | No       | No       |      0
+[M28](#math-28)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | Yes       |      2
+[M29](#math-29)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
 [M30](#math-30)   | No        | No        | No        | TIMEOUT   | No    | No    |      0
 [M31](#math-31)   | No        | No        | No        | No        | No       | No       |      0
 [M32](#math-32)   | Yes       | No        | No        | Yes       | No    | Yes       |      3
@@ -203,29 +202,29 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [M35](#math-35)   | No        | No        | No        | No        | No       | No       |      0
 [M36](#math-36)   | No        | No        | No        | No        | No       | No       |      0
 [M37](#math-37)   | No        | No        | No        | No        | No       | No       |      0
-[M38](#math-38)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
-[M39](#math-39)   | ERROR     | ERROR     | No        | No        | No       | TIMEOUT   |      0
-[M40](#math-40)   | No        | Yes       | No        | No        | Yes       | Yes       |      3
+[M38](#math-38)   | No        | No        | No        | No        | No       | No       |      0
+[M39](#math-39)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
+[M40](#math-40)   | No        | Yes       | No        | ERROR     | Yes       | Yes       |      3
 [M41](#math-41)   | No       | No       | Yes       | Yes       | No       | No       |      2
 [M42](#math-42)   | Yes       | TIMEOUT   | Yes       | Yes       | No       | No       |      3
 [M43](#math-43)   | No        | No        | No        | No        | No       | No       |      0
-[M44](#math-44)   | TIMEOUT   | No        | No        | No        | Yes       | Yes       |      2
+[M44](#math-44)   | No        | No        | No        | No        | Yes       | Yes       |      2
 [M45](#math-45)   | No        | No        | No        | No        | No       | No       |      0
 [M46](#math-46)   | No        | No        | Yes       | No        | No       | No       |      1
 [M47](#math-47)   | No        | No        | No        | No        | No       | No       |      0
-[M48](#math-48)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
+[M48](#math-48)   | No        | No        | No        | No        | No       | No       |      0
 [M49](#math-49)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
-[M50](#math-50)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
-[M51](#math-51)   | TIMEOUT   | TIMEOUT   | TIMEOUT   | No        | ERROR     | ERROR     |      0
+[M50](#math-50)   | Yes       | Yes       | Yes       | ERROR     | Yes       | Yes       |      5
+[M51](#math-51)   | No        | No        | No        | No        | ERROR     | ERROR     |      0
 [M52](#math-52)   | No        | No        | No        | No        | No       | No       |      0
 [M53](#math-53)   | No        | No        | No        | No        | Yes       | No       |      1
-[M54](#math-54)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | TIMEOUT   |      0
+[M54](#math-54)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
 [M55](#math-55)   | No        | No        | No        | No        | No       | No       |      0
-[M56](#math-56)   | No        | No        | No        | No        | Yes       | No       |      1
+[M56](#math-56)   | No        | No        | TIMEOUT   | No        | Yes       | No       |      1
 [M57](#math-57)   | Yes       | Yes       | No        | No        | No       | No       |      2
 [M58](#math-58)   | Yes       | Yes       | Yes       | ERROR     | No    | TIMEOUT   |      3
 [M59](#math-59)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
-[M60](#math-60)   | No        | No        | No        | No        | No       | No       |      0
+[M60](#math-60)   | No        | No        | TIMEOUT   | No        | No       | No       |      0
 [M61](#math-61)   | No        | No        | No        | No        | No       | No       |      0
 [M62](#math-62)   | No        | No        | No        | No        | No       | No       |      0
 [M63](#math-63)   | No        | No        | No        | No        | No       | No       |      0
@@ -239,7 +238,7 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [M71](#math-71)   | No        | Yes       | Yes       | No        | Yes       | TIMEOUT   |      3
 [M72](#math-72)   | No        | No        | No        | No        | No    | No       |      0
 [M73](#math-73)   | No        | Yes       | No        | No        | Yes       | No       |      2
-[M74](#math-74)   | TIMEOUT   | No        | TIMEOUT   | TIMEOUT   | No       | No       |      0
+[M74](#math-74)   | No        | ERROR     | TIMEOUT   | TIMEOUT   | No       | No       |      0
 [M75](#math-75)   | No        | No        | No        | No        | No       | No       |      0
 [M76](#math-76)   | No        | No        | No        | No        | No       | No       |      0
 [M77](#math-77)   | No        | No        | No        | No        | No       | No       |      0
@@ -260,55 +259,55 @@ BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | 
 [M92](#math-92)   | No        | No        | No        | No        | No       | No       |      0
 [M93](#math-93)   | No        | No        | No        | No        | No       | No       |      0
 [M94](#math-94)   | No        | No        | No        | No        | No       | No       |      0
-[M95](#math-95)   | TIMEOUT   | No        | No        | No        | Yes       | Yes       |      2
+[M95](#math-95)   | No        | No        | No        | No        | Yes       | Yes       |      2
 [M96](#math-96)   | No        | No        | No        | Yes       | No       | No       |      1
 [M97](#math-97)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
 [M98](#math-98)   | No        | No        | No        | No        | No       | No       |      0
 [M99](#math-99)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
 [M100](#math-100) | No        | No        | No        | No        | No       | No       |      0
 [M101](#math-101) | No        | No        | No        | No        | No       | No       |      0
-[M102](#math-102) | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[M102](#math-102) | No        | No        | No        | No        | No       | No       |      0
 [M103](#math-103) | No        | No        | No        | No        | No       | No       |      0
-[M104](#math-104) | No        | Yes       | No        | No        | No    | No       |      1
+[M104](#math-104) | No        | Yes       | ERROR     | No        | No    | No       |      1
 [M105](#math-105) | Yes       | No        | Yes       | No        | No       | No       |      2
 [M106](#math-106) | No        | TIMEOUT   | No        | No        | No       | No       |      0
 [T1](#time-1)     | No        | TIMEOUT   | No        | ERROR     | No    | No       |      0
 [T2](#time-2)     | No        | No        | No        | No        | No    | No       |      0
-[T3](#time-3)     | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
+[T3](#time-3)     | No        | TIMEOUT   | No        | No        | No       | No       |      0
 [T4](#time-4)     | No        | No        | No        | No        | Yes       | Yes       |      2
 [T5](#time-5)     | No        | No        | No        | No        | No       | No       |      0
 [T6](#time-6)     | No        | No        | No        | No        | No       | No       |      0
 [T7](#time-7)     | TIMEOUT   | TIMEOUT   | Yes       | ERROR     | No       | No       |      1
 [T8](#time-8)     | No        | No        | No        | No        | No       | No       |      0
 [T9](#time-9)     | No        | No        | No        | No        | No       | No       |      0
-[T10](#time-10)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[T10](#time-10)   | No        | No        | No        | No        | No       | No       |      0
 [T11](#time-11)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
-[T12](#time-12)   | ERROR     | TIMEOUT   | No        | No        | No       | No       |      0
+[T12](#time-12)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
 [T13](#time-13)   | No        | No        | No        | No        | No       | No       |      0
-[T14](#time-14)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
+[T14](#time-14)   | No        | No        | No        | No        | No       | No       |      0
 [T15](#time-15)   | No        | No        | No        | No        | No       | No       |      0
-[T16](#time-16)   | TIMEOUT   | TIMEOUT   | TIMEOUT   | No        | No       | No       |      0
-[T17](#time-17)   | TIMEOUT   | No        | No        | No        | No       | No    |      0
+[T16](#time-16)   | No        | No        | No        | TIMEOUT   | No       | No       |      0
+[T17](#time-17)   | No        | No        | No        | No        | No       | No    |      0
 [T18](#time-18)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No    |      0
-[T19](#time-19)   | TIMEOUT   | TIMEOUT   | No        | ERROR     | No       | TIMEOUT   |      0
+[T19](#time-19)   | No        | No        | TIMEOUT   | No        | No       | TIMEOUT   |      0
 [T20](#time-20)   | No        | No        | No        | No        | No       | No       |      0
-[T21](#time-21)   | TIMEOUT   | No        | No        | No        | No       | TIMEOUT   |      0
+[T21](#time-21)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
 [T22](#time-22)   | No        | No        | No        | No        | No    | No    |      0
-[T23](#time-23)   | No        | TIMEOUT   | No        | No        | No       | No       |      0
+[T23](#time-23)   | No        | No        | No        | No        | No       | No       |      0
 [T24](#time-24)   | No        | No        | No        | No        | No       | No    |      0
-[T25](#time-25)   | No        | TIMEOUT   | No        | No        | No       | TIMEOUT   |      0
-[T26](#time-26)   | No        | No        | No        | No        | No       | No       |      0
+[T25](#time-25)   | No        | No        | None AV   | No        | No       | TIMEOUT   |      0
+[T26](#time-26)   | No        | TIMEOUT   | No        | No        | No       | No       |      0
 [T27](#time-27)   | No        | No        | No        | No        | No    | No       |      0
-Total             | 30 (13%)  | 25 (11%)  | 24 (10%)  | 14 (6%)   | 33 (14%)  | 24 (10%)  |    150
-Fixed bugs: 59/224 (26%)
+Total             | 31 (13%)  | 25 (11%)  | 24 (10%)  | 13 (5%)   | 33 (14%)  | 24 (10%)  |    150
+Fixed bugs: 58/224 (25%)
 
 Nb bugs ends with an execution error: 15
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 149
+Nb bugs ends with the Grid5000 timeout: 76
 
-Total execution time: 36 days, 23:03:34.852000
+Total execution time: 36 days, 18:37:42.495000
 
 
 
@@ -428,103 +427,6 @@ findBoundsByIteration()
 
 Grid5000 node: graphene-75.nancy.grid5000.fr
 
-# Chart 4
-
-Nb Executed tests: 4374
-
-Nb Failing tests: 44
-
->	org.jfree.chart.junit.JFreeChartTests#testSerialization4
->	org.jfree.chart.junit.ScatterPlotTests#testDrawWithNullInfo
->	org.jfree.chart.junit.ScatterPlotTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.ScatterPlotTests#testReplaceDataset
->	org.jfree.chart.junit.TimeSeriesChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.TimeSeriesChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.TimeSeriesChartTests#testReplaceDataset
->	org.jfree.chart.junit.XYAreaChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.XYAreaChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.XYAreaChartTests#testReplaceDataset
->	org.jfree.chart.junit.XYStepAreaChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.XYStepAreaChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.XYStepAreaChartTests#testReplaceDataset
->	org.jfree.chart.junit.XYStepChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.XYStepChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.XYStepChartTests#testReplaceDataset
->	org.jfree.chart.axis.junit.LogAxisTests#testXYAutoRange1
->	org.jfree.chart.axis.junit.LogAxisTests#testXYAutoRange2
->	org.jfree.chart.junit.XYStepAreaChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.XYStepAreaChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.XYStepAreaChartTests#testReplaceDataset
->	org.jfree.chart.plot.junit.XYPlotTests#testDrawRangeGridlines
->	org.jfree.chart.junit.JFreeChartTests#testSerialization4
->	org.jfree.chart.junit.ScatterPlotTests#testDrawWithNullInfo
->	org.jfree.chart.junit.ScatterPlotTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.ScatterPlotTests#testReplaceDataset
->	org.jfree.chart.plot.junit.XYPlotTests#testDrawRangeGridlines
->	org.jfree.chart.junit.TimeSeriesChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.TimeSeriesChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.TimeSeriesChartTests#testReplaceDataset
->	org.jfree.chart.axis.junit.LogAxisTests#testXYAutoRange1
->	org.jfree.chart.axis.junit.LogAxisTests#testXYAutoRange2
->	org.jfree.chart.axis.junit.NumberAxisTests#testXYAutoRange1
->	org.jfree.chart.axis.junit.NumberAxisTests#testXYAutoRange2
->	org.jfree.chart.axis.junit.ValueAxisTests#testAxisMargins
->	org.jfree.chart.junit.XYAreaChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.XYAreaChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.XYAreaChartTests#testReplaceDataset
->	org.jfree.chart.axis.junit.ValueAxisTests#testAxisMargins
->	org.jfree.chart.junit.XYStepChartTests#testDrawWithNullInfo
->	org.jfree.chart.junit.XYStepChartTests#testSetSeriesToolTipGenerator
->	org.jfree.chart.junit.XYStepChartTests#testReplaceDataset
->	org.jfree.chart.axis.junit.NumberAxisTests#testXYAutoRange1
->	org.jfree.chart.axis.junit.NumberAxisTests#testXYAutoRange2
-
-## Human Patch 
-
-```Java
-Index: org/jfree/chart/plot/XYPlot.java
-===================================================================
---- org/jfree/chart/plot/XYPlot.java	(revision 2183)
-+++ org/jfree/chart/plot/XYPlot.java	(revision 2182)
-@@ -4490,14 +4490,12 @@
-                     }
-                 }
-                 
--                if (r != null) {
--                    Collection c = r.getAnnotations();
--                    Iterator i = c.iterator();
--                    while (i.hasNext()) {
--                        XYAnnotation a = (XYAnnotation) i.next();
--                        if (a instanceof XYAnnotationBoundsInfo) {
--                            includedAnnotations.add(a);
--                        }
-+                Collection c = r.getAnnotations();
-+                Iterator i = c.iterator();
-+                while (i.hasNext()) {
-+                    XYAnnotation a = (XYAnnotation) i.next();
-+                    if (a instanceof XYAnnotationBoundsInfo) {
-+                        includedAnnotations.add(a);
-                     }
-                 }
-             }
-
-```
-
-## BrutpolPC 
-
-org.jfree.chart.plot.XYPlot:1607 (Suspicious rank: ample 1109, jaccard 571, ochiai 583, naish1 24663, gp13 706, naish2 706, tarantula 425, )
-```Java
-this.domainMinorGridlinesVisible
-```
-
-Nb Angelic value: 1
-
-Nb analyzed Statement: 583
-
-Execution time: 0:07:21.284000
-
-Grid5000 node: graphene-97.nancy.grid5000.fr
-
 # Chart 5
 
 Nb Executed tests: 4081
@@ -565,16 +467,16 @@ Index: org/jfree/data/xy/XYSeries.java
 
 org.jfree.data.xy.XYSeries:561 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 24208, gp13 3, naish2 3, tarantula 3, )
 ```Java
-overwritten!=null
+!(org.jfree.data.xy.XYSeries.this.allowDuplicateXValues)
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 4
 
-Execution time: 0:00:34.849000
+Execution time: 0:00:57.484000
 
-Grid5000 node: graphene-57.nancy.grid5000.fr
+Grid5000 node: griffon-59.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -674,63 +576,18 @@ Index: org/jfree/chart/util/ShapeList.java
 
 ```
 
-## NopolPC 
-
-org.jfree.chart.util.ShapeList:81 (Suspicious rank: ample 1, jaccard 16, ochiai 15, naish1 22144, gp13 1, naish2 1, tarantula 16, )
-```Java
-(-1) != (-1)
-```
-
-Nb Angelic value: 1
-
-Nb analyzed Statement: 16
-
-Execution time: 0:00:36.412000
-
-Grid5000 node: graphene-89.nancy.grid5000.fr
-
-## NopolC 
-
-org.jfree.chart.util.ShapeList:109 (Suspicious rank: ample 7, jaccard 83, ochiai 50, naish1 22146, gp13 7, naish2 7, tarantula 83, )
-```Java
-obj!=null
-```
-
-Nb Angelic value: 1
-
-Nb analyzed Statement: 51
-
-Execution time: 0:00:39.572000
-
-Grid5000 node: graphene-61.nancy.grid5000.fr
-
 ## BrutpolPC 
 
-org.jfree.chart.util.AbstractObjectList:193 (Suspicious rank: ample 4, jaccard 40, ochiai 19, naish1 22174, gp13 4, naish2 4, tarantula 40, )
+org.jfree.chart.util.AbstractObjectList:194 (Suspicious rank: ample 3, jaccard 18, ochiai 17, naish1 22109, gp13 3, naish2 3, tarantula 18, )
 ```Java
-0 == this.increment
+(1 + i) != (this.increment / listSize)
 ```
 
-Nb Angelic value: 3
+Nb Angelic value: 2
 
-Nb analyzed Statement: 19
+Nb analyzed Statement: 17
 
-Execution time: 0:04:04.386000
-
-Grid5000 node: griffon-72.nancy.grid5000.fr
-
-## BrutpolC 
-
-org.jfree.chart.util.AbstractObjectList:193 (Suspicious rank: ample 4, jaccard 40, ochiai 19, naish1 22174, gp13 4, naish2 4, tarantula 40, )
-```Java
-0 == this.increment
-```
-
-Nb Angelic value: 1
-
-Nb analyzed Statement: 19
-
-Execution time: 0:01:45.013000
+Execution time: 0:07:25.057000
 
 Grid5000 node: graphene-99.nancy.grid5000.fr
 
@@ -878,35 +735,65 @@ Index: org/jfree/data/time/TimeSeries.java
 
 ```
 
-## BrutpolPC 
+## NopolPC 
 
 org.jfree.data.time.TimeSeries:883 (Suspicious rank: ample 11, jaccard 11, ochiai 16, naish1 22017, gp13 11, naish2 11, tarantula 11, )
 ```Java
-this.data.contains(this)
+org.jfree.data.time.TimeSeries.this.data.size() == org.jfree.data.time.TimeSeries.this.range.length()
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 1
 
-Execution time: 0:01:46.827000
+Execution time: 0:00:46.287000
 
-Grid5000 node: griffon-72.nancy.grid5000.fr
+Grid5000 node: graphene-7.nancy.grid5000.fr
+
+## NopolC 
+
+org.jfree.data.time.TimeSeries:947 (Suspicious rank: ample 12, jaccard 12, ochiai 14, naish1 22041, gp13 12, naish2 12, tarantula 12, )
+```Java
+endIndex < startIndex
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 3
+
+Execution time: 0:00:54.036000
+
+Grid5000 node: griffon-9.nancy.grid5000.fr
+
+## BrutpolPC 
+
+org.jfree.data.time.TimeSeries:942 (Suspicious rank: ample 14, jaccard 14, ochiai 12, naish1 22043, gp13 14, naish2 14, tarantula 14, )
+```Java
+1 != startIndex
+```
+
+Nb Angelic value: 2
+
+Nb analyzed Statement: 5
+
+Execution time: 0:03:05.277000
+
+Grid5000 node: graphene-51.nancy.grid5000.fr
 
 ## BrutpolC 
 
-org.jfree.data.time.TimeSeries:940 (Suspicious rank: ample 15, jaccard 15, ochiai 10, naish1 22044, gp13 15, naish2 15, tarantula 15, )
+org.jfree.data.time.TimeSeries:947 (Suspicious rank: ample 12, jaccard 12, ochiai 14, naish1 22041, gp13 12, naish2 12, tarantula 12, )
 ```Java
-emptyRange
+endIndex < startIndex
 ```
 
-Nb Angelic value: 3
+Nb Angelic value: 1
 
-Nb analyzed Statement: 7
+Nb analyzed Statement: 3
 
-Execution time: 0:03:51.520000
+Execution time: 0:02:06.304000
 
-Grid5000 node: graphene-99.nancy.grid5000.fr
+Grid5000 node: graphene-45.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -1543,9 +1430,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 21
 
-Execution time: 0:00:38.609000
+Execution time: 0:01:00.128000
 
-Grid5000 node: graphene-59.nancy.grid5000.fr
+Grid5000 node: griffon-61.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -1558,9 +1445,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 21
 
-Execution time: 0:00:37.314000
+Execution time: 0:00:48.960000
 
-Grid5000 node: graphene-76.nancy.grid5000.fr
+Grid5000 node: graphene-5.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -2088,35 +1975,65 @@ Index: org/jfree/data/time/TimeSeries.java
 
 ```
 
-## BrutpolPC 
+## NopolPC 
 
 org.jfree.data.time.TimeSeries:880 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 21647, gp13 1, naish2 1, tarantula 1, )
 ```Java
-this.data.contains(this)
+start == 1
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 1
 
-Execution time: 0:01:49.194000
+Execution time: 0:00:54.147000
 
-Grid5000 node: griffon-92.nancy.grid5000.fr
+Grid5000 node: griffon-62.nancy.grid5000.fr
 
-## BrutpolC 
+## NopolC 
 
 org.jfree.data.time.TimeSeries:879 (Suspicious rank: ample 3, jaccard 3, ochiai 4, naish1 21611, gp13 3, naish2 3, tarantula 3, )
 ```Java
-this.data.contains(this)
+((end < start) && ((-1) != (end))) || (org.jfree.data.time.TimeSeries.this.maximumItemAge <= end)
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 3
 
-Execution time: 0:01:47.024000
+Execution time: 0:00:56.645000
 
-Grid5000 node: griffon-17.nancy.grid5000.fr
+Grid5000 node: griffon-57.nancy.grid5000.fr
+
+## BrutpolPC 
+
+org.jfree.data.time.TimeSeries:880 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 21647, gp13 1, naish2 1, tarantula 1, )
+```Java
+0 != start
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 1
+
+Execution time: 0:01:53.017000
+
+Grid5000 node: graphene-90.nancy.grid5000.fr
+
+## BrutpolC 
+
+org.jfree.data.time.TimeSeries:879 (Suspicious rank: ample 3, jaccard 3, ochiai 4, naish1 21611, gp13 3, naish2 3, tarantula 3, )
+```Java
+(start * end) < start
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 3
+
+Execution time: 0:02:02.546000
+
+Grid5000 node: graphene-55.nancy.grid5000.fr
 
 # Chart 21
 
@@ -2313,33 +2230,33 @@ Index: org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java
 
 ## NopolPC 
 
-org.jfree.data.Range:334 (Suspicious rank: ample 75, jaccard 75, ochiai 73, naish1 20594, gp13 75, naish2 75, tarantula 75, )
+org.jfree.data.Range:335 (Suspicious rank: ample 9, jaccard 9, ochiai 9, naish1 20593, gp13 9, naish2 9, tarantula 9, )
 ```Java
-0 == 1
+((!(1 < org.jfree.data.Range.this.lower)) || (org.jfree.data.Range.this.lower <= -1 + org.jfree.data.Range.this.upper - 1)) && ((!(1 < org.jfree.data.Range.this.lower)) || (org.jfree.data.Range.this.lower <= -1 + org.jfree.data.Range.this.upper - 1))
 ```
 
 Nb Angelic value: 1
 
-Nb analyzed Statement: 73
+Nb analyzed Statement: 9
 
-Execution time: 0:00:44.899000
+Execution time: 0:00:55.900000
 
-Grid5000 node: graphene-56.nancy.grid5000.fr
+Grid5000 node: griffon-62.nancy.grid5000.fr
 
-## NopolC 
+## BrutpolPC 
 
-org.jfree.data.Range:334 (Suspicious rank: ample 75, jaccard 75, ochiai 73, naish1 20594, gp13 75, naish2 75, tarantula 75, )
+org.jfree.data.Range:335 (Suspicious rank: ample 9, jaccard 9, ochiai 9, naish1 20593, gp13 9, naish2 9, tarantula 9, )
 ```Java
-0 == 1
+(this.upper / this.getLength()) <= this.getLength()
 ```
 
 Nb Angelic value: 1
 
-Nb analyzed Statement: 73
+Nb analyzed Statement: 9
 
-Execution time: 0:00:41.548000
+Execution time: 0:01:55.082000
 
-Grid5000 node: graphene-39.nancy.grid5000.fr
+Grid5000 node: graphene-38.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -2568,31 +2485,31 @@ Index: org/jfree/chart/renderer/category/StatisticalBarRenderer.java
 
 org.jfree.chart.renderer.category.StatisticalBarRenderer:207 (Suspicious rank: ample 4, jaccard 4, ochiai 4, naish1 19842, gp13 4, naish2 4, tarantula 50, )
 ```Java
-0 == -1
+-1 == 1
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 2
 
-Execution time: 0:00:32.361000
+Execution time: 0:00:54.265000
 
-Grid5000 node: graphene-91.nancy.grid5000.fr
+Grid5000 node: griffon-62.nancy.grid5000.fr
 
 ## NopolC 
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset:110 (Suspicious rank: ample 17, jaccard 17, ochiai 8, naish1 19962, gp13 17, naish2 17, tarantula 63, )
 ```Java
-result!=null
+(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue < org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev) && (!(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue <= 1))
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 20
 
-Execution time: 0:00:37.503000
+Execution time: 0:00:56.628000
 
-Grid5000 node: graphene-72.nancy.grid5000.fr
+Grid5000 node: griffon-22.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -2605,9 +2522,9 @@ Nb Angelic value: 2
 
 Nb analyzed Statement: 19
 
-Execution time: 0:08:34.755000
+Execution time: 0:07:59.593000
 
-Grid5000 node: griffon-22.nancy.grid5000.fr
+Grid5000 node: griffon-11.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -2620,9 +2537,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 20
 
-Execution time: 0:01:52.873000
+Execution time: 0:01:57.554000
 
-Grid5000 node: griffon-59.nancy.grid5000.fr
+Grid5000 node: graphene-54.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -4076,9 +3993,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 29
 
-Execution time: 0:05:45.321000
+Execution time: 0:05:53.872000
 
-Grid5000 node: graphene-75.nancy.grid5000.fr
+Grid5000 node: griffon-10.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -4091,9 +4008,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 29
 
-Execution time: 0:06:54.576000
+Execution time: 0:06:54.166000
 
-Grid5000 node: graphene-99.nancy.grid5000.fr
+Grid5000 node: graphene-5.nancy.grid5000.fr
 
 # Lang 44
 
@@ -4134,9 +4051,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 5
 
-Execution time: 0:00:51.614000
+Execution time: 0:00:50.587000
 
-Grid5000 node: griffon-38.nancy.grid5000.fr
+Grid5000 node: griffon-66.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -4149,9 +4066,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 5
 
-Execution time: 0:00:42.914000
+Execution time: 0:00:51.959000
 
-Grid5000 node: graphene-92.nancy.grid5000.fr
+Grid5000 node: griffon-92.nancy.grid5000.fr
 
 # Lang 46
 
@@ -4310,9 +4227,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 3
 
-Execution time: 0:00:40.390000
+Execution time: 0:00:46.241000
 
-Grid5000 node: graphene-74.nancy.grid5000.fr
+Grid5000 node: griffon-74.nancy.grid5000.fr
 
 # Lang 51
 
@@ -4351,9 +4268,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 8
 
-Execution time: 0:00:39.035000
+Execution time: 0:00:45.797000
 
-Grid5000 node: graphene-42.nancy.grid5000.fr
+Grid5000 node: griffon-38.nancy.grid5000.fr
 
 # Lang 53
 
@@ -4402,16 +4319,16 @@ index e5138b5..9ca1bc5 100644
 
 org.apache.commons.lang.time.DateUtils:666 (Suspicious rank: ample 14, jaccard 14, ochiai 22, naish1 8347, gp13 14, naish2 14, tarantula 14, )
 ```Java
-(minutes <= org.apache.commons.lang.time.DateUtils.RANGE_WEEK_RELATIVE) || (!((round) && (minutes < seconds)))
+(!((round) && ((org.apache.commons.lang.time.DateUtils.RANGE_WEEK_RELATIVE) != (seconds)))) || (seconds < minutes)
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 24
 
-Execution time: 0:00:51.537000
+Execution time: 0:01:19.155000
 
-Grid5000 node: graphene-83.nancy.grid5000.fr
+Grid5000 node: griffon-35.nancy.grid5000.fr
 
 # Lang 55
 
@@ -4446,16 +4363,16 @@ index 0f0786a..607e9b6 100644
 
 org.apache.commons.lang.time.StopWatch:118 (Suspicious rank: ample 8, jaccard 8, ochiai 7, naish1 8347, gp13 8, naish2 8, tarantula 8, )
 ```Java
--1 == org.apache.commons.lang.time.StopWatch.this.stopTime
+org.apache.commons.lang.time.StopWatch.STATE_RUNNING == org.apache.commons.lang.time.StopWatch.this.runningState
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 9
 
-Execution time: 0:01:22.023000
+Execution time: 0:01:29.231000
 
-Grid5000 node: graphene-88.nancy.grid5000.fr
+Grid5000 node: griffon-35.nancy.grid5000.fr
 
 # Lang 58
 
@@ -4496,9 +4413,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 2
 
-Execution time: 0:00:39.575000
+Execution time: 0:00:45.347000
 
-Grid5000 node: graphene-52.nancy.grid5000.fr
+Grid5000 node: griffon-15.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -4511,9 +4428,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 8
 
-Execution time: 0:00:38.585000
+Execution time: 0:00:46.012000
 
-Grid5000 node: graphene-89.nancy.grid5000.fr
+Grid5000 node: griffon-38.nancy.grid5000.fr
 
 # Math 2
 
@@ -4934,9 +4851,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 175
 
-Execution time: 0:13:50.124000
+Execution time: 0:16:17.978000
 
-Grid5000 node: graphene-88.nancy.grid5000.fr
+Grid5000 node: griffon-9.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -4949,9 +4866,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 4
 
-Execution time: 0:13:55.694000
+Execution time: 0:13:25.500000
 
-Grid5000 node: graphene-92.nancy.grid5000.fr
+Grid5000 node: graphene-40.nancy.grid5000.fr
 
 ## Kali 
 
@@ -5007,9 +4924,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 4
 
-Execution time: 0:12:40.632000
+Execution time: 0:14:14.529000
 
-Grid5000 node: graphene-89.nancy.grid5000.fr
+Grid5000 node: griffon-14.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -5022,9 +4939,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 31
 
-Execution time: 0:12:39.577000
+Execution time: 0:15:14.463000
 
-Grid5000 node: graphene-5.nancy.grid5000.fr
+Grid5000 node: griffon-29.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -5037,9 +4954,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 4
 
-Execution time: 0:13:26.080000
+Execution time: 0:14:06.110000
 
-Grid5000 node: graphene-39.nancy.grid5000.fr
+Grid5000 node: graphene-85.nancy.grid5000.fr
 
 # Math 40
 
@@ -5089,9 +5006,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 46
 
-Execution time: 0:08:21.370000
+Execution time: 0:11:12.787000
 
-Grid5000 node: graphene-74.nancy.grid5000.fr
+Grid5000 node: griffon-72.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -5146,18 +5063,18 @@ index 1de139f..e5518e3 100644
 
 ## BrutpolPC 
 
-org.apache.commons.math.stat.descriptive.moment.Variance:524 (Suspicious rank: ample 19, jaccard 19, ochiai 31, naish1 24206, gp13 19, naish2 19, tarantula 19, )
+org.apache.commons.math.stat.descriptive.moment.Variance:521 (Suspicious rank: ample 18, jaccard 18, ochiai 30, naish1 24205, gp13 18, naish2 18, tarantula 18, )
 ```Java
 mean <= length
 ```
 
-Nb Angelic value: 2
+Nb Angelic value: 3
 
-Nb analyzed Statement: 4
+Nb analyzed Statement: 5
 
-Execution time: 0:12:03.127000
+Execution time: 0:16:43.567000
 
-Grid5000 node: graphene-34.nancy.grid5000.fr
+Grid5000 node: graphene-36.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -5170,9 +5087,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 15
 
-Execution time: 0:09:17.290000
+Execution time: 0:07:49.064000
 
-Grid5000 node: griffon-22.nancy.grid5000.fr
+Grid5000 node: graphene-79.nancy.grid5000.fr
 
 # Math 42
 
@@ -5217,9 +5134,9 @@ Nb Angelic value: 9
 
 Nb analyzed Statement: 28
 
-Execution time: 0:37:04.382000
+Execution time: 0:44:53.003000
 
-Grid5000 node: graphene-5.nancy.grid5000.fr
+Grid5000 node: griffon-18.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -5232,9 +5149,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 2
 
-Execution time: 0:09:38.733000
+Execution time: 0:08:53.928000
 
-Grid5000 node: graphene-92.nancy.grid5000.fr
+Grid5000 node: graphene-51.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -5247,9 +5164,9 @@ Nb Angelic value: 3
 
 Nb analyzed Statement: 17
 
-Execution time: 0:21:09.656000
+Execution time: 0:21:17.530000
 
-Grid5000 node: graphene-34.nancy.grid5000.fr
+Grid5000 node: graphene-36.nancy.grid5000.fr
 
 # Math 44
 
@@ -5400,11 +5317,11 @@ org.apache.commons.math.complex.Complex:259 (Suspicious rank: ample 1, jaccard 1
 
 Nb Angelic value: 1
 
-Nb analyzed Statement: 2
+Nb analyzed Statement: 3
 
-Execution time: 0:06:59.821000
+Execution time: 0:06:13.119000
 
-Grid5000 node: griffon-35.nancy.grid5000.fr
+Grid5000 node: graphene-51.nancy.grid5000.fr
 
 # Math 49
 
@@ -5471,9 +5388,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 14
 
-Execution time: 0:05:05.272000
+Execution time: 0:05:47.617000
 
-Grid5000 node: graphene-49.nancy.grid5000.fr
+Grid5000 node: griffon-29.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -5486,9 +5403,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 15
 
-Execution time: 0:04:56.944000
+Execution time: 0:05:45.600000
 
-Grid5000 node: graphene-80.nancy.grid5000.fr
+Grid5000 node: griffon-12.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -5501,9 +5418,9 @@ Nb Angelic value: 5
 
 Nb analyzed Statement: 28
 
-Execution time: 0:26:36.481000
+Execution time: 0:24:47.027000
 
-Grid5000 node: griffon-12.nancy.grid5000.fr
+Grid5000 node: graphene-9.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -5588,9 +5505,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 6
 
-Execution time: 0:13:35.404000
+Execution time: 0:22:42.722000
 
-Grid5000 node: graphene-80.nancy.grid5000.fr
+Grid5000 node: griffon-85.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -5603,9 +5520,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 6
 
-Execution time: 0:08:04.495000
+Execution time: 0:13:56.514000
 
-Grid5000 node: graphene-59.nancy.grid5000.fr
+Grid5000 node: griffon-14.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -5618,9 +5535,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 3
 
-Execution time: 0:06:11.155000
+Execution time: 0:06:04.118000
 
-Grid5000 node: graphene-93.nancy.grid5000.fr
+Grid5000 node: graphene-31.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -5766,9 +5683,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 16
 
-Execution time: 0:14:49.461000
+Execution time: 0:14:57.746000
 
-Grid5000 node: griffon-38.nancy.grid5000.fr
+Grid5000 node: griffon-91.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -5781,9 +5698,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 45
 
-Execution time: 0:09:01.587000
+Execution time: 0:09:47.862000
 
-Grid5000 node: graphene-90.nancy.grid5000.fr
+Grid5000 node: griffon-65.nancy.grid5000.fr
 
 # Math 58
 
@@ -5825,9 +5742,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 78
 
-Execution time: 0:05:23.148000
+Execution time: 0:07:03.079000
 
-Grid5000 node: graphene-72.nancy.grid5000.fr
+Grid5000 node: griffon-29.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -5840,9 +5757,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 79
 
-Execution time: 0:08:12.653000
+Execution time: 0:12:08.046000
 
-Grid5000 node: graphene-91.nancy.grid5000.fr
+Grid5000 node: griffon-68.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -5898,9 +5815,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 15
 
-Execution time: 0:00:52.496000
+Execution time: 0:01:04.280000
 
-Grid5000 node: graphene-50.nancy.grid5000.fr
+Grid5000 node: griffon-8.nancy.grid5000.fr
 
 # Math 70
 
@@ -6054,11 +5971,11 @@ org.apache.commons.math.analysis.solvers.BrentSolver:334 (Suspicious rank: ample
 
 Nb Angelic value: 2
 
-Nb analyzed Statement: 102
+Nb analyzed Statement: 211
 
-Execution time: 0:44:51.622000
+Execution time: 0:44:02.497000
 
-Grid5000 node: graphene-58.nancy.grid5000.fr
+Grid5000 node: griffon-22.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -6069,11 +5986,11 @@ h <= this.nextAction
 
 Nb Angelic value: 4
 
-Nb analyzed Statement: 55
+Nb analyzed Statement: 168
 
-Execution time: 0:52:27.066000
+Execution time: 0:53:44.423000
 
-Grid5000 node: graphene-25.nancy.grid5000.fr
+Grid5000 node: graphene-7.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -6151,9 +6068,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 17
 
-Execution time: 0:00:40.722000
+Execution time: 0:00:46.515000
 
-Grid5000 node: graphene-82.nancy.grid5000.fr
+Grid5000 node: griffon-34.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -6242,9 +6159,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 9
 
-Execution time: 0:00:47.478000
+Execution time: 0:00:52.617000
 
-Grid5000 node: graphene-55.nancy.grid5000.fr
+Grid5000 node: griffon-30.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -6255,11 +6172,11 @@ this.t0 <= this.maxIterationCount
 
 Nb Angelic value: 2
 
-Nb analyzed Statement: 33
+Nb analyzed Statement: 199
 
-Execution time: 0:04:04.720000
+Execution time: 0:05:28.748000
 
-Grid5000 node: graphene-39.nancy.grid5000.fr
+Grid5000 node: graphene-45.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -6319,9 +6236,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 14
 
-Execution time: 0:00:47.820000
+Execution time: 0:00:56.103000
 
-Grid5000 node: graphene-55.nancy.grid5000.fr
+Grid5000 node: griffon-4.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -6496,24 +6413,24 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 5
 
-Execution time: 0:00:44.052000
+Execution time: 0:00:50.500000
 
-Grid5000 node: graphene-41.nancy.grid5000.fr
+Grid5000 node: griffon-30.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1540 (Suspicious rank: ample 3, jaccard 3, ochiai 10, naish1 16249, gp13 3, naish2 3, tarantula 3, )
+org.apache.commons.math.linear.EigenDecompositionImpl:1583 (Suspicious rank: ample 27, jaccard 27, ochiai 27, naish1 16571, gp13 27, naish2 27, tarantula 27, )
 ```Java
-org.apache.commons.math.linear.EigenDecompositionImpl.this.lowerSpectra < org.apache.commons.math.linear.EigenDecompositionImpl.this.splitTolerance
+(deflated < org.apache.commons.math.linear.EigenDecompositionImpl.this.dN2) || (((dMin1) == (dN1)) && ((dMin2) == (dN2)))
 ```
 
-Nb Angelic value: 1
+Nb Angelic value: 3
 
-Nb analyzed Statement: 6
+Nb analyzed Statement: 16
 
-Execution time: 0:00:43.249000
+Execution time: 0:01:38.657000
 
-Grid5000 node: graphene-80.nancy.grid5000.fr
+Grid5000 node: griffon-34.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -6728,9 +6645,9 @@ Nb Angelic value: 2
 
 Nb analyzed Statement: 54
 
-Execution time: 0:05:45.875000
+Execution time: 0:06:00.564000
 
-Grid5000 node: graphene-73.nancy.grid5000.fr
+Grid5000 node: griffon-8.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -6864,9 +6781,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 37
 
-Execution time: 0:00:41.256000
+Execution time: 0:00:46.946000
 
-Grid5000 node: graphene-73.nancy.grid5000.fr
+Grid5000 node: griffon-12.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -6879,9 +6796,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 37
 
-Execution time: 0:00:41.210000
+Execution time: 0:00:45.569000
 
-Grid5000 node: graphene-67.nancy.grid5000.fr
+Grid5000 node: griffon-56.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -6894,9 +6811,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 4
 
-Execution time: 0:01:46.548000
+Execution time: 0:01:39.054000
 
-Grid5000 node: griffon-59.nancy.grid5000.fr
+Grid5000 node: graphene-83.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -6909,9 +6826,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 37
 
-Execution time: 0:01:47.895000
+Execution time: 0:01:47.722000
 
-Grid5000 node: graphene-81.nancy.grid5000.fr
+Grid5000 node: graphene-83.nancy.grid5000.fr
 
 ## Genprog 
 
@@ -6993,9 +6910,9 @@ Nb Angelic value: 2
 
 Nb analyzed Statement: 75
 
-Execution time: 0:06:04.981000
+Execution time: 0:06:01.106000
 
-Grid5000 node: graphene-49.nancy.grid5000.fr
+Grid5000 node: griffon-39.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -7008,9 +6925,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 128
 
-Execution time: 0:00:53.415000
+Execution time: 0:01:02.125000
 
-Grid5000 node: graphene-81.nancy.grid5000.fr
+Grid5000 node: griffon-85.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -7023,9 +6940,9 @@ Nb Angelic value: 3
 
 Nb analyzed Statement: 75
 
-Execution time: 0:14:04.406000
+Execution time: 0:15:22.425000
 
-Grid5000 node: griffon-91.nancy.grid5000.fr
+Grid5000 node: graphene-85.nancy.grid5000.fr
 
 # Math 88
 
@@ -7111,9 +7028,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 1
 
-Execution time: 0:00:31.932000
+Execution time: 0:00:36.819000
 
-Grid5000 node: graphene-49.nancy.grid5000.fr
+Grid5000 node: griffon-68.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -7126,9 +7043,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 1
 
-Execution time: 0:02:28.757000
+Execution time: 0:02:31.296000
 
-Grid5000 node: graphene-82.nancy.grid5000.fr
+Grid5000 node: graphene-42.nancy.grid5000.fr
 
 # Math 95
 
@@ -7321,9 +7238,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 100
 
-Execution time: 0:02:58.838000
+Execution time: 0:03:04.245000
 
-Grid5000 node: griffon-74.nancy.grid5000.fr
+Grid5000 node: graphene-92.nancy.grid5000.fr
 
 # Math 97
 
@@ -7438,9 +7355,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 68
 
-Execution time: 0:00:31.820000
+Execution time: 0:00:38.388000
 
-Grid5000 node: graphene-80.nancy.grid5000.fr
+Grid5000 node: griffon-9.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -7453,9 +7370,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 86
 
-Execution time: 0:00:49.504000
+Execution time: 0:01:01.461000
 
-Grid5000 node: graphene-79.nancy.grid5000.fr
+Grid5000 node: griffon-92.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -7468,9 +7385,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 68
 
-Execution time: 0:01:35.191000
+Execution time: 0:01:35.571000
 
-Grid5000 node: graphene-40.nancy.grid5000.fr
+Grid5000 node: graphene-46.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -7483,9 +7400,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 86
 
-Execution time: 0:01:53.521000
+Execution time: 0:01:49.568000
 
-Grid5000 node: griffon-59.nancy.grid5000.fr
+Grid5000 node: graphene-87.nancy.grid5000.fr
 
 # Math 99
 
@@ -7600,9 +7517,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 68
 
-Execution time: 0:00:32.066000
+Execution time: 0:00:38.931000
 
-Grid5000 node: graphene-99.nancy.grid5000.fr
+Grid5000 node: griffon-33.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -7615,9 +7532,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 86
 
-Execution time: 0:00:55.209000
+Execution time: 0:01:11.913000
 
-Grid5000 node: graphene-81.nancy.grid5000.fr
+Grid5000 node: griffon-57.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -7630,9 +7547,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 68
 
-Execution time: 0:01:40.724000
+Execution time: 0:01:34.393000
 
-Grid5000 node: griffon-1.nancy.grid5000.fr
+Grid5000 node: graphene-85.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -7645,9 +7562,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 86
 
-Execution time: 0:01:53.439000
+Execution time: 0:01:51.043000
 
-Grid5000 node: griffon-74.nancy.grid5000.fr
+Grid5000 node: graphene-79.nancy.grid5000.fr
 
 # Math 104
 
@@ -7721,16 +7638,16 @@ index ba2c4db..8c565cb 100644
 
 org.apache.commons.math.special.Gamma:162 (Suspicious rank: ample 3683, jaccard 88, ochiai 88, naish1 6243, gp13 88, naish2 88, tarantula 88, )
 ```Java
-((a == 1) || ((a >= 1.0) && (x > a))) && (org.apache.commons.math.special.Gamma.HALF_LOG_2_PI <= x)
+((a >= 1.0) && (x > a)) || ((a == 1) && (!((a) != (x))))
 ```
 
 Nb Angelic value: 1
 
 Nb analyzed Statement: 88
 
-Execution time: 0:20:51.552000
+Execution time: 0:02:13.430000
 
-Grid5000 node: graphene-87.nancy.grid5000.fr
+Grid5000 node: griffon-56.nancy.grid5000.fr
 
 # Math 105
 
@@ -7796,9 +7713,9 @@ Nb Angelic value: 4
 
 Nb analyzed Statement: 80
 
-Execution time: 0:04:00.684000
+Execution time: 0:06:35.318000
 
-Grid5000 node: graphene-64.nancy.grid5000.fr
+Grid5000 node: griffon-33.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -7811,9 +7728,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 73
 
-Execution time: 0:01:47.626000
+Execution time: 0:01:44.223000
 
-Grid5000 node: griffon-5.nancy.grid5000.fr
+Grid5000 node: graphene-64.nancy.grid5000.fr
 
 # Time 4
 
@@ -7919,9 +7836,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 18
 
-Execution time: 0:02:06.621000
+Execution time: 0:02:04.987000
 
-Grid5000 node: graphene-108.nancy.grid5000.fr
+Grid5000 node: graphene-51.nancy.grid5000.fr
 
 # Time 11
 
@@ -7971,9 +7888,9 @@ Nb Angelic value: 3
 
 Nb analyzed Statement: 25
 
-Execution time: 0:02:46.620000
+Execution time: 0:02:47.083000
 
-Grid5000 node: graphene-41.nancy.grid5000.fr
+Grid5000 node: graphene-112.nancy.grid5000.fr
 
 ## NopolC 
 
@@ -7986,9 +7903,9 @@ Nb Angelic value: 2
 
 Nb analyzed Statement: 26
 
-Execution time: 0:04:42.370000
+Execution time: 0:07:45.696000
 
-Grid5000 node: graphene-26.nancy.grid5000.fr
+Grid5000 node: griffon-29.nancy.grid5000.fr
 
 ## BrutpolPC 
 
@@ -8001,9 +7918,9 @@ Nb Angelic value: 1
 
 Nb analyzed Statement: 25
 
-Execution time: 0:02:16.360000
+Execution time: 0:02:15.282000
 
-Grid5000 node: graphene-112.nancy.grid5000.fr
+Grid5000 node: graphene-45.nancy.grid5000.fr
 
 ## BrutpolC 
 
@@ -8016,9 +7933,9 @@ Nb Angelic value: 3
 
 Nb analyzed Statement: 36
 
-Execution time: 0:10:11.057000
+Execution time: 0:10:03.166000
 
-Grid5000 node: griffon-29.nancy.grid5000.fr
+Grid5000 node: graphene-119.nancy.grid5000.fr
 
 ## Genprog 
 

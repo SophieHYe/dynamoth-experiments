@@ -4844,6 +4844,6 @@ java.lang.IllegalArgumentException: should not happen
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	36m48.698s
-user	59m48.032s
-sys	1m56.671s
+real	36m24.966s
+user	59m56.469s
+sys	1m54.911s

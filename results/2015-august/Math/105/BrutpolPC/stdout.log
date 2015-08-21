@@ -16,14 +16,14 @@ Nb Statements Analyzed : 73
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2, 2, 2, 1]
 Nb run passing test : [1, 1, 1, 13]
-NoPol Execution time : 107626ms
+NoPol Execution time : 104223ms
 ----PATCH FOUND----
 org.apache.commons.math.stat.regression.SimpleRegression:116: PRECONDITION dy <= this.getRegressionSumSquares(x)
 
 
-Node: griffon-5.nancy.grid5000.fr
+Node: graphene-64.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 00:43:18 CEST 2015
+Date: Thu Aug 20 01:43:01 CEST 2015
 
 

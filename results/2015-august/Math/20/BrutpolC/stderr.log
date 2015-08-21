@@ -106,4 +106,4 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
-## OAR [2015-08-13 01:30:09] Job 631822 KILLED ##
+## OAR [2015-08-20 02:35:55] Job 633463 KILLED ##

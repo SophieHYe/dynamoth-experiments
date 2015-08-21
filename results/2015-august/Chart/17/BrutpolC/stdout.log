@@ -14,16 +14,16 @@ Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 3499
 Nb Statements Analyzed : 3
 Nb Statements with Angelic Value Found : 1
-Nb run failing test  : [1]
-Nb run passing test : [4]
-NoPol Execution time : 107024ms
+Nb run failing test  : [2]
+Nb run passing test : [13]
+NoPol Execution time : 122546ms
 ----PATCH FOUND----
-org.jfree.data.time.TimeSeries:879: CONDITIONAL this.data.contains(this)
+org.jfree.data.time.TimeSeries:879: CONDITIONAL (start * end) < start
 
 
-Node: griffon-17.nancy.grid5000.fr
+Node: graphene-55.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 03:57:54 CEST 2015
+Date: Thu Aug 20 04:56:13 CEST 2015
 
 

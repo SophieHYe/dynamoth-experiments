@@ -8,7 +8,7 @@ Date: `date`
 
 Nb classes : 156
 Nb methods : 2800
-Nb statements: 10041
+Nb statements: 10040
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 11292
@@ -16,12 +16,12 @@ Nb Statements Analyzed : 248
 Nb Statements with Angelic Value Found : 0
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 49, 49, 49, 49, 61, 61, 61, 61, 61, 61, 49, 49, 52, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 49, 61, 61, 49, 52, 49, 49, 55, 61, 1, 61, 61, 31, 61, 61, 52, 52, 52, 1, 1, 1, 61, 61, 61, 61, 61, 49, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61]
-NoPol Execution time : 913773ms
+NoPol Execution time : 971863ms
 
 
-Node: graphene-134.nancy.grid5000.fr
+Node: graphene-109.nancy.grid5000.fr
 
 
-Date: Wed Aug 12 22:50:44 CEST 2015
+Date: Wed Aug 19 23:59:29 CEST 2015
 
 

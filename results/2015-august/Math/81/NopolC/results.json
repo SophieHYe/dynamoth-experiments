@@ -1,15 +1,15 @@
 {
-    "date": "Tue Aug  4 19:32:41 CEST 2015\n\n", 
-    "executionTime": 43249, 
-    "nbAngelicValue": 1, 
-    "nbSMTInput": 15, 
-    "nbSMTVariable": 57, 
-    "nbStatement": 6, 
-    "node": "graphene-80.nancy.grid5000.fr", 
-    "patch": "org.apache.commons.math.linear.EigenDecompositionImpl.this.lowerSpectra < org.apache.commons.math.linear.EigenDecompositionImpl.this.splitTolerance", 
+    "date": "Thu Aug 20 21:08:08 CEST 2015\n\n", 
+    "executionTime": 98657, 
+    "nbAngelicValue": 3, 
+    "nbSMTInput": 57, 
+    "nbSMTVariable": 51, 
+    "nbStatement": 16, 
+    "node": "griffon-34.nancy.grid5000.fr", 
+    "patch": "(deflated < org.apache.commons.math.linear.EigenDecompositionImpl.this.dN2) || (((dMin1) == (dN1)) && ((dMin2) == (dN2)))", 
     "patchLocation": {
         "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-        "line": 1540
+        "line": 1583
     }, 
     "patchType": "CONDITIONAL"
 }

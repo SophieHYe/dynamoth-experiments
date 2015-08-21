@@ -219,6 +219,6 @@ Exception in thread "Thread-12076" java.lang.NullPointerException
 	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
 	at java.lang.Thread.run(Thread.java:745)
 
-real	10m11.711s
-user	7m22.348s
-sys	1m42.394s
+real	10m3.782s
+user	6m40.477s
+sys	1m11.112s

@@ -12,18 +12,16 @@ Nb statements: 22191
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 3789
-Nb Statements Analyzed : 19
-Nb Statements with Angelic Value Found : 1
-Nb run failing test  : [2, 2, 2, 2, 1]
-Nb run passing test : [4, 4, 4, 4, 9]
-NoPol Execution time : 105013ms
-----PATCH FOUND----
-org.jfree.chart.util.AbstractObjectList:193: CONDITIONAL 0 == this.increment
+Nb Statements Analyzed : 10739
+Nb Statements with Angelic Value Found : 5
+Nb run failing test  : [2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]
+Nb run passing test : [4, 4, 4, 4, 133, 4, 4, 4, 4, 455, 4, 487, 4, 4, 4, 531, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1384]
+NoPol Execution time : 3609666ms
 
 
-Node: graphene-99.nancy.grid5000.fr
+Node: graphene-39.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 04:09:37 CEST 2015
+Date: Thu Aug 20 06:02:29 CEST 2015
 
 

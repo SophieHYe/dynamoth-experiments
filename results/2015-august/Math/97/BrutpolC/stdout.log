@@ -16,14 +16,14 @@ Nb Statements Analyzed : 86
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2, 2, 1]
 Nb run passing test : [1, 1, 36]
-NoPol Execution time : 113521ms
+NoPol Execution time : 109568ms
 ----PATCH FOUND----
 org.apache.commons.math.analysis.BrentSolver:135: CONDITIONAL (max - yMin) <= yMin
 
 
-Node: griffon-59.nancy.grid5000.fr
+Node: graphene-87.nancy.grid5000.fr
 
 
-Date: Wed Aug 12 23:01:05 CEST 2015
+Date: Thu Aug 20 00:04:44 CEST 2015
 
 

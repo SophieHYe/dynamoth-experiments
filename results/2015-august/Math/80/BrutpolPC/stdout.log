@@ -6,35 +6,22 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/math_80_BrutpolPC;
 
-23:47:50.912 [Thread-4368] DEBUG f.i.l.c.t.SpecificationTestCasesListener - Tests run finished (759454 ms)
-<> Total tests run: 1
-<> Ignored tests: 0
-<> Failed tests: 1
-~ testMathpbx02(org.apache.commons.math.linear.EigenDecompositionImplTest)
-[GC overhead limit exceeded]
-java.lang.OutOfMemoryError: GC overhead limit exceeded
-    at java.util.AbstractList.iterator(AbstractList.java:288)
-    at fr.inria.lille.commons.trace.collector.ValueCollector.collectWith(ValueCollector.java:30)
-    at fr.inria.lille.commons.trace.collector.ValueCollector.collectFrom(ValueCollector.java:21)
-    at fr.inria.lille.commons.trace.RuntimeValues.collectInput(RuntimeValues.java:64)
-    at org.apache.commons.math.linear.EigenDecompositionImpl.goodStep(EigenDecompositionImpl.java:675)
-    at org.apache.commons.math.linear.EigenDecompositionImpl.processGeneralBlock(EigenDecompositionImpl.java:517)
 Nb classes : 393
 Nb methods : 2898
-Nb statements: 16695
+Nb statements: 16696
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 2102
-Nb Statements Analyzed : 33
+Nb Statements Analyzed : 34
 Nb Statements with Angelic Value Found : 3
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 3280070ms
+NoPol Execution time : 3007764ms
 
 
-Node: griffon-72.nancy.grid5000.fr
+Node: graphene-88.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 01:48:15 CEST 2015
+Date: Thu Aug 20 02:48:22 CEST 2015
 
 

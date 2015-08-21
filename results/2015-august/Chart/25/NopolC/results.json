@@ -1,12 +1,12 @@
 {
-    "date": "Wed Aug  5 02:33:12 CEST 2015\n\n", 
-    "executionTime": 37503, 
+    "date": "Fri Aug 21 01:36:23 CEST 2015\n\n", 
+    "executionTime": 56628, 
     "nbAngelicValue": 1, 
-    "nbSMTInput": 4, 
+    "nbSMTInput": 6, 
     "nbSMTVariable": 15, 
     "nbStatement": 20, 
-    "node": "graphene-72.nancy.grid5000.fr", 
-    "patch": "result!=null", 
+    "node": "griffon-22.nancy.grid5000.fr", 
+    "patch": "(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue < org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev) && (!(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue <= 1))", 
     "patchLocation": {
         "className": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset", 
         "line": 110

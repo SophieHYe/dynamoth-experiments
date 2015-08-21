@@ -91,10 +91,10 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:124)
-	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:99)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:178)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:120)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:90)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:96)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 Exception in thread "Thread-61" java.lang.NullPointerException
@@ -117,10 +117,10 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:124)
-	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:99)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:178)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:120)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:90)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:96)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 Exception in thread "Thread-85" java.lang.NullPointerException
@@ -220,6 +220,6 @@ Exception in thread "Thread-124" java.lang.NullPointerException
 	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
 	at java.lang.Thread.run(Thread.java:745)
 
-real	2m47.369s
-user	3m29.733s
-sys	0m3.748s
+real	2m47.910s
+user	3m29.485s
+sys	0m3.632s

@@ -1,11 +1,11 @@
 {
-    "date": "Tue Aug  4 21:18:35 CEST 2015\n\n", 
-    "executionTime": 345875, 
+    "date": "Thu Aug 20 22:50:58 CEST 2015\n\n", 
+    "executionTime": 360564, 
     "nbAngelicValue": 2, 
     "nbSMTInput": 2, 
     "nbSMTVariable": 9, 
     "nbStatement": 54, 
-    "node": "graphene-73.nancy.grid5000.fr", 
+    "node": "griffon-8.nancy.grid5000.fr", 
     "patch": "(0) != (minValue)", 
     "patchLocation": {
         "className": "org.apache.commons.math.optimization.linear.SimplexSolver", 

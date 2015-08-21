@@ -4415,6 +4415,7 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
+java.lang.ClassCastException
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
 	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:95)
 	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:63)
@@ -4431,7 +4432,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
-java.lang.ClassCastException
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
 	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:95)
 	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:63)
@@ -7651,6 +7651,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	36m20.724s
-user	68m31.617s
-sys	2m20.393s
+real	36m32.602s
+user	70m36.481s
+sys	2m14.100s

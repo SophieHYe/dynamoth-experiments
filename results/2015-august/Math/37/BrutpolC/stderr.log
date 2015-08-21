@@ -14,8 +14,59 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
+
+
+The system is out of resources.
+Consult the following stack trace for details.
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at com.sun.tools.javac.jvm.ClassReader.ensureCapacity(ClassReader.java:2283)
+	at com.sun.tools.javac.jvm.ClassReader.readInputStream(ClassReader.java:2254)
+	at com.sun.tools.javac.jvm.ClassReader.fillIn(ClassReader.java:2207)
+	at com.sun.tools.javac.jvm.ClassReader.complete(ClassReader.java:2139)
+	at com.sun.tools.javac.code.Symbol.complete(Symbol.java:421)
+	at com.sun.tools.javac.code.Symbol$ClassSymbol.complete(Symbol.java:821)
+	at com.sun.tools.javac.jvm.ClassReader.loadClass(ClassReader.java:2320)
+	at com.sun.tools.javac.comp.Resolve.loadClass(Resolve.java:1062)
+	at com.sun.tools.javac.comp.Resolve.findIdentInPackage(Resolve.java:1227)
+	at com.sun.tools.javac.comp.Attr.selectSym(Attr.java:2392)
+	at com.sun.tools.javac.comp.Attr.visitSelect(Attr.java:2283)
+	at com.sun.tools.javac.tree.JCTree$JCFieldAccess.accept(JCTree.java:1677)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:431)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:418)
+	at com.sun.tools.javac.comp.Attr.visitSelect(Attr.java:2247)
+	at com.sun.tools.javac.tree.JCTree$JCFieldAccess.accept(JCTree.java:1677)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:431)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:418)
+	at com.sun.tools.javac.comp.Attr.attribExpr(Attr.java:449)
+	at com.sun.tools.javac.comp.Attr.visitApply(Attr.java:1521)
+	at com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1321)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:431)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:418)
+	at com.sun.tools.javac.comp.Attr.attribExpr(Attr.java:449)
+	at com.sun.tools.javac.comp.Attr.visitAssign(Attr.java:1993)
+	at com.sun.tools.javac.tree.JCTree$JCAssign.accept(JCTree.java:1466)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:431)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:418)
+	at com.sun.tools.javac.comp.Attr.attribExpr(Attr.java:460)
+	at com.sun.tools.javac.comp.Attr.visitExec(Attr.java:1294)
+	at com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1167)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:431)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:95)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:63)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:124)
+	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:76)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
+	at fr.inria.lille.repair.Main.main(Main.java:59)
 Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at java.util.zip.ZipCoder.toString(ZipCoder.java:49)
+	at java.util.zip.ZipCoder.toString(ZipCoder.java:59)
 	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:531)
 	at java.util.zip.ZipFile.access$900(ZipFile.java:56)
 	at java.util.zip.ZipFile$1.nextElement(ZipFile.java:513)
@@ -44,6 +95,6 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	18m14.792s
-user	45m28.523s
-sys	0m9.853s
+real	18m38.201s
+user	47m54.480s
+sys	0m10.141s

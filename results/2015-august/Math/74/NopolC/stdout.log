@@ -1,30 +1,44 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/projects/math/math_74 /tmp/math_74_NopolC;cd /tmp/math_74_NopolC;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/math_74_NopolC;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/defects4j-repair/src/python/core/../../../libs/z3 lib/z3;time java -Xmx8g -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --mode repair --type condition --oracle angelic --synthesis smt --solver z3 --solver-path /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar;echo "
+cd /tmp/math_74_NopolC;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/defects4j-repair/src/python/core/../../../libs/z3 lib/z3;time java  -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --mode repair --type condition --oracle angelic --synthesis smt --solver z3 --solver-path /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar;echo "
 
 Node: `hostname`
 ";echo "
 Date: `date`
 ";rm -rf /tmp/math_74_NopolC;
 
-Nb classes : 398
-Nb methods : 2929
-Nb statements: 16602
-Nb statement executed by the passing tests of the patched line: 0
-Nb statement executed by the failing tests of the patched line: 0
-Nb unit tests : 2131
-Nb Statements Analyzed : 655
-Nb Statements with Angelic Value Found : 0
-Nb inputs in SMT : 0
-Nb SMT level: 0
-Nb variables in SMT : 0
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 62, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 6056240ms
+19:26:00.781 [Thread-18] DEBUG f.i.l.c.t.SpecificationTestCasesListener - [#2. FAILED]
+19:26:16.761 [Thread-20] DEBUG f.i.l.c.t.SpecificationTestCasesListener - [#1. FAILED]
+19:26:16.761 [Thread-18] DEBUG f.i.l.c.t.SpecificationTestCasesListener - Tests run finished (736583 ms)
+<> Total tests run: 1
+<> Ignored tests: 0
+<> Failed tests: 1
+~ polynomial(org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest)
+[GC overhead limit exceeded]
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+    at java.util.HashMap.newEntryIterator(HashMap.java:974)
+    at java.util.HashMap$EntrySet.iterator(HashMap.java:1078)
+    at java.util.AbstractMap.equals(AbstractMap.java:451)
+    at fr.inria.lille.commons.trace.Specification.equals(Specification.java:48)
+    at java.util.HashMap.put(HashMap.java:496)
+    at java.util.HashSet.add(HashSet.java:217)
+19:26:16.761 [Thread-20] DEBUG f.i.l.c.t.SpecificationTestCasesListener - Tests run finished (430527 ms)
+<> Total tests run: 1
+<> Ignored tests: 0
+<> Failed tests: 1
+~ polynomial(org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest)
+[GC overhead limit exceeded]
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+    at fr.inria.lille.commons.trace.collector.ArrayCollector.collectedValues(ArrayCollector.java:25)
+    at fr.inria.lille.commons.trace.collector.ValueCollector.collectWith(ValueCollector.java:29)
+    at fr.inria.lille.commons.trace.collector.ValueCollector.collectFrom(ValueCollector.java:21)
+    at fr.inria.lille.commons.trace.RuntimeValues.collectInput(RuntimeValues.java:64)
+    at org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator$Corrector.visit(AdamsMoultonIntegrator.java:147)
+    at org.apache.commons.math.linear.Array2DRowRealMatrix.walkInRowOrder(Array2DRowRealMatrix.java:502)
 
 
-Node: graphene-83.nancy.grid5000.fr
+Node: griffon-77.nancy.grid5000.fr
 
 
-Date: Tue Aug  4 21:16:50 CEST 2015
+Date: Thu Aug 20 21:26:17 CEST 2015
 
 

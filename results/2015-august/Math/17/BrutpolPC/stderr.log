@@ -162,8 +162,7 @@ java.lang.RuntimeException: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:101)
 	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:42)
 	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:85)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:80)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:84)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
@@ -172,33 +171,26 @@ java.lang.RuntimeException: java.util.concurrent.TimeoutException
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
-	... 9 more
-Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at java.lang.String.substring(String.java:1913)
-	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.isPackage(ClasspathJar.java:161)
-	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.findClass(ClasspathJar.java:94)
-	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findClass(FileSystem.java:262)
-	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findType(FileSystem.java:354)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createPackage(LookupEnvironment.java:755)
-	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.buildTypeBindings(CompilationUnitScope.java:107)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:188)
-	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:723)
-	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:383)
-	at spoon.support.compiler.jdt.TreeBuilderCompiler.buildUnits(TreeBuilderCompiler.java:36)
-	at spoon.support.compiler.jdt.JDTBatchCompiler.getUnits(JDTBatchCompiler.java:121)
-	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:224)
-	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:505)
-	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
-	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
-	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:13)
-	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:42)
-	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:68)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	... 8 more
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:98)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:42)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:85)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:84)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
+Caused by: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
+	... 9 more
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
 
-real	33m51.720s
-user	162m44.526s
-sys	0m49.291s
+real	32m54.251s
+user	79m9.161s
+sys	0m17.049s

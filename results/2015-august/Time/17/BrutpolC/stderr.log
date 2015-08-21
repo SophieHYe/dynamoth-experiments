@@ -585,7 +585,7 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
-Exception in thread "Thread-178" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@73cd1624
+Exception in thread "Thread-178" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@59093c34
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:99)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:108)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:72)
@@ -626,7 +626,7 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
-Exception in thread "Thread-209" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@2b2f12e5
+Exception in thread "Thread-209" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@4bc564e7
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:110)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:119)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:74)
@@ -1254,6 +1254,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	60m8.490s
-user	366m32.598s
-sys	3m51.626s
+real	60m11.292s
+user	191m49.623s
+sys	2m7.224s

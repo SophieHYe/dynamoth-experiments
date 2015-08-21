@@ -12,18 +12,18 @@ Nb statements: 22093
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 3641
-Nb Statements Analyzed : 1
-Nb Statements with Angelic Value Found : 1
-Nb run failing test  : [1]
-Nb run passing test : [4]
-NoPol Execution time : 106827ms
+Nb Statements Analyzed : 5
+Nb Statements with Angelic Value Found : 2
+Nb run failing test  : [2, 2, 2]
+Nb run passing test : [7, 1, 7]
+NoPol Execution time : 185277ms
 ----PATCH FOUND----
-org.jfree.data.time.TimeSeries:883: PRECONDITION this.data.contains(this)
+org.jfree.data.time.TimeSeries:942: PRECONDITION 1 != startIndex
 
 
-Node: griffon-72.nancy.grid5000.fr
+Node: graphene-51.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 04:32:44 CEST 2015
+Date: Thu Aug 20 05:34:23 CEST 2015
 
 

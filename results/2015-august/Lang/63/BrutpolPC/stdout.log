@@ -8,6 +8,7 @@ Date: `date`
 
 Nb classes : 77
 Nb methods : 1691
+03:00:04.501 [Thread-19] DEBUG f.i.l.c.t.SpecificationTestCasesListener - [#2. FAILED]
 Nb statements: 8331
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
@@ -16,12 +17,25 @@ Nb Statements Analyzed : 6
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2, 2]
 Nb run passing test : [4, 1]
-NoPol Execution time : 715222ms
+NoPol Execution time : 3103242ms
+03:00:04.501 [Thread-19] DEBUG f.i.l.c.t.SpecificationTestCasesListener - Tests run finished (3083998 ms)
+<> Total tests run: 1
+<> Ignored tests: 0
+<> Failed tests: 1
+~ testJiraLang281(org.apache.commons.lang.time.DurationFormatUtilsTest)
+[Java heap space]
+java.lang.OutOfMemoryError: Java heap space
+    at fr.inria.lille.commons.trace.collector.CharSequenceCollector.collectedValues(CharSequenceCollector.java:15)
+    at fr.inria.lille.commons.trace.collector.ValueCollector.collectWith(ValueCollector.java:29)
+    at fr.inria.lille.commons.trace.collector.ValueCollector.collectFrom(ValueCollector.java:21)
+    at fr.inria.lille.commons.trace.RuntimeValues.collectInput(RuntimeValues.java:64)
+    at org.apache.commons.lang.time.DurationFormatUtils.formatPeriod(DurationFormatUtils.java:147)
+    at org.apache.commons.lang.time.DurationFormatUtils.formatPeriod(DurationFormatUtils.java:98)
 
 
-Node: griffon-61.nancy.grid5000.fr
+Node: graphene-50.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 03:24:50 CEST 2015
+Date: Thu Aug 20 05:00:13 CEST 2015
 
 

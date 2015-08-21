@@ -4256,6 +4256,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 java.lang.ClassCastException
 
-real	58m44.342s
-user	113m27.245s
-sys	2m46.146s
+real	50m6.284s
+user	79m32.574s
+sys	1m52.691s

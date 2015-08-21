@@ -1,12 +1,12 @@
 {
-    "date": "Wed Aug  5 02:07:54 CEST 2015\n\n", 
-    "executionTime": 51537, 
+    "date": "Fri Aug 21 01:00:39 CEST 2015\n\n", 
+    "executionTime": 79155, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 61, 
     "nbSMTVariable": 31, 
     "nbStatement": 24, 
-    "node": "graphene-83.nancy.grid5000.fr", 
-    "patch": "(minutes <= org.apache.commons.lang.time.DateUtils.RANGE_WEEK_RELATIVE) || (!((round) && (minutes < seconds)))", 
+    "node": "griffon-35.nancy.grid5000.fr", 
+    "patch": "(!((round) && ((org.apache.commons.lang.time.DateUtils.RANGE_WEEK_RELATIVE) != (seconds)))) || (seconds < minutes)", 
     "patchLocation": {
         "className": "org.apache.commons.lang.time.DateUtils", 
         "line": 666

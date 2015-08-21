@@ -15,8 +15,10 @@ Caused by: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
 Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at java.util.Hashtable.put(Hashtable.java:541)
-	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.isPackage(ClasspathJar.java:164)
+	at java.util.Arrays.copyOfRange(Arrays.java:2694)
+	at java.lang.String.<init>(String.java:203)
+	at java.lang.String.substring(String.java:1913)
+	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.isPackage(ClasspathJar.java:161)
 	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.findClass(ClasspathJar.java:94)
 	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findClass(FileSystem.java:262)
 	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findType(FileSystem.java:354)
@@ -40,6 +42,6 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	13m34.052s
-user	91m1.201s
-sys	0m28.954s
+real	8m10.601s
+user	26m37.940s
+sys	0m7.636s

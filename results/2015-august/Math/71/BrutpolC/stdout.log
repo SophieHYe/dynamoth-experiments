@@ -8,7 +8,7 @@ Date: `date`
 
 Nb classes : 409
 Nb methods : 2990
-Nb statements: 16344
+Nb statements: 16346
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 2169
@@ -16,16 +16,12 @@ Nb Statements Analyzed : 190
 Nb Statements with Angelic Value Found : 2
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [5, 4, 4, 4, 4, 4, 108, 1, 4, 4, 4, 4, 4, 4, 4, 4]
-NoPol Execution time : 4285105ms
-22:24:01.567 [Thread-2613] DEBUG xxl.java.junit.TestCasesListener - [#1. SUCCESS]
-22:24:01.567 [Thread-2613] DEBUG xxl.java.junit.TestCasesListener - [#2. org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest#testMissedEndEvent started...]
-22:24:01.568 [Thread-2613] DEBUG xxl.java.junit.TestCasesListener - [#2. FAILED]
-22:24:01.568 [Thread-2613] DEBUG xxl.java.junit.TestCasesListener - [#3. org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest#testSmallStep started...]
+NoPol Execution time : 4486418ms
 
 
-Node: griffon-12.nancy.grid5000.fr
+Node: graphene-15.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 00:24:02 CEST 2015
+Date: Thu Aug 20 01:33:19 CEST 2015
 
 

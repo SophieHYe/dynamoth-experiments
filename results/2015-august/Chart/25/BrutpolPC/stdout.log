@@ -14,16 +14,16 @@ Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 3243
 Nb Statements Analyzed : 19
 Nb Statements with Angelic Value Found : 2
-Nb run failing test  : [1, 2, 2, 2, 1]
-Nb run passing test : [19, 10, 10, 10, 19]
-NoPol Execution time : 514755ms
+Nb run failing test  : [2, 2, 2, 2, 2]
+Nb run passing test : [28, 10, 10, 10, 30]
+NoPol Execution time : 479593ms
 ----PATCH FOUND----
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset:111: PRECONDITION this.equals(masd)
 
 
-Node: griffon-22.nancy.grid5000.fr
+Node: griffon-11.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 04:20:16 CEST 2015
+Date: Thu Aug 20 05:18:48 CEST 2015
 
 

@@ -12,16 +12,16 @@ Nb statements: 24624
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 3559
-Nb Statements Analyzed : 16095
+Nb Statements Analyzed : 20581
 Nb Statements with Angelic Value Found : 0
 Nb run failing test  : [2, 2]
 Nb run passing test : [1, 1]
-NoPol Execution time : 3611374ms
+NoPol Execution time : 3608060ms
 
 
-Node: griffon-91.nancy.grid5000.fr
+Node: graphene-52.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 00:45:24 CEST 2015
+Date: Thu Aug 20 01:49:22 CEST 2015
 
 

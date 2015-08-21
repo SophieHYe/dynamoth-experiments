@@ -16,14 +16,14 @@ Nb Statements Analyzed : 68
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2]
 Nb run passing test : [7]
-NoPol Execution time : 100724ms
+NoPol Execution time : 94393ms
 ----PATCH FOUND----
 org.apache.commons.math.analysis.BrentSolver:136: PRECONDITION min == 1
 
 
-Node: griffon-1.nancy.grid5000.fr
+Node: graphene-85.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 00:44:29 CEST 2015
+Date: Thu Aug 20 01:49:19 CEST 2015
 
 

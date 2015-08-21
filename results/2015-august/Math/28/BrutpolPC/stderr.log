@@ -14,16 +14,13 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
-Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at java.util.Arrays.copyOfRange(Arrays.java:2694)
-	at java.lang.String.<init>(String.java:203)
-	at java.lang.String.substring(String.java:1877)
-	at java.io.File.getName(File.java:456)
-	at java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:243)
-	at java.io.File.isFile(File.java:876)
-	at spoon.compiler.SpoonResourceHelper.isFile(SpoonResourceHelper.java:50)
-	at spoon.support.compiler.FileSystemFolder.getFiles(FileSystemFolder.java:56)
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.io.UnixFileSystem.resolve(UnixFileSystem.java:108)
+	at java.io.File.<init>(File.java:262)
+	at java.io.File.listFiles(File.java:1206)
+	at spoon.support.compiler.FileSystemFolder.getFiles(FileSystemFolder.java:55)
 	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:100)
+	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
 	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
 	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
 	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
@@ -44,6 +41,6 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	23m26.030s
-user	104m40.100s
-sys	0m28.314s
+real	37m41.492s
+user	118m23.224s
+sys	0m18.589s

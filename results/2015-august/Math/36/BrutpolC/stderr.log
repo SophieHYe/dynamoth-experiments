@@ -1232,6 +1232,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	60m8.333s
-user	101m13.576s
-sys	4m33.797s
+real	60m11.885s
+user	102m58.526s
+sys	4m36.581s

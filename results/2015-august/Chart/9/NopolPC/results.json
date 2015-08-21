@@ -1,0 +1,15 @@
+{
+    "date": "Fri Aug 21 02:12:37 CEST 2015\n\n", 
+    "executionTime": 46287, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 2, 
+    "nbSMTVariable": 24, 
+    "nbStatement": 1, 
+    "node": "graphene-7.nancy.grid5000.fr", 
+    "patch": "org.jfree.data.time.TimeSeries.this.data.size() == org.jfree.data.time.TimeSeries.this.range.length()", 
+    "patchLocation": {
+        "className": "org.jfree.data.time.TimeSeries", 
+        "line": 883
+    }, 
+    "patchType": "PRECONDITION"
+}

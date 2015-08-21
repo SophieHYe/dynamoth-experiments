@@ -6,9 +6,23 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/math_48_BrutpolPC;
 
+01:12:54.648 [Thread-29] DEBUG f.i.l.c.t.SpecificationTestCasesListener - [#2. FAILED]
+01:12:54.649 [Thread-29] DEBUG f.i.l.c.t.SpecificationTestCasesListener - Tests run finished (2563654 ms)
+<> Total tests run: 1
+<> Ignored tests: 0
+<> Failed tests: 1
+~ testIssue631(org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest)
+[Unexpected exception, expected<org.apache.commons.math.exception.ConvergenceException> but was<java.lang.OutOfMemoryError>]
+java.lang.Exception: Unexpected exception, expected<org.apache.commons.math.exception.ConvergenceException> but was<java.lang.OutOfMemoryError>
+    at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+    at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
 Nb classes : 573
 Nb methods : 3594
-Nb statements: 23345
+Nb statements: 23347
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 2995
@@ -16,12 +30,12 @@ Nb Statements Analyzed : 19
 Nb Statements with Angelic Value Found : 0
 Nb run failing test  : [2, 2, 2, 2, 2]
 Nb run passing test : [1, 1, 1, 1, 1]
-NoPol Execution time : 1161059ms
+NoPol Execution time : 2727001ms
 
 
-Node: griffon-23.nancy.grid5000.fr
+Node: graphene-99.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 01:45:44 CEST 2015
+Date: Thu Aug 20 03:13:08 CEST 2015
 
 

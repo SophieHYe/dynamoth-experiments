@@ -1,15 +1,15 @@
 {
-    "date": "Thu Aug 13 04:32:44 CEST 2015\n\n", 
-    "executionTime": 106827, 
-    "nbAngelicValue": 1, 
+    "date": "Thu Aug 20 05:34:23 CEST 2015\n\n", 
+    "executionTime": 185277, 
+    "nbAngelicValue": 2, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
-    "nbStatement": 1, 
-    "node": "griffon-72.nancy.grid5000.fr", 
-    "patch": "this.data.contains(this)", 
+    "nbStatement": 5, 
+    "node": "graphene-51.nancy.grid5000.fr", 
+    "patch": "1 != startIndex", 
     "patchLocation": {
         "className": "org.jfree.data.time.TimeSeries", 
-        "line": 883
+        "line": 942
     }, 
     "patchType": "PRECONDITION"
 }

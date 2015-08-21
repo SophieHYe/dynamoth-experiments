@@ -1,33 +1,29 @@
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:100)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:49)
-	at xxl.java.junit.TestSuiteExecution.runTestResult(TestSuiteExecution.java:76)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:84)
-	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:72)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:178)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:120)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:90)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:101)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:50)
+	at xxl.java.junit.TestSuiteExecution.runTestResult(TestSuiteExecution.java:77)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:90)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:69)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:93)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
 Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at java.util.zip.ZipFile.getEntryBytes(Native Method)
-	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:527)
-	at java.util.zip.ZipFile.access$900(ZipFile.java:56)
-	at java.util.zip.ZipFile$1.nextElement(ZipFile.java:513)
-	at java.util.zip.ZipFile$1.nextElement(ZipFile.java:483)
-	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.isPackage(ClasspathJar.java:155)
-	at org.eclipse.jdt.internal.compiler.batch.ClasspathJar.findClass(ClasspathJar.java:94)
-	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findClass(FileSystem.java:262)
-	at org.eclipse.jdt.internal.compiler.batch.FileSystem.findType(FileSystem.java:354)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createPackage(LookupEnvironment.java:755)
-	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.buildTypeBindings(CompilationUnitScope.java:107)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:188)
-	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:723)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.pushLineSeparator(Scanner.java:2688)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.jumpOverMethodBody(Scanner.java:1929)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken0(Scanner.java:1168)
+	at org.eclipse.jdt.internal.compiler.parser.Scanner.getNextToken(Scanner.java:1152)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11000)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11278)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11235)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:9655)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:718)
 	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:383)
 	at spoon.support.compiler.jdt.TreeBuilderCompiler.buildUnits(TreeBuilderCompiler.java:36)
 	at spoon.support.compiler.jdt.JDTBatchCompiler.getUnits(JDTBatchCompiler.java:121)
@@ -38,12 +34,12 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:13)
 	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:42)
 	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:68)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:157)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:120)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:90)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	23m50.825s
-user	62m9.153s
-sys	0m12.369s
+real	20m47.699s
+user	83m42.578s
+sys	0m22.753s

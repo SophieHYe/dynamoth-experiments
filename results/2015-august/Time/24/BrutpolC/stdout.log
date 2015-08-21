@@ -8,7 +8,7 @@ Date: `date`
 
 Nb classes : 156
 Nb methods : 2834
-Nb statements: 10183
+Nb statements: 10182
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 11523
@@ -16,12 +16,12 @@ Nb Statements Analyzed : 333
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [19, 61, 61, 61, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 196, 19, 19, 19, 19, 19, 19, 19, 19, 19, 61, 19, 61, 19, 19, 82, 82, 82, 82, 82, 82, 82, 82, 82, 19, 82, 82, 82, 19, 82, 82, 82, 82, 19, 19, 19, 82, 19, 19, 19, 19, 82, 82, 82, 82, 82, 82, 19, 19, 61, 61, 61, 82, 82, 82, 82, 82, 82]
-NoPol Execution time : 1956686ms
+NoPol Execution time : 2058018ms
 
 
-Node: griffon-91.nancy.grid5000.fr
+Node: griffon-1.nancy.grid5000.fr
 
 
-Date: Wed Aug 12 23:07:32 CEST 2015
+Date: Thu Aug 20 00:17:04 CEST 2015
 
 

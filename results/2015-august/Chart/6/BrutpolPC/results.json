@@ -1,15 +1,15 @@
 {
-    "date": "Thu Aug 13 04:37:11 CEST 2015\n\n", 
-    "executionTime": 244386, 
-    "nbAngelicValue": 3, 
+    "date": "Thu Aug 20 05:42:05 CEST 2015\n\n", 
+    "executionTime": 445057, 
+    "nbAngelicValue": 2, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
-    "nbStatement": 19, 
-    "node": "griffon-72.nancy.grid5000.fr", 
-    "patch": "0 == this.increment", 
+    "nbStatement": 17, 
+    "node": "graphene-99.nancy.grid5000.fr", 
+    "patch": "(1 + i) != (this.increment / listSize)", 
     "patchLocation": {
         "className": "org.jfree.chart.util.AbstractObjectList", 
-        "line": 193
+        "line": 194
     }, 
     "patchType": "PRECONDITION"
 }

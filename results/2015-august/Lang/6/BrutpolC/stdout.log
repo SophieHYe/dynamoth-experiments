@@ -14,14 +14,14 @@ Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 2263
 Nb Statements Analyzed : 10994
 Nb Statements with Angelic Value Found : 0
-Nb run failing test  : [2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [4, 13, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 2291033ms
+Nb run failing test  : [2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+Nb run passing test : [4, 13, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+NoPol Execution time : 2276180ms
 
 
-Node: graphene-44.nancy.grid5000.fr
+Node: graphene-92.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 03:43:54 CEST 2015
+Date: Thu Aug 20 04:42:15 CEST 2015
 
 

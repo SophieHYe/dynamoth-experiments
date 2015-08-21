@@ -1,0 +1,33 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/projects/math/math_20 /tmp/math_20_NopolPC;cd /tmp/math_20_NopolPC;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+cd /tmp/math_20_NopolPC;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/defects4j-repair/src/python/core/../../../libs/z3 lib/z3;time java  -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --mode repair --type precondition --oracle angelic --synthesis smt --solver z3 --solver-path /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/math_20_NopolPC;
+
+Nb classes : 617
+Nb methods : 4060
+Nb statements: 28134
+Nb statement executed by the passing tests of the patched line: 0
+Nb statement executed by the failing tests of the patched line: 0
+Nb unit tests : 4164
+Nb Statements Analyzed : 161
+Nb Statements with Angelic Value Found : 6
+Nb inputs in SMT : 4
+Nb SMT level: 4
+Nb SMT components: [9] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2, + of arity: 2, - of arity: 2]
+                  class java.lang.Boolean: 7
+                  class java.lang.Number: 2
+Nb variables in SMT : 17
+Nb run failing test  : [2, 2, 1, 2, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 1, 1]
+Nb run passing test : [1, 1, 6, 1, 1, 1, 1, 7, 1, 7, 7, 7, 7, 7, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 19, 19, 19, 19, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 20, 20, 1, 1, 1, 1, 1, 1, 1, 1, 20, 1, 1, 20, 20]
+NoPol Execution time : 4040828ms
+
+
+Node: griffon-61.nancy.grid5000.fr
+
+
+Date: Fri Aug 21 00:49:32 CEST 2015
+
+

@@ -16,14 +16,14 @@ Nb Statements Analyzed : 100
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2, 2, 2, 2, 2, 1]
 Nb run passing test : [1, 1, 1, 1, 1, 42]
-NoPol Execution time : 178838ms
+NoPol Execution time : 184245ms
 ----PATCH FOUND----
 org.apache.commons.math.complex.Complex:248: CONDITIONAL 0 == (1 + this.imaginary)
 
 
-Node: griffon-74.nancy.grid5000.fr
+Node: graphene-92.nancy.grid5000.fr
 
 
-Date: Wed Aug 12 23:02:32 CEST 2015
+Date: Thu Aug 20 00:06:41 CEST 2015
 
 

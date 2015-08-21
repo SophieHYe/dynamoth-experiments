@@ -75,13 +75,18 @@ Caused by: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
 Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.ArrayList.iterator(ArrayList.java:814)
+	at java.util.Collections$UnmodifiableCollection$1.<init>(Collections.java:1064)
 	at java.util.Collections$UnmodifiableCollection.iterator(Collections.java:1063)
 	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:141)
-	at spoon.reflect.visitor.CtScanner.visitCtParameter(CtScanner.java:588)
-	at spoon.support.reflect.declaration.CtParameterImpl.accept(CtParameterImpl.java:55)
+	at spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:431)
+	at spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:37)
 	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:153)
 	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:142)
-	at spoon.reflect.visitor.CtScanner.visitCtConstructor(CtScanner.java:335)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:283)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:45)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:153)
+	at spoon.reflect.visitor.CtScanner.visitCtConstructor(CtScanner.java:338)
 	at spoon.support.reflect.declaration.CtConstructorImpl.accept(CtConstructorImpl.java:48)
 	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:153)
 	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:142)
@@ -102,12 +107,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtConstructorCall(DefaultJavaPrettyPrinter.java:1628)
 	at spoon.support.reflect.code.CtConstructorCallImpl.accept(CtConstructorCallImpl.java:26)
 	at spoon.reflect.visitor.DefaultJavaPrettyPrinter.scan(DefaultJavaPrettyPrinter.java:458)
-	at spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtInvocation(DefaultJavaPrettyPrinter.java:1340)
-	at spoon.support.reflect.code.CtInvocationImpl.accept(CtInvocationImpl.java:51)
-	at spoon.reflect.visitor.DefaultJavaPrettyPrinter.scan(DefaultJavaPrettyPrinter.java:458)
-	at spoon.reflect.visitor.DefaultJavaPrettyPrinter.visitCtReturn(DefaultJavaPrettyPrinter.java:1756)
-	at spoon.support.reflect.code.CtReturnImpl.accept(CtReturnImpl.java:41)
 
-real	18m32.753s
-user	134m47.657s
-sys	0m37.178s
+real	18m44.080s
+user	136m40.392s
+sys	0m37.610s

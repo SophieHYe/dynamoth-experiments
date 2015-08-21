@@ -39,6 +39,6 @@ java.lang.ClassCastException: spoon.support.reflect.code.CtInvocationImpl cannot
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	71m27.927s
-user	355m46.742s
-sys	4m0.363s
+real	65m56.620s
+user	122m35.964s
+sys	7m51.281s

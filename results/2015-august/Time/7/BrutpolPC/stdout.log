@@ -16,14 +16,14 @@ Nb Statements Analyzed : 18
 Nb Statements with Angelic Value Found : 1
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 1]
 Nb run passing test : [4, 4, 4, 4, 4, 4, 93]
-NoPol Execution time : 126621ms
+NoPol Execution time : 124987ms
 ----PATCH FOUND----
 org.joda.time.format.DateTimeParserBucket:359: PRECONDITION resetFields
 
 
-Node: graphene-108.nancy.grid5000.fr
+Node: graphene-51.nancy.grid5000.fr
 
 
-Date: Wed Aug 12 22:37:50 CEST 2015
+Date: Wed Aug 19 23:46:32 CEST 2015
 
 

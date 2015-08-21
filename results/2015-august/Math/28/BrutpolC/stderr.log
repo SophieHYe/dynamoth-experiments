@@ -30,7 +30,4 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
-
-real	72m56.374s
-user	188m6.877s
-sys	3m22.737s
+## OAR [2015-08-20 02:26:52] Job 633455 KILLED ##

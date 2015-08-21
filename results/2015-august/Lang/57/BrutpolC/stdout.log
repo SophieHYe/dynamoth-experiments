@@ -16,12 +16,12 @@ Nb Statements Analyzed : 7888
 Nb Statements with Angelic Value Found : 0
 Nb run failing test  : []
 Nb run passing test : []
-NoPol Execution time : 1324065ms
+NoPol Execution time : 878363ms
 
 
-Node: griffon-62.nancy.grid5000.fr
+Node: graphene-44.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 02:51:15 CEST 2015
+Date: Thu Aug 20 03:49:44 CEST 2015
 
 

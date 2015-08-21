@@ -30,4 +30,40 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
-## OAR [2015-08-13 02:52:49] Job 631897 KILLED ##
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOfRange(Arrays.java:2694)
+	at java.lang.String.<init>(String.java:203)
+	at java.lang.StringBuffer.toString(StringBuffer.java:561)
+	at spoon.support.visitor.SignaturePrinter.getSignature(SignaturePrinter.java:113)
+	at spoon.support.reflect.declaration.CtElementImpl.getSignature(CtElementImpl.java:145)
+	at spoon.support.reflect.declaration.CtElementImpl.equals(CtElementImpl.java:181)
+	at java.util.ArrayList.indexOf(ArrayList.java:298)
+	at java.util.ArrayList.contains(ArrayList.java:281)
+	at spoon.support.reflect.declaration.CtTypeImpl.addField(CtTypeImpl.java:74)
+	at spoon.support.compiler.jdt.ParentExiter.scanCtType(ParentExiter.java:126)
+	at spoon.reflect.visitor.CtInheritanceScanner.visitCtClass(CtInheritanceScanner.java:444)
+	at spoon.support.compiler.jdt.ParentExiter.visitCtClass(ParentExiter.java:291)
+	at spoon.reflect.visitor.CtInheritanceScanner.visitCtEnum(CtInheritanceScanner.java:492)
+	at spoon.support.reflect.declaration.CtEnumImpl.accept(CtEnumImpl.java:37)
+	at spoon.reflect.visitor.CtInheritanceScanner.scan(CtInheritanceScanner.java:164)
+	at spoon.support.compiler.jdt.JDTTreeBuilder$BuilderContext.exit(JDTTreeBuilder.java:329)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.endVisit(JDTTreeBuilder.java:1051)
+	at org.eclipse.jdt.internal.compiler.ast.FieldDeclaration.traverse(FieldDeclaration.java:341)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:2936)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse(TypeDeclaration.java:1338)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:745)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:706)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:229)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:505)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:13)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:42)
+	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:68)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
+
+real	13m3.764s
+user	41m52.909s
+sys	0m8.641s

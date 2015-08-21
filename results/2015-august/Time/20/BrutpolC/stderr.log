@@ -131,7 +131,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
-Exception in thread "Thread-92" java.io.IOException: Resource not found: "org/joda/time/tz/data/ZoneInfoMap" ClassLoader: xxl.java.compiler.BytecodeClassLoader@604d7cf3
+Exception in thread "Thread-92" java.io.IOException: Resource not found: "org/joda/time/tz/data/ZoneInfoMap" ClassLoader: xxl.java.compiler.BytecodeClassLoader@40c542cc
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:112)
 	at org.joda.time.tz.ZoneInfoProvider.<init>(ZoneInfoProvider.java:48)
 	at org.joda.time.tz.ZoneInfoProvider.<init>(ZoneInfoProvider.java:28)
@@ -158,7 +158,7 @@ Exception in thread "Thread-92" java.io.IOException: Resource not found: "org/jo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Exception in thread "Thread-99" java.io.IOException: Resource not found: "org/joda/time/tz/data/ZoneInfoMap" ClassLoader: xxl.java.compiler.BytecodeClassLoader@4d0af628
+Exception in thread "Thread-99" java.io.IOException: Resource not found: "org/joda/time/tz/data/ZoneInfoMap" ClassLoader: xxl.java.compiler.BytecodeClassLoader@6418465b
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:99)
 	at org.joda.time.tz.ZoneInfoProvider.<init>(ZoneInfoProvider.java:48)
 	at org.joda.time.tz.ZoneInfoProvider.<init>(ZoneInfoProvider.java:28)
@@ -229,7 +229,7 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
-Exception in thread "Thread-190" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@20ee4717
+Exception in thread "Thread-190" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@6882701a
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:110)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:119)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:74)
@@ -1190,7 +1190,7 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
-Exception in thread "Thread-663" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@358842ad
+Exception in thread "Thread-663" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@6c4425da
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:99)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:108)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:72)
@@ -1693,6 +1693,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	48m54.996s
-user	122m51.089s
-sys	2m30.997s
+real	40m28.104s
+user	65m3.332s
+sys	1m40.054s

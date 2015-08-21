@@ -1,15 +1,15 @@
 {
-    "date": "Thu Aug 13 04:09:37 CEST 2015\n\n", 
-    "executionTime": 105013, 
-    "nbAngelicValue": 1, 
+    "date": "Thu Aug 20 06:02:29 CEST 2015\n\n", 
+    "executionTime": 3609666, 
+    "nbAngelicValue": 5, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
-    "nbStatement": 19, 
-    "node": "graphene-99.nancy.grid5000.fr", 
-    "patch": "0 == this.increment", 
+    "nbStatement": 10739, 
+    "node": "graphene-39.nancy.grid5000.fr", 
+    "patch": null, 
     "patchLocation": {
-        "className": "org.jfree.chart.util.AbstractObjectList", 
-        "line": 193
+        "className": null, 
+        "line": null
     }, 
-    "patchType": "CONDITIONAL"
+    "patchType": null
 }

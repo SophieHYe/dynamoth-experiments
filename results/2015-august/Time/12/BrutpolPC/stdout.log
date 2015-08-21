@@ -6,36 +6,22 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/time_12_BrutpolPC;
 
-22:14:31.859 [Thread-1145] DEBUG f.i.l.c.t.SpecificationTestCasesListener - [#5. FAILED]
-22:14:31.859 [Thread-1145] DEBUG f.i.l.c.t.SpecificationTestCasesListener - Tests run finished (5167606 ms)
-<> Total tests run: 1
-<> Ignored tests: 0
-<> Failed tests: 1
-~ testFactory_fromCalendarFields_beforeYearZero3(org.joda.time.TestLocalDateTime_Constructors)
-[Java heap space]
-java.lang.OutOfMemoryError: Java heap space
-    at fr.inria.lille.commons.trace.collector.ValueCollector.collectFrom(ValueCollector.java:19)
-    at fr.inria.lille.commons.trace.RuntimeValues.collectInput(RuntimeValues.java:64)
-    at org.joda.time.format.DateTimeFormatterBuilder$Fraction.getFractionData(DateTimeFormatterBuilder.java:1263)
-    at org.joda.time.format.DateTimeFormatterBuilder$Fraction.printTo(DateTimeFormatterBuilder.java:1146)
-    at org.joda.time.format.DateTimeFormatterBuilder$Fraction.printTo(DateTimeFormatterBuilder.java:1109)
-    at org.joda.time.format.DateTimeFormatterBuilder$Composite.printTo(DateTimeFormatterBuilder.java:1804)
 Nb classes : 156
 Nb methods : 2878
 Nb statements: 10369
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 11813
-Nb Statements Analyzed : 115
+Nb Statements Analyzed : 116
 Nb Statements with Angelic Value Found : 0
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [10, 22, 22, 22, 10, 10, 10, 22, 10, 10, 10, 10, 10, 10, 10, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 22, 10, 10, 10, 22, 22, 22, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 22, 22, 22]
-NoPol Execution time : 5933351ms
+NoPol Execution time : 1300672ms
 
 
-Node: graphene-113.nancy.grid5000.fr
+Node: graphene-48.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 00:14:32 CEST 2015
+Date: Thu Aug 20 00:06:07 CEST 2015
 
 

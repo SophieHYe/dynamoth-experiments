@@ -14,14 +14,14 @@ Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 1670
 Nb Statements Analyzed : 8954
 Nb Statements with Angelic Value Found : 0
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 1968207ms
+Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2]
+Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1]
+NoPol Execution time : 1134645ms
 
 
-Node: griffon-31.nancy.grid5000.fr
+Node: graphene-30.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 03:23:23 CEST 2015
+Date: Thu Aug 20 04:09:02 CEST 2015
 
 

@@ -107,6 +107,6 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	5m36.486s
-user	18m9.836s
-sys	0m6.208s
+real	5m23.656s
+user	17m20.093s
+sys	0m5.840s

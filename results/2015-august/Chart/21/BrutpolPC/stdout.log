@@ -12,16 +12,18 @@ Nb statements: 20619
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb unit tests : 3303
-Nb Statements Analyzed : 8911
-Nb Statements with Angelic Value Found : 2
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2]
-Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1]
-NoPol Execution time : 3609256ms
+Nb Statements Analyzed : 9
+Nb Statements with Angelic Value Found : 1
+Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 1]
+Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 16]
+NoPol Execution time : 115082ms
+----PATCH FOUND----
+org.jfree.data.Range:335: PRECONDITION (this.upper / this.getLength()) <= this.getLength()
 
 
-Node: griffon-22.nancy.grid5000.fr
+Node: graphene-38.nancy.grid5000.fr
 
 
-Date: Thu Aug 13 05:20:54 CEST 2015
+Date: Thu Aug 20 05:19:39 CEST 2015
 
 

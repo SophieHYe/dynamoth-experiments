@@ -1,11 +1,11 @@
 {
-    "date": "Thu Aug 13 01:33:38 CEST 2015\n\n", 
-    "executionTime": 419821, 
+    "date": "Thu Aug 20 02:34:00 CEST 2015\n\n", 
+    "executionTime": 373119, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
-    "nbStatement": 2, 
-    "node": "griffon-35.nancy.grid5000.fr", 
+    "nbStatement": 3, 
+    "node": "graphene-51.nancy.grid5000.fr", 
     "patch": "0 == this.multiply(this).getReal()", 
     "patchLocation": {
         "className": "org.apache.commons.math.complex.Complex", 

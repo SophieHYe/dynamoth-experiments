@@ -739,7 +739,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: unable to create new nati
 	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:132)
 	at java.util.concurrent.Executors$DelegatedExecutorService.submit(Executors.java:641)
 	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.callMethod(DataCollector.java:424)
-	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.callMethods(DataCollector.java:359)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.callMethods(DataCollector.java:376)
 	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.collectMethods(DataCollector.java:258)
 	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.collect(DataCollector.java:158)
 	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.collect(DataCollector.java:114)

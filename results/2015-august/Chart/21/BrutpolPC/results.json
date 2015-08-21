@@ -1,15 +1,15 @@
 {
-    "date": "Thu Aug 13 05:20:54 CEST 2015\n\n", 
-    "executionTime": 3609256, 
-    "nbAngelicValue": 2, 
+    "date": "Thu Aug 20 05:19:39 CEST 2015\n\n", 
+    "executionTime": 115082, 
+    "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
-    "nbStatement": 8911, 
-    "node": "griffon-22.nancy.grid5000.fr", 
-    "patch": null, 
+    "nbStatement": 9, 
+    "node": "graphene-38.nancy.grid5000.fr", 
+    "patch": "(this.upper / this.getLength()) <= this.getLength()", 
     "patchLocation": {
-        "className": null, 
-        "line": null
+        "className": "org.jfree.data.Range", 
+        "line": 335
     }, 
-    "patchType": null
+    "patchType": "PRECONDITION"
 }

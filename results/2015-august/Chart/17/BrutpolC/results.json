@@ -1,12 +1,12 @@
 {
-    "date": "Thu Aug 13 03:57:54 CEST 2015\n\n", 
-    "executionTime": 107024, 
+    "date": "Thu Aug 20 04:56:13 CEST 2015\n\n", 
+    "executionTime": 122546, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 3, 
-    "node": "griffon-17.nancy.grid5000.fr", 
-    "patch": "this.data.contains(this)", 
+    "node": "graphene-55.nancy.grid5000.fr", 
+    "patch": "(start * end) < start", 
     "patchLocation": {
         "className": "org.jfree.data.time.TimeSeries", 
         "line": 879

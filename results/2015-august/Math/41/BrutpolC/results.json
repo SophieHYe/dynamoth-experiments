@@ -1,11 +1,11 @@
 {
-    "date": "Wed Aug 12 23:49:43 CEST 2015\n\n", 
-    "executionTime": 557290, 
+    "date": "Thu Aug 20 00:53:02 CEST 2015\n\n", 
+    "executionTime": 469064, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 15, 
-    "node": "griffon-22.nancy.grid5000.fr", 
+    "node": "graphene-79.nancy.grid5000.fr", 
     "patch": "mean <= length", 
     "patchLocation": {
         "className": "org.apache.commons.math.stat.descriptive.moment.Variance", 

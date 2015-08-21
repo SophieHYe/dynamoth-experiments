@@ -1,11 +1,11 @@
 {
-    "date": "Wed Aug 12 23:01:05 CEST 2015\n\n", 
-    "executionTime": 113521, 
+    "date": "Thu Aug 20 00:04:44 CEST 2015\n\n", 
+    "executionTime": 109568, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 86, 
-    "node": "griffon-59.nancy.grid5000.fr", 
+    "node": "graphene-87.nancy.grid5000.fr", 
     "patch": "(max - yMin) <= yMin", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.BrentSolver", 

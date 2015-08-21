@@ -171,35 +171,4 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 7 more
-Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-	at java.lang.StringCoding$StringEncoder.encode(StringCoding.java:300)
-	at java.lang.StringCoding.encode(StringCoding.java:344)
-	at java.lang.String.getBytes(String.java:916)
-	at java.io.UnixFileSystem.getBooleanAttributes0(Native Method)
-	at java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:242)
-	at java.io.File.isFile(File.java:876)
-	at spoon.support.compiler.FileSystemFolder.getSubFolders(FileSystemFolder.java:79)
-	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:103)
-	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
-	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
-	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
-	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
-	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
-	at spoon.support.compiler.FileSystemFolder.getAllJavaFiles(FileSystemFolder.java:104)
-	at spoon.support.StandardEnvironment.verifySourceClasspath(StandardEnvironment.java:421)
-	at spoon.support.StandardEnvironment.setSourceClasspath(StandardEnvironment.java:404)
-	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.setSourceClasspath(JDTBasedSpoonCompiler.java:922)
-	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:50)
-	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
-	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:13)
-	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:42)
-	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:68)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
-	at fr.inria.lille.repair.Main.main(Main.java:59)
-
-real	73m8.626s
-user	552m53.233s
-sys	2m18.089s
+## OAR [2015-08-20 03:43:43] Job 633529 KILLED ##

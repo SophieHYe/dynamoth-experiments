@@ -1,18 +1,18 @@
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:100)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:41)
-	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:84)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:78)
-	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:72)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:178)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:120)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:90)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:101)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:42)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:85)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:84)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:69)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:93)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:94)
 	... 9 more
 Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
 	at org.eclipse.jdt.internal.compiler.util.Util.getInputStreamAsCharArray(Util.java:577)
@@ -32,12 +32,12 @@ Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceede
 	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:13)
 	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:42)
 	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:68)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:157)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:120)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:90)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:123)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:93)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	18m19.489s
-user	67m35.605s
-sys	0m14.573s
+real	15m50.193s
+user	114m35.606s
+sys	0m33.394s

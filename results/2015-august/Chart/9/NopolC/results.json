@@ -1,0 +1,15 @@
+{
+    "date": "Fri Aug 21 01:52:37 CEST 2015\n\n", 
+    "executionTime": 54036, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 8, 
+    "nbSMTVariable": 27, 
+    "nbStatement": 3, 
+    "node": "griffon-9.nancy.grid5000.fr", 
+    "patch": "endIndex < startIndex", 
+    "patchLocation": {
+        "className": "org.jfree.data.time.TimeSeries", 
+        "line": 947
+    }, 
+    "patchType": "CONDITIONAL"
+}

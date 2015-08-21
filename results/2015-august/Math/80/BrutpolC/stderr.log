@@ -38,6 +38,6 @@ com.sun.jdi.ClassNotLoadedException: Class org.apache.commons.math.linear.ArrayR
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:85)
 	at fr.inria.lille.repair.Main.main(Main.java:59)
 
-real	78m17.326s
-user	83m15.144s
-sys	1m19.597s
+real	78m44.200s
+user	82m42.614s
+sys	1m2.416s
