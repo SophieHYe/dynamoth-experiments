@@ -1,34 +1,34 @@
 {
     "FailingTestCase": "15", 
-    "FailingTestCaseExecution": "23", 
-    "InmutatedGen": "1", 
+    "FailingTestCaseExecution": "128", 
+    "InmutatedGen": "18", 
     "NotAppliedOp": "0", 
-    "OfAppliedOp": "39", 
+    "OfAppliedOp": "289", 
     "RegressionTestCases": "3036", 
-    "RegressionTestExecution": "2", 
-    "RightCompilation": "22", 
-    "WrongCompilation": "17", 
-    "date": "Tue Aug 18 22:13:46 CEST 2015\n\n", 
-    "gen": "39", 
-    "gens": "955", 
-    "node": "graphene-27.nancy.grid5000.fr", 
+    "RegressionTestExecution": "4", 
+    "RightCompilation": "127", 
+    "WrongCompilation": "162", 
+    "date": "Mon Aug 24 23:46:56 CEST 2015\n\n", 
+    "gen": "289", 
+    "gens": "90", 
+    "node": "graphene-53.nancy.grid5000.fr", 
     "operations": [
         {
-            "buggyStatement": "targetY = (-(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.REDUCTION_FACTOR)) * yB", 
-            "generation": 39, 
-            "patch": "signChangeIndex++", 
+            "buggyStatement": "int end = nbPoints", 
+            "generation": 289, 
+            "patch": "signChangeIndex = 2", 
             "patchLocation": {
                 "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 
-                "line": 235
+                "line": 247
             }, 
-            "type": "INSERT_BEFORE", 
-            "variant": 78
+            "type": "REPLACE", 
+            "variant": 578
         }
     ], 
     "ops": "0", 
     "patches": "1", 
-    "programVariant": "78", 
-    "timeEvaluation": "847402", 
-    "timeTotal": "1114778", 
+    "programVariant": "578", 
+    "timeEvaluation": "1840768", 
+    "timeTotal": "2100521", 
     "unfinishValidation": "1"
 }

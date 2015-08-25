@@ -1,34 +1,34 @@
 {
     "FailingTestCase": "10", 
-    "FailingTestCaseExecution": "74", 
+    "FailingTestCaseExecution": "57", 
     "InmutatedGen": "0", 
     "NotAppliedOp": "0", 
-    "OfAppliedOp": "151", 
+    "OfAppliedOp": "126", 
     "RegressionTestCases": "1821", 
     "RegressionTestExecution": "1", 
-    "RightCompilation": "73", 
-    "WrongCompilation": "78", 
-    "date": "Wed Aug 19 01:04:32 CEST 2015\n\n", 
-    "gen": "151", 
-    "gens": "1068", 
-    "node": "graphene-75.nancy.grid5000.fr", 
+    "RightCompilation": "56", 
+    "WrongCompilation": "70", 
+    "date": "Tue Aug 25 01:40:18 CEST 2015\n\n", 
+    "gen": "126", 
+    "gens": "62", 
+    "node": "griffon-15.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "return this.maxMiddleIndex", 
-            "generation": 151, 
-            "patch": "return this.maxEndIndex", 
+            "generation": 126, 
+            "patch": "return this.maxStartIndex", 
             "patchLocation": {
                 "className": "org.jfree.data.time.TimePeriodValues", 
                 "line": 552
             }, 
             "type": "REPLACE", 
-            "variant": 302
+            "variant": 252
         }
     ], 
     "ops": "0", 
     "patches": "1", 
-    "programVariant": "302", 
-    "timeEvaluation": "71884", 
-    "timeTotal": "110659", 
+    "programVariant": "252", 
+    "timeEvaluation": "31878", 
+    "timeTotal": "75410", 
     "unfinishValidation": "0"
 }

@@ -1,22 +1,34 @@
 {
     "FailingTestCase": "47", 
-    "FailingTestCaseExecution": "89", 
-    "InmutatedGen": "277", 
+    "FailingTestCaseExecution": "19", 
+    "InmutatedGen": "2", 
     "NotAppliedOp": "0", 
-    "OfAppliedOp": "3891", 
-    "RegressionTestCases": "0", 
-    "RegressionTestExecution": "0", 
-    "RightCompilation": "88", 
-    "WrongCompilation": "3803", 
-    "date": "Tue Aug 18 23:32:31 CEST 2015\n\n", 
-    "gen": "3891", 
-    "gens": "960", 
-    "node": "graphene-24.nancy.grid5000.fr", 
-    "operations": [], 
+    "OfAppliedOp": "37", 
+    "RegressionTestCases": "4112", 
+    "RegressionTestExecution": "1", 
+    "RightCompilation": "18", 
+    "WrongCompilation": "19", 
+    "date": "Tue Aug 25 00:03:51 CEST 2015\n\n", 
+    "gen": "37", 
+    "gens": "76", 
+    "node": "graphene-53.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if ((y >= (org.apache.commons.math3.util.FastMath.TWO_POWER_52)) || (y <= (-(org.apache.commons.math3.util.FastMath.TWO_POWER_52)))) {\n\treturn org.apache.commons.math3.util.FastMath.pow(-x, y);\n} ", 
+            "generation": 37, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.util.FastMath", 
+                "line": 1540
+            }, 
+            "type": "DELETE", 
+            "variant": 74
+        }
+    ], 
     "ops": "0", 
-    "patches": "0", 
-    "programVariant": null, 
-    "timeEvaluation": "3660122", 
-    "timeTotal": "4166180", 
+    "patches": "1", 
+    "programVariant": "74", 
+    "timeEvaluation": "470424", 
+    "timeTotal": "972763", 
     "unfinishValidation": "0"
 }

@@ -1,34 +1,34 @@
 {
     "FailingTestCase": "9", 
-    "FailingTestCaseExecution": "85", 
-    "InmutatedGen": "18", 
+    "FailingTestCaseExecution": "162", 
+    "InmutatedGen": "46", 
     "NotAppliedOp": "0", 
-    "OfAppliedOp": "170", 
+    "OfAppliedOp": "319", 
     "RegressionTestCases": "2791", 
     "RegressionTestExecution": "2", 
-    "RightCompilation": "84", 
-    "WrongCompilation": "86", 
-    "date": "Tue Aug 18 22:00:32 CEST 2015\n\n", 
-    "gen": "170", 
-    "gens": "962", 
-    "node": "graphene-61.nancy.grid5000.fr", 
+    "RightCompilation": "161", 
+    "WrongCompilation": "158", 
+    "date": "Mon Aug 24 23:21:28 CEST 2015\n\n", 
+    "gen": "319", 
+    "gens": "88", 
+    "node": "griffon-10.nancy.grid5000.fr", 
     "operations": [
         {
-            "buggyStatement": "entries.remove(index)", 
-            "generation": 170, 
-            "patch": "entries.put(index, value)", 
+            "buggyStatement": "++(count)", 
+            "generation": 319, 
+            "patch": "remove", 
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.OpenMapRealVector", 
-                "line": 667
+                "className": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
+                "line": 399
             }, 
-            "type": "REPLACE", 
-            "variant": 340
+            "type": "DELETE", 
+            "variant": 638
         }
     ], 
     "ops": "0", 
     "patches": "1", 
-    "programVariant": "340", 
-    "timeEvaluation": "341564", 
-    "timeTotal": "533228", 
+    "programVariant": "638", 
+    "timeEvaluation": "387051", 
+    "timeTotal": "607803", 
     "unfinishValidation": "0"
 }

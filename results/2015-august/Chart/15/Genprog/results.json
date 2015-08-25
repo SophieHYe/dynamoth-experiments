@@ -1,34 +1,34 @@
 {
     "FailingTestCase": "3", 
-    "FailingTestCaseExecution": "48", 
-    "InmutatedGen": "1", 
+    "FailingTestCaseExecution": "217", 
+    "InmutatedGen": "6", 
     "NotAppliedOp": "0", 
-    "OfAppliedOp": "125", 
+    "OfAppliedOp": "544", 
     "RegressionTestCases": "1790", 
     "RegressionTestExecution": "1", 
-    "RightCompilation": "47", 
-    "WrongCompilation": "78", 
-    "date": "Wed Aug 19 01:00:56 CEST 2015\n\n", 
-    "gen": "125", 
-    "gens": "1044", 
-    "node": "graphene-69.nancy.grid5000.fr", 
+    "RightCompilation": "216", 
+    "WrongCompilation": "328", 
+    "date": "Tue Aug 25 01:39:05 CEST 2015\n\n", 
+    "gen": "544", 
+    "gens": "502", 
+    "node": "griffon-91.nancy.grid5000.fr", 
     "operations": [
         {
-            "buggyStatement": "this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
-            "generation": 125, 
-            "patch": "fireChartChanged()", 
+            "buggyStatement": "if (isCircular()) {\n\tdouble min = (java.lang.Math.min(linkW, linkH)) / 2;\n\tlinkX = (((linkX + linkX) + linkW) / 2) - min;\n\tlinkY = (((linkY + linkY) + linkH) / 2) - min;\n\tlinkW = 2 * min;\n\tlinkH = 2 * min;\n} ", 
+            "generation": 544, 
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
             "patchLocation": {
-                "className": "org.jfree.chart.JFreeChart", 
-                "line": 1219
+                "className": "org.jfree.chart.plot.PiePlot3D", 
+                "line": 272
             }, 
             "type": "REPLACE", 
-            "variant": 250
+            "variant": 1088
         }
     ], 
     "ops": "0", 
     "patches": "1", 
-    "programVariant": "250", 
-    "timeEvaluation": "92900", 
-    "timeTotal": "133026", 
+    "programVariant": "1088", 
+    "timeEvaluation": "346059", 
+    "timeTotal": "391262", 
     "unfinishValidation": "0"
 }

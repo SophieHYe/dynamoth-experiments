@@ -1,34 +1,166 @@
 {
     "FailingTestCase": "1", 
-    "FailingTestCaseExecution": "84", 
-    "InmutatedGen": "6", 
+    "FailingTestCaseExecution": "3192", 
+    "InmutatedGen": "1292", 
     "NotAppliedOp": "0", 
-    "OfAppliedOp": "130", 
+    "OfAppliedOp": "5437", 
     "RegressionTestCases": "1998", 
-    "RegressionTestExecution": "8", 
-    "RightCompilation": "83", 
-    "WrongCompilation": "47", 
-    "date": "Tue Aug 18 21:16:52 CEST 2015\n\n", 
-    "gen": "130", 
+    "RegressionTestExecution": "144", 
+    "RightCompilation": "3191", 
+    "WrongCompilation": "2246", 
+    "date": "Tue Aug 25 09:06:51 CEST 2015\n\n", 
+    "gen": "5437", 
     "gens": "945", 
-    "node": "graphene-76.nancy.grid5000.fr", 
+    "node": "griffon-63.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "t0 = t", 
-            "generation": 130, 
+            "generation": 564, 
+            "patch": "nextAction = handler.eventOccurred(t, y, !((increasing) ^ (forward)))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "REPLACE", 
+            "variant": 1128
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1559, 
             "patch": "remove", 
             "patchLocation": {
                 "className": "org.apache.commons.math.ode.events.EventState", 
                 "line": 283
             }, 
             "type": "DELETE", 
-            "variant": 260
+            "variant": 3118
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1758, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "DELETE", 
+            "variant": 3516
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 2933, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "DELETE", 
+            "variant": 5866
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 3393, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "DELETE", 
+            "variant": 6786
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 3651, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "DELETE", 
+            "variant": 7302
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 3686, 
+            "patch": "g0Positive = (g0) >= 0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "REPLACE", 
+            "variant": 7372
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 3748, 
+            "patch": "g0Positive = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "REPLACE", 
+            "variant": 7496
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 4424, 
+            "patch": "previousEventTime = t", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "REPLACE", 
+            "variant": 8848
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 4761, 
+            "patch": "g0Positive = increasing", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "REPLACE", 
+            "variant": 9522
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 4849, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "DELETE", 
+            "variant": 9698
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 5248, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "DELETE", 
+            "variant": 10496
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 5437, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 283
+            }, 
+            "type": "DELETE", 
+            "variant": 10874
         }
     ], 
     "ops": "0", 
-    "patches": "1", 
-    "programVariant": "260", 
-    "timeEvaluation": "120719", 
-    "timeTotal": "152501", 
+    "patches": "13", 
+    "programVariant": "1128", 
+    "timeEvaluation": "3661916", 
+    "timeTotal": "3698719", 
     "unfinishValidation": "0"
 }
