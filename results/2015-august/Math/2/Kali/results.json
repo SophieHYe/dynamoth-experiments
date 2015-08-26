@@ -1,17 +1,17 @@
 {
     "FailingTestCase": "16", 
-    "FailingTestCaseExecution": "1778", 
+    "FailingTestCaseExecution": "1828", 
     "InmutatedGen": "0", 
     "NotAppliedOp": "0", 
     "OfAppliedOp": "0", 
-    "RegressionTestCases": "5168", 
+    "RegressionTestCases": "5014", 
     "RegressionTestExecution": "8", 
-    "RightCompilation": "1777", 
+    "RightCompilation": "1827", 
     "WrongCompilation": "343", 
-    "date": "Thu Aug 13 20:47:02 CEST 2015\n\n", 
+    "date": "Tue Aug 25 21:25:40 CEST 2015\n\n", 
     "gen": "0", 
-    "gens": "920", 
-    "node": "griffon-2.nancy.grid5000.fr", 
+    "gens": "942", 
+    "node": "graphene-90.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "if (tmp < upper) {\n\tupper = ((int)(java.lang.Math.ceil(tmp))) - 1;\n} ", 
@@ -22,7 +22,7 @@
                 "line": 137
             }, 
             "type": "DELETE", 
-            "variant": 46
+            "variant": 48
         }, 
         {
             "buggyStatement": "if (tmp < upper) {\n\tupper = ((int)(java.lang.Math.ceil(tmp))) - 1;\n} ", 
@@ -33,7 +33,7 @@
                 "line": 137
             }, 
             "type": "REPLACE", 
-            "variant": 49
+            "variant": 51
         }, 
         {
             "buggyStatement": "upper = ((int)(java.lang.Math.ceil(tmp))) - 1", 
@@ -44,7 +44,7 @@
                 "line": 138
             }, 
             "type": "DELETE", 
-            "variant": 50
+            "variant": 52
         }, 
         {
             "buggyStatement": "if (chebyshevApplies) {\n\tdouble k = org.apache.commons.math3.util.FastMath.sqrt(((1.0 - p) / p));\n\tdouble tmp = mu - (k * sigma);\n\tif (tmp > lower) {\n\t\tlower = ((int)(java.lang.Math.ceil(tmp))) - 1;\n\t} \n\tk = 1.0 / k;\n\ttmp = mu + (k * sigma);\n\tif (tmp < upper) {\n\t\tupper = ((int)(java.lang.Math.ceil(tmp))) - 1;\n\t} \n} ", 
@@ -55,7 +55,7 @@
                 "line": 129
             }, 
             "type": "DELETE", 
-            "variant": 58
+            "variant": 60
         }, 
         {
             "buggyStatement": "if (chebyshevApplies) {\n\tdouble k = org.apache.commons.math3.util.FastMath.sqrt(((1.0 - p) / p));\n\tdouble tmp = mu - (k * sigma);\n\tif (tmp > lower) {\n\t\tlower = ((int)(java.lang.Math.ceil(tmp))) - 1;\n\t} \n\tk = 1.0 / k;\n\ttmp = mu + (k * sigma);\n\tif (tmp < upper) {\n\t\tupper = ((int)(java.lang.Math.ceil(tmp))) - 1;\n\t} \n} ", 
@@ -66,13 +66,13 @@
                 "line": 129
             }, 
             "type": "REPLACE", 
-            "variant": 61
+            "variant": 63
         }
     ], 
     "ops": "0", 
     "patches": "5", 
-    "programVariant": "46", 
+    "programVariant": "48", 
     "timeEvaluation": null, 
-    "timeTotal": "3661774", 
+    "timeTotal": "3811614", 
     "unfinishValidation": "1"
 }

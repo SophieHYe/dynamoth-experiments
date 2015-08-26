@@ -8,15 +8,15 @@
     "RegressionTestExecution": "0", 
     "RightCompilation": "1892", 
     "WrongCompilation": "388", 
-    "date": "Tue Aug 18 19:25:24 CEST 2015\n\n", 
+    "date": "Tue Aug 25 19:42:05 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "930", 
-    "node": "graphene-139.nancy.grid5000.fr", 
+    "node": "graphene-49.nancy.grid5000.fr", 
     "operations": [], 
     "ops": "0", 
     "patches": "0", 
     "programVariant": null, 
     "timeEvaluation": null, 
-    "timeTotal": "1445649", 
+    "timeTotal": "1426113", 
     "unfinishValidation": "0"
 }

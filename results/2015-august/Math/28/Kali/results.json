@@ -1,17 +1,17 @@
 {
     "FailingTestCase": "26", 
-    "FailingTestCaseExecution": "1677", 
+    "FailingTestCaseExecution": "1753", 
     "InmutatedGen": "0", 
     "NotAppliedOp": "0", 
     "OfAppliedOp": "0", 
-    "RegressionTestCases": "3958", 
+    "RegressionTestCases": "3830", 
     "RegressionTestExecution": "13", 
-    "RightCompilation": "1676", 
+    "RightCompilation": "1752", 
     "WrongCompilation": "416", 
-    "date": "Thu Aug 13 20:22:23 CEST 2015\n\n", 
+    "date": "Tue Aug 25 23:21:10 CEST 2015\n\n", 
     "gen": "0", 
-    "gens": "924", 
-    "node": "graphene-7.nancy.grid5000.fr", 
+    "gens": "954", 
+    "node": "graphene-46.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "if (row == (tableau.getBasicRow(i))) {\n\tif (i < minIndex) {\n\t\tminIndex = i;\n\t\tminRow = row;\n\t} \n} ", 
@@ -143,24 +143,13 @@
                 "line": 77
             }, 
             "type": "DELETE", 
-            "variant": 198
-        }, 
-        {
-            "buggyStatement": "if (cmp == 0) {\n\tminRatioPositions.add(i);\n} else if (cmp < 0) {\n\tminRatio = ratio;\n\tminRatioPositions = new java.util.ArrayList<java.lang.Integer>();\n\tminRatioPositions.add(i);\n} ", 
-            "generation": 1, 
-            "patch": "if (false) {\n\tminRatioPositions.add(i);\n} else if (cmp < 0) {\n\tminRatio = ratio;\n\tminRatioPositions = new java.util.ArrayList<java.lang.Integer>();\n\tminRatioPositions.add(i);\n} ", 
-            "patchLocation": {
-                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
-                "line": 103
-            }, 
-            "type": "REPLACE", 
-            "variant": 225
+            "variant": 212
         }
     ], 
     "ops": "0", 
-    "patches": "13", 
+    "patches": "12", 
     "programVariant": "18", 
     "timeEvaluation": null, 
-    "timeTotal": "3457844", 
+    "timeTotal": "5552458", 
     "unfinishValidation": "0"
 }

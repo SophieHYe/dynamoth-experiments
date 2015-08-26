@@ -25,6 +25,6 @@ java.lang.ArrayIndexOutOfBoundsException: -1
 	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:198)
 	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:232)
 
-real	1m56.241s
-user	2m35.886s
-sys	0m5.088s
+real	2m32.061s
+user	3m16.316s
+sys	0m7.016s

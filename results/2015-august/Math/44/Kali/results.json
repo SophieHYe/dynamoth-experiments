@@ -1,17 +1,17 @@
 {
     "FailingTestCase": "2", 
-    "FailingTestCaseExecution": "729", 
+    "FailingTestCaseExecution": "769", 
     "InmutatedGen": "0", 
     "NotAppliedOp": "0", 
     "OfAppliedOp": "0", 
-    "RegressionTestCases": "2988", 
+    "RegressionTestCases": "2956", 
     "RegressionTestExecution": "15", 
-    "RightCompilation": "728", 
-    "WrongCompilation": "1406", 
-    "date": "Thu Aug 13 20:24:47 CEST 2015\n\n", 
+    "RightCompilation": "768", 
+    "WrongCompilation": "1424", 
+    "date": "Tue Aug 25 23:21:04 CEST 2015\n\n", 
     "gen": "0", 
-    "gens": "928", 
-    "node": "griffon-15.nancy.grid5000.fr", 
+    "gens": "953", 
+    "node": "graphene-44.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "this.allowed = allowedSolution", 
@@ -22,7 +22,7 @@
                 "line": 385
             }, 
             "type": "INSERT_BEFORE", 
-            "variant": 199
+            "variant": 209
         }, 
         {
             "buggyStatement": "return super.solve(maxEval, f, min, max)", 
@@ -33,7 +33,7 @@
                 "line": 386
             }, 
             "type": "INSERT_BEFORE", 
-            "variant": 201
+            "variant": 211
         }, 
         {
             "buggyStatement": "if (!(statesInitialized)) {\n\tfor (org.apache.commons.math.ode.events.EventState state : eventsStates) {\n\t\tstate.reinitializeBegin(interpolator);\n\t}\n\tstatesInitialized = true;\n} ", 
@@ -44,7 +44,7 @@
                 "line": 284
             }, 
             "type": "REPLACE", 
-            "variant": 726
+            "variant": 762
         }, 
         {
             "buggyStatement": "statesInitialized = true", 
@@ -55,13 +55,13 @@
                 "line": 288
             }, 
             "type": "DELETE", 
-            "variant": 730
+            "variant": 766
         }
     ], 
     "ops": "0", 
     "patches": "4", 
-    "programVariant": "199", 
+    "programVariant": "209", 
     "timeEvaluation": null, 
-    "timeTotal": "3994945", 
+    "timeTotal": "5545759", 
     "unfinishValidation": "0"
 }

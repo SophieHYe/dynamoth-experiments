@@ -8,10 +8,10 @@
     "RegressionTestExecution": "47", 
     "RightCompilation": "2308", 
     "WrongCompilation": "358", 
-    "date": "Wed Aug 19 01:20:35 CEST 2015\n\n", 
+    "date": "Tue Aug 25 21:40:47 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "1044", 
-    "node": "graphene-73.nancy.grid5000.fr", 
+    "node": "graphene-45.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "org.jfree.chart.util.RectangleInsets insets = getInsets()", 
@@ -535,6 +535,6 @@
     "patches": "47", 
     "programVariant": "15", 
     "timeEvaluation": null, 
-    "timeTotal": "2526935", 
+    "timeTotal": "2515428", 
     "unfinishValidation": "0"
 }

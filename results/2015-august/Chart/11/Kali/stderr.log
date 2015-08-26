@@ -58,6 +58,6 @@ java.lang.IllegalStateException: Undo: Not valid fix position
 	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:198)
 	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:232)
 
-real	14m51.783s
-user	16m57.836s
-sys	0m55.015s
+real	14m58.902s
+user	17m6.336s
+sys	0m55.415s

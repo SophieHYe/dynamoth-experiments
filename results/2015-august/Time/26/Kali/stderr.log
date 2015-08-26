@@ -20,8 +20,7 @@ java.lang.IllegalStateException: Undo: Not valid fix position
 	at fr.inria.astor.core.loop.evolutionary.JKali.startEvolution(JKali.java:74)
 	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:198)
 	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:232)
-## OAR [2015-08-18 20:00:37] Job 632824 KILLED ##
 
-real	82m19.248s
-user	236m6.017s
-sys	2m50.363s
+real	81m4.602s
+user	226m51.763s
+sys	2m45.382s

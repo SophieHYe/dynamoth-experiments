@@ -154,6 +154,6 @@ java.lang.NullPointerException
 	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:198)
 	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:232)
 
-real	87m20.549s
-user	92m21.674s
-sys	0m59.472s
+real	87m32.459s
+user	92m31.147s
+sys	0m57.164s

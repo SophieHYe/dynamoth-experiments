@@ -8,10 +8,10 @@
     "RegressionTestExecution": "6", 
     "RightCompilation": "1796", 
     "WrongCompilation": "376", 
-    "date": "Tue Aug 18 20:45:18 CEST 2015\n\n", 
+    "date": "Tue Aug 25 20:20:52 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "962", 
-    "node": "graphene-62.nancy.grid5000.fr", 
+    "node": "graphene-45.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "if (!(isDefaultValue(value))) {\n\tentries.put(index, value);\n} else if (entries.containsKey(index)) {\n\tentries.remove(index);\n} ", 
@@ -51,6 +51,6 @@
     "patches": "3", 
     "programVariant": "38", 
     "timeEvaluation": null, 
-    "timeTotal": "1916407", 
+    "timeTotal": "1908063", 
     "unfinishValidation": "0"
 }

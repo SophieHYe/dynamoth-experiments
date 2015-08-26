@@ -8,10 +8,10 @@
     "RegressionTestExecution": "146", 
     "RightCompilation": "1967", 
     "WrongCompilation": "471", 
-    "date": "Wed Aug 19 01:12:22 CEST 2015\n\n", 
+    "date": "Tue Aug 25 21:40:04 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "993", 
-    "node": "graphene-66.nancy.grid5000.fr", 
+    "node": "graphene-21.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "if (!(data instanceof org.jfree.data.statistics.StatisticalCategoryDataset)) {\n\tthrow new java.lang.IllegalArgumentException(\"Requires StatisticalCategoryDataset.\");\n} ", 
@@ -1261,6 +1261,6 @@
     "patches": "113", 
     "programVariant": "5", 
     "timeEvaluation": null, 
-    "timeTotal": "2729915", 
+    "timeTotal": "2730042", 
     "unfinishValidation": "0"
 }

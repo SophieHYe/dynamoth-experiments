@@ -1,341 +1,341 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/projects/chart/chart_25 /tmp/chart_25_Kali;cd /tmp/chart_25_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
 /home/tdurieux/defects4j-repair/src/python/core/../../../results/2015-august/Chart/25/Kali/result
-cd /tmp/chart_25_Kali;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time java  -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 4 -maxgen 1000000 -seed 10 -maxtime 60  -scope local  -stopfirst true -flthreshold 0 -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/;echo "
+cd /tmp/chart_25_Kali;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time java  -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 4 -maxgen 1000000 -seed 10 -maxtime 60  -scope local  -stopfirst false -flthreshold 0 -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/;echo "
 
 Node: `hostname`
 ";echo "
 Date: `date`
 ";rm -rf /tmp/chart_25_Kali;
 
-2015-08-18 23:12:22,409 INFO main - End Repair Loops: Found solution
-2015-08-18 23:12:22,409 INFO main - Solution stored at: ./outputMutation//MainjGenProg-.//src/
-2015-08-18 23:12:22,410 INFO main - 
+2015-08-25 19:40:04,382 INFO main - End Repair Loops: Found solution
+2015-08-25 19:40:04,382 INFO main - Solution stored at: ./outputMutation//MainjGenProg-.//src/
+2015-08-25 19:40:04,382 INFO main - 
 Number solutions:113
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 5 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 9 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 11 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 12 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 13 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 17 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 19 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 20 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 21 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 23 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 24 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 25 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 27 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 29 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 47 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 49 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 51 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 238 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 307 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 443 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 445 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 446 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 447 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 449 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 451 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 452 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 453 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 455 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 456 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 457 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 459 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 475 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 477 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 579 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 602 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 603 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 605 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 606 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 607 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 609 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 610 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 611 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 624 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 625 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 626 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 627 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 630 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 631 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 632 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 633 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 665 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 667 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 669 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 670 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 671 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 683 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 685 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 687 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 689 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 691 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 692 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 693 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 694 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 695 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 982 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 984 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 986 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 989 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 990 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1015 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1283 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1285 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1287 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1288 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1291 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1295 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1297 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1299 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1301 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1303 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1305 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1307 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1309 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1313 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1315 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1317 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1319 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1321 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1323 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1325 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1329 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1333 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1335 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1337 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1339 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1341 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1343 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1345 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1347 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1349 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1350 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1351 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1355 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1357 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1359 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1361 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1365 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1367 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1369 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1370 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1371 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1372 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - f (sol): 0.0, [Variant id: 1373 (SOL) , #gens: 993, #ops: 1, parent:1]
-2015-08-18 23:12:22,410 INFO main - 
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 5 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 9 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 11 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 12 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 13 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 17 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 19 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 20 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 21 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 23 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 24 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 25 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 27 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 29 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 47 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 49 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 51 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 238 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 307 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 443 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 445 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 446 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 447 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 449 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 451 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 452 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 453 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 455 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 456 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 457 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 459 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 475 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 477 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 579 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 602 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 603 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 605 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 606 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 607 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 609 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 610 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 611 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 624 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 625 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 626 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 627 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 630 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 631 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 632 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 633 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 665 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 667 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 669 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 670 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 671 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 683 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 685 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 687 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 689 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 691 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 692 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 693 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 694 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 695 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 982 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 984 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 986 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 989 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 990 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1015 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1283 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1285 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1287 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1288 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1291 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1295 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1297 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1299 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1301 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1303 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1305 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1307 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1309 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1313 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1315 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1317 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1319 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1321 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1323 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1325 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1329 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1333 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1335 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1337 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1339 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1341 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1343 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1345 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1347 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,382 INFO main - f (sol): 0.0, [Variant id: 1349 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1350 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1351 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1355 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1357 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1359 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1361 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1365 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1367 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1369 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1370 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1371 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1372 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - f (sol): 0.0, [Variant id: 1373 (SOL) , #gens: 993, #ops: 1, parent:1]
+2015-08-25 19:40:04,383 INFO main - 
 All variants:
-2015-08-18 23:12:22,410 INFO main - f 16.0, [Variant id: 1, #gens: 993, #ops: 0, parent:-]
-2015-08-18 23:12:22,410 INFO main - 
+2015-08-25 19:40:04,383 INFO main - f 16.0, [Variant id: 1, #gens: 993, #ops: 0, parent:-]
+2015-08-25 19:40:04,383 INFO main - 
 Solution details
-2015-08-18 23:12:22,410 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,417 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,417 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,417 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,417 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,417 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,417 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,418 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,419 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,420 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,420 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,420 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,420 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,420 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,420 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,421 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,421 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,421 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,421 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,421 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,421 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
-2015-08-18 23:12:22,423 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,423 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,423 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,424 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,424 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,424 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,424 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,424 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,424 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,425 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,425 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,425 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,425 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,425 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,426 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,426 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,426 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,426 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,426 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,426 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,427 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,427 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,427 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,427 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,428 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,428 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,428 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,428 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,428 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,428 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,429 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,429 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,429 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,429 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,430 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,430 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,430 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,430 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,430 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,430 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,431 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,431 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,431 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,431 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,432 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,432 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,432 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,432 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,432 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,432 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,433 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,433 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,433 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,433 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,434 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,434 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,434 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,434 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,434 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,434 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,435 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,435 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,436 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,436 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,437 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,437 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,437 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,437 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,438 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,438 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,438 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,438 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,439 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,439 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,439 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,439 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,440 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,440 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,441 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,441 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,442 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,442 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
-2015-08-18 23:12:22,442 INFO main - 
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,383 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,384 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,385 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,386 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,387 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,388 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,388 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,388 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,388 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,388 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,388 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,389 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,389 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,389 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,389 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,389 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,389 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,390 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,391 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,391 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,391 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,391 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,391 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,391 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,392 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,393 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,393 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,393 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,394 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,394 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,394 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,394 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,394 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,394 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtReturnImpl != RootElement)null
+2015-08-25 19:40:04,396 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,397 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,397 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,397 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,397 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,397 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,397 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,398 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,398 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,398 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,399 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,399 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,399 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,399 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,399 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,399 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,400 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,400 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,400 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,400 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,401 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,401 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,401 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,401 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,401 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,401 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,402 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,402 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,402 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,402 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,403 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,403 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,403 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,403 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,404 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,404 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,404 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,404 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,404 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,404 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,405 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,405 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,405 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,405 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,406 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,406 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,406 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,406 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,406 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,406 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,407 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,407 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,407 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,407 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,408 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,408 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,408 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,408 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,409 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,409 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,409 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,409 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,410 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,410 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,411 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,412 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,413 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,414 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,415 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtCodeSnippetExpressionImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,416 WARN spoon.support.StandardEnvironment - warning: ignoring inconsistent parent for CtReturnImpl (CtIfImpl != RootElement)null
+2015-08-25 19:40:04,417 INFO main - 
  --SOLUTIONS DESCRIPTION--
 
  ----
@@ -2219,9 +2219,9 @@ fixed statement= if (true)
 generation= 1
 ingredientScope= -
  
-2015-08-18 23:12:22,442 INFO main - 
+2015-08-25 19:40:04,417 INFO main - 
 ----stats: 
-2015-08-18 23:12:22,442 INFO main - 
+2015-08-25 19:40:04,417 INFO main - 
 spaces navigation: [0]: {}
 #gen: 0
 #patches: 113
@@ -2239,12 +2239,12 @@ spaces navigation: [0]: {}
 #unfinishValidation: 0
 #ing {}
 #untilcompile {}
-2015-08-18 23:12:22,442 INFO fr.inria.main.AbstractMain - Time Total(ms): 2729915
+2015-08-25 19:40:04,417 INFO fr.inria.main.AbstractMain - Time Total(ms): 2730042
 
 
-Node: graphene-66.nancy.grid5000.fr
+Node: graphene-21.nancy.grid5000.fr
 
 
-Date: Wed Aug 19 01:12:22 CEST 2015
+Date: Tue Aug 25 21:40:04 CEST 2015
 
 

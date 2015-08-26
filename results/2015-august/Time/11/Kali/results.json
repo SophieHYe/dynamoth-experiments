@@ -8,10 +8,10 @@
     "RegressionTestExecution": "22", 
     "RightCompilation": "1984", 
     "WrongCompilation": "446", 
-    "date": "Tue Aug 18 19:35:05 CEST 2015\n\n", 
+    "date": "Tue Aug 25 19:51:48 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "1025", 
-    "node": "graphene-115.nancy.grid5000.fr", 
+    "node": "graphene-124.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "if (org.joda.time.tz.ZoneInfoCompiler.verbose()) {\n\tjava.lang.System.out.println((\"Fixing duplicate recurrent name key - \" + (tailZone.iStartRecurrence.getNameKey())));\n} ", 
@@ -260,6 +260,6 @@
     "patches": "22", 
     "programVariant": "4", 
     "timeEvaluation": null, 
-    "timeTotal": "2005817", 
+    "timeTotal": "1991768", 
     "unfinishValidation": "0"
 }

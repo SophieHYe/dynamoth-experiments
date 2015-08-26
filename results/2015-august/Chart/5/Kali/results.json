@@ -8,10 +8,10 @@
     "RegressionTestExecution": "1", 
     "RightCompilation": "2454", 
     "WrongCompilation": "334", 
-    "date": "Wed Aug 19 01:02:12 CEST 2015\n\n", 
+    "date": "Tue Aug 25 21:26:46 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "1078", 
-    "node": "graphene-68.nancy.grid5000.fr", 
+    "node": "graphene-37.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "if (this.autoSort) {\n\tthis.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y));\n} else {\n\tthis.data.add(new org.jfree.data.xy.XYDataItem(x , y));\n}", 
@@ -29,6 +29,6 @@
     "patches": "1", 
     "programVariant": "9", 
     "timeEvaluation": null, 
-    "timeTotal": "1069472", 
+    "timeTotal": "1069261", 
     "unfinishValidation": "0"
 }

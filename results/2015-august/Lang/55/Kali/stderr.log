@@ -1324,6 +1324,6 @@ java.lang.NullPointerException
 java.lang.NullPointerException
 java.lang.NullPointerException
 
-real	4m35.872s
-user	5m4.315s
-sys	0m4.408s
+real	4m19.033s
+user	4m49.770s
+sys	0m4.448s

@@ -1,0 +1,22 @@
+{
+    "FailingTestCase": "26", 
+    "FailingTestCaseExecution": "1744", 
+    "InmutatedGen": "0", 
+    "NotAppliedOp": "0", 
+    "OfAppliedOp": "0", 
+    "RegressionTestCases": "0", 
+    "RegressionTestExecution": "0", 
+    "RightCompilation": "1743", 
+    "WrongCompilation": "433", 
+    "date": "Tue Aug 25 23:26:51 CEST 2015\n\n", 
+    "gen": "0", 
+    "gens": "968", 
+    "node": "graphene-5.nancy.grid5000.fr", 
+    "operations": [], 
+    "ops": "0", 
+    "patches": "0", 
+    "programVariant": null, 
+    "timeEvaluation": null, 
+    "timeTotal": "5900382", 
+    "unfinishValidation": "0"
+}

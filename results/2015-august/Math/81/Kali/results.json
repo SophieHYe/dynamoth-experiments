@@ -8,10 +8,10 @@
     "RegressionTestExecution": "19", 
     "RightCompilation": "1824", 
     "WrongCompilation": "356", 
-    "date": "Tue Aug 18 20:49:13 CEST 2015\n\n", 
+    "date": "Tue Aug 25 20:21:15 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "944", 
-    "node": "graphene-61.nancy.grid5000.fr", 
+    "node": "graphene-90.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "tType = -5", 
@@ -34,17 +34,6 @@
             }, 
             "type": "INSERT_BEFORE", 
             "variant": 7
-        }, 
-        {
-            "buggyStatement": "final int np = nn - (2 * (pingPong))", 
-            "generation": 1, 
-            "patch": "if (true)\n\treturn ;\n", 
-            "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1530
-            }, 
-            "type": "INSERT_BEFORE", 
-            "variant": 9
         }, 
         {
             "buggyStatement": "double b1 = work[(np - 2)]", 
@@ -224,9 +213,9 @@
         }
     ], 
     "ops": "0", 
-    "patches": "19", 
+    "patches": "18", 
     "programVariant": "5", 
     "timeEvaluation": null, 
-    "timeTotal": "3128522", 
+    "timeTotal": "3120245", 
     "unfinishValidation": "0"
 }

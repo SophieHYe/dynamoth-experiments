@@ -8,10 +8,10 @@
     "RegressionTestExecution": "2", 
     "RightCompilation": "1804", 
     "WrongCompilation": "392", 
-    "date": "Tue Aug 18 20:23:59 CEST 2015\n\n", 
+    "date": "Tue Aug 25 19:49:37 CEST 2015\n\n", 
     "gen": "0", 
     "gens": "941", 
-    "node": "graphene-71.nancy.grid5000.fr", 
+    "node": "graphene-10.nancy.grid5000.fr", 
     "operations": [
         {
             "buggyStatement": "if ((comparator.compare(contracted, best)) < 0) {\n\treturn ;\n} ", 
@@ -40,6 +40,6 @@
     "patches": "2", 
     "programVariant": "17", 
     "timeEvaluation": null, 
-    "timeTotal": "1766655", 
+    "timeTotal": "1767258", 
     "unfinishValidation": "0"
 }
