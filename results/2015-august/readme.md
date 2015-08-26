@@ -2,315 +2,315 @@
 
  #   | BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | Kali      | Total
 ---- | ----------------- | --------- | --------- | --------- | --------- | --------- | --------- | ------
-   1 | [C1](#chart-1)    | No        | No        | No        | No        | Yes       | Yes       |Yes    
-   3 | [C3](#chart-3)    | No        | Yes       | No        | No        | Yes       | No       |No    
-   5 | [C5](#chart-5)    | No        | Yes       | No        | Yes       | Yes       | Yes       |Yes    
-   6 | [C6](#chart-6)    | TIMEOUT   | No        | Yes       | No        | No    | No       |No    
-   7 | [C7](#chart-7)    | No        | No        | No        | No        | Yes       | No       |No    
-   8 | [C8](#chart-8)    | No        | No        | No        | No        | Yes       | TIMEOUT   |TIMEOUT
-   9 | [C9](#chart-9)    | Yes       | Yes       | Yes       | Yes       | No    | No       |No    
-  13 | [C13](#chart-13)  | Yes       | Yes       | Yes       | No        | Yes       | Yes       |Yes    
-  15 | [C15](#chart-15)  | No        | No        | No        | No        | Yes       | Yes       |Yes    
-  17 | [C17](#chart-17)  | Yes       | Yes       | Yes       | Yes       | No       | No       |No    
-  21 | [C21](#chart-21)  | Yes       | No        | Yes       | No        | No    | Yes       |Yes    
-  25 | [C25](#chart-25)  | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |Yes    
-  26 | [C26](#chart-26)  | Yes       | Yes       | No        | Yes       | No    | Yes       |Yes    
-  65 | [L39](#lang-39)   | Yes       | No        | Yes       | No        | No       | No       |No    
-  70 | [L44](#lang-44)   | Yes       | Yes       | No        | No        | No    | No    |No  
-  72 | [L46](#lang-46)   | Yes       | No        | No        | No        | No    | No    |No  
-  77 | [L51](#lang-51)   | No        | Yes       | No        | No        | No    | No    |No  
-  79 | [L53](#lang-53)   | Yes       | TIMEOUT   | No        | No        | No       | No       |No    
-  81 | [L55](#lang-55)   | Yes       | No        | No        | No        | No    | No    |No  
-  84 | [L58](#lang-58)   | Yes       | Yes       | No        | No        | No       | No       |No    
-  93 | [M2](#math-2)     | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | Yes       | Yes       |Yes    
-  96 | [M5](#math-5)     | No        | No        | No        | No        | Yes       | No       |No    
-  98 | [M7](#math-7)     | No       | TIMEOUT   | No        | No        | Yes       | TIMEOUT   |TIMEOUT
-  99 | [M8](#math-8)     | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 106 | [M15](#math-15)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | TIMEOUT   |TIMEOUT
- 109 | [M18](#math-18)   | No        | No        | TIMEOUT   | TIMEOUT   | Yes       | TIMEOUT   |TIMEOUT
- 119 | [M28](#math-28)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | Yes       |Yes    
- 123 | [M32](#math-32)   | Yes       | No        | No        | Yes       | No       | Yes       |Yes    
- 124 | [M33](#math-33)   | Yes       | Yes       | Yes       | No        | No       | No       |No    
- 131 | [M40](#math-40)   | No        | Yes       | No        | ERROR     | Yes       | Yes       |Yes    
- 132 | [M41](#math-41)   | No       | No       | Yes       | Yes       | No       | No       |No    
- 133 | [M42](#math-42)   | Yes       | TIMEOUT   | Yes       | Yes       | No    | No       |No    
- 135 | [M44](#math-44)   | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 137 | [M46](#math-46)   | No        | No        | Yes       | No        | No       | No       |No    
- 140 | [M49](#math-49)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |Yes    
- 141 | [M50](#math-50)   | Yes       | Yes       | Yes       | ERROR     | Yes       | Yes       |Yes    
- 144 | [M53](#math-53)   | No        | No        | No        | No        | Yes       | No       |No    
- 147 | [M56](#math-56)   | No        | No        | TIMEOUT   | No        | Yes       | No       |No    
- 148 | [M57](#math-57)   | Yes       | Yes       | No        | No        | No       | No       |No    
- 149 | [M58](#math-58)   | Yes       | Yes       | Yes       | ERROR     | No    | TIMEOUT   |TIMEOUT
- 160 | [M69](#math-69)   | Yes       | No        | No        | No        | No       | No       |No    
- 161 | [M70](#math-70)   | No        | No        | No        | No        | Yes       | No       |No    
- 162 | [M71](#math-71)   | No        | Yes       | Yes       | No        | Yes       | TIMEOUT   |TIMEOUT
- 164 | [M73](#math-73)   | No        | Yes       | No        | No        | Yes       | No       |No    
- 169 | [M78](#math-78)   | Yes       | TIMEOUT   | Yes       | No        | Yes       | Yes       |Yes    
- 171 | [M80](#math-80)   | Yes       | TIMEOUT   | No        | No        | Yes       | Yes       |Yes    
- 172 | [M81](#math-81)   | Yes       | Yes       | TIMEOUT   | TIMEOUT   | Yes       | Yes       |Yes    
- 173 | [M82](#math-82)   | Yes       | No        | No        | No        | Yes       | Yes       |Yes    
- 175 | [M84](#math-84)   | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 176 | [M85](#math-85)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |Yes    
- 178 | [M87](#math-87)   | Yes       | Yes       | Yes       | No        | No       | No       |No    
- 179 | [M88](#math-88)   | Yes       | No        | Yes       | No        | No       | No       |No    
- 186 | [M95](#math-95)   | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 187 | [M96](#math-96)   | No        | No        | No        | Yes       | No       | No       |No    
- 188 | [M97](#math-97)   | Yes       | Yes       | Yes       | Yes       | No       | No       |No    
- 190 | [M99](#math-99)   | Yes       | Yes       | Yes       | Yes       | No       | No       |No    
- 195 | [M104](#math-104) | No        | Yes       | ERROR     | No        | No    | No       |No    
- 196 | [M105](#math-105) | Yes       | No        | Yes       | No        | No       | No       |No    
- 201 | [T4](#time-4)     | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 204 | [T7](#time-7)     | TIMEOUT   | TIMEOUT   | Yes       | ERROR     | No       | No       |No    
- 208 | [T11](#time-11)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |Yes    
-     | Total             | 31 (13%)  | 25 (11%)  | 24 (10%)  | 13 (5%)   | 33 (14%)  | 24 (10%)  |    150
+   1 | [C1](#chart-1)    | No        | No        | No        | No        | Yes       | Yes       |      2
+   3 | [C3](#chart-3)    | No        | Yes       | No        | No        | Yes       | No       |      2
+   5 | [C5](#chart-5)    | No        | Yes       | No        | Yes       | Yes       | Yes       |      4
+   6 | [C6](#chart-6)    | TIMEOUT   | No        | Yes       | No        | No    | No       |      1
+   7 | [C7](#chart-7)    | No        | No        | No        | No        | Yes       | No       |      1
+   8 | [C8](#chart-8)    | No        | No        | No        | No        | Yes       | TIMEOUT   |      1
+   9 | [C9](#chart-9)    | Yes       | Yes       | Yes       | Yes       | No    | No       |      4
+  13 | [C13](#chart-13)  | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
+  15 | [C15](#chart-15)  | No        | No        | No        | No        | Yes       | Yes       |      2
+  17 | [C17](#chart-17)  | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+  21 | [C21](#chart-21)  | Yes       | No        | Yes       | No        | No    | No    |      2
+  25 | [C25](#chart-25)  | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
+  26 | [C26](#chart-26)  | Yes       | Yes       | No        | Yes       | No    | No    |      3
+  65 | [L39](#lang-39)   | Yes       | No        | Yes       | No        | No       | No       |      2
+  70 | [L44](#lang-44)   | Yes       | Yes       | No        | No        | No    | No    |      2
+  72 | [L46](#lang-46)   | Yes       | No        | No        | No        | No    | No    |      1
+  77 | [L51](#lang-51)   | No        | Yes       | No        | No        | No    | No    |      1
+  79 | [L53](#lang-53)   | Yes       | TIMEOUT   | No        | No        | No       | No       |      1
+  81 | [L55](#lang-55)   | Yes       | No        | No        | No        | No    | No    |      1
+  84 | [L58](#lang-58)   | Yes       | Yes       | No        | No        | No       | No       |      2
+  93 | [M2](#math-2)     | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | Yes       | Yes       |      2
+  96 | [M5](#math-5)     | No        | No        | No        | No        | Yes       | No       |      1
+  98 | [M7](#math-7)     | No       | TIMEOUT   | No        | No        | Yes       | TIMEOUT   |      1
+  99 | [M8](#math-8)     | No        | No        | No        | No        | Yes       | Yes       |      2
+ 106 | [M15](#math-15)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | TIMEOUT   |      1
+ 109 | [M18](#math-18)   | No        | No        | TIMEOUT   | TIMEOUT   | Yes       | No       |      1
+ 119 | [M28](#math-28)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | Yes       |      2
+ 123 | [M32](#math-32)   | Yes       | No        | No        | Yes       | No       | Yes       |      3
+ 124 | [M33](#math-33)   | Yes       | Yes       | Yes       | No        | No       | No       |      3
+ 131 | [M40](#math-40)   | No        | Yes       | No        | ERROR     | Yes       | Yes       |      3
+ 132 | [M41](#math-41)   | No       | No       | Yes       | Yes       | No       | No       |      2
+ 133 | [M42](#math-42)   | Yes       | TIMEOUT   | Yes       | Yes       | No    | No       |      3
+ 135 | [M44](#math-44)   | No        | No        | No        | No        | Yes       | Yes       |      2
+ 137 | [M46](#math-46)   | No        | No        | Yes       | No        | No       | No       |      1
+ 140 | [M49](#math-49)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
+ 141 | [M50](#math-50)   | Yes       | Yes       | Yes       | ERROR     | Yes       | Yes       |      5
+ 144 | [M53](#math-53)   | No        | No        | No        | No        | Yes       | No       |      1
+ 147 | [M56](#math-56)   | No        | No        | TIMEOUT   | No        | Yes       | No       |      1
+ 148 | [M57](#math-57)   | Yes       | Yes       | No        | No        | No       | No       |      2
+ 149 | [M58](#math-58)   | Yes       | Yes       | Yes       | ERROR     | No    | No    |      3
+ 160 | [M69](#math-69)   | Yes       | No        | No        | No        | No       | No       |      1
+ 161 | [M70](#math-70)   | No        | No        | No        | No        | Yes       | No       |      1
+ 162 | [M71](#math-71)   | No        | Yes       | Yes       | No        | Yes       | TIMEOUT   |      3
+ 164 | [M73](#math-73)   | No        | Yes       | No        | No        | Yes       | No       |      2
+ 169 | [M78](#math-78)   | Yes       | TIMEOUT   | Yes       | No        | Yes       | Yes       |      4
+ 171 | [M80](#math-80)   | Yes       | TIMEOUT   | No        | No        | Yes       | Yes       |      3
+ 172 | [M81](#math-81)   | Yes       | Yes       | TIMEOUT   | TIMEOUT   | Yes       | Yes       |      4
+ 173 | [M82](#math-82)   | Yes       | No        | No        | No        | Yes       | Yes       |      3
+ 175 | [M84](#math-84)   | No        | No        | No        | No        | Yes       | Yes       |      2
+ 176 | [M85](#math-85)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
+ 178 | [M87](#math-87)   | Yes       | Yes       | Yes       | No        | No       | No       |      3
+ 179 | [M88](#math-88)   | Yes       | No        | Yes       | No        | No       | No       |      2
+ 186 | [M95](#math-95)   | No        | No        | No        | No        | Yes       | Yes       |      2
+ 187 | [M96](#math-96)   | No        | No        | No        | Yes       | No       | No       |      1
+ 188 | [M97](#math-97)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+ 190 | [M99](#math-99)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+ 195 | [M104](#math-104) | No        | Yes       | ERROR     | No        | No    | No       |      1
+ 196 | [M105](#math-105) | Yes       | No        | Yes       | No        | No       | No       |      2
+ 201 | [T4](#time-4)     | No        | No        | No        | No        | Yes       | Yes       |      2
+ 204 | [T7](#time-7)     | TIMEOUT   | TIMEOUT   | Yes       | ERROR     | No       | No       |      1
+ 208 | [T11](#time-11)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
+     | Total             | 31 (13%)  | 25 (11%)  | 24 (10%)  | 13 (5%)   | 33 (14%)  | 22 (9%)   |    148
 Fixed bugs: 61/224 (27%)
 
-Nb bugs ends with an execution error: 16
+Nb bugs ends with an execution error: 17
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 76
+Nb bugs ends with the Grid5000 timeout: 64
 
-Total execution time: 36 days, 20:33:23.020000
+Total execution time: 37 days, 4:56:25.898000
 # Complete data
 
  #   | BugId             | NopolPC   | NopolC    | BrutpolPC | BrutpolC  | Genprog   | Kali      | Total
 ---- | ----------------- | --------- | --------- | --------- | --------- | --------- | --------- | ------
-   1 | [C1](#chart-1)    | No        | No        | No        | No        | Yes       | Yes       |Yes    
-   2 | [C2](#chart-2)    | No        | No        | No        | No        | No       | No       |No    
-   3 | [C3](#chart-3)    | No        | Yes       | No        | No        | Yes       | No       |No    
-   4 | [C4](#chart-4)    | No        | No        | No        | No        | No       | No       |No    
-   5 | [C5](#chart-5)    | No        | Yes       | No        | Yes       | Yes       | Yes       |Yes    
-   6 | [C6](#chart-6)    | TIMEOUT   | No        | Yes       | No        | No    | No       |No    
-   7 | [C7](#chart-7)    | No        | No        | No        | No        | Yes       | No       |No    
-   8 | [C8](#chart-8)    | No        | No        | No        | No        | Yes       | TIMEOUT   |TIMEOUT
-   9 | [C9](#chart-9)    | Yes       | Yes       | Yes       | Yes       | No    | No       |No    
-  10 | [C10](#chart-10)  | No        | No        | No        | No        | No       | No       |No    
-  11 | [C11](#chart-11)  | No        | No        | No        | No        | No       | No       |No    
-  12 | [C12](#chart-12)  | No        | No        | No        | No        | No       | No       |No    
-  13 | [C13](#chart-13)  | Yes       | Yes       | Yes       | No        | Yes       | Yes       |Yes    
-  14 | [C14](#chart-14)  | No        | No        | No        | No        | No       | No       |No    
-  15 | [C15](#chart-15)  | No        | No        | No        | No        | Yes       | Yes       |Yes    
-  16 | [C16](#chart-16)  | No        | No        | No        | No        | No       | No       |No    
-  17 | [C17](#chart-17)  | Yes       | Yes       | Yes       | Yes       | No       | No       |No    
-  18 | [C18](#chart-18)  | No        | No        | No        | No        | No       | No       |No    
-  19 | [C19](#chart-19)  | No        | No        | No        | No        | No       | No       |No    
-  20 | [C20](#chart-20)  | No        | No        | No        | No        | No       | No       |No    
-  21 | [C21](#chart-21)  | Yes       | No        | Yes       | No        | No    | Yes       |Yes    
-  22 | [C22](#chart-22)  | No        | No        | No        | No        | No       | No       |No    
-  23 | [C23](#chart-23)  | No        | No        | No        | No        | No       | No       |No    
-  24 | [C24](#chart-24)  | No        | No        | No        | No        | No       | No       |No    
-  25 | [C25](#chart-25)  | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |Yes    
-  26 | [C26](#chart-26)  | Yes       | Yes       | No        | Yes       | No    | Yes       |Yes    
-  27 | [L1](#lang-1)     | No        | No        | No        | No        | No       | No       |No    
-  28 | [L2](#lang-2)     | TIMEOUT   | No        | No        | No        | No       | No       |No    
-  29 | [L3](#lang-3)     | TIMEOUT   | No        | No        | No        | No       | No       |No    
-  30 | [L4](#lang-4)     | No        | No        | No        | No        | No       | No       |No    
-  31 | [L5](#lang-5)     | No        | No        | No        | No        | No       | No       |No    
-  32 | [L6](#lang-6)     | No        | No        | No        | No        | No       | No    |No  
-  33 | [L7](#lang-7)     | TIMEOUT   | No        | No        | No        | No    | No       |No    
-  34 | [L8](#lang-8)     | No        | No        | No        | No        | No       | No       |No    
-  35 | [L9](#lang-9)     | No        | No        | No        | No        | No       | No       |No    
-  36 | [L10](#lang-10)   | TIMEOUT   | TIMEOUT   | No       | TIMEOUT   | No       | No    |No  
-  37 | [L11](#lang-11)   | No        | No        | No        | No        | No       | No       |No    
-  38 | [L12](#lang-12)   | No        | No        | No        | No        | No       | No       |No    
-  39 | [L13](#lang-13)   | No        | No        | No        | No        | No       | No       |No    
-  40 | [L14](#lang-14)   | No        | No        | No        | No        | No       | No       |No    
-  41 | [L15](#lang-15)   | No        | No        | No        | No        | No       | No       |No    
-  42 | [L16](#lang-16)   | No        | No        | No        | No        | No    | TIMEOUT   |TIMEOUT
-  43 | [L17](#lang-17)   | No        | No        | No        | No        | No    | TIMEOUT   |TIMEOUT
-  44 | [L18](#lang-18)   | No        | No        | No        | No        | No    | No    |No  
-  45 | [L19](#lang-19)   | No        | No        | No        | No        | No       | No       |No    
-  46 | [L20](#lang-20)   | No        | No        | No        | No        | No    | No    |No  
-  47 | [L21](#lang-21)   | No        | No        | No        | No        | No    | No    |No  
-  48 | [L22](#lang-22)   | TIMEOUT   | No        | No        | No        | No    | No    |No  
-  49 | [L23](#lang-23)   | No        | No        | No        | No        | No       | No       |No    
-  50 | [L24](#lang-24)   | No        | No        | No        | No        | No       | No       |No    
-  51 | [L25](#lang-25)   | No        | No        | No        | No        | No    | No    |No  
-  52 | [L26](#lang-26)   | No        | No        | No        | No        | No       | No       |No    
-  53 | [L27](#lang-27)   | No        | No        | No        | No        | No       | No       |No    
-  54 | [L28](#lang-28)   | No        | No        | No        | No        | No       | No       |No    
-  55 | [L29](#lang-29)   | No        | No        | No        | No        | No       | No       |No    
-  56 | [L30](#lang-30)   | No        | No        | No        | No        | No       | No       |No    
-  57 | [L31](#lang-31)   | No        | No        | No        | No        | No       | No       |No    
-  58 | [L32](#lang-32)   | No        | No        | No        | No        | No       | No       |No    
-  59 | [L33](#lang-33)   | No        | No        | No        | No        | No       | No       |No    
-  60 | [L34](#lang-34)   | No        | No        | No        | No        | No       | No       |No    
-  61 | [L35](#lang-35)   | No        | No        | No        | No        | No    | No    |No  
-  62 | [L36](#lang-36)   | No        | No        | No        | No        | No       | No       |No    
-  63 | [L37](#lang-37)   | No        | No        | No        | No        | No       | No       |No    
-  64 | [L38](#lang-38)   | TIMEOUT   | No        | No        | No        | No       | No       |No    
-  65 | [L39](#lang-39)   | Yes       | No        | Yes       | No        | No       | No       |No    
-  66 | [L40](#lang-40)   | No        | No        | No        | No        | No    | No    |No  
-  67 | [L41](#lang-41)   | No        | No        | No        | No        | No       | No       |No    
-  68 | [L42](#lang-42)   | No        | No        | No        | No        | No       | No       |No    
-  69 | [L43](#lang-43)   | No        | No        | No        | No        | No    | No    |No  
-  70 | [L44](#lang-44)   | Yes       | Yes       | No        | No        | No    | No    |No  
-  71 | [L45](#lang-45)   | No        | No        | No        | No        | No    | No    |No  
-  72 | [L46](#lang-46)   | Yes       | No        | No        | No        | No    | No    |No  
-  73 | [L47](#lang-47)   | No        | No        | No        | No        | No    | No    |No  
-  74 | [L48](#lang-48)   | No        | No        | No        | No        | No       | No       |No    
-  75 | [L49](#lang-49)   | No        | No        | No        | No        | No    | TIMEOUT   |TIMEOUT
-  76 | [L50](#lang-50)   | No        | No        | No        | No        | No    | No    |No  
-  77 | [L51](#lang-51)   | No        | Yes       | No        | No        | No    | No    |No  
-  78 | [L52](#lang-52)   | No        | No        | No        | No        | No    | No    |No  
-  79 | [L53](#lang-53)   | Yes       | TIMEOUT   | No        | No        | No       | No       |No    
-  80 | [L54](#lang-54)   | No        | No        | No        | No        | No    | TIMEOUT   |TIMEOUT
-  81 | [L55](#lang-55)   | Yes       | No        | No        | No        | No    | No    |No  
-  82 | [L56](#lang-56)   | No        | No        | No        | No        | No    | No    |No  
-  83 | [L57](#lang-57)   | No        | No        | No        | No        | No    | No    |No  
-  84 | [L58](#lang-58)   | Yes       | Yes       | No        | No        | No       | No       |No    
-  85 | [L59](#lang-59)   | No        | No        | No        | No        | No    | No    |No  
-  86 | [L60](#lang-60)   | No        | No        | No        | No        | No    | No    |No  
-  87 | [L61](#lang-61)   | No        | No        | No        | No        | No    | No    |No  
-  88 | [L62](#lang-62)   | No        | No        | No        | No        | No       | No       |No    
-  89 | [L63](#lang-63)   | No        | No        | No        | No        | No    | No    |No  
-  90 | [L64](#lang-64)   | No        | No        | No        | No        | No    | No    |No  
-  91 | [L65](#lang-65)   | No        | No        | No        | No        | No       | No       |No    
-  92 | [M1](#math-1)     | No        | No        | No        | No        | No       | No       |No    
-  93 | [M2](#math-2)     | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | Yes       | Yes       |Yes    
-  94 | [M3](#math-3)     | No        | No        | No        | No        | No       | No       |No    
-  95 | [M4](#math-4)     | TIMEOUT   | TIMEOUT   | No        | TIMEOUT   | No       | No       |No    
-  96 | [M5](#math-5)     | No        | No        | No        | No        | Yes       | No       |No    
-  97 | [M6](#math-6)     | No        | No        | No        | No        | ERROR     | ERROR     |ERROR  
-  98 | [M7](#math-7)     | No       | TIMEOUT   | No        | No        | Yes       | TIMEOUT   |TIMEOUT
-  99 | [M8](#math-8)     | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 100 | [M9](#math-9)     | No        | No        | No        | No        | No       | No    |No  
- 101 | [M10](#math-10)   | No        | No        | No        | No        | No       | No       |No    
- 102 | [M11](#math-11)   | No        | No        | No        | No        | No       | No       |No    
- 103 | [M12](#math-12)   | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | No       | TIMEOUT   |TIMEOUT
- 104 | [M13](#math-13)   | No        | No        | No        | No        | No       | TIMEOUT   |TIMEOUT
- 105 | [M14](#math-14)   | No        | No        | No        | No        | No       | TIMEOUT   |TIMEOUT
- 106 | [M15](#math-15)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | TIMEOUT   |TIMEOUT
- 107 | [M16](#math-16)   | No        | No        | No        | No        | No       | TIMEOUT   |TIMEOUT
- 108 | [M17](#math-17)   | No        | No        | No        | No        | No       | No       |No    
- 109 | [M18](#math-18)   | No        | No        | TIMEOUT   | TIMEOUT   | Yes       | TIMEOUT   |TIMEOUT
- 110 | [M19](#math-19)   | No        | No        | No        | No        | No       | No       |No    
- 111 | [M20](#math-20)   | No        | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | ERROR     |ERROR  
- 112 | [M21](#math-21)   | No        | No        | No        | No        | No       | No       |No    
- 113 | [M22](#math-22)   | No        | No        | No        | No        | No       | No       |No    
- 114 | [M23](#math-23)   | No        | TIMEOUT   | No        | No        | No    | No    |No  
- 115 | [M24](#math-24)   | No        | No        | No        | No        | No    | TIMEOUT   |TIMEOUT
- 116 | [M25](#math-25)   | No        | No        | No        | No        | No       | No       |No    
- 117 | [M26](#math-26)   | No        | No        | No        | TIMEOUT   | No       | No       |No    
- 118 | [M27](#math-27)   | No        | No        | No        | No        | No       | No       |No    
- 119 | [M28](#math-28)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | Yes       |Yes    
- 120 | [M29](#math-29)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |No    
- 121 | [M30](#math-30)   | No        | No        | No        | TIMEOUT   | No    | No    |No  
- 122 | [M31](#math-31)   | No        | No        | No        | No        | No       | No       |No    
- 123 | [M32](#math-32)   | Yes       | No        | No        | Yes       | No       | Yes       |Yes    
- 124 | [M33](#math-33)   | Yes       | Yes       | Yes       | No        | No       | No       |No    
- 125 | [M34](#math-34)   | No        | No        | No        | No        | No       | No       |No    
- 126 | [M35](#math-35)   | No        | No        | No        | No        | ERROR     | No       |No    
- 127 | [M36](#math-36)   | No        | No        | No        | No        | No       | No       |No    
- 128 | [M37](#math-37)   | No        | No        | No        | No        | No       | No       |No    
- 129 | [M38](#math-38)   | No        | No        | No        | No        | No       | No       |No    
- 130 | [M39](#math-39)   | No        | No        | No        | No        | No       | TIMEOUT   |TIMEOUT
- 131 | [M40](#math-40)   | No        | Yes       | No        | ERROR     | Yes       | Yes       |Yes    
- 132 | [M41](#math-41)   | No       | No       | Yes       | Yes       | No       | No       |No    
- 133 | [M42](#math-42)   | Yes       | TIMEOUT   | Yes       | Yes       | No    | No       |No    
- 134 | [M43](#math-43)   | No        | No        | No        | No        | No       | No       |No    
- 135 | [M44](#math-44)   | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 136 | [M45](#math-45)   | No        | No        | No        | No        | No       | No       |No    
- 137 | [M46](#math-46)   | No        | No        | Yes       | No        | No       | No       |No    
- 138 | [M47](#math-47)   | No        | No        | No        | No        | No       | No       |No    
- 139 | [M48](#math-48)   | No        | No        | No        | No        | No       | No       |No    
- 140 | [M49](#math-49)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |Yes    
- 141 | [M50](#math-50)   | Yes       | Yes       | Yes       | ERROR     | Yes       | Yes       |Yes    
- 142 | [M51](#math-51)   | No        | No        | No        | No        | ERROR     | ERROR     |ERROR  
- 143 | [M52](#math-52)   | No        | No        | No        | No        | No       | No       |No    
- 144 | [M53](#math-53)   | No        | No        | No        | No        | Yes       | No       |No    
- 145 | [M54](#math-54)   | No        | No        | No        | No        | No       | TIMEOUT   |TIMEOUT
- 146 | [M55](#math-55)   | No        | No        | No        | No        | No       | No       |No    
- 147 | [M56](#math-56)   | No        | No        | TIMEOUT   | No        | Yes       | No       |No    
- 148 | [M57](#math-57)   | Yes       | Yes       | No        | No        | No       | No       |No    
- 149 | [M58](#math-58)   | Yes       | Yes       | Yes       | ERROR     | No    | TIMEOUT   |TIMEOUT
- 150 | [M59](#math-59)   | No        | No        | No        | No        | No       | TIMEOUT   |TIMEOUT
- 151 | [M60](#math-60)   | No        | No        | TIMEOUT   | No        | No       | No       |No    
- 152 | [M61](#math-61)   | No        | No        | No        | No        | No       | No       |No    
- 153 | [M62](#math-62)   | No        | No        | No        | No        | No       | No       |No    
- 154 | [M63](#math-63)   | No        | No        | No        | No        | No       | No       |No    
- 155 | [M64](#math-64)   | TIMEOUT   | No        | No        | No        | No       | No       |No    
- 156 | [M65](#math-65)   | No        | No        | No        | No        | No       | No       |No    
- 157 | [M66](#math-66)   | No        | No        | No        | No        | No       | No       |No    
- 158 | [M67](#math-67)   | No        | No        | No        | No        | No       | No       |No    
- 159 | [M68](#math-68)   | No        | No        | No        | No        | No       | No       |No    
- 160 | [M69](#math-69)   | Yes       | No        | No        | No        | No       | No       |No    
- 161 | [M70](#math-70)   | No        | No        | No        | No        | Yes       | No       |No    
- 162 | [M71](#math-71)   | No        | Yes       | Yes       | No        | Yes       | TIMEOUT   |TIMEOUT
- 163 | [M72](#math-72)   | No        | No        | No        | No        | No    | No       |No    
- 164 | [M73](#math-73)   | No        | Yes       | No        | No        | Yes       | No       |No    
- 165 | [M74](#math-74)   | No        | ERROR     | TIMEOUT   | TIMEOUT   | No       | No       |No    
- 166 | [M75](#math-75)   | No        | No        | No        | No        | No       | No       |No    
- 167 | [M76](#math-76)   | No        | No        | No        | No        | No       | No       |No    
- 168 | [M77](#math-77)   | No        | No        | No        | No        | No       | No       |No    
- 169 | [M78](#math-78)   | Yes       | TIMEOUT   | Yes       | No        | Yes       | Yes       |Yes    
- 170 | [M79](#math-79)   | No        | No        | No        | No        | No    | No       |No    
- 171 | [M80](#math-80)   | Yes       | TIMEOUT   | No        | No        | Yes       | Yes       |Yes    
- 172 | [M81](#math-81)   | Yes       | Yes       | TIMEOUT   | TIMEOUT   | Yes       | Yes       |Yes    
- 173 | [M82](#math-82)   | Yes       | No        | No        | No        | Yes       | Yes       |Yes    
- 174 | [M83](#math-83)   | No        | No        | No        | No        | No       | No       |No    
- 175 | [M84](#math-84)   | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 176 | [M85](#math-85)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |Yes    
- 177 | [M86](#math-86)   | No        | No        | No        | No        | No       | No       |No    
- 178 | [M87](#math-87)   | Yes       | Yes       | Yes       | No        | No       | No       |No    
- 179 | [M88](#math-88)   | Yes       | No        | Yes       | No        | No       | No       |No    
- 180 | [M89](#math-89)   | No        | No        | No        | No        | No       | No       |No    
- 181 | [M90](#math-90)   | No        | No        | No        | No        | No       | No       |No    
- 182 | [M91](#math-91)   | No        | No        | No        | No        | No       | No       |No    
- 183 | [M92](#math-92)   | No        | No        | No        | No        | No       | No       |No    
- 184 | [M93](#math-93)   | No        | No        | No        | No        | No       | No       |No    
- 185 | [M94](#math-94)   | No        | No        | No        | No        | No       | No       |No    
- 186 | [M95](#math-95)   | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 187 | [M96](#math-96)   | No        | No        | No        | Yes       | No       | No       |No    
- 188 | [M97](#math-97)   | Yes       | Yes       | Yes       | Yes       | No       | No       |No    
- 189 | [M98](#math-98)   | No        | No        | No        | No        | No       | No       |No    
- 190 | [M99](#math-99)   | Yes       | Yes       | Yes       | Yes       | No       | No       |No    
- 191 | [M100](#math-100) | No        | No        | No        | No        | No       | No       |No    
- 192 | [M101](#math-101) | No        | No        | No        | No        | No       | No       |No    
- 193 | [M102](#math-102) | No        | No        | No        | No        | No       | No       |No    
- 194 | [M103](#math-103) | No        | No        | No        | No        | No       | No       |No    
- 195 | [M104](#math-104) | No        | Yes       | ERROR     | No        | No    | No       |No    
- 196 | [M105](#math-105) | Yes       | No        | Yes       | No        | No       | No       |No    
- 197 | [M106](#math-106) | No        | TIMEOUT   | No        | No        | No       | No       |No    
- 198 | [T1](#time-1)     | No        | TIMEOUT   | No        | ERROR     | No    | No       |No    
- 199 | [T2](#time-2)     | No        | No        | No        | No        | No    | No       |No    
- 200 | [T3](#time-3)     | No        | TIMEOUT   | No        | No        | No       | No       |No    
- 201 | [T4](#time-4)     | No        | No        | No        | No        | Yes       | Yes       |Yes    
- 202 | [T5](#time-5)     | No        | No        | No        | No        | No       | No       |No    
- 203 | [T6](#time-6)     | No        | No        | No        | No        | No       | No       |No    
- 204 | [T7](#time-7)     | TIMEOUT   | TIMEOUT   | Yes       | ERROR     | No       | No       |No    
- 205 | [T8](#time-8)     | No        | No        | No        | No        | No       | No       |No    
- 206 | [T9](#time-9)     | No        | No        | No        | No        | No       | No       |No    
- 207 | [T10](#time-10)   | No        | No        | No        | No        | No       | No       |No    
- 208 | [T11](#time-11)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |Yes    
- 209 | [T12](#time-12)   | TIMEOUT   | No        | No        | No        | No       | No       |No    
- 210 | [T13](#time-13)   | No        | No        | No        | No        | No       | No       |No    
- 211 | [T14](#time-14)   | No        | No        | No        | No        | No       | No       |No    
- 212 | [T15](#time-15)   | No        | No        | No        | No        | No       | No       |No    
- 213 | [T16](#time-16)   | No        | No        | No        | TIMEOUT   | No       | No       |No    
- 214 | [T17](#time-17)   | No        | No        | No        | No        | No       | No    |No  
- 215 | [T18](#time-18)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No    |No  
- 216 | [T19](#time-19)   | No        | No        | TIMEOUT   | No        | No       | TIMEOUT   |TIMEOUT
- 217 | [T20](#time-20)   | No        | No        | No        | No        | No       | No       |No    
- 218 | [T21](#time-21)   | No        | No        | No        | No        | No       | TIMEOUT   |TIMEOUT
- 219 | [T22](#time-22)   | No        | No        | No        | No        | No    | No    |No  
- 220 | [T23](#time-23)   | No        | No        | No        | No        | No       | No       |No    
- 221 | [T24](#time-24)   | No        | No        | No        | No        | No       | No    |No  
- 222 | [T25](#time-25)   | No        | No        | None AV   | No        | No       | TIMEOUT   |TIMEOUT
- 223 | [T26](#time-26)   | No        | TIMEOUT   | No        | No        | No       | No       |No    
- 224 | [T27](#time-27)   | No        | No        | No        | No        | No       | No       |No    
-     | Total             | 31 (13%)  | 25 (11%)  | 24 (10%)  | 13 (5%)   | 33 (14%)  | 24 (10%)  |    150
+   1 | [C1](#chart-1)    | No        | No        | No        | No        | Yes       | Yes       |      2
+   2 | [C2](#chart-2)    | No        | No        | No        | No        | No       | No       |      0
+   3 | [C3](#chart-3)    | No        | Yes       | No        | No        | Yes       | No       |      2
+   4 | [C4](#chart-4)    | No        | No        | No        | No        | No       | No       |      0
+   5 | [C5](#chart-5)    | No        | Yes       | No        | Yes       | Yes       | Yes       |      4
+   6 | [C6](#chart-6)    | TIMEOUT   | No        | Yes       | No        | No    | No       |      1
+   7 | [C7](#chart-7)    | No        | No        | No        | No        | Yes       | No       |      1
+   8 | [C8](#chart-8)    | No        | No        | No        | No        | Yes       | TIMEOUT   |      1
+   9 | [C9](#chart-9)    | Yes       | Yes       | Yes       | Yes       | No    | No       |      4
+  10 | [C10](#chart-10)  | No        | No        | No        | No        | No       | No       |      0
+  11 | [C11](#chart-11)  | No        | No        | No        | No        | No       | No       |      0
+  12 | [C12](#chart-12)  | No        | No        | No        | No        | No       | No       |      0
+  13 | [C13](#chart-13)  | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
+  14 | [C14](#chart-14)  | No        | No        | No        | No        | No       | No       |      0
+  15 | [C15](#chart-15)  | No        | No        | No        | No        | Yes       | Yes       |      2
+  16 | [C16](#chart-16)  | No        | No        | No        | No        | No       | No       |      0
+  17 | [C17](#chart-17)  | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+  18 | [C18](#chart-18)  | No        | No        | No        | No        | No       | No       |      0
+  19 | [C19](#chart-19)  | No        | No        | No        | No        | No       | No       |      0
+  20 | [C20](#chart-20)  | No        | No        | No        | No        | No       | No       |      0
+  21 | [C21](#chart-21)  | Yes       | No        | Yes       | No        | No    | No    |      2
+  22 | [C22](#chart-22)  | No        | No        | No        | No        | No       | No       |      0
+  23 | [C23](#chart-23)  | No        | No        | No        | No        | No       | No       |      0
+  24 | [C24](#chart-24)  | No        | No        | No        | No        | No       | No       |      0
+  25 | [C25](#chart-25)  | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
+  26 | [C26](#chart-26)  | Yes       | Yes       | No        | Yes       | No    | No    |      3
+  27 | [L1](#lang-1)     | No        | No        | No        | No        | No       | No       |      0
+  28 | [L2](#lang-2)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
+  29 | [L3](#lang-3)     | TIMEOUT   | No        | No        | No        | No       | No       |      0
+  30 | [L4](#lang-4)     | No        | No        | No        | No        | No       | No       |      0
+  31 | [L5](#lang-5)     | No        | No        | No        | No        | No       | No       |      0
+  32 | [L6](#lang-6)     | No        | No        | No        | No        | No       | No    |      0
+  33 | [L7](#lang-7)     | TIMEOUT   | No        | No        | No        | No    | No       |      0
+  34 | [L8](#lang-8)     | No        | No        | No        | No        | No       | No       |      0
+  35 | [L9](#lang-9)     | No        | No        | No        | No        | No       | No       |      0
+  36 | [L10](#lang-10)   | TIMEOUT   | TIMEOUT   | No       | TIMEOUT   | No       | No    |      0
+  37 | [L11](#lang-11)   | No        | No        | No        | No        | No       | No       |      0
+  38 | [L12](#lang-12)   | No        | No        | No        | No        | No       | No       |      0
+  39 | [L13](#lang-13)   | No        | No        | No        | No        | No       | No       |      0
+  40 | [L14](#lang-14)   | No        | No        | No        | No        | No       | No       |      0
+  41 | [L15](#lang-15)   | No        | No        | No        | No        | No       | No       |      0
+  42 | [L16](#lang-16)   | No        | No        | No        | No        | No    | TIMEOUT   |      0
+  43 | [L17](#lang-17)   | No        | No        | No        | No        | No    | TIMEOUT   |      0
+  44 | [L18](#lang-18)   | No        | No        | No        | No        | No    | No    |      0
+  45 | [L19](#lang-19)   | No        | No        | No        | No        | No       | No       |      0
+  46 | [L20](#lang-20)   | No        | No        | No        | No        | No    | No    |      0
+  47 | [L21](#lang-21)   | No        | No        | No        | No        | No    | No    |      0
+  48 | [L22](#lang-22)   | TIMEOUT   | No        | No        | No        | No    | No    |      0
+  49 | [L23](#lang-23)   | No        | No        | No        | No        | No       | No       |      0
+  50 | [L24](#lang-24)   | No        | No        | No        | No        | No       | No       |      0
+  51 | [L25](#lang-25)   | No        | No        | No        | No        | No    | No    |      0
+  52 | [L26](#lang-26)   | No        | No        | No        | No        | No       | No       |      0
+  53 | [L27](#lang-27)   | No        | No        | No        | No        | No       | No       |      0
+  54 | [L28](#lang-28)   | No        | No        | No        | No        | No       | No       |      0
+  55 | [L29](#lang-29)   | No        | No        | No        | No        | No       | No       |      0
+  56 | [L30](#lang-30)   | No        | No        | No        | No        | No       | No       |      0
+  57 | [L31](#lang-31)   | No        | No        | No        | No        | No       | No       |      0
+  58 | [L32](#lang-32)   | No        | No        | No        | No        | No       | No       |      0
+  59 | [L33](#lang-33)   | No        | No        | No        | No        | No       | No       |      0
+  60 | [L34](#lang-34)   | No        | No        | No        | No        | No       | No       |      0
+  61 | [L35](#lang-35)   | No        | No        | No        | No        | No    | No    |      0
+  62 | [L36](#lang-36)   | No        | No        | No        | No        | No       | No       |      0
+  63 | [L37](#lang-37)   | No        | No        | No        | No        | No       | No       |      0
+  64 | [L38](#lang-38)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
+  65 | [L39](#lang-39)   | Yes       | No        | Yes       | No        | No       | No       |      2
+  66 | [L40](#lang-40)   | No        | No        | No        | No        | No    | No    |      0
+  67 | [L41](#lang-41)   | No        | No        | No        | No        | No       | No       |      0
+  68 | [L42](#lang-42)   | No        | No        | No        | No        | No       | No       |      0
+  69 | [L43](#lang-43)   | No        | No        | No        | No        | No    | No    |      0
+  70 | [L44](#lang-44)   | Yes       | Yes       | No        | No        | No    | No    |      2
+  71 | [L45](#lang-45)   | No        | No        | No        | No        | No    | No    |      0
+  72 | [L46](#lang-46)   | Yes       | No        | No        | No        | No    | No    |      1
+  73 | [L47](#lang-47)   | No        | No        | No        | No        | No    | No    |      0
+  74 | [L48](#lang-48)   | No        | No        | No        | No        | No       | No       |      0
+  75 | [L49](#lang-49)   | No        | No        | No        | No        | No    | No    |      0
+  76 | [L50](#lang-50)   | No        | No        | No        | No        | No    | No    |      0
+  77 | [L51](#lang-51)   | No        | Yes       | No        | No        | No    | No    |      1
+  78 | [L52](#lang-52)   | No        | No        | No        | No        | No    | No    |      0
+  79 | [L53](#lang-53)   | Yes       | TIMEOUT   | No        | No        | No       | No       |      1
+  80 | [L54](#lang-54)   | No        | No        | No        | No        | No    | No    |      0
+  81 | [L55](#lang-55)   | Yes       | No        | No        | No        | No    | No    |      1
+  82 | [L56](#lang-56)   | No        | No        | No        | No        | No    | No    |      0
+  83 | [L57](#lang-57)   | No        | No        | No        | No        | No    | No    |      0
+  84 | [L58](#lang-58)   | Yes       | Yes       | No        | No        | No       | No       |      2
+  85 | [L59](#lang-59)   | No        | No        | No        | No        | No    | No    |      0
+  86 | [L60](#lang-60)   | No        | No        | No        | No        | No    | No    |      0
+  87 | [L61](#lang-61)   | No        | No        | No        | No        | No    | No    |      0
+  88 | [L62](#lang-62)   | No        | No        | No        | No        | No       | No       |      0
+  89 | [L63](#lang-63)   | No        | No        | No        | No        | No    | No    |      0
+  90 | [L64](#lang-64)   | No        | No        | No        | No        | No    | No    |      0
+  91 | [L65](#lang-65)   | No        | No        | No        | No        | No       | No       |      0
+  92 | [M1](#math-1)     | No        | No        | No        | No        | No       | No       |      0
+  93 | [M2](#math-2)     | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | Yes       | Yes       |      2
+  94 | [M3](#math-3)     | No        | No        | No        | No        | No       | No       |      0
+  95 | [M4](#math-4)     | TIMEOUT   | TIMEOUT   | No        | TIMEOUT   | No       | No       |      0
+  96 | [M5](#math-5)     | No        | No        | No        | No        | Yes       | No       |      1
+  97 | [M6](#math-6)     | No        | No        | No        | No        | ERROR     | ERROR     |      0
+  98 | [M7](#math-7)     | No       | TIMEOUT   | No        | No        | Yes       | TIMEOUT   |      1
+  99 | [M8](#math-8)     | No        | No        | No        | No        | Yes       | Yes       |      2
+ 100 | [M9](#math-9)     | No        | No        | No        | No        | No       | No    |      0
+ 101 | [M10](#math-10)   | No        | No        | No        | No        | No       | No       |      0
+ 102 | [M11](#math-11)   | No        | No        | No        | No        | No       | No       |      0
+ 103 | [M12](#math-12)   | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | No       | No    |      0
+ 104 | [M13](#math-13)   | No        | No        | No        | No        | No       | No       |      0
+ 105 | [M14](#math-14)   | No        | No        | No        | No        | No       | No       |      0
+ 106 | [M15](#math-15)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | TIMEOUT   |      1
+ 107 | [M16](#math-16)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
+ 108 | [M17](#math-17)   | No        | No        | No        | No        | No       | No       |      0
+ 109 | [M18](#math-18)   | No        | No        | TIMEOUT   | TIMEOUT   | Yes       | No       |      1
+ 110 | [M19](#math-19)   | No        | No        | No        | No        | No       | No       |      0
+ 111 | [M20](#math-20)   | No        | TIMEOUT   | TIMEOUT   | TIMEOUT   | ERROR     | ERROR     |      0
+ 112 | [M21](#math-21)   | No        | No        | No        | No        | No       | No       |      0
+ 113 | [M22](#math-22)   | No        | No        | No        | No        | No       | No       |      0
+ 114 | [M23](#math-23)   | No        | TIMEOUT   | No        | No        | No    | No    |      0
+ 115 | [M24](#math-24)   | No        | No        | No        | No        | No    | No    |      0
+ 116 | [M25](#math-25)   | No        | No        | No        | No        | No       | No       |      0
+ 117 | [M26](#math-26)   | No        | No        | No        | TIMEOUT   | No       | No       |      0
+ 118 | [M27](#math-27)   | No        | No        | No        | No        | No       | No       |      0
+ 119 | [M28](#math-28)   | No        | TIMEOUT   | No        | TIMEOUT   | Yes       | Yes       |      2
+ 120 | [M29](#math-29)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No       |      0
+ 121 | [M30](#math-30)   | No        | No        | No        | TIMEOUT   | No    | No    |      0
+ 122 | [M31](#math-31)   | No        | No        | No        | No        | No       | No       |      0
+ 123 | [M32](#math-32)   | Yes       | No        | No        | Yes       | No       | Yes       |      3
+ 124 | [M33](#math-33)   | Yes       | Yes       | Yes       | No        | No       | No       |      3
+ 125 | [M34](#math-34)   | No        | No        | No        | No        | No       | No       |      0
+ 126 | [M35](#math-35)   | No        | No        | No        | No        | ERROR     | No       |      0
+ 127 | [M36](#math-36)   | No        | No        | No        | No        | No       | No       |      0
+ 128 | [M37](#math-37)   | No        | No        | No        | No        | No       | No       |      0
+ 129 | [M38](#math-38)   | No        | No        | No        | No        | No       | No       |      0
+ 130 | [M39](#math-39)   | No        | No        | No        | No        | No       | No       |      0
+ 131 | [M40](#math-40)   | No        | Yes       | No        | ERROR     | Yes       | Yes       |      3
+ 132 | [M41](#math-41)   | No       | No       | Yes       | Yes       | No       | No       |      2
+ 133 | [M42](#math-42)   | Yes       | TIMEOUT   | Yes       | Yes       | No    | No       |      3
+ 134 | [M43](#math-43)   | No        | No        | No        | No        | No       | No       |      0
+ 135 | [M44](#math-44)   | No        | No        | No        | No        | Yes       | Yes       |      2
+ 136 | [M45](#math-45)   | No        | No        | No        | No        | No       | No       |      0
+ 137 | [M46](#math-46)   | No        | No        | Yes       | No        | No       | No       |      1
+ 138 | [M47](#math-47)   | No        | No        | No        | No        | No       | No       |      0
+ 139 | [M48](#math-48)   | No        | No        | No        | No        | No       | No       |      0
+ 140 | [M49](#math-49)   | Yes       | Yes       | Yes       | No        | Yes       | Yes       |      5
+ 141 | [M50](#math-50)   | Yes       | Yes       | Yes       | ERROR     | Yes       | Yes       |      5
+ 142 | [M51](#math-51)   | No        | No        | No        | No        | ERROR     | ERROR     |      0
+ 143 | [M52](#math-52)   | No        | No        | No        | No        | No       | No       |      0
+ 144 | [M53](#math-53)   | No        | No        | No        | No        | Yes       | No       |      1
+ 145 | [M54](#math-54)   | No        | No        | No        | No        | No       | No       |      0
+ 146 | [M55](#math-55)   | No        | No        | No        | No        | No       | No       |      0
+ 147 | [M56](#math-56)   | No        | No        | TIMEOUT   | No        | Yes       | No       |      1
+ 148 | [M57](#math-57)   | Yes       | Yes       | No        | No        | No       | No       |      2
+ 149 | [M58](#math-58)   | Yes       | Yes       | Yes       | ERROR     | No    | No    |      3
+ 150 | [M59](#math-59)   | No        | No        | No        | No        | No       | TIMEOUT   |      0
+ 151 | [M60](#math-60)   | No        | No        | TIMEOUT   | No        | No       | No       |      0
+ 152 | [M61](#math-61)   | No        | No        | No        | No        | No       | No       |      0
+ 153 | [M62](#math-62)   | No        | No        | No        | No        | No       | No       |      0
+ 154 | [M63](#math-63)   | No        | No        | No        | No        | No       | No       |      0
+ 155 | [M64](#math-64)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
+ 156 | [M65](#math-65)   | No        | No        | No        | No        | No       | No       |      0
+ 157 | [M66](#math-66)   | No        | No        | No        | No        | No       | No       |      0
+ 158 | [M67](#math-67)   | No        | No        | No        | No        | No       | No       |      0
+ 159 | [M68](#math-68)   | No        | No        | No        | No        | No       | No       |      0
+ 160 | [M69](#math-69)   | Yes       | No        | No        | No        | No       | No       |      1
+ 161 | [M70](#math-70)   | No        | No        | No        | No        | Yes       | No       |      1
+ 162 | [M71](#math-71)   | No        | Yes       | Yes       | No        | Yes       | TIMEOUT   |      3
+ 163 | [M72](#math-72)   | No        | No        | No        | No        | No    | No       |      0
+ 164 | [M73](#math-73)   | No        | Yes       | No        | No        | Yes       | No       |      2
+ 165 | [M74](#math-74)   | No        | ERROR     | TIMEOUT   | TIMEOUT   | No       | No       |      0
+ 166 | [M75](#math-75)   | No        | No        | No        | No        | No       | No       |      0
+ 167 | [M76](#math-76)   | No        | No        | No        | No        | No       | No       |      0
+ 168 | [M77](#math-77)   | No        | No        | No        | No        | No       | No       |      0
+ 169 | [M78](#math-78)   | Yes       | TIMEOUT   | Yes       | No        | Yes       | Yes       |      4
+ 170 | [M79](#math-79)   | No        | No        | No        | No        | No    | No       |      0
+ 171 | [M80](#math-80)   | Yes       | TIMEOUT   | No        | No        | Yes       | Yes       |      3
+ 172 | [M81](#math-81)   | Yes       | Yes       | TIMEOUT   | TIMEOUT   | Yes       | Yes       |      4
+ 173 | [M82](#math-82)   | Yes       | No        | No        | No        | Yes       | Yes       |      3
+ 174 | [M83](#math-83)   | No        | No        | No        | No        | No       | No       |      0
+ 175 | [M84](#math-84)   | No        | No        | No        | No        | Yes       | Yes       |      2
+ 176 | [M85](#math-85)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
+ 177 | [M86](#math-86)   | No        | No        | No        | No        | No       | No       |      0
+ 178 | [M87](#math-87)   | Yes       | Yes       | Yes       | No        | No       | No       |      3
+ 179 | [M88](#math-88)   | Yes       | No        | Yes       | No        | No       | No       |      2
+ 180 | [M89](#math-89)   | No        | No        | No        | No        | No       | No       |      0
+ 181 | [M90](#math-90)   | No        | No        | No        | No        | No       | No       |      0
+ 182 | [M91](#math-91)   | No        | No        | No        | No        | No       | No       |      0
+ 183 | [M92](#math-92)   | No        | No        | No        | No        | No       | No       |      0
+ 184 | [M93](#math-93)   | No        | No        | No        | No        | No       | No       |      0
+ 185 | [M94](#math-94)   | No        | No        | No        | No        | No       | No       |      0
+ 186 | [M95](#math-95)   | No        | No        | No        | No        | Yes       | Yes       |      2
+ 187 | [M96](#math-96)   | No        | No        | No        | Yes       | No       | No       |      1
+ 188 | [M97](#math-97)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+ 189 | [M98](#math-98)   | No        | No        | No        | No        | No       | No       |      0
+ 190 | [M99](#math-99)   | Yes       | Yes       | Yes       | Yes       | No       | No       |      4
+ 191 | [M100](#math-100) | No        | No        | No        | No        | No       | No       |      0
+ 192 | [M101](#math-101) | No        | No        | No        | No        | No       | No       |      0
+ 193 | [M102](#math-102) | No        | No        | No        | No        | No       | No       |      0
+ 194 | [M103](#math-103) | No        | No        | No        | No        | No       | No       |      0
+ 195 | [M104](#math-104) | No        | Yes       | ERROR     | No        | No    | No       |      1
+ 196 | [M105](#math-105) | Yes       | No        | Yes       | No        | No       | No       |      2
+ 197 | [M106](#math-106) | No        | TIMEOUT   | No        | No        | No       | No       |      0
+ 198 | [T1](#time-1)     | No        | TIMEOUT   | No        | ERROR     | No    | No       |      0
+ 199 | [T2](#time-2)     | No        | No        | No        | No        | No    | No       |      0
+ 200 | [T3](#time-3)     | No        | TIMEOUT   | No        | No        | No       | No       |      0
+ 201 | [T4](#time-4)     | No        | No        | No        | No        | Yes       | Yes       |      2
+ 202 | [T5](#time-5)     | No        | No        | No        | No        | No       | No       |      0
+ 203 | [T6](#time-6)     | No        | No        | No        | No        | No       | No       |      0
+ 204 | [T7](#time-7)     | TIMEOUT   | TIMEOUT   | Yes       | ERROR     | No       | No       |      1
+ 205 | [T8](#time-8)     | No        | No        | No        | No        | No       | No       |      0
+ 206 | [T9](#time-9)     | No        | No        | No        | No        | No       | No       |      0
+ 207 | [T10](#time-10)   | No        | No        | No        | No        | No       | No       |      0
+ 208 | [T11](#time-11)   | Yes       | Yes       | Yes       | Yes       | Yes       | Yes       |      6
+ 209 | [T12](#time-12)   | TIMEOUT   | No        | No        | No        | No       | No       |      0
+ 210 | [T13](#time-13)   | No        | No        | No        | No        | No       | No       |      0
+ 211 | [T14](#time-14)   | No        | No        | No        | No        | No       | No       |      0
+ 212 | [T15](#time-15)   | No        | No        | No        | No        | No       | No       |      0
+ 213 | [T16](#time-16)   | No        | No        | No        | TIMEOUT   | No       | No       |      0
+ 214 | [T17](#time-17)   | No        | No        | No        | No        | No       | No    |      0
+ 215 | [T18](#time-18)   | TIMEOUT   | TIMEOUT   | No        | No        | No       | No    |      0
+ 216 | [T19](#time-19)   | No        | No        | TIMEOUT   | No        | No       | ERROR     |      0
+ 217 | [T20](#time-20)   | No        | No        | No        | No        | No       | No       |      0
+ 218 | [T21](#time-21)   | No        | No        | No        | No        | No       | No       |      0
+ 219 | [T22](#time-22)   | No        | No        | No        | No        | No    | No    |      0
+ 220 | [T23](#time-23)   | No        | No        | No        | No        | No       | No       |      0
+ 221 | [T24](#time-24)   | No        | No        | No        | No        | No       | No    |      0
+ 222 | [T25](#time-25)   | No        | No        | None AV   | No        | No       | TIMEOUT   |      0
+ 223 | [T26](#time-26)   | No        | TIMEOUT   | No        | No        | No       | No       |      0
+ 224 | [T27](#time-27)   | No        | No        | No        | No        | No       | No       |      0
+     | Total             | 31 (13%)  | 25 (11%)  | 24 (10%)  | 13 (5%)   | 33 (14%)  | 22 (9%)   |    148
 Fixed bugs: 61/224 (27%)
 
-Nb bugs ends with an execution error: 16
+Nb bugs ends with an execution error: 17
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 76
+Nb bugs ends with the Grid5000 timeout: 64
 
-Total execution time: 36 days, 20:33:23.020000
+Total execution time: 37 days, 4:56:25.898000
 
 
 
@@ -342,27 +342,27 @@ Index: org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
 
 ```
 
-## Genprog 
+## 1 Genprog 
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1798 (Suspicious rank: ample 33, jaccard 33, ochiai 33, naish1 25673, gp13 33, naish2 33, tarantula 33, )
 DELETE
-Patch 1
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-66.nancy.grid5000.fr
 
-## Kali 
+## 2 Kali 
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797 (Suspicious rank: ample 28, jaccard 28, ochiai 32, naish1 25667, gp13 28, naish2 28, tarantula 28, )
 DELETE
-Patch 2
+
 ```Java
 remove
 ```
 
-Grid5000 node: graphene-67.nancy.grid5000.fr
+Grid5000 node: graphene-53.nancy.grid5000.fr
 
 # Chart 3
 
@@ -393,10 +393,10 @@ Index: org/jfree/data/time/TimeSeries.java
 
 ```
 
-## NopolC 
+## 3 NopolC 
 
 org.jfree.data.time.TimeSeries:885 (Suspicious rank: ample 41, jaccard 41, ochiai 41, naish1 25131, gp13 41, naish2 41, tarantula 41, )
-Patch 3
+
 ```Java
 org.jfree.data.time.TimeSeries.this.data!=null
 ```
@@ -409,11 +409,11 @@ Execution time: 0:00:49.829000
 
 Grid5000 node: griffon-38.nancy.grid5000.fr
 
-## Genprog 
+## 4 Genprog 
 
 org.jfree.data.time.TimeSeries:626 (Suspicious rank: ample 58, jaccard 58, ochiai 62, naish1 25115, gp13 58, naish2 58, tarantula 58, )
 INSERT_BEFORE
-Patch 4
+
 ```Java
 findBoundsByIteration()
 ```
@@ -456,10 +456,10 @@ Index: org/jfree/data/xy/XYSeries.java
 
 ```
 
-## NopolC 
+## 5 NopolC 
 
 org.jfree.data.xy.XYSeries:561 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 24208, gp13 3, naish2 3, tarantula 3, )
-Patch 5
+
 ```Java
 !(org.jfree.data.xy.XYSeries.this.allowDuplicateXValues)
 ```
@@ -472,10 +472,10 @@ Execution time: 0:00:57.484000
 
 Grid5000 node: griffon-59.nancy.grid5000.fr
 
-## BrutpolC 
+## 6 BrutpolC 
 
 org.jfree.data.xy.XYSeries:561 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 24208, gp13 3, naish2 3, tarantula 3, )
-Patch 6
+
 ```Java
 this.equals(x)
 ```
@@ -488,22 +488,22 @@ Execution time: 0:01:43.868000
 
 Grid5000 node: graphene-82.nancy.grid5000.fr
 
-## Genprog 
+## 7 Genprog 
 
 org.jfree.data.xy.XYSeries:562 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 24209, gp13 1, naish2 1, tarantula 1, )
 REPLACE
-Patch 7
+
 ```Java
 this.data.add(new org.jfree.data.xy.XYDataItem(x , y))
 ```
 
 Grid5000 node: graphene-62.nancy.grid5000.fr
 
-## Kali 
+## 8 Kali 
 
 org.jfree.data.xy.XYSeries:561 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 24208, gp13 3, naish2 3, tarantula 3, )
 REPLACE
-Patch 8
+
 ```Java
 if (false) {
 	this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y));
@@ -512,7 +512,7 @@ if (false) {
 }
 ```
 
-Grid5000 node: graphene-68.nancy.grid5000.fr
+Grid5000 node: graphene-37.nancy.grid5000.fr
 
 # Chart 6
 
@@ -573,10 +573,10 @@ Index: org/jfree/chart/util/ShapeList.java
 
 ```
 
-## BrutpolPC 
+## 9 BrutpolPC 
 
 org.jfree.chart.util.AbstractObjectList:194 (Suspicious rank: ample 3, jaccard 18, ochiai 17, naish1 22109, gp13 3, naish2 3, tarantula 18, )
-Patch 9
+
 ```Java
 (1 + i) != (this.increment / listSize)
 ```
@@ -620,11 +620,11 @@ Index: org/jfree/data/time/TimePeriodValues.java
 
 ```
 
-## Genprog 
+## 10 Genprog 
 
 org.jfree.data.time.TimePeriodValues:552 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 22060, gp13 1, naish2 1, tarantula 1, )
 REPLACE
-Patch 10
+
 ```Java
 return this.maxStartIndex
 ```
@@ -657,11 +657,11 @@ Index: org/jfree/data/time/Week.java
 
 ```
 
-## Genprog 
+## 11 Genprog 
 
 org.jfree.data.xy.MatrixSeries:88
 INSERT_BEFORE
-Patch 11
+
 ```Java
 fireSeriesChanged()
 ```
@@ -725,10 +725,10 @@ Index: org/jfree/data/time/TimeSeries.java
 
 ```
 
-## NopolPC 
+## 12 NopolPC 
 
 org.jfree.data.time.TimeSeries:883 (Suspicious rank: ample 11, jaccard 11, ochiai 16, naish1 22017, gp13 11, naish2 11, tarantula 11, )
-Patch 12
+
 ```Java
 org.jfree.data.time.TimeSeries.this.data.size() == org.jfree.data.time.TimeSeries.this.range.length()
 ```
@@ -741,10 +741,10 @@ Execution time: 0:00:46.287000
 
 Grid5000 node: graphene-7.nancy.grid5000.fr
 
-## NopolC 
+## 13 NopolC 
 
 org.jfree.data.time.TimeSeries:947 (Suspicious rank: ample 12, jaccard 12, ochiai 14, naish1 22041, gp13 12, naish2 12, tarantula 12, )
-Patch 13
+
 ```Java
 endIndex < startIndex
 ```
@@ -757,10 +757,10 @@ Execution time: 0:00:54.036000
 
 Grid5000 node: griffon-9.nancy.grid5000.fr
 
-## BrutpolPC 
+## 14 BrutpolPC 
 
 org.jfree.data.time.TimeSeries:942 (Suspicious rank: ample 14, jaccard 14, ochiai 12, naish1 22043, gp13 14, naish2 14, tarantula 14, )
-Patch 14
+
 ```Java
 1 != startIndex
 ```
@@ -773,10 +773,10 @@ Execution time: 0:03:05.277000
 
 Grid5000 node: graphene-51.nancy.grid5000.fr
 
-## BrutpolC 
+## 15 BrutpolC 
 
 org.jfree.data.time.TimeSeries:947 (Suspicious rank: ample 12, jaccard 12, ochiai 14, naish1 22041, gp13 12, naish2 12, tarantula 12, )
-Patch 15
+
 ```Java
 endIndex < startIndex
 ```
@@ -1403,10 +1403,10 @@ Index: org/jfree/chart/block/BorderArrangement.java
 
 ```
 
-## NopolPC 
+## 16 NopolPC 
 
 org.jfree.chart.block.BorderArrangement:492 (Suspicious rank: ample 32, jaccard 32, ochiai 43, naish1 21836, gp13 32, naish2 32, tarantula 32, )
-Patch 16
+
 ```Java
 null!=null
 ```
@@ -1419,10 +1419,10 @@ Execution time: 0:01:00.128000
 
 Grid5000 node: griffon-61.nancy.grid5000.fr
 
-## NopolC 
+## 17 NopolC 
 
 org.jfree.chart.block.BorderArrangement:492 (Suspicious rank: ample 32, jaccard 32, ochiai 43, naish1 21836, gp13 32, naish2 32, tarantula 32, )
-Patch 17
+
 ```Java
 null!=null
 ```
@@ -1435,10 +1435,10 @@ Execution time: 0:00:48.960000
 
 Grid5000 node: graphene-5.nancy.grid5000.fr
 
-## BrutpolPC 
+## 18 BrutpolPC 
 
 org.jfree.chart.block.AbstractBlock:162 (Suspicious rank: ample 78, jaccard 78, ochiai 75, naish1 21887, gp13 78, naish2 78, tarantula 78, )
-Patch 18
+
 ```Java
 this.bounds.contains(width, this.height)
 ```
@@ -1451,22 +1451,22 @@ Execution time: 0:02:23.264000
 
 Grid5000 node: griffon-20.nancy.grid5000.fr
 
-## Genprog 
+## 19 Genprog 
 
 org.jfree.chart.block.BorderArrangement:489 (Suspicious rank: ample 13, jaccard 13, ochiai 41, naish1 21774, gp13 13, naish2 13, tarantula 13, )
 DELETE
-Patch 19
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-74.nancy.grid5000.fr
 
-## Kali 
+## 20 Kali 
 
 org.jfree.chart.block.BorderArrangement:482 (Suspicious rank: ample 49, jaccard 49, ochiai 38, naish1 21885, gp13 49, naish2 49, tarantula 49, )
 DELETE
-Patch 20
+
 ```Java
 remove
 ```
@@ -1515,11 +1515,11 @@ Index: org/jfree/chart/plot/PiePlot.java
 
 ```
 
-## Genprog 
+## 21 Genprog 
 
 org.jfree.chart.plot.PiePlot3D:272 (Suspicious rank: ample 23, jaccard 23, ochiai 24, naish1 21791, gp13 23, naish2 23, tarantula 23, )
 REPLACE
-Patch 21
+
 ```Java
 if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
 	drawNoDataMessage(g2, plotArea);
@@ -1531,18 +1531,18 @@ if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
 
 Grid5000 node: griffon-91.nancy.grid5000.fr
 
-## Kali 
+## 22 Kali 
 
 org.jfree.chart.plot.PiePlot3D:230 (Suspicious rank: ample 19, jaccard 19, ochiai 7, naish1 21751, gp13 19, naish2 19, tarantula 19, )
 INSERT_BEFORE
-Patch 22
+
 ```Java
 if (true)
 	return ;
 
 ```
 
-Grid5000 node: graphene-73.nancy.grid5000.fr
+Grid5000 node: graphene-45.nancy.grid5000.fr
 
 # Chart 17
 
@@ -1573,10 +1573,10 @@ Index: org/jfree/data/time/TimeSeries.java
 
 ```
 
-## NopolPC 
+## 23 NopolPC 
 
 org.jfree.data.time.TimeSeries:880 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 21647, gp13 1, naish2 1, tarantula 1, )
-Patch 23
+
 ```Java
 start == 1
 ```
@@ -1589,10 +1589,10 @@ Execution time: 0:00:54.147000
 
 Grid5000 node: griffon-62.nancy.grid5000.fr
 
-## NopolC 
+## 24 NopolC 
 
 org.jfree.data.time.TimeSeries:879 (Suspicious rank: ample 3, jaccard 3, ochiai 4, naish1 21611, gp13 3, naish2 3, tarantula 3, )
-Patch 24
+
 ```Java
 ((end < start) && ((-1) != (end))) || (org.jfree.data.time.TimeSeries.this.maximumItemAge <= end)
 ```
@@ -1605,10 +1605,10 @@ Execution time: 0:00:56.645000
 
 Grid5000 node: griffon-57.nancy.grid5000.fr
 
-## BrutpolPC 
+## 25 BrutpolPC 
 
 org.jfree.data.time.TimeSeries:880 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 21647, gp13 1, naish2 1, tarantula 1, )
-Patch 25
+
 ```Java
 0 != start
 ```
@@ -1621,10 +1621,10 @@ Execution time: 0:01:53.017000
 
 Grid5000 node: graphene-90.nancy.grid5000.fr
 
-## BrutpolC 
+## 26 BrutpolC 
 
 org.jfree.data.time.TimeSeries:879 (Suspicious rank: ample 3, jaccard 3, ochiai 4, naish1 21611, gp13 3, naish2 3, tarantula 3, )
-Patch 26
+
 ```Java
 (start * end) < start
 ```
@@ -1830,10 +1830,10 @@ Index: org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java
 
 ```
 
-## NopolPC 
+## 27 NopolPC 
 
 org.jfree.data.Range:335 (Suspicious rank: ample 9, jaccard 9, ochiai 9, naish1 20593, gp13 9, naish2 9, tarantula 9, )
-Patch 27
+
 ```Java
 ((!(1 < org.jfree.data.Range.this.lower)) || (org.jfree.data.Range.this.lower <= -1 + org.jfree.data.Range.this.upper - 1)) && ((!(1 < org.jfree.data.Range.this.lower)) || (org.jfree.data.Range.this.lower <= -1 + org.jfree.data.Range.this.upper - 1))
 ```
@@ -1846,10 +1846,10 @@ Execution time: 0:00:55.900000
 
 Grid5000 node: griffon-62.nancy.grid5000.fr
 
-## BrutpolPC 
+## 28 BrutpolPC 
 
 org.jfree.data.Range:335 (Suspicious rank: ample 9, jaccard 9, ochiai 9, naish1 20593, gp13 9, naish2 9, tarantula 9, )
-Patch 28
+
 ```Java
 (this.upper / this.getLength()) <= this.getLength()
 ```
@@ -1861,17 +1861,6 @@ Nb analyzed Statement: 9
 Execution time: 0:01:55.082000
 
 Grid5000 node: graphene-38.nancy.grid5000.fr
-
-## Kali 
-
-org.jfree.data.Range:335 (Suspicious rank: ample 9, jaccard 9, ochiai 9, naish1 20593, gp13 9, naish2 9, tarantula 9, )
-DELETE
-Patch 29
-```Java
-remove
-```
-
-Grid5000 node: griffon-77.nancy.grid5000.fr
 
 # Chart 25
 
@@ -2062,10 +2051,10 @@ Index: org/jfree/chart/renderer/category/StatisticalBarRenderer.java
 
 ```
 
-## NopolPC 
+## 29 NopolPC 
 
 org.jfree.chart.renderer.category.StatisticalBarRenderer:207 (Suspicious rank: ample 4, jaccard 4, ochiai 4, naish1 19842, gp13 4, naish2 4, tarantula 50, )
-Patch 30
+
 ```Java
 -1 == 1
 ```
@@ -2078,10 +2067,10 @@ Execution time: 0:00:54.265000
 
 Grid5000 node: griffon-62.nancy.grid5000.fr
 
-## NopolC 
+## 30 NopolC 
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset:110 (Suspicious rank: ample 17, jaccard 17, ochiai 8, naish1 19962, gp13 17, naish2 17, tarantula 63, )
-Patch 31
+
 ```Java
 (org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue < org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev) && (!(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue <= 1))
 ```
@@ -2094,10 +2083,10 @@ Execution time: 0:00:56.628000
 
 Grid5000 node: griffon-22.nancy.grid5000.fr
 
-## BrutpolPC 
+## 31 BrutpolPC 
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset:111 (Suspicious rank: ample 18, jaccard 18, ochiai 9, naish1 19963, gp13 18, naish2 18, tarantula 64, )
-Patch 32
+
 ```Java
 this.equals(masd)
 ```
@@ -2110,10 +2099,10 @@ Execution time: 0:07:59.593000
 
 Grid5000 node: griffon-11.nancy.grid5000.fr
 
-## BrutpolC 
+## 32 BrutpolC 
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset:110 (Suspicious rank: ample 17, jaccard 17, ochiai 8, naish1 19962, gp13 17, naish2 17, tarantula 63, )
-Patch 33
+
 ```Java
 this.equals(masd)
 ```
@@ -2126,29 +2115,29 @@ Execution time: 0:01:57.554000
 
 Grid5000 node: graphene-54.nancy.grid5000.fr
 
-## Genprog 
+## 33 Genprog 
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset:301 (Suspicious rank: ample 65, jaccard 144, ochiai 102, naish1 19848, gp13 65, naish2 65, tarantula 160, )
 DELETE
-Patch 34
+
 ```Java
 remove
 ```
 
 Grid5000 node: graphene-40.nancy.grid5000.fr
 
-## Kali 
+## 34 Kali 
 
 org.jfree.chart.renderer.category.StatisticalBarRenderer:200 (Suspicious rank: ample 5, jaccard 5, ochiai 1, naish1 19843, gp13 5, naish2 5, tarantula 51, )
 INSERT_BEFORE
-Patch 35
+
 ```Java
 if (true)
 	return ;
 
 ```
 
-Grid5000 node: graphene-66.nancy.grid5000.fr
+Grid5000 node: graphene-21.nancy.grid5000.fr
 
 # Chart 26
 
@@ -2232,10 +2221,10 @@ Index: org/jfree/chart/axis/Axis.java
 
 ```
 
-## NopolPC 
+## 35 NopolPC 
 
 org.jfree.chart.axis.AxisCollection:132 (Suspicious rank: ample 185, jaccard 249, ochiai 244, naish1 17995, gp13 185, naish2 185, tarantula 761, )
-Patch 36
+
 ```Java
 -1 == org.jfree.chart.axis.AxisCollection.this.axesAtLeft.size()
 ```
@@ -2248,10 +2237,10 @@ Execution time: 0:23:09.326000
 
 Grid5000 node: graphene-57.nancy.grid5000.fr
 
-## NopolC 
+## 36 NopolC 
 
 org.jfree.chart.plot.CategoryPlot:2538 (Suspicious rank: ample 39, jaccard 39, ochiai 54, naish1 15332, gp13 39, naish2 39, tarantula 266, )
-Patch 37
+
 ```Java
 org.jfree.chart.plot.CategoryPlot.DEFAULT_CROSSHAIR_STROKE!=null
 ```
@@ -2264,10 +2253,10 @@ Execution time: 0:01:01.433000
 
 Grid5000 node: graphene-84.nancy.grid5000.fr
 
-## BrutpolC 
+## 37 BrutpolC 
 
 org.jfree.chart.axis.Axis:1101 (Suspicious rank: ample 199, jaccard 267, ochiai 327, naish1 15242, gp13 199, naish2 199, tarantula 912, )
-Patch 38
+
 ```Java
 this.tickLabelsVisible
 ```
@@ -2279,19 +2268,6 @@ Nb analyzed Statement: 291
 Execution time: 0:43:36.171000
 
 Grid5000 node: graphene-97.nancy.grid5000.fr
-
-## Kali 
-
-org.jfree.chart.plot.CategoryPlot:2547 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 15018, gp13 1, naish2 1, tarantula 1, )
-INSERT_BEFORE
-Patch 39
-```Java
-if (true)
-	return ;
-
-```
-
-Grid5000 node: griffon-8.nancy.grid5000.fr
 
 # Lang 39
 
@@ -2321,10 +2297,10 @@ index f6cabee..14563aa 100644
 
 ```
 
-## NopolPC 
+## 38 NopolPC 
 
 org.apache.commons.lang3.StringUtils:3675 (Suspicious rank: ample 11, jaccard 11, ochiai 26, naish1 7828, gp13 11, naish2 11, tarantula 11, )
-Patch 40
+
 ```Java
 repeat
 ```
@@ -2337,10 +2313,10 @@ Execution time: 0:05:53.872000
 
 Grid5000 node: griffon-10.nancy.grid5000.fr
 
-## BrutpolPC 
+## 39 BrutpolPC 
 
 org.apache.commons.lang3.StringUtils:3675 (Suspicious rank: ample 11, jaccard 11, ochiai 26, naish1 7828, gp13 11, naish2 11, tarantula 11, )
-Patch 41
+
 ```Java
 repeat
 ```
@@ -2381,10 +2357,10 @@ index c5ca8cd..18a05ef 100644
 
 ```
 
-## NopolPC 
+## 40 NopolPC 
 
 org.apache.commons.lang.NumberUtils:193 (Suspicious rank: ample 18, jaccard 18, ochiai 18, naish1 9255, gp13 18, naish2 18, tarantula 18, )
-Patch 42
+
 ```Java
 (val.length()) != (1)
 ```
@@ -2397,10 +2373,10 @@ Execution time: 0:00:50.587000
 
 Grid5000 node: griffon-66.nancy.grid5000.fr
 
-## NopolC 
+## 41 NopolC 
 
 org.apache.commons.lang.NumberUtils:193 (Suspicious rank: ample 18, jaccard 18, ochiai 18, naish1 9255, gp13 18, naish2 18, tarantula 18, )
-Patch 43
+
 ```Java
 ((dec == null) && (exp == null))
 ```
@@ -2559,10 +2535,10 @@ index d4f98ec..c30c663 100644
 
 ```
 
-## NopolPC 
+## 42 NopolPC 
 
 org.apache.commons.lang.StringEscapeUtils:242 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 8911, gp13 1, naish2 1, tarantula 1, )
-Patch 44
+
 ```Java
 escapeSingleQuote
 ```
@@ -2601,10 +2577,10 @@ index 8b5028c..3fda4ec 100644
 
 ```
 
-## NopolC 
+## 43 NopolC 
 
 org.apache.commons.lang.BooleanUtils:677 (Suspicious rank: ample 11, jaccard 11, ochiai 12, naish1 8395, gp13 11, naish2 11, tarantula 11, )
-Patch 45
+
 ```Java
 str!=null
 ```
@@ -2660,10 +2636,10 @@ index e5138b5..9ca1bc5 100644
 
 ```
 
-## NopolPC 
+## 44 NopolPC 
 
 org.apache.commons.lang.time.DateUtils:666 (Suspicious rank: ample 14, jaccard 14, ochiai 22, naish1 8347, gp13 14, naish2 14, tarantula 14, )
-Patch 46
+
 ```Java
 (!((round) && ((org.apache.commons.lang.time.DateUtils.RANGE_WEEK_RELATIVE) != (seconds)))) || (seconds < minutes)
 ```
@@ -2705,10 +2681,10 @@ index 0f0786a..607e9b6 100644
 
 ```
 
-## NopolPC 
+## 45 NopolPC 
 
 org.apache.commons.lang.time.StopWatch:118 (Suspicious rank: ample 8, jaccard 8, ochiai 7, naish1 8347, gp13 8, naish2 8, tarantula 8, )
-Patch 47
+
 ```Java
 org.apache.commons.lang.time.StopWatch.STATE_RUNNING == org.apache.commons.lang.time.StopWatch.this.runningState
 ```
@@ -2749,10 +2725,10 @@ index eb74e72..c0f06a4 100644
 
 ```
 
-## NopolPC 
+## 46 NopolPC 
 
 org.apache.commons.lang.math.NumberUtils:464 (Suspicious rank: ample 2, jaccard 2, ochiai 1, naish1 8378, gp13 2, naish2 2, tarantula 2, )
-Patch 48
+
 ```Java
 -1 < expPos
 ```
@@ -2765,10 +2741,10 @@ Execution time: 0:00:45.347000
 
 Grid5000 node: griffon-15.nancy.grid5000.fr
 
-## NopolC 
+## 47 NopolC 
 
 org.apache.commons.lang.math.NumberUtils:452 (Suspicious rank: ample 4, jaccard 4, ochiai 20, naish1 8361, gp13 4, naish2 4, tarantula 4, )
-Patch 49
+
 ```Java
 ((dec == null) && (exp == null))
 ```
@@ -2808,27 +2784,27 @@ index 81e180c..2769127 100644
 
 ```
 
-## Genprog 
+## 48 Genprog 
 
 org.apache.commons.math3.distribution.AbstractIntegerDistribution:138 (Suspicious rank: ample 17, jaccard 17, ochiai 22, naish1 35438, gp13 17, naish2 17, tarantula 17, )
 DELETE
-Patch 50
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-56.nancy.grid5000.fr
 
-## Kali 
+## 49 Kali 
 
 org.apache.commons.math3.distribution.AbstractIntegerDistribution:137 (Suspicious rank: ample 22, jaccard 22, ochiai 21, naish1 35443, gp13 22, naish2 22, tarantula 22, )
 DELETE
-Patch 51
+
 ```Java
 remove
 ```
 
-Grid5000 node: griffon-2.nancy.grid5000.fr
+Grid5000 node: graphene-90.nancy.grid5000.fr
 
 # Math 5
 
@@ -2857,11 +2833,11 @@ index ac8185b..22b23f2 100644
 
 ```
 
-## Genprog 
+## 50 Genprog 
 
 org.apache.commons.math3.complex.Complex:305 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 33968, gp13 1, naish2 1, tarantula 1, )
 REPLACE
-Patch 52
+
 ```Java
 return org.apache.commons.math3.complex.Complex.INF
 ```
@@ -2932,11 +2908,11 @@ index 6e0237f..00827db 100644
 
 ```
 
-## Genprog 
+## 51 Genprog 
 
 org.apache.commons.math3.ode.events.EventState:197 (Suspicious rank: ample 113, jaccard 113, ochiai 109, naish1 33404, gp13 113, naish2 113, tarantula 113, )
 INSERT_BEFORE
-Patch 53
+
 ```Java
 t0 = interpolator.getPreviousTime()
 ```
@@ -2989,27 +2965,27 @@ index 879eb2a..8c08dbe 100644
 
 ```
 
-## Genprog 
+## 52 Genprog 
 
 org.apache.commons.math3.distribution.DiscreteDistribution:189 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 33466, gp13 3, naish2 3, tarantula 3, )
 DELETE
-Patch 54
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-56.nancy.grid5000.fr
 
-## Kali 
+## 53 Kali 
 
 org.apache.commons.math3.distribution.DiscreteDistribution:189 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 33466, gp13 3, naish2 3, tarantula 3, )
 DELETE
-Patch 55
+
 ```Java
 remove
 ```
 
-Grid5000 node: graphene-64.nancy.grid5000.fr
+Grid5000 node: graphene-48.nancy.grid5000.fr
 
 # Math 15
 
@@ -3047,11 +3023,11 @@ index 9dc84c6..fd1ce2d 100644
 
 ```
 
-## Genprog 
+## 54 Genprog 
 
 org.apache.commons.math3.util.FastMath:1540 (Suspicious rank: ample 2, jaccard 2, ochiai 2, naish1 28510, gp13 2, naish2 2, tarantula 2, )
 DELETE
-Patch 56
+
 ```Java
 remove
 ```
@@ -3123,11 +3099,11 @@ index 866c8fd..f6a4f28 100644
 
 ```
 
-## Genprog 
+## 55 Genprog 
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer:360 (Suspicious rank: ample 126, jaccard 126, ochiai 127, naish1 27213, gp13 126, naish2 126, tarantula 126, )
 REPLACE
-Patch 57
+
 ```Java
 boundaries = null
 ```
@@ -3210,22 +3186,22 @@ index dec310b..c2fa14d 100644
 
 ```
 
-## Genprog 
+## 56 Genprog 
 
 org.apache.commons.math3.optimization.linear.SimplexSolver:123 (Suspicious rank: ample 31, jaccard 31, ochiai 32, naish1 26749, gp13 31, naish2 31, tarantula 31, )
 DELETE
-Patch 58
+
 ```Java
 remove
 ```
 
 Grid5000 node: graphene-4.nancy.grid5000.fr
 
-## Kali 
+## 57 Kali 
 
 org.apache.commons.math3.optimization.linear.SimplexSolver:138 (Suspicious rank: ample 6, jaccard 6, ochiai 10, naish1 26541, gp13 6, naish2 6, tarantula 6, )
 REPLACE
-Patch 59
+
 ```Java
 if (true) {
 	if (i < minIndex) {
@@ -3235,7 +3211,7 @@ if (true) {
 } 
 ```
 
-Grid5000 node: graphene-7.nancy.grid5000.fr
+Grid5000 node: graphene-46.nancy.grid5000.fr
 
 # Math 32
 
@@ -3266,10 +3242,10 @@ index add24ac..6ba72be 100644
 
 ```
 
-## NopolPC 
+## 58 NopolPC 
 
 org.apache.commons.math3.geometry.partitioning.AbstractRegion:214 (Suspicious rank: ample 201, jaccard 201, ochiai 221, naish1 24818, gp13 201, naish2 201, tarantula 201, )
-Patch 60
+
 ```Java
 ((!(boundary.size() - plusList.size() < minusList.size())) && (1 <= plusList.size())) || (minusList.size() == boundary.size() + -1)
 ```
@@ -3282,10 +3258,10 @@ Execution time: 0:16:17.978000
 
 Grid5000 node: griffon-9.nancy.grid5000.fr
 
-## BrutpolC 
+## 59 BrutpolC 
 
 org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet:135 (Suspicious rank: ample 3, jaccard 3, ochiai 1, naish1 24965, gp13 3, naish2 3, tarantula 3, )
-Patch 61
+
 ```Java
 this.isEmpty()
 ```
@@ -3298,11 +3274,11 @@ Execution time: 0:13:25.500000
 
 Grid5000 node: graphene-40.nancy.grid5000.fr
 
-## Kali 
+## 60 Kali 
 
 org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet:135 (Suspicious rank: ample 3, jaccard 3, ochiai 1, naish1 24965, gp13 3, naish2 3, tarantula 3, )
 REPLACE
-Patch 62
+
 ```Java
 if (false) {
 	setSize(java.lang.Double.POSITIVE_INFINITY);
@@ -3313,7 +3289,7 @@ if (false) {
 }
 ```
 
-Grid5000 node: graphene-18.nancy.grid5000.fr
+Grid5000 node: graphene-61.nancy.grid5000.fr
 
 # Math 33
 
@@ -3342,10 +3318,10 @@ index 327b2ae..9a6993a 100644
 
 ```
 
-## NopolPC 
+## 61 NopolPC 
 
 org.apache.commons.math3.optimization.linear.SimplexTableau:339 (Suspicious rank: ample 6, jaccard 6, ochiai 6, naish1 24710, gp13 6, naish2 6, tarantula 6, )
-Patch 63
+
 ```Java
 (org.apache.commons.math3.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.length()) != (org.apache.commons.math3.optimization.linear.SimplexTableau.this.numArtificialVariables)
 ```
@@ -3358,10 +3334,10 @@ Execution time: 0:14:14.529000
 
 Grid5000 node: griffon-14.nancy.grid5000.fr
 
-## NopolC 
+## 62 NopolC 
 
 org.apache.commons.math3.optimization.linear.SimplexTableau:338 (Suspicious rank: ample 28, jaccard 28, ochiai 22, naish1 24709, gp13 28, naish2 28, tarantula 28, )
-Patch 64
+
 ```Java
 ((org.apache.commons.math3.optimization.linear.SimplexTableau.NEGATIVE_VAR_COLUMN_LABEL.length()) != (org.apache.commons.math3.optimization.linear.SimplexTableau.this.numArtificialVariables)) && ((0.0 < entry) || (org.apache.commons.math3.optimization.linear.SimplexTableau.this.constraints.isEmpty()))
 ```
@@ -3374,10 +3350,10 @@ Execution time: 0:15:14.463000
 
 Grid5000 node: griffon-29.nancy.grid5000.fr
 
-## BrutpolPC 
+## 63 BrutpolPC 
 
 org.apache.commons.math3.optimization.linear.SimplexTableau:339 (Suspicious rank: ample 6, jaccard 6, ochiai 6, naish1 24710, gp13 6, naish2 6, tarantula 6, )
-Patch 65
+
 ```Java
 this.numArtificialVariables != this.getNumObjectiveFunctions()
 ```
@@ -3427,10 +3403,10 @@ index 59dc461..93dd3bb 100644
 
 ```
 
-## NopolC 
+## 64 NopolC 
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260 (Suspicious rank: ample 31, jaccard 31, ochiai 31, naish1 24155, gp13 31, naish2 31, tarantula 31, )
-Patch 66
+
 ```Java
 ((signChangeIndex - start) >= (end - signChangeIndex)) || (xA <= yA)
 ```
@@ -3443,22 +3419,22 @@ Execution time: 0:11:12.787000
 
 Grid5000 node: griffon-72.nancy.grid5000.fr
 
-## Genprog 
+## 65 Genprog 
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:247 (Suspicious rank: ample 75, jaccard 75, ochiai 64, naish1 24190, gp13 75, naish2 75, tarantula 75, )
 REPLACE
-Patch 67
+
 ```Java
 signChangeIndex = 2
 ```
 
 Grid5000 node: graphene-53.nancy.grid5000.fr
 
-## Kali 
+## 66 Kali 
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260 (Suspicious rank: ample 31, jaccard 31, ochiai 31, naish1 24155, gp13 31, naish2 31, tarantula 31, )
 REPLACE
-Patch 68
+
 ```Java
 if (true) {
 	++start;
@@ -3467,7 +3443,7 @@ if (true) {
 }
 ```
 
-Grid5000 node: graphene-20.nancy.grid5000.fr
+Grid5000 node: graphene-36.nancy.grid5000.fr
 
 # Math 41
 
@@ -3496,10 +3472,10 @@ index 1de139f..e5518e3 100644
 
 ```
 
-## BrutpolPC 
+## 67 BrutpolPC 
 
 org.apache.commons.math.stat.descriptive.moment.Variance:521 (Suspicious rank: ample 18, jaccard 18, ochiai 30, naish1 24205, gp13 18, naish2 18, tarantula 18, )
-Patch 69
+
 ```Java
 mean <= length
 ```
@@ -3512,10 +3488,10 @@ Execution time: 0:16:43.567000
 
 Grid5000 node: graphene-36.nancy.grid5000.fr
 
-## BrutpolC 
+## 68 BrutpolC 
 
 org.apache.commons.math.stat.descriptive.moment.Variance:509 (Suspicious rank: ample 11, jaccard 11, ochiai 20, naish1 24185, gp13 11, naish2 11, tarantula 11, )
-Patch 70
+
 ```Java
 mean <= length
 ```
@@ -3560,10 +3536,10 @@ index d96c916..fd89432 100644
 
 ```
 
-## NopolPC 
+## 69 NopolPC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:416 (Suspicious rank: ample 29, jaccard 29, ochiai 36, naish1 24101, gp13 29, naish2 29, tarantula 29, )
-Patch 71
+
 ```Java
 (org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables) != (org.apache.commons.math.optimization.linear.SimplexTableau.this.numArtificialVariables)
 ```
@@ -3576,10 +3552,10 @@ Execution time: 0:44:53.003000
 
 Grid5000 node: griffon-18.nancy.grid5000.fr
 
-## BrutpolPC 
+## 70 BrutpolPC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:347 (Suspicious rank: ample 2, jaccard 2, ochiai 1, naish1 24208, gp13 2, naish2 2, tarantula 2, )
-Patch 72
+
 ```Java
 0 != this.numSlackVariables
 ```
@@ -3592,10 +3568,10 @@ Execution time: 0:08:53.928000
 
 Grid5000 node: graphene-51.nancy.grid5000.fr
 
-## BrutpolC 
+## 71 BrutpolC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:338 (Suspicious rank: ample 6, jaccard 6, ochiai 7, naish1 23982, gp13 6, naish2 6, tarantula 6, )
-Patch 73
+
 ```Java
 (0 < entry) || (this.getHeight() == this.tableau.getFrobeniusNorm())
 ```
@@ -3662,29 +3638,29 @@ index 8f315e3..2d878b1 100644
 
 ```
 
-## Genprog 
+## 72 Genprog 
 
 org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator:295 (Suspicious rank: ample 244, jaccard 244, ochiai 243, naish1 23327, gp13 244, naish2 244, tarantula 244, )
 REPLACE
-Patch 74
+
 ```Java
 setStateInitialized(false)
 ```
 
 Grid5000 node: graphene-62.nancy.grid5000.fr
 
-## Kali 
+## 73 Kali 
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:385 (Suspicious rank: ample 79, jaccard 79, ochiai 98, naish1 23556, gp13 79, naish2 79, tarantula 79, )
 INSERT_BEFORE
-Patch 75
+
 ```Java
 if (true)
 	return 0d;
 
 ```
 
-Grid5000 node: griffon-15.nancy.grid5000.fr
+Grid5000 node: graphene-44.nancy.grid5000.fr
 
 # Math 46
 
@@ -3725,10 +3701,10 @@ index dd0b00a..137765c 100644
 
 ```
 
-## BrutpolPC 
+## 74 BrutpolPC 
 
 org.apache.commons.math.complex.Complex:259 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 23203, gp13 1, naish2 1, tarantula 2, )
-Patch 76
+
 ```Java
 0 == this.multiply(this).getReal()
 ```
@@ -3795,10 +3771,10 @@ index 13ebfd2..5db4884 100644
 
 ```
 
-## NopolPC 
+## 75 NopolPC 
 
 org.apache.commons.math.linear.OpenMapRealVector:667 (Suspicious rank: ample 14, jaccard 14, ochiai 14, naish1 23318, gp13 14, naish2 14, tarantula 14, )
-Patch 77
+
 ```Java
 org.apache.commons.math.linear.OpenMapRealVector.this.epsilon == org.apache.commons.math.linear.OpenMapRealVector.DEFAULT_ZERO_TOLERANCE
 ```
@@ -3811,10 +3787,10 @@ Execution time: 0:05:47.617000
 
 Grid5000 node: griffon-29.nancy.grid5000.fr
 
-## NopolC 
+## 76 NopolC 
 
 org.apache.commons.math.linear.OpenMapRealVector:666 (Suspicious rank: ample 13, jaccard 13, ochiai 13, naish1 23317, gp13 13, naish2 13, tarantula 13, )
-Patch 78
+
 ```Java
 org.apache.commons.math.linear.OpenMapRealVector.DEFAULT_ZERO_TOLERANCE == org.apache.commons.math.linear.OpenMapRealVector.this.epsilon
 ```
@@ -3827,10 +3803,10 @@ Execution time: 0:05:45.600000
 
 Grid5000 node: griffon-12.nancy.grid5000.fr
 
-## BrutpolPC 
+## 77 BrutpolPC 
 
 org.apache.commons.math.util.OpenIntToDoubleHashMap:213 (Suspicious rank: ample 32, jaccard 32, ochiai 33, naish1 23309, gp13 32, naish2 32, tarantula 32, )
-Patch 79
+
 ```Java
 this.size != this.probe(1, key)
 ```
@@ -3843,22 +3819,22 @@ Execution time: 0:24:47.027000
 
 Grid5000 node: graphene-9.nancy.grid5000.fr
 
-## Genprog 
+## 78 Genprog 
 
 org.apache.commons.math.util.OpenIntToDoubleHashMap:399 (Suspicious rank: ample 38, jaccard 38, ochiai 44, naish1 23268, gp13 38, naish2 38, tarantula 38, )
 DELETE
-Patch 80
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-10.nancy.grid5000.fr
 
-## Kali 
+## 79 Kali 
 
 org.apache.commons.math.linear.OpenMapRealVector:664 (Suspicious rank: ample 21, jaccard 21, ochiai 20, naish1 23315, gp13 21, naish2 21, tarantula 21, )
 REPLACE
-Patch 81
+
 ```Java
 if (true) {
 	entries.put(index, value);
@@ -3867,7 +3843,7 @@ if (true) {
 } 
 ```
 
-Grid5000 node: graphene-62.nancy.grid5000.fr
+Grid5000 node: graphene-45.nancy.grid5000.fr
 
 # Math 50
 
@@ -3903,10 +3879,10 @@ index c781a90..b3a23a1 100644
 
 ```
 
-## NopolPC 
+## 80 NopolPC 
 
 org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: ample 6, jaccard 6, ochiai 6, naish1 23279, gp13 6, naish2 6, tarantula 6, )
-Patch 82
+
 ```Java
 !((x == 1) || ((1 < x) && (inverted)))
 ```
@@ -3919,10 +3895,10 @@ Execution time: 0:22:42.722000
 
 Grid5000 node: griffon-85.nancy.grid5000.fr
 
-## NopolC 
+## 81 NopolC 
 
 org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: ample 6, jaccard 6, ochiai 6, naish1 23279, gp13 6, naish2 6, tarantula 6, )
-Patch 83
+
 ```Java
 f0 < -1
 ```
@@ -3935,10 +3911,10 @@ Execution time: 0:13:56.514000
 
 Grid5000 node: griffon-14.nancy.grid5000.fr
 
-## BrutpolPC 
+## 82 BrutpolPC 
 
 org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: ample 4, jaccard 4, ochiai 2, naish1 23311, gp13 4, naish2 4, tarantula 4, )
-Patch 84
+
 ```Java
 this.isBracketing(x0, f0)
 ```
@@ -3951,27 +3927,27 @@ Execution time: 0:06:04.118000
 
 Grid5000 node: graphene-31.nancy.grid5000.fr
 
-## Genprog 
+## 83 Genprog 
 
 org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: ample 4, jaccard 4, ochiai 2, naish1 23311, gp13 4, naish2 4, tarantula 4, )
 DELETE
-Patch 85
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-11.nancy.grid5000.fr
 
-## Kali 
+## 84 Kali 
 
 org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: ample 4, jaccard 4, ochiai 2, naish1 23311, gp13 4, naish2 4, tarantula 4, )
 DELETE
-Patch 86
+
 ```Java
 remove
 ```
 
-Grid5000 node: griffon-10.nancy.grid5000.fr
+Grid5000 node: graphene-46.nancy.grid5000.fr
 
 # Math 53
 
@@ -4001,11 +3977,11 @@ index ab58c78..e0a8e97 100644
 
 ```
 
-## Genprog 
+## 85 Genprog 
 
 org.apache.commons.math.complex.Complex:153 (Suspicious rank: ample 1, jaccard 1, ochiai 2, naish1 21135, gp13 1, naish2 1, tarantula 1, )
 INSERT_BEFORE
-Patch 87
+
 ```Java
 if ((isNaN) || (rhs.isNaN)) {
 	return org.apache.commons.math.complex.Complex.NaN;
@@ -4047,11 +4023,11 @@ index fb0614e..56c9ffe 100644
 
 ```
 
-## Genprog 
+## 86 Genprog 
 
 org.apache.commons.math.util.MultidimensionalCounter:239 (Suspicious rank: ample 15, jaccard 15, ochiai 22, naish1 19577, gp13 15, naish2 15, tarantula 15, )
 INSERT_BEFORE
-Patch 88
+
 ```Java
 while (count < index) {
 	count += idx;
@@ -4088,10 +4064,10 @@ index e09bbc3..b73ac9d 100644
 
 ```
 
-## NopolPC 
+## 87 NopolPC 
 
 org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:86 (Suspicious rank: ample 18, jaccard 18, ochiai 44, naish1 19414, gp13 18, naish2 18, tarantula 18, )
-Patch 89
+
 ```Java
 (1) != (org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.this.point.length)
 ```
@@ -4104,10 +4080,10 @@ Execution time: 0:14:57.746000
 
 Grid5000 node: griffon-91.nancy.grid5000.fr
 
-## NopolC 
+## 88 NopolC 
 
 org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:85 (Suspicious rank: ample 47, jaccard 47, ochiai 50, naish1 19428, gp13 47, naish2 47, tarantula 47, )
-Patch 90
+
 ```Java
 (((point[i]) != (otherPoint[i])) || (1 <= 0)) && ((otherPoint.length) != (1))
 ```
@@ -4149,10 +4125,10 @@ index e1b54f4..8c107de 100644
 
 ```
 
-## NopolPC 
+## 89 NopolPC 
 
 org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:620 (Suspicious rank: ample 85, jaccard 85, ochiai 93, naish1 19199, gp13 85, naish2 85, tarantula 85, )
-Patch 91
+
 ```Java
 org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance < gNorm
 ```
@@ -4165,10 +4141,10 @@ Execution time: 0:07:03.079000
 
 Grid5000 node: griffon-29.nancy.grid5000.fr
 
-## NopolC 
+## 90 NopolC 
 
 org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:613 (Suspicious rank: ample 77, jaccard 77, ochiai 92, naish1 18944, gp13 77, naish2 77, tarantula 77, )
-Patch 92
+
 ```Java
 (fp > 0) || ((!(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance < gNorm)) && (org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.permutation!=null))
 ```
@@ -4181,10 +4157,10 @@ Execution time: 0:12:08.046000
 
 Grid5000 node: griffon-68.nancy.grid5000.fr
 
-## BrutpolPC 
+## 91 BrutpolPC 
 
 org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:620 (Suspicious rank: ample 85, jaccard 85, ochiai 93, naish1 19199, gp13 85, naish2 85, tarantula 85, )
-Patch 93
+
 ```Java
 this.costRelativeTolerance != this.orthoTolerance
 ```
@@ -4225,10 +4201,10 @@ index dc83314..83b4c41 100644
 
 ```
 
-## NopolPC 
+## 92 NopolPC 
 
 org.apache.commons.math.stat.correlation.PearsonsCorrelation:193 (Suspicious rank: ample 18, jaccard 18, ochiai 18, naish1 16548, gp13 18, naish2 18, tarantula 18, )
-Patch 94
+
 ```Java
 1 - nVars < -1
 ```
@@ -4268,11 +4244,11 @@ index 180caef..3f66927 100644
 
 ```
 
-## Genprog 
+## 93 Genprog 
 
 org.apache.commons.math.analysis.solvers.BisectionSolver:72 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 16589, gp13 1, naish2 1, tarantula 1, )
 REPLACE
-Patch 95
+
 ```Java
 return solve(f, min, max)
 ```
@@ -4385,10 +4361,10 @@ index b61b0b1..3227b98 100644
 
 ```
 
-## NopolC 
+## 94 NopolC 
 
 org.apache.commons.math.analysis.solvers.BrentSolver:334 (Suspicious rank: ample 90, jaccard 188, ochiai 99, naish1 16023, gp13 90, naish2 90, tarantula 190, )
-Patch 96
+
 ```Java
 (dx > 0.0) || (org.apache.commons.math.analysis.solvers.BrentSolver.NON_BRACKETING_MESSAGE.length() < x1)
 ```
@@ -4401,10 +4377,10 @@ Execution time: 0:44:02.497000
 
 Grid5000 node: griffon-22.nancy.grid5000.fr
 
-## BrutpolPC 
+## 95 BrutpolPC 
 
 org.apache.commons.math.ode.events.EventState:260 (Suspicious rank: ample 66, jaccard 163, ochiai 68, naish1 16213, gp13 66, naish2 66, tarantula 163, )
-Patch 97
+
 ```Java
 h <= this.nextAction
 ```
@@ -4417,11 +4393,11 @@ Execution time: 0:53:44.423000
 
 Grid5000 node: graphene-7.nancy.grid5000.fr
 
-## Genprog 
+## 96 Genprog 
 
 org.apache.commons.math.ode.events.EventState:214 (Suspicious rank: ample 32, jaccard 129, ochiai 40, naish1 16050, gp13 32, naish2 32, tarantula 129, )
 INSERT_BEFORE
-Patch 98
+
 ```Java
 if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
 	return false;
@@ -4483,10 +4459,10 @@ index e0cb427..4e95ed5 100644
 
 ```
 
-## NopolC 
+## 97 NopolC 
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225 (Suspicious rank: ample 16, jaccard 16, ochiai 16, naish1 15884, gp13 16, naish2 16, tarantula 16, )
-Patch 99
+
 ```Java
 ((!((1) != (lower))) && (org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.result < org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.defaultFunctionValueAccuracy)) || (initial <= lower)
 ```
@@ -4499,11 +4475,11 @@ Execution time: 0:00:46.515000
 
 Grid5000 node: griffon-34.nancy.grid5000.fr
 
-## Genprog 
+## 98 Genprog 
 
 org.apache.commons.math.analysis.solvers.BrentSolver:132 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 15933, gp13 1, naish2 1, tarantula 1, )
 REPLACE
-Patch 100
+
 ```Java
 return solve(f, min, max)
 ```
@@ -4576,10 +4552,10 @@ index ff09646..44f6742 100644
 
 ```
 
-## NopolPC 
+## 99 NopolPC 
 
 org.apache.commons.math.analysis.solvers.BrentSolver:282 (Suspicious rank: ample 32, jaccard 32, ochiai 32, naish1 16567, gp13 32, naish2 32, tarantula 32, )
-Patch 101
+
 ```Java
 -1 <= delta
 ```
@@ -4592,10 +4568,10 @@ Execution time: 0:00:52.617000
 
 Grid5000 node: griffon-30.nancy.grid5000.fr
 
-## BrutpolPC 
+## 100 BrutpolPC 
 
 org.apache.commons.math.ode.events.EventState:207 (Suspicious rank: ample 159, jaccard 159, ochiai 157, naish1 16589, gp13 159, naish2 159, tarantula 159, )
-Patch 102
+
 ```Java
 this.t0 <= this.maxIterationCount
 ```
@@ -4608,27 +4584,27 @@ Execution time: 0:05:28.748000
 
 Grid5000 node: graphene-45.nancy.grid5000.fr
 
-## Genprog 
+## 101 Genprog 
 
 org.apache.commons.math.ode.events.EventState:283 (Suspicious rank: ample 185, jaccard 185, ochiai 182, naish1 16660, gp13 185, naish2 185, tarantula 185, )
 REPLACE
-Patch 103
+
 ```Java
 nextAction = handler.eventOccurred(t, y, !((increasing) ^ (forward)))
 ```
 
 Grid5000 node: griffon-63.nancy.grid5000.fr
 
-## Kali 
+## 102 Kali 
 
 org.apache.commons.math.ode.events.EventState:283 (Suspicious rank: ample 185, jaccard 185, ochiai 182, naish1 16660, gp13 185, naish2 185, tarantula 185, )
 DELETE
-Patch 104
+
 ```Java
 remove
 ```
 
-Grid5000 node: graphene-64.nancy.grid5000.fr
+Grid5000 node: graphene-87.nancy.grid5000.fr
 
 # Math 80
 
@@ -4657,10 +4633,10 @@ index 9d1b797..3fc328d 100644
 
 ```
 
-## NopolPC 
+## 103 NopolPC 
 
 org.apache.commons.math.linear.EigenDecompositionImpl:1139 (Suspicious rank: ample 1, jaccard 1, ochiai 18, naish1 16068, gp13 1, naish2 1, tarantula 1, )
-Patch 105
+
 ```Java
 org.apache.commons.math.linear.EigenDecompositionImpl.this.cachedD!=null
 ```
@@ -4673,29 +4649,29 @@ Execution time: 0:00:56.103000
 
 Grid5000 node: griffon-4.nancy.grid5000.fr
 
-## Genprog 
+## 104 Genprog 
 
 org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: ample 3, jaccard 3, ochiai 16, naish1 16070, gp13 3, naish2 3, tarantula 3, )
 DELETE
-Patch 106
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-63.nancy.grid5000.fr
 
-## Kali 
+## 105 Kali 
 
 org.apache.commons.math.linear.EigenDecompositionImpl:1135 (Suspicious rank: ample 5, jaccard 5, ochiai 14, naish1 16072, gp13 5, naish2 5, tarantula 5, )
 INSERT_BEFORE
-Patch 107
+
 ```Java
 if (true)
 	return false;
 
 ```
 
-Grid5000 node: graphene-72.nancy.grid5000.fr
+Grid5000 node: graphene-89.nancy.grid5000.fr
 
 # Math 81
 
@@ -4750,10 +4726,10 @@ index 3fc328d..53a40f0 100644
 
 ```
 
-## NopolPC 
+## 106 NopolPC 
 
 org.apache.commons.math.linear.EigenDecompositionImpl:1541 (Suspicious rank: ample 4, jaccard 4, ochiai 11, naish1 16250, gp13 4, naish2 4, tarantula 4, )
-Patch 108
+
 ```Java
 (b2) != (org.apache.commons.math.linear.EigenDecompositionImpl.this.eMin)
 ```
@@ -4766,10 +4742,10 @@ Execution time: 0:00:50.500000
 
 Grid5000 node: griffon-30.nancy.grid5000.fr
 
-## NopolC 
+## 107 NopolC 
 
 org.apache.commons.math.linear.EigenDecompositionImpl:1583 (Suspicious rank: ample 27, jaccard 27, ochiai 27, naish1 16571, gp13 27, naish2 27, tarantula 27, )
-Patch 109
+
 ```Java
 (deflated < org.apache.commons.math.linear.EigenDecompositionImpl.this.dN2) || (((dMin1) == (dN1)) && ((dMin2) == (dN2)))
 ```
@@ -4782,29 +4758,29 @@ Execution time: 0:01:38.657000
 
 Grid5000 node: griffon-34.nancy.grid5000.fr
 
-## Genprog 
+## 108 Genprog 
 
 org.apache.commons.math.linear.EigenDecompositionImpl:1481 (Suspicious rank: ample 22, jaccard 22, ochiai 19, naish1 16258, gp13 22, naish2 22, tarantula 22, )
 REPLACE
-Patch 110
+
 ```Java
 b2 = b2 + b1
 ```
 
 Grid5000 node: griffon-58.nancy.grid5000.fr
 
-## Kali 
+## 109 Kali 
 
 org.apache.commons.math.linear.EigenDecompositionImpl:1526 (Suspicious rank: ample 2, jaccard 2, ochiai 2, naish1 16239, gp13 2, naish2 2, tarantula 2, )
 INSERT_BEFORE
-Patch 111
+
 ```Java
 if (true)
 	return ;
 
 ```
 
-Grid5000 node: graphene-61.nancy.grid5000.fr
+Grid5000 node: graphene-90.nancy.grid5000.fr
 
 # Math 82
 
@@ -4838,10 +4814,10 @@ index 60a1b3a..16d3bae 100644
 
 ```
 
-## NopolPC 
+## 110 NopolPC 
 
 org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: ample 37, jaccard 37, ochiai 47, naish1 16048, gp13 37, naish2 37, tarantula 37, )
-Patch 112
+
 ```Java
 (0) != (minValue)
 ```
@@ -4854,27 +4830,27 @@ Execution time: 0:06:00.564000
 
 Grid5000 node: griffon-8.nancy.grid5000.fr
 
-## Genprog 
+## 111 Genprog 
 
 org.apache.commons.math.util.MathUtils:372 (Suspicious rank: ample 79, jaccard 79, ochiai 78, naish1 16180, gp13 79, naish2 79, tarantula 79, )
 REPLACE
-Patch 113
+
 ```Java
 return x == 0 ? 0 : x > 0 ? 1 : -1
 ```
 
 Grid5000 node: griffon-23.nancy.grid5000.fr
 
-## Kali 
+## 112 Kali 
 
 org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: ample 37, jaccard 37, ochiai 47, naish1 16048, gp13 37, naish2 37, tarantula 37, )
 DELETE
-Patch 114
+
 ```Java
 remove
 ```
 
-Grid5000 node: graphene-65.nancy.grid5000.fr
+Grid5000 node: graphene-92.nancy.grid5000.fr
 
 # Math 84
 
@@ -4920,29 +4896,29 @@ index 929560c..955d0d8 100644
 
 ```
 
-## Genprog 
+## 113 Genprog 
 
 org.apache.commons.math.optimization.direct.MultiDirectional:90 (Suspicious rank: ample 16, jaccard 16, ochiai 7, naish1 16169, gp13 16, naish2 16, tarantula 16, )
 REPLACE
-Patch 115
+
 ```Java
 return 
 ```
 
 Grid5000 node: graphene-1.nancy.grid5000.fr
 
-## Kali 
+## 114 Kali 
 
 org.apache.commons.math.optimization.direct.MultiDirectional:90 (Suspicious rank: ample 16, jaccard 16, ochiai 7, naish1 16169, gp13 16, naish2 16, tarantula 16, )
 INSERT_BEFORE
-Patch 116
+
 ```Java
 if (true)
 	return ;
 
 ```
 
-Grid5000 node: graphene-71.nancy.grid5000.fr
+Grid5000 node: graphene-10.nancy.grid5000.fr
 
 # Math 85
 
@@ -4971,10 +4947,10 @@ index e6398f6..5b76415 100644
 
 ```
 
-## NopolPC 
+## 115 NopolPC 
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198 (Suspicious rank: ample 41, jaccard 41, ochiai 46, naish1 15686, gp13 41, naish2 41, tarantula 41, )
-Patch 117
+
 ```Java
 ((fa * fb)) != (lowerBound)
 ```
@@ -4987,10 +4963,10 @@ Execution time: 0:00:46.946000
 
 Grid5000 node: griffon-12.nancy.grid5000.fr
 
-## NopolC 
+## 116 NopolC 
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198 (Suspicious rank: ample 41, jaccard 41, ochiai 46, naish1 15686, gp13 41, naish2 41, tarantula 41, )
-Patch 118
+
 ```Java
 1 <= (fa * fb)
 ```
@@ -5003,10 +4979,10 @@ Execution time: 0:00:45.569000
 
 Grid5000 node: griffon-56.nancy.grid5000.fr
 
-## BrutpolPC 
+## 117 BrutpolPC 
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199 (Suspicious rank: ample 4, jaccard 4, ochiai 1, naish1 15706, gp13 4, naish2 4, tarantula 4, )
-Patch 119
+
 ```Java
 initial == lowerBound
 ```
@@ -5019,10 +4995,10 @@ Execution time: 0:01:39.054000
 
 Grid5000 node: graphene-83.nancy.grid5000.fr
 
-## BrutpolC 
+## 118 BrutpolC 
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198 (Suspicious rank: ample 41, jaccard 41, ochiai 46, naish1 15686, gp13 41, naish2 41, tarantula 41, )
-Patch 120
+
 ```Java
 0.0 == fa
 ```
@@ -5035,27 +5011,27 @@ Execution time: 0:01:47.722000
 
 Grid5000 node: graphene-83.nancy.grid5000.fr
 
-## Genprog 
+## 119 Genprog 
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199 (Suspicious rank: ample 4, jaccard 4, ochiai 1, naish1 15706, gp13 4, naish2 4, tarantula 4, )
 DELETE
-Patch 121
+
 ```Java
 remove
 ```
 
 Grid5000 node: graphene-10.nancy.grid5000.fr
 
-## Kali 
+## 120 Kali 
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199 (Suspicious rank: ample 4, jaccard 4, ochiai 1, naish1 15706, gp13 4, naish2 4, tarantula 4, )
 DELETE
-Patch 122
+
 ```Java
 remove
 ```
 
-Grid5000 node: graphene-70.nancy.grid5000.fr
+Grid5000 node: graphene-12.nancy.grid5000.fr
 
 # Math 87
 
@@ -5092,10 +5068,10 @@ index b0d114e..a6d7419 100644
 
 ```
 
-## NopolPC 
+## 121 NopolPC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:161 (Suspicious rank: ample 43, jaccard 43, ochiai 25, naish1 14789, gp13 43, naish2 43, tarantula 43, )
-Patch 123
+
 ```Java
 (1) != (org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)
 ```
@@ -5108,10 +5084,10 @@ Execution time: 0:06:01.106000
 
 Grid5000 node: griffon-39.nancy.grid5000.fr
 
-## NopolC 
+## 122 NopolC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:160 (Suspicious rank: ample 111, jaccard 111, ochiai 127, naish1 14790, gp13 111, naish2 111, tarantula 111, )
-Patch 124
+
 ```Java
 (((1) != (constraints.size())) || (org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables < zIndex)) && (!(restrictToNonNegative))
 ```
@@ -5124,10 +5100,10 @@ Execution time: 0:01:02.125000
 
 Grid5000 node: griffon-85.nancy.grid5000.fr
 
-## BrutpolPC 
+## 123 BrutpolPC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:161 (Suspicious rank: ample 43, jaccard 43, ochiai 25, naish1 14789, gp13 43, naish2 43, tarantula 43, )
-Patch 125
+
 ```Java
 this.numDecisionVariables != height
 ```
@@ -5213,10 +5189,10 @@ index a6d7419..ba57722 100644
 
 ```
 
-## NopolPC 
+## 124 NopolPC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:352 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 14715, gp13 1, naish2 1, tarantula 1, )
-Patch 126
+
 ```Java
 org.apache.commons.math.optimization.linear.SimplexTableau.this.constraints.size() < org.apache.commons.math.optimization.linear.SimplexTableau.this.numDecisionVariables
 ```
@@ -5229,10 +5205,10 @@ Execution time: 0:00:36.819000
 
 Grid5000 node: griffon-68.nancy.grid5000.fr
 
-## BrutpolPC 
+## 125 BrutpolPC 
 
 org.apache.commons.math.optimization.linear.SimplexTableau:352 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 14715, gp13 1, naish2 1, tarantula 1, )
-Patch 127
+
 ```Java
 this.numDecisionVariables != this.numSlackVariables
 ```
@@ -5327,29 +5303,29 @@ index 59aeb07..3959403 100644
 
 ```
 
-## Genprog 
+## 126 Genprog 
 
 org.apache.commons.math.distribution.FDistributionImpl:144 (Suspicious rank: ample 1393, jaccard 105, ochiai 105, naish1 8365, gp13 105, naish2 105, tarantula 83, )
 REPLACE
-Patch 128
+
 ```Java
 return denominatorDegreesOfFreedom
 ```
 
 Grid5000 node: graphene-2.nancy.grid5000.fr
 
-## Kali 
+## 127 Kali 
 
 org.apache.commons.math.distribution.FDistributionImpl:144 (Suspicious rank: ample 1393, jaccard 105, ochiai 105, naish1 8365, gp13 105, naish2 105, tarantula 83, )
 INSERT_BEFORE
-Patch 129
+
 ```Java
 if (true)
 	return 0d;
 
 ```
 
-Grid5000 node: graphene-78.nancy.grid5000.fr
+Grid5000 node: graphene-2.nancy.grid5000.fr
 
 # Math 96
 
@@ -5427,10 +5403,10 @@ index 8b622cb..16b3873 100644
 
 ```
 
-## BrutpolC 
+## 128 BrutpolC 
 
 org.apache.commons.math.complex.Complex:248 (Suspicious rank: ample 2269, jaccard 113, ochiai 112, naish1 8115, gp13 113, naish2 113, tarantula 113, )
-Patch 130
+
 ```Java
 0 == (1 + this.imaginary)
 ```
@@ -5545,10 +5521,10 @@ index 57f64a9..01a9ee5 100644
 
 ```
 
-## NopolPC 
+## 129 NopolPC 
 
 org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: ample 924, jaccard 68, ochiai 68, naish1 6894, gp13 68, naish2 68, tarantula 68, )
-Patch 131
+
 ```Java
 min <= 1
 ```
@@ -5561,10 +5537,10 @@ Execution time: 0:00:38.388000
 
 Grid5000 node: griffon-9.nancy.grid5000.fr
 
-## NopolC 
+## 130 NopolC 
 
 org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: ample 6982, jaccard 87, ochiai 90, naish1 6893, gp13 87, naish2 87, tarantula 87, )
-Patch 132
+
 ```Java
 ((min <= 0) || (min == 1)) && ((yMin * yMax) >= 0)
 ```
@@ -5577,10 +5553,10 @@ Execution time: 0:01:01.461000
 
 Grid5000 node: griffon-92.nancy.grid5000.fr
 
-## BrutpolPC 
+## 131 BrutpolPC 
 
 org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: ample 924, jaccard 68, ochiai 68, naish1 6894, gp13 68, naish2 68, tarantula 68, )
-Patch 133
+
 ```Java
 min == 1
 ```
@@ -5593,10 +5569,10 @@ Execution time: 0:01:35.571000
 
 Grid5000 node: graphene-46.nancy.grid5000.fr
 
-## BrutpolC 
+## 132 BrutpolC 
 
 org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: ample 6982, jaccard 87, ochiai 90, naish1 6893, gp13 87, naish2 87, tarantula 87, )
-Patch 134
+
 ```Java
 (max - yMin) <= yMin
 ```
@@ -5711,10 +5687,10 @@ index da8b3f5..01a9ee5 100644
 
 ```
 
-## NopolPC 
+## 133 NopolPC 
 
 org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: ample 861, jaccard 68, ochiai 68, naish1 7155, gp13 68, naish2 68, tarantula 68, )
-Patch 135
+
 ```Java
 min <= 1
 ```
@@ -5727,10 +5703,10 @@ Execution time: 0:00:38.931000
 
 Grid5000 node: griffon-33.nancy.grid5000.fr
 
-## NopolC 
+## 134 NopolC 
 
 org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: ample 5982, jaccard 88, ochiai 90, naish1 7186, gp13 88, naish2 88, tarantula 88, )
-Patch 136
+
 ```Java
 ((yMin * yMax) >= 0) && (min <= 1)
 ```
@@ -5743,10 +5719,10 @@ Execution time: 0:01:11.913000
 
 Grid5000 node: griffon-57.nancy.grid5000.fr
 
-## BrutpolPC 
+## 135 BrutpolPC 
 
 org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: ample 861, jaccard 68, ochiai 68, naish1 7155, gp13 68, naish2 68, tarantula 68, )
-Patch 137
+
 ```Java
 min == 1
 ```
@@ -5759,10 +5735,10 @@ Execution time: 0:01:34.393000
 
 Grid5000 node: graphene-85.nancy.grid5000.fr
 
-## BrutpolC 
+## 136 BrutpolC 
 
 org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: ample 5982, jaccard 88, ochiai 90, naish1 7186, gp13 88, naish2 88, tarantula 88, )
-Patch 138
+
 ```Java
 (max - yMin) <= yMin
 ```
@@ -5843,10 +5819,10 @@ index ba2c4db..8c565cb 100644
 
 ```
 
-## NopolC 
+## 137 NopolC 
 
 org.apache.commons.math.special.Gamma:162 (Suspicious rank: ample 3683, jaccard 88, ochiai 88, naish1 6243, gp13 88, naish2 88, tarantula 88, )
-Patch 139
+
 ```Java
 ((a >= 1.0) && (x > a)) || ((a == 1) && (!((a) != (x))))
 ```
@@ -5912,10 +5888,10 @@ index d9fa592..c105a41 100644
 
 ```
 
-## NopolPC 
+## 138 NopolPC 
 
 org.apache.commons.math.stat.regression.SimpleRegression:108 (Suspicious rank: ample 562, jaccard 79, ochiai 70, naish1 4336, gp13 79, naish2 79, tarantula 79, )
-Patch 140
+
 ```Java
 (org.apache.commons.math.stat.regression.SimpleRegression.this.xbar <= 1) || ((y < x) && (y < x))
 ```
@@ -5928,10 +5904,10 @@ Execution time: 0:06:35.318000
 
 Grid5000 node: griffon-33.nancy.grid5000.fr
 
-## BrutpolPC 
+## 139 BrutpolPC 
 
 org.apache.commons.math.stat.regression.SimpleRegression:116 (Suspicious rank: ample 557, jaccard 74, ochiai 77, naish1 4327, gp13 74, naish2 74, tarantula 74, )
-Patch 141
+
 ```Java
 dy <= this.getRegressionSumSquares(x)
 ```
@@ -5977,29 +5953,29 @@ index 8e8e603..aaf0a0f 100644
 
 ```
 
-## Genprog 
+## 140 Genprog 
 
 org.joda.time.field.ZeroIsMaxDateTimeField:178 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 10438, gp13 3, naish2 3, tarantula 3, )
 REPLACE
-Patch 142
+
 ```Java
 return 1
 ```
 
 Grid5000 node: graphene-6.nancy.grid5000.fr
 
-## Kali 
+## 141 Kali 
 
 org.joda.time.field.ZeroIsMaxDateTimeField:178 (Suspicious rank: ample 3, jaccard 3, ochiai 3, naish1 10438, gp13 3, naish2 3, tarantula 3, )
 INSERT_BEFORE
-Patch 143
+
 ```Java
 if (true)
 	return 0;
 
 ```
 
-Grid5000 node: graphene-108.nancy.grid5000.fr
+Grid5000 node: graphene-113.nancy.grid5000.fr
 
 # Time 7
 
@@ -6039,10 +6015,10 @@ index 913d036..553b035 100644
 
 ```
 
-## BrutpolPC 
+## 142 BrutpolPC 
 
 org.joda.time.format.DateTimeParserBucket:359 (Suspicious rank: ample 19, jaccard 19, ochiai 19, naish1 10152, gp13 19, naish2 19, tarantula 19, )
-Patch 144
+
 ```Java
 resetFields
 ```
@@ -6092,10 +6068,10 @@ index 64da5ea..6efe071 100644
 
 ```
 
-## NopolPC 
+## 143 NopolPC 
 
 org.joda.time.tz.DateTimeZoneBuilder:372 (Suspicious rank: ample 108, jaccard 108, ochiai 110, naish1 10249, gp13 108, naish2 108, tarantula 108, )
-Patch 145
+
 ```Java
 !((ruleSetCount <= 1) && ((tailZone!=null) || (outputID)))
 ```
@@ -6108,10 +6084,10 @@ Execution time: 0:02:47.083000
 
 Grid5000 node: graphene-112.nancy.grid5000.fr
 
-## NopolC 
+## 144 NopolC 
 
 org.joda.time.tz.DateTimeZoneBuilder:371 (Suspicious rank: ample 109, jaccard 109, ochiai 109, naish1 10250, gp13 109, naish2 109, tarantula 109, )
-Patch 146
+
 ```Java
 ((tailZone == null) && (i == (ruleSetCount - 1))) && ((!(outputID)) || (0 < (ruleSetCount - 1)))
 ```
@@ -6124,10 +6100,10 @@ Execution time: 0:07:45.696000
 
 Grid5000 node: griffon-29.nancy.grid5000.fr
 
-## BrutpolPC 
+## 145 BrutpolPC 
 
 org.joda.time.tz.DateTimeZoneBuilder:372 (Suspicious rank: ample 108, jaccard 108, ochiai 110, naish1 10249, gp13 108, naish2 108, tarantula 108, )
-Patch 147
+
 ```Java
 transitions.contains(this)
 ```
@@ -6140,10 +6116,10 @@ Execution time: 0:02:15.282000
 
 Grid5000 node: graphene-45.nancy.grid5000.fr
 
-## BrutpolC 
+## 146 BrutpolC 
 
 org.joda.time.tz.DateTimeZoneBuilder:309 (Suspicious rank: ample 49, jaccard 49, ochiai 99, naish1 10021, gp13 49, naish2 49, tarantula 49, )
-Patch 148
+
 ```Java
 0 != nameKey.length()
 ```
@@ -6156,25 +6132,25 @@ Execution time: 0:10:03.166000
 
 Grid5000 node: graphene-119.nancy.grid5000.fr
 
-## Genprog 
+## 147 Genprog 
 
 org.joda.time.tz.DateTimeZoneBuilder:372 (Suspicious rank: ample 108, jaccard 108, ochiai 110, naish1 10249, gp13 108, naish2 108, tarantula 108, )
 DELETE
-Patch 149
+
 ```Java
 remove
 ```
 
 Grid5000 node: griffon-18.nancy.grid5000.fr
 
-## Kali 
+## 148 Kali 
 
 org.joda.time.tz.DateTimeZoneBuilder:1460
 DELETE
-Patch 150
+
 ```Java
 remove
 ```
 
-Grid5000 node: graphene-115.nancy.grid5000.fr
+Grid5000 node: graphene-124.nancy.grid5000.fr
 
