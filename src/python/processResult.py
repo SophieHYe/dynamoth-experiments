@@ -168,14 +168,14 @@ for project in sorted(os.listdir(root)):
 							resultsBug["Nopol"]["patch"] is not None):
 							continue
 						if (tool == "BrutpolC" and 
-							"Brutpol" in resultsBug and 
-							"patch" in resultsBug["Brutpol"] and 
-							resultsBug["Brutpol"]["patch"] is not None):
+							"DynaMoth" in resultsBug and
+							"patch" in resultsBug["DynaMoth"] and
+							resultsBug["DynaMoth"]["patch"] is not None):
 							continue
 						
 						values = json.load(data_file)
 						if tool == "BrutpolC":
-							tool = "Brutpol"
+							tool = "DynaMoth"
 						elif tool == "NopolC":
 							tool = "Nopol"
 						tool = getToolName(tool)
@@ -187,11 +187,11 @@ for project in sorted(os.listdir(root)):
 					if ("Nopol" in tool and 
 						"Nopol" in resultsBug):
 						continue
-					if ( "Brutpol" in tool and 
-						"Brutpol" in resultsBug):
+					if ( "Brutpol" in tool and
+						"DynaMoth" in resultsBug):
 						continue
 					if tool == "BrutpolC":
-						tool = "Brutpol"
+						tool = "DynaMoth"
 					elif tool == "NopolC":
 						tool = "Nopol"
 					tool = getToolName(tool)
