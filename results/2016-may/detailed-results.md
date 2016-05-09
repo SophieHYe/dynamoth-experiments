@@ -2,150 +2,195 @@
 
  #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
 ---- | ----------------- | --------- | --------- | --------- | --------- | ------
-   3 | [C5](#chart-5)    | 0 AV      |           |           | Yes       |      1
-   4 | [C6](#chart-6)    | Yes       |           |           | 4 AV      |      1
-   5 | [C9](#chart-9)    | No        |           |           | Yes       |      1
-   6 | [C13](#chart-13)  | Yes       |           |           | Yes       |      2
-   7 | [C17](#chart-17)  | Yes       |           |           | Yes       |      2
-   8 | [C21](#chart-21)  | Yes       |           |           | Yes       |      2
-   9 | [C25](#chart-25)  | Yes       |           |           | Yes       |      2
-  15 | [L39](#lang-39)   | Yes       |           |           | Yes       |      2
-  16 | [L44](#lang-44)   | 1 AV      |           |           | Yes       |      1
-  17 | [L46](#lang-46)   | Yes       |           |           | Yes       |      2
-  19 | [L51](#lang-51)   | 0 AV      |           |           | Yes       |      1
-  20 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
-  21 | [L55](#lang-55)   | Yes       |           |           | Yes       |      2
-  22 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
-  24 | [L63](#lang-63)   | Yes       |           |           | 1 AV      |      1
-  36 | [M32](#math-32)   | No        |           |           | Yes       |      1
-  37 | [M33](#math-33)   | Yes       |           |           | Yes       |      2
-  38 | [M40](#math-40)   | 0 AV      |           |           | Yes       |      1
-  39 | [M41](#math-41)   | Yes       |           |           | 10 AV     |      1
-  40 | [M42](#math-42)   | Yes       |           |           | Yes       |      2
-  42 | [M46](#math-46)   | Yes       |           |           | 2 AV      |      1
-  43 | [M49](#math-49)   | Yes       |           |           | Yes       |      2
-  44 | [M50](#math-50)   | Yes       |           |           | Yes       |      2
-  46 | [M57](#math-57)   | Yes       |           |           | Yes       |      2
-  47 | [M58](#math-58)   | Yes       |           |           | Yes       |      2
-  49 | [M69](#math-69)   | Yes       |           |           | Yes       |      2
-  50 | [M71](#math-71)   | Yes       |           |           | Yes       |      2
-  51 | [M73](#math-73)   | 0 AV      |           |           | Yes       |      1
-  52 | [M78](#math-78)   | Yes       |           |           | No        |      1
-  54 | [M80](#math-80)   | Yes       |           |           | Yes       |      2
-  55 | [M81](#math-81)   | No        |           |           | Yes       |      1
-  56 | [M82](#math-82)   | Yes       |           |           | Yes       |      2
-  57 | [M85](#math-85)   | 2 AV      |           |           | Yes       |      1
-  59 | [M87](#math-87)   | Yes       |           |           | Yes       |      2
-  60 | [M88](#math-88)   | Yes       |           |           | Yes       |      2
-  64 | [M104](#math-104) | ERROR     |           |           | Yes       |      1
-  65 | [M105](#math-105) | Yes       |           |           | Yes       |      2
-  67 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
-  69 | [T7](#time-7)     | Yes       |           |           | No        |      1
-  70 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
-  73 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
-     | Total             | 31 (40%)  | 0 (0%)    | 0 (0%)    | 35 (45%)  |     66
-Fixed bugs: 41/77 (53%)
+   1 | [C1](#chart-1)    | Yes       |           |           | 0 AV      |      1
+   4 | [C5](#chart-5)    | Yes       |           |           | Yes       |      2
+   5 | [C6](#chart-6)    | Yes       |           |           | 4 AV      |      1
+   6 | [C9](#chart-9)    | Yes       |           |           | Yes       |      2
+   7 | [C13](#chart-13)  | Yes       |           |           | Yes       |      2
+   8 | [C17](#chart-17)  | Yes       |           |           | Yes       |      2
+   9 | [C21](#chart-21)  | Yes       |           |           | Yes       |      2
+  10 | [C25](#chart-25)  | Yes       |           |           | Yes       |      2
+  16 | [L39](#lang-39)   | Yes       |           |           | Yes       |      2
+  17 | [L44](#lang-44)   | Yes       |           |           | Yes       |      2
+  18 | [L46](#lang-46)   | Yes       |           |           | Yes       |      2
+  20 | [L51](#lang-51)   | Yes       |           |           | Yes       |      2
+  21 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
+  22 | [L55](#lang-55)   | Yes       |           |           | Yes       |      2
+  23 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
+  25 | [L63](#lang-63)   | Yes       |           |           | 1 AV      |      1
+  37 | [M32](#math-32)   | Yes       |           |           | Yes       |      2
+  38 | [M33](#math-33)   | Yes       |           |           | Yes       |      2
+  39 | [M40](#math-40)   | 1 AV      |           |           | Yes       |      1
+  40 | [M41](#math-41)   | Yes       |           |           | 10 AV     |      1
+  41 | [M42](#math-42)   | Yes       |           |           | Yes       |      2
+  43 | [M46](#math-46)   | Yes       |           |           | 2 AV      |      1
+  44 | [M49](#math-49)   | Yes       |           |           | Yes       |      2
+  45 | [M50](#math-50)   | Yes       |           |           | Yes       |      2
+  47 | [M57](#math-57)   | Yes       |           |           | Yes       |      2
+  48 | [M58](#math-58)   | Yes       |           |           | Yes       |      2
+  50 | [M69](#math-69)   | Yes       |           |           | Yes       |      2
+  51 | [M71](#math-71)   | Yes       |           |           | Yes       |      2
+  52 | [M73](#math-73)   | 0 AV      |           |           | Yes       |      1
+  53 | [M78](#math-78)   | Yes       |           |           | No        |      1
+  55 | [M80](#math-80)   | Yes       |           |           | Yes       |      2
+  56 | [M81](#math-81)   | No        |           |           | Yes       |      1
+  57 | [M82](#math-82)   | Yes       |           |           | Yes       |      2
+  58 | [M85](#math-85)   | Yes       |           |           | Yes       |      2
+  60 | [M87](#math-87)   | Yes       |           |           | Yes       |      2
+  61 | [M88](#math-88)   | Yes       |           |           | Yes       |      2
+  62 | [M96](#math-96)   | Yes       |           |           | 1 AV      |      1
+  63 | [M97](#math-97)   | Yes       |           |           | 1 AV      |      1
+  64 | [M101](#math-101) | Yes       |           |           | 1 AV      |      1
+  65 | [M104](#math-104) | ERROR     |           |           | Yes       |      1
+  66 | [M105](#math-105) | Yes       |           |           | Yes       |      2
+  68 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
+  70 | [T7](#time-7)     | Yes       |           |           | No        |      1
+  71 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
+  73 | [T14](#time-14)   | Yes       |           |           | 2 AV      |      1
+  74 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
+     | Total             | 42 (53%)  | 0 (0%)    | 0 (0%)    | 35 (44%)  |     77
+Fixed bugs: 46/78 (58%)
 
-Nb bugs ends with an execution error: 6
+Nb bugs ends with an execution error: 5
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 26
+Nb bugs ends with the Grid5000 timeout: 21
 
-Total execution time: 1 day, 17:55:34.078000
+Total execution time: 1 day, 14:04:22.388000
 # All bugs
 
  #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
 ---- | ----------------- | --------- | --------- | --------- | --------- | ------
-   1 | [C3](#chart-3)    | 0 AV      |           |           | 0 AV      |      0
-   2 | [C4](#chart-4)    | 3 AV      |           |           |           |      0
-   3 | [C5](#chart-5)    | 0 AV      |           |           | Yes       |      1
-   4 | [C6](#chart-6)    | Yes       |           |           | 4 AV      |      1
-   5 | [C9](#chart-9)    | No        |           |           | Yes       |      1
-   6 | [C13](#chart-13)  | Yes       |           |           | Yes       |      2
-   7 | [C17](#chart-17)  | Yes       |           |           | Yes       |      2
-   8 | [C21](#chart-21)  | Yes       |           |           | Yes       |      2
-   9 | [C25](#chart-25)  | Yes       |           |           | Yes       |      2
-  10 | [C26](#chart-26)  | No        |           |           | No        |      0
-  11 | [L7](#lang-7)     | 2 AV      |           |           | 1 AV      |      0
-  12 | [L9](#lang-9)     | ERROR     |           |           | 1 AV      |      0
-  13 | [L22](#lang-22)   | 2 AV      |           |           | 1 AV      |      0
-  14 | [L27](#lang-27)   | 0 AV      |           |           | 1 AV      |      0
-  15 | [L39](#lang-39)   | Yes       |           |           | Yes       |      2
-  16 | [L44](#lang-44)   | 1 AV      |           |           | Yes       |      1
-  17 | [L46](#lang-46)   | Yes       |           |           | Yes       |      2
-  18 | [L48](#lang-48)   | 2 AV      |           |           | No        |      0
-  19 | [L51](#lang-51)   | 0 AV      |           |           | Yes       |      1
-  20 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
-  21 | [L55](#lang-55)   | Yes       |           |           | Yes       |      2
-  22 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
-  23 | [L60](#lang-60)   | 2 AV      |           |           | 2 AV      |      0
-  24 | [L63](#lang-63)   | Yes       |           |           | 1 AV      |      1
-  25 | [M4](#math-4)     | ERROR     |           |           |           |      0
-  26 | [M5](#math-5)     | 0 AV      |           |           | 2 AV      |      0
-  27 | [M7](#math-7)     | No        |           |           | No        |      0
-  28 | [M8](#math-8)     | 2 AV      |           |           | 0 AV      |      0
-  29 | [M15](#math-15)   | No        |           |           | No        |      0
-  30 | [M18](#math-18)   | No        |           |           | No        |      0
-  31 | [M19](#math-19)   | No        |           |           | 1 AV      |      0
-  32 | [M20](#math-20)   | No        |           |           | No        |      0
-  33 | [M24](#math-24)   | 3 AV      |           |           | 1 AV      |      0
-  34 | [M30](#math-30)   | 0 AV      |           |           | 1 AV      |      0
-  35 | [M31](#math-31)   | ERROR     |           |           | No        |      0
-  36 | [M32](#math-32)   | No        |           |           | Yes       |      1
-  37 | [M33](#math-33)   | Yes       |           |           | Yes       |      2
-  38 | [M40](#math-40)   | 0 AV      |           |           | Yes       |      1
-  39 | [M41](#math-41)   | Yes       |           |           | 10 AV     |      1
-  40 | [M42](#math-42)   | Yes       |           |           | Yes       |      2
-  41 | [M43](#math-43)   | 0 AV      |           |           | 1 AV      |      0
-  42 | [M46](#math-46)   | Yes       |           |           | 2 AV      |      1
-  43 | [M49](#math-49)   | Yes       |           |           | Yes       |      2
-  44 | [M50](#math-50)   | Yes       |           |           | Yes       |      2
-  45 | [M52](#math-52)   | 0 AV      |           |           | 0 AV      |      0
-  46 | [M57](#math-57)   | Yes       |           |           | Yes       |      2
-  47 | [M58](#math-58)   | Yes       |           |           | Yes       |      2
-  48 | [M60](#math-60)   | No        |           |           | 1 AV      |      0
-  49 | [M69](#math-69)   | Yes       |           |           | Yes       |      2
-  50 | [M71](#math-71)   | Yes       |           |           | Yes       |      2
-  51 | [M73](#math-73)   | 0 AV      |           |           | Yes       |      1
-  52 | [M78](#math-78)   | Yes       |           |           | No        |      1
-  53 | [M79](#math-79)   | 2 AV      |           |           | 1 AV      |      0
-  54 | [M80](#math-80)   | Yes       |           |           | Yes       |      2
-  55 | [M81](#math-81)   | No        |           |           | Yes       |      1
-  56 | [M82](#math-82)   | Yes       |           |           | Yes       |      2
-  57 | [M85](#math-85)   | 2 AV      |           |           | Yes       |      1
-  58 | [M86](#math-86)   | No        |           |           | 0 AV      |      0
-  59 | [M87](#math-87)   | Yes       |           |           | Yes       |      2
-  60 | [M88](#math-88)   | Yes       |           |           | Yes       |      2
-  61 | [M96](#math-96)   | 0 AV      |           |           | 1 AV      |      0
-  62 | [M97](#math-97)   | 0 AV      |           |           | 1 AV      |      0
-  63 | [M101](#math-101) | 0 AV      |           |           | 1 AV      |      0
-  64 | [M104](#math-104) | ERROR     |           |           | Yes       |      1
-  65 | [M105](#math-105) | Yes       |           |           | Yes       |      2
-  66 | [M106](#math-106) | No        |           |           | 7 AV      |      0
-  67 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
-  68 | [T5](#time-5)     | 2 AV      |           |           | 1 AV      |      0
-  69 | [T7](#time-7)     | Yes       |           |           | No        |      1
-  70 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
-  71 | [T12](#time-12)   | No        |           |           | 0 AV      |      0
-  72 | [T14](#time-14)   | 1 AV      |           |           | 2 AV      |      0
-  73 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
-  74 | [T17](#time-17)   | No        |           |           | 2 AV      |      0
-  75 | [T18](#time-18)   | 3 AV      |           |           | No        |      0
-  76 | [T19](#time-19)   | No        |           |           | No        |      0
-  77 | [T24](#time-24)   | ERROR     |           |           | ERROR     |      0
-     | Total             | 31 (40%)  | 0 (0%)    | 0 (0%)    | 35 (45%)  |     66
-Fixed bugs: 41/77 (53%)
+   1 | [C1](#chart-1)    | Yes       |           |           | 0 AV      |      1
+   2 | [C3](#chart-3)    | 0 AV      |           |           | 0 AV      |      0
+   3 | [C4](#chart-4)    | 0 AV      |           |           |           |      0
+   4 | [C5](#chart-5)    | Yes       |           |           | Yes       |      2
+   5 | [C6](#chart-6)    | Yes       |           |           | 4 AV      |      1
+   6 | [C9](#chart-9)    | Yes       |           |           | Yes       |      2
+   7 | [C13](#chart-13)  | Yes       |           |           | Yes       |      2
+   8 | [C17](#chart-17)  | Yes       |           |           | Yes       |      2
+   9 | [C21](#chart-21)  | Yes       |           |           | Yes       |      2
+  10 | [C25](#chart-25)  | Yes       |           |           | Yes       |      2
+  11 | [C26](#chart-26)  | No        |           |           | No        |      0
+  12 | [L7](#lang-7)     | 2 AV      |           |           | 1 AV      |      0
+  13 | [L9](#lang-9)     | 0 AV      |           |           | 1 AV      |      0
+  14 | [L22](#lang-22)   | 1 AV      |           |           | 1 AV      |      0
+  15 | [L27](#lang-27)   | 1 AV      |           |           | 1 AV      |      0
+  16 | [L39](#lang-39)   | Yes       |           |           | Yes       |      2
+  17 | [L44](#lang-44)   | Yes       |           |           | Yes       |      2
+  18 | [L46](#lang-46)   | Yes       |           |           | Yes       |      2
+  19 | [L48](#lang-48)   | 2 AV      |           |           | No        |      0
+  20 | [L51](#lang-51)   | Yes       |           |           | Yes       |      2
+  21 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
+  22 | [L55](#lang-55)   | Yes       |           |           | Yes       |      2
+  23 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
+  24 | [L60](#lang-60)   | 2 AV      |           |           | 2 AV      |      0
+  25 | [L63](#lang-63)   | Yes       |           |           | 1 AV      |      1
+  26 | [M4](#math-4)     | ERROR     |           |           |           |      0
+  27 | [M5](#math-5)     | 2 AV      |           |           | 2 AV      |      0
+  28 | [M7](#math-7)     | No        |           |           | No        |      0
+  29 | [M8](#math-8)     | 2 AV      |           |           | 0 AV      |      0
+  30 | [M15](#math-15)   | No        |           |           | No        |      0
+  31 | [M18](#math-18)   | No        |           |           | No        |      0
+  32 | [M19](#math-19)   | No        |           |           | 1 AV      |      0
+  33 | [M20](#math-20)   | No        |           |           | No        |      0
+  34 | [M24](#math-24)   | 1 AV      |           |           | 1 AV      |      0
+  35 | [M30](#math-30)   | 0 AV      |           |           | 1 AV      |      0
+  36 | [M31](#math-31)   | ERROR     |           |           | No        |      0
+  37 | [M32](#math-32)   | Yes       |           |           | Yes       |      2
+  38 | [M33](#math-33)   | Yes       |           |           | Yes       |      2
+  39 | [M40](#math-40)   | 1 AV      |           |           | Yes       |      1
+  40 | [M41](#math-41)   | Yes       |           |           | 10 AV     |      1
+  41 | [M42](#math-42)   | Yes       |           |           | Yes       |      2
+  42 | [M43](#math-43)   | 0 AV      |           |           | 1 AV      |      0
+  43 | [M46](#math-46)   | Yes       |           |           | 2 AV      |      1
+  44 | [M49](#math-49)   | Yes       |           |           | Yes       |      2
+  45 | [M50](#math-50)   | Yes       |           |           | Yes       |      2
+  46 | [M52](#math-52)   | 0 AV      |           |           | 0 AV      |      0
+  47 | [M57](#math-57)   | Yes       |           |           | Yes       |      2
+  48 | [M58](#math-58)   | Yes       |           |           | Yes       |      2
+  49 | [M60](#math-60)   | 0 AV      |           |           | 1 AV      |      0
+  50 | [M69](#math-69)   | Yes       |           |           | Yes       |      2
+  51 | [M71](#math-71)   | Yes       |           |           | Yes       |      2
+  52 | [M73](#math-73)   | 0 AV      |           |           | Yes       |      1
+  53 | [M78](#math-78)   | Yes       |           |           | No        |      1
+  54 | [M79](#math-79)   | 1 AV      |           |           | 1 AV      |      0
+  55 | [M80](#math-80)   | Yes       |           |           | Yes       |      2
+  56 | [M81](#math-81)   | No        |           |           | Yes       |      1
+  57 | [M82](#math-82)   | Yes       |           |           | Yes       |      2
+  58 | [M85](#math-85)   | Yes       |           |           | Yes       |      2
+  59 | [M86](#math-86)   | 0 AV      |           |           | 0 AV      |      0
+  60 | [M87](#math-87)   | Yes       |           |           | Yes       |      2
+  61 | [M88](#math-88)   | Yes       |           |           | Yes       |      2
+  62 | [M96](#math-96)   | Yes       |           |           | 1 AV      |      1
+  63 | [M97](#math-97)   | Yes       |           |           | 1 AV      |      1
+  64 | [M101](#math-101) | Yes       |           |           | 1 AV      |      1
+  65 | [M104](#math-104) | ERROR     |           |           | Yes       |      1
+  66 | [M105](#math-105) | Yes       |           |           | Yes       |      2
+  67 | [M106](#math-106) | No        |           |           | 7 AV      |      0
+  68 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
+  69 | [T5](#time-5)     | 1 AV      |           |           | 1 AV      |      0
+  70 | [T7](#time-7)     | Yes       |           |           | No        |      1
+  71 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
+  72 | [T12](#time-12)   | No        |           |           | 0 AV      |      0
+  73 | [T14](#time-14)   | Yes       |           |           | 2 AV      |      1
+  74 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
+  75 | [T17](#time-17)   | No        |           |           | 2 AV      |      0
+  76 | [T18](#time-18)   | 2 AV      |           |           | No        |      0
+  77 | [T19](#time-19)   | 1 AV      |           |           | No        |      0
+  78 | [T24](#time-24)   | ERROR     |           |           | ERROR     |      0
+     | Total             | 42 (53%)  | 0 (0%)    | 0 (0%)    | 35 (44%)  |     77
+Fixed bugs: 46/78 (58%)
 
-Nb bugs ends with an execution error: 6
+Nb bugs ends with an execution error: 5
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 26
+Nb bugs ends with the Grid5000 timeout: 21
 
-Total execution time: 1 day, 17:55:34.078000
+Total execution time: 1 day, 14:04:22.388000
 
 
+
+# Chart 1
+
+
+## Human Patch 
+
+```Java
+Index: source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+===================================================================
+--- source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	(revision 2266)
++++ source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	(revision 2264)
+@@ -1794,7 +1794,7 @@
+         }
+         int index = this.plot.getIndexOf(this);
+         CategoryDataset dataset = this.plot.getDataset(index);
++        if (dataset == null) {
+-        if (dataset != null) {
+             return result;
+         }
+         int seriesCount = dataset.getRowCount();
+
+```
+
+## Patch #1 DynaMoth 
+
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1798
+
+Patch type: PRECONDITION
+```Java
+if(this.equals((java.lang.Object) result))
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 27
+
+Execution time: 0:02:54.016000
+
+Grid5000 node: graphene-61.nancy.grid5000.fr
 
 # Chart 5
 
@@ -177,7 +222,54 @@ index b26e11e..0b37e6e 100644
 
 ```
 
-## Patch #1 Nopol 
+## Patch #2 DynaMoth 
+
+org.jfree.data.xy.XYSeries:563
+
+Patch type: CONDITIONAL
+```Java
+this.equals((java.lang.Object) x)
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 4
+
+Execution time: 0:01:33.502000
+
+Grid5000 node: griffon-17.nancy.grid5000.fr
+
+# Chart 5
+
+
+## Human Patch 
+
+```Java
+diff --git a/source/org/jfree/data/xy/XYSeries.java b/source/org/jfree/data/xy/XYSeries.java
+index b26e11e..0b37e6e 100644
+--- a/source/org/jfree/data/xy/XYSeries.java
++++ b/source/org/jfree/data/xy/XYSeries.java
+@@ -541,15 +541,11 @@ public class XYSeries extends Series implements Cloneable, Serializable {
+         if (x == null) {
+             throw new IllegalArgumentException("Null 'x' argument.");
+         }
++        if (this.allowDuplicateXValues) {
++            add(x, y);
++            return null;
++        }
+ 
+         // if we get to here, we know that duplicate X values are not permitted
+         XYDataItem overwritten = null;
+         int index = indexOf(x);
++        if (index >= 0) {
+-        if (index >= 0 && !this.allowDuplicateXValues) {
+             XYDataItem existing = (XYDataItem) this.data.get(index);
+             try {
+                 overwritten = (XYDataItem) existing.clone();
+
+```
+
+## Patch #3 Nopol 
 
 org.jfree.data.xy.XYSeries:563
 
@@ -223,7 +315,7 @@ index 73ece1c..85f1c81 100644
 
 ```
 
-## Patch #2 DynaMoth 
+## Patch #4 DynaMoth 
 
 org.jfree.chart.util.AbstractObjectList:194
 
@@ -262,7 +354,46 @@ index d16d447..4067e3e 100644
 
 ```
 
-## Patch #3 Nopol 
+## Patch #5 DynaMoth 
+
+org.jfree.data.time.TimeSeries:947
+
+Patch type: CONDITIONAL
+```Java
+endIndex < startIndex
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 3
+
+Execution time: 0:01:30.464000
+
+Grid5000 node: griffon-60.nancy.grid5000.fr
+
+# Chart 9
+
+
+## Human Patch 
+
+```Java
+diff --git a/source/org/jfree/data/time/TimeSeries.java b/source/org/jfree/data/time/TimeSeries.java
+index d16d447..4067e3e 100644
+--- a/source/org/jfree/data/time/TimeSeries.java
++++ b/source/org/jfree/data/time/TimeSeries.java
+@@ -941,7 +941,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
+             endIndex = -(endIndex + 1); // this is first item AFTER end period
+             endIndex = endIndex - 1;    // so this is last item BEFORE end
+         }
++        if ((endIndex < 0)  || (endIndex < startIndex)) {
+-        if (endIndex < 0) {
+             emptyRange = true;
+         }
+         if (emptyRange) {
+
+```
+
+## Patch #6 Nopol 
 
 org.jfree.data.time.TimeSeries:883
 
@@ -301,7 +432,7 @@ index b3ae54b..730aeb3 100644
 
 ```
 
-## Patch #4 DynaMoth 
+## Patch #7 DynaMoth 
 
 org.jfree.chart.block.BorderArrangement:453
 
@@ -340,7 +471,7 @@ index b3ae54b..730aeb3 100644
 
 ```
 
-## Patch #5 Nopol 
+## Patch #8 Nopol 
 
 org.jfree.chart.block.BorderArrangement:453
 
@@ -380,7 +511,7 @@ index 907fc20..ffd1dff 100644
 
 ```
 
-## Patch #6 DynaMoth 
+## Patch #9 DynaMoth 
 
 org.jfree.data.time.TimeSeries:880
 
@@ -420,7 +551,7 @@ index 907fc20..ffd1dff 100644
 
 ```
 
-## Patch #7 Nopol 
+## Patch #10 Nopol 
 
 org.jfree.data.time.TimeSeries:880
 
@@ -511,7 +642,7 @@ index a973da9..7fd86f4 100644
 
 ```
 
-## Patch #8 DynaMoth 
+## Patch #11 DynaMoth 
 
 org.jfree.data.Range:335
 
@@ -602,7 +733,7 @@ index a973da9..7fd86f4 100644
 
 ```
 
-## Patch #9 Nopol 
+## Patch #12 Nopol 
 
 org.jfree.data.Range:335
 
@@ -690,7 +821,7 @@ index 6ff5e36..ab65ba3 100644
 
 ```
 
-## Patch #10 DynaMoth 
+## Patch #13 DynaMoth 
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset:111
 
@@ -778,7 +909,7 @@ index 6ff5e36..ab65ba3 100644
 
 ```
 
-## Patch #11 Nopol 
+## Patch #14 Nopol 
 
 org.jfree.chart.renderer.category.StatisticalBarRenderer:207
 
@@ -818,7 +949,7 @@ index f6cabee..14563aa 100644
 
 ```
 
-## Patch #12 DynaMoth 
+## Patch #15 DynaMoth 
 
 [org.apache.commons.lang3.StringUtils:3675](https://github.com/apache/commons-lang/blob/0aa57f04ede369a4f813bbb86d3eac1ed20b084c/src/java//org/apache/commons/lang3/StringUtils.java#L3675)
 
@@ -858,7 +989,7 @@ index f6cabee..14563aa 100644
 
 ```
 
-## Patch #13 Nopol 
+## Patch #16 Nopol 
 
 [org.apache.commons.lang3.StringUtils:3675](https://github.com/apache/commons-lang/blob/0aa57f04ede369a4f813bbb86d3eac1ed20b084c/src/java//org/apache/commons/lang3/StringUtils.java#L3675)
 
@@ -898,7 +1029,47 @@ index c5ca8cd..18a05ef 100644
 
 ```
 
-## Patch #14 Nopol 
+## Patch #17 DynaMoth 
+
+[org.apache.commons.lang.NumberUtils:193](https://github.com/apache/commons-lang/blob/cf28c89dcf72d27573c478eb91e3b470de060edd/src/java//org/apache/commons/lang/NumberUtils.java#L193)
+
+Patch type: CONDITIONAL
+```Java
+exp == dec
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 5
+
+Execution time: 0:00:42.524000
+
+Grid5000 node: grisou-48.nancy.grid5000.fr
+
+# Lang 44
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/java/org/apache/commons/lang/NumberUtils.java b/src/java/org/apache/commons/lang/NumberUtils.java
+index c5ca8cd..18a05ef 100644
+--- a/src/java/org/apache/commons/lang/NumberUtils.java
++++ b/src/java/org/apache/commons/lang/NumberUtils.java
+@@ -142,9 +142,6 @@ public final class NumberUtils {
+         if (val.length() == 0) {
+             throw new NumberFormatException("\"\" is not a valid number.");
+         }
++        if (val.length() == 1 && !Character.isDigit(val.charAt(0))) {
++            throw new NumberFormatException(val + " is not a valid number.");
++        }
+         if (val.startsWith("--")) {
+             // this is protection for poorness in java.lang.BigDecimal.
+             // it accepts this as a legal value, but it does not appear 
+
+```
+
+## Patch #18 Nopol 
 
 [org.apache.commons.lang.NumberUtils:193](https://github.com/apache/commons-lang/blob/cf28c89dcf72d27573c478eb91e3b470de060edd/src/java//org/apache/commons/lang/NumberUtils.java#L193)
 
@@ -1000,7 +1171,7 @@ index d4f98ec..7b22e21 100644
 
 ```
 
-## Patch #15 DynaMoth 
+## Patch #19 DynaMoth 
 
 [org.apache.commons.lang.StringEscapeUtils:244](https://github.com/apache/commons-lang/blob/229151ec41339450e4d4f857bf92ed080d3e2430/src/java//org/apache/commons/lang/StringEscapeUtils.java#L244)
 
@@ -1102,7 +1273,7 @@ index d4f98ec..7b22e21 100644
 
 ```
 
-## Patch #16 Nopol 
+## Patch #20 Nopol 
 
 [org.apache.commons.lang.StringEscapeUtils:244](https://github.com/apache/commons-lang/blob/229151ec41339450e4d4f857bf92ed080d3e2430/src/java//org/apache/commons/lang/StringEscapeUtils.java#L244)
 
@@ -1140,7 +1311,45 @@ index 8b5028c..3fda4ec 100644
 
 ```
 
-## Patch #17 Nopol 
+## Patch #21 DynaMoth 
+
+[org.apache.commons.lang.BooleanUtils:677](https://github.com/apache/commons-lang/blob/3b46d611b2d595131ce0bce9bdb3209c55391be7/src/java//org/apache/commons/lang/BooleanUtils.java#L677)
+
+Patch type: CONDITIONAL
+```Java
+str != null
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 8
+
+Execution time: 0:00:39.139000
+
+Grid5000 node: grisou-49.nancy.grid5000.fr
+
+# Lang 51
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/java/org/apache/commons/lang/BooleanUtils.java b/src/java/org/apache/commons/lang/BooleanUtils.java
+index 8b5028c..3fda4ec 100644
+--- a/src/java/org/apache/commons/lang/BooleanUtils.java
++++ b/src/java/org/apache/commons/lang/BooleanUtils.java
+@@ -679,7 +679,6 @@ public class BooleanUtils {
+                         (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
+                         (str.charAt(2) == 'S' || str.charAt(2) == 's');
+                 }
++                return false;
+             }
+             case 4: {
+                 char ch = str.charAt(0);
+
+```
+
+## Patch #22 Nopol 
 
 [org.apache.commons.lang.BooleanUtils:677](https://github.com/apache/commons-lang/blob/3b46d611b2d595131ce0bce9bdb3209c55391be7/src/java//org/apache/commons/lang/BooleanUtils.java#L677)
 
@@ -1191,7 +1400,7 @@ index e5138b5..0dd0ded 100644
 
 ```
 
-## Patch #18 DynaMoth 
+## Patch #23 DynaMoth 
 
 [org.apache.commons.lang.time.DateUtils:666](https://github.com/apache/commons-lang/blob/b6f7a8a8be57c9525c59e9f21e958e76cee0dbaf/src/java//org/apache/commons/lang/time/DateUtils.java#L666)
 
@@ -1242,7 +1451,7 @@ index e5138b5..0dd0ded 100644
 
 ```
 
-## Patch #19 Nopol 
+## Patch #24 Nopol 
 
 [org.apache.commons.lang.time.DateUtils:666](https://github.com/apache/commons-lang/blob/b6f7a8a8be57c9525c59e9f21e958e76cee0dbaf/src/java//org/apache/commons/lang/time/DateUtils.java#L666)
 
@@ -1282,7 +1491,7 @@ index 0f0786a..8f39421 100644
 
 ```
 
-## Patch #20 DynaMoth 
+## Patch #25 DynaMoth 
 
 [org.apache.commons.lang.time.StopWatch:118](https://github.com/apache/commons-lang/blob/d8c22b8e1c8592bc8c6f6169a5b090082969acd4/src/java//org/apache/commons/lang/time/StopWatch.java#L118)
 
@@ -1322,7 +1531,7 @@ index 0f0786a..8f39421 100644
 
 ```
 
-## Patch #21 Nopol 
+## Patch #26 Nopol 
 
 [org.apache.commons.lang.time.StopWatch:118](https://github.com/apache/commons-lang/blob/d8c22b8e1c8592bc8c6f6169a5b090082969acd4/src/java//org/apache/commons/lang/time/StopWatch.java#L118)
 
@@ -1362,7 +1571,7 @@ index eb74e72..c0f06a4 100644
 
 ```
 
-## Patch #22 DynaMoth 
+## Patch #27 DynaMoth 
 
 [org.apache.commons.lang.math.NumberUtils:464](https://github.com/apache/commons-lang/blob/8185a5f63e23be852d600a80daa5b848fa836a65/src/java//org/apache/commons/lang/math/NumberUtils.java#L464)
 
@@ -1402,7 +1611,7 @@ index eb74e72..c0f06a4 100644
 
 ```
 
-## Patch #23 Nopol 
+## Patch #28 Nopol 
 
 [org.apache.commons.lang.math.NumberUtils:464](https://github.com/apache/commons-lang/blob/8185a5f63e23be852d600a80daa5b848fa836a65/src/java//org/apache/commons/lang/math/NumberUtils.java#L464)
 
@@ -1480,7 +1689,7 @@ index 3a9d9f6..127b927 100644
 
 ```
 
-## Patch #24 DynaMoth 
+## Patch #29 DynaMoth 
 
 [org.apache.commons.lang.time.DurationFormatUtils:438](https://github.com/apache/commons-lang/blob/3333dcc11f2d65ee99043945502102dcf3bca50c/src/java//org/apache/commons/lang/time/DurationFormatUtils.java#L438)
 
@@ -1519,7 +1728,46 @@ index add24ac..c6e7cf1 100644
 
 ```
 
-## Patch #25 Nopol 
+## Patch #30 DynaMoth 
+
+[org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet:136](https://github.com/apache/commons-math/blob/8f423828e0d9f34896f87d803c559adf2d953f30/src/main/java//org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java#L136)
+
+Patch type: CONDITIONAL
+```Java
+this.isEmpty((org.apache.commons.math3.geometry.partitioning.BSPTree) tree)
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 4
+
+Execution time: 0:14:47.503000
+
+Grid5000 node: griffon-11.nancy.grid5000.fr
+
+# Math 32
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+index add24ac..c6e7cf1 100644
+--- a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
++++ b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+@@ -133,7 +133,7 @@ public class PolygonsSet extends AbstractRegion<Euclidean2D, Euclidean1D> {
+ 
+         if (v.length == 0) {
+             final BSPTree<Euclidean2D> tree = getTree(false);
++            if (tree.getCut() == null && (Boolean) tree.getAttribute()) {
+-            if ((Boolean) tree.getAttribute()) {
+                 // the instance covers the whole space
+                 setSize(Double.POSITIVE_INFINITY);
+                 setBarycenter(Vector2D.NaN);
+
+```
+
+## Patch #31 Nopol 
 
 [org.apache.commons.math3.geometry.partitioning.AbstractRegion:214](https://github.com/apache/commons-math/blob/8f423828e0d9f34896f87d803c559adf2d953f30/src/main/java//org/apache/commons/math3/geometry/partitioning/AbstractRegion.java#L214)
 
@@ -1558,7 +1806,7 @@ index 327b2ae..9a6993a 100644
 
 ```
 
-## Patch #26 DynaMoth 
+## Patch #32 DynaMoth 
 
 [org.apache.commons.math3.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/450456208cf75b865fd3c0878b6b4f70f6b329b1/src/main/java//org/apache/commons/math3/optimization/linear/SimplexTableau.java#L339)
 
@@ -1597,7 +1845,7 @@ index 327b2ae..9a6993a 100644
 
 ```
 
-## Patch #27 Nopol 
+## Patch #33 Nopol 
 
 [org.apache.commons.math3.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/450456208cf75b865fd3c0878b6b4f70f6b329b1/src/main/java//org/apache/commons/math3/optimization/linear/SimplexTableau.java#L339)
 
@@ -1646,7 +1894,7 @@ index 59dc461..93dd3bb 100644
 
 ```
 
-## Patch #28 Nopol 
+## Patch #34 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260](https://github.com/apache/commons-math/blob/b241c3962faa9b71726ce47d9315c2af0d5c8ad7/src/main/java//org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java#L260)
 
@@ -1685,7 +1933,7 @@ index 1de139f..e5518e3 100644
 
 ```
 
-## Patch #29 DynaMoth 
+## Patch #35 DynaMoth 
 
 [org.apache.commons.math.stat.descriptive.moment.Variance:524](https://github.com/apache/commons-math/blob/d099c7c3436bd43094e7b3087c64e0552cfbec5b/src/main/java//org/apache/commons/math/stat/descriptive/moment/Variance.java#L524)
 
@@ -1729,7 +1977,7 @@ index d96c916..02c22b5 100644
 
 ```
 
-## Patch #30 DynaMoth 
+## Patch #36 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:347](https://github.com/apache/commons-math/blob/f14fdb5447f4ed1e103db2cecc148f391294f342/src/main/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L347)
 
@@ -1773,7 +2021,7 @@ index d96c916..02c22b5 100644
 
 ```
 
-## Patch #31 Nopol 
+## Patch #37 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:419](https://github.com/apache/commons-math/blob/f14fdb5447f4ed1e103db2cecc148f391294f342/src/main/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L419)
 
@@ -1821,7 +2069,7 @@ index dd0b00a..d55c25a 100644
 
 ```
 
-## Patch #32 DynaMoth 
+## Patch #38 DynaMoth 
 
 [org.apache.commons.math.complex.Complex:260](https://github.com/apache/commons-math/blob/32b0f7336b7627bc6e471a1091dfb2712b613eee/src/main/java//org/apache/commons/math/complex/Complex.java#L260)
 
@@ -1887,7 +2135,7 @@ index 13ebfd2..5db4884 100644
 
 ```
 
-## Patch #33 DynaMoth 
+## Patch #39 DynaMoth 
 
 [org.apache.commons.math.linear.OpenMapRealVector:667](https://github.com/apache/commons-math/blob/7c6dd40b330d85ae718e867c4d5cee0b1c4f317b/src/main/java//org/apache/commons/math/linear/OpenMapRealVector.java#L667)
 
@@ -1953,7 +2201,7 @@ index 13ebfd2..5db4884 100644
 
 ```
 
-## Patch #34 Nopol 
+## Patch #40 Nopol 
 
 [org.apache.commons.math.linear.OpenMapRealVector:667](https://github.com/apache/commons-math/blob/7c6dd40b330d85ae718e867c4d5cee0b1c4f317b/src/main/java//org/apache/commons/math/linear/OpenMapRealVector.java#L667)
 
@@ -1994,7 +2242,7 @@ index c781a90..e47d982 100644
 
 ```
 
-## Patch #35 DynaMoth 
+## Patch #41 DynaMoth 
 
 [org.apache.commons.math.analysis.solvers.BaseSecantSolver:188](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L188)
 
@@ -2035,7 +2283,7 @@ index c781a90..e47d982 100644
 
 ```
 
-## Patch #36 Nopol 
+## Patch #42 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BaseSecantSolver:187](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L187)
 
@@ -2074,7 +2322,7 @@ index e09bbc3..b73ac9d 100644
 
 ```
 
-## Patch #37 DynaMoth 
+## Patch #43 DynaMoth 
 
 [org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:86](https://github.com/apache/commons-math/blob/35a0923edfe498c58bfb1e86099fed85fde0c353/src/main/java//org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java#L86)
 
@@ -2113,7 +2361,7 @@ index e09bbc3..b73ac9d 100644
 
 ```
 
-## Patch #38 Nopol 
+## Patch #44 Nopol 
 
 [org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:86](https://github.com/apache/commons-math/blob/35a0923edfe498c58bfb1e86099fed85fde0c353/src/main/java//org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java#L86)
 
@@ -2152,7 +2400,7 @@ index e1b54f4..ae7ac39 100644
 
 ```
 
-## Patch #39 DynaMoth 
+## Patch #45 DynaMoth 
 
 [org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:620](https://github.com/apache/commons-math/blob/73a227619d6671f69f9dcfb614f1b6abd83e2d62/src/main/java//org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java#L620)
 
@@ -2191,7 +2439,7 @@ index e1b54f4..ae7ac39 100644
 
 ```
 
-## Patch #40 Nopol 
+## Patch #46 Nopol 
 
 [org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:620](https://github.com/apache/commons-math/blob/73a227619d6671f69f9dcfb614f1b6abd83e2d62/src/main/java//org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java#L620)
 
@@ -2230,7 +2478,7 @@ index dc83314..83b4c41 100644
 
 ```
 
-## Patch #41 DynaMoth 
+## Patch #47 DynaMoth 
 
 [org.apache.commons.math.stat.correlation.PearsonsCorrelation:193](https://github.com/apache/commons-math/blob/eb74f8f418f9da4adb52628fe775022efc4b0467/src/main/java//org/apache/commons/math/stat/correlation/PearsonsCorrelation.java#L193)
 
@@ -2269,7 +2517,7 @@ index dc83314..83b4c41 100644
 
 ```
 
-## Patch #42 Nopol 
+## Patch #48 Nopol 
 
 [org.apache.commons.math.stat.correlation.PearsonsCorrelation:193](https://github.com/apache/commons-math/blob/eb74f8f418f9da4adb52628fe775022efc4b0467/src/main/java//org/apache/commons/math/stat/correlation/PearsonsCorrelation.java#L193)
 
@@ -2324,7 +2572,7 @@ index b61b0b1..255b1f4 100644
 
 ```
 
-## Patch #43 DynaMoth 
+## Patch #49 DynaMoth 
 
 [org.apache.commons.math.ode.events.EventState:260](https://github.com/apache/commons-math/blob/7d81702ace2819d326bbe49c8249cae60850cc0c/src/main/java//org/apache/commons/math/ode/events/EventState.java#L260)
 
@@ -2379,7 +2627,7 @@ index b61b0b1..255b1f4 100644
 
 ```
 
-## Patch #44 Nopol 
+## Patch #50 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BrentSolver:334](https://github.com/apache/commons-math/blob/7d81702ace2819d326bbe49c8249cae60850cc0c/src/main/java//org/apache/commons/math/analysis/solvers/BrentSolver.java#L334)
 
@@ -2420,7 +2668,7 @@ index e0cb427..8142b5e 100644
 
 ```
 
-## Patch #45 Nopol 
+## Patch #51 Nopol 
 
 [org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225](https://github.com/apache/commons-math/blob/05361c5a3409a9ca8e4e3438eb87d1cd55b713a8/src/main/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java#L225)
 
@@ -2476,7 +2724,7 @@ index ff09646..5006065 100644
 
 ```
 
-## Patch #46 DynaMoth 
+## Patch #52 DynaMoth 
 
 [org.apache.commons.math.ode.events.EventState:216](https://github.com/apache/commons-math/blob/335572b99ea84b7b0665e6a818cba41e34f97203/src/main/java//org/apache/commons/math/ode/events/EventState.java#L216)
 
@@ -2515,7 +2763,7 @@ index 9d1b797..3fc328d 100644
 
 ```
 
-## Patch #47 DynaMoth 
+## Patch #53 DynaMoth 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1137](https://github.com/apache/commons-math/blob/c78a0e3b003ac36d57a3c895fc8240ef66546a56/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1137)
 
@@ -2554,7 +2802,7 @@ index 9d1b797..3fc328d 100644
 
 ```
 
-## Patch #48 Nopol 
+## Patch #54 Nopol 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1139](https://github.com/apache/commons-math/blob/c78a0e3b003ac36d57a3c895fc8240ef66546a56/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1139)
 
@@ -2612,7 +2860,7 @@ index 3fc328d..2d0d72f 100644
 
 ```
 
-## Patch #49 Nopol 
+## Patch #55 Nopol 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1544](https://github.com/apache/commons-math/blob/0596e3145c1a8a9c42185fe688c42b0830b64516/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1544)
 
@@ -2651,7 +2899,7 @@ index 60a1b3a..8309d7b 100644
 
 ```
 
-## Patch #50 DynaMoth 
+## Patch #56 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexSolver:63](https://github.com/apache/commons-math/blob/dbdff0758b40601238e88b2cffbf7ceb58ed8977/src/main/java//org/apache/commons/math/optimization/linear/SimplexSolver.java#L63)
 
@@ -2690,7 +2938,7 @@ index 60a1b3a..8309d7b 100644
 
 ```
 
-## Patch #51 Nopol 
+## Patch #57 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexSolver:63](https://github.com/apache/commons-math/blob/dbdff0758b40601238e88b2cffbf7ceb58ed8977/src/main/java//org/apache/commons/math/optimization/linear/SimplexSolver.java#L63)
 
@@ -2729,7 +2977,46 @@ index e6398f6..bf3e4bf 100644
 
 ```
 
-## Patch #52 Nopol 
+## Patch #58 DynaMoth 
+
+[org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198](https://github.com/apache/commons-math/blob/26281773d85fa96594c16aee56e36805f3254064/src/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java#L198)
+
+Patch type: CONDITIONAL
+```Java
+fa == 0.0
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 37
+
+Execution time: 0:02:41.921000
+
+Grid5000 node: griffon-13.nancy.grid5000.fr
+
+# Math 85
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java b/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+index e6398f6..bf3e4bf 100644
+--- a/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ b/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -195,7 +195,7 @@ public class UnivariateRealSolverUtils {
+         } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
+                 ((a > lowerBound) || (b < upperBound)));
+    
++        if (fa * fb > 0.0 ) {
+-        if (fa * fb >= 0.0 ) {
+             throw new ConvergenceException(
+                       "number of iterations={0}, maximum iterations={1}, " +
+                       "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " +
+
+```
+
+## Patch #59 Nopol 
 
 [org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198](https://github.com/apache/commons-math/blob/26281773d85fa96594c16aee56e36805f3254064/src/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java#L198)
 
@@ -2774,7 +3061,7 @@ index b0d114e..0ab790c 100644
 
 ```
 
-## Patch #53 DynaMoth 
+## Patch #60 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:261](https://github.com/apache/commons-math/blob/10cdc1066f9ae92219382bee25aeeac724298bc9/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L261)
 
@@ -2819,7 +3106,7 @@ index b0d114e..0ab790c 100644
 
 ```
 
-## Patch #54 Nopol 
+## Patch #61 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:161](https://github.com/apache/commons-math/blob/10cdc1066f9ae92219382bee25aeeac724298bc9/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L161)
 
@@ -2874,7 +3161,7 @@ index a6d7419..3bcb17f 100644
 
 ```
 
-## Patch #55 DynaMoth 
+## Patch #62 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/ca9d46257a9d4026d790adec555096d453e3f629/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L339)
 
@@ -2929,7 +3216,7 @@ index a6d7419..3bcb17f 100644
 
 ```
 
-## Patch #56 Nopol 
+## Patch #63 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/ca9d46257a9d4026d790adec555096d453e3f629/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L339)
 
@@ -2945,6 +3232,149 @@ Nb analyzed Statement: 1
 Execution time: 0:00:48.706000
 
 Grid5000 node: griffon-14.nancy.grid5000.fr
+
+# Math 96
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/java/org/apache/commons/math/complex/Complex.java b/src/java/org/apache/commons/math/complex/Complex.java
+index 8b622cb..3571567 100644
+--- a/src/java/org/apache/commons/math/complex/Complex.java
++++ b/src/java/org/apache/commons/math/complex/Complex.java
+@@ -255,7 +255,7 @@ public class Complex implements Serializable  {
+                 if (rhs.isNaN()) {
+                     ret = this.isNaN();
+                 } else {
++                    ret = (real == rhs.real) && (imaginary == rhs.imaginary); 
+-                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary())); 
+                 }
+             } catch (ClassCastException ex) {
+                 // ignore exception
+
+```
+
+## Patch #64 DynaMoth 
+
+[org.apache.commons.math.complex.Complex:248](https://github.com/apache/commons-math/blob/a48a97b37fa591427f95e158beb33031daf06196/src/java//org/apache/commons/math/complex/Complex.java#L248)
+
+Patch type: CONDITIONAL
+```Java
+this.real == (this.abs() - 1)
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 100
+
+Execution time: 0:28:37.011000
+
+Grid5000 node: griffon-13.nancy.grid5000.fr
+
+# Math 97
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/java/org/apache/commons/math/analysis/BrentSolver.java b/src/java/org/apache/commons/math/analysis/BrentSolver.java
+index 57f64a9..766d87e 100644
+--- a/src/java/org/apache/commons/math/analysis/BrentSolver.java
++++ b/src/java/org/apache/commons/math/analysis/BrentSolver.java
+@@ -135,31 +135,17 @@ public class BrentSolver extends UnivariateRealSolverImpl {
+         
+         // Verify bracketing
+         double sign = yMin * yMax;
++        if (sign > 0) {
+-        if (sign >= 0) {
+             // check if either value is close to a zero
++            if (Math.abs(yMin) <= functionValueAccuracy) {
++                setResult(min, 0);
++                ret = min;
++            } else if (Math.abs(yMax) <= functionValueAccuracy) {
++                setResult(max, 0);
++                ret = max;
++            } else {
+                 // neither value is close to zero and min and max do not bracket root.
+                 throw new IllegalArgumentException
+                 ("Function values at endpoints do not have different signs." +
+                         "  Endpoints: [" + min + "," + max + "]" + 
+                         "  Values: [" + yMin + "," + yMax + "]");
++            }
++        } else if (sign < 0){
+-        } else {
+             // solve using only the first endpoint as initial guess
+             ret = solve(min, yMin, max, yMax, min, yMin);
++        } else {
+             // either min or max is a root
++            if (yMin == 0.0) {
++                ret = min;
++            } else {
++                ret = max;
++            }
+         }
+ 
+         return ret;
+
+```
+
+## Patch #65 DynaMoth 
+
+[org.apache.commons.math.analysis.BrentSolver:138](https://github.com/apache/commons-math/blob/0010754c0b2eb5a5dc490acdf4f4948330363e23/src/java//org/apache/commons/math/analysis/BrentSolver.java#L138)
+
+Patch type: CONDITIONAL
+```Java
+this.relativeAccuracy <= sign
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 87
+
+Execution time: 0:00:58.731000
+
+Grid5000 node: griffon-19.nancy.grid5000.fr
+
+# Math 101
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/java/org/apache/commons/math/complex/ComplexFormat.java b/src/java/org/apache/commons/math/complex/ComplexFormat.java
+index 0757d9b..b404bc4 100644
+--- a/src/java/org/apache/commons/math/complex/ComplexFormat.java
++++ b/src/java/org/apache/commons/math/complex/ComplexFormat.java
+@@ -374,8 +374,7 @@ public class ComplexFormat extends Format implements Serializable {
+         int n = getImaginaryCharacter().length();
+         startIndex = pos.getIndex();
+         int endIndex = startIndex + n;
++        if ((startIndex >= source.length()) ||
++            (endIndex > source.length()) ||
+-        if (
+             source.substring(startIndex, endIndex).compareTo(
+             getImaginaryCharacter()) != 0) {
+             // set index back to initial, error index should be the start index
+
+```
+
+## Patch #66 DynaMoth 
+
+[org.apache.commons.math.complex.ComplexFormat:377](https://github.com/apache/commons-math/blob/07b329c5fd484d63106bf80c155bbbbbfb3b241e/src/java//org/apache/commons/math/complex/ComplexFormat.java#L377)
+
+Patch type: CONDITIONAL
+```Java
+startIndex == source.length()
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 71
+
+Execution time: 0:00:49.228000
+
+Grid5000 node: griffon-15.nancy.grid5000.fr
 
 # Math 104
 
@@ -2968,7 +3398,7 @@ index ba2c4db..8c565cb 100644
 
 ```
 
-## Patch #57 Nopol 
+## Patch #67 Nopol 
 
 [org.apache.commons.math.special.Gamma:162](https://github.com/apache/commons-math/blob/5bc120c5dff3cdc44f9168800a9d0a1fa538e44d/src/java//org/apache/commons/math/special/Gamma.java#L162)
 
@@ -3007,7 +3437,7 @@ index d9fa592..dcf512b 100644
 
 ```
 
-## Patch #58 DynaMoth 
+## Patch #68 DynaMoth 
 
 [org.apache.commons.math.stat.regression.SimpleRegression:116](https://github.com/apache/commons-math/blob/00b139a1c49c230bfb7b0f1ec5b8c22d560d3447/src/java//org/apache/commons/math/stat/regression/SimpleRegression.java#L116)
 
@@ -3046,7 +3476,7 @@ index d9fa592..dcf512b 100644
 
 ```
 
-## Patch #59 Nopol 
+## Patch #69 Nopol 
 
 [org.apache.commons.math.stat.regression.SimpleRegression:108](https://github.com/apache/commons-math/blob/00b139a1c49c230bfb7b0f1ec5b8c22d560d3447/src/java//org/apache/commons/math/stat/regression/SimpleRegression.java#L108)
 
@@ -3085,7 +3515,7 @@ index 8e8e603..0d4edf4 100644
 
 ```
 
-## Patch #60 DynaMoth 
+## Patch #70 DynaMoth 
 
 [org.joda.time.Partial:459](https://github.com/JodaOrg/joda-time/blob/bcb044669b4d1f8d334861ccbd169924d6ef3b54/src/main/java//org/joda/time/Partial.java#L459)
 
@@ -3124,7 +3554,7 @@ index 8e8e603..0d4edf4 100644
 
 ```
 
-## Patch #61 Nopol 
+## Patch #71 Nopol 
 
 [org.joda.time.Partial:459](https://github.com/JodaOrg/joda-time/blob/bcb044669b4d1f8d334861ccbd169924d6ef3b54/src/main/java//org/joda/time/Partial.java#L459)
 
@@ -3165,7 +3595,7 @@ index 913d036..447674a 100644
 
 ```
 
-## Patch #62 DynaMoth 
+## Patch #72 DynaMoth 
 
 [org.joda.time.format.DateTimeParserBucket:359](https://github.com/JodaOrg/joda-time/blob/6bf5bba0f77f3023dec23a1de6e0a8cef8585f61/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L359)
 
@@ -3211,7 +3641,7 @@ index 64da5ea..6efe071 100644
 
 ```
 
-## Patch #63 DynaMoth 
+## Patch #73 DynaMoth 
 
 [org.joda.time.tz.DateTimeZoneBuilder:372](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder.java#L372)
 
@@ -3257,7 +3687,7 @@ index 64da5ea..6efe071 100644
 
 ```
 
-## Patch #64 Nopol 
+## Patch #74 Nopol 
 
 [org.joda.time.tz.DateTimeZoneBuilder:372](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder.java#L372)
 
@@ -3273,6 +3703,49 @@ Nb analyzed Statement: 25
 Execution time: 0:03:39.533000
 
 Grid5000 node: grisou-14.nancy.grid5000.fr
+
+# Time 14
+
+
+## Human Patch 
+
+```Java
+diff --git a/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java b/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java
+index 2892a2d..afca44e 100644
+--- a/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java
++++ b/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java
+@@ -206,12 +206,7 @@ class BasicMonthOfYearDateTimeField extends ImpreciseDateTimeField {
+         if (valueToAdd == 0) {
+             return values;
+         }
++        if (partial.size() > 0 && partial.getFieldType(0).equals(DateTimeFieldType.monthOfYear()) && fieldIndex == 0) {
+             // month is largest field and being added to, such as month-day
++            int curMonth0 = partial.getValue(0) - 1;
++            int newMonth = ((curMonth0 + (valueToAdd % 12) + 12) % 12) + 1;
++            return set(partial, 0, values, newMonth);
++        }
+         if (DateTimeUtils.isContiguous(partial)) {
+             long instant = 0L;
+             for (int i = 0, isize = partial.size(); i < isize; i++) {
+
+```
+
+## Patch #75 DynaMoth 
+
+[org.joda.time.chrono.BasicMonthOfYearDateTimeField:210](https://github.com/JodaOrg/joda-time/blob/cc3262ff42e41f3b1f64290262704da3895fbe85/src/main/java//org/joda/time/chrono/BasicMonthOfYearDateTimeField.java#L210)
+
+Patch type: CONDITIONAL
+```Java
+partial.getValue((int) 1) <= this.iMax
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 7
+
+Execution time: 0:00:51.981000
+
+Grid5000 node: grisou-48.nancy.grid5000.fr
 
 # Time 16
 
@@ -3296,7 +3769,7 @@ index baa276a..a4b1612 100644
 
 ```
 
-## Patch #65 DynaMoth 
+## Patch #76 DynaMoth 
 
 [org.joda.time.format.DateTimeParserBucket:358](https://github.com/JodaOrg/joda-time/blob/dba7c37ea3d83b32779d3bb13cb184aedf761a8a/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L358)
 
@@ -3335,7 +3808,7 @@ index baa276a..a4b1612 100644
 
 ```
 
-## Patch #66 Nopol 
+## Patch #77 Nopol 
 
 [org.joda.time.format.DateTimeParserBucket:358](https://github.com/JodaOrg/joda-time/blob/dba7c37ea3d83b32779d3bb13cb184aedf761a8a/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L358)
 

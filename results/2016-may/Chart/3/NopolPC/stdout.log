@@ -7,7 +7,7 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/chart_3_NopolPC;
 
-Nb classes : 659
+Nb classes : 658
 Nb methods : 7321
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
@@ -20,12 +20,12 @@ Nb SMT level: 0
 Nb variables in SMT : 0
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 105081ms
+NoPol Execution time : 89814ms
 
 
-Node: griffon-17.nancy.grid5000.fr
+Node: graphene-108.nancy.grid5000.fr
 
 
-Date: Sun May  8 20:05:58 EDT 2016
+Date: Mon May  9 10:22:17 EDT 2016
 
 
