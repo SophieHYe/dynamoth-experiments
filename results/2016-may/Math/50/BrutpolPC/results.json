@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 18:38:15 EDT 2016\n\n", 
+    "executionTime": 407347, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 2, 
+    "node": "griffon-17.nancy.grid5000.fr", 
+    "patch": "this.isBracketing((double) x0, (double) f0)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver", 
+        "line": 188
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 16:14:22 EDT 2016\n\n", 
+    "executionTime": 887503, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 4, 
+    "node": "griffon-11.nancy.grid5000.fr", 
+    "patch": "this.isEmpty((org.apache.commons.math3.geometry.partitioning.BSPTree) tree)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet", 
+        "line": 136
+    }, 
+    "patchType": "CONDITIONAL"
+}

@@ -1,0 +1,35 @@
+/tmp/chart_25_NopolC
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/tdurieux/projects/chart/chart_25;defects4j compile;cp -r /home/tdurieux/projects/chart/chart_25 /tmp/chart_25_NopolC;cd /tmp/chart_25_NopolC;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
+cd /tmp/chart_25_NopolC;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";TZ="America/New_York"; export TZ;cp -r /home/tdurieux/defects4j-repair/src/python/core/../../../libs/z3 lib/z3;time java -Xmx4096m -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --mode repair --type condition --oracle angelic --synthesis smt --solver z3 --solver-path /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/chart_25_NopolC;
+
+Nb classes : 561
+Nb methods : 5855
+Nb statement executed by the passing tests of the patched line: 0
+Nb statement executed by the failing tests of the patched line: 0
+Nb statements: 20321
+Nb unit tests : 3243
+Nb Statements Analyzed : 20
+Nb Statements with Angelic Value Found : 1
+Nb inputs in SMT : 6
+Nb SMT level: 3
+Nb SMT components: [7] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2]
+                  class java.lang.Boolean: 7
+Nb variables in SMT : 15
+Nb run failing test  : [1, 2, 2, 2]
+Nb run passing test : [11, 10, 10, 30]
+NoPol Execution time : 80589ms
+----PATCH FOUND----
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset:110: CONDITIONAL (org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue < org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev) && (!(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue <= 1))
+
+
+Node: griffon-9.nancy.grid5000.fr
+
+
+Date: Sun May  8 20:03:53 EDT 2016
+
+

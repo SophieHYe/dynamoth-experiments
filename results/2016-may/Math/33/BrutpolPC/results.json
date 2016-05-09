@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 18:39:02 EDT 2016\n\n", 
+    "executionTime": 818561, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 4, 
+    "node": "graphene-1.nancy.grid5000.fr", 
+    "patch": "this.restrictToNonNegative == this.isOptimal()", 
+    "patchLocation": {
+        "className": "org.apache.commons.math3.optimization.linear.SimplexTableau", 
+        "line": 339
+    }, 
+    "patchType": "PRECONDITION"
+}

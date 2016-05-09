@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 18:45:53 EDT 2016\n\n", 
+    "executionTime": 44038, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 73, 
+    "node": "griffon-15.nancy.grid5000.fr", 
+    "patch": "dy <= this.getRegressionSumSquares((double) x)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.stat.regression.SimpleRegression", 
+        "line": 116
+    }, 
+    "patchType": "PRECONDITION"
+}

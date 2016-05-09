@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 17:47:30 EDT 2016\n\n", 
+    "executionTime": 1717011, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 100, 
+    "node": "griffon-13.nancy.grid5000.fr", 
+    "patch": "this.real == (this.abs() - 1)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.complex.Complex", 
+        "line": 248
+    }, 
+    "patchType": "CONDITIONAL"
+}

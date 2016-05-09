@@ -1,0 +1,27 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at fr.inria.lille.spirals.repair.expressionV2.factory.ValueFactory.create(ValueFactory.java:37)
+	at fr.inria.lille.spirals.repair.expressionV2.factory.ValueFactory.create(ValueFactory.java:59)
+	at fr.inria.lille.spirals.repair.expressionV2.factory.ValueFactory.create(ValueFactory.java:24)
+	at fr.inria.lille.spirals.repair.expressionV2.factory.ValueFactory.create(ValueFactory.java:59)
+	at fr.inria.lille.spirals.repair.expressionV2.factory.ValueFactory.create(ValueFactory.java:24)
+	at fr.inria.lille.spirals.repair.expressionV2.factory.AccessFactory.method(AccessFactory.java:29)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.callMethod(DataCollector.java:451)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.callMethods(DataCollector.java:388)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.collectMethods(DataCollector.java:270)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.collectFieldAndMethodOnTheValueOf(DataCollector.java:151)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.recurse(DataCollector.java:135)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCollector.collect(DataCollector.java:118)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.collectRuntimeValues(SynthesizerImpl.java:382)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.processBreakPointEvents(SynthesizerImpl.java:285)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.processVMEvents(SynthesizerImpl.java:182)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.run(SynthesizerImpl.java:151)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:135)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+## OAR [2016-05-09 02:43:02] Job 981055 KILLED ##

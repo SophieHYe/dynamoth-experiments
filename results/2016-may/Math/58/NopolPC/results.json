@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 14:45:03 EDT 2016\n\n", 
+    "executionTime": 446837, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": 920, 
+    "nbSMTVariable": 41, 
+    "nbStatement": 79, 
+    "node": "griffon-15.nancy.grid5000.fr", 
+    "patch": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance < gNorm", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+        "line": 620
+    }, 
+    "patchType": "PRECONDITION"
+}

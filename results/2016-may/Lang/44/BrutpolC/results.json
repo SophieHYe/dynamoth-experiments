@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:19:21 EDT 2016\n\n", 
+    "executionTime": 42524, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 5, 
+    "node": "grisou-48.nancy.grid5000.fr", 
+    "patch": "exp == dec", 
+    "patchLocation": {
+        "className": "org.apache.commons.lang.NumberUtils", 
+        "line": 193
+    }, 
+    "patchType": "CONDITIONAL"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 13:13:32 EDT 2016\n\n", 
+    "executionTime": 89001, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 970, 
+    "nbSMTVariable": 16, 
+    "nbStatement": 88, 
+    "node": "graphene-1.nancy.grid5000.fr", 
+    "patch": "((1 == a) || ((a >= 1.0) && (x > a))) && (org.apache.commons.math.special.Gamma.HALF_LOG_2_PI < x)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.special.Gamma", 
+        "line": 162
+    }, 
+    "patchType": "CONDITIONAL"
+}

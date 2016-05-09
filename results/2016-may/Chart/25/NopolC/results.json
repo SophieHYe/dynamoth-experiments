@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 20:03:53 EDT 2016\n\n", 
+    "executionTime": 80589, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 6, 
+    "nbSMTVariable": 15, 
+    "nbStatement": 20, 
+    "node": "griffon-9.nancy.grid5000.fr", 
+    "patch": "(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue < org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev) && (!(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue <= 1))", 
+    "patchLocation": {
+        "className": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset", 
+        "line": 110
+    }, 
+    "patchType": "CONDITIONAL"
+}

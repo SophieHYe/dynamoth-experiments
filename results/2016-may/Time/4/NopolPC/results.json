@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:45:45 EDT 2016\n\n", 
+    "executionTime": 54097, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 21, 
+    "nbSMTVariable": 19, 
+    "nbStatement": 23, 
+    "node": "grisou-29.nancy.grid5000.fr", 
+    "patch": "((1) != ((value) - (org.joda.time.Partial.this.iTypes.length + newValues.length))) || (index == org.joda.time.Partial.this.iValues.length)", 
+    "patchLocation": {
+        "className": "org.joda.time.Partial", 
+        "line": 459
+    }, 
+    "patchType": "PRECONDITION"
+}

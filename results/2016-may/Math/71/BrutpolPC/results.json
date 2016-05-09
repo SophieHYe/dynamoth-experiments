@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 19:42:05 EDT 2016\n\n", 
+    "executionTime": 2899433, 
+    "nbAngelicValue": 4, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 55, 
+    "node": "griffon-11.nancy.grid5000.fr", 
+    "patch": "t1 != this.pendingEventTime", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.ode.events.EventState", 
+        "line": 260
+    }, 
+    "patchType": "PRECONDITION"
+}

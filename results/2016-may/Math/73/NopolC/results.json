@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 13:17:07 EDT 2016\n\n", 
+    "executionTime": 61743, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 20, 
+    "nbSMTVariable": 13, 
+    "nbStatement": 17, 
+    "node": "griffon-15.nancy.grid5000.fr", 
+    "patch": "((!((1) != (lower))) && (org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.result < org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.defaultFunctionValueAccuracy)) || (initial <= lower)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
+        "line": 225
+    }, 
+    "patchType": "CONDITIONAL"
+}

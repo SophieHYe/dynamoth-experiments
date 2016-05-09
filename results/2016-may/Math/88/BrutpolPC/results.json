@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 19:45:23 EDT 2016\n\n", 
+    "executionTime": 69830, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 1, 
+    "node": "griffon-59.nancy.grid5000.fr", 
+    "patch": "basicRow == this.getBasicRow((int) i)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+        "line": 339
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 19:39:50 EDT 2016\n\n", 
+    "executionTime": 392261, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 14, 
+    "node": "griffon-14.nancy.grid5000.fr", 
+    "patch": "this.DEFAULT_ZERO_TOLERANCE == this.epsilon", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.linear.OpenMapRealVector", 
+        "line": 667
+    }, 
+    "patchType": "PRECONDITION"
+}

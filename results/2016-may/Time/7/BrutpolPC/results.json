@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:49:09 EDT 2016\n\n", 
+    "executionTime": 56806, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 19, 
+    "node": "grisou-3.nancy.grid5000.fr", 
+    "patch": "resetFields", 
+    "patchLocation": {
+        "className": "org.joda.time.format.DateTimeParserBucket", 
+        "line": 359
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 20:02:22 EDT 2016\n\n", 
+    "executionTime": 84236, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 7, 
+    "nbSMTVariable": 14, 
+    "nbStatement": 4, 
+    "node": "griffon-6.nancy.grid5000.fr", 
+    "patch": "!(org.jfree.data.xy.XYSeries.this.allowDuplicateXValues)", 
+    "patchLocation": {
+        "className": "org.jfree.data.xy.XYSeries", 
+        "line": 563
+    }, 
+    "patchType": "CONDITIONAL"
+}

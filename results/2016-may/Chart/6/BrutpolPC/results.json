@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 03:15:47 EDT 2016\n\n", 
+    "executionTime": 2721845, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 17, 
+    "node": "grisou-44.nancy.grid5000.fr", 
+    "patch": "(i + 1) != (this.increment / listSize)", 
+    "patchLocation": {
+        "className": "org.jfree.chart.util.AbstractObjectList", 
+        "line": 194
+    }, 
+    "patchType": "PRECONDITION"
+}

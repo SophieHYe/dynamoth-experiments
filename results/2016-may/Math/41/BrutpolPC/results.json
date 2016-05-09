@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 19:24:45 EDT 2016\n\n", 
+    "executionTime": 766664, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 4, 
+    "node": "griffon-14.nancy.grid5000.fr", 
+    "patch": "mean <= length", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+        "line": 524
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:20:13 EDT 2016\n\n", 
+    "executionTime": 38764, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 3, 
+    "node": "grisou-8.nancy.grid5000.fr", 
+    "patch": "escapeSingleQuote", 
+    "patchLocation": {
+        "className": "org.apache.commons.lang.StringEscapeUtils", 
+        "line": 244
+    }, 
+    "patchType": "PRECONDITION"
+}

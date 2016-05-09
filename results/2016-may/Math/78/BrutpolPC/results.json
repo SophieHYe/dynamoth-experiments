@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 19:02:45 EDT 2016\n\n", 
+    "executionTime": 133957, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 34, 
+    "node": "griffon-13.nancy.grid5000.fr", 
+    "patch": "t1 <= this.maxIterationCount", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.ode.events.EventState", 
+        "line": 216
+    }, 
+    "patchType": "PRECONDITION"
+}

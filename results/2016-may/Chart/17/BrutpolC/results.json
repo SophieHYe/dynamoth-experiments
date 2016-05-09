@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:31:12 EDT 2016\n\n", 
+    "executionTime": 56112, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 3, 
+    "node": "grisou-8.nancy.grid5000.fr", 
+    "patch": "(end == 0) && (start == 1)", 
+    "patchLocation": {
+        "className": "org.jfree.data.time.TimeSeries", 
+        "line": 879
+    }, 
+    "patchType": "CONDITIONAL"
+}

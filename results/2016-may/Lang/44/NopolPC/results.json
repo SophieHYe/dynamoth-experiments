@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 19:49:17 EDT 2016\n\n", 
+    "executionTime": 58487, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 5, 
+    "nbSMTVariable": 23, 
+    "nbStatement": 5, 
+    "node": "griffon-6.nancy.grid5000.fr", 
+    "patch": "(numeric.length()) != (0)", 
+    "patchLocation": {
+        "className": "org.apache.commons.lang.NumberUtils", 
+        "line": 193
+    }, 
+    "patchType": "PRECONDITION"
+}

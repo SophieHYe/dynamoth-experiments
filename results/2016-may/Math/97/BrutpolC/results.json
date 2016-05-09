@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 18:03:41 EDT 2016\n\n", 
+    "executionTime": 58731, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 87, 
+    "node": "griffon-19.nancy.grid5000.fr", 
+    "patch": "this.relativeAccuracy <= sign", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.BrentSolver", 
+        "line": 138
+    }, 
+    "patchType": "CONDITIONAL"
+}

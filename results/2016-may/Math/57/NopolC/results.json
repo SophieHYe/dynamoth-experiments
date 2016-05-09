@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 12:33:12 EDT 2016\n\n", 
+    "executionTime": 620971, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 17, 
+    "nbSMTVariable": 11, 
+    "nbStatement": 45, 
+    "node": "griffon-23.nancy.grid5000.fr", 
+    "patch": "((point[i]) != (otherPoint[i])) && (1 < org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.this.point.length)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+        "line": 85
+    }, 
+    "patchType": "CONDITIONAL"
+}

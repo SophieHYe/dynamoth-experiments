@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 15:43:06 EDT 2016\n\n", 
+    "executionTime": 63611, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 303, 
+    "nbSMTVariable": 17, 
+    "nbStatement": 37, 
+    "node": "griffon-17.nancy.grid5000.fr", 
+    "patch": "(fa * fb) < 0.0", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+        "line": 198
+    }, 
+    "patchType": "PRECONDITION"
+}

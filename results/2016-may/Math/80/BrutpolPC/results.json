@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 20:24:13 EDT 2016\n\n", 
+    "executionTime": 2401198, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 16, 
+    "node": "griffon-8.nancy.grid5000.fr", 
+    "patch": "step == j", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+        "line": 1137
+    }, 
+    "patchType": "PRECONDITION"
+}

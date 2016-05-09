@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 13:37:50 EDT 2016\n\n", 
+    "executionTime": 597661, 
+    "nbAngelicValue": 10, 
+    "nbSMTInput": 141, 
+    "nbSMTVariable": 13, 
+    "nbStatement": 77, 
+    "node": "grimoire-4.nancy.grid5000.fr", 
+    "patch": null, 
+    "patchLocation": {
+        "className": null, 
+        "line": null
+    }, 
+    "patchType": null
+}

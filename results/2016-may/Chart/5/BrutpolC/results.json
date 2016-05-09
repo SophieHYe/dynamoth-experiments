@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:31:45 EDT 2016\n\n", 
+    "executionTime": 93502, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 4, 
+    "node": "griffon-17.nancy.grid5000.fr", 
+    "patch": "this.equals((java.lang.Object) x)", 
+    "patchLocation": {
+        "className": "org.jfree.data.xy.XYSeries", 
+        "line": 563
+    }, 
+    "patchType": "CONDITIONAL"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 04:15:00 EDT 2016\n\n", 
+    "executionTime": 90607, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 5, 
+    "nbSMTVariable": 14, 
+    "nbStatement": 9, 
+    "node": "graphene-61.nancy.grid5000.fr", 
+    "patch": "-1 == org.apache.commons.lang.time.StopWatch.this.stopTime", 
+    "patchLocation": {
+        "className": "org.apache.commons.lang.time.StopWatch", 
+        "line": 118
+    }, 
+    "patchType": "PRECONDITION"
+}

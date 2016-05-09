@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:31:45 EDT 2016\n\n", 
+    "executionTime": 72990, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 19, 
+    "node": "grisou-32.nancy.grid5000.fr", 
+    "patch": "this.equals((java.lang.Object) masd)", 
+    "patchLocation": {
+        "className": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset", 
+        "line": 111
+    }, 
+    "patchType": "PRECONDITION"
+}

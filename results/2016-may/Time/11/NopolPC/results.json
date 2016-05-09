@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:48:45 EDT 2016\n\n", 
+    "executionTime": 219533, 
+    "nbAngelicValue": 3, 
+    "nbSMTInput": 1936, 
+    "nbSMTVariable": 20, 
+    "nbStatement": 25, 
+    "node": "grisou-14.nancy.grid5000.fr", 
+    "patch": "(!(outputID)) || (1 < ruleSetCount)", 
+    "patchLocation": {
+        "className": "org.joda.time.tz.DateTimeZoneBuilder", 
+        "line": 372
+    }, 
+    "patchType": "PRECONDITION"
+}

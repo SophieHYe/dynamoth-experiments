@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 02:19:57 EDT 2016\n\n", 
+    "executionTime": 47339, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 24, 
+    "node": "grimoire-4.nancy.grid5000.fr", 
+    "patch": "val.MONTH == minutes", 
+    "patchLocation": {
+        "className": "org.apache.commons.lang.time.DateUtils", 
+        "line": 666
+    }, 
+    "patchType": "PRECONDITION"
+}

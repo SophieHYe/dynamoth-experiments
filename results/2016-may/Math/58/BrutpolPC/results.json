@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 18:48:15 EDT 2016\n\n", 
+    "executionTime": 435266, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 79, 
+    "node": "griffon-12.nancy.grid5000.fr", 
+    "patch": "this.costRelativeTolerance != this.orthoTolerance", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+        "line": 620
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Sun May  8 15:51:35 EDT 2016\n\n", 
+    "executionTime": 80935, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 91, 
+    "nbSMTVariable": 10, 
+    "nbStatement": 15, 
+    "node": "griffon-14.nancy.grid5000.fr", 
+    "patch": "(1) - (nVars) < -1", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.stat.correlation.PearsonsCorrelation", 
+        "line": 193
+    }, 
+    "patchType": "PRECONDITION"
+}
