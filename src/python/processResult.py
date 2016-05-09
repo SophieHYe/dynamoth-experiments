@@ -213,6 +213,7 @@ for project in sorted(os.listdir(root)):
 							
 				else:
 					continue
+		isFirstBugPatch = True
 		index = 0
 		for tool in sorted(tools):
 			tool = getToolName(tool)
@@ -242,7 +243,8 @@ for project in sorted(os.listdir(root)):
 			if (("patch" in resultsBug[tool] and resultsBug[tool]["patch"]) or 
 				("operations" in resultsBug[tool] and len(resultsBug[tool]["operations"]) > 0) or
 				("patches" in resultsBug[tool] and len(resultsBug[tool]["patches"]) > 0 and "operations" not in resultsBug[tool])):
-				if ranking is None:
+				if isFirstBugPatch:
+					isFirstBugPatch = False
 					body += "# %s %s\n\n" % (project, bugId)
 					rankingPath = os.path.join(os.path.join(bugPath, "Ranking"), "results.json")
 					if os.path.exists(rankingPath):

@@ -239,36 +239,6 @@ Execution time: 0:01:33.502000
 
 Grid5000 node: griffon-17.nancy.grid5000.fr
 
-# Chart 5
-
-
-## Human Patch 
-
-```Java
-diff --git a/source/org/jfree/data/xy/XYSeries.java b/source/org/jfree/data/xy/XYSeries.java
-index b26e11e..0b37e6e 100644
---- a/source/org/jfree/data/xy/XYSeries.java
-+++ b/source/org/jfree/data/xy/XYSeries.java
-@@ -541,15 +541,11 @@ public class XYSeries extends Series implements Cloneable, Serializable {
-         if (x == null) {
-             throw new IllegalArgumentException("Null 'x' argument.");
-         }
-+        if (this.allowDuplicateXValues) {
-+            add(x, y);
-+            return null;
-+        }
- 
-         // if we get to here, we know that duplicate X values are not permitted
-         XYDataItem overwritten = null;
-         int index = indexOf(x);
-+        if (index >= 0) {
--        if (index >= 0 && !this.allowDuplicateXValues) {
-             XYDataItem existing = (XYDataItem) this.data.get(index);
-             try {
-                 overwritten = (XYDataItem) existing.clone();
-
-```
-
 ## Patch #3 Nopol 
 
 org.jfree.data.xy.XYSeries:563
@@ -371,28 +341,6 @@ Execution time: 0:01:30.464000
 
 Grid5000 node: griffon-60.nancy.grid5000.fr
 
-# Chart 9
-
-
-## Human Patch 
-
-```Java
-diff --git a/source/org/jfree/data/time/TimeSeries.java b/source/org/jfree/data/time/TimeSeries.java
-index d16d447..4067e3e 100644
---- a/source/org/jfree/data/time/TimeSeries.java
-+++ b/source/org/jfree/data/time/TimeSeries.java
-@@ -941,7 +941,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
-             endIndex = -(endIndex + 1); // this is first item AFTER end period
-             endIndex = endIndex - 1;    // so this is last item BEFORE end
-         }
-+        if ((endIndex < 0)  || (endIndex < startIndex)) {
--        if (endIndex < 0) {
-             emptyRange = true;
-         }
-         if (emptyRange) {
-
-```
-
 ## Patch #6 Nopol 
 
 org.jfree.data.time.TimeSeries:883
@@ -448,28 +396,6 @@ Nb analyzed Statement: 21
 Execution time: 0:01:01.685000
 
 Grid5000 node: grisou-34.nancy.grid5000.fr
-
-# Chart 13
-
-
-## Human Patch 
-
-```Java
-diff --git a/source/org/jfree/chart/block/BorderArrangement.java b/source/org/jfree/chart/block/BorderArrangement.java
-index b3ae54b..730aeb3 100644
---- a/source/org/jfree/chart/block/BorderArrangement.java
-+++ b/source/org/jfree/chart/block/BorderArrangement.java
-@@ -452,7 +452,7 @@ public class BorderArrangement implements Arrangement, Serializable {
-         h[3] = h[2];
-         if (this.rightBlock != null) {
-             RectangleConstraint c4 = new RectangleConstraint(0.0,
-+                    new Range(0.0, Math.max(constraint.getWidth() - w[2], 0.0)),
--                    new Range(0.0, constraint.getWidth() - w[2]),
-                     LengthConstraintType.RANGE, h[2], null,
-                     LengthConstraintType.FIXED);
-             Size2D size = this.rightBlock.arrange(g2, c4);
-
-```
 
 ## Patch #8 Nopol 
 
@@ -527,29 +453,6 @@ Nb analyzed Statement: 1
 Execution time: 0:00:55.346000
 
 Grid5000 node: grisou-4.nancy.grid5000.fr
-
-# Chart 17
-
-
-## Human Patch 
-
-```Java
-diff --git a/source/org/jfree/data/time/TimeSeries.java b/source/org/jfree/data/time/TimeSeries.java
-index 907fc20..ffd1dff 100644
---- a/source/org/jfree/data/time/TimeSeries.java
-+++ b/source/org/jfree/data/time/TimeSeries.java
-@@ -854,8 +854,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
-      *         subclasses may differ.
-      */
-     public Object clone() throws CloneNotSupportedException {
-+        TimeSeries clone = (TimeSeries) super.clone();
-+        clone.data = (List) ObjectUtilities.deepClone(this.data);
--        Object clone = createCopy(0, getItemCount() - 1);
-         return clone;
-     }
- 
-
-```
 
 ## Patch #10 Nopol 
 
@@ -659,80 +562,6 @@ Execution time: 0:00:55.418000
 
 Grid5000 node: grisou-39.nancy.grid5000.fr
 
-# Chart 21
-
-
-## Human Patch 
-
-```Java
-diff --git a/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java b/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java
-index a973da9..7fd86f4 100644
---- a/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java
-+++ b/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java
-@@ -154,7 +154,6 @@ public class DefaultBoxAndWhiskerCategoryDataset extends AbstractDataset
-                 && this.minimumRangeValueColumn == c))  {
-             updateBounds();
-         }
-+        else {
-         
-             double minval = Double.NaN;
-             if (item.getMinOutlier() != null) {
-@@ -186,7 +185,6 @@ public class DefaultBoxAndWhiskerCategoryDataset extends AbstractDataset
-                 this.minimumRangeValueRow = r;
-                 this.minimumRangeValueColumn = c;
-             }
-+        }
-         
-         this.rangeBounds = new Range(this.minimumRangeValue,
-               this.maximumRangeValue);
-@@ -740,44 +738,7 @@ public class DefaultBoxAndWhiskerCategoryDataset extends AbstractDataset
-      */
-     private void updateBounds() {
-         this.minimumRangeValue = Double.NaN;
-+        this.minimumRangeValueRow = -1;
-+        this.minimumRangeValueColumn = -1;
-         this.maximumRangeValue = Double.NaN;
-+        this.maximumRangeValueRow = -1;
-+        this.maximumRangeValueColumn = -1;
-+        int rowCount = getRowCount();
-+        int columnCount = getColumnCount();
-+        for (int r = 0; r < rowCount; r++) {
-+            for (int c = 0; c < columnCount; c++) {
-+                BoxAndWhiskerItem item = getItem(r, c);
-+                if (item != null) {
-+                    Number min = item.getMinOutlier();
-+                    if (min != null) {
-+                        double minv = min.doubleValue();
-+                        if (!Double.isNaN(minv)) {
-+                            if (minv < this.minimumRangeValue || Double.isNaN(
-+                                    this.minimumRangeValue)) {
-+                                this.minimumRangeValue = minv;
-+                                this.minimumRangeValueRow = r;
-+                                this.minimumRangeValueColumn = c;
-+                            }
-+                        }
-+                    }
-+                    Number max = item.getMaxOutlier();
-+                    if (max != null) {
-+                        double maxv = max.doubleValue();
-+                        if (!Double.isNaN(maxv)) {
-+                            if (maxv > this.maximumRangeValue || Double.isNaN(
-+                                    this.maximumRangeValue)) {
-+                                this.maximumRangeValue = maxv;
-+                                this.maximumRangeValueRow = r;
-+                                this.maximumRangeValueColumn = c;
-+                            }
-+                        }
-+                    }
-+                }
-+            }
-+        }
-     }
-     
-     /**
-
-```
-
 ## Patch #12 Nopol 
 
 org.jfree.data.Range:335
@@ -838,77 +667,6 @@ Execution time: 0:01:12.990000
 
 Grid5000 node: grisou-32.nancy.grid5000.fr
 
-# Chart 25
-
-
-## Human Patch 
-
-```Java
-diff --git a/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java b/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
-index 6ff5e36..ab65ba3 100644
---- a/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
-+++ b/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
-@@ -256,9 +256,6 @@ public class StatisticalBarRenderer extends BarRenderer
- 
-         // BAR X
-         Number meanValue = dataset.getMeanValue(row, column);
-+        if (meanValue == null) {
-+            return;
-+        }
- 
-         double value = meanValue.doubleValue();
-         double base = 0.0;
-@@ -315,9 +312,7 @@ public class StatisticalBarRenderer extends BarRenderer
-         }
- 
-         // standard deviation lines
-+        Number n = dataset.getStdDevValue(row, column);
-+        if (n != null) {
-+            double valueDelta = n.doubleValue();
--            double valueDelta = dataset.getStdDevValue(row, column).doubleValue();
-             double highVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
-                     + valueDelta, dataArea, yAxisLocation);
-             double lowVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
-@@ -346,7 +341,6 @@ public class StatisticalBarRenderer extends BarRenderer
-             line = new Line2D.Double(lowVal, rectY + rectHeight * 0.25, 
-                                      lowVal, rectY + rectHeight * 0.75);
-             g2.draw(line);
-+        }
-         
-         CategoryItemLabelGenerator generator = getItemLabelGenerator(row, 
-                 column);
-@@ -406,9 +400,6 @@ public class StatisticalBarRenderer extends BarRenderer
- 
-         // BAR Y
-         Number meanValue = dataset.getMeanValue(row, column);
-+        if (meanValue == null) {
-+            return;
-+        }
- 
-         double value = meanValue.doubleValue();
-         double base = 0.0;
-@@ -465,9 +456,7 @@ public class StatisticalBarRenderer extends BarRenderer
-         }
- 
-         // standard deviation lines
-+        Number n = dataset.getStdDevValue(row, column);
-+        if (n != null) {
-+            double valueDelta = n.doubleValue();
--            double valueDelta = dataset.getStdDevValue(row, column).doubleValue();
-             double highVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
-                     + valueDelta, dataArea, yAxisLocation);
-             double lowVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
-@@ -495,7 +484,6 @@ public class StatisticalBarRenderer extends BarRenderer
-             line = new Line2D.Double(rectX + rectWidth / 2.0d - 5.0d, lowVal,
-                                      rectX + rectWidth / 2.0d + 5.0d, lowVal);
-             g2.draw(line);
-+        }
-         
-         CategoryItemLabelGenerator generator = getItemLabelGenerator(row, 
-                 column);
-
-```
-
 ## Patch #14 Nopol 
 
 org.jfree.chart.renderer.category.StatisticalBarRenderer:207
@@ -966,29 +724,6 @@ Execution time: 0:06:11.604000
 
 Grid5000 node: grisou-32.nancy.grid5000.fr
 
-# Lang 39
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang3/StringUtils.java b/src/java/org/apache/commons/lang3/StringUtils.java
-index f6cabee..14563aa 100644
---- a/src/java/org/apache/commons/lang3/StringUtils.java
-+++ b/src/java/org/apache/commons/lang3/StringUtils.java
-@@ -3673,9 +3673,6 @@ public class StringUtils {
- 
-         // count the replacement text elements that are larger than their corresponding text being replaced
-         for (int i = 0; i < searchList.length; i++) {
-+            if (searchList[i] == null || replacementList[i] == null) {
-+                continue;
-+            }
-             int greater = replacementList[i].length() - searchList[i].length();
-             if (greater > 0) {
-                 increase += 3 * greater; // assume 3 matches
-
-```
-
 ## Patch #16 Nopol 
 
 [org.apache.commons.lang3.StringUtils:3675](https://github.com/apache/commons-lang/blob/0aa57f04ede369a4f813bbb86d3eac1ed20b084c/src/java//org/apache/commons/lang3/StringUtils.java#L3675)
@@ -1045,29 +780,6 @@ Nb analyzed Statement: 5
 Execution time: 0:00:42.524000
 
 Grid5000 node: grisou-48.nancy.grid5000.fr
-
-# Lang 44
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/NumberUtils.java b/src/java/org/apache/commons/lang/NumberUtils.java
-index c5ca8cd..18a05ef 100644
---- a/src/java/org/apache/commons/lang/NumberUtils.java
-+++ b/src/java/org/apache/commons/lang/NumberUtils.java
-@@ -142,9 +142,6 @@ public final class NumberUtils {
-         if (val.length() == 0) {
-             throw new NumberFormatException("\"\" is not a valid number.");
-         }
-+        if (val.length() == 1 && !Character.isDigit(val.charAt(0))) {
-+            throw new NumberFormatException(val + " is not a valid number.");
-+        }
-         if (val.startsWith("--")) {
-             // this is protection for poorness in java.lang.BigDecimal.
-             // it accepts this as a legal value, but it does not appear 
-
-```
 
 ## Patch #18 Nopol 
 
@@ -1188,91 +900,6 @@ Execution time: 0:00:38.764000
 
 Grid5000 node: grisou-8.nancy.grid5000.fr
 
-# Lang 46
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/StringEscapeUtils.java b/src/java/org/apache/commons/lang/StringEscapeUtils.java
-index d4f98ec..7b22e21 100644
---- a/src/java/org/apache/commons/lang/StringEscapeUtils.java
-+++ b/src/java/org/apache/commons/lang/StringEscapeUtils.java
-@@ -83,7 +83,7 @@ public class StringEscapeUtils {
-      * @return String with escaped values, <code>null</code> if null string input
-      */
-     public static String escapeJava(String str) {
-+        return escapeJavaStyleString(str, false, false);
--        return escapeJavaStyleString(str, false);
-     }
- 
-     /**
-@@ -99,7 +99,7 @@ public class StringEscapeUtils {
-      * @throws IOException if error occurs on underlying Writer
-      */
-     public static void escapeJava(Writer out, String str) throws IOException {
-+        escapeJavaStyleString(out, str, false, false);
--        escapeJavaStyleString(out, str, false);
-     }
- 
-     /**
-@@ -124,7 +124,7 @@ public class StringEscapeUtils {
-      * @return String with escaped values, <code>null</code> if null string input
-      */
-     public static String escapeJavaScript(String str) {
-+        return escapeJavaStyleString(str, true, true);
--        return escapeJavaStyleString(str, true);
-     }
- 
-     /**
-@@ -140,7 +140,7 @@ public class StringEscapeUtils {
-      * @throws IOException if error occurs on underlying Writer
-      **/
-     public static void escapeJavaScript(Writer out, String str) throws IOException {
-+        escapeJavaStyleString(out, str, true, true);
--        escapeJavaStyleString(out, str, true);
-     }
- 
-     /**
-@@ -151,13 +151,13 @@ public class StringEscapeUtils {
-      * @param escapeForwardSlash TODO
-      * @return the escaped string
-      */
-+    private static String escapeJavaStyleString(String str, boolean escapeSingleQuotes, boolean escapeForwardSlash) {
--    private static String escapeJavaStyleString(String str, boolean escapeSingleQuotes) {
-         if (str == null) {
-             return null;
-         }
-         try {
-             StringWriter writer = new StringWriter(str.length() * 2);
-+            escapeJavaStyleString(writer, str, escapeSingleQuotes, escapeForwardSlash);
--            escapeJavaStyleString(writer, str, escapeSingleQuotes);
-             return writer.toString();
-         } catch (IOException ioe) {
-             // this should never ever happen while writing to a StringWriter
-@@ -175,8 +175,7 @@ public class StringEscapeUtils {
-      * @param escapeForwardSlash TODO
-      * @throws IOException if an IOException occurs
-      */
-+    private static void escapeJavaStyleString(Writer out, String str, boolean escapeSingleQuote,
-+            boolean escapeForwardSlash) throws IOException {
--    private static void escapeJavaStyleString(Writer out, String str, boolean escapeSingleQuote) throws IOException {
-         if (out == null) {
-             throw new IllegalArgumentException("The Writer must not be null");
-         }
-@@ -242,9 +241,7 @@ public class StringEscapeUtils {
-                         out.write('\\');
-                         break;
-                     case '/' :
-+                        if (escapeForwardSlash) {
-                             out.write('\\');
-+                        }
-                         out.write('/');
-                         break;
-                     default :
-
-```
-
 ## Patch #20 Nopol 
 
 [org.apache.commons.lang.StringEscapeUtils:244](https://github.com/apache/commons-lang/blob/229151ec41339450e4d4f857bf92ed080d3e2430/src/java//org/apache/commons/lang/StringEscapeUtils.java#L244)
@@ -1327,27 +954,6 @@ Nb analyzed Statement: 8
 Execution time: 0:00:39.139000
 
 Grid5000 node: grisou-49.nancy.grid5000.fr
-
-# Lang 51
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/BooleanUtils.java b/src/java/org/apache/commons/lang/BooleanUtils.java
-index 8b5028c..3fda4ec 100644
---- a/src/java/org/apache/commons/lang/BooleanUtils.java
-+++ b/src/java/org/apache/commons/lang/BooleanUtils.java
-@@ -679,7 +679,6 @@ public class BooleanUtils {
-                         (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
-                         (str.charAt(2) == 'S' || str.charAt(2) == 's');
-                 }
-+                return false;
-             }
-             case 4: {
-                 char ch = str.charAt(0);
-
-```
 
 ## Patch #22 Nopol 
 
@@ -1417,40 +1023,6 @@ Execution time: 0:00:47.339000
 
 Grid5000 node: grimoire-4.nancy.grid5000.fr
 
-# Lang 53
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/time/DateUtils.java b/src/java/org/apache/commons/lang/time/DateUtils.java
-index e5138b5..0dd0ded 100644
---- a/src/java/org/apache/commons/lang/time/DateUtils.java
-+++ b/src/java/org/apache/commons/lang/time/DateUtils.java
-@@ -640,18 +640,18 @@ public class DateUtils {
-         int millisecs = val.get(Calendar.MILLISECOND);
-         if (!round || millisecs < 500) {
-             time = time - millisecs;
-+        }
-         if (field == Calendar.SECOND) {
-             done = true;
--            }
-         }
- 
-         // truncate seconds
-         int seconds = val.get(Calendar.SECOND);
-         if (!done && (!round || seconds < 30)) {
-             time = time - (seconds * 1000L);
-+        }
-         if (field == Calendar.MINUTE) {
-             done = true;
--            }
-         }
- 
-         // truncate minutes
-
-```
-
 ## Patch #24 Nopol 
 
 [org.apache.commons.lang.time.DateUtils:666](https://github.com/apache/commons-lang/blob/b6f7a8a8be57c9525c59e9f21e958e76cee0dbaf/src/java//org/apache/commons/lang/time/DateUtils.java#L666)
@@ -1508,29 +1080,6 @@ Execution time: 0:01:49.844000
 
 Grid5000 node: graphene-52.nancy.grid5000.fr
 
-# Lang 55
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/time/StopWatch.java b/src/java/org/apache/commons/lang/time/StopWatch.java
-index 0f0786a..8f39421 100644
---- a/src/java/org/apache/commons/lang/time/StopWatch.java
-+++ b/src/java/org/apache/commons/lang/time/StopWatch.java
-@@ -115,9 +115,7 @@ public class StopWatch {
-         if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
-             throw new IllegalStateException("Stopwatch is not running. ");
-         }
-+        if(this.runningState == STATE_RUNNING) {
-             stopTime = System.currentTimeMillis();
-+        }
-         this.runningState = STATE_STOPPED;
-     }
- 
-
-```
-
 ## Patch #26 Nopol 
 
 [org.apache.commons.lang.time.StopWatch:118](https://github.com/apache/commons-lang/blob/d8c22b8e1c8592bc8c6f6169a5b090082969acd4/src/java//org/apache/commons/lang/time/StopWatch.java#L118)
@@ -1587,29 +1136,6 @@ Nb analyzed Statement: 2
 Execution time: 0:00:38.648000
 
 Grid5000 node: grisou-22.nancy.grid5000.fr
-
-# Lang 58
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/math/NumberUtils.java b/src/java/org/apache/commons/lang/math/NumberUtils.java
-index eb74e72..c0f06a4 100644
---- a/src/java/org/apache/commons/lang/math/NumberUtils.java
-+++ b/src/java/org/apache/commons/lang/math/NumberUtils.java
-@@ -451,7 +451,8 @@ public class NumberUtils {
-                 case 'L' :
-                     if (dec == null
-                         && exp == null
-+                        && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
--                        && isDigits(numeric.substring(1))
--                        && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0)))) {
-                         try {
-                             return createLong(numeric);
-                         } catch (NumberFormatException nfe) {
-
-```
 
 ## Patch #28 Nopol 
 
@@ -1745,28 +1271,6 @@ Execution time: 0:14:47.503000
 
 Grid5000 node: griffon-11.nancy.grid5000.fr
 
-# Math 32
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-index add24ac..c6e7cf1 100644
---- a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-+++ b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-@@ -133,7 +133,7 @@ public class PolygonsSet extends AbstractRegion<Euclidean2D, Euclidean1D> {
- 
-         if (v.length == 0) {
-             final BSPTree<Euclidean2D> tree = getTree(false);
-+            if (tree.getCut() == null && (Boolean) tree.getAttribute()) {
--            if ((Boolean) tree.getAttribute()) {
-                 // the instance covers the whole space
-                 setSize(Double.POSITIVE_INFINITY);
-                 setBarycenter(Vector2D.NaN);
-
-```
-
 ## Patch #31 Nopol 
 
 [org.apache.commons.math3.geometry.partitioning.AbstractRegion:214](https://github.com/apache/commons-math/blob/8f423828e0d9f34896f87d803c559adf2d953f30/src/main/java//org/apache/commons/math3/geometry/partitioning/AbstractRegion.java#L214)
@@ -1822,28 +1326,6 @@ Nb analyzed Statement: 4
 Execution time: 0:13:38.561000
 
 Grid5000 node: graphene-1.nancy.grid5000.fr
-
-# Math 33
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java b/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
-index 327b2ae..9a6993a 100644
---- a/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
-+++ b/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
-@@ -335,7 +335,7 @@ class SimplexTableau implements Serializable {
-         // positive cost non-artificial variables
-         for (int i = getNumObjectiveFunctions(); i < getArtificialVariableOffset(); i++) {
-             final double entry = tableau.getEntry(0, i);
-+            if (Precision.compareTo(entry, 0d, epsilon) > 0) {
--            if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
-                 columnsToDrop.add(i);
-             }
-         }
-
-```
 
 ## Patch #33 Nopol 
 
@@ -1994,33 +1476,6 @@ Execution time: 0:09:48.640000
 
 Grid5000 node: griffon-17.nancy.grid5000.fr
 
-# Math 42
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java b/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-index d96c916..02c22b5 100644
---- a/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-+++ b/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-@@ -407,12 +407,10 @@ class SimplexTableau implements Serializable {
-             continue;
-           }
-           Integer basicRow = getBasicRow(colIndex);
-+          if (basicRow != null && basicRow == 0) {
-               // if the basic row is found to be the objective function row
-               // set the coefficient to 0 -> this case handles unconstrained 
-               // variables that are still part of the objective function
-+              coefficients[i] = 0;
-+          } else if (basicRows.contains(basicRow)) {
--          if (basicRows.contains(basicRow)) {
-               // if multiple variables can take a given value
-               // then we choose the first and set the rest equal to 0
-               coefficients[i] = 0 - (restrictToNonNegative ? 0 : mostNegative);
-
-```
-
 ## Patch #37 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:419](https://github.com/apache/commons-math/blob/f14fdb5447f4ed1e103db2cecc148f391294f342/src/main/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L419)
@@ -2152,55 +1607,6 @@ Execution time: 0:06:32.261000
 
 Grid5000 node: griffon-14.nancy.grid5000.fr
 
-# Math 49
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java b/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java
-index 13ebfd2..5db4884 100644
---- a/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java
-+++ b/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java
-@@ -342,7 +342,7 @@ public class OpenMapRealVector extends AbstractRealVector
-     public OpenMapRealVector ebeDivide(RealVector v) {
-         checkVectorDimensions(v.getDimension());
-         OpenMapRealVector res = new OpenMapRealVector(this);
-+        Iterator iter = entries.iterator();
--        Iterator iter = res.entries.iterator();
-         while (iter.hasNext()) {
-             iter.advance();
-             res.setEntry(iter.key(), iter.value() / v.getEntry(iter.key()));
-@@ -355,7 +355,7 @@ public class OpenMapRealVector extends AbstractRealVector
-     public OpenMapRealVector ebeDivide(double[] v) {
-         checkVectorDimensions(v.length);
-         OpenMapRealVector res = new OpenMapRealVector(this);
-+        Iterator iter = entries.iterator();
--        Iterator iter = res.entries.iterator();
-         while (iter.hasNext()) {
-             iter.advance();
-             res.setEntry(iter.key(), iter.value() / v[iter.key()]);
-@@ -367,7 +367,7 @@ public class OpenMapRealVector extends AbstractRealVector
-     public OpenMapRealVector ebeMultiply(RealVector v) {
-         checkVectorDimensions(v.getDimension());
-         OpenMapRealVector res = new OpenMapRealVector(this);
-+        Iterator iter = entries.iterator();
--        Iterator iter = res.entries.iterator();
-         while (iter.hasNext()) {
-             iter.advance();
-             res.setEntry(iter.key(), iter.value() * v.getEntry(iter.key()));
-@@ -380,7 +380,7 @@ public class OpenMapRealVector extends AbstractRealVector
-     public OpenMapRealVector ebeMultiply(double[] v) {
-         checkVectorDimensions(v.length);
-         OpenMapRealVector res = new OpenMapRealVector(this);
-+        Iterator iter = entries.iterator();
--        Iterator iter = res.entries.iterator();
-         while (iter.hasNext()) {
-             iter.advance();
-             res.setEntry(iter.key(), iter.value() * v[iter.key()]);
-
-```
-
 ## Patch #40 Nopol 
 
 [org.apache.commons.math.linear.OpenMapRealVector:667](https://github.com/apache/commons-math/blob/7c6dd40b330d85ae718e867c4d5cee0b1c4f317b/src/main/java//org/apache/commons/math/linear/OpenMapRealVector.java#L667)
@@ -2259,30 +1665,6 @@ Execution time: 0:06:47.347000
 
 Grid5000 node: griffon-17.nancy.grid5000.fr
 
-# Math 50
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java b/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
-index c781a90..e47d982 100644
---- a/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
-+++ b/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
-@@ -184,6 +184,10 @@ public abstract class BaseSecantSolver
-                     break;
-                 case REGULA_FALSI:
-                     // Nothing.
--                    if (x == x1) {
--                        x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
--                        f0 = computeObjectiveValue(x0);
--                    }
-                     break;
-                 default:
-                     // Should never happen.
-
-```
-
 ## Patch #42 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BaseSecantSolver:187](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L187)
@@ -2338,28 +1720,6 @@ Nb analyzed Statement: 16
 Execution time: 0:14:57.770000
 
 Grid5000 node: graphene-1.nancy.grid5000.fr
-
-# Math 57
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java b/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
-index e09bbc3..b73ac9d 100644
---- a/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
-+++ b/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
-@@ -172,7 +172,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
-         while (resultSet.size() < k) {
-             // For each data point x, compute D(x), the distance between x and
-             // the nearest center that has already been chosen.
-+            double sum = 0;
--            int sum = 0;
-             for (int i = 0; i < pointSet.size(); i++) {
-                 final T p = pointSet.get(i);
-                 final Cluster<T> nearest = getNearestCluster(resultSet, p);
-
-```
 
 ## Patch #44 Nopol 
 
@@ -2417,28 +1777,6 @@ Execution time: 0:07:15.266000
 
 Grid5000 node: griffon-12.nancy.grid5000.fr
 
-# Math 58
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java b/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java
-index e1b54f4..ae7ac39 100644
---- a/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java
-+++ b/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java
-@@ -118,7 +118,7 @@ public class GaussianFitter extends CurveFitter {
-      */
-     public double[] fit() {
-         final double[] guess = (new ParameterGuesser(getObservations())).guess();
-+        return fit(guess);
--        return fit(new Gaussian.Parametric(), guess);
-     }
- 
-     /**
-
-```
-
 ## Patch #46 Nopol 
 
 [org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:620](https://github.com/apache/commons-math/blob/73a227619d6671f69f9dcfb614f1b6abd83e2d62/src/main/java//org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java#L620)
@@ -2494,28 +1832,6 @@ Nb analyzed Statement: 15
 Execution time: 0:02:04.573000
 
 Grid5000 node: griffon-7.nancy.grid5000.fr
-
-# Math 69
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java b/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java
-index dc83314..83b4c41 100644
---- a/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java
-+++ b/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java
-@@ -168,7 +168,7 @@ public class PearsonsCorrelation {
-                 } else {
-                     double r = correlationMatrix.getEntry(i, j);
-                     double t = Math.abs(r * Math.sqrt((nObs - 2)/(1 - r * r)));
-+                    out[i][j] = 2 * tDistribution.cumulativeProbability(-t);
--                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
-                 }
-             }
-         }
-
-```
 
 ## Patch #48 Nopol 
 
@@ -2588,44 +1904,6 @@ Nb analyzed Statement: 55
 Execution time: 0:48:19.433000
 
 Grid5000 node: griffon-11.nancy.grid5000.fr
-
-# Math 71
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java b/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
-index e03be9e..0840ac1 100644
---- a/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
-+++ b/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
-@@ -297,10 +297,6 @@ public abstract class EmbeddedRungeKuttaIntegrator
-                   // it is so small (much probably exactly 0 due to limited accuracy)
-                   // that the code above would fail handling it.
-                   // So we set up an artificial 0 size step by copying states
-+                  interpolator.storeTime(stepStart);
-+                  System.arraycopy(y, 0, yTmp, 0, y0.length);
-+                  hNew     = 0;
-+                  stepSize = 0;
-                   loop     = false;
-               } else {
-                   // reject the step to match exactly the next switch time
-diff --git a/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java b/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java
-index b61b0b1..255b1f4 100644
---- a/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java
-+++ b/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java
-@@ -177,9 +177,6 @@ public abstract class RungeKuttaIntegrator extends AbstractIntegrator {
-                 // it is so small (much probably exactly 0 due to limited accuracy)
-                 // that the code above would fail handling it.
-                 // So we set up an artificial 0 size step by copying states
-+                interpolator.storeTime(stepStart);
-+                System.arraycopy(y, 0, yTmp, 0, y0.length);
-+                stepSize = 0;
-                 loop     = false;
-             } else {
-                 // reject the step to match exactly the next switch time
-
-```
 
 ## Patch #50 Nopol 
 
@@ -2780,28 +2058,6 @@ Execution time: 0:40:01.198000
 
 Grid5000 node: griffon-8.nancy.grid5000.fr
 
-# Math 80
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java b/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
-index 9d1b797..3fc328d 100644
---- a/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
-+++ b/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
-@@ -1132,7 +1132,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
-     private boolean flipIfWarranted(final int n, final int step) {
-         if (1.5 * work[pingPong] < work[4 * (n - 1) + pingPong]) {
-             // flip array
-+            int j = 4 * (n - 1);
--            int j = 4 * n - 1;
-             for (int i = 0; i < j; i += 4) {
-                 for (int k = 0; k < 4; k += step) {
-                     final double tmp = work[i + k];
-
-```
-
 ## Patch #54 Nopol 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1139](https://github.com/apache/commons-math/blob/c78a0e3b003ac36d57a3c895fc8240ef66546a56/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1139)
@@ -2916,28 +2172,6 @@ Execution time: 0:18:22.060000
 
 Grid5000 node: griffon-60.nancy.grid5000.fr
 
-# Math 82
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java b/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-index 60a1b3a..8309d7b 100644
---- a/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-+++ b/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-@@ -79,7 +79,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
-         for (int i = tableau.getNumObjectiveFunctions(); i < tableau.getHeight(); i++) {
-             final double rhs = tableau.getEntry(i, tableau.getWidth() - 1);
-             final double entry = tableau.getEntry(i, col);
-+            if (MathUtils.compareTo(entry, 0, epsilon) > 0) {
--            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
-                 final double ratio = rhs / entry;
-                 if (ratio < minRatio) {
-                     minRatio = ratio;
-
-```
-
 ## Patch #57 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexSolver:63](https://github.com/apache/commons-math/blob/dbdff0758b40601238e88b2cffbf7ceb58ed8977/src/main/java//org/apache/commons/math/optimization/linear/SimplexSolver.java#L63)
@@ -2993,28 +2227,6 @@ Nb analyzed Statement: 37
 Execution time: 0:02:41.921000
 
 Grid5000 node: griffon-13.nancy.grid5000.fr
-
-# Math 85
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java b/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-index e6398f6..bf3e4bf 100644
---- a/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-+++ b/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-@@ -195,7 +195,7 @@ public class UnivariateRealSolverUtils {
-         } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
-                 ((a > lowerBound) || (b < upperBound)));
-    
-+        if (fa * fb > 0.0 ) {
--        if (fa * fb >= 0.0 ) {
-             throw new ConvergenceException(
-                       "number of iterations={0}, maximum iterations={1}, " +
-                       "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " +
-
-```
 
 ## Patch #59 Nopol 
 
@@ -3077,34 +2289,6 @@ Nb analyzed Statement: 72
 Execution time: 0:06:39.116000
 
 Grid5000 node: griffon-14.nancy.grid5000.fr
-
-# Math 87
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-index b0d114e..0ab790c 100644
---- a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-+++ b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-@@ -272,10 +272,12 @@ class SimplexTableau implements Serializable {
-     private Integer getBasicRow(final int col) {
-         Integer row = null;
-         for (int i = getNumObjectiveFunctions(); i < getHeight(); i++) {
-+            if (MathUtils.equals(getEntry(i, col), 1.0, epsilon) && (row == null)) {
--            if (!MathUtils.equals(getEntry(i, col), 0.0, epsilon)) {
--                if (row == null) {
-                 row = i;
-+            } else if (!MathUtils.equals(getEntry(i, col), 0.0, epsilon)) {
--                } else {
-                 return null;
--                }
-             }
-         }
-         return row;
-
-```
 
 ## Patch #61 Nopol 
 
@@ -3177,44 +2361,6 @@ Nb analyzed Statement: 1
 Execution time: 0:01:09.830000
 
 Grid5000 node: griffon-59.nancy.grid5000.fr
-
-# Math 88
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-index a6d7419..3bcb17f 100644
---- a/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-+++ b/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-@@ -326,18 +326,19 @@ class SimplexTableau implements Serializable {
-         Integer basicRow =
-             getBasicRow(getNumObjectiveFunctions() + getOriginalNumDecisionVariables());
-         double mostNegative = basicRow == null ? 0 : getEntry(basicRow, getRhsOffset());
-+        Set<Integer> basicRows = new HashSet<Integer>();
-         for (int i = 0; i < coefficients.length; i++) {
-             basicRow = getBasicRow(getNumObjectiveFunctions() + i);
-+            if (basicRows.contains(basicRow)) {
-                 // if multiple variables can take a given value 
-                 // then we choose the first and set the rest equal to 0
-+                coefficients[i] = 0;
-+            } else {
-+                basicRows.add(basicRow);
-                 coefficients[i] =
-                     (basicRow == null ? 0 : getEntry(basicRow, getRhsOffset())) -
-                     (restrictToNonNegative ? 0 : mostNegative);
--            if (basicRow != null) {
--                for (int j = getNumObjectiveFunctions(); j < getNumObjectiveFunctions() + i; j++) {
--                    if (tableau.getEntry(basicRow, j) == 1) {
--                         coefficients[i] = 0;
--                    }
--                }
-             }
-         }
-         return new RealPointValuePair(coefficients, f.getValue(coefficients));
-
-```
 
 ## Patch #63 Nopol 
 
@@ -3454,28 +2600,6 @@ Execution time: 0:00:44.038000
 
 Grid5000 node: griffon-15.nancy.grid5000.fr
 
-# Math 105
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java b/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
-index d9fa592..dcf512b 100644
---- a/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
-+++ b/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
-@@ -261,7 +261,7 @@ public class SimpleRegression implements Serializable {
-      * @return sum of squared errors associated with the regression model
-      */
-     public double getSumSquaredErrors() {
-+        return Math.max(0d, sumYY - sumXY * sumXY / sumXX);
--        return sumYY - sumXY * sumXY / sumXX;
-     }
- 
-     /**
-
-```
-
 ## Patch #69 Nopol 
 
 [org.apache.commons.math.stat.regression.SimpleRegression:108](https://github.com/apache/commons-math/blob/00b139a1c49c230bfb7b0f1ec5b8c22d560d3447/src/java//org/apache/commons/math/stat/regression/SimpleRegression.java#L108)
@@ -3531,28 +2655,6 @@ Nb analyzed Statement: 23
 Execution time: 0:01:01.253000
 
 Grid5000 node: grisou-12.nancy.grid5000.fr
-
-# Time 4
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/joda/time/Partial.java b/src/main/java/org/joda/time/Partial.java
-index 8e8e603..0d4edf4 100644
---- a/src/main/java/org/joda/time/Partial.java
-+++ b/src/main/java/org/joda/time/Partial.java
-@@ -461,7 +461,7 @@ public final class Partial
-             System.arraycopy(iValues, i, newValues, i + 1, newValues.length - i - 1);
-             // use public constructor to ensure full validation
-             // this isn't overly efficient, but is safe
-+            Partial newPartial = new Partial(newTypes, newValues, iChronology);
--            Partial newPartial = new Partial(iChronology, newTypes, newValues);
-             iChronology.validate(newPartial, newValues);
-             return newPartial;
-         }
-
-```
 
 ## Patch #71 Nopol 
 
@@ -3658,35 +2760,6 @@ Execution time: 0:01:12.541000
 
 Grid5000 node: grisou-24.nancy.grid5000.fr
 
-# Time 11
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java b/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java
-index 64da5ea..6efe071 100644
---- a/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java
-+++ b/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java
-@@ -65,11 +65,10 @@ public class ZoneInfoCompiler {
- 
-     static Chronology cLenientISO;
- 
-+    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>() {
-+        protected Boolean initialValue() {
-+            return Boolean.FALSE;
-+        }
-+    };
--    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>();
--    static {
--        cVerbose.set(Boolean.FALSE);
--    }
- 
-     /**
-      * Gets a flag indicating that verbose logging is required.
-
-```
-
 ## Patch #74 Nopol 
 
 [org.joda.time.tz.DateTimeZoneBuilder:372](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder.java#L372)
@@ -3785,28 +2858,6 @@ Nb analyzed Statement: 15
 Execution time: 0:00:57.377000
 
 Grid5000 node: grisou-37.nancy.grid5000.fr
-
-# Time 16
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/joda/time/format/DateTimeFormatter.java b/src/main/java/org/joda/time/format/DateTimeFormatter.java
-index baa276a..a4b1612 100644
---- a/src/main/java/org/joda/time/format/DateTimeFormatter.java
-+++ b/src/main/java/org/joda/time/format/DateTimeFormatter.java
-@@ -706,7 +706,7 @@ public class DateTimeFormatter {
-         chrono = selectChronology(chrono);
-         
-         DateTimeParserBucket bucket = new DateTimeParserBucket(
-+            instantLocal, chrono, iLocale, iPivotYear, chrono.year().get(instantLocal));
--            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
-         int newPos = parser.parseInto(bucket, text, position);
-         instant.setMillis(bucket.computeMillis(false, text));
-         if (iOffsetParsed && bucket.getOffsetInteger() != null) {
-
-```
 
 ## Patch #77 Nopol 
 
