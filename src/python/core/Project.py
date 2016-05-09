@@ -24,5 +24,11 @@ class Project(object):
 			self.angelicValue = self.data["angelicValue"]
 		pass
 
+	def getSource(self, id):
+		for index, src in self.src.iteritems():
+			if id <= int(index):
+				return src['srcjava']
+		return ""
+
 	def __str__(self):
 		return self.name
