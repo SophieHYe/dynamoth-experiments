@@ -241,7 +241,7 @@ for project in sorted(os.listdir(root)):
 					totalExecutionTime += int(resultsBug[tool]['timeTotal'])
 			if (("patch" in resultsBug[tool] and resultsBug[tool]["patch"]) or 
 				("operations" in resultsBug[tool] and len(resultsBug[tool]["operations"]) > 0) or
-				("patches" in resultsBug[tool] and len(resultsBug[tool]["patches"]) > 0)):
+				("patches" in resultsBug[tool] and len(resultsBug[tool]["patches"]) > 0 and "operations" not in resultsBug[tool])):
 				if ranking is None:
 					body += "# %s %s\n\n" % (project, bugId)
 					rankingPath = os.path.join(os.path.join(bugPath, "Ranking"), "results.json")
