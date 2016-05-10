@@ -7,27 +7,23 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/time_19_NopolC;
 
-Nb classes : 156
-Nb methods : 2871
-Nb statement executed by the passing tests of the patched line: 0
-Nb statement executed by the failing tests of the patched line: 0
+Nb classes : 157
+Nb methods : 2888
 Nb statements: 10307
 Nb unit tests : 11618
-Nb Statements Analyzed : 183
-Nb Statements with Angelic Value Found : 1
-Nb inputs in SMT : 15827
-Nb SMT level: 3
-Nb SMT components: [7] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2]
-                  class java.lang.Boolean: 7
-Nb variables in SMT : 40
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]
-Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2161]
-NoPol Execution time : 4450773ms
+Nb Statements Analyzed : 0
+Nb Statements with Angelic Value Found : 0
+Nb inputs in SMT : 0
+Nb SMT level: 0
+Nb variables in SMT : 0
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 40010ms
 
 
-Node: griffon-58.nancy.grid5000.fr
+Node: graphene-92.nancy.grid5000.fr
 
 
-Date: Mon May  9 19:46:05 EDT 2016
+Date: Tue May 10 11:13:38 EDT 2016
 
 

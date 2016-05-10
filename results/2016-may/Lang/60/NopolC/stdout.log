@@ -21,12 +21,12 @@ Nb SMT components: [0] []
 Nb variables in SMT : 15
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2]
 Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 120, 120, 1]
-NoPol Execution time : 89086ms
+NoPol Execution time : 78364ms
 
 
-Node: griffon-12.nancy.grid5000.fr
+Node: graphene-93.nancy.grid5000.fr
 
 
-Date: Mon May  9 23:07:35 EDT 2016
+Date: Tue May 10 11:10:41 EDT 2016
 
 

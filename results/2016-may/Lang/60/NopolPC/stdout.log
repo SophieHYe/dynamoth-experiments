@@ -11,7 +11,7 @@ Nb classes : 77
 Nb methods : 1698
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
-Nb statements: 8411
+Nb statements: 8410
 Nb unit tests : 1684
 Nb Statements Analyzed : 37
 Nb Statements with Angelic Value Found : 2
@@ -21,12 +21,12 @@ Nb SMT components: [0] []
 Nb variables in SMT : 15
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 2, 2]
 Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 119, 1, 120, 1, 1]
-NoPol Execution time : 94666ms
+NoPol Execution time : 82388ms
 
 
-Node: griffon-24.nancy.grid5000.fr
+Node: graphene-49.nancy.grid5000.fr
 
 
-Date: Mon May  9 23:28:54 EDT 2016
+Date: Tue May 10 11:12:25 EDT 2016
 
 

@@ -16,6 +16,6 @@ java.lang.NullPointerException
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 
-real	15m7.751s
-user	14m10.400s
-sys	1m53.924s
+real	4m45.513s
+user	7m35.240s
+sys	0m9.036s

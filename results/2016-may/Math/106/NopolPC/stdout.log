@@ -9,25 +9,21 @@ Date: `date`
 
 Nb classes : 136
 Nb methods : 937
-Nb statement executed by the passing tests of the patched line: 0
-Nb statement executed by the failing tests of the patched line: 0
 Nb statements: 4198
 Nb unit tests : 875
-Nb Statements Analyzed : 65
-Nb Statements with Angelic Value Found : 7
-Nb inputs in SMT : 4
-Nb SMT level: 3
-Nb SMT components: [7] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2]
-                  class java.lang.Boolean: 7
-Nb variables in SMT : 12
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 12, 1, 1, 1, 1, 1, 6, 6, 1, 1, 7, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 53077ms
+Nb Statements Analyzed : 0
+Nb Statements with Angelic Value Found : 0
+Nb inputs in SMT : 0
+Nb SMT level: 0
+Nb variables in SMT : 0
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 14646ms
 
 
-Node: griffon-4.nancy.grid5000.fr
+Node: graphene-14.nancy.grid5000.fr
 
 
-Date: Mon May  9 21:18:12 EDT 2016
+Date: Tue May 10 04:46:59 EDT 2016
 
 

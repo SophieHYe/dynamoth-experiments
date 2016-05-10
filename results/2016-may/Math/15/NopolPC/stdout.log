@@ -7,27 +7,28 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/math_15_NopolPC;
 
-Nb classes : 630
-Nb methods : 4305
+Nb classes : 629
+Nb methods : 4243
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb statements: 28718
 Nb unit tests : 4263
-Nb Statements Analyzed : 159
-Nb Statements with Angelic Value Found : 1
+Nb Statements Analyzed : 158
+Nb Statements with Angelic Value Found : 2
 Nb inputs in SMT : 10
-Nb SMT level: 2
-Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
-                  class java.lang.Boolean: 4
+Nb SMT level: 11
+Nb SMT components: [22] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2, + of arity: 2, - of arity: 2, == of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2, ?: of arity: 3, * of arity: 2, ! of arity: 1, || of arity: 2, && of arity: 2, + of arity: 2, - of arity: 2, ?: of arity: 3, * of arity: 2]
+                  class java.lang.Number: 8
+                  class java.lang.Boolean: 14
 Nb variables in SMT : 63
-Nb run failing test  : [2]
-Nb run passing test : [5]
-NoPol Execution time : 3690273ms
+Nb run failing test  : [2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+Nb run passing test : [5, 78, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+NoPol Execution time : 3704977ms
 
 
-Node: griffon-3.nancy.grid5000.fr
+Node: graphene-57.nancy.grid5000.fr
 
 
-Date: Mon May  9 23:46:12 EDT 2016
+Date: Tue May 10 12:24:41 EDT 2016
 
 

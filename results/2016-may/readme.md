@@ -16,7 +16,7 @@
   72 | [L46](#lang-46)   | Yes       |           |           | Yes       |      2
   77 | [L51](#lang-51)   | Yes       |           |           | Yes       |      2
   79 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
-  81 | [L55](#lang-55)   | Yes       |           |           | No        |      1
+  81 | [L55](#lang-55)   | Yes       |           |           | Yes       |      2
   84 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
   89 | [L63](#lang-63)   | Yes       |           |           | No        |      1
  123 | [M32](#math-32)   | Yes       |           |           | Yes       |      2
@@ -48,20 +48,20 @@
  195 | [M104](#math-104) | No        |           |           | Yes       |      1
  196 | [M105](#math-105) | Yes       |           |           | Yes       |      2
  201 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
- 204 | [T7](#time-7)     | Yes       |           |           | No        |      1
- 208 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
- 211 | [T14](#time-14)   | Yes       |           |           | No        |      1
- 213 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
-     | Total             | 45 (20%)  | 0 (0%)    | 0 (0%)    | 36 (16%)  |     81
+ 204 | [T7](#time-7)     | Yes       | ERROR     |           | No        |      1
+ 208 | [T11](#time-11)   | Yes       | ERROR     |           | Yes       |      2
+ 211 | [T14](#time-14)   | Yes       | ERROR     |           | No        |      1
+ 213 | [T16](#time-16)   | Yes       | ERROR     |           | Yes       |      2
+     | Total             | 45 (20%)  | 0 (0%)    | 0 (0%)    | 37 (16%)  |     82
 Fixed bugs: 50/224 (22%)
 
-Nb bugs ends with an execution error: 6
+Nb bugs ends with an execution error: 29
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 16
+Nb bugs ends with the Grid5000 timeout: 14
 
-Total execution time: 3 days, 22:44:25.198000
+Total execution time: 3 days, 15:25:44.550000
 # All bugs
 
  #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
@@ -146,7 +146,7 @@ Total execution time: 3 days, 22:44:25.198000
   78 | [L52](#lang-52)   | No        |           |           | No        |      0
   79 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
   80 | [L54](#lang-54)   | No        |           |           | No        |      0
-  81 | [L55](#lang-55)   | Yes       |           |           | No        |      1
+  81 | [L55](#lang-55)   | Yes       |           |           | Yes       |      2
   82 | [L56](#lang-56)   | No        |           |           | No        |      0
   83 | [L57](#lang-57)   | No        |           |           | No        |      0
   84 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
@@ -163,7 +163,7 @@ Total execution time: 3 days, 22:44:25.198000
   95 | [M4](#math-4)     | No        |           |           | No        |      0
   96 | [M5](#math-5)     | No        |           |           | No        |      0
   97 | [M6](#math-6)     | No        |           |           | No        |      0
-  98 | [M7](#math-7)     | No        |           |           | No       |      0
+  98 | [M7](#math-7)     | No        |           |           | No        |      0
   99 | [M8](#math-8)     | No        |           |           | No        |      0
  100 | [M9](#math-9)     | No        |           |           | No        |      0
  101 | [M10](#math-10)   | No        |           |           | No        |      0
@@ -195,7 +195,7 @@ Total execution time: 3 days, 22:44:25.198000
  127 | [M36](#math-36)   | No        |           |           | No        |      0
  128 | [M37](#math-37)   | No        |           |           | ERROR     |      0
  129 | [M38](#math-38)   | No        |           |           | No        |      0
- 130 | [M39](#math-39)   | No        |           |           | No        |      0
+ 130 | [M39](#math-39)   | No       |           |           | No        |      0
  131 | [M40](#math-40)   | No        |           |           | Yes       |      1
  132 | [M41](#math-41)   | Yes       |           |           | No       |      1
  133 | [M42](#math-42)   | Yes       |           |           | Yes       |      2
@@ -262,44 +262,44 @@ Total execution time: 3 days, 22:44:25.198000
  194 | [M103](#math-103) | No        |           |           | No        |      0
  195 | [M104](#math-104) | No        |           |           | Yes       |      1
  196 | [M105](#math-105) | Yes       |           |           | Yes       |      2
- 197 | [M106](#math-106) | No       |           |           | No        |      0
+ 197 | [M106](#math-106) | No        |           |           | No        |      0
  198 | [T1](#time-1)     | No        |           |           | No        |      0
  199 | [T2](#time-2)     | No        |           |           | No        |      0
  200 | [T3](#time-3)     | No        |           |           | No        |      0
  201 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
- 202 | [T5](#time-5)     | No        |           |           | No        |      0
- 203 | [T6](#time-6)     | No        |           |           | No        |      0
- 204 | [T7](#time-7)     | Yes       |           |           | No        |      1
- 205 | [T8](#time-8)     | No        |           |           | No        |      0
- 206 | [T9](#time-9)     | No        |           |           | No        |      0
- 207 | [T10](#time-10)   | No        |           |           | No        |      0
- 208 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
- 209 | [T12](#time-12)   | No        |           |           | No        |      0
- 210 | [T13](#time-13)   | No        |           |           | No        |      0
- 211 | [T14](#time-14)   | Yes       |           |           | No        |      1
- 212 | [T15](#time-15)   | No        |           |           | No        |      0
- 213 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
- 214 | [T17](#time-17)   | No        |           |           | No        |      0
- 215 | [T18](#time-18)   | No        |           |           | No        |      0
- 216 | [T19](#time-19)   | No        |           |           | No        |      0
- 217 | [T20](#time-20)   | No        |           |           | No        |      0
- 218 | [T21](#time-21)   | No        |           |           | No        |      0
- 219 | [T22](#time-22)   | No        |           |           | No        |      0
- 220 | [T23](#time-23)   | No        |           |           | No        |      0
- 221 | [T24](#time-24)   | No        |           |           | ERROR     |      0
- 222 | [T25](#time-25)   | No        |           |           | No        |      0
- 223 | [T26](#time-26)   | No        |           |           | No        |      0
- 224 | [T27](#time-27)   | No        |           |           | No        |      0
-     | Total             | 45 (20%)  | 0 (0%)    | 0 (0%)    | 36 (16%)  |     81
+ 202 | [T5](#time-5)     | No        | ERROR     |           | No        |      0
+ 203 | [T6](#time-6)     | No        | ERROR     |           | No        |      0
+ 204 | [T7](#time-7)     | Yes       | ERROR     |           | No        |      1
+ 205 | [T8](#time-8)     | No        | ERROR     |           | No        |      0
+ 206 | [T9](#time-9)     | No        | ERROR     |           | No        |      0
+ 207 | [T10](#time-10)   | No        | ERROR     |           | No        |      0
+ 208 | [T11](#time-11)   | Yes       | ERROR     |           | Yes       |      2
+ 209 | [T12](#time-12)   | No        | ERROR     |           | No        |      0
+ 210 | [T13](#time-13)   | No        | ERROR     |           | No        |      0
+ 211 | [T14](#time-14)   | Yes       | ERROR     |           | No        |      1
+ 212 | [T15](#time-15)   | No        | ERROR     |           | No        |      0
+ 213 | [T16](#time-16)   | Yes       | ERROR     |           | Yes       |      2
+ 214 | [T17](#time-17)   | No        | ERROR     |           | No        |      0
+ 215 | [T18](#time-18)   | No        | ERROR     |           | No        |      0
+ 216 | [T19](#time-19)   | No        | ERROR     |           | No        |      0
+ 217 | [T20](#time-20)   | No        | ERROR     |           | No        |      0
+ 218 | [T21](#time-21)   | No        | ERROR     |           | No        |      0
+ 219 | [T22](#time-22)   | No        | ERROR     |           | No        |      0
+ 220 | [T23](#time-23)   | No        | ERROR     |           | No        |      0
+ 221 | [T24](#time-24)   | No        | ERROR     |           | ERROR     |      0
+ 222 | [T25](#time-25)   | No        | ERROR     |           | No        |      0
+ 223 | [T26](#time-26)   | No        | ERROR     |           | No        |      0
+ 224 | [T27](#time-27)   | No        | ERROR     |           | No        |      0
+     | Total             | 45 (20%)  | 0 (0%)    | 0 (0%)    | 37 (16%)  |     82
 Fixed bugs: 50/224 (22%)
 
-Nb bugs ends with an execution error: 6
+Nb bugs ends with an execution error: 29
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 16
+Nb bugs ends with the Grid5000 timeout: 14
 
-Total execution time: 3 days, 22:44:25.198000
+Total execution time: 3 days, 15:25:44.550000
 
 
 
@@ -1373,6 +1373,23 @@ Execution time: 0:01:46.530000
 
 Grid5000 node: griffon-6.nancy.grid5000.fr
 
+## Patch #27 Nopol 
+
+[org.apache.commons.lang.time.StopWatch:118](https://github.com/apache/commons-lang/blob/d8c22b8e1c8592bc8c6f6169a5b090082969acd4/src/java//org/apache/commons/lang/time/StopWatch.java#L118) (Suspicious rank: ample 8, jaccard 8, ochiai 9, naish1 8346, gp13 8, naish2 8, tarantula 8, )
+
+Patch type: PRECONDITION
+```Java
+if(-1 == org.apache.commons.lang.time.StopWatch.this.stopTime)
+```
+
+Nb Angelic value: 1
+
+Nb analyzed Statement: 9
+
+Execution time: 0:01:30.574000
+
+Grid5000 node: graphene-66.nancy.grid5000.fr
+
 # Lang 58
 
 Nb Executed tests: 0
@@ -1401,7 +1418,7 @@ index eb74e72..c0f06a4 100644
 
 ```
 
-## Patch #27 DynaMoth 
+## Patch #28 DynaMoth 
 
 [org.apache.commons.lang.math.NumberUtils:464](https://github.com/apache/commons-lang/blob/8185a5f63e23be852d600a80daa5b848fa836a65/src/java//org/apache/commons/lang/math/NumberUtils.java#L464) (Suspicious rank: ample 2, jaccard 2, ochiai 2, naish1 8379, gp13 2, naish2 2, tarantula 2, )
 
@@ -1418,7 +1435,7 @@ Execution time: 0:00:54.706000
 
 Grid5000 node: griffon-23.nancy.grid5000.fr
 
-## Patch #28 Nopol 
+## Patch #29 Nopol 
 
 [org.apache.commons.lang.math.NumberUtils:464](https://github.com/apache/commons-lang/blob/8185a5f63e23be852d600a80daa5b848fa836a65/src/java//org/apache/commons/lang/math/NumberUtils.java#L464) (Suspicious rank: ample 2, jaccard 2, ochiai 2, naish1 8379, gp13 2, naish2 2, tarantula 2, )
 
@@ -1501,7 +1518,7 @@ index 3a9d9f6..127b927 100644
 
 ```
 
-## Patch #29 DynaMoth 
+## Patch #30 DynaMoth 
 
 [org.apache.commons.lang.time.DurationFormatUtils:438](https://github.com/apache/commons-lang/blob/3333dcc11f2d65ee99043945502102dcf3bca50c/src/java//org/apache/commons/lang/time/DurationFormatUtils.java#L438) (Suspicious rank: ample 3, jaccard 3, ochiai 2, naish1 8229, gp13 3, naish2 3, tarantula 3, )
 
@@ -1545,7 +1562,7 @@ index add24ac..c6e7cf1 100644
 
 ```
 
-## Patch #30 DynaMoth 
+## Patch #31 DynaMoth 
 
 [org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet:136](https://github.com/apache/commons-math/blob/8f423828e0d9f34896f87d803c559adf2d953f30/src/main/java//org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java#L136) (Suspicious rank: ample 2, jaccard 2, ochiai 4, naish1 24972, gp13 2, naish2 2, tarantula 2, )
 
@@ -1562,7 +1579,7 @@ Execution time: 0:14:43.094000
 
 Grid5000 node: griffon-58.nancy.grid5000.fr
 
-## Patch #31 Nopol 
+## Patch #32 Nopol 
 
 [org.apache.commons.math3.geometry.partitioning.AbstractRegion:214](https://github.com/apache/commons-math/blob/8f423828e0d9f34896f87d803c559adf2d953f30/src/main/java//org/apache/commons/math3/geometry/partitioning/AbstractRegion.java#L214) (Suspicious rank: ample 201, jaccard 201, ochiai 175, naish1 24814, gp13 201, naish2 201, tarantula 201, )
 
@@ -1606,7 +1623,7 @@ index 327b2ae..9a6993a 100644
 
 ```
 
-## Patch #32 DynaMoth 
+## Patch #33 DynaMoth 
 
 [org.apache.commons.math3.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/450456208cf75b865fd3c0878b6b4f70f6b329b1/src/main/java//org/apache/commons/math3/optimization/linear/SimplexTableau.java#L339) (Suspicious rank: ample 6, jaccard 6, ochiai 4, naish1 24718, gp13 6, naish2 6, tarantula 6, )
 
@@ -1623,7 +1640,7 @@ Execution time: 0:15:25.625000
 
 Grid5000 node: griffon-9.nancy.grid5000.fr
 
-## Patch #33 Nopol 
+## Patch #34 Nopol 
 
 [org.apache.commons.math3.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/450456208cf75b865fd3c0878b6b4f70f6b329b1/src/main/java//org/apache/commons/math3/optimization/linear/SimplexTableau.java#L339) (Suspicious rank: ample 6, jaccard 6, ochiai 4, naish1 24718, gp13 6, naish2 6, tarantula 6, )
 
@@ -1677,7 +1694,7 @@ index 59dc461..93dd3bb 100644
 
 ```
 
-## Patch #34 Nopol 
+## Patch #35 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260](https://github.com/apache/commons-math/blob/b241c3962faa9b71726ce47d9315c2af0d5c8ad7/src/main/java//org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java#L260) (Suspicious rank: ample 31, jaccard 31, ochiai 46, naish1 24143, gp13 31, naish2 31, tarantula 31, )
 
@@ -1721,7 +1738,7 @@ index 1de139f..e5518e3 100644
 
 ```
 
-## Patch #35 DynaMoth 
+## Patch #36 DynaMoth 
 
 [org.apache.commons.math.stat.descriptive.moment.Variance:514](https://github.com/apache/commons-math/blob/d099c7c3436bd43094e7b3087c64e0552cfbec5b/src/main/java//org/apache/commons/math/stat/descriptive/moment/Variance.java#L514) (Suspicious rank: ample 10, jaccard 10, ochiai 10, naish1 24180, gp13 10, naish2 10, tarantula 10, )
 
@@ -1770,7 +1787,7 @@ index d96c916..02c22b5 100644
 
 ```
 
-## Patch #36 DynaMoth 
+## Patch #37 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:347](https://github.com/apache/commons-math/blob/f14fdb5447f4ed1e103db2cecc148f391294f342/src/main/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L347) (Suspicious rank: ample 2, jaccard 2, ochiai 2, naish1 24202, gp13 2, naish2 2, tarantula 2, )
 
@@ -1787,7 +1804,7 @@ Execution time: 0:10:15.192000
 
 Grid5000 node: griffon-24.nancy.grid5000.fr
 
-## Patch #37 Nopol 
+## Patch #38 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:419](https://github.com/apache/commons-math/blob/f14fdb5447f4ed1e103db2cecc148f391294f342/src/main/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L419) (Suspicious rank: ample 29, jaccard 29, ochiai 28, naish1 24099, gp13 29, naish2 29, tarantula 29, )
 
@@ -1850,7 +1867,7 @@ index 8f315e3..544124f 100644
 
 ```
 
-## Patch #38 DynaMoth 
+## Patch #39 DynaMoth 
 
 Execution time: 0:32:49.132000
 
@@ -1893,7 +1910,7 @@ index dd0b00a..d55c25a 100644
 
 ```
 
-## Patch #39 DynaMoth 
+## Patch #40 DynaMoth 
 
 [org.apache.commons.math.complex.Complex:260](https://github.com/apache/commons-math/blob/32b0f7336b7627bc6e471a1091dfb2712b613eee/src/main/java//org/apache/commons/math/complex/Complex.java#L260) (Suspicious rank: ample 1, jaccard 1, ochiai 2, naish1 23202, gp13 1, naish2 1, tarantula 2, )
 
@@ -1964,7 +1981,7 @@ index 13ebfd2..5db4884 100644
 
 ```
 
-## Patch #40 DynaMoth 
+## Patch #41 DynaMoth 
 
 [org.apache.commons.math.linear.OpenMapRealVector:667](https://github.com/apache/commons-math/blob/7c6dd40b330d85ae718e867c4d5cee0b1c4f317b/src/main/java//org/apache/commons/math/linear/OpenMapRealVector.java#L667) (Suspicious rank: ample 14, jaccard 14, ochiai 14, naish1 23309, gp13 14, naish2 14, tarantula 14, )
 
@@ -1981,7 +1998,7 @@ Execution time: 0:06:37.800000
 
 Grid5000 node: griffon-12.nancy.grid5000.fr
 
-## Patch #41 Nopol 
+## Patch #42 Nopol 
 
 [org.apache.commons.math.linear.OpenMapRealVector:667](https://github.com/apache/commons-math/blob/7c6dd40b330d85ae718e867c4d5cee0b1c4f317b/src/main/java//org/apache/commons/math/linear/OpenMapRealVector.java#L667) (Suspicious rank: ample 14, jaccard 14, ochiai 14, naish1 23309, gp13 14, naish2 14, tarantula 14, )
 
@@ -2027,7 +2044,7 @@ index c781a90..e47d982 100644
 
 ```
 
-## Patch #42 DynaMoth 
+## Patch #43 DynaMoth 
 
 [org.apache.commons.math.analysis.solvers.BaseSecantSolver:188](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L188) (Suspicious rank: ample 1, jaccard 1, ochiai 2, naish1 23272, gp13 1, naish2 1, tarantula 1, )
 
@@ -2044,7 +2061,7 @@ Execution time: 0:06:37.805000
 
 Grid5000 node: griffon-23.nancy.grid5000.fr
 
-## Patch #43 Nopol 
+## Patch #44 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BaseSecantSolver:187](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L187) (Suspicious rank: ample 4, jaccard 4, ochiai 4, naish1 23264, gp13 4, naish2 4, tarantula 4, )
 
@@ -2088,7 +2105,7 @@ index e09bbc3..b73ac9d 100644
 
 ```
 
-## Patch #44 DynaMoth 
+## Patch #45 DynaMoth 
 
 [org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:86](https://github.com/apache/commons-math/blob/35a0923edfe498c58bfb1e86099fed85fde0c353/src/main/java//org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java#L86) (Suspicious rank: ample 16, jaccard 16, ochiai 16, naish1 19403, gp13 16, naish2 16, tarantula 16, )
 
@@ -2105,7 +2122,7 @@ Execution time: 0:14:08.190000
 
 Grid5000 node: graphene-57.nancy.grid5000.fr
 
-## Patch #45 Nopol 
+## Patch #46 Nopol 
 
 [org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:86](https://github.com/apache/commons-math/blob/35a0923edfe498c58bfb1e86099fed85fde0c353/src/main/java//org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java#L86) (Suspicious rank: ample 16, jaccard 16, ochiai 16, naish1 19403, gp13 16, naish2 16, tarantula 16, )
 
@@ -2149,7 +2166,7 @@ index e1b54f4..ae7ac39 100644
 
 ```
 
-## Patch #46 DynaMoth 
+## Patch #47 DynaMoth 
 
 [org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:620](https://github.com/apache/commons-math/blob/73a227619d6671f69f9dcfb614f1b6abd83e2d62/src/main/java//org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java#L620) (Suspicious rank: ample 86, jaccard 86, ochiai 79, naish1 19201, gp13 86, naish2 86, tarantula 86, )
 
@@ -2166,7 +2183,7 @@ Execution time: 0:07:04.152000
 
 Grid5000 node: griffon-5.nancy.grid5000.fr
 
-## Patch #47 Nopol 
+## Patch #48 Nopol 
 
 [org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:620](https://github.com/apache/commons-math/blob/73a227619d6671f69f9dcfb614f1b6abd83e2d62/src/main/java//org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java#L620) (Suspicious rank: ample 86, jaccard 86, ochiai 79, naish1 19201, gp13 86, naish2 86, tarantula 86, )
 
@@ -2211,7 +2228,7 @@ index dc83314..83b4c41 100644
 
 ```
 
-## Patch #48 DynaMoth 
+## Patch #49 DynaMoth 
 
 [org.apache.commons.math.stat.correlation.PearsonsCorrelation:193](https://github.com/apache/commons-math/blob/eb74f8f418f9da4adb52628fe775022efc4b0467/src/main/java//org/apache/commons/math/stat/correlation/PearsonsCorrelation.java#L193) (Suspicious rank: ample 18, jaccard 18, ochiai 15, naish1 16536, gp13 18, naish2 18, tarantula 18, )
 
@@ -2220,7 +2237,7 @@ Patch type: PRECONDITION
 if(outMatrix.getDeterminant() != matrix.getEntry((int) j, (int) 0))
 ```
 
-Nb Angelic value: 4
+Nb Angelic value: 3
 
 Nb analyzed Statement: 15
 
@@ -2228,7 +2245,7 @@ Execution time: 0:01:59.402000
 
 Grid5000 node: griffon-29.nancy.grid5000.fr
 
-## Patch #49 Nopol 
+## Patch #50 Nopol 
 
 [org.apache.commons.math.stat.correlation.PearsonsCorrelation:193](https://github.com/apache/commons-math/blob/eb74f8f418f9da4adb52628fe775022efc4b0467/src/main/java//org/apache/commons/math/stat/correlation/PearsonsCorrelation.java#L193) (Suspicious rank: ample 18, jaccard 18, ochiai 15, naish1 16536, gp13 18, naish2 18, tarantula 18, )
 
@@ -2289,7 +2306,7 @@ index b61b0b1..255b1f4 100644
 
 ```
 
-## Patch #50 DynaMoth 
+## Patch #51 DynaMoth 
 
 [org.apache.commons.math.ode.events.EventState:260](https://github.com/apache/commons-math/blob/7d81702ace2819d326bbe49c8249cae60850cc0c/src/main/java//org/apache/commons/math/ode/events/EventState.java#L260) (Suspicious rank: ample 66, jaccard 163, ochiai 55, naish1 16205, gp13 66, naish2 66, tarantula 163, )
 
@@ -2306,7 +2323,7 @@ Execution time: 0:48:18.789000
 
 Grid5000 node: graphene-1.nancy.grid5000.fr
 
-## Patch #51 Nopol 
+## Patch #52 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BrentSolver:334](https://github.com/apache/commons-math/blob/7d81702ace2819d326bbe49c8249cae60850cc0c/src/main/java//org/apache/commons/math/analysis/solvers/BrentSolver.java#L334) (Suspicious rank: ample 90, jaccard 188, ochiai 102, naish1 16005, gp13 90, naish2 90, tarantula 190, )
 
@@ -2315,7 +2332,7 @@ Patch type: CONDITIONAL
 (org.apache.commons.math.analysis.solvers.BrentSolver.DEFAULT_ABSOLUTE_ACCURACY < tolerance) || (!(delta <= 0.0))
 ```
 
-Nb Angelic value: 6
+Nb Angelic value: 3
 
 Nb analyzed Statement: 102
 
@@ -2352,7 +2369,7 @@ index e0cb427..8142b5e 100644
 
 ```
 
-## Patch #52 Nopol 
+## Patch #53 Nopol 
 
 [org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225](https://github.com/apache/commons-math/blob/05361c5a3409a9ca8e4e3438eb87d1cd55b713a8/src/main/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java#L225) (Suspicious rank: ample 16, jaccard 16, ochiai 17, naish1 15883, gp13 16, naish2 16, tarantula 16, )
 
@@ -2407,7 +2424,7 @@ index 1bbad3e..6f3e883 100644
 
 ```
 
-## Patch #53 DynaMoth 
+## Patch #54 DynaMoth 
 
 [org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator:257](https://github.com/apache/commons-math/blob/e00564e3b7f437b0771eedd72d24082e8219a077/src/main/java//org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java#L257) (Suspicious rank: ample 574, jaccard 574, ochiai 557, naish1 16220, gp13 574, naish2 574, tarantula 574, )
 
@@ -2468,7 +2485,7 @@ index ff09646..5006065 100644
 
 ```
 
-## Patch #54 DynaMoth 
+## Patch #55 DynaMoth 
 
 [org.apache.commons.math.ConvergingAlgorithmImpl:78](https://github.com/apache/commons-math/blob/335572b99ea84b7b0665e6a818cba41e34f97203/src/main/java//org/apache/commons/math/ConvergingAlgorithmImpl.java#L78) (Suspicious rank: ample 63, jaccard 63, ochiai 66, naish1 16544, gp13 63, naish2 63, tarantula 63, )
 
@@ -2485,7 +2502,7 @@ Execution time: 0:14:55.944000
 
 Grid5000 node: graphene-57.nancy.grid5000.fr
 
-## Patch #55 Nopol 
+## Patch #56 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BrentSolver:282](https://github.com/apache/commons-math/blob/335572b99ea84b7b0665e6a818cba41e34f97203/src/main/java//org/apache/commons/math/analysis/solvers/BrentSolver.java#L282) (Suspicious rank: ample 10, jaccard 10, ochiai 11, naish1 16614, gp13 10, naish2 10, tarantula 10, )
 
@@ -2532,7 +2549,7 @@ index ad77a56..46368dc 100644
 
 ```
 
-## Patch #56 Nopol 
+## Patch #57 Nopol 
 
 [org.apache.commons.math.util.MathUtils:1627](https://github.com/apache/commons-math/blob/9e6576e7cd4ad17185c5102fd3c6f9f9a6941ed4/src/main/java//org/apache/commons/math/util/MathUtils.java#L1627) (Suspicious rank: ample 23, jaccard 23, ochiai 24, naish1 16587, gp13 23, naish2 23, tarantula 23, )
 
@@ -2576,7 +2593,7 @@ index 9d1b797..3fc328d 100644
 
 ```
 
-## Patch #57 DynaMoth 
+## Patch #58 DynaMoth 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1137](https://github.com/apache/commons-math/blob/c78a0e3b003ac36d57a3c895fc8240ef66546a56/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1137) (Suspicious rank: ample 3, jaccard 3, ochiai 16, naish1 16062, gp13 3, naish2 3, tarantula 3, )
 
@@ -2593,7 +2610,7 @@ Execution time: 0:40:02.731000
 
 Grid5000 node: griffon-11.nancy.grid5000.fr
 
-## Patch #58 Nopol 
+## Patch #59 Nopol 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1139](https://github.com/apache/commons-math/blob/c78a0e3b003ac36d57a3c895fc8240ef66546a56/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1139) (Suspicious rank: ample 1, jaccard 1, ochiai 14, naish1 16060, gp13 1, naish2 1, tarantula 1, )
 
@@ -2656,7 +2673,7 @@ index 3fc328d..2d0d72f 100644
 
 ```
 
-## Patch #59 Nopol 
+## Patch #60 Nopol 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1544](https://github.com/apache/commons-math/blob/0596e3145c1a8a9c42185fe688c42b0830b64516/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1544) (Suspicious rank: ample 1, jaccard 1, ochiai 5, naish1 16183, gp13 1, naish2 1, tarantula 1, )
 
@@ -2700,7 +2717,7 @@ index 60a1b3a..8309d7b 100644
 
 ```
 
-## Patch #60 DynaMoth 
+## Patch #61 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexSolver:63](https://github.com/apache/commons-math/blob/dbdff0758b40601238e88b2cffbf7ceb58ed8977/src/main/java//org/apache/commons/math/optimization/linear/SimplexSolver.java#L63) (Suspicious rank: ample 38, jaccard 38, ochiai 55, naish1 16042, gp13 38, naish2 38, tarantula 38, )
 
@@ -2717,7 +2734,7 @@ Execution time: 0:09:08.987000
 
 Grid5000 node: graphene-1.nancy.grid5000.fr
 
-## Patch #61 Nopol 
+## Patch #62 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexSolver:63](https://github.com/apache/commons-math/blob/dbdff0758b40601238e88b2cffbf7ceb58ed8977/src/main/java//org/apache/commons/math/optimization/linear/SimplexSolver.java#L63) (Suspicious rank: ample 38, jaccard 38, ochiai 55, naish1 16042, gp13 38, naish2 38, tarantula 38, )
 
@@ -2761,7 +2778,7 @@ index e6398f6..bf3e4bf 100644
 
 ```
 
-## Patch #62 DynaMoth 
+## Patch #63 DynaMoth 
 
 [org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198](https://github.com/apache/commons-math/blob/26281773d85fa96594c16aee56e36805f3254064/src/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java#L198) (Suspicious rank: ample 41, jaccard 41, ochiai 37, naish1 15699, gp13 41, naish2 41, tarantula 41, )
 
@@ -2778,7 +2795,7 @@ Execution time: 0:02:40.910000
 
 Grid5000 node: griffon-8.nancy.grid5000.fr
 
-## Patch #63 Nopol 
+## Patch #64 Nopol 
 
 [org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198](https://github.com/apache/commons-math/blob/26281773d85fa96594c16aee56e36805f3254064/src/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java#L198) (Suspicious rank: ample 41, jaccard 41, ochiai 37, naish1 15699, gp13 41, naish2 41, tarantula 41, )
 
@@ -2828,7 +2845,7 @@ index b0d114e..0ab790c 100644
 
 ```
 
-## Patch #64 DynaMoth 
+## Patch #65 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:261](https://github.com/apache/commons-math/blob/10cdc1066f9ae92219382bee25aeeac724298bc9/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L261) (Suspicious rank: ample 48, jaccard 48, ochiai 72, naish1 14842, gp13 48, naish2 48, tarantula 48, )
 
@@ -2845,7 +2862,7 @@ Execution time: 0:04:08.600000
 
 Grid5000 node: graphene-57.nancy.grid5000.fr
 
-## Patch #65 Nopol 
+## Patch #66 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:161](https://github.com/apache/commons-math/blob/10cdc1066f9ae92219382bee25aeeac724298bc9/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L161) (Suspicious rank: ample 39, jaccard 39, ochiai 75, naish1 14784, gp13 39, naish2 39, tarantula 39, )
 
@@ -2905,7 +2922,7 @@ index a6d7419..3bcb17f 100644
 
 ```
 
-## Patch #66 DynaMoth 
+## Patch #67 DynaMoth 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/ca9d46257a9d4026d790adec555096d453e3f629/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L339) (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 14742, gp13 1, naish2 1, tarantula 1, )
 
@@ -2922,7 +2939,7 @@ Execution time: 0:01:10.673000
 
 Grid5000 node: griffon-23.nancy.grid5000.fr
 
-## Patch #67 Nopol 
+## Patch #68 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/ca9d46257a9d4026d790adec555096d453e3f629/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L339) (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 14742, gp13 1, naish2 1, tarantula 1, )
 
@@ -3012,7 +3029,7 @@ index 8b622cb..3571567 100644
 
 ```
 
-## Patch #68 DynaMoth 
+## Patch #69 DynaMoth 
 
 [org.apache.commons.math.complex.Complex:248](https://github.com/apache/commons-math/blob/a48a97b37fa591427f95e158beb33031daf06196/src/java//org/apache/commons/math/complex/Complex.java#L248) (Suspicious rank: ample 2269, jaccard 113, ochiai 113, naish1 8114, gp13 113, naish2 113, tarantula 113, )
 
@@ -3115,7 +3132,7 @@ index 57f64a9..766d87e 100644
 
 ```
 
-## Patch #69 DynaMoth 
+## Patch #70 DynaMoth 
 
 [org.apache.commons.math.analysis.BrentSolver:138](https://github.com/apache/commons-math/blob/0010754c0b2eb5a5dc490acdf4f4948330363e23/src/java//org/apache/commons/math/analysis/BrentSolver.java#L138) (Suspicious rank: ample 6982, jaccard 87, ochiai 87, naish1 6890, gp13 87, naish2 87, tarantula 87, )
 
@@ -3195,7 +3212,7 @@ index 0757d9b..b404bc4 100644
 
 ```
 
-## Patch #70 DynaMoth 
+## Patch #71 DynaMoth 
 
 [org.apache.commons.math.complex.ComplexFormat:377](https://github.com/apache/commons-math/blob/07b329c5fd484d63106bf80c155bbbbbfb3b241e/src/java//org/apache/commons/math/complex/ComplexFormat.java#L377) (Suspicious rank: ample 439, jaccard 73, ochiai 73, naish1 7122, gp13 73, naish2 73, tarantula 74, )
 
@@ -3267,7 +3284,7 @@ index ba2c4db..8c565cb 100644
 
 ```
 
-## Patch #71 Nopol 
+## Patch #72 Nopol 
 
 [org.apache.commons.math.special.Gamma:162](https://github.com/apache/commons-math/blob/5bc120c5dff3cdc44f9168800a9d0a1fa538e44d/src/java//org/apache/commons/math/special/Gamma.java#L162) (Suspicious rank: ample 3686, jaccard 88, ochiai 88, naish1 6240, gp13 88, naish2 88, tarantula 88, )
 
@@ -3337,7 +3354,7 @@ index d9fa592..dcf512b 100644
 
 ```
 
-## Patch #72 DynaMoth 
+## Patch #73 DynaMoth 
 
 [org.apache.commons.math.stat.regression.SimpleRegression:116](https://github.com/apache/commons-math/blob/00b139a1c49c230bfb7b0f1ec5b8c22d560d3447/src/java//org/apache/commons/math/stat/regression/SimpleRegression.java#L116) (Suspicious rank: ample 557, jaccard 74, ochiai 73, naish1 4323, gp13 74, naish2 74, tarantula 74, )
 
@@ -3354,7 +3371,7 @@ Execution time: 0:00:37.830000
 
 Grid5000 node: graphene-1.nancy.grid5000.fr
 
-## Patch #73 Nopol 
+## Patch #74 Nopol 
 
 [org.apache.commons.math.stat.regression.SimpleRegression:108](https://github.com/apache/commons-math/blob/00b139a1c49c230bfb7b0f1ec5b8c22d560d3447/src/java//org/apache/commons/math/stat/regression/SimpleRegression.java#L108) (Suspicious rank: ample 562, jaccard 79, ochiai 80, naish1 4333, gp13 79, naish2 79, tarantula 79, )
 
@@ -3401,7 +3418,7 @@ index 8e8e603..0d4edf4 100644
 
 ```
 
-## Patch #74 DynaMoth 
+## Patch #75 DynaMoth 
 
 [org.joda.time.Partial:459](https://github.com/JodaOrg/joda-time/blob/bcb044669b4d1f8d334861ccbd169924d6ef3b54/src/main/java//org/joda/time/Partial.java#L459) (Suspicious rank: ample 19, jaccard 19, ochiai 23, naish1 10348, gp13 19, naish2 19, tarantula 19, )
 
@@ -3418,7 +3435,7 @@ Execution time: 0:01:36.417000
 
 Grid5000 node: griffon-19.nancy.grid5000.fr
 
-## Patch #75 Nopol 
+## Patch #76 Nopol 
 
 [org.joda.time.Partial:459](https://github.com/JodaOrg/joda-time/blob/bcb044669b4d1f8d334861ccbd169924d6ef3b54/src/main/java//org/joda/time/Partial.java#L459) (Suspicious rank: ample 19, jaccard 19, ochiai 23, naish1 10348, gp13 19, naish2 19, tarantula 19, )
 
@@ -3470,7 +3487,7 @@ index 913d036..447674a 100644
 
 ```
 
-## Patch #76 DynaMoth 
+## Patch #77 DynaMoth 
 
 [org.joda.time.format.DateTimeParserBucket:359](https://github.com/JodaOrg/joda-time/blob/6bf5bba0f77f3023dec23a1de6e0a8cef8585f61/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L359) (Suspicious rank: ample 19, jaccard 19, ochiai 19, naish1 10080, gp13 19, naish2 19, tarantula 19, )
 
@@ -3479,7 +3496,7 @@ Patch type: PRECONDITION
 if(resetFields)
 ```
 
-Nb Angelic value: 8
+Nb Angelic value: 1
 
 Nb analyzed Statement: 19
 
@@ -3524,7 +3541,7 @@ index 64da5ea..6efe071 100644
 
 ```
 
-## Patch #77 DynaMoth 
+## Patch #78 DynaMoth 
 
 [org.joda.time.tz.DateTimeZoneBuilder:372](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder.java#L372) (Suspicious rank: ample 107, jaccard 107, ochiai 25, naish1 10247, gp13 107, naish2 107, tarantula 107, )
 
@@ -3541,7 +3558,7 @@ Execution time: 0:01:48.364000
 
 Grid5000 node: griffon-24.nancy.grid5000.fr
 
-## Patch #78 Nopol 
+## Patch #79 Nopol 
 
 [org.joda.time.tz.DateTimeZoneBuilder:372](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder.java#L372) (Suspicious rank: ample 107, jaccard 107, ochiai 25, naish1 10247, gp13 107, naish2 107, tarantula 107, )
 
@@ -3613,7 +3630,7 @@ index 2892a2d..afca44e 100644
 
 ```
 
-## Patch #79 DynaMoth 
+## Patch #80 DynaMoth 
 
 [org.joda.time.chrono.BasicMonthOfYearDateTimeField:210](https://github.com/JodaOrg/joda-time/blob/cc3262ff42e41f3b1f64290262704da3895fbe85/src/main/java//org/joda/time/chrono/BasicMonthOfYearDateTimeField.java#L210) (Suspicious rank: ample 6, jaccard 7, ochiai 7, naish1 10240, gp13 6, naish2 6, tarantula 7, )
 
@@ -3678,7 +3695,7 @@ index baa276a..a4b1612 100644
 
 ```
 
-## Patch #80 DynaMoth 
+## Patch #81 DynaMoth 
 
 [org.joda.time.format.DateTimeParserBucket:358](https://github.com/JodaOrg/joda-time/blob/dba7c37ea3d83b32779d3bb13cb184aedf761a8a/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L358) (Suspicious rank: ample 16, jaccard 16, ochiai 15, naish1 9735, gp13 16, naish2 16, tarantula 16, )
 
@@ -3695,7 +3712,7 @@ Execution time: 0:01:28.583000
 
 Grid5000 node: griffon-23.nancy.grid5000.fr
 
-## Patch #81 Nopol 
+## Patch #82 Nopol 
 
 [org.joda.time.format.DateTimeParserBucket:358](https://github.com/JodaOrg/joda-time/blob/dba7c37ea3d83b32779d3bb13cb184aedf761a8a/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L358) (Suspicious rank: ample 16, jaccard 16, ochiai 15, naish1 9735, gp13 16, naish2 16, tarantula 16, )
 

@@ -1,15 +1,15 @@
 {
-    "date": "Mon May  9 23:31:29 EDT 2016\n\n", 
-    "executionTime": 130973, 
+    "date": "Tue May 10 11:12:55 EDT 2016\n\n", 
+    "executionTime": 90574, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 5, 
     "nbSMTVariable": 14, 
-    "nbStatement": 16, 
-    "node": "griffon-17.nancy.grid5000.fr", 
-    "patch": null, 
+    "nbStatement": 9, 
+    "node": "graphene-66.nancy.grid5000.fr", 
+    "patch": "-1 == org.apache.commons.lang.time.StopWatch.this.stopTime", 
     "patchLocation": {
-        "className": null, 
-        "line": null
+        "className": "org.apache.commons.lang.time.StopWatch", 
+        "line": 118
     }, 
-    "patchType": null
+    "patchType": "PRECONDITION"
 }

@@ -7,11 +7,11 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/math_41_NopolC;
 
-Nb classes : 581
-Nb methods : 3889
+Nb classes : 579
+Nb methods : 3838
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
-Nb statements: 24365
+Nb statements: 24364
 Nb unit tests : 3194
 Nb Statements Analyzed : 77
 Nb Statements with Angelic Value Found : 10
@@ -21,12 +21,12 @@ Nb SMT components: [0] []
 Nb variables in SMT : 13
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2]
 Nb run passing test : [1, 6, 6, 6, 6, 6, 6, 9, 10, 1, 1, 1, 1, 1, 1, 1, 1, 102, 226, 1, 1, 1, 1]
-NoPol Execution time : 737465ms
+NoPol Execution time : 711874ms
 
 
-Node: graphene-57.nancy.grid5000.fr
+Node: graphene-91.nancy.grid5000.fr
 
 
-Date: Mon May  9 20:31:27 EDT 2016
+Date: Tue May 10 11:34:16 EDT 2016
 
 

@@ -1,59 +1,7 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-Exception in thread "Thread-36" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@61bec0bf
-	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:114)
-	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:123)
-	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:87)
-	at org.joda.time.DateTimeZone.setProvider0(DateTimeZone.java:426)
-	at org.joda.time.DateTimeZone.<clinit>(DateTimeZone.java:115)
-	at org.joda.time.TestDateTimeZoneCutover.<clinit>(TestDateTimeZoneCutover.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
-	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
-	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
-	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
-	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
-	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
-	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
-	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
-	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
-	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-Exception in thread "Thread-45" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@20dfd7fa
-	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:110)
-	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:119)
-	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:74)
-	at org.joda.time.DateTimeZone.setProvider0(DateTimeZone.java:426)
-	at org.joda.time.DateTimeZone.<clinit>(DateTimeZone.java:115)
-	at org.joda.time.TestDateTimeZoneCutover.<clinit>(TestDateTimeZoneCutover.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
-	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
-	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
-	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
-	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
-	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
-	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
-	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
-	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
-	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
 
-real	74m11.538s
-user	76m44.300s
-sys	0m14.568s
+real	0m40.662s
+user	1m7.980s
+sys	0m1.012s

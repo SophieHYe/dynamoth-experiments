@@ -7,26 +7,26 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/chart_6_NopolC;
 
-Nb classes : 583
+Nb classes : 585
 Nb methods : 6314
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb statements: 22189
 Nb unit tests : 3789
-Nb Statements Analyzed : 116
+Nb Statements Analyzed : 26
 Nb Statements with Angelic Value Found : 4
 Nb inputs in SMT : 125
 Nb SMT level: 1
 Nb SMT components: [0] []
 Nb variables in SMT : 17
-Nb run failing test  : [2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]
-Nb run passing test : [4, 4, 4, 4, 133, 4, 4, 4, 4, 455, 487, 4, 4, 4, 531, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1384]
-NoPol Execution time : 142881ms
+Nb run failing test  : [1, 2, 1, 1, 2, 2, 2, 1, 2, 2, 1]
+Nb run passing test : [133, 4, 455, 487, 4, 4, 4, 531, 4, 4, 1384]
+NoPol Execution time : 107576ms
 
 
-Node: griffon-27.nancy.grid5000.fr
+Node: graphene-68.nancy.grid5000.fr
 
 
-Date: Tue May 10 00:11:03 EDT 2016
+Date: Tue May 10 11:14:44 EDT 2016
 
 

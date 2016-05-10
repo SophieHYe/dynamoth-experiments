@@ -22,12 +22,12 @@ Nb SMT components: [7] [== of arity: 2, != of arity: 2, < of arity: 2, <= of ari
 Nb variables in SMT : 30
 Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 86760ms
+NoPol Execution time : 75595ms
 
 
-Node: griffon-18.nancy.grid5000.fr
+Node: graphene-90.nancy.grid5000.fr
 
 
-Date: Mon May  9 23:16:47 EDT 2016
+Date: Tue May 10 11:10:38 EDT 2016
 
 

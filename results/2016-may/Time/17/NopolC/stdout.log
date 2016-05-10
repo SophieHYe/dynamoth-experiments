@@ -7,26 +7,23 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/time_17_NopolC;
 
-Nb classes : 156
-Nb methods : 2870
-Nb statement executed by the passing tests of the patched line: 0
-Nb statement executed by the failing tests of the patched line: 0
+Nb classes : 157
+Nb methods : 2887
 Nb statements: 10322
 Nb unit tests : 11654
-Nb Statements Analyzed : 324
-Nb Statements with Angelic Value Found : 2
-Nb inputs in SMT : 2
-Nb SMT level: 1
-Nb SMT components: [0] []
-Nb variables in SMT : 8
-Nb run failing test  : [2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [1, 67, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 980, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-NoPol Execution time : 205970ms
+Nb Statements Analyzed : 0
+Nb Statements with Angelic Value Found : 0
+Nb inputs in SMT : 0
+Nb SMT level: 0
+Nb variables in SMT : 0
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 39544ms
 
 
-Node: griffon-59.nancy.grid5000.fr
+Node: graphene-66.nancy.grid5000.fr
 
 
-Date: Mon May  9 18:36:07 EDT 2016
+Date: Tue May 10 11:14:04 EDT 2016
 
 

@@ -3,11 +3,6 @@ Running ant (compile.tests)................................................ OK
 mkdir: cannot create directory ‘lib/’: File exists
 cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Chart/lib/*’: No such file or directory
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-java.io.IOException: Stream Closed
-	at java.io.FileOutputStream.writeBytes(Native Method)
-	at java.io.FileOutputStream.write(FileOutputStream.java:345)
-	at fr.inria.lille.spirals.repair.vm.DebugJUnitRunner$1.run(DebugJUnitRunner.java:33)
-	at java.lang.Thread.run(Thread.java:745)
 Problem creating series.
 Problem creating series.
 Problem creating series.
@@ -15,6 +10,6 @@ Problem creating series.
 Problem creating series.
 Problem creating series.
 
-real	2m10.313s
-user	3m24.500s
-sys	0m9.304s
+real	1m47.964s
+user	2m40.744s
+sys	0m5.472s

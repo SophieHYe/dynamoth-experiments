@@ -277,6 +277,6 @@ com.sun.jdi.ClassNotPreparedException
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 
-real	16m57.660s
-user	19m18.928s
-sys	0m8.604s
+real	16m22.638s
+user	18m43.836s
+sys	0m8.612s

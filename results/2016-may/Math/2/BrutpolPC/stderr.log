@@ -1,11 +1,6 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-java.io.IOException: Stream Closed
-	at java.io.FileOutputStream.writeBytes(Native Method)
-	at java.io.FileOutputStream.write(FileOutputStream.java:345)
-	at fr.inria.lille.spirals.repair.vm.DebugJUnitRunner$1.run(DebugJUnitRunner.java:33)
-	at java.lang.Thread.run(Thread.java:745)
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
 	at xxl.java.junit.TestSuiteExecution.runTest(TestSuiteExecution.java:40)
@@ -20,6 +15,6 @@ Caused by: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 7 more
 
-real	27m22.031s
-user	33m14.388s
-sys	0m20.948s
+real	24m54.480s
+user	29m51.852s
+sys	0m12.452s

@@ -7,22 +7,22 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/math_4_BrutpolC;
 
-Nb classes : 734
-Nb methods : 4953
+Nb classes : 733
+Nb methods : 4948
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
-Nb statements: 34688
+Nb statements: 34691
 Nb unit tests : 5014
-Nb Statements Analyzed : 212
-Nb Statements with Angelic Value Found : 4
+Nb Statements Analyzed : 7
+Nb Statements with Angelic Value Found : 0
 Nb run failing test  : []
 Nb run passing test : []
-NoPol Execution time : 2881095ms
+NoPol Execution time : 399643ms
 
 
-Node: griffon-15.nancy.grid5000.fr
+Node: graphene-5.nancy.grid5000.fr
 
 
-Date: Mon May  9 16:37:21 EDT 2016
+Date: Tue May 10 07:12:22 EDT 2016
 
 

@@ -1,11 +1,11 @@
 {
-    "date": "Mon May  9 23:28:54 EDT 2016\n\n", 
-    "executionTime": 94666, 
+    "date": "Tue May 10 11:12:25 EDT 2016\n\n", 
+    "executionTime": 82388, 
     "nbAngelicValue": 2, 
     "nbSMTInput": 92, 
     "nbSMTVariable": 15, 
     "nbStatement": 37, 
-    "node": "griffon-24.nancy.grid5000.fr", 
+    "node": "graphene-49.nancy.grid5000.fr", 
     "patch": null, 
     "patchLocation": {
         "className": null, 
