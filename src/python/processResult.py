@@ -162,23 +162,30 @@ for project in sorted(os.listdir(root)):
 				stdoutToolPath = os.path.join(toolPath, "stdout.log")
 				if os.path.exists(resultsToolPath):
 					with open(resultsToolPath) as data_file:
-						if (tool == "NopolC" and 
-							"Nopol" in resultsBug and 
-							"patch" in resultsBug["Nopol"] and 
-							resultsBug["Nopol"]["patch"] is not None):
-							continue
-						if (tool == "BrutpolC" and 
-							"DynaMoth" in resultsBug and
-							"patch" in resultsBug["DynaMoth"] and
-							resultsBug["DynaMoth"]["patch"] is not None):
-							continue
-						
-						values = json.load(data_file)
 						if tool == "BrutpolC":
 							tool = "DynaMoth"
 						elif tool == "NopolC":
 							tool = "Nopol"
 						tool = getToolName(tool)
+
+						values = json.load(data_file)
+
+						if tool in resultsBug and 'nbAngelicValue' in resultsBug[tool] and 'nbAngelicValue' in values:
+							resultsBug[tool]['nbAngelicValue'] += values['nbAngelicValue']
+							values['nbAngelicValue'] = resultsBug[tool]['nbAngelicValue']
+
+						if (tool == "Nopol" and
+							"Nopol" in resultsBug and 
+							"patch" in resultsBug["Nopol"] and 
+							resultsBug["Nopol"]["patch"] is not None):
+							continue
+						if (tool == "DynaMoth" and
+							"DynaMoth" in resultsBug and
+							"patch" in resultsBug["DynaMoth"] and
+							resultsBug["DynaMoth"]["patch"] is not None):
+							continue
+						
+
 						# ignore the results Math 44 and Math 56
 						if (bugId == 44 or bugId == 56) and project == "Math":
 							values["operations"] = []
