@@ -7,22 +7,22 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/time_7_BrutpolC;
 
-Nb classes : 158
-Nb methods : 2899
+Nb classes : 159
+Nb methods : 2942
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
-Nb statements: 10448
+Nb statements: 10449
 Nb unit tests : 11945
-Nb Statements Analyzed : 419
-Nb Statements with Angelic Value Found : 6
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 894, 903, 903, 4, 4, 4, 946, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6728, 4, 4, 4, 4, 4, 4, 8835, 4, 4, 4, 4, 4, 4, 4, 4]
-NoPol Execution time : 2109511ms
+Nb Statements Analyzed : 402
+Nb Statements with Angelic Value Found : 7
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 3529250ms
 
 
-Node: grisou-11.nancy.grid5000.fr
+Node: griffon-20.nancy.grid5000.fr
 
 
-Date: Mon May  9 03:20:15 EDT 2016
+Date: Mon May  9 14:45:47 EDT 2016
 
 

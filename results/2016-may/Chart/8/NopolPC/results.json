@@ -1,0 +1,15 @@
+{
+    "date": "Tue May 10 00:17:16 EDT 2016\n\n", 
+    "executionTime": 86089, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 24, 
+    "nbSMTVariable": 12, 
+    "nbStatement": 35, 
+    "node": "griffon-10.nancy.grid5000.fr", 
+    "patch": "calendar!=null", 
+    "patchLocation": {
+        "className": "org.jfree.data.time.Week", 
+        "line": 413
+    }, 
+    "patchType": "PRECONDITION"
+}

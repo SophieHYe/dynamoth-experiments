@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 22:16:58 EDT 2016\n\n", 
+    "executionTime": 2396775, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 118, 
+    "nbSMTVariable": 23, 
+    "nbStatement": 24, 
+    "node": "griffon-20.nancy.grid5000.fr", 
+    "patch": "((org.apache.commons.math.util.MathUtils.NS) - (dp) < org.apache.commons.math.util.MathUtils.FACTORIALS.length + org.apache.commons.math.util.MathUtils.FACTORIALS.length) && (!(org.apache.commons.math.util.MathUtils.FACTORIALS.length + org.apache.commons.math.util.MathUtils.FACTORIALS.length <= dp))", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.util.MathUtils", 
+        "line": 1627
+    }, 
+    "patchType": "PRECONDITION"
+}

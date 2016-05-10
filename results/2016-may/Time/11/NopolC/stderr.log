@@ -106,6 +106,6 @@ Exception in thread "Thread-68" java.lang.NullPointerException
 	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
 	at java.lang.Thread.run(Thread.java:745)
 
-real	7m36.853s
-user	8m21.456s
-sys	0m3.104s
+real	16m23.843s
+user	17m34.996s
+sys	0m6.036s

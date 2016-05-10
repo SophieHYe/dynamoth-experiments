@@ -15,16 +15,16 @@ Nb statements: 10347
 Nb unit tests : 11723
 Nb Statements Analyzed : 7
 Nb Statements with Angelic Value Found : 1
-Nb run failing test  : [1]
-Nb run passing test : [102]
-NoPol Execution time : 51981ms
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 82058ms
 ----PATCH FOUND----
 org.joda.time.chrono.BasicMonthOfYearDateTimeField:210: CONDITIONAL partial.getValue((int) 1) <= this.iMax
 
 
-Node: grisou-48.nancy.grid5000.fr
+Node: griffon-29.nancy.grid5000.fr
 
 
-Date: Mon May  9 02:47:21 EDT 2016
+Date: Mon May  9 13:46:49 EDT 2016
 
 

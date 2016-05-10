@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 17:47:30 EDT 2016\n\n", 
-    "executionTime": 1717011, 
+    "date": "Mon May  9 14:33:25 EDT 2016\n\n", 
+    "executionTime": 1773504, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 100, 
-    "node": "griffon-13.nancy.grid5000.fr", 
+    "node": "griffon-12.nancy.grid5000.fr", 
     "patch": "this.real == (this.abs() - 1)", 
     "patchLocation": {
         "className": "org.apache.commons.math.complex.Complex", 

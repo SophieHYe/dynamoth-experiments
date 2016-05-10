@@ -1,7 +1,7 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-Exception in thread "Thread-36" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@6bbb2ce5
+Exception in thread "Thread-36" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@61bec0bf
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:114)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:123)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:87)
@@ -27,7 +27,7 @@ Exception in thread "Thread-36" java.io.IOException: Resource not found: "org/jo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Exception in thread "Thread-45" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@4cb5f3c1
+Exception in thread "Thread-45" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@20dfd7fa
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:110)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:119)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:74)
@@ -53,40 +53,7 @@ Exception in thread "Thread-45" java.io.IOException: Resource not found: "org/jo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at java.lang.reflect.Field.copy(Field.java:141)
-	at java.lang.reflect.ReflectAccess.copyField(ReflectAccess.java:140)
-	at sun.reflect.ReflectionFactory.copyField(ReflectionFactory.java:307)
-	at java.lang.Class.copyFields(Class.java:2935)
-	at java.lang.Class.getDeclaredFields(Class.java:1819)
-	at spoon.support.util.RtHelper.getAllFields(RtHelper.java:54)
-	at spoon.support.DefaultCoreFactory.clone(DefaultCoreFactory.java:218)
-	at spoon.support.DefaultCoreFactory.clone(DefaultCoreFactory.java:193)
-	at spoon.support.reflect.code.CtTypeAccessImpl.getType(CtTypeAccessImpl.java:50)
-	at spoon.reflect.visitor.CtScanner.visitCtTypeAccess(CtScanner.java:751)
-	at spoon.support.reflect.code.CtTypeAccessImpl.accept(CtTypeAccessImpl.java:30)
-	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
-	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
-	at spoon.reflect.visitor.CtScanner.visitCtFieldRead(CtScanner.java:819)
-	at spoon.support.reflect.code.CtFieldReadImpl.accept(CtFieldReadImpl.java:27)
-	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
-	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
-	at spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:271)
-	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
-	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
-	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
-	at spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:460)
-	at spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:37)
-	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
-	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
-	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
-	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:280)
-	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:46)
-	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
-	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
-	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:539)
-	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:60)
 
-real	31m18.103s
-user	109m49.736s
-sys	0m20.632s
+real	74m11.538s
+user	76m44.300s
+sys	0m14.568s

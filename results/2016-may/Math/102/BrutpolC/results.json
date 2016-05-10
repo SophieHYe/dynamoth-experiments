@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 14:03:26 EDT 2016\n\n", 
+    "executionTime": 92213, 
+    "nbAngelicValue": 0, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 141, 
+    "node": "graphene-57.nancy.grid5000.fr", 
+    "patch": null, 
+    "patchLocation": {
+        "className": null, 
+        "line": null
+    }, 
+    "patchType": null
+}

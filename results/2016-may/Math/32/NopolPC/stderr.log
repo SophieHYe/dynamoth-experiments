@@ -16,7 +16,39 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 9 more
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.<init>(ConstraintModelBuilder.java:57)
+	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:122)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.<init>(ConstraintModelBuilder.java:57)
+	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:122)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
 
-real	20m54.829s
-user	28m40.888s
-sys	0m10.960s
+real	26m6.115s
+user	42m11.224s
+sys	0m15.108s

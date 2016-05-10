@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 18:29:58 EDT 2016\n\n", 
+    "executionTime": 97635, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 35, 
+    "node": "griffon-3.nancy.grid5000.fr", 
+    "patch": "this.equals((java.lang.Object) this)", 
+    "patchLocation": {
+        "className": "org.jfree.data.time.Week", 
+        "line": 413
+    }, 
+    "patchType": "PRECONDITION"
+}

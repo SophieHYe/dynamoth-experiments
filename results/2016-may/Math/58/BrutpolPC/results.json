@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 18:48:15 EDT 2016\n\n", 
-    "executionTime": 435266, 
+    "date": "Mon May  9 16:36:57 EDT 2016\n\n", 
+    "executionTime": 424152, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 79, 
-    "node": "griffon-12.nancy.grid5000.fr", 
+    "node": "griffon-5.nancy.grid5000.fr", 
     "patch": "this.costRelativeTolerance != this.orthoTolerance", 
     "patchLocation": {
         "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 

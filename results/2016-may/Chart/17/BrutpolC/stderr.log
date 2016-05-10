@@ -4,6 +4,6 @@ mkdir: cannot create directory ‘lib/’: File exists
 cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Chart/lib/*’: No such file or directory
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 
-real	0m56.763s
-user	1m33.004s
-sys	0m3.376s
+real	1m31.450s
+user	2m34.488s
+sys	0m6.796s

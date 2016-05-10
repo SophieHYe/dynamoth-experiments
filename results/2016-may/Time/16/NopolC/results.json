@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 18:42:08 EDT 2016\n\n", 
+    "executionTime": 503062, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": 189, 
+    "nbSMTVariable": 24, 
+    "nbStatement": 165, 
+    "node": "griffon-11.nancy.grid5000.fr", 
+    "patch": "!((0 == org.joda.time.format.DateTimeParserBucket.this.iSavedFieldsCount) || ((text.length() < savedFields.length) && ((0) != (org.joda.time.format.DateTimeParserBucket.this.iMillis))))", 
+    "patchLocation": {
+        "className": "org.joda.time.format.DateTimeParserBucket", 
+        "line": 351
+    }, 
+    "patchType": "CONDITIONAL"
+}

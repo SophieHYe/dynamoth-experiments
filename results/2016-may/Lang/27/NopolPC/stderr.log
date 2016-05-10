@@ -2,8 +2,8 @@ Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -18,8 +18,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -34,8 +34,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -50,8 +50,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -66,8 +66,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -82,8 +82,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -98,8 +98,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -114,8 +114,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -130,8 +130,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -146,8 +146,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -162,8 +162,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -178,8 +178,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -194,8 +194,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -210,8 +210,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -226,8 +226,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -242,8 +242,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -258,8 +258,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -274,8 +274,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -290,8 +290,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -306,6 +306,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 
-real	1m21.939s
-user	1m51.396s
-sys	0m2.616s
+real	1m8.202s
+user	1m35.640s
+sys	0m1.664s

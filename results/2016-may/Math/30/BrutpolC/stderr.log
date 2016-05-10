@@ -1,4 +1,30 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-## OAR [2016-05-08 23:08:52] Job 978868 KILLED ##
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.AbstractStringBuilder.<init>(AbstractStringBuilder.java:64)
+	at java.lang.StringBuilder.<init>(StringBuilder.java:85)
+	at fr.inria.lille.spirals.repair.expressionV2.access.VariableImpl.toString(VariableImpl.java:46)
+	at fr.inria.lille.spirals.repair.expressionV2.access.VariableImpl.asPatch(VariableImpl.java:57)
+	at fr.inria.lille.spirals.repair.expressionV2.ExpressionImpl.sameExpression(ExpressionImpl.java:40)
+	at fr.inria.lille.spirals.repair.expressionV2.ExpressionImpl.evaluate(ExpressionImpl.java:55)
+	at fr.inria.lille.spirals.repair.expressionV2.combination.binary.BinaryExpressionImpl.evaluate(BinaryExpressionImpl.java:50)
+	at fr.inria.lille.spirals.repair.expressionV2.combination.binary.BinaryExpressionImpl.evaluate(BinaryExpressionImpl.java:46)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.checkExpression(SynthesizerImpl.java:574)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.access$100(SynthesizerImpl.java:33)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl$2.check(SynthesizerImpl.java:528)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCombiner.callListener(DataCombiner.java:325)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCombiner.newCombiner(DataCombiner.java:137)
+	at fr.inria.lille.spirals.repair.synthesizer.collect.DataCombiner.combine(DataCombiner.java:52)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.combineValues(SynthesizerImpl.java:538)
+	at fr.inria.lille.spirals.repair.synthesizer.SynthesizerImpl.run(SynthesizerImpl.java:156)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:134)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+
+real	51m29.461s
+user	208m11.724s
+sys	0m43.116s

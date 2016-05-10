@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 17:12:36 EDT 2016\n\n", 
+    "executionTime": 1969132, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 361, 
+    "node": "griffon-27.nancy.grid5000.fr", 
+    "patch": "currentT <= y.length", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+        "line": 287
+    }, 
+    "patchType": "PRECONDITION"
+}

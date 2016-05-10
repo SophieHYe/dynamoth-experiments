@@ -393,6 +393,6 @@ java.lang.IllegalArgumentException: Null 'stream' argument.
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 
-real	2m22.546s
-user	3m26.492s
-sys	0m9.076s
+real	2m23.840s
+user	3m35.404s
+sys	0m9.568s

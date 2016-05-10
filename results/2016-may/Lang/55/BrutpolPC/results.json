@@ -1,11 +1,11 @@
 {
-    "date": "Mon May  9 04:15:19 EDT 2016\n\n", 
-    "executionTime": 109844, 
+    "date": "Mon May  9 17:56:33 EDT 2016\n\n", 
+    "executionTime": 106530, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 9, 
-    "node": "graphene-52.nancy.grid5000.fr", 
+    "node": "griffon-6.nancy.grid5000.fr", 
     "patch": "this.runningState == 1", 
     "patchLocation": {
         "className": "org.apache.commons.lang.time.StopWatch", 

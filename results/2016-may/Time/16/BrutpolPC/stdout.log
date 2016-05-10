@@ -7,24 +7,24 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/time_16_BrutpolPC;
 
-Nb classes : 158
-Nb methods : 2932
+Nb classes : 156
+Nb methods : 2872
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
 Nb statements: 10343
 Nb unit tests : 11684
 Nb Statements Analyzed : 15
 Nb Statements with Angelic Value Found : 1
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2]
-Nb run passing test : [19, 19, 19, 19, 19, 19, 19, 87]
-NoPol Execution time : 57377ms
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 88583ms
 ----PATCH FOUND----
 org.joda.time.format.DateTimeParserBucket:358: PRECONDITION resetFields
 
 
-Node: grisou-37.nancy.grid5000.fr
+Node: griffon-23.nancy.grid5000.fr
 
 
-Date: Mon May  9 02:49:30 EDT 2016
+Date: Mon May  9 13:50:43 EDT 2016
 
 

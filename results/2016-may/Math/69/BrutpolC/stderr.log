@@ -9,13 +9,13 @@ java.lang.NullPointerException
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:74)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 
-real	28m10.376s
-user	16m30.468s
-sys	9m46.592s
+real	15m7.751s
+user	14m10.400s
+sys	1m53.924s

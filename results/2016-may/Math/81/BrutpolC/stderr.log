@@ -2,10 +2,13 @@ Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 java.lang.ArrayIndexOutOfBoundsException: 0
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:120)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
-## OAR [2016-05-09 00:52:28] Job 979590 KILLED ##
+
+real	63m34.369s
+user	158m21.460s
+sys	0m11.620s

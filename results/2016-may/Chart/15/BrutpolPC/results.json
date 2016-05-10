@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 18:31:06 EDT 2016\n\n", 
+    "executionTime": 278545, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 447, 
+    "node": "griffon-13.nancy.grid5000.fr", 
+    "patch": "this.borderVisible", 
+    "patchLocation": {
+        "className": "org.jfree.chart.JFreeChart", 
+        "line": 1219
+    }, 
+    "patchType": "PRECONDITION"
+}

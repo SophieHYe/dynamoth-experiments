@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 20:06:27 EDT 2016\n\n", 
-    "executionTime": 78880, 
+    "date": "Tue May 10 00:12:15 EDT 2016\n\n", 
+    "executionTime": 76949, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 2, 
     "nbSMTVariable": 19, 
     "nbStatement": 2, 
-    "node": "griffon-13.nancy.grid5000.fr", 
+    "node": "griffon-9.nancy.grid5000.fr", 
     "patch": "-1 == 1", 
     "patchLocation": {
         "className": "org.jfree.chart.renderer.category.StatisticalBarRenderer", 

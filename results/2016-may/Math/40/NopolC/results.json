@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 13:47:33 EDT 2016\n\n", 
-    "executionTime": 1077799, 
+    "date": "Mon May  9 20:36:48 EDT 2016\n\n", 
+    "executionTime": 1036020, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 697, 
     "nbSMTVariable": 31, 
     "nbStatement": 46, 
-    "node": "griffon-17.nancy.grid5000.fr", 
+    "node": "griffon-7.nancy.grid5000.fr", 
     "patch": "(xA <= org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver.REDUCTION_FACTOR) || ((signChangeIndex - start) >= (end - signChangeIndex))", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 

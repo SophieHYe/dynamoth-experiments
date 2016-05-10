@@ -1,7 +1,12 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+	at fr.inria.lille.spirals.repair.vm.DebugJUnitRunner$1.run(DebugJUnitRunner.java:33)
+	at java.lang.Thread.run(Thread.java:745)
 
-real	14m48.281s
-user	17m13.324s
-sys	0m7.960s
+real	14m43.865s
+user	16m55.608s
+sys	0m7.556s

@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 13:08:41 EDT 2016\n\n", 
-    "executionTime": 853334, 
+    "date": "Mon May  9 20:25:46 EDT 2016\n\n", 
+    "executionTime": 856961, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 4149, 
     "nbSMTVariable": 18, 
     "nbStatement": 4, 
-    "node": "griffon-23.nancy.grid5000.fr", 
+    "node": "griffon-60.nancy.grid5000.fr", 
     "patch": "f0 < -1", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver", 

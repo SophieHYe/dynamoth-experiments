@@ -1,11 +1,11 @@
 {
-    "date": "Mon May  9 02:19:49 EDT 2016\n\n", 
-    "executionTime": 56595, 
+    "date": "Mon May  9 17:38:37 EDT 2016\n\n", 
+    "executionTime": 90197, 
     "nbAngelicValue": 2, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 37, 
-    "node": "grisou-26.nancy.grid5000.fr", 
+    "node": "griffon-1.nancy.grid5000.fr", 
     "patch": null, 
     "patchLocation": {
         "className": null, 

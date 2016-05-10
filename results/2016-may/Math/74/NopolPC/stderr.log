@@ -1,0 +1,113 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:82)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 9 more
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:82)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 9 more
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:78)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 9 more
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:78)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 9 more
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runCasesIn(TestSuiteExecution.java:28)
+	at fr.inria.lille.repair.nopol.NoPol.failingTests(NoPol.java:230)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:180)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 7 more
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.ArrayList.iterator(ArrayList.java:814)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:134)
+	at spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:270)
+	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:272)
+	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:271)
+	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:271)
+	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:272)
+	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:272)
+	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtAssignment(CtScanner.java:261)
+	at spoon.support.reflect.code.CtAssignmentImpl.accept(CtAssignmentImpl.java:48)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:280)
+
+real	51m19.001s
+user	289m54.280s
+sys	0m57.276s

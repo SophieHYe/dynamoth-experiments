@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 14:01:45 EDT 2016\n\n", 
-    "executionTime": 55635, 
+    "date": "Mon May  9 19:51:06 EDT 2016\n\n", 
+    "executionTime": 55931, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 303, 
     "nbSMTVariable": 17, 
     "nbStatement": 37, 
-    "node": "graphene-1.nancy.grid5000.fr", 
+    "node": "graphene-57.nancy.grid5000.fr", 
     "patch": "(fa * fb) == b", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 

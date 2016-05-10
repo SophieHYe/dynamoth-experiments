@@ -17,8 +17,8 @@ Caused by: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 9 more
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -33,8 +33,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -49,8 +49,8 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -35451,4 +35451,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 9 more
-## OAR [2016-05-08 19:23:51] Job 978774 KILLED ##
+
+real	64m46.803s
+user	293m6.452s
+sys	1m8.336s

@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 14:50:44 EDT 2016\n\n", 
-    "executionTime": 402082, 
+    "date": "Mon May  9 21:25:53 EDT 2016\n\n", 
+    "executionTime": 401750, 
     "nbAngelicValue": 4, 
     "nbSMTInput": 10, 
     "nbSMTVariable": 14, 
     "nbStatement": 80, 
-    "node": "griffon-12.nancy.grid5000.fr", 
+    "node": "griffon-4.nancy.grid5000.fr", 
     "patch": "(org.apache.commons.math.stat.regression.SimpleRegression.this.xbar <= 1) || ((y < x) && (y < x))", 
     "patchLocation": {
         "className": "org.apache.commons.math.stat.regression.SimpleRegression", 

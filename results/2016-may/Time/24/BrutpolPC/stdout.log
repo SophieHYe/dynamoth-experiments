@@ -7,11 +7,22 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/time_24_BrutpolPC;
 
+Nb classes : 158
+Nb methods : 2894
+Nb statement executed by the passing tests of the patched line: 0
+Nb statement executed by the failing tests of the patched line: 0
+Nb statements: 10191
+Nb unit tests : 11523
+Nb Statements Analyzed : 991
+Nb Statements with Angelic Value Found : 0
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 2989473ms
 
 
-Node: grisou-27.nancy.grid5000.fr
+Node: griffon-10.nancy.grid5000.fr
 
 
-Date: Mon May  9 03:12:46 EDT 2016
+Date: Mon May  9 14:35:50 EDT 2016
 
 

@@ -1,24 +1,9 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
-	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:82)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
-	at fr.inria.lille.repair.Main.main(Main.java:61)
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
@@ -33,6 +18,6 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 
-real	6m39.860s
-user	10m59.940s
-sys	0m8.524s
+real	4m9.420s
+user	6m16.968s
+sys	0m7.616s

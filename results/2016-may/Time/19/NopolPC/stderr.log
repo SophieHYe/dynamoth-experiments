@@ -1,7 +1,7 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-Exception in thread "Thread-66" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@74d89b00
+Exception in thread "Thread-66" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@226197d3
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:116)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:125)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:89)
@@ -249,4 +249,4 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 9 more
-## OAR [2016-05-09 09:44:49] Job 981282 KILLED ##
+## OAR [2016-05-10 03:01:59] Job 982423 KILLED ##

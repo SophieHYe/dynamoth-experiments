@@ -2,6 +2,6 @@ Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 
-real	1m31.903s
-user	2m31.656s
-sys	0m4.984s
+real	1m15.736s
+user	2m8.160s
+sys	0m3.180s

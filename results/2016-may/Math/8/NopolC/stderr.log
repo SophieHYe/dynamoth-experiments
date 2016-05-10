@@ -1,19 +1,33 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:44)
-	at xxl.java.junit.TestSuiteExecution.runTestResult(TestSuiteExecution.java:73)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:88)
-	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOf(Arrays.java:2367)
+	at java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:130)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:114)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:415)
+	at java.lang.StringBuilder.append(StringBuilder.java:132)
+	at java.lang.StringBuilder.append(StringBuilder.java:179)
+	at java.lang.StringBuilder.append(StringBuilder.java:72)
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2865)
+	at java.util.Formatter$FormatSpecifier.printString(Formatter.java:2838)
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2718)
+	at java.util.Formatter.format(Formatter.java:2488)
+	at java.util.Formatter.format(Formatter.java:2423)
+	at java.lang.String.format(String.java:2792)
+	at fr.inria.lille.commons.trace.Specification.toString(Specification.java:55)
+	at xxl.java.library.StringLibrary.toStringList(StringLibrary.java:100)
+	at xxl.java.library.StringLibrary.toStringList(StringLibrary.java:91)
+	at xxl.java.library.LoggerLibrary.logCollection(LoggerLibrary.java:144)
+	at fr.inria.lille.commons.synthesis.ConstraintBasedSynthesis.synthesisInputValues(ConstraintBasedSynthesis.java:81)
+	at fr.inria.lille.commons.synthesis.ConstraintBasedSynthesis.codesSynthesisedFrom(ConstraintBasedSynthesis.java:60)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:108)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
-## OAR [2016-05-08 20:21:41] Job 978793 KILLED ##
+
+real	26m43.695s
+user	93m7.764s
+sys	0m25.624s

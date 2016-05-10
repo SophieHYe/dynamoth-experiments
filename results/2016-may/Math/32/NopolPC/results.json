@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 14:35:49 EDT 2016\n\n", 
-    "executionTime": 1253969, 
+    "date": "Mon May  9 22:46:49 EDT 2016\n\n", 
+    "executionTime": 1565170, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 24, 
     "nbSMTVariable": 20, 
-    "nbStatement": 175, 
-    "node": "griffon-19.nancy.grid5000.fr", 
+    "nbStatement": 252, 
+    "node": "griffon-60.nancy.grid5000.fr", 
     "patch": "((!((boundary.size()) - (plusList.size()) < minusList.size())) && (1 <= plusList.size())) || (minusList.size() == boundary.size() + -1)", 
     "patchLocation": {
         "className": "org.apache.commons.math3.geometry.partitioning.AbstractRegion", 

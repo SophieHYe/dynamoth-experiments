@@ -1,21 +1,6 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
-	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:78)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
-	at fr.inria.lille.repair.Main.main(Main.java:61)
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
 java.lang.NullPointerException
 	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
 	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
@@ -24,7 +9,7 @@ java.lang.NullPointerException
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:74)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
@@ -32,10 +17,8 @@ java.lang.NullPointerException
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
-	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:82)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
+	at xxl.java.junit.TestSuiteExecution.runTest(TestSuiteExecution.java:40)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:122)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
@@ -44,20 +27,5 @@ java.lang.RuntimeException: java.util.concurrent.TimeoutException
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
-java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:44)
-	at xxl.java.junit.TestSuiteExecution.runTestResult(TestSuiteExecution.java:73)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:88)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
-	at fr.inria.lille.repair.Main.main(Main.java:61)
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
-## OAR [2016-05-08 23:09:55] Job 978869 KILLED ##
+	... 7 more
+## OAR [2016-05-09 23:00:08] Job 982067 KILLED ##

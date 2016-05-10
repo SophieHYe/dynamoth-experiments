@@ -1,0 +1,30 @@
+/tmp/chart_15_BrutpolPC
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/tdurieux/projects/chart/chart_15;defects4j compile;cp -r /home/tdurieux/projects/chart/chart_15 /tmp/chart_15_BrutpolPC;cd /tmp/chart_15_BrutpolPC;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
+cd /tmp/chart_15_BrutpolPC;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";TZ="America/New_York"; export TZ;cp -r /home/tdurieux/defects4j-repair/src/python/core/../../../libs/z3 lib/z3;time java -Xmx8192m -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --mode repair --type precondition --oracle angelic --synthesis brutpol --solver z3 --solver-path /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/chart_15_BrutpolPC;
+
+Nb classes : 581
+Nb methods : 6245
+Nb statement executed by the passing tests of the patched line: 0
+Nb statement executed by the failing tests of the patched line: 0
+Nb statements: 21844
+Nb unit tests : 3579
+Nb Statements Analyzed : 447
+Nb Statements with Angelic Value Found : 1
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 278545ms
+----PATCH FOUND----
+org.jfree.chart.JFreeChart:1219: PRECONDITION this.borderVisible
+
+
+Node: griffon-13.nancy.grid5000.fr
+
+
+Date: Mon May  9 18:31:06 EDT 2016
+
+

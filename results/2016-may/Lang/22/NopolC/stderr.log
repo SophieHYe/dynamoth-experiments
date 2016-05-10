@@ -46,39 +46,4 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 9 more
-Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-	at java.util.Arrays.copyOf(Arrays.java:2367)
-	at java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:130)
-	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:114)
-	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:415)
-	at java.lang.StringBuilder.append(StringBuilder.java:132)
-	at ch.qos.logback.core.pattern.FormattingConverter.write(FormattingConverter.java:40)
-	at ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters(PatternLayoutBase.java:119)
-	at ch.qos.logback.classic.PatternLayout.doLayout(PatternLayout.java:168)
-	at ch.qos.logback.classic.PatternLayout.doLayout(PatternLayout.java:59)
-	at ch.qos.logback.core.encoder.LayoutWrappingEncoder.doEncode(LayoutWrappingEncoder.java:134)
-	at ch.qos.logback.core.OutputStreamAppender.writeOut(OutputStreamAppender.java:188)
-	at ch.qos.logback.core.OutputStreamAppender.subAppend(OutputStreamAppender.java:212)
-	at ch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:103)
-	at ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:88)
-	at ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:48)
-	at ch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:272)
-	at ch.qos.logback.classic.Logger.callAppenders(Logger.java:259)
-	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:441)
-	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:395)
-	at ch.qos.logback.classic.Logger.debug(Logger.java:502)
-	at xxl.java.library.LoggerLibrary.logDebug(LoggerLibrary.java:116)
-	at xxl.java.library.LoggerLibrary.logDebug(LoggerLibrary.java:84)
-	at xxl.java.library.LoggerLibrary.logCollection(LoggerLibrary.java:148)
-	at fr.inria.lille.commons.synthesis.ConstraintBasedSynthesis.synthesisInputValues(ConstraintBasedSynthesis.java:81)
-	at fr.inria.lille.commons.synthesis.ConstraintBasedSynthesis.codesSynthesisedFrom(ConstraintBasedSynthesis.java:60)
-	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:108)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
-	at fr.inria.lille.repair.Main.main(Main.java:61)
-
-real	16m6.470s
-user	33m34.472s
-sys	0m5.140s
+## OAR [2016-05-10 07:16:25] Job 982700 KILLED ##

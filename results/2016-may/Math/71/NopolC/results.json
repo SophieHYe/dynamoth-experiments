@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 13:59:54 EDT 2016\n\n", 
-    "executionTime": 2732650, 
+    "date": "Mon May  9 20:39:48 EDT 2016\n\n", 
+    "executionTime": 2659355, 
     "nbAngelicValue": 2, 
     "nbSMTInput": 1777, 
     "nbSMTVariable": 23, 
     "nbStatement": 102, 
-    "node": "graphene-1.nancy.grid5000.fr", 
+    "node": "griffon-5.nancy.grid5000.fr", 
     "patch": "(org.apache.commons.math.analysis.solvers.BrentSolver.DEFAULT_ABSOLUTE_ACCURACY < tolerance) || (!(delta <= 0.0))", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 

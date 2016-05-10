@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 15:00:02 EDT 2016\n\n", 
+    "executionTime": 2447616, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 518, 
+    "node": "griffon-6.nancy.grid5000.fr", 
+    "patch": "scale.length == 1", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator", 
+        "line": 257
+    }, 
+    "patchType": "CONDITIONAL"
+}

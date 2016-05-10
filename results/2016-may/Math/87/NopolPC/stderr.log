@@ -17,6 +17,6 @@ Caused by: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 9 more
 
-real	6m30.580s
-user	11m2.172s
-sys	0m6.464s
+real	6m26.990s
+user	10m8.672s
+sys	0m7.080s

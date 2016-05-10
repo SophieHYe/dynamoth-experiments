@@ -1528,6 +1528,6 @@ java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 
-real	1m21.468s
-user	2m13.272s
-sys	0m5.620s
+real	1m20.300s
+user	2m6.040s
+sys	0m6.068s

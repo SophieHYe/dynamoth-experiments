@@ -1,11 +1,11 @@
 {
-    "date": "Mon May  9 02:49:13 EDT 2016\n\n", 
-    "executionTime": 61253, 
+    "date": "Mon May  9 13:59:57 EDT 2016\n\n", 
+    "executionTime": 96417, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 23, 
-    "node": "grisou-12.nancy.grid5000.fr", 
+    "node": "griffon-19.nancy.grid5000.fr", 
     "patch": "fieldType != fieldType.clockhourOfDay()", 
     "patchLocation": {
         "className": "org.joda.time.Partial", 

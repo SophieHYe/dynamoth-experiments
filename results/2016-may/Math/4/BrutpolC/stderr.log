@@ -3,10 +3,8 @@ Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:44)
-	at xxl.java.junit.TestSuiteExecution.runTestResult(TestSuiteExecution.java:73)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:88)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
+	at xxl.java.junit.TestSuiteExecution.runTest(TestSuiteExecution.java:40)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:122)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
@@ -15,13 +13,11 @@ java.lang.RuntimeException: java.util.concurrent.TimeoutException
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
+	... 7 more
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:44)
-	at xxl.java.junit.TestSuiteExecution.runTestResult(TestSuiteExecution.java:73)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:88)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
+	at xxl.java.junit.TestSuiteExecution.runTest(TestSuiteExecution.java:40)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:122)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
@@ -30,5 +26,8 @@ java.lang.RuntimeException: java.util.concurrent.TimeoutException
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
-## OAR [2016-05-09 09:40:17] Job 981264 KILLED ##
+	... 7 more
+
+real	48m2.167s
+user	67m3.852s
+sys	0m41.664s

@@ -1,0 +1,70 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:82)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 9 more
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:82)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 9 more
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Collections$UnmodifiableCollection.iterator(Collections.java:1063)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:134)
+	at spoon.reflect.visitor.CtScanner.visitCtInvocation(CtScanner.java:481)
+	at spoon.support.reflect.code.CtInvocationImpl.accept(CtInvocationImpl.java:48)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:504)
+	at spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:48)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:280)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:46)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtFor(CtScanner.java:442)
+	at spoon.support.reflect.code.CtForImpl.accept(CtForImpl.java:44)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:280)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:46)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:539)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:60)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:320)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+
+real	48m26.492s
+user	300m54.544s
+sys	1m0.792s

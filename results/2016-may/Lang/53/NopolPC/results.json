@@ -1,12 +1,12 @@
 {
-    "date": "Sun May  8 19:48:52 EDT 2016\n\n", 
-    "executionTime": 68809, 
+    "date": "Mon May  9 23:31:14 EDT 2016\n\n", 
+    "executionTime": 87617, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 61, 
     "nbSMTVariable": 31, 
     "nbStatement": 24, 
-    "node": "griffon-3.nancy.grid5000.fr", 
-    "patch": "(!((org.apache.commons.lang.time.DateUtils.RANGE_MONTH_MONDAY < millisecs) && (round))) || (seconds <= minutes)", 
+    "node": "griffon-22.nancy.grid5000.fr", 
+    "patch": "(minutes <= org.apache.commons.lang.time.DateUtils.RANGE_WEEK_CENTER) || (!((round) && (minutes < seconds)))", 
     "patchLocation": {
         "className": "org.apache.commons.lang.time.DateUtils", 
         "line": 666

@@ -31,4 +31,40 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 9 more
-## OAR [2016-05-08 20:09:37] Job 978784 KILLED ##
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.ArrayList.iterator(ArrayList.java:814)
+	at java.util.Collections$UnmodifiableCollection$1.<init>(Collections.java:1064)
+	at java.util.Collections$UnmodifiableCollection.iterator(Collections.java:1063)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:134)
+	at spoon.reflect.visitor.CtScanner.visitCtVariableRead(CtScanner.java:775)
+	at spoon.support.reflect.code.CtVariableReadImpl.accept(CtVariableReadImpl.java:26)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtBinaryOperator(EqualVisitor.java:201)
+	at spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:35)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtIf(EqualVisitor.java:367)
+	at spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:37)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtBlock(EqualVisitor.java:210)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:46)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtIf(EqualVisitor.java:369)
+	at spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:37)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtBlock(EqualVisitor.java:210)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:46)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtMethod(EqualVisitor.java:438)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:60)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.reflect.declaration.CtElementImpl.getDeepRepresentation(CtElementImpl.java:188)
+	at spoon.support.reflect.declaration.CtElementImpl.compareTo(CtElementImpl.java:179)
+	at spoon.support.reflect.declaration.CtElementImpl.compareTo(CtElementImpl.java:63)
+	at java.util.TreeMap.put(TreeMap.java:560)
+	at java.util.TreeSet.add(TreeSet.java:255)
+	at spoon.support.reflect.declaration.CtTypeImpl.addMethod(CtTypeImpl.java:435)
+	at spoon.support.compiler.jdt.ParentExiter.scanCtType(ParentExiter.java:151)
+
+real	38m51.159s
+user	121m41.232s
+sys	0m29.488s

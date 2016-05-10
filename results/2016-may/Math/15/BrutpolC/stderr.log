@@ -3,10 +3,8 @@ Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
-	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:82)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
+	at xxl.java.junit.TestSuiteExecution.runTest(TestSuiteExecution.java:40)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:122)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
@@ -15,20 +13,38 @@ java.lang.RuntimeException: java.util.concurrent.TimeoutException
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
-java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:44)
-	at xxl.java.junit.TestSuiteExecution.runTestResult(TestSuiteExecution.java:73)
-	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:88)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:64)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
-	at fr.inria.lille.repair.Main.main(Main.java:61)
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 9 more
-## OAR [2016-05-08 23:18:26] Job 978873 KILLED ##
+	... 7 more
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.ArrayList.iterator(ArrayList.java:814)
+	at java.util.Collections$UnmodifiableCollection$1.<init>(Collections.java:1064)
+	at java.util.Collections$UnmodifiableCollection.iterator(Collections.java:1063)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:134)
+	at spoon.reflect.visitor.CtScanner.visitCtVariableRead(CtScanner.java:775)
+	at spoon.support.reflect.code.CtVariableReadImpl.accept(CtVariableReadImpl.java:26)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtAssignment(EqualVisitor.java:195)
+	at spoon.support.reflect.code.CtAssignmentImpl.accept(CtAssignmentImpl.java:48)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtBlock(EqualVisitor.java:210)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:46)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.visitor.EqualVisitor.visitCtMethod(EqualVisitor.java:438)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:60)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.support.reflect.declaration.CtElementImpl.getDeepRepresentation(CtElementImpl.java:188)
+	at spoon.support.reflect.declaration.CtElementImpl.equals(CtElementImpl.java:199)
+	at spoon.support.reflect.declaration.CtTypeImpl.addMethod(CtTypeImpl.java:429)
+	at spoon.support.compiler.jdt.ParentExiter.scanCtType(ParentExiter.java:151)
+	at spoon.reflect.visitor.CtInheritanceScanner.visitCtClass(CtInheritanceScanner.java:456)
+	at spoon.support.compiler.jdt.ParentExiter.visitCtClass(ParentExiter.java:297)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)
+	at spoon.reflect.visitor.CtInheritanceScanner.scan(CtInheritanceScanner.java:167)
+	at spoon.support.compiler.jdt.JDTTreeBuilder$BuilderContext.exit(JDTTreeBuilder.java:372)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.endVisit(JDTTreeBuilder.java:1719)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse(MethodDeclaration.java:360)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:3800)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse(TypeDeclaration.java:1319)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:748)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:709)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:436)
+## OAR [2016-05-09 23:42:27] Job 982083 KILLED ##

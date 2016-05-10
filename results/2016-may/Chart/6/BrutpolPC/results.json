@@ -1,12 +1,12 @@
 {
-    "date": "Mon May  9 03:15:47 EDT 2016\n\n", 
-    "executionTime": 2721845, 
+    "date": "Mon May  9 18:58:41 EDT 2016\n\n", 
+    "executionTime": 1791582, 
     "nbAngelicValue": 2, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 17, 
-    "node": "grisou-44.nancy.grid5000.fr", 
-    "patch": "(i + 1) != (this.increment / listSize)", 
+    "node": "griffon-24.nancy.grid5000.fr", 
+    "patch": "(i + 1) != (this.DEFAULT_INITIAL_CAPACITY / listSize)", 
     "patchLocation": {
         "className": "org.jfree.chart.util.AbstractObjectList", 
         "line": 194

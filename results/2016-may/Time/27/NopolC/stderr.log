@@ -1,0 +1,55 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:78)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
+	... 9 more
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.Class.getInterfaces(Native Method)
+	at java.lang.Class.getMethod0(Class.java:2881)
+	at java.lang.Class.getMethod0(Class.java:2884)
+	at java.lang.Class.getMethod0(Class.java:2884)
+	at java.lang.Class.getMethod0(Class.java:2875)
+	at java.lang.Class.getMethod0(Class.java:2875)
+	at java.lang.Class.getMethod0(Class.java:2875)
+	at java.lang.Class.getMethod(Class.java:1676)
+	at spoon.support.compiler.jdt.JDTCommentBuilder$1FindCommentParentScanner.scan(JDTCommentBuilder.java:395)
+	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:539)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:60)
+	at spoon.support.compiler.jdt.JDTCommentBuilder$1FindCommentParentScanner.scan(JDTCommentBuilder.java:411)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:320)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)
+	at spoon.support.compiler.jdt.JDTCommentBuilder$1FindCommentParentScanner.scan(JDTCommentBuilder.java:411)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:317)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)
+	at spoon.support.compiler.jdt.JDTCommentBuilder$1FindCommentParentScanner.scan(JDTCommentBuilder.java:411)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.findCommentParent(JDTCommentBuilder.java:418)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:173)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:129)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:94)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:437)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:124)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:107)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:44)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:13)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:42)
+
+real	28m7.719s
+user	101m41.236s
+sys	0m16.180s

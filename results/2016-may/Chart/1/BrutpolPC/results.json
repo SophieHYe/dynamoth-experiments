@@ -1,11 +1,11 @@
 {
-    "date": "Mon May  9 07:47:02 EDT 2016\n\n", 
-    "executionTime": 174016, 
+    "date": "Mon May  9 18:32:52 EDT 2016\n\n", 
+    "executionTime": 207531, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 27, 
-    "node": "graphene-61.nancy.grid5000.fr", 
+    "node": "griffon-17.nancy.grid5000.fr", 
     "patch": "this.equals((java.lang.Object) result)", 
     "patchLocation": {
         "className": "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", 

@@ -11,20 +11,20 @@ Nb classes : 157
 Nb methods : 2880
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
-Nb statements: 10567
+Nb statements: 10566
 Nb unit tests : 12047
 Nb Statements Analyzed : 23
 Nb Statements with Angelic Value Found : 1
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]
-Nb run passing test : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 79]
-NoPol Execution time : 61253ms
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 96417ms
 ----PATCH FOUND----
 org.joda.time.Partial:459: PRECONDITION fieldType != fieldType.clockhourOfDay()
 
 
-Node: grisou-12.nancy.grid5000.fr
+Node: griffon-19.nancy.grid5000.fr
 
 
-Date: Mon May  9 02:49:13 EDT 2016
+Date: Mon May  9 13:59:57 EDT 2016
 
 

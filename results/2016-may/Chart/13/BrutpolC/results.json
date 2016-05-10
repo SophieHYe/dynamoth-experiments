@@ -1,11 +1,11 @@
 {
-    "date": "Mon May  9 02:31:14 EDT 2016\n\n", 
-    "executionTime": 57307, 
+    "date": "Mon May  9 18:20:39 EDT 2016\n\n", 
+    "executionTime": 94130, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 21, 
-    "node": "grisou-6.nancy.grid5000.fr", 
+    "node": "griffon-8.nancy.grid5000.fr", 
     "patch": "this.equals((java.lang.Object) container)", 
     "patchLocation": {
         "className": "org.jfree.chart.block.BorderArrangement", 

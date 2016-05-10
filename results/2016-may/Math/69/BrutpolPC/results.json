@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 19:46:17 EDT 2016\n\n", 
-    "executionTime": 124573, 
+    "date": "Mon May  9 16:27:43 EDT 2016\n\n", 
+    "executionTime": 119402, 
     "nbAngelicValue": 1, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 15, 
-    "node": "griffon-7.nancy.grid5000.fr", 
+    "node": "griffon-29.nancy.grid5000.fr", 
     "patch": "outMatrix.getDeterminant() != matrix.getEntry((int) j, (int) 0)", 
     "patchLocation": {
         "className": "org.apache.commons.math.stat.correlation.PearsonsCorrelation", 

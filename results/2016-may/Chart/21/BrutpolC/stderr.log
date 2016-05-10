@@ -3,4 +3,4 @@ Running ant (compile.tests)................................................ OK
 mkdir: cannot create directory ‘lib/’: File exists
 cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Chart/lib/*’: No such file or directory
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-## OAR [2016-05-09 09:30:23] Job 981250 KILLED ##
+## OAR [2016-05-10 02:15:59] Job 982340 KILLED ##

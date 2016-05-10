@@ -4,7 +4,7 @@ Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 java.lang.RuntimeException: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
 	at xxl.java.junit.TestSuiteExecution.runTest(TestSuiteExecution.java:40)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:123)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:122)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
@@ -15,6 +15,6 @@ Caused by: java.util.concurrent.TimeoutException
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 7 more
 
-real	25m41.809s
-user	37m39.628s
-sys	0m19.792s
+real	26m18.385s
+user	36m51.244s
+sys	0m19.416s

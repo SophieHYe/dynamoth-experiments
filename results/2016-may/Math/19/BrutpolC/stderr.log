@@ -2,33 +2,36 @@ Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:74)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
 xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
-	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:86)
-	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:54)
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
 	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
 	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
 	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:74)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
 	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
 	at fr.inria.lille.repair.Main.main(Main.java:61)
-## OAR [2016-05-08 23:17:35] Job 978871 KILLED ##
+
+real	96m16.983s
+user	654m26.536s
+sys	1m33.048s

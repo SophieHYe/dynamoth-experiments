@@ -1,0 +1,15 @@
+{
+    "date": "Mon May  9 21:38:51 EDT 2016\n\n", 
+    "executionTime": 70519, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 293, 
+    "nbSMTVariable": 17, 
+    "nbStatement": 11, 
+    "node": "griffon-27.nancy.grid5000.fr", 
+    "patch": "-1 <= delta", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+        "line": 282
+    }, 
+    "patchType": "PRECONDITION"
+}

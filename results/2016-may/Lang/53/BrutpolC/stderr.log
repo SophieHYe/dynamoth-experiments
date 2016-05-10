@@ -1,4 +1,7 @@
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
-## OAR [2016-05-09 09:18:44] Job 981215 KILLED ##
+
+real	1m29.980s
+user	1m54.000s
+sys	0m6.656s

@@ -1,11 +1,11 @@
 {
-    "date": "Sun May  8 13:20:49 EDT 2016\n\n", 
-    "executionTime": 770822, 
+    "date": "Mon May  9 20:17:58 EDT 2016\n\n", 
+    "executionTime": 768594, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 925, 
     "nbSMTVariable": 42, 
     "nbStatement": 80, 
-    "node": "griffon-13.nancy.grid5000.fr", 
+    "node": "griffon-29.nancy.grid5000.fr", 
     "patch": "(fp > 0) || ((!(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance < gNorm)) && (org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.permutation!=null))", 
     "patchLocation": {
         "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 

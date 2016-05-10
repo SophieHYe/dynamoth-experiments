@@ -7,24 +7,24 @@ Node: `hostname`
 Date: `date`
 ";rm -rf /tmp/time_11_BrutpolPC;
 
-Nb classes : 157
-Nb methods : 2880
+Nb classes : 158
+Nb methods : 2897
 Nb statement executed by the passing tests of the patched line: 0
 Nb statement executed by the failing tests of the patched line: 0
-Nb statements: 10412
+Nb statements: 10413
 Nb unit tests : 11852
 Nb Statements Analyzed : 25
 Nb Statements with Angelic Value Found : 1
-Nb run failing test  : [2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 1]
-Nb run passing test : [1, 1, 6, 1, 1, 1, 22, 22, 1, 1, 1, 1, 1, 1, 1, 25]
-NoPol Execution time : 72541ms
+Nb run failing test  : []
+Nb run passing test : []
+NoPol Execution time : 108364ms
 ----PATCH FOUND----
 org.joda.time.tz.DateTimeZoneBuilder:372: PRECONDITION transitions.contains((java.lang.Object) this)
 
 
-Node: grisou-24.nancy.grid5000.fr
+Node: griffon-24.nancy.grid5000.fr
 
 
-Date: Mon May  9 02:49:58 EDT 2016
+Date: Mon May  9 13:53:14 EDT 2016
 
 
