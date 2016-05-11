@@ -1,0 +1,15 @@
+{
+    "date": "Tue May 10 14:48:19 EDT 2016\n\n", 
+    "executionTime": 1416719, 
+    "nbAngelicValue": 2, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 41, 
+    "node": "graphene-93.nancy.grid5000.fr", 
+    "patch": "this.DEFAULT_ABSOLUTE_ACCURACY <= org.apache.commons.math.util.FastMath.max((double) xA, (double) yB)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 
+        "line": 317
+    }, 
+    "patchType": "PRECONDITION"
+}

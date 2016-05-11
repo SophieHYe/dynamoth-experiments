@@ -141,7 +141,12 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 8 more
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+	at fr.inria.lille.spirals.repair.vm.DebugJUnitRunner$1.run(DebugJUnitRunner.java:33)
+	at java.lang.Thread.run(Thread.java:745)
 
-real	17m55.621s
-user	29m40.192s
-sys	0m23.336s
+real	17m49.672s
+user	29m31.148s
+sys	0m24.056s

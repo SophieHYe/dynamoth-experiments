@@ -14,21 +14,37 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
 	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
 	... 7 more
-java.lang.RuntimeException: java.util.concurrent.TimeoutException
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:97)
-	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:36)
-	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:81)
-	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:92)
-	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
-	at fr.inria.lille.repair.Main.main(Main.java:61)
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:201)
-	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:90)
-	... 8 more
-
-real	38m52.195s
-user	57m30.944s
-sys	0m42.256s
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.TreeMap$Values.iterator(TreeMap.java:947)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:171)
+	at spoon.reflect.visitor.CtScanner.visitCtAnnotation(CtScanner.java:155)
+	at spoon.support.reflect.declaration.CtAnnotationImpl.accept(CtAnnotationImpl.java:77)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:534)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:60)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:320)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:620)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:48)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:619)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:48)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+	at spoon.reflect.visitor.CtScanner.visitCtPackage(CtScanner.java:619)
+	at spoon.support.reflect.declaration.CtPackageImpl.accept(CtPackageImpl.java:48)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:146)
+	at spoon.reflect.visitor.QueryVisitor.scan(QueryVisitor.java:67)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:135)
+## OAR [2016-05-11 00:07:25] Job 983375 KILLED ##
