@@ -1,6 +1,8 @@
 {
     "angelicValue": {}, 
     "classpath": {
+        "63": "build/classes:build/test:build/lib/rhino.jar",
+        "106": "build/classes:build/test",
         "133": "build/classes:build/test:build/lib/rhino.jar"
     }, 
     "complianceLevel": {
