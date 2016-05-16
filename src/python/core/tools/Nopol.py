@@ -15,21 +15,25 @@ class Nopol(Tool):
         self.solver = self.data["solver"]
 
     def runNopol(self, project, id, mode="repair", type="condition", synthesis="smt", oracle="angelic"):
+        workdir = self.initTask(project, id)
         classpath = ""
         for index, cp in project.classpath.iteritems():
             if id <= int(index):
-                classpath = cp
+                for c in cp.split(":"):
+                    if classpath != "":
+                        classpath += ":"    
+                    classpath += os.path.join(workdir, c) 
                 break
         source = ""
         for index, src in project.src.iteritems():
             if id <= int(index):
-                source = src['srcjava']
+                source = os.path.join(workdir, src['srcjava'])
                 # source += " " + src['srctest']
                 break
         for lib in project.libs:
-            classpath += ":lib/" + lib
+            classpath += ":" + os.path.join(workdir, "lib", lib)
         classpath += ":" + self.jar
-        workdir = self.initTask(project, id)
+        
         cmd = 'cd ' + workdir +  ';'
         cmd += 'export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;'
         cmd += 'export PATH="' + conf.javaHome + ':$PATH";'

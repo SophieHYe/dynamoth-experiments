@@ -5,6 +5,7 @@ from core.projects.LangProject import LangProject
 from core.projects.MathProject import MathProject
 from core.projects.ChartProject import ChartProject
 from core.projects.TimeProject import TimeProject
+from core.projects.ClosureProject import ClosureProject
 
 from core.tools.Ranking import Ranking
 from core.tools.NopolPC import NopolPC
@@ -37,6 +38,7 @@ for project in args.projects:
         projects.append(LangProject())
         projects.append(MathProject())
         projects.append(TimeProject())
+        projects.append(ClosureProject())
     elif project.lower() == "chart":
         projects.append(ChartProject())
     elif project.lower() == "lang":
@@ -45,6 +47,8 @@ for project in args.projects:
         projects.append(MathProject())
     elif project.lower() == "time":
         projects.append(TimeProject())
+    elif project.lower() == "closure":
+        projects.append(ClosureProject())
 
 tools = []
 for tool in args.tools:
