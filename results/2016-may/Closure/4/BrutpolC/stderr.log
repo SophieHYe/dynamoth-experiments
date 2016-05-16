@@ -1,0 +1,266 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 8:30:31 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 88.9% typed
+May 16, 2016 8:30:41 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:6: WARNING - Parse error. Cycle detected in inheritance chain of type Foo
+ @extends Foo */
+          ^
+
+May 16, 2016 8:30:41 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 66.7% typed
+May 16, 2016 8:49:59 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 88.9% typed
+May 16, 2016 8:50:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:6: WARNING - Parse error. Cycle detected in inheritance chain of type Foo
+ @extends Foo */
+          ^
+
+May 16, 2016 8:50:07 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 66.7% typed
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 88.9% typed
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - Bad type annotation. Unknown type n
+/** @type {n} */ var n = window.name;
+           ^
+
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 78.6% typed
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 8:59:07 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 78.6% typed
+May 16, 2016 8:59:21 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - Bad type annotation. Unknown type n
+/** @type {n} */ var n = window.name;
+           ^
+
+May 16, 2016 8:59:21 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - Parse error. Cycle detected in inheritance chain of type n
+/** @type {n} */ var n = window.name;
+           ^
+
+May 16, 2016 8:59:21 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+May 16, 2016 8:59:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 8:59:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 8:59:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 8:59:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Parse error. Cycle detected in inheritance chain of type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 8:59:22 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 4 warning(s), 78.6% typed
+May 16, 2016 8:59:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 8:59:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 8:59:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 8:59:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Parse error. Cycle detected in inheritance chain of type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 8:59:23 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 4 warning(s), 78.6% typed
+May 16, 2016 8:59:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:6: WARNING - Parse error. Cycle detected in inheritance chain of type Foo
+ @extends Foo */
+          ^
+
+May 16, 2016 8:59:25 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 88.9% typed
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+## OAR [2016-05-16 23:24:45] Job 991244 KILLED ##

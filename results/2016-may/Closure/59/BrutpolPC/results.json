@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 23:02:07 CEST 2016\n\n", 
+    "executionTime": 321114, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 62, 
+    "node": "griffon-6.nancy.grid5000.fr", 
+    "patch": "options.shouldColorizeErrorOutput()", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.WarningLevel", 
+        "line": 79
+    }, 
+    "patchType": "PRECONDITION"
+}

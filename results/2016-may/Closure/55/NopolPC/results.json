@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 20:56:50 CEST 2016\n\n", 
+    "executionTime": 226897, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 15, 
+    "nbSMTVariable": 20, 
+    "nbStatement": 33, 
+    "node": "griffon-9.nancy.grid5000.fr", 
+    "patch": "reductions.size() <= reducers.size()", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.FunctionRewriter", 
+        "line": 93
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,504 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 8 instances of 2 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 8 instances of 2 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 6 invalidated properties, 0 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 2 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 4 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 2 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 4 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 3 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 0 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 5 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 5 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 1 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 1 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 6 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 6 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 3 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 2 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 2 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+May 16, 2016 7:53:05 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 2 anon functions using 13 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 6 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 6 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 8 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 6 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 6 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 3 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 5 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 2 anon functions using 12 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 6 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 9 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 9 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 1 anon functions using 9 bytes
+May 16, 2016 7:53:06 PM com.google.javascript.jscomp.NameAnonymousFunctions process
+INFO: Named 0 anon functions using 0 bytes
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+
+real	17m59.035s
+user	59m14.364s
+sys	0m45.400s

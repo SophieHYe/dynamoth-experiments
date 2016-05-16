@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:50:34 CEST 2016\n\n", 
+    "executionTime": 210814, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 1, 
+    "node": "griffon-15.nancy.grid5000.fr", 
+    "patch": "error.equals((java.lang.Object) error)", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.LightweightMessageFormatter", 
+        "line": 97
+    }, 
+    "patchType": "CONDITIONAL"
+}

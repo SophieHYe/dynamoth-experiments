@@ -1,0 +1,30 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.lang.NullPointerException
+	at spoon.support.compiler.jdt.JDTTreeBuilder.hasTypeInImports(JDTTreeBuilder.java:415)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.getQualifiedTypeReference(JDTTreeBuilder.java:530)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:2257)
+	at org.eclipse.jdt.internal.compiler.ast.Argument.traverse(Argument.java:230)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:3058)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse(MethodDeclaration.java:327)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:3800)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse(TypeDeclaration.java:1319)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:748)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:709)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:436)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:124)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:107)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:44)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
+	at fr.inria.lille.commons.spoon.SpoonedProject.<init>(SpoonedProject.java:17)
+	at fr.inria.lille.repair.nopol.NoPol.<init>(NoPol.java:78)
+	at fr.inria.lille.repair.nopol.NoPol.<init>(NoPol.java:84)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:78)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+
+real	0m52.670s
+user	1m26.384s
+sys	0m4.868s

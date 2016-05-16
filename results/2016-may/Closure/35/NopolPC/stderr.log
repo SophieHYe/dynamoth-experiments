@@ -1,0 +1,1045 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+May 16, 2016 7:03:32 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+May 16, 2016 7:04:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+May 16, 2016 7:04:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 77.8% typed
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - missing goog.getCssName around literal 'foo'
+var x = 'foo';
+        ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:8: WARNING - actual parameter 1 of goog.getCssName does not match formal parameter
+found   : number
+required: string
+var x = goog.getCssName(123, 'a');
+                        ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs:1: WARNING - name extern is not undefined in the externs.
+extern.foo
+^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - required "foo" namespace never provided
+var goog = {}; goog.require = function(x) {}; goog.require('foo');
+                                              ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - dangerous use of the global this object
+function f() { this.y = 3; }
+               ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 75% typed
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 75% typed
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - Function x.f: called with 1 argument(s). Function requires at least 0 argument(s) and no more than 0 argument(s).
+var x = x || {}; x.f = function() {}; x.f(3);
+                                      ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Variable referenced before declaration: x
+x = 3; var x = 5;
+^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:2: WARNING - missing goog.provide('f')
+function f() { var arguments; }
+         ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. getters are not supported in Internet Explorer
+var a = {get f(){}}
+^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - constant foo$bar assigned a value more than once
+var goog = {}; goog.provide('foo.bar'); function f() { foo.bar = {};}
+                                                       ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - enum key a must be a syntactic constant
+/** @define {boolean} */ var COMPILED = false; var goog = {};goog.exportSymbol = function() {};goog.provide('Foo'); /** @enum */ Foo = {a: 3};
+                                                                                                                                        ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:2: ERROR - unreachable code
+ 3; }
+ ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - constant FOO assigned a value more than once
+var FOO = true; FOO = false
+                ^
+
+May 16, 2016 7:04:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - TightenTypes requires type checking. Please use --check_types.
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. unlabelled break must be inside loop or switch
+function f() { try { } catch(e) { break; } }
+                                        ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - initializing variable
+found   : string
+required: number
+/** @type {number} */ var n = window.name;
+                              ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - variable x is undeclared
+x = 3;
+^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 92.6% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Variable f has been deprecated.
+/** @deprecated */ function f() { } function g() { f(); }
+                                                   ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Missing return statement. Function expected to return number.
+/** @return {number} */ function f() { if (f) { return 3; } }
+                        ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. Unsupported syntax: ERROR
+var foo = {bar: function(e) }
+^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing { before function body
+var foo = {bar: function(e) }
+                             ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing } after property list
+var foo = {bar: function(e) }
+                             ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. syntax error
+var foo = {bar: function(e) }
+                             ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - References to the global RegExp object prevents optimization of regular expressions.
+/(a)/.test("a");var a = RegExp.$1
+                        ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - Bad type annotation. Unknown type n
+/** @type {n} */ var n = window.name;
+           ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - constant foo assigned a value more than once
+var goog = {}; goog.provide('foo'); function f() { foo = {};}
+                                                   ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - enum key a must be a syntactic constant
+/** @define {boolean} */ var COMPILED = false; var goog = {};goog.exportSymbol = function() {};goog.provide('Foo'); /** @enum */ Foo = {a: 3};
+                                                                                                                                        ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. unnamed function statement
+function () {}
+^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - x.z is never defined
+var x = {}; var y = x.z;
+                    ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i1:1: ERROR - 'Foo' used but not goog.require'd
+new Foo();
+    ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i1:1: ERROR - Access to private variable f not allowed outside file i0.
+function g() { f(); }
+               ^
+
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+May 16, 2016 7:04:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - missing goog.provide('Foo')
+/** @constructor */ function Foo() {}
+                             ^
+
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 57.1% typed
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 57.1% typed
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - variables, functions, and arguments cannot be deleted in ES5 strict mode
+var a  = 2; delete a;
+            ^
+
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - dangerous use of the global this object
+function f() { this.y = 3; }
+               ^
+
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Rename prototypes and inline variables cannot be used together
+
+May 16, 2016 7:04:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 12:01
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 12:01
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:2: WARNING - Property dom never defined on goog
+goog.dom.DomHelper = function(){};
+^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Property dom never defined on goog
+var y = goog.dom.DomHelper;
+        ^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:2: ERROR - variable goog is undeclared
+goog.dom.DomHelper = function(){};
+^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 2 warning(s), 60% typed
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - Parse error. illegal use of unknown JSDoc tag "contstructor"; ignoring it
+/** @contstructor */function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+    ^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:12: WARNING - Property inherits never defined on goog
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:5: ERROR - variable alert is undeclared
+  alert('hi');
+  ^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:12: ERROR - variable goog is undeclared
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 1 warning(s), 94.4% typed
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - Suspicious code. The result of the 'add' operator is not being used.
+/** @constructor */ var DomHelper = function(){};/** method */ DomHelper.method = function() {};function f() { var x = DomHelper; x.method() + x.method(); }
+                                                                                                                                  ^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 78.6% typed
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+               ^
+
+May 16, 2016 7:04:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 87.5% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable x is undeclared
+/** @constructor */ var DomHelper = function(){};DomHelper.prototype.method = function() {   this.field = 3;  return x.field;}
+                                                                                                                     ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 83.3% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:2: WARNING - goog.dom.Foo defined before its owner. goog.dom is defined at in1:3
+/** @constructor */ goog.dom.Foo = function() {};
+                    ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - Suspicious code. The result of the 'getprop' operator is not being used.
+/** @constructor */ function Foo() {} this.Foo;
+                                      ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+/** @constructor */ function Foo() {} this.Foo;
+                                      ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 75% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:9: WARNING - Property c never defined on A.prototype.b
+  var x; if (x) { x = a.b.b; } else { x = a.b.c; }
+                                          ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 86.7% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable goog is undeclared
+/** @constructor */ goog.Foo = function(){};
+                    ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 66.7% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 78.6% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - cannot instantiate non-constructor
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                                                                                            ^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 75% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:2: WARNING - Property require never defined on goog
+goog.require('foo.bar')
+^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable foo is undeclared
+foo.bar = function(){};  // definition
+^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:2: ERROR - variable goog is undeclared
+goog.require('foo.bar')
+^
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 1 warning(s), 57.1% typed
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Syntax error: Wrong type of child number 1 for VarDecl. Expected: [InitPatt, IdPatt]. Found: IdExpr.
+
+May 16, 2016 7:04:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:04:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: foo.js:1: WARNING - 'foo.bar.goo' used but not goog.require'd
+var foo = {}; var bar = new foo.bar.goo();
+                            ^
+
+May 16, 2016 7:04:39 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+46: Semicolon inserted
+LOG:unknown:///unknown:1+46: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+28: Semicolon inserted
+LOG:unknown:///unknown:1+28: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+109: Semicolon inserted
+LOG:unknown:///unknown:1+110: Semicolon inserted
+LOG:unknown:///unknown:1+109: Semicolon inserted
+LOG:unknown:///unknown:1+110: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+44: Semicolon inserted
+LOG:unknown:///unknown:1+71: Semicolon inserted
+LOG:unknown:///unknown:1+44: Semicolon inserted
+LOG:unknown:///unknown:1+71: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+134: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+134: Semicolon inserted
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:79)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray(JsonMLConversionTest.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:36)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:11)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:86)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray(JsonMLConversionTest.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:36)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:11)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+36: Semicolon inserted
+LOG:unknown:///unknown:1+36: Semicolon inserted
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+40: Semicolon inserted
+LOG:unknown:///unknown:1+40: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+66: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+66: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+103: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+103: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+99: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+99: Semicolon inserted
+LOG:unknown:///unknown:1+104: Semicolon inserted
+LOG:unknown:///unknown:1+105: Semicolon inserted
+LOG:unknown:///unknown:1+104: Semicolon inserted
+LOG:unknown:///unknown:1+105: Semicolon inserted
+LOG:unknown:///unknown:1+18: Semicolon inserted
+LOG:unknown:///unknown:1+18: Semicolon inserted
+LOG:unknown:///unknown:1+97: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+97: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+15: Semicolon inserted
+LOG:unknown:///unknown:1+15: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+108: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+108: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+5: Semicolon inserted
+LOG:unknown:///unknown:1+5: Semicolon inserted
+LOG:unknown:///unknown:1+84: Semicolon inserted
+LOG:unknown:///unknown:1+84: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+38: Semicolon inserted
+LOG:unknown:///unknown:1+38: Semicolon inserted
+LOG:unknown:///unknown:1+13: Semicolon inserted
+LOG:unknown:///unknown:1+13: Semicolon inserted
+LOG:unknown:///unknown:1+29: Semicolon inserted
+LOG:unknown:///unknown:1+29: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+25: Semicolon inserted
+LOG:unknown:///unknown:1+25: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+61: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+61: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+41: Semicolon inserted
+LOG:unknown:///unknown:1+41: Semicolon inserted
+LOG:unknown:///unknown:1+16: Semicolon inserted
+LOG:unknown:///unknown:1+16: Semicolon inserted
+LOG:unknown:///unknown:1+20: Semicolon inserted
+LOG:unknown:///unknown:1+20: Semicolon inserted
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:79)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray1(JsonMLConversionTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:36)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:11)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:86)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray1(JsonMLConversionTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:36)
+	at xxl.java.junit.JUnitSingleTestResultRunner.call(JUnitSingleTestResultRunner.java:11)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+26: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+26: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+87: Semicolon inserted
+LOG:unknown:///unknown:1+88: Semicolon inserted
+LOG:unknown:///unknown:1+87: Semicolon inserted
+LOG:unknown:///unknown:1+88: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+106: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+106: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+72: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+72: Semicolon inserted
+LOG:unknown:///unknown:1+33: Semicolon inserted
+LOG:unknown:///unknown:1+33: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+32: Semicolon inserted
+LOG:unknown:///unknown:1+32: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+58: Semicolon inserted
+LOG:unknown:///unknown:1+58: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b for exported function p1
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                            ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                     ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                        ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                           ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function g
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                            ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function h
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                               ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function i
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                                  ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 7 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = function(d, e, f) {};goog.exportSymbol('foobar', a)
+                                                                                                                  ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = function(d, e, f) {};goog.exportSymbol('foobar', a)
+                                                                                                                     ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = function(d, e, f) {};goog.exportSymbol('foobar', a)
+                                                                                                                        ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine return type for exported function InternalName
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var InternalName = function() {  return 6;};goog.exportSymbol('ExternalName', InternalName)
+                                                                                                                    ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                        ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                           ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                              ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                     ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                        ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                           ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function g
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                            ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function h
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                               ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function i
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                                  ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 6 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b for exported function p1
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                            ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                                                     ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                                                        ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                                                           ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 4 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                        ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                           ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                              ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:4: WARNING - Unable to determine type of parameter InternalName for exported function b
+ var InternalName = function(a,b,c) {  return 6;};goog.exportSymbol('ExternalName', InternalName)
+                               ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:4: WARNING - Unable to determine type of parameter InternalName for exported function c
+ var InternalName = function(a,b,c) {  return 6;};goog.exportSymbol('ExternalName', InternalName)
+                                 ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:5: WARNING - Unable to determine return type for exported function internalName
+internalName = function(a) {  return 6;
+               ^
+
+May 16, 2016 7:04:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+
+real	4m21.449s
+user	23m59.088s
+sys	0m8.560s

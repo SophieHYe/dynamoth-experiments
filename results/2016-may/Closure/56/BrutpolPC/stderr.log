@@ -1,0 +1,1207 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.<init>(ConstraintModelBuilder.java:57)
+	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:122)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 8:59:53 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:53 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:54 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:54 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:54 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:54 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:55 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:55 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 8:59:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:00:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:54 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:54 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:55 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:55 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:55 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:55 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:01:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.jscomp.mozilla.rhino.Kit.codeBug(Kit.java:449)
+	at com.google.javascript.jscomp.mozilla.rhino.TokenStream.<init>(TokenStream.java:83)
+	at com.google.javascript.jscomp.mozilla.rhino.Parser.parse(Parser.java:514)
+	at com.google.javascript.jscomp.parsing.ParserRunner.parse(ParserRunner.java:133)
+	at com.google.javascript.jscomp.JsAst.parse(JsAst.java:87)
+	at com.google.javascript.jscomp.JsAst.getAstRoot(JsAst.java:53)
+	at com.google.javascript.jscomp.JsMessageExtractor.extractMessages(JsMessageExtractor.java:127)
+	at com.google.javascript.jscomp.JsMessageExtractor.extractMessages(JsMessageExtractor.java:100)
+	at com.google.javascript.jscomp.JsMessageExtractorTest.extractMessages(JsMessageExtractorTest.java:40)
+	at com.google.javascript.jscomp.JsMessageExtractorTest.extractMessage(JsMessageExtractorTest.java:49)
+	at com.google.javascript.jscomp.JsMessageExtractorTest.testSyntaxError1(JsMessageExtractorTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.jscomp.mozilla.rhino.Kit.codeBug(Kit.java:449)
+	at com.google.javascript.jscomp.mozilla.rhino.TokenStream.<init>(TokenStream.java:83)
+	at com.google.javascript.jscomp.mozilla.rhino.Parser.parse(Parser.java:514)
+	at com.google.javascript.jscomp.parsing.ParserRunner.parse(ParserRunner.java:133)
+	at com.google.javascript.jscomp.JsAst.parse(JsAst.java:87)
+	at com.google.javascript.jscomp.JsAst.getAstRoot(JsAst.java:53)
+	at com.google.javascript.jscomp.JsMessageExtractor.extractMessages(JsMessageExtractor.java:127)
+	at com.google.javascript.jscomp.JsMessageExtractor.extractMessages(JsMessageExtractor.java:100)
+	at com.google.javascript.jscomp.JsMessageExtractorTest.extractMessages(JsMessageExtractorTest.java:40)
+	at com.google.javascript.jscomp.JsMessageExtractorTest.extractMessage(JsMessageExtractorTest.java:49)
+	at com.google.javascript.jscomp.JsMessageExtractorTest.testSyntaxError2(JsMessageExtractorTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+May 16, 2016 9:02:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:35 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 9:02:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 9:02:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:02:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:26 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 9:03:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+May 16, 2016 9:03:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.<init>(ConstraintModelBuilder.java:57)
+	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:122)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+
+real	6m35.368s
+user	11m55.664s
+sys	0m21.092s

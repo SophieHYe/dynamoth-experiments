@@ -1,0 +1,195 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+May 16, 2016 7:42:59 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - required "foo" namespace never provided
+var goog = {}; goog.require = function(x) {}; goog.require('foo');
+                                              ^
+
+May 16, 2016 7:42:59 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:42:59 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - required "goog.beer" namespace not provided yet
+goog.require('goog.beer');
+^
+
+May 16, 2016 7:42:59 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:2: WARNING - Property require never defined on goog
+goog.require('foo.bar')
+^
+
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable foo is undeclared
+foo.bar = function(){};  // definition
+^
+
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:2: ERROR - variable goog is undeclared
+goog.require('foo.bar')
+^
+
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 3 warning(s), 57.1% typed
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:07 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:08 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - required "goog.beer" namespace not provided yet
+goog.require('goog.beer');
+^
+
+May 16, 2016 7:43:08 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - required "foo" namespace never provided
+var goog = {}; goog.require = function(x) {}; goog.require('foo');
+                                              ^
+
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - Function goog.require: called with 1 argument(s). Function requires at least 0 argument(s) and no more than 0 argument(s).
+var goog = {};goog.provide = function() {};goog.require = function() {};goog.provide('goog.dom');goog.require('goog.dom');
+                                                                                                 ^
+
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable foo is undeclared
+foo.bar = function(){};  // definition
+^
+
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 2 warning(s), 66.7% typed
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 7:43:11 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+## OAR [2016-05-16 22:36:49] Job 991133 KILLED ##

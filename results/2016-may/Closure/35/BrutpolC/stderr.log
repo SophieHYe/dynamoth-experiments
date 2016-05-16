@@ -1,0 +1,107 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.<init>(ConstraintModelBuilder.java:57)
+	at fr.inria.lille.repair.nopol.synth.SynthesizerFactory.getFor(SynthesizerFactory.java:122)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:164)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 8:33:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 57.1% typed
+May 16, 2016 8:33:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 57.1% typed
+May 16, 2016 8:33:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:12: WARNING - Property inherits never defined on goog
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+May 16, 2016 8:33:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:5: ERROR - variable alert is undeclared
+  alert('hi');
+  ^
+
+May 16, 2016 8:33:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:12: ERROR - variable goog is undeclared
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+May 16, 2016 8:33:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 1 warning(s), 94.4% typed
+May 16, 2016 8:33:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 100% typed
+May 16, 2016 8:33:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 100% typed
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Property b never defined on a
+a.b.BaseClass = function() {};
+^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:4: WARNING - Property b never defined on a
+a.b.BaseClass.prototype.doSomething = function() {
+^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:11: WARNING - Property b never defined on a
+a.b.DerivedClass = function() {};
+^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:12: WARNING - Property inherits never defined on goog
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:12: WARNING - Property b never defined on a
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+              ^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:12: WARNING - Property b never defined on a
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+                                ^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:14: WARNING - Property b never defined on a
+a.b.DerivedClass.prototype.doSomething = function() {
+^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:15: WARNING - Property b never defined on a
+  a.b.DerivedClass.superClass_.doSomething();
+  ^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:5: ERROR - variable alert is undeclared
+  alert('hi');
+  ^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:12: ERROR - variable goog is undeclared
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 8 warning(s), 66.7% typed
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 50% typed
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 50% typed
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 33.3% typed
+May 16, 2016 8:33:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 80% typed
+## OAR [2016-05-16 22:58:41] Job 991213 KILLED ##

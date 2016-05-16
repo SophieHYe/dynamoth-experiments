@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:35:42 CEST 2016\n\n", 
+    "executionTime": 582999, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 3, 
+    "node": "griffon-1.nancy.grid5000.fr", 
+    "patch": "n.getBooleanProp((int) exitType)", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.MinimizeExitPoints", 
+        "line": 141
+    }, 
+    "patchType": "CONDITIONAL"
+}

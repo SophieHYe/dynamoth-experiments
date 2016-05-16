@@ -1,0 +1,105 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.lang.NullPointerException
+	at spoon.support.compiler.jdt.JDTTreeBuilder.hasTypeInImports(JDTTreeBuilder.java:415)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.getQualifiedTypeReference(JDTTreeBuilder.java:530)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:2257)
+	at org.eclipse.jdt.internal.compiler.ast.Argument.traverse(Argument.java:230)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:3058)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse(MethodDeclaration.java:327)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:3800)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse(TypeDeclaration.java:1319)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:748)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:709)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:436)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:124)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:107)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:44)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
+	at fr.inria.lille.commons.spoon.SpoonedProject.<init>(SpoonedProject.java:17)
+	at fr.inria.lille.repair.nopol.NoPol.<init>(NoPol.java:78)
+	at fr.inria.lille.repair.nopol.NoPol.<init>(NoPol.java:84)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:78)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 57.1% typed
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 99.1% typed
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+May 16, 2016 6:08:49 PM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+## OAR [2016-05-16 21:02:02] Job 988980 KILLED ##

@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 22:58:53 CEST 2016\n\n", 
+    "executionTime": 2921149, 
+    "nbAngelicValue": 0, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 2140, 
+    "node": "grisou-4.nancy.grid5000.fr", 
+    "patch": null, 
+    "patchLocation": {
+        "className": null, 
+        "line": null
+    }, 
+    "patchType": null
+}

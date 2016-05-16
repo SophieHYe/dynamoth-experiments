@@ -1,0 +1,15 @@
+{
+    "date": "Tue May 17 00:33:26 CEST 2016\n\n", 
+    "executionTime": 213117, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 7, 
+    "node": "graphite-2.nancy.grid5000.fr", 
+    "patch": "this.getChildCount() == 0", 
+    "patchLocation": {
+        "className": "com.google.javascript.rhino.Node", 
+        "line": 1371
+    }, 
+    "patchType": "PRECONDITION"
+}

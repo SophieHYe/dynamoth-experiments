@@ -1,0 +1,32 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+May 16, 2016 7:33:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+May 16, 2016 7:33:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+May 16, 2016 7:33:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+May 16, 2016 7:33:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+## OAR [2016-05-16 22:27:49] Job 991123 KILLED ##

@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 20:11:13 CEST 2016\n\n", 
+    "executionTime": 117814, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 16, 
+    "nbSMTVariable": 20, 
+    "nbStatement": 33, 
+    "node": "grisou-38.nancy.grid5000.fr", 
+    "patch": "(savings == reductions.size()) || ((reductions.size() <= reducers.size()) && (savings > (helperCodeCost + (com.google.javascript.jscomp.FunctionRewriter.SAVINGS_THRESHOLD))))", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.FunctionRewriter", 
+        "line": 93
+    }, 
+    "patchType": "CONDITIONAL"
+}

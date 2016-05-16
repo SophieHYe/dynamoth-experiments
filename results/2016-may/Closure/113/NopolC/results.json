@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 20:11:30 CEST 2016\n\n", 
+    "executionTime": 499834, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 20, 
+    "nbSMTVariable": 51, 
+    "nbStatement": 7, 
+    "node": "grimoire-6.nancy.grid5000.fr", 
+    "patch": "(provided != null) || (!(-1 <= (com.google.javascript.jscomp.ProcessClosurePrimitives.GOOG.length()) - (ns.length()) + com.google.javascript.jscomp.ProcessClosurePrimitives.GOOG.length()))", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.ProcessClosurePrimitives", 
+        "line": 329
+    }, 
+    "patchType": "CONDITIONAL"
+}

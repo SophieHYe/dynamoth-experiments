@@ -1,0 +1,3206 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+GETPROP 10 [sourcename: externs] is not a string node
+  Node(ASSIGN): externs:10:24
+Function.prototype.call = function(var_args) {};/**
+  Parent(EXPR_RESULT): externs:10:0
+Function.prototype.call = function(var_args) {};/**
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+GETPROP 10 [sourcename: externs] is not a string node
+  Node(ASSIGN): externs:10:24
+Function.prototype.call = function(var_args) {};/**
+  Parent(EXPR_RESULT): externs:10:0
+Function.prototype.call = function(var_args) {};/**
+
+	at com.google.javascript.rhino.Node.getString(Node.java:897)
+	at com.google.javascript.jscomp.StrictModeCheck.checkAssignment(StrictModeCheck.java:98)
+	at com.google.javascript.jscomp.StrictModeCheck.visit(StrictModeCheck.java:54)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.StrictModeCheck.process(StrictModeCheck.java:41)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.UnsupportedOperationException: GETPROP 10 [sourcename: externs] is not a string node
+	... 20 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+VAR is not a string node
+  Node(SCRIPT): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+  Parent(BLOCK): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+VAR is not a string node
+  Node(SCRIPT): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+  Parent(BLOCK): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+
+	at com.google.javascript.rhino.Node.getString(Node.java:897)
+	at com.google.javascript.jscomp.StrictModeCheck.checkLabel(StrictModeCheck.java:144)
+	at com.google.javascript.jscomp.StrictModeCheck.visit(StrictModeCheck.java:64)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.StrictModeCheck.process(StrictModeCheck.java:41)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.UnsupportedOperationException: VAR is not a string node
+	... 18 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+VAR is not a string node
+  Node(SCRIPT): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+  Parent(BLOCK): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+VAR is not a string node
+  Node(SCRIPT): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+  Parent(BLOCK): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+
+	at com.google.javascript.rhino.Node.getString(Node.java:897)
+	at com.google.javascript.jscomp.StrictModeCheck.checkObjectLiteral(StrictModeCheck.java:127)
+	at com.google.javascript.jscomp.StrictModeCheck.visit(StrictModeCheck.java:62)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.StrictModeCheck.process(StrictModeCheck.java:41)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.UnsupportedOperationException: VAR is not a string node
+	... 18 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(BLOCK): externs:5:28
+function Function(var_args) {}
+  Parent(FUNCTION Function): externs:5:9
+function Function(var_args) {}
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(BLOCK): externs:5:28
+function Function(var_args) {}
+  Parent(FUNCTION Function): externs:5:9
+function Function(var_args) {}
+
+	at com.google.javascript.jscomp.StrictModeCheck.checkDelete(StrictModeCheck.java:111)
+	at com.google.javascript.jscomp.StrictModeCheck.visit(StrictModeCheck.java:60)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseFunction(NodeTraversal.java:502)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:449)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.StrictModeCheck.process(StrictModeCheck.java:41)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 20 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(BLOCK): externs:5:28
+function Function(var_args) {}
+  Parent(FUNCTION Function): externs:5:9
+function Function(var_args) {}
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(BLOCK): externs:5:28
+function Function(var_args) {}
+  Parent(FUNCTION Function): externs:5:9
+function Function(var_args) {}
+
+	at com.google.javascript.jscomp.StrictModeCheck.checkAssignment(StrictModeCheck.java:99)
+	at com.google.javascript.jscomp.StrictModeCheck.visit(StrictModeCheck.java:58)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseFunction(NodeTraversal.java:502)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:449)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.StrictModeCheck.process(StrictModeCheck.java:41)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 20 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+VAR is not a string node
+  Node(VAR): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+  Parent(SCRIPT): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+VAR is not a string node
+  Node(VAR): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+  Parent(SCRIPT): {SyntheticVarsDeclar}:-1:-1
+[source unknown]
+
+	at com.google.javascript.rhino.Node.getString(Node.java:897)
+	at com.google.javascript.jscomp.StrictModeCheck.checkNameUse(StrictModeCheck.java:83)
+	at com.google.javascript.jscomp.StrictModeCheck.visit(StrictModeCheck.java:55)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.StrictModeCheck.process(StrictModeCheck.java:41)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.UnsupportedOperationException: VAR is not a string node
+	... 19 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Unexpected variable f
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Unexpected variable f
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.VarCheck.visit(VarCheck.java:91)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.VarCheck.process(VarCheck.java:46)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.IllegalStateException: Unexpected variable f
+	... 20 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.VarCheck.createSynthesizedExternVar(VarCheck.java:126)
+	at com.google.javascript.jscomp.VarCheck.visit(VarCheck.java:90)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.VarCheck.process(VarCheck.java:46)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 21 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.VarCheck.getSynthesizedExternsRoot(VarCheck.java:175)
+	at com.google.javascript.jscomp.VarCheck.createSynthesizedExternVar(VarCheck.java:126)
+	at com.google.javascript.jscomp.VarCheck.visit(VarCheck.java:90)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.VarCheck.process(VarCheck.java:46)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 22 more
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Conflicting externs name: {SyntheticVarsDeclar}
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Conflicting externs name: {SyntheticVarsDeclar}
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.newExternInput(Compiler.java:978)
+	at com.google.javascript.jscomp.VarCheck.getSynthesizedExternsInput(VarCheck.java:167)
+	at com.google.javascript.jscomp.VarCheck.visit(VarCheck.java:91)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.VarCheck.process(VarCheck.java:46)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.IllegalArgumentException: Conflicting externs name: {SyntheticVarsDeclar}
+	... 22 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Conflicting externs name: {SyntheticVarsDeclar}
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:348)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:305)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:292)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:264)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Conflicting externs name: {SyntheticVarsDeclar}
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.newExternInput(Compiler.java:605)
+	at com.google.javascript.jscomp.VarCheck.getSynthesizedExternsInput(VarCheck.java:278)
+	at com.google.javascript.jscomp.VarCheck.getSynthesizedExternsRoot(VarCheck.java:287)
+	at com.google.javascript.jscomp.VarCheck.createSynthesizedExternVar(VarCheck.java:232)
+	at com.google.javascript.jscomp.VarCheck.visit(VarCheck.java:172)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.VarCheck.process(VarCheck.java:108)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:419)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:366)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:2)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:294)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:292)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:323)
+	... 1 more
+Caused by: java.lang.IllegalArgumentException: Conflicting externs name: {SyntheticVarsDeclar}
+	... 24 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input1:1:8
+[source unknown]
+  Parent(GETPROP): input1:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input1:1:8
+[source unknown]
+  Parent(GETPROP): input1:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.VarCheck.visit(VarCheck.java:108)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.VarCheck.process(VarCheck.java:46)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 20 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.outputSourceMap(AbstractCommandLineRunner.java:568)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.processResults(AbstractCommandLineRunner.java:428)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:382)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at java.io.File.<init>(File.java:277)
+	at com.google.javascript.jscomp.VariableMap.save(VariableMap.java:100)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.outputNameMaps(AbstractCommandLineRunner.java:615)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.processResults(AbstractCommandLineRunner.java:464)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:382)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.io.FileNotFoundException:  (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:245)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:233)
+	at com.google.common.io.ByteSink.write(ByteSink.java:111)
+	at com.google.common.io.Files.write(Files.java:415)
+	at com.google.javascript.jscomp.VariableMap.save(VariableMap.java:100)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.outputNameMaps(AbstractCommandLineRunner.java:615)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.processResults(AbstractCommandLineRunner.java:464)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:382)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.processResults(AbstractCommandLineRunner.java:464)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:382)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.parseModuleWrappers(AbstractCommandLineRunner.java:297)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.processResults(AbstractCommandLineRunner.java:435)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:382)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.StringIndexOutOfBoundsException: String index out of range: -7
+	at java.lang.String.substring(String.java:1875)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.writeOutput(AbstractCommandLineRunner.java:333)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.processResults(AbstractCommandLineRunner.java:430)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:385)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.NullPointerException
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at com.google.javascript.jscomp.DefaultPassConfig$89$1.process(DefaultPassConfig.java:1314)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.IllegalStateException: Unrecognized property renaming policy
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Unrecognized property renaming policy
+	at com.google.javascript.jscomp.DefaultPassConfig.runPropertyRenaming(DefaultPassConfig.java:1246)
+	at com.google.javascript.jscomp.DefaultPassConfig.access$1700(DefaultPassConfig.java:2)
+	at com.google.javascript.jscomp.DefaultPassConfig$83$1.process(DefaultPassConfig.java:1224)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.NullPointerException
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.google.javascript.jscomp.DefaultPassConfig$91.createInternal(DefaultPassConfig.java:1337)
+	at com.google.javascript.jscomp.PassFactory.create(PassFactory.java:89)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.NullPointerException
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.google.javascript.jscomp.DefaultPassConfig$91.createInternal(DefaultPassConfig.java:1337)
+	at com.google.javascript.jscomp.PassFactory.create(PassFactory.java:89)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Unexpected variable String
+  Node(NAME String): input0:86:49
+[source unknown]
+  Parent(CALL): input0:86:55
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+Unexpected variable String
+  Node(NAME String): input0:86:49
+[source unknown]
+  Parent(CALL): input0:86:55
+[source unknown]
+
+	at com.google.javascript.jscomp.VarCheck.visit(VarCheck.java:170)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseFunction(NodeTraversal.java:502)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:449)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:275)
+	at com.google.javascript.jscomp.NodeTraversal.traverseRoots(NodeTraversal.java:431)
+	at com.google.javascript.jscomp.VarCheck.process(VarCheck.java:108)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.IllegalStateException: Unexpected variable String
+	... 25 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(VAR): input0:1:0
+[source unknown]
+  Parent(SCRIPT): input0:1:0
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(VAR): input0:1:0
+[source unknown]
+  Parent(SCRIPT): input0:1:0
+[source unknown]
+
+	at com.google.javascript.jscomp.NodeUtil.isForIn(NodeUtil.java:1549)
+	at com.google.javascript.jscomp.Denormalize.maybeCollapseIntoForStatements(Denormalize.java:37)
+	at com.google.javascript.jscomp.Denormalize.visit(Denormalize.java:21)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverse(NodeTraversal.java:249)
+	at com.google.javascript.jscomp.NodeTraversal.traverse(NodeTraversal.java:422)
+	at com.google.javascript.jscomp.Denormalize.process(Denormalize.java:11)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 19 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourceForModelledClass(SpoonedFile.java:162)
+	at fr.inria.lille.commons.spoon.SpoonedFile.sourcesForModelledClasses(SpoonedFile.java:171)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:153)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(BLOCK): input2:-1:-1
+[source unknown]
+  Parent(BLOCK): input2:-1:-1
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(BLOCK): input2:-1:-1
+[source unknown]
+  Parent(BLOCK): input2:-1:-1
+[source unknown]
+
+	at com.google.javascript.jscomp.CheckSideEffects.visit(CheckSideEffects.java:21)
+	at com.google.javascript.jscomp.CombinedCompilerPass$CallbackWrapper.visitOrMaybeActivate(CombinedCompilerPass.java:123)
+	at com.google.javascript.jscomp.CombinedCompilerPass.visit(CombinedCompilerPass.java:178)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverse(NodeTraversal.java:249)
+	at com.google.javascript.jscomp.NodeTraversal.traverse(NodeTraversal.java:422)
+	at com.google.javascript.jscomp.CombinedCompilerPass.process(CombinedCompilerPass.java:154)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.check(Compiler.java:723)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:642)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 17 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.processResults(AbstractCommandLineRunner.java:428)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:385)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(SCRIPT): input0:1:0
+[source unknown]
+  Parent(BLOCK): input0:-1:-1
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(SCRIPT): input0:1:0
+[source unknown]
+  Parent(BLOCK): input0:-1:-1
+[source unknown]
+
+	at com.google.javascript.jscomp.NodeUtil.isExprAssign(NodeUtil.java:1522)
+	at com.google.javascript.jscomp.PeepholeCollectPropertyAssignments.isPropertyAssignmentToName(PeepholeCollectPropertyAssignments.java:68)
+	at com.google.javascript.jscomp.PeepholeCollectPropertyAssignments.optimizeSubtree(PeepholeCollectPropertyAssignments.java:13)
+	at com.google.javascript.jscomp.PeepholeOptimizationsPass.visit(PeepholeOptimizationsPass.java:69)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverse(NodeTraversal.java:249)
+	at com.google.javascript.jscomp.PeepholeOptimizationsPass.process(PeepholeOptimizationsPass.java:57)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer$LoopInternal.process(PhaseOptimizer.java:334)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 19 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(GETPROP): input0:1:8
+[source unknown]
+  Parent(NAME x): input0:1:4
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(GETPROP): input0:1:8
+[source unknown]
+  Parent(NAME x): input0:1:4
+[source unknown]
+
+	at com.google.javascript.jscomp.ExploitAssigns.collapseAssign(ExploitAssigns.java:19)
+	at com.google.javascript.jscomp.ExploitAssigns.optimizeSubtree(ExploitAssigns.java:11)
+	at com.google.javascript.jscomp.PeepholeOptimizationsPass.visit(PeepholeOptimizationsPass.java:69)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverse(NodeTraversal.java:249)
+	at com.google.javascript.jscomp.PeepholeOptimizationsPass.process(PeepholeOptimizationsPass.java:57)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 20 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.RuntimeException: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.Compiler.runCallable(Compiler.java:619)
+	at com.google.javascript.jscomp.Compiler.runInCompilerThread(Compiler.java:565)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler.compile(Compiler.java:507)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:652)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: INTERNAL COMPILER ERROR.
+Please report this problem.
+null
+  Node(NAME f): input0:1:8
+[source unknown]
+  Parent(GETPROP): input0:1:8
+[source unknown]
+
+	at com.google.javascript.jscomp.StatementFusion.fuseIntoOneStatement(StatementFusion.java:44)
+	at com.google.javascript.jscomp.StatementFusion.optimizeSubtree(StatementFusion.java:9)
+	at com.google.javascript.jscomp.PeepholeOptimizationsPass.visit(PeepholeOptimizationsPass.java:69)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:464)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverseBranch(NodeTraversal.java:457)
+	at com.google.javascript.jscomp.NodeTraversal.traverse(NodeTraversal.java:249)
+	at com.google.javascript.jscomp.PeepholeOptimizationsPass.process(PeepholeOptimizationsPass.java:57)
+	at com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate.processInternal(PhaseOptimizer.java:271)
+	at com.google.javascript.jscomp.PhaseOptimizer$NamedPass.process(PhaseOptimizer.java:248)
+	at com.google.javascript.jscomp.PhaseOptimizer$LoopInternal.process(PhaseOptimizer.java:334)
+	at com.google.javascript.jscomp.PhaseOptimizer.process(PhaseOptimizer.java:167)
+	at com.google.javascript.jscomp.Compiler.optimize(Compiler.java:1565)
+	at com.google.javascript.jscomp.Compiler.compileInternal(Compiler.java:654)
+	at com.google.javascript.jscomp.Compiler.access$000(Compiler.java:68)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:550)
+	at com.google.javascript.jscomp.Compiler$1.call(Compiler.java:548)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:591)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	... 22 more
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+	at xxl.java.compiler.DynamicClassCompiler.runCompilationTask(DynamicClassCompiler.java:88)
+	at xxl.java.compiler.DynamicClassCompiler.javaBytecodeFor(DynamicClassCompiler.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compilationFor(SpoonedFile.java:177)
+	at fr.inria.lille.commons.spoon.SpoonedFile.compileModelledClasses(SpoonedFile.java:154)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processModelledClasses(SpoonedFile.java:138)
+	at fr.inria.lille.commons.spoon.SpoonedFile.process(SpoonedFile.java:128)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:119)
+	at fr.inria.lille.commons.spoon.SpoonedFile.processedAndDumpedToClassLoader(SpoonedFile.java:115)
+	at fr.inria.lille.repair.nopol.synth.brutpol.BrutSynthesizer.buildPatch(BrutSynthesizer.java:73)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:185)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:119)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:89)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:84)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException: in is null
+	at java.util.zip.ZipInputStream.<init>(ZipInputStream.java:100)
+	at java.util.zip.ZipInputStream.<init>(ZipInputStream.java:79)
+	at com.google.javascript.jscomp.CommandLineRunner.getDefaultExterns(CommandLineRunner.java:362)
+	at com.google.javascript.jscomp.CommandLineRunner.createExterns(CommandLineRunner.java:352)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:621)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:293)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.nio.charset.IllegalCharsetNameException: 
+	at java.nio.charset.Charset.checkName(Charset.java:308)
+	at java.nio.charset.Charset.lookup2(Charset.java:489)
+	at java.nio.charset.Charset.lookup(Charset.java:468)
+	at java.nio.charset.Charset.isSupported(Charset.java:510)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.getOutputCharset(AbstractCommandLineRunner.java:485)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.setRunOptions(AbstractCommandLineRunner.java:91)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:358)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.nio.charset.IllegalCharsetNameException: 
+	at java.nio.charset.Charset.checkName(Charset.java:308)
+	at java.nio.charset.Charset.lookup2(Charset.java:489)
+	at java.nio.charset.Charset.lookup(Charset.java:468)
+	at java.nio.charset.Charset.isSupported(Charset.java:510)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.getInputCharset(AbstractCommandLineRunner.java:475)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.setRunOptions(AbstractCommandLineRunner.java:92)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:358)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+java.lang.NullPointerException
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.createJsModules(AbstractCommandLineRunner.java:232)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.doRun(AbstractCommandLineRunner.java:371)
+	at com.google.javascript.jscomp.AbstractCommandLineRunner.run(AbstractCommandLineRunner.java:145)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.compile(CommandLineRunnerTest.java:949)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testES5StrictUseStrictMultipleInputs(CommandLineRunnerTest.java:799)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2016/05/16 15:20
+
+real	23m10.812s
+user	52m1.300s
+sys	0m32.424s

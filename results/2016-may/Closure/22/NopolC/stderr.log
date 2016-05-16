@@ -1,0 +1,55 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+java.lang.NullPointerException
+	at spoon.support.compiler.jdt.JDTTreeBuilder.hasTypeInImports(JDTTreeBuilder.java:415)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.getQualifiedTypeReference(JDTTreeBuilder.java:530)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:2257)
+	at org.eclipse.jdt.internal.compiler.ast.Argument.traverse(Argument.java:230)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:3058)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse(MethodDeclaration.java:327)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:3800)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse(TypeDeclaration.java:1319)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:748)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:709)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:436)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:124)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:107)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:44)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:50)
+	at fr.inria.lille.commons.spoon.SpoonedProject.<init>(SpoonedProject.java:17)
+	at fr.inria.lille.repair.nopol.NoPol.<init>(NoPol.java:78)
+	at fr.inria.lille.repair.nopol.NoPol.<init>(NoPol.java:84)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:78)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Exception in thread "main" java.lang.NoClassDefFoundError: spoon/reflect/factory/ClassFactory
+	at spoon.reflect.factory.FactoryImpl.Class(FactoryImpl.java:81)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.displayResult(NoPolLauncher.java:100)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:90)
+	at fr.inria.lille.repair.Main.main(Main.java:61)
+Caused by: java.lang.ClassNotFoundException: spoon.reflect.factory.ClassFactory
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+Caused by: java.util.zip.ZipException: error reading zip file
+	at java.util.zip.ZipFile.read(Native Method)
+	at java.util.zip.ZipFile.access$1400(ZipFile.java:56)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:679)
+	at java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:415)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at sun.misc.Resource.getBytes(Resource.java:124)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:444)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	... 10 more
+
+real	41m16.979s
+user	43m6.412s
+sys	0m7.000s

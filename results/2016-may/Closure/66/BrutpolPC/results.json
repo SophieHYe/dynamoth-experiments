@@ -1,0 +1,15 @@
+{
+    "date": "Tue May 17 00:38:59 CEST 2016\n\n", 
+    "executionTime": 240351, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 13, 
+    "node": "griffon-7.nancy.grid5000.fr", 
+    "patch": "this.inExterns", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.TypeCheck", 
+        "line": 822
+    }, 
+    "patchType": "PRECONDITION"
+}

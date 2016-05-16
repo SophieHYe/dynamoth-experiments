@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:05:24 CEST 2016\n\n", 
+    "executionTime": 260681, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 28, 
+    "nbSMTVariable": 50, 
+    "nbStatement": 14, 
+    "node": "grisou-38.nancy.grid5000.fr", 
+    "patch": "(!(fieldName.length() == (sourceName.length()) - (fieldName.length()))) || (com.google.javascript.rhino.jstype.JSTypeRegistry.this.namesToTypes.size() < sourceName.length() + sourceName.length())", 
+    "patchLocation": {
+        "className": "com.google.javascript.rhino.jstype.JSTypeRegistry", 
+        "line": 1655
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 22:18:08 CEST 2016\n\n", 
+    "executionTime": 438266, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 2, 
+    "node": "graphene-100.nancy.grid5000.fr", 
+    "patch": "isResultUsed", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.CheckSideEffects", 
+        "line": 121
+    }, 
+    "patchType": "CONDITIONAL"
+}

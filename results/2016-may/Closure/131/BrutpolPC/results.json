@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 22:34:56 CEST 2016\n\n", 
+    "executionTime": 339694, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 9, 
+    "node": "grisou-6.nancy.grid5000.fr", 
+    "patch": "this.isAdd()", 
+    "patchLocation": {
+        "className": "com.google.javascript.rhino.Node", 
+        "line": 1417
+    }, 
+    "patchType": "PRECONDITION"
+}

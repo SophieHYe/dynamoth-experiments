@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:00:41 CEST 2016\n\n", 
+    "executionTime": 1196920, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 7, 
+    "nbSMTVariable": 75, 
+    "nbStatement": 3, 
+    "node": "griffon-17.nancy.grid5000.fr", 
+    "patch": "(com.google.javascript.rhino.Node.SIDE_EFFECTS_FLAGS_MASK <= com.google.javascript.rhino.Node.this.sourcePosition) || (!(com.google.javascript.rhino.Node.this.propListHead!=null))", 
+    "patchLocation": {
+        "className": "com.google.javascript.rhino.Node", 
+        "line": 1430
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 20:14:39 CEST 2016\n\n", 
+    "executionTime": 207471, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 13, 
+    "nbSMTVariable": 30, 
+    "nbStatement": 19, 
+    "node": "griffon-6.nancy.grid5000.fr", 
+    "patch": "(((com.google.javascript.jscomp.RemoveUnusedVars.this.referenced.size()) != (com.google.javascript.jscomp.RemoveUnusedVars.this.allFunctionScopes.size() + com.google.javascript.jscomp.RemoveUnusedVars.this.maybeUnreferenced.size())) && (!(com.google.javascript.jscomp.RemoveUnusedVars.this.referenced.size() < com.google.javascript.jscomp.RemoveUnusedVars.this.maybeUnreferenced.size()))) || ((com.google.javascript.jscomp.RemoveUnusedVars.this.maybeUnreferenced.size()) - (-1) <= com.google.javascript.jscomp.RemoveUnusedVars.this.assignsByNode.size())", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.RemoveUnusedVars", 
+        "line": 735
+    }, 
+    "patchType": "CONDITIONAL"
+}

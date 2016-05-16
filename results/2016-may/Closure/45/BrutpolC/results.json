@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:57:35 CEST 2016\n\n", 
+    "executionTime": 219897, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 19, 
+    "node": "grisou-34.nancy.grid5000.fr", 
+    "patch": "true", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.RemoveUnusedVars", 
+        "line": 735
+    }, 
+    "patchType": "CONDITIONAL"
+}

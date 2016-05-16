@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 22:49:58 CEST 2016\n\n", 
+    "executionTime": 1888972, 
+    "nbAngelicValue": 0, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 1378, 
+    "node": "griffon-13.nancy.grid5000.fr", 
+    "patch": null, 
+    "patchLocation": {
+        "className": null, 
+        "line": null
+    }, 
+    "patchType": null
+}

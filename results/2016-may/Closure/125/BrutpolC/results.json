@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:37:35 CEST 2016\n\n", 
+    "executionTime": 695721, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 3, 
+    "node": "graphite-4.nancy.grid5000.fr", 
+    "patch": "outcome && (condition.getLineno() != 1)", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter", 
+        "line": 202
+    }, 
+    "patchType": "CONDITIONAL"
+}

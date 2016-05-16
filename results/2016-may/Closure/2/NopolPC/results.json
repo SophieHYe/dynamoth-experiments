@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:24:46 CEST 2016\n\n", 
+    "executionTime": 343073, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 19, 
+    "nbSMTVariable": 68, 
+    "nbStatement": 3, 
+    "node": "graphite-4.nancy.grid5000.fr", 
+    "patch": "1 < com.google.javascript.jscomp.TypeCheck.this.typedCount", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.TypeCheck", 
+        "line": 1664
+    }, 
+    "patchType": "PRECONDITION"
+}

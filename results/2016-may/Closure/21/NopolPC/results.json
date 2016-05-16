@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 21:13:47 CEST 2016\n\n", 
+    "executionTime": 413201, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 8, 
+    "nbSMTVariable": 23, 
+    "nbStatement": 2, 
+    "node": "griffon-28.nancy.grid5000.fr", 
+    "patch": "1 == com.google.javascript.jscomp.CheckSideEffects.this.problemNodes.size()", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.CheckSideEffects", 
+        "line": 121
+    }, 
+    "patchType": "PRECONDITION"
+}

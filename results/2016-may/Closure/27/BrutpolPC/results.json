@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 23:15:46 CEST 2016\n\n", 
+    "executionTime": 158957, 
+    "nbAngelicValue": 0, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 3, 
+    "node": "graphite-1.nancy.grid5000.fr", 
+    "patch": null, 
+    "patchLocation": {
+        "className": null, 
+        "line": null
+    }, 
+    "patchType": null
+}

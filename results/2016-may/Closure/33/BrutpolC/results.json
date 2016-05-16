@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 22:08:41 CEST 2016\n\n", 
+    "executionTime": 288010, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 8, 
+    "node": "grimoire-8.nancy.grid5000.fr", 
+    "patch": "this.nativeType == this.hasProperty((java.lang.String) prop)", 
+    "patchLocation": {
+        "className": "com.google.javascript.rhino.jstype.PrototypeObjectType", 
+        "line": 572
+    }, 
+    "patchType": "CONDITIONAL"
+}

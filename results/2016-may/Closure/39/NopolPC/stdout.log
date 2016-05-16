@@ -1,0 +1,31 @@
+/tmp/closure_39_NopolPC
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/tdurieux/projects/closure/closure_39;defects4j compile;cp -r /home/tdurieux/projects/closure/closure_39 /tmp/closure_39_NopolPC;cd /tmp/closure_39_NopolPC;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Closure/lib/* lib/;find . -type f -name "package-info.java" -delete;
+cd /tmp/closure_39_NopolPC;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/defects4j-repair/src/python/core/../../../libs/z3 lib/z3;time java -Xmx4096m -cp /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --mode repair --type precondition --oracle angelic --synthesis smt --solver z3 --solver-path /home/tdurieux/defects4j-repair/src/python/core/../../..//libs/z3/z3 --complianceLevel 6 --source /tmp/closure_39_NopolPC/src/ --classpath /tmp/closure_39_NopolPC/build/classes:/tmp/closure_39_NopolPC/build/test:/tmp/closure_39_NopolPC/build/lib/rhino.jar:/tmp/closure_39_NopolPC/lib/ant.jar:/tmp/closure_39_NopolPC/lib/ant-launcher.jar:/tmp/closure_39_NopolPC/lib/args4j.jar:/tmp/closure_39_NopolPC/lib/guava.jar:/tmp/closure_39_NopolPC/lib/jarjar.jar:/tmp/closure_39_NopolPC/lib/json.jar:/tmp/closure_39_NopolPC/lib/jsr305.jar:/tmp/closure_39_NopolPC/lib/junit.jar:/tmp/closure_39_NopolPC/lib/caja-r4314.jar:/tmp/closure_39_NopolPC/lib/protobuf-java.jar:/home/tdurieux/defects4j-repair/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/closure_39_NopolPC;
+
+Nb classes : 398
+Nb methods : 4577
+Nb statement executed by the passing tests of the patched line: 0
+Nb statement executed by the failing tests of the patched line: 0
+Nb statements: 41285
+Nb unit tests : 7367
+Nb Statements Analyzed : 520
+Nb Statements with Angelic Value Found : 0
+Nb inputs in SMT : 0
+Nb SMT level: 0
+Nb variables in SMT : 0
+Nb run failing test  : [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+Nb run passing test : [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+NoPol Execution time : 2373695ms
+
+
+Node: griffon-18.nancy.grid5000.fr
+
+
+Date: Mon May 16 21:38:57 CEST 2016
+
+

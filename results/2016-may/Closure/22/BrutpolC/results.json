@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 22:14:02 CEST 2016\n\n", 
+    "executionTime": 229304, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 6, 
+    "node": "grisou-17.nancy.grid5000.fr", 
+    "patch": "n.getBooleanProp((int) ancestorType)", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.CheckSideEffects", 
+        "line": 116
+    }, 
+    "patchType": "CONDITIONAL"
+}

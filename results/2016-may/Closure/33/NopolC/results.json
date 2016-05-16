@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 20:16:01 CEST 2016\n\n", 
+    "executionTime": 218078, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 12, 
+    "nbSMTVariable": 55, 
+    "nbStatement": 28, 
+    "node": "grimoire-3.nancy.grid5000.fr", 
+    "patch": "!(((0) != (com.google.javascript.jscomp.TypeCheck.this.noTypeCheckSection)) && ((com.google.javascript.jscomp.TypeCheck.this.typedCount + com.google.javascript.jscomp.TypeCheck.this.typedCount <= (com.google.javascript.jscomp.TypeCheck.OVERRIDING_PROTOTYPE_WITH_NON_OBJECT.length()) - (com.google.javascript.jscomp.TypeCheck.this.typedCount + com.google.javascript.jscomp.TypeCheck.this.typedCount)) || (-1 == com.google.javascript.jscomp.TypeCheck.this.noTypeCheckSection)))", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.TypeCheck", 
+        "line": 405
+    }, 
+    "patchType": "CONDITIONAL"
+}

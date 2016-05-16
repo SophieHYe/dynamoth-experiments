@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 22:43:10 CEST 2016\n\n", 
+    "executionTime": 430232, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 2, 
+    "node": "grisou-36.nancy.grid5000.fr", 
+    "patch": "blindScope == blindScope.optimize()", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter", 
+        "line": 203
+    }, 
+    "patchType": "PRECONDITION"
+}

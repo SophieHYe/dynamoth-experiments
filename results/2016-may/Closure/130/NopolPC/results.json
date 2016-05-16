@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 20:37:34 CEST 2016\n\n", 
+    "executionTime": 242568, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 7, 
+    "nbSMTVariable": 73, 
+    "nbStatement": 4, 
+    "node": "grimoire-4.nancy.grid5000.fr", 
+    "patch": "(com.google.javascript.rhino.Node.FLAG_THIS_UNMODIFIED < com.google.javascript.rhino.Node.this.sourcePosition) || (!(com.google.javascript.rhino.Node.this.propListHead!=null))", 
+    "patchLocation": {
+        "className": "com.google.javascript.rhino.Node", 
+        "line": 1417
+    }, 
+    "patchType": "PRECONDITION"
+}

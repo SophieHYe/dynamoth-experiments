@@ -1,0 +1,15 @@
+{
+    "date": "Mon May 16 20:29:58 CEST 2016\n\n", 
+    "executionTime": 1631175, 
+    "nbAngelicValue": 4, 
+    "nbSMTInput": 3, 
+    "nbSMTVariable": 19, 
+    "nbStatement": 28, 
+    "node": "grisou-1.nancy.grid5000.fr", 
+    "patch": "com.google.javascript.jscomp.FunctionInjector.this.assumeMinimumCapture", 
+    "patchLocation": {
+        "className": "com.google.javascript.jscomp.FunctionInjector", 
+        "line": 698
+    }, 
+    "patchType": "CONDITIONAL"
+}
