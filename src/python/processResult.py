@@ -11,6 +11,7 @@ from core.projects.LangProject import LangProject
 from core.projects.MathProject import MathProject
 from core.projects.ChartProject import ChartProject
 from core.projects.TimeProject import TimeProject
+from core.projects.ClosureProject import ClosureProject
 
 reload(sys)
 sys.setdefaultencoding('Cp1252')
@@ -59,6 +60,8 @@ def project_to_obj(project):
         return TimeProject()
     if project == "Chart":
         return ChartProject()
+    if project == "Closure":
+        return ClosureProject()
 
 
 def get_tool_name(tool):
@@ -175,6 +178,9 @@ for project in sorted(os.listdir(root)):
                         tool = get_tool_name(tool)
 
                         values = json.load(data_file)
+
+                        if 'nbAngelicValue' in values and values['nbAngelicValue'] is None:
+                            values['nbAngelicValue'] = 0
 
                         if tool in resultsBug and 'nbAngelicValue' in resultsBug[tool] and 'nbAngelicValue' in values:
                             resultsBug[tool]['nbAngelicValue'] += values['nbAngelicValue']

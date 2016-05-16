@@ -39,6 +39,7 @@ class Astor(Tool):
 		workdir = self.initTask(project, id)
 		cmd = 'cd ' + workdir +  ';'
 		cmd += 'export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;'
+		cmd += 'TZ="America/New_York"; export TZ'
 		cmd += 'export PATH="' + conf.javaHome8 + ':$PATH";'
 		cmd += 'time java %s -cp %s %s' % (conf.javaArgs, self.jar, self.main)
 		cmd += ' -mode ' + mode
@@ -50,6 +51,10 @@ class Astor(Tool):
 		cmd += ' -javacompliancelevel ' + str(project.complianceLevel[str(id)]['source'])
 		cmd += ' -maxgen ' + maxgen
 		cmd += ' -seed ' + seed
+		cmd += ' -maxtime %d ' % (60)
+		cmd += ' -scope local '
+		cmd += ' -stopfirst false'
+		cmd += ' -flthreshold 0'
 		cmd += ' -population ' + population 
 		cmd += ' -srcjavafolder ' + source['srcjava']
 		cmd += ' -srctestfolder ' + source['srctest']
