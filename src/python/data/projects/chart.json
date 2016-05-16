@@ -59,6 +59,10 @@
             "source": 4, 
             "target": 4
         }, 
+        "12": {
+            "source": 7, 
+            "target": 7
+        }, 
         "13": {
             "source": 4, 
             "target": 4
