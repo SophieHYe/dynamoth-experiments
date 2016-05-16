@@ -1072,16 +1072,23 @@
         }
     }, 
     "libs": [
-        "ant.jar", 
-        "ant-launcher.jar", 
+        "ant.jar",
+        "ant_deploy.jar",
+        "ant-launcher.jar",
         "args4j.jar", 
         "guava.jar", 
         "jarjar.jar", 
         "json.jar", 
         "jsr305.jar", 
         "junit.jar", 
-        "caja-r4314.jar", 
-        "protobuf-java.jar"
+        "caja-r4314.jar",
+        "protobuf_deploy.jar",
+        "protobuf-java.jar",
+        "google_common_deploy.jar",
+        "hamcrest-core-1.1.jar",
+        "junit4-core.jar",
+        "junit4-legacy.jar",
+        "libtrunk_rhino_parser_jarjared.jar"
     ], 
     "nbBugs": 133, 
     "package": "com.google", 

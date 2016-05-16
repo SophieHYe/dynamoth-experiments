@@ -31,7 +31,8 @@ class Nopol(Tool):
                 # source += " " + src['srctest']
                 break
         for lib in project.libs:
-            classpath += ":" + os.path.join(workdir, "lib", lib)
+            if os.path.exists(os.path.join(workdir, "lib", lib)):
+                classpath += ":" + os.path.join(workdir, "lib", lib)
         classpath += ":" + self.jar
         
         cmd = 'cd ' + workdir +  ';'
