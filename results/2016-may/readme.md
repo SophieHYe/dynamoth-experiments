@@ -1,7 +1,7 @@
 # All fixed bugs
 
- #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
----- | ----------------- | --------- | --------- | --------- | --------- | ------
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total|
+|---- | ----------------- | --------- | --------- | --------- | --------- | ------|
    1 | [C1](#chart-1)    | Yes       |           |           | No        |      1
    5 | [C5](#chart-5)    | Yes       |           |           | Yes       |      2
    6 | [C6](#chart-6)    | Yes       |           |           | No        |      1
@@ -103,6 +103,7 @@
  344 | [T14](#time-14)   | Yes       |           |           | No        |      1
  346 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
      | Total             | 92 (25%)  | 0 (0%)    | 0 (0%)    | 75 (21%)  |    167
+
 Fixed bugs: 100/357 (28%)
 
 Nb bugs ends with an execution error: 19
@@ -114,8 +115,8 @@ Nb bugs ends with the Grid5000 timeout: 49
 Total execution time: 6 days, 11:10:36.793000
 # All bugs
 
- #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
----- | ----------------- | --------- | --------- | --------- | --------- | ------
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total |
+|---- | ----------------- | --------- | --------- | --------- | --------- | ------|
    1 | [C1](#chart-1)    | Yes       |           |           | No        |      1
    2 | [C2](#chart-2)    | No        |           |           | No        |      0
    3 | [C3](#chart-3)    | No        |           |           | No        |      0
