@@ -1,7 +1,7 @@
 # All fixed bugs
 
- #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
----- | ----------------- | --------- | --------- | --------- | --------- | ------
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total |
+|---- | ----------------- | --------- | --------- | --------- | --------- | ------|
    1 | [C1](#chart-1)    | No        | Yes       | Yes       | No        |      2
    3 | [C3](#chart-3)    | No        | Yes       | No       | Yes       |      2
    5 | [C5](#chart-5)    | Yes       | Yes       | Yes       | Yes       |      4
@@ -60,6 +60,7 @@
  204 | [T7](#time-7)     | Yes       | No       | No       | No        |      1
  208 | [T11](#time-11)   | Yes       | Yes       | Yes       | Yes       |      4
      | Total             | 27 (12%)  | 30 (13%)  | 21 (9%)   | 37 (16%)  |    115
+     
 Fixed bugs: 57/224 (25%)
 
 Nb bugs ends with an execution error: 8
@@ -71,8 +72,8 @@ Nb bugs ends with the Grid5000 timeout: 21
 Total execution time: 23 days, 15:25:49.446000
 # All bugs
 
- #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
----- | ----------------- | --------- | --------- | --------- | --------- | ------
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total |
+|---- | ----------------- | --------- | --------- | --------- | --------- | ------|
    1 | [C1](#chart-1)    | No        | Yes       | Yes       | No        |      2
    2 | [C2](#chart-2)    | No        | No       | No       | No        |      0
    3 | [C3](#chart-3)    | No        | Yes       | No       | Yes       |      2
@@ -298,6 +299,7 @@ Total execution time: 23 days, 15:25:49.446000
  223 | [T26](#time-26)   | No        | No       | No       | No        |      0
  224 | [T27](#time-27)   | No        | No       | No       | No        |      0
      | Total             | 27 (12%)  | 30 (13%)  | 21 (9%)   | 37 (16%)  |    115
+     
 Fixed bugs: 57/224 (25%)
 
 Nb bugs ends with an execution error: 8
