@@ -40,7 +40,7 @@ totalExecutionTime = 0
 count = {}
 result = "# All fixed bugs\n\n"
 body = ""
-line = " #   | BugId             | "
+line = "| #   | BugId             | "
 texTable = """\\begin{table}[!t]
 \label{tab:bugs_summary}
 \centering
@@ -97,7 +97,7 @@ def getToolsHeader(tools, separator="|"):
 line += getToolsHeader(tools, "|")
 texTable += getToolsHeader(tools, "&")
 
-tableHeader = "%sTotal\n---- | ----------------- | " % line
+tableHeader = "%sTotal |\n----- | ----------------- | " % line
 texTable += "Total \\\\\n\\hline\n"
 for tool in tools:
     tool = get_tool_name(tool)
@@ -368,7 +368,7 @@ for project in sorted(os.listdir(root)):
                 if resultsBug[tool]["error"] != "TIMEOUT":
                     lineArgs += [resultsBug[tool]["error"]]
                 else:
-                    lineArgs += ["No"]
+                    lineArgs += ["T_OUT"]
                 texLineArgs += ["--"]
             else:
                 if "nbAngelicValue" in resultsBug[tool]:
