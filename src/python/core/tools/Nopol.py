@@ -45,11 +45,12 @@ class Nopol(Tool):
         cmd = 'cd ' + workdir +  ';'
         cmd += 'export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;'
         cmd += 'TZ="America/New_York"; export TZ'
-        cmd += 'export PATH="' + conf.javaHome + ':$PATH";'
+        cmd += 'export PATH="' + conf.javaHome8 + ':$PATH";'
         cmd += 'cp -r ' + conf.z3Root + ' lib/z3;'
         cmd += 'time java %s -cp %s:%s/../lib/tools.jar %s' % (conf.javaArgs, self.jar, conf.javaHome, self.main)
         cmd += ' --flocal gzoltar '
-        cmd += ' --maxTime 300 '
+        cmd += ' --maxTime 1000 '
+        cmd += ' --maxTimeType 20 '
         cmd += ' --json '
         cmd += ' --mode ' + mode
         cmd += ' --type ' + type
