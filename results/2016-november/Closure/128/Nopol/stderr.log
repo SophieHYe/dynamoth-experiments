@@ -1,0 +1,113 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Mar 02, 2017 6:24:06 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing { before function body
+var foo = {bar: function(e) }
+                            ^
+
+Mar 02, 2017 6:24:06 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing } after property list
+var foo = {bar: function(e) }
+                            ^
+
+Mar 02, 2017 6:24:06 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Mar 02, 2017 6:24:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Mar 02, 2017 6:24:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Mar 02, 2017 6:24:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Mar 02, 2017 6:24:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing { before function body
+var foo = {bar: function(e) }
+                            ^
+
+Mar 02, 2017 6:24:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing } after property list
+var foo = {bar: function(e) }
+                            ^
+
+Mar 02, 2017 6:24:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Mar 02, 2017 6:24:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Mar 02, 2017 6:24:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Mar 02, 2017 6:24:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Mar 02, 2017 6:24:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Mar 02, 2017 6:24:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Mar 02, 2017 6:24:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.head.Kit.codeBug(Kit.java:417)
+	at com.google.javascript.rhino.head.TokenStream.<init>(TokenStream.java:44)
+	at com.google.javascript.rhino.head.Parser.parse(Parser.java:474)
+	at com.google.javascript.jscomp.parsing.ParserRunner.parse(ParserRunner.java:140)
+	at com.google.javascript.jscomp.JsAst.parse(JsAst.java:86)
+	at com.google.javascript.jscomp.JsAst.getAstRoot(JsAst.java:52)
+	at com.google.javascript.jscomp.CompilerInput.getAstRoot(CompilerInput.java:116)
+	at com.google.javascript.jscomp.Compiler.parseTestCode(Compiler.java:1612)
+	at com.google.javascript.jscomp.CodePrinterTest.parse(CodePrinterTest.java:52)
+	at com.google.javascript.jscomp.CodePrinterTest.parse(CodePrinterTest.java:40)
+	at com.google.javascript.jscomp.CodePrinterTest.assertPrint(CodePrinterTest.java:464)
+	at com.google.javascript.jscomp.CodePrinterTest.testIssue942(CodePrinterTest.java:1423)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:23)
+	at xxl.java.junit.JUnitSingleTestRunner.call(JUnitSingleTestRunner.java:10)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+## OAR [2017-03-02 22:20:05] Job 1199449 KILLED ##

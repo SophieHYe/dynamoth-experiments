@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 06:08:39 UTC 2017", 
+    "executionTime": 283043, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 37, 
+    "nb_classes": 400, 
+    "nb_methods": 4549, 
+    "node": "griffon-28.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 17, 
+            "patch": "--- /tmp/closure_59_Brutpol/src/com/google/javascript/jscomp/WarningLevel.java\n+++ /tmp/closure_59_Brutpol/src/com/google/javascript/jscomp/WarningLevel.java\n@@ -78,3 +78,5 @@\n     options.checkSuspiciousCode = true;\n-    options.checkGlobalThisLevel = CheckLevel.WARNING;\n+    if (options.shouldColorizeErrorOutput()) {\n+      options.checkGlobalThisLevel = CheckLevel.WARNING;\n+    }\n     options.checkSymbols = true;\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.jscomp.WarningLevel", 
+                "line": 79
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

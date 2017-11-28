@@ -1,0 +1,61 @@
+cd /tmp/time_24_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZ;export PATH="/home/tdurieux/java-1.8.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 1000  --maxTimeType 20  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/time_24_Brutpol/src/main/java/ --classpath /tmp/time_24_Brutpol/build/classes/:/tmp/time_24_Brutpol/build/tests/:/tmp/time_24_Brutpol/lib/joda-convert-1.2.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+19:04:53.219 [pool-390043-thread-1] ERROR f.i.l.r.s.collect.DataCollector - Unable to invoke the method org.joda.time.chrono.BasicGJChronology.getDaysInYearMonth(int, int) [1, 1971]
+com.sun.jdi.InvocationException: Exception occurred in target VM
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:410) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector$2.call(DataCollector.java:433) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector$2.call(DataCollector.java:424) [nopol.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+19:04:53.297 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 156
+19:04:53.297 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 2834
+19:04:53.297 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 6341
+19:04:53.297 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 20
+19:04:53.297 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 7475622ms
+NO_SYNTHESIS
+19:04:53.359 [pool-148630-thread-1] ERROR f.i.l.r.s.collect.DataCollector - Unable to call the method org.joda.time.chrono.BasicGJChronology.getMonthOfYear(long, int)
+java.util.concurrent.ExecutionException: com.sun.jdi.VMDisconnectedException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206) [na:1.8.0_151]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.callMethod(DataCollector.java:452) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.callMethods(DataCollector.java:399) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collectMethods(DataCollector.java:281) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collectFieldAndMethodOnTheValueOf(DataCollector.java:154) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.recurse(DataCollector.java:138) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collect(DataCollector.java:121) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.collectRuntimeValues(DynamothCodeGenesisImpl.java:388) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processBreakPointEvents(DynamothCodeGenesisImpl.java:290) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processVMEvents(DynamothCodeGenesisImpl.java:187) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.run(DynamothCodeGenesisImpl.java:156) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.synth.dynamoth.DynamothSynthesizer.buildPatch(DynamothSynthesizer.java:150) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.NoPol.runNopolProcessor(NoPol.java:287) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.NoPol.access$000(NoPol.java:90) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.NoPol$1.call(NoPol.java:254) [nopol.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: com.sun.jdi.VMDisconnectedException: null
+	at com.sun.tools.jdi.TargetVM.waitForReply(TargetVM.java:304) ~[tools.jar:na]
+	at com.sun.tools.jdi.VirtualMachineImpl.waitForTargetReply(VirtualMachineImpl.java:1036) ~[tools.jar:na]
+	at com.sun.tools.jdi.PacketStream.waitForReply(PacketStream.java:69) ~[tools.jar:na]
+	at com.sun.tools.jdi.JDWP$ObjectReference$InvokeMethod.waitForReply(JDWP.java:4586) ~[tools.jar:na]
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:392) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector$2.call(DataCollector.java:433) ~[nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector$2.call(DataCollector.java:424) ~[nopol.jar:na]
+	... 4 common frames omitted
+
+
+Node: graphene-75.nancy.grid5000.fr
+
+
+Date: Mon Nov 27 19:04:53 EST 2017
+
+

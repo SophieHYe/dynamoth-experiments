@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 19:37:32 UTC 2017", 
+    "executionTime": 583774, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 1, 
+    "nb_classes": 601, 
+    "nb_methods": 4022, 
+    "node": "griffon-14.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 2, 
+            "patch": "--- /tmp/math_24_Brutpol/src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java\n+++ /tmp/math_24_Brutpol/src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java\n@@ -145,3 +145,5 @@\n                 for (int i = 1; i < f.length; i++) {\n-                    r += f[i].value(x);\n+                    if ((i != 1) || (0 <= r)) {\n+                        r += f[i].value(x);\n+                    }\n                 }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math3.analysis.FunctionUtils$4", 
+                "line": 146
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

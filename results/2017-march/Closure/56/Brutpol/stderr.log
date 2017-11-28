@@ -1,0 +1,44 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+Nov 28, 2017 2:28:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+Nov 28, 2017 2:28:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing testcode: Compilation produced 1 syntax errors. (testcode#1)
+305.18user 5.32system 1:58.87elapsed 261%CPU (0avgtext+0avgdata 3587540maxresident)k
+107192inputs+6512outputs (44major+1656716minor)pagefaults 0swaps

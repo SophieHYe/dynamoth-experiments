@@ -1,0 +1,20 @@
+{
+    "date": "Tue Nov 28 08:45:15 EST 2017", 
+    "executionTime": 37980, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 11, 
+    "nb_classes": 560, 
+    "nb_methods": 5878, 
+    "node": "graphene-46.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 12, 
+            "patch": "--- /tmp/chart_21_Brutpol/source/org/jfree/data/Range.java\n+++ /tmp/chart_21_Brutpol/source/org/jfree/data/Range.java\n@@ -334,3 +334,5 @@\n         if (!(this.lower == range.lower)) {\n-            return false;\n+            if (range.getLowerBound() == range.getLength()) {\n+                return false;\n+            }\n         }\n", 
+            "patchLocation": {
+                "class": "org.jfree.data.Range", 
+                "line": 335
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

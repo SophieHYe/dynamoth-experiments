@@ -1,0 +1,70 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: resolveTypes
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: inferTypes
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkTypes
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: replaceMessages
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: processDefines
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.Compiler externExports
+INFO: Creating extern file for exports
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:5: WARNING - Unable to determine return type for exported function internalName
+internalName = function(a) {  return 6;
+                       ^
+
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: resolveTypes
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: inferTypes
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkTypes
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: replaceMessages
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: processDefines
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.Compiler externExports
+INFO: Creating extern file for exports
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:5: WARNING - Unable to determine return type for exported function internalName
+internalName = function(a) {  return 6;
+
+Mar 04, 2017 6:00:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: resolveTypes
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: inferTypes
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkTypes
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: replaceMessages
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: processDefines
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.Compiler externExports
+INFO: Creating extern file for exports
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:5: WARNING - Unable to determine return type for exported function internalName
+internalName = function(a) {  return 6;
+                       ^
+
+Mar 04, 2017 6:01:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+390.15user 8.20system 2:24.64elapsed 275%CPU (0avgtext+0avgdata 3614508maxresident)k
+0inputs+5672outputs (0major+1648685minor)pagefaults 0swaps

@@ -1,0 +1,95 @@
+mkdir: cannot create directory ‘lib/’: File exists
+Running ant (compile)...................................................... FAIL
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Buildfile: /home/tdurieux/defects4j/framework/projects/defects4j.build.xml
+
+compile:
+
+gradle.compile:
+     [exec] /var/lib/oar/.batch_job_bashrc: line 5: /home/tdurieux/.bashrc: No such file or directory
+     [exec] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+     [exec] Downloading https://services.gradle.org/distributions/gradle-1.12-bin.zip
+     [exec] ........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+     [exec] Unzipping /tmp/mockito_10_Nopol/.gradle_local_home/wrapper/dists/gradle-1.12-bin/2qvnajdoo11hasdfkikjaci26k/gradle-1.12-bin.zip to /tmp/mockito_10_Nopol/.gradle_local_home/wrapper/dists/gradle-1.12-bin/2qvnajdoo11hasdfkikjaci26k
+     [exec] Set executable permissions for: /tmp/mockito_10_Nopol/.gradle_local_home/wrapper/dists/gradle-1.12-bin/2qvnajdoo11hasdfkikjaci26k/gradle-1.12/bin/gradle
+     [exec] Parallel execution is an incubating feature.
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-github/0.13.2/jcabi-github-0.13.2.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi/1.14/jcabi-1.14.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/parent/0.27.1/parent-0.27.1.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-aspects/0.17.1/jcabi-aspects-0.17.1.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi/1.11/jcabi-1.11.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/parent/0.24/parent-0.24.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-immutable/1.2/jcabi-immutable-1.2.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-xml/0.11/jcabi-xml-0.11.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-http/1.8/jcabi-http-1.8.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi/1.13/jcabi-1.13.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/parent/0.25/parent-0.25.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/incubator/xembly/0.17/xembly-0.17.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/parent/0.22/parent-0.22.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-manifests/1.0.3/jcabi-manifests-1.0.3.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-log/0.14.1/jcabi-log-0.14.1.pom
+     [exec] Download http://jcenter.bintray.com/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+     [exec] Download http://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+     [exec] Download http://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+     [exec] Download http://jcenter.bintray.com/org/aspectj/aspectjrt/1.8.1/aspectjrt-1.8.1.pom
+     [exec] Download http://jcenter.bintray.com/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+     [exec] Download http://jcenter.bintray.com/org/glassfish/json/1.0.4/json-1.0.4.pom
+     [exec] Download http://jcenter.bintray.com/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1.pom
+     [exec] Download http://jcenter.bintray.com/com/sun/jersey/jersey-project/1.18.1/jersey-project-1.18.1.pom
+     [exec] Download http://jcenter.bintray.com/com/sun/jersey/jersey-core/1.18.1/jersey-core-1.18.1.pom
+     [exec] Download http://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.pom
+     [exec] Download http://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.3/httpcomponents-core-4.3.pom
+     [exec] Download http://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3/httpclient-4.3.pom
+     [exec] Download http://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.3/httpcomponents-client-4.3.pom
+     [exec] Download http://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+     [exec] Download http://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+     [exec] Download http://jcenter.bintray.com/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-github/0.13.2/jcabi-github-0.13.2.jar
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-aspects/0.17.1/jcabi-aspects-0.17.1.jar
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-immutable/1.2/jcabi-immutable-1.2.jar
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-xml/0.11/jcabi-xml-0.11.jar
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-http/1.8/jcabi-http-1.8.jar
+     [exec] Download http://jcenter.bintray.com/com/jcabi/incubator/xembly/0.17/xembly-0.17.jar
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-manifests/1.0.3/jcabi-manifests-1.0.3.jar
+     [exec] Download http://jcenter.bintray.com/com/jcabi/jcabi-log/0.14.1/jcabi-log-0.14.1.jar
+     [exec] Download http://jcenter.bintray.com/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+     [exec] Download http://jcenter.bintray.com/org/aspectj/aspectjrt/1.8.1/aspectjrt-1.8.1.jar
+     [exec] Download http://jcenter.bintray.com/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+     [exec] Download http://jcenter.bintray.com/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1.jar
+     [exec] 
+     [exec] BUILD FAILED
+     [exec] 
+     [exec] Total time: 15 mins 24.227 secs
+     [exec] 
+     [exec] FAILURE: Build failed with an exception.
+     [exec] 
+     [exec] * What went wrong:
+     [exec] Could not resolve all dependencies for configuration ':runtime'.
+     [exec] > Could not download artifact 'com.sun.jersey:jersey-client:1.18.1:jersey-client.jar'
+     [exec]    > Premature end of Content-Length delimited message body (expected: 133906; received: 86771
+     [exec] 
+     [exec] * Try:
+     [exec] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+/home/tdurieux/defects4j/framework/projects/Mockito/Mockito.build.xml:130: The following error occurred while executing this line:
+/home/tdurieux/defects4j/framework/projects/Mockito/Mockito.build.xml:79: exec returned: 1
+
+Total time: 15 minutes 25 seconds
+Executed command:  cd /tmp/mockito_10_Nopol && ant -f /home/tdurieux/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/tdurieux/defects4j -Dbasedir=/tmp/mockito_10_Nopol  compile 2>&1
+Cannot compile sources! at /home/tdurieux/defects4j/framework/bin/d4j/d4j-compile line 82.
+Compilation failed in require at /home/tdurieux/defects4j/framework/bin/defects4j line 155.
+Traceback (most recent call last):
+  File "/home/tdurieux/dynamoth-experiments/src/python/core/../defects4j-g5k-node.py", line 68, in <module>
+    tool.run(project, id)
+  File "/home/tdurieux/dynamoth-experiments/src/python/core/tools/Nopol.py", line 18, in run
+    log = self.runNopol(project, id, mode="repair", type="pre_then_cond", oracle="angelic")
+  File "/home/tdurieux/dynamoth-experiments/src/python/core/tools/Nopol.py", line 25, in runNopol
+    workdir = self.initTask(project, id)
+  File "/home/tdurieux/dynamoth-experiments/src/python/core/Tool.py", line 34, in initTask
+    project.compile(workdir)
+  File "/home/tdurieux/dynamoth-experiments/src/python/core/projects/MockitoProject.py", line 19, in compile
+    return subprocess.check_call(cmd, shell=True)
+  File "/usr/lib/python2.7/subprocess.py", line 540, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/:$PATH";cd /tmp/mockito_10_Nopol;defects4j compile;' returned non-zero exit status 1

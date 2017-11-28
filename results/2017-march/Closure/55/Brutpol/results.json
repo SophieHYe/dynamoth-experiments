@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 06:12:25 UTC 2017", 
+    "executionTime": 148810, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 2, 
+    "nb_classes": 405, 
+    "nb_methods": 4642, 
+    "node": "griffon-12.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 2, 
+            "patch": "--- /tmp/closure_55_Brutpol/src/com/google/javascript/jscomp/FunctionRewriter.java\n+++ /tmp/closure_55_Brutpol/src/com/google/javascript/jscomp/FunctionRewriter.java\n@@ -450,3 +450,5 @@\n           NodeUtil.isThis(value.getFirstChild())) {\n-        return value.getLastChild();\n+        if (functionNode.getLineno() == 1) {\n+          return value.getLastChild();\n+        }\n       }\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.jscomp.FunctionRewriter$GetterReducer", 
+                "line": 451
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

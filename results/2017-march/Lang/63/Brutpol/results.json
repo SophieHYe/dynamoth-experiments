@@ -1,0 +1,20 @@
+{
+    "date": "Fri Mar 10 09:50:30 UTC 2017", 
+    "executionTime": 33922, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 1, 
+    "nb_classes": 77, 
+    "nb_methods": 1691, 
+    "node": "griffon-25.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 1, 
+            "patch": "--- /tmp/lang_63_Brutpol/src/java/org/apache/commons/lang/time/DurationFormatUtils.java\n+++ /tmp/lang_63_Brutpol/src/java/org/apache/commons/lang/time/DurationFormatUtils.java\n@@ -437,3 +437,5 @@\n             int newdiff = startValue - endValue;\n-            end.add( field, newdiff );\n+            if (newdiff == 0) {\n+                end.add( field, newdiff );\n+            }\n             return newdiff;\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.lang.time.DurationFormatUtils", 
+                "line": 438
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

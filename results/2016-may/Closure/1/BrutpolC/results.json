@@ -1,4 +1,5 @@
 {
+<<<<<<< 33ef2eac11d886a5cf13d11806b7024dbab625c7
     "date": "Mon May 16 23:06:59 CEST 2016\n\n", 
     "executionTime": 2272832, 
     "nbAngelicValue": 2, 
@@ -6,6 +7,15 @@
     "nbSMTVariable": null, 
     "nbStatement": 107, 
     "node": "griffon-8.nancy.grid5000.fr", 
+=======
+    "date": "lundi 16 mai 2016, 10:22:01 (UTC-0500)\n\n", 
+    "executionTime": 22178, 
+    "nbAngelicValue": 0, 
+    "nbSMTInput": null, 
+    "nbSMTVariable": null, 
+    "nbStatement": 0, 
+    "node": "tdurieux", 
+>>>>>>> new results
     "patch": null, 
     "patchLocation": {
         "className": null, 

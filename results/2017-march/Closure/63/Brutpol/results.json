@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 06:01:17 UTC 2017", 
+    "executionTime": 137509, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 2, 
+    "nb_classes": 396, 
+    "nb_methods": 4488, 
+    "node": "griffon-10.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 5, 
+            "patch": "--- /tmp/closure_63_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java\n+++ /tmp/closure_63_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java\n@@ -96,4 +96,3 @@\n       // at the end of the line\n-      if (excerpt.equals(LINE)\n-          && 0 <= charno && charno < sourceExcerpt.length()) {\n+      if (error.equals((java.lang.Object) error)) {\n         for (int i = 0; i < charno; i++) {\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.jscomp.LightweightMessageFormatter", 
+                "line": 97
+            }, 
+            "patchType": "CONDITIONAL"
+        }
+    ]
+}

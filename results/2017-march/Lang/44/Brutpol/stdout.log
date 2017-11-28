@@ -1,0 +1,40 @@
+cd /tmp/lang_44_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 3 --source /tmp/lang_44_Brutpol/src/java/ --classpath /tmp/lang_44_Brutpol/target/classes/:/tmp/lang_44_Brutpol/target/tests/:/tmp/lang_44_Brutpol/lib/asm.jar:/tmp/lang_44_Brutpol/lib/cglib.jar:/tmp/lang_44_Brutpol/lib/commons-io.jar:/tmp/lang_44_Brutpol/lib/easymock.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+09:50:22.542 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 85
+09:50:22.543 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1887
+09:50:22.543 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 7
+09:50:22.543 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+09:50:22.543 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 26087ms
+09:50:22.543 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+09:50:22.543 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - exp == dec
+09:50:22.577 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 3
+09:50:22.578 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.lang.NumberUtils:193: CONDITIONAL
+09:50:22.598 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/lang_44_Brutpol/src/java/org/apache/commons/lang/NumberUtils.java
++++ /tmp/lang_44_Brutpol/src/java/org/apache/commons/lang/NumberUtils.java
+@@ -192,5 +192,3 @@
+                 case 'L' :
+-                    if (dec == null
+-                        && exp == null
+-                        && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
++                    if (exp == dec) {
+                         try {
+@@ -201,3 +199,3 @@
+                         return createBigInteger(numeric);
+-
++                        
+                     }
+
+PATCH
+
+
+Node: grisou-47.nancy.grid5000.fr
+
+
+Date: Fri Mar 10 10:50:22 CET 2017
+
+

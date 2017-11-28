@@ -1,0 +1,35 @@
+cd /tmp/chart_21_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZ;export PATH="/home/tdurieux/jdk1.8.0_151/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 1000  --maxTimeType 20  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source /tmp/chart_21_Brutpol/source/ --classpath /tmp/chart_21_Brutpol/build/:/tmp/chart_21_Brutpol/build-tests/:/tmp/chart_21_Brutpol/lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:/tmp/chart_21_Brutpol/lib/servlet.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+08:45:15.326 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 560
+08:45:15.326 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5878
+08:45:15.326 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 11
+08:45:15.326 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+08:45:15.326 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 37980ms
+08:45:15.326 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+08:45:15.326 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - range.getLowerBound() == range.getLength()
+08:45:15.421 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 12
+08:45:15.421 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.jfree.data.Range:335: PRECONDITION
+08:45:15.435 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/chart_21_Brutpol/source/org/jfree/data/Range.java
++++ /tmp/chart_21_Brutpol/source/org/jfree/data/Range.java
+@@ -334,3 +334,5 @@
+         if (!(this.lower == range.lower)) {
+-            return false;
++            if (range.getLowerBound() == range.getLength()) {
++                return false;
++            }
+         }
+
+PATCH
+
+
+Node: graphene-46.nancy.grid5000.fr
+
+
+Date: Tue Nov 28 08:45:15 EST 2017
+
+

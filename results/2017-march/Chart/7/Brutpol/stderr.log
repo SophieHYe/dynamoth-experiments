@@ -1,0 +1,9 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Chart/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Command exited with non-zero status 255
+9895.52user 1436.44system 2:18:46elapsed 136%CPU (0avgtext+0avgdata 4515464maxresident)k
+7616inputs+148224outputs (8major+3169640minor)pagefaults 0swaps

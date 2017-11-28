@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 23:17:54 UTC 2017", 
+    "executionTime": 944080, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 8, 
+    "nb_classes": 714, 
+    "nb_methods": 4789, 
+    "node": "griffon-2.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 45, 
+            "patch": "--- /tmp/math_5_Brutpol/src/main/java/org/apache/commons/math3/complex/Complex.java\n+++ /tmp/math_5_Brutpol/src/main/java/org/apache/commons/math3/complex/Complex.java\n@@ -344,3 +344,3 @@\n             Complex c = (Complex)other;\n-            if (c.isNaN) {\n+            if (this.isNaN) {\n                 return isNaN;\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math3.complex.Complex", 
+                "line": 345
+            }, 
+            "patchType": "CONDITIONAL"
+        }
+    ]
+}

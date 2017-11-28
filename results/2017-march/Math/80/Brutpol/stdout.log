@@ -1,0 +1,111 @@
+cd /tmp/math_80_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/math_80_Brutpol/src/main/java/ --classpath /tmp/math_80_Brutpol/target/classes/:/tmp/math_80_Brutpol/target/test-classes/:/tmp/math_80_Brutpol/lib/commons-discovery-0.5.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+14:57:44.788 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 393
+14:57:44.788 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 2898
+14:57:44.788 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 13
+14:57:44.788 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 2
+14:57:44.788 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 353932ms
+14:57:44.788 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+14:57:44.788 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - step == j
+14:57:44.916 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 1
+14:57:44.917 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.math.linear.EigenDecompositionImpl:1137: PRECONDITION
+14:57:45.043 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/math_80_Brutpol/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ /tmp/math_80_Brutpol/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1136,6 +1136,8 @@
+             for (int i = 0; i < j; i += 4) {
+-                for (int k = 0; k < 4; k += step) {
+-                    final double tmp = work[i + k];
+-                    work[i + k] = work[j - k];
+-                    work[j - k] = tmp;
++                if (step == j) {
++                    for (int k = 0; k < 4; k += step) {
++                        final double tmp = work[i + k];
++                        work[i + k] = work[j - k];
++                        work[j - k] = tmp;
++                    }
+                 }
+
+14:57:45.137 [pool-49-thread-1] ERROR f.i.l.r.s.collect.DataCollector - Unable to call the method org.apache.commons.math.linear.EigenDecompositionImpl.goodStep(int, int)
+java.util.concurrent.ExecutionException: com.sun.jdi.VMDisconnectedException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) [na:1.7.0_121]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:202) [na:1.7.0_121]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.callMethod(DataCollector.java:452) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.callMethods(DataCollector.java:399) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collectMethods(DataCollector.java:281) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collectFieldAndMethodOnTheValueOf(DataCollector.java:154) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.recurse(DataCollector.java:138) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collect(DataCollector.java:121) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.collectRuntimeValues(DynamothCodeGenesisImpl.java:388) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processBreakPointEvents(DynamothCodeGenesisImpl.java:290) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processVMEvents(DynamothCodeGenesisImpl.java:187) [nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.run(DynamothCodeGenesisImpl.java:156) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.synth.dynamoth.DynamothSynthesizer.buildPatch(DynamothSynthesizer.java:150) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.NoPol.runNopolProcessor(NoPol.java:244) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.NoPol.access$000(NoPol.java:68) [nopol.jar:na]
+	at fr.inria.lille.repair.nopol.NoPol$1.call(NoPol.java:211) [nopol.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_121]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_121]
+Caused by: com.sun.jdi.VMDisconnectedException: null
+	at com.sun.tools.jdi.TargetVM.waitForReply(TargetVM.java:304) ~[tools.jar:na]
+	at com.sun.tools.jdi.VirtualMachineImpl.waitForTargetReply(VirtualMachineImpl.java:1036) ~[tools.jar:na]
+	at com.sun.tools.jdi.PacketStream.waitForReply(PacketStream.java:69) ~[tools.jar:na]
+	at com.sun.tools.jdi.JDWP$ObjectReference$InvokeMethod.waitForReply(JDWP.java:4586) ~[tools.jar:na]
+	at com.sun.tools.jdi.ObjectReferenceImpl.invokeMethod(ObjectReferenceImpl.java:392) ~[tools.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector$2.call(DataCollector.java:433) ~[nopol.jar:na]
+	at fr.inria.lille.repair.synthesis.collect.DataCollector$2.call(DataCollector.java:424) ~[nopol.jar:na]
+	... 4 common frames omitted
+
+
+========= Info ==========
+Nb constants             42
+Nb method invocations    21
+Nb field access          11
+Nb variables             4
+Total                    78
+Nb evaluated expressions 0
+Init Execution time      6804 ms
+Collect Execution time   298811 ms
+Combine Execution time   2.0 ms
+Nb Combination par sec   0 combinations/sec
+Total Execution time     305617 ms
+Nb line execution        5
+Nb results               0
+
+Results:
+
+
+========================
+         Stat
+========================
+Operators: 
+MINUS 4
+LT 3
+PLUS 3
+MUL 3
+Methods: 
+Variable: 
+work 12
+k 6
+j 4
+i 4
+pingPong 4
+n 2
+tmp 1
+step 1
+
+ & 42 & 21 & 11 & 4 & 78 & 0 & 305619 ms & 5 &
+
+
+Node: griffon-14.nancy.grid5000.fr
+
+
+Date: Sat Mar  4 15:57:45 CET 2017
+
+

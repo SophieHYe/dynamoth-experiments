@@ -1,0 +1,7 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+Command exited with non-zero status 255
+1226.96user 55.88system 25:38.77elapsed 83%CPU (0avgtext+0avgdata 3567024maxresident)k
+105376inputs+18576outputs (42major+1468005minor)pagefaults 0swaps

@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 12:55:31 UTC 2017", 
+    "executionTime": 60924, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 4, 
+    "nb_classes": 156, 
+    "nb_methods": 2872, 
+    "node": "griffon-22.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 63, 
+            "patch": "--- /tmp/time_14_Brutpol/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java\n+++ /tmp/time_14_Brutpol/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java\n@@ -209,3 +209,3 @@\n             // month is largest field and being added to, such as month-day\n-        if (DateTimeUtils.isContiguous(partial)) {\n+        if (partial.getValue((int) 1) <= this.iMax) {\n             long instant = 0L;\n", 
+            "patchLocation": {
+                "class": "org.joda.time.chrono.BasicMonthOfYearDateTimeField", 
+                "line": 210
+            }, 
+            "patchType": "CONDITIONAL"
+        }
+    ]
+}

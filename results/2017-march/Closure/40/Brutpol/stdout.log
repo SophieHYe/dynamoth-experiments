@@ -1,0 +1,42 @@
+cd /tmp/closure_40_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 6 --source /tmp/closure_40_Brutpol/src/ --classpath /tmp/closure_40_Brutpol/build/classes:/tmp/closure_40_Brutpol/build/test:/tmp/closure_40_Brutpol/build/lib/rhino.jar:/tmp/closure_40_Brutpol/lib/ant.jar:/tmp/closure_40_Brutpol/lib/ant-launcher.jar:/tmp/closure_40_Brutpol/lib/args4j.jar:/tmp/closure_40_Brutpol/lib/guava.jar:/tmp/closure_40_Brutpol/lib/jarjar.jar:/tmp/closure_40_Brutpol/lib/json.jar:/tmp/closure_40_Brutpol/lib/jsr305.jar:/tmp/closure_40_Brutpol/lib/junit.jar:/tmp/closure_40_Brutpol/lib/caja-r4314.jar:/tmp/closure_40_Brutpol/lib/protobuf-java.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+08:35:05.328 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 395
+08:35:05.329 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4551
+08:35:05.329 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 8
+08:35:05.329 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+08:35:05.329 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 199536ms
+08:35:05.329 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+08:35:05.329 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.isAdd()
+08:35:08.295 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 3
+08:35:08.295 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - com.google.javascript.rhino.Node:1412: PRECONDITION
+08:35:08.430 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/closure_40_Brutpol/src/com/google/javascript/rhino/Node.java
++++ /tmp/closure_40_Brutpol/src/com/google/javascript/rhino/Node.java
+@@ -1411,7 +1411,9 @@
+       if (diff != null) {
+-        return "Node tree inequality:" +
+-            "\nTree1:\n" + toStringTree() +
+-            "\n\nTree2:\n" + node2.toStringTree() +
+-            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
+-            "\n\nSubtree2: " + diff.nodeB.toStringTree();
++        if (this.isAdd()) {
++          return "Node tree inequality:" +
++          "\nTree1:\n" + toStringTree() +
++          "\n\nTree2:\n" + node2.toStringTree() +
++          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
++          "\n\nSubtree2: " + diff.nodeB.toStringTree();
++        }
+       }
+
+
+
+Node: griffon-20.nancy.grid5000.fr
+
+
+Date: Sat Mar  4 09:35:12 CET 2017
+
+

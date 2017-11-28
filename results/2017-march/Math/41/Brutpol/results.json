@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 17:35:05 UTC 2017", 
+    "executionTime": 299115, 
+    "nbAngelicValue": 3, 
+    "nbStatement": 4, 
+    "nb_classes": 578, 
+    "nb_methods": 3768, 
+    "node": "griffon-15.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 3, 
+            "patch": "--- /tmp/math_41_Brutpol/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java\n+++ /tmp/math_41_Brutpol/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java\n@@ -520,3 +520,5 @@\n                 for (int i = 0; i < weights.length; i++) {\n-                    sumWts += weights[i];\n+                    if (mean <= length) {\n+                        sumWts += weights[i];\n+                    }\n                 }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+                "line": 521
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

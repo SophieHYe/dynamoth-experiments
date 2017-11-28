@@ -1,0 +1,23 @@
+cd /tmp/chart_19_Nopol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/home/tdurieux/jdk1.7.0_79/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/home/tdurieux/jdk1.7.0_79/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis smt --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source /tmp/chart_19_Nopol/source/ --classpath /tmp/chart_19_Nopol/build/:/tmp/chart_19_Nopol/build-tests/:/tmp/chart_19_Nopol/lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:/tmp/chart_19_Nopol/lib/servlet.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+06:47:19.609 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 579
+06:47:19.609 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 6183
+06:47:19.609 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 17294
+06:47:19.609 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+06:47:19.609 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+06:47:19.611 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+06:47:19.611 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+06:47:19.611 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 6439458ms
+
+
+Node: graphene-78.nancy.grid5000.fr
+
+
+Date: Fri Mar  3 07:47:20 CET 2017
+
+

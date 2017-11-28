@@ -1,0 +1,21 @@
+cd /tmp/closure_106_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZ;export PATH="/home/tdurieux/java-1.8.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 1000  --maxTimeType 20  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 7 --source /tmp/closure_106_Brutpol/src/ --classpath /tmp/closure_106_Brutpol/build/classes:/tmp/closure_106_Brutpol/build/test:/tmp/closure_106_Brutpol/lib/junit.jar:/tmp/closure_106_Brutpol/lib/google_common_deploy.jar:/tmp/closure_106_Brutpol/lib/libtrunk_rhino_parser_jarjared.jar:/tmp/closure_106_Brutpol/lib/google_compiled_protos_deploy.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+16:07:38.179 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 298
+16:07:38.179 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 3127
+16:07:38.179 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 227
+16:07:38.179 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 11
+16:07:38.179 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 147922ms
+NO_SYNTHESIS
+
+
+Node: graphene-127.nancy.grid5000.fr
+
+
+Date: Mon Nov 27 16:07:38 EST 2017
+
+

@@ -1,0 +1,103 @@
+mkdir: cannot create directory ‘lib/’: File exists
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+spoon.compiler.ModelBuildingException: The type LocalizedMatcher must implement the inherited abstract method Matcher.describeMismatch(Object, Description) at /tmp/mockito_32_Nopol/src/org/mockito/internal/matchers/LocalizedMatcher.java:13
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:579)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:560)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:121)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:102)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:62)
+	at fr.inria.lille.commons.spoon.SpoonedProject.<init>(SpoonedProject.java:17)
+	at fr.inria.lille.repair.nopol.NoPol.<init>(NoPol.java:100)
+	at fr.inria.lille.repair.Main$1.call(Main.java:90)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+spoon.compiler.ModelBuildingException: The type LocalizedMatcher must implement the inherited abstract method Matcher.describeMismatch(Object, Description) at /tmp/mockito_32_Nopol/src/org/mockito/internal/matchers/LocalizedMatcher.java:13
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:579)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:560)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:121)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:102)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:62)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:14)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:47)
+	at fr.inria.lille.repair.nopol.NoPol.runOnStatement(NoPol.java:175)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:166)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:133)
+	at fr.inria.lille.repair.Main$1.call(Main.java:91)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+spoon.compiler.ModelBuildingException: The type LocalizedMatcher must implement the inherited abstract method Matcher.describeMismatch(Object, Description) at /tmp/mockito_32_Nopol/src/org/mockito/internal/matchers/LocalizedMatcher.java:13
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:579)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:560)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:121)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:102)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:62)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:14)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:47)
+	at fr.inria.lille.repair.nopol.NoPol.runOnStatement(NoPol.java:175)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:166)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:133)
+	at fr.inria.lille.repair.Main$1.call(Main.java:91)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+spoon.compiler.ModelBuildingException: The type LocalizedMatcher must implement the inherited abstract method Matcher.describeMismatch(Object, Description) at /tmp/mockito_32_Nopol/src/org/mockito/internal/matchers/LocalizedMatcher.java:13
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:579)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:560)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:121)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:102)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:62)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:14)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:47)
+	at fr.inria.lille.repair.nopol.NoPol.runOnStatement(NoPol.java:175)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:166)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:133)
+	at fr.inria.lille.repair.Main$1.call(Main.java:91)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+spoon.compiler.ModelBuildingException: The type LocalizedMatcher must implement the inherited abstract method Matcher.describeMismatch(Object, Description) at /tmp/mockito_32_Nopol/src/org/mockito/internal/matchers/LocalizedMatcher.java:13
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:579)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:560)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:121)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:102)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:62)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:14)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:47)
+	at fr.inria.lille.repair.nopol.NoPol.runOnStatement(NoPol.java:175)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:166)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:133)
+	at fr.inria.lille.repair.Main$1.call(Main.java:91)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+The system is out of resources.
+Consult the following stack trace for details.
+java.lang.OutOfMemoryError: PermGen space
+java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: PermGen space
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+	at fr.inria.lille.repair.Main.main(Main.java:98)
+Caused by: java.lang.OutOfMemoryError: PermGen space
+
+Usage: java -jar nopol.jar
+                          [(-m|--mode) <repair|ranking>] [(-e|--type) <pre_then_cond|loop|condition|precondition|arithmetic>] [(-o|--oracle) <angelic|symbolic>] [(-y|--synthesis) <smt|dynamoth>] [(-l|--solver) <z3|cvc4>] [(-p|--solver-path) <solverPath>] (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> [(-t|--test) test1:test2:...:testN ] [--complianceLevel <complianceLevel>] [--maxTime <maxTime>] [--maxTimeType <maxTimeType>] [(-z|--flocal) < ochiai|dumb|gzoltar>] [--output <outputFolder>] [--json[:<outputJson>]]
+
+Exception in thread "main" java.lang.OutOfMemoryError: PermGen space
+## OAR [2017-03-02 22:18:03] Job 1199412 KILLED ##

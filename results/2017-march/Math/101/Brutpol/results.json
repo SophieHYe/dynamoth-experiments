@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 14:02:24 UTC 2017", 
+    "executionTime": 40406, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 33, 
+    "nb_classes": 223, 
+    "nb_methods": 1419, 
+    "node": "griffon-11.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 24, 
+            "patch": "--- /tmp/math_101_Brutpol/src/java/org/apache/commons/math/complex/ComplexFormat.java\n+++ /tmp/math_101_Brutpol/src/java/org/apache/commons/math/complex/ComplexFormat.java\n@@ -377,4 +377,3 @@\n         if (\n-            source.substring(startIndex, endIndex).compareTo(\n-            getImaginaryCharacter()) != 0) {\n+            startIndex == source.length()) {\n             // set index back to initial, error index should be the start index\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.complex.ComplexFormat", 
+                "line": 377
+            }, 
+            "patchType": "CONDITIONAL"
+        }
+    ]
+}

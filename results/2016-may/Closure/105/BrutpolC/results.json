@@ -1,11 +1,20 @@
 {
+<<<<<<< 33ef2eac11d886a5cf13d11806b7024dbab625c7
     "date": "Tue May 17 00:15:29 CEST 2016\n\n", 
     "executionTime": 24592, 
+=======
+    "date": "lundi 16 mai 2016, 16:43:36 (UTC-0500)\n\n", 
+    "executionTime": 35944, 
+>>>>>>> new results
     "nbAngelicValue": 0, 
     "nbSMTInput": null, 
     "nbSMTVariable": null, 
     "nbStatement": 0, 
+<<<<<<< 33ef2eac11d886a5cf13d11806b7024dbab625c7
     "node": "grisou-38.nancy.grid5000.fr", 
+=======
+    "node": "tdurieux", 
+>>>>>>> new results
     "patch": null, 
     "patchLocation": {
         "className": null, 

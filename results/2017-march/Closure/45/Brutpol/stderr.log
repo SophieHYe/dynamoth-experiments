@@ -1,0 +1,8 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+439.56user 9.16system 2:44.51elapsed 272%CPU (0avgtext+0avgdata 3792320maxresident)k
+0inputs+6344outputs (0major+1699117minor)pagefaults 0swaps

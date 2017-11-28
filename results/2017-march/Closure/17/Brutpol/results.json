@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 09:51:58 UTC 2017", 
+    "executionTime": 249632, 
+    "nbAngelicValue": 3, 
+    "nbStatement": 5, 
+    "nb_classes": 403, 
+    "nb_methods": 4723, 
+    "node": "griffon-22.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 29, 
+            "patch": "--- /tmp/closure_17_Brutpol/src/com/google/javascript/jscomp/TypedScopeCreator.java\n+++ /tmp/closure_17_Brutpol/src/com/google/javascript/jscomp/TypedScopeCreator.java\n@@ -1290,3 +1290,3 @@\n             if (rValue != null) {\n-              if (rValue.getJSType() != null && !rValue.getJSType().isUnknownType()) {\n+              if (lValue.getIndexOfChild((com.google.javascript.rhino.Node) rValue) == rValue.getChildCount()) {\n                 // If rValue has a type-cast, we use the type in the type-cast.\n@@ -1303,6 +1303,6 @@\n                 boolean namesMatch = firstClause.isName()\n-                    && lValue.isName()\n-                    && firstClause.getString().equals(lValue.getString());\n+                && lValue.isName()\n+                && firstClause.getString().equals(lValue.getString());\n                 if (namesMatch && secondClause.getJSType() != null\n-                    && !secondClause.getJSType().isUnknownType()) {\n+                && !secondClause.getJSType().isUnknownType()) {\n                   return secondClause.getJSType();\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder", 
+                "line": 1291
+            }, 
+            "patchType": "CONDITIONAL"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+cd /tmp/chart_9_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source /tmp/chart_9_Brutpol/source/ --classpath /tmp/chart_9_Brutpol/build/:/tmp/chart_9_Brutpol/build-tests/:/tmp/chart_9_Brutpol/lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:/tmp/chart_9_Brutpol/lib/servlet.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+04:16:21.336 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 580
+04:16:21.336 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 6290
+04:16:21.336 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 2
+04:16:21.336 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 2
+04:16:21.336 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 60939ms
+04:16:21.336 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+04:16:21.336 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - endIndex < startIndex
+04:16:21.535 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 4
+04:16:21.535 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.jfree.data.time.TimeSeries:947: CONDITIONAL
+04:16:21.611 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/chart_9_Brutpol/source/org/jfree/data/time/TimeSeries.java
++++ /tmp/chart_9_Brutpol/source/org/jfree/data/time/TimeSeries.java
+@@ -946,3 +946,3 @@
+         }
+-        if (emptyRange) {
++        if (endIndex < startIndex) {
+             TimeSeries copy = (TimeSeries) super.clone();
+
+
+
+Node: griffon-22.nancy.grid5000.fr
+
+
+Date: Sun Mar  5 05:16:22 CET 2017
+
+

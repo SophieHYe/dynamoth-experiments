@@ -1,0 +1,9 @@
+{
+    "date": "Mon Nov 27 16:37:52 EST 2017", 
+    "executionTime": 1951562, 
+    "nbAngelicValue": 0, 
+    "nbStatement": 4618, 
+    "nb_classes": 333, 
+    "nb_methods": 3542, 
+    "node": "graphite-1.nancy.grid5000.fr\n"
+}

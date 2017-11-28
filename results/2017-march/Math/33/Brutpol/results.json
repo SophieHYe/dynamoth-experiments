@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 18:14:21 UTC 2017", 
+    "executionTime": 582048, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 3, 
+    "nb_classes": 574, 
+    "nb_methods": 3747, 
+    "node": "griffon-11.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 5, 
+            "patch": "--- /tmp/math_33_Brutpol/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java\n+++ /tmp/math_33_Brutpol/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java\n@@ -338,3 +338,5 @@\n             if (Precision.compareTo(entry, 0d, maxUlps) > 0) {\n-                columnsToDrop.add(i);\n+                if (this.restrictToNonNegative == this.isOptimal()) {\n+                    columnsToDrop.add(i);\n+                }\n             }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math3.optimization.linear.SimplexTableau", 
+                "line": 339
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

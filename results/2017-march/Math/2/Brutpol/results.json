@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 23:26:45 UTC 2017", 
+    "executionTime": 438827, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 2, 
+    "nb_classes": 747, 
+    "nb_methods": 4947, 
+    "node": "griffon-2.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 19, 
+            "patch": "--- /tmp/math_2_Brutpol/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java\n+++ /tmp/math_2_Brutpol/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java\n@@ -279,3 +279,5 @@\n         if (!numericalVarianceIsCalculated) {\n-            numericalVariance = calculateNumericalVariance();\n+            if (this.numberOfSuccesses == this.getSupportUpperBound()) {\n+                numericalVariance = calculateNumericalVariance();\n+            }\n             numericalVarianceIsCalculated = true;\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+                "line": 280
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

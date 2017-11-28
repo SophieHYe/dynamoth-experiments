@@ -1,0 +1,20 @@
+{
+    "date": "Mon Nov 27 15:58:35 EST 2017", 
+    "executionTime": 41520, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 58, 
+    "nb_classes": 247, 
+    "nb_methods": 1617, 
+    "node": "graphene-6.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 38, 
+            "patch": "--- /tmp/math_96_Brutpol/src/java/org/apache/commons/math/complex/Complex.java\n+++ /tmp/math_96_Brutpol/src/java/org/apache/commons/math/complex/Complex.java\n@@ -247,3 +247,3 @@\n         \n-        if (this == other) { \n+        if (this.imaginary == (this.abs() / this.imaginary)) {\n             ret = true;\n@@ -257,3 +257,3 @@\n                 } else {\n-                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary())); \n+                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary()));\n                 }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.complex.Complex", 
+                "line": 248
+            }, 
+            "patchType": "CONDITIONAL"
+        }
+    ]
+}

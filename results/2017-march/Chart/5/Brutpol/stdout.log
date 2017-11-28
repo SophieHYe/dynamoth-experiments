@@ -1,0 +1,32 @@
+cd /tmp/chart_5_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source /tmp/chart_5_Brutpol/source/ --classpath /tmp/chart_5_Brutpol/build/:/tmp/chart_5_Brutpol/build-tests/:/tmp/chart_5_Brutpol/lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:/tmp/chart_5_Brutpol/lib/servlet.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+05:58:36.854 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 596
+05:58:36.854 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 6707
+05:58:36.855 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 5
+05:58:36.855 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+05:58:36.855 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 56047ms
+05:58:36.855 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+05:58:36.855 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.equals((java.lang.Object) x)
+05:58:37.081 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 6
+05:58:37.081 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.jfree.data.xy.XYSeries:563: CONDITIONAL
+05:58:37.124 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/chart_5_Brutpol/source/org/jfree/data/xy/XYSeries.java
++++ /tmp/chart_5_Brutpol/source/org/jfree/data/xy/XYSeries.java
+@@ -562,3 +562,3 @@
+             // append the value to the list...
+-            if (this.autoSort) {
++            if (this.equals((java.lang.Object) x)) {
+                 this.data.add(-index - 1, new XYDataItem(x, y));
+
+
+
+Node: griffon-11.nancy.grid5000.fr
+
+
+Date: Sun Mar  5 06:58:37 CET 2017
+
+

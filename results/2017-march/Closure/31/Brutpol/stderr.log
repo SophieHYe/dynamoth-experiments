@@ -1,0 +1,14 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/03/04 01:12
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/03/04 01:12
+464.50user 9.47system 2:49.52elapsed 279%CPU (0avgtext+0avgdata 3972380maxresident)k
+0inputs+6384outputs (0major+1862871minor)pagefaults 0swaps

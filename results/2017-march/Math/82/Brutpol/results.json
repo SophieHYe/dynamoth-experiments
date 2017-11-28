@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 14:53:11 UTC 2017", 
+    "executionTime": 365071, 
+    "nbAngelicValue": 2, 
+    "nbStatement": 38, 
+    "nb_classes": 388, 
+    "nb_methods": 2885, 
+    "node": "griffon-28.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 14, 
+            "patch": "--- /tmp/math_82_Brutpol/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java\n+++ /tmp/math_82_Brutpol/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java\n@@ -62,3 +62,5 @@\n             if (MathUtils.compareTo(tableau.getEntry(0, i), minValue, epsilon) < 0) {\n-                minValue = tableau.getEntry(0, i);\n+                if (this.isOptimal((org.apache.commons.math.optimization.linear.SimplexTableau) tableau)) {\n+                    minValue = tableau.getEntry(0, i);\n+                }\n                 minPos = i;\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+                "line": 63
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 17:40:39 UTC 2017", 
+    "executionTime": 411945, 
+    "nbAngelicValue": 2, 
+    "nbStatement": 25, 
+    "nb_classes": 578, 
+    "nb_methods": 3764, 
+    "node": "griffon-20.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 19, 
+            "patch": "--- /tmp/math_40_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java\n+++ /tmp/math_40_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java\n@@ -316,3 +316,5 @@\n             System.arraycopy(x, signChangeIndex, x, signChangeIndex + 1, nbPoints - signChangeIndex);\n-            x[signChangeIndex] = nextX;\n+            if (this.DEFAULT_ABSOLUTE_ACCURACY <= org.apache.commons.math.util.FastMath.max((double) xA, (double) yB)) {\n+                x[signChangeIndex] = nextX;\n+            }\n             System.arraycopy(y, signChangeIndex, y, signChangeIndex + 1, nbPoints - signChangeIndex);\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 
+                "line": 317
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

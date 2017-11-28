@@ -1,0 +1,8 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+282.26user 5.19system 1:52.92elapsed 254%CPU (0avgtext+0avgdata 3472460maxresident)k
+106008inputs+8704outputs (44major+1597037minor)pagefaults 0swaps

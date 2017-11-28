@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 14:57:45 UTC 2017", 
+    "executionTime": 353932, 
+    "nbAngelicValue": 2, 
+    "nbStatement": 13, 
+    "nb_classes": 393, 
+    "nb_methods": 2898, 
+    "node": "griffon-14.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 1, 
+            "patch": "--- /tmp/math_80_Brutpol/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java\n+++ /tmp/math_80_Brutpol/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java\n@@ -1136,6 +1136,8 @@\n             for (int i = 0; i < j; i += 4) {\n-                for (int k = 0; k < 4; k += step) {\n-                    final double tmp = work[i + k];\n-                    work[i + k] = work[j - k];\n-                    work[j - k] = tmp;\n+                if (step == j) {\n+                    for (int k = 0; k < 4; k += step) {\n+                        final double tmp = work[i + k];\n+                        work[i + k] = work[j - k];\n+                        work[j - k] = tmp;\n+                    }\n                 }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1137
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "date": "Sun Mar 05 04:00:55 UTC 2017", 
+    "executionTime": 51469, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 1, 
+    "nb_classes": 579, 
+    "nb_methods": 6214, 
+    "node": "griffon-28.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 4, 
+            "patch": "--- /tmp/chart_17_Brutpol/source/org/jfree/data/time/TimeSeries.java\n+++ /tmp/chart_17_Brutpol/source/org/jfree/data/time/TimeSeries.java\n@@ -879,3 +879,5 @@\n         if (end < start) {\n-            throw new IllegalArgumentException(\"Requires start <= end.\");\n+            if (end == 0) {\n+                throw new IllegalArgumentException(\"Requires start <= end.\");\n+            }\n         }\n", 
+            "patchLocation": {
+                "class": "org.jfree.data.time.TimeSeries", 
+                "line": 880
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 13:13:52 UTC 2017", 
+    "executionTime": 73817, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 14, 
+    "nb_classes": 157, 
+    "nb_methods": 2880, 
+    "node": "griffon-20.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 75, 
+            "patch": "--- /tmp/time_4_Brutpol/src/main/java/org/joda/time/Partial.java\n+++ /tmp/time_4_Brutpol/src/main/java/org/joda/time/Partial.java\n@@ -458,3 +458,5 @@\n             newTypes[i] = fieldType;\n-            newValues[i] = value;\n+            if (fieldType != fieldType.clockhourOfDay()) {\n+                newValues[i] = value;\n+            }\n             System.arraycopy(iTypes, i, newTypes, i + 1, newTypes.length - i - 1);\n", 
+            "patchLocation": {
+                "class": "org.joda.time.Partial", 
+                "line": 459
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+cd /tmp/math_5_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/math_5_Brutpol/src/main/java/ --classpath /tmp/math_5_Brutpol/target/classes/:/tmp/math_5_Brutpol/target/test-classes/:/tmp/math_5_Brutpol/lib/commons-discovery-0.5.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+23:17:54.679 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 714
+23:17:54.679 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4789
+23:17:54.679 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 8
+23:17:54.679 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+23:17:54.679 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 944080ms
+23:17:54.679 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+23:17:54.679 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.isNaN
+23:17:54.902 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 45
+23:17:54.902 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.math3.complex.Complex:345: CONDITIONAL
+23:17:54.976 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/math_5_Brutpol/src/main/java/org/apache/commons/math3/complex/Complex.java
++++ /tmp/math_5_Brutpol/src/main/java/org/apache/commons/math3/complex/Complex.java
+@@ -344,3 +344,3 @@
+             Complex c = (Complex)other;
+-            if (c.isNaN) {
++            if (this.isNaN) {
+                 return isNaN;
+
+
+
+Node: griffon-2.nancy.grid5000.fr
+
+
+Date: Sun Mar  5 00:17:55 CET 2017
+
+

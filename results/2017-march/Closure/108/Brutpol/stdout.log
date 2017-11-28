@@ -1,0 +1,21 @@
+cd /tmp/closure_108_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZ;export PATH="/home/tdurieux/java-1.8.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 1000  --maxTimeType 20  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 7 --source /tmp/closure_108_Brutpol/src/ --classpath /tmp/closure_108_Brutpol/build/classes:/tmp/closure_108_Brutpol/build/test:/tmp/closure_108_Brutpol/build/lib/rhino.jar:/tmp/closure_108_Brutpol/lib/ant.jar:/tmp/closure_108_Brutpol/lib/ant-launcher.jar:/tmp/closure_108_Brutpol/lib/args4j.jar:/tmp/closure_108_Brutpol/lib/guava.jar:/tmp/closure_108_Brutpol/lib/jarjar.jar:/tmp/closure_108_Brutpol/lib/json.jar:/tmp/closure_108_Brutpol/lib/jsr305.jar:/tmp/closure_108_Brutpol/lib/junit.jar:/tmp/closure_108_Brutpol/lib/caja-r4314.jar:/tmp/closure_108_Brutpol/lib/protobuf-java.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+03:05:55.230 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 543
+03:05:55.230 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5974
+03:05:55.230 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 2898
+03:05:55.230 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+03:05:55.231 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2472147ms
+NO_SYNTHESIS
+
+
+Node: graphene-78.nancy.grid5000.fr
+
+
+Date: Tue Nov 28 03:05:55 EST 2017
+
+

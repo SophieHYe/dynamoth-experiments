@@ -1,0 +1,20 @@
+{
+    "date": "Tue Nov 28 08:46:01 EST 2017", 
+    "executionTime": 148420, 
+    "nbAngelicValue": 2, 
+    "nbStatement": 17, 
+    "nb_classes": 581, 
+    "nb_methods": 6306, 
+    "node": "graphene-82.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 56, 
+            "patch": "--- /tmp/chart_6_Brutpol/source/org/jfree/chart/util/AbstractObjectList.java\n+++ /tmp/chart_6_Brutpol/source/org/jfree/chart/util/AbstractObjectList.java\n@@ -193,3 +193,5 @@\n            if (!ObjectUtilities.equal(get(i), other.get(i))) {\n-               return false;\n+               if ((i + 1) != (this.DEFAULT_INITIAL_CAPACITY / listSize)) {\n+                   return false;\n+               }\n            }\n", 
+            "patchLocation": {
+                "class": "org.jfree.chart.util.AbstractObjectList", 
+                "line": 194
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

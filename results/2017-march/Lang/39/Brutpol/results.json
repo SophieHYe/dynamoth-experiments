@@ -1,0 +1,20 @@
+{
+    "date": "Tue Nov 28 08:45:31 EST 2017", 
+    "executionTime": 50111, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 29, 
+    "nb_classes": 79, 
+    "nb_methods": 1689, 
+    "node": "graphene-43.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 2, 
+            "patch": "--- /tmp/lang_39_Brutpol/src/java/org/apache/commons/lang3/StringUtils.java\n+++ /tmp/lang_39_Brutpol/src/java/org/apache/commons/lang3/StringUtils.java\n@@ -3674,6 +3674,8 @@\n         // count the replacement text elements that are larger than their corresponding text being replaced\n-        for (int i = 0; i < searchList.length; i++) {\n-            int greater = replacementList[i].length() - searchList[i].length();\n-            if (greater > 0) {\n-                increase += 3 * greater; // assume 3 matches\n+        if (repeat) {\n+            for (int i = 0; i < searchList.length; i++) {\n+                int greater = replacementList[i].length() - searchList[i].length();\n+                if (greater > 0) {\n+                    increase += 3 * greater; // assume 3 matches\n+                }\n             }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.lang3.StringUtils", 
+                "line": 3675
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

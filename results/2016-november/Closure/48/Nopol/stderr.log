@@ -1,0 +1,433 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 8 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 8 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 6 invalidated properties, 0 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 0 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 4 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 4 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 3 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 0 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 5 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 5 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 4 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 5 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 5 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 5 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 1 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 1 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 1 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 6 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 6 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 3 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 3 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 4 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 6 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 2 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 4 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 8 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 8 instances of 2 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 2 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 2 instances of 1 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 1 properties that were referenced from only one type.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Renamed 0 instances of 0 properties.
+Mar 02, 2017 7:26:37 PM com.google.javascript.jscomp.DisambiguateProperties renameProperties
+INFO: Skipped renaming 0 invalidated properties, 1 instances of properties that were skipped for specific types and 0 properties that were referenced from only one type.
+Mar 02, 2017 7:26:38 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+^
+
+Mar 02, 2017 7:26:38 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+               ^
+
+Mar 02, 2017 7:26:38 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 87.5% typed
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable x is undeclared
+/** @constructor */ var DomHelper = function(){};DomHelper.prototype.method = function() {   this.field = 3;  return x.field;}
+                                                                                                                     ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 83.3% typed
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - cannot instantiate non-constructor
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                                                                                             ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 75% typed
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                        ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                           ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                              ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                        ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                           ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                              ^
+
+Mar 02, 2017 7:26:39 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+^
+
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+               ^
+
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 87.5% typed
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable x is undeclared
+/** @constructor */ var DomHelper = function(){};DomHelper.prototype.method = function() {   this.field = 3;  return x.field;}
+                                                                                                                     ^
+
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 83.3% typed
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                ^
+
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - cannot instantiate non-constructor
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                                                                                             ^
+
+Mar 02, 2017 7:26:43 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 75% typed
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                        ^
+
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                           ^
+
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                              ^
+
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                        ^
+
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                           ^
+
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                              ^
+
+Mar 02, 2017 7:26:44 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+## OAR [2017-03-02 23:21:48] Job 1199593 KILLED ##

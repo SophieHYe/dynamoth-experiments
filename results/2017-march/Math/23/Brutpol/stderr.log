@@ -1,0 +1,28 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+com.sun.jdi.ClassNotPreparedException
+	at com.sun.tools.jdi.JDWPException.toJDIException(JDWPException.java:51)
+	at com.sun.tools.jdi.ReferenceTypeImpl.getInterfaces(ReferenceTypeImpl.java:572)
+	at com.sun.tools.jdi.InterfaceTypeImpl.superinterfaces(InterfaceTypeImpl.java:50)
+	at com.sun.tools.jdi.InterfaceTypeImpl.addVisibleMethods(InterfaceTypeImpl.java:90)
+	at com.sun.tools.jdi.ReferenceTypeImpl.visibleMethods(ReferenceTypeImpl.java:526)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.getMethods(DataCollector.java:323)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collectStaticMethods(DataCollector.java:303)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collect(DataCollector.java:118)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.collectRuntimeValues(DynamothCodeGenesisImpl.java:388)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processBreakPointEvents(DynamothCodeGenesisImpl.java:290)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processVMEvents(DynamothCodeGenesisImpl.java:187)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.run(DynamothCodeGenesisImpl.java:156)
+	at fr.inria.lille.repair.nopol.synth.dynamoth.DynamothSynthesizer.buildPatch(DynamothSynthesizer.java:150)
+	at fr.inria.lille.repair.nopol.NoPol.runNopolProcessor(NoPol.java:287)
+	at fr.inria.lille.repair.nopol.NoPol.access$000(NoPol.java:90)
+	at fr.inria.lille.repair.nopol.NoPol$1.call(NoPol.java:254)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Command exited with non-zero status 255
+8237.59user 922.93system 2:06:28elapsed 120%CPU (0avgtext+0avgdata 5057156maxresident)k
+104176inputs+222368outputs (44major+3585126minor)pagefaults 0swaps

@@ -1,0 +1,41 @@
+cd /tmp/lang_39_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZ;export PATH="/home/tdurieux/jdk1.8.0_151/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 1000  --maxTimeType 20  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/lang_39_Brutpol/src/java/ --classpath /tmp/lang_39_Brutpol/target/classes/:/tmp/lang_39_Brutpol/target/test-classes/:/tmp/lang_39_Brutpol/lib/asm.jar:/tmp/lang_39_Brutpol/lib/cglib.jar:/tmp/lang_39_Brutpol/lib/commons-io.jar:/tmp/lang_39_Brutpol/lib/easymock.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+08:45:31.452 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 79
+08:45:31.452 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1689
+08:45:31.452 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 29
+08:45:31.452 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+08:45:31.452 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 50111ms
+08:45:31.452 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+08:45:31.452 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - repeat
+08:45:31.466 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 2
+08:45:31.466 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.lang3.StringUtils:3675: PRECONDITION
+08:45:31.563 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/lang_39_Brutpol/src/java/org/apache/commons/lang3/StringUtils.java
++++ /tmp/lang_39_Brutpol/src/java/org/apache/commons/lang3/StringUtils.java
+@@ -3674,6 +3674,8 @@
+         // count the replacement text elements that are larger than their corresponding text being replaced
+-        for (int i = 0; i < searchList.length; i++) {
+-            int greater = replacementList[i].length() - searchList[i].length();
+-            if (greater > 0) {
+-                increase += 3 * greater; // assume 3 matches
++        if (repeat) {
++            for (int i = 0; i < searchList.length; i++) {
++                int greater = replacementList[i].length() - searchList[i].length();
++                if (greater > 0) {
++                    increase += 3 * greater; // assume 3 matches
++                }
+             }
+
+PATCH
+
+
+Node: graphene-43.nancy.grid5000.fr
+
+
+Date: Tue Nov 28 08:45:32 EST 2017
+
+

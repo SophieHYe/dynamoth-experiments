@@ -1,0 +1,20 @@
+cd /tmp/chart_23_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source /tmp/chart_23_Brutpol/source/ --classpath /tmp/chart_23_Brutpol/build/:/tmp/chart_23_Brutpol/build-tests/:/tmp/chart_23_Brutpol/lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:/tmp/chart_23_Brutpol/lib/servlet.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+05:59:00.852 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 560
+05:59:00.852 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5869
+05:59:00.852 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 16298
+05:59:00.853 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+05:59:00.853 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 7790477ms
+
+
+Node: griffon-23.nancy.grid5000.fr
+
+
+Date: Sun Mar  5 06:59:01 CET 2017
+
+

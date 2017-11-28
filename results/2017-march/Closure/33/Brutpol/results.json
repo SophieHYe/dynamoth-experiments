@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 09:13:45 UTC 2017", 
+    "executionTime": 200799, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 3, 
+    "nb_classes": 400, 
+    "nb_methods": 4617, 
+    "node": "griffon-5.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 13, 
+            "patch": "--- /tmp/closure_33_Brutpol/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java\n+++ /tmp/closure_33_Brutpol/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java\n@@ -575,3 +575,5 @@\n           }\n-          defineInferredProperty(prop, typeToInfer, null);\n+          if (propType.isNumberValueType() || propType.isUnionType()) {\n+            defineInferredProperty(prop, typeToInfer, null);\n+          }\n         }\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.rhino.jstype.PrototypeObjectType", 
+                "line": 576
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

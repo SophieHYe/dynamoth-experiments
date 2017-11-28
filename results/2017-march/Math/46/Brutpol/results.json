@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 17:17:10 UTC 2017", 
+    "executionTime": 232770, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 1, 
+    "nb_classes": 571, 
+    "nb_methods": 3599, 
+    "node": "griffon-28.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 4, 
+            "patch": "--- /tmp/math_46_Brutpol/src/main/java/org/apache/commons/math/complex/Complex.java\n+++ /tmp/math_46_Brutpol/src/main/java/org/apache/commons/math/complex/Complex.java\n@@ -259,3 +259,5 @@\n             // return isZero ? NaN : INF; // See MATH-657\n-            return isZero ? NaN : INF;\n+            if (this.real == this.imaginary) {\n+                return isZero ? NaN : INF;\n+            }\n         }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.complex.Complex", 
+                "line": 260
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

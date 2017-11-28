@@ -1,0 +1,38 @@
+cd /tmp/math_96_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZ;export PATH="/home/tdurieux/java-1.8.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 1000  --maxTimeType 20  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/math_96_Brutpol/src/java/ --classpath /tmp/math_96_Brutpol/target/classes/:/tmp/math_96_Brutpol/target/test-classes/:/tmp/math_96_Brutpol/lib/commons-discovery-0.5.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+15:58:35.279 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 247
+15:58:35.279 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1617
+15:58:35.279 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 58
+15:58:35.279 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+15:58:35.279 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 41520ms
+15:58:35.279 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+15:58:35.279 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.imaginary == (this.abs() / this.imaginary)
+15:58:35.295 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 38
+15:58:35.296 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.math.complex.Complex:248: CONDITIONAL
+15:58:35.312 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/math_96_Brutpol/src/java/org/apache/commons/math/complex/Complex.java
++++ /tmp/math_96_Brutpol/src/java/org/apache/commons/math/complex/Complex.java
+@@ -247,3 +247,3 @@
+         
+-        if (this == other) { 
++        if (this.imaginary == (this.abs() / this.imaginary)) {
+             ret = true;
+@@ -257,3 +257,3 @@
+                 } else {
+-                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary())); 
++                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary()));
+                 }
+
+PATCH
+
+
+Node: graphene-6.nancy.grid5000.fr
+
+
+Date: Mon Nov 27 15:58:35 EST 2017
+
+

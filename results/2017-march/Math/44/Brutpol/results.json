@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 17:32:18 UTC 2017", 
+    "executionTime": 514855, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 255, 
+    "nb_classes": 587, 
+    "nb_methods": 3744, 
+    "node": "griffon-20.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 137, 
+            "patch": "--- /tmp/math_44_Brutpol/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java\n+++ /tmp/math_44_Brutpol/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java\n@@ -286,3 +286,5 @@\n                 }\n-                statesInitialized = true;\n+                if (currentT <= y.length) {\n+                    statesInitialized = true;\n+                }\n             }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 287
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

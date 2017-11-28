@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 17:03:50 UTC 2017", 
+    "executionTime": 238859, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 2, 
+    "nb_classes": 569, 
+    "nb_methods": 3619, 
+    "node": "griffon-12.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 1, 
+            "patch": "--- /tmp/math_50_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java\n+++ /tmp/math_50_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java\n@@ -187,3 +187,5 @@\n                     if (x == x1) {\n-                        x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));\n+                        if (this.isBracketing((double) x0, (double) f0)) {\n+                            x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));\n+                        }\n                         f0 = computeObjectiveValue(x0);\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.analysis.solvers.BaseSecantSolver", 
+                "line": 188
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

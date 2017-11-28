@@ -1,0 +1,36 @@
+cd /tmp/math_87_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/math_87_Brutpol/src/java/ --classpath /tmp/math_87_Brutpol/target/classes/:/tmp/math_87_Brutpol/target/test-classes/:/tmp/math_87_Brutpol/lib/commons-discovery-0.5.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+14:41:27.689 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 362
+14:41:27.689 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 2695
+14:41:27.690 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 54
+14:41:27.690 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 2
+14:41:27.690 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 88790ms
+14:41:27.690 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+14:41:27.690 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - coefficients.getDimension() != 1
+14:41:27.838 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 12
+14:41:27.838 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.math.optimization.linear.SimplexTableau:261: PRECONDITION
+14:41:27.868 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/math_87_Brutpol/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
++++ /tmp/math_87_Brutpol/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+@@ -260,4 +260,6 @@
+         double sum = 0;
+-        for (double coefficient : coefficients.getData()) {
+-            sum -= coefficient;
++        if (coefficients.getDimension() != 1) {
++            for (double coefficient : coefficients.getData()) {
++                sum -= coefficient;
++            }
+         }
+
+
+
+Node: griffon-10.nancy.grid5000.fr
+
+
+Date: Sat Mar  4 15:41:28 CET 2017
+
+

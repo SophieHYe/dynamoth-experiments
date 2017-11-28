@@ -1,0 +1,20 @@
+{
+    "date": "Mon Nov 27 15:59:02 EST 2017", 
+    "executionTime": 64148, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 8, 
+    "nb_classes": 416, 
+    "nb_methods": 3017, 
+    "node": "graphene-66.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 11, 
+            "patch": "--- /tmp/math_69_Brutpol/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java\n+++ /tmp/math_69_Brutpol/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java\n@@ -192,3 +192,5 @@\n               outMatrix.setEntry(i, j, corr);\n-              outMatrix.setEntry(j, i, corr);\n+              if (outMatrix.getDeterminant() != matrix.getEntry((int) j, (int) 0)) {\n+                  outMatrix.setEntry(j, i, corr);\n+              }\n             }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.stat.correlation.PearsonsCorrelation", 
+                "line": 193
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

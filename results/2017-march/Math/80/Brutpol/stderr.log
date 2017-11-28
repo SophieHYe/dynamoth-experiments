@@ -1,0 +1,33 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+com.sun.jdi.VMDisconnectedException: connection is closed
+	at com.sun.tools.jdi.TargetVM.send(TargetVM.java:293)
+	at com.sun.tools.jdi.VirtualMachineImpl.sendToTarget(VirtualMachineImpl.java:1032)
+	at com.sun.tools.jdi.PacketStream.send(PacketStream.java:59)
+	at com.sun.tools.jdi.JDWP$EventRequest$Set.enqueueCommand(JDWP.java:6763)
+	at com.sun.tools.jdi.JDWP$EventRequest$Set.process(JDWP.java:6733)
+	at com.sun.tools.jdi.EventRequestManagerImpl$EventRequestImpl.set(EventRequestManagerImpl.java:202)
+	at com.sun.tools.jdi.EventRequestManagerImpl$EventRequestImpl.setEnabled(EventRequestManagerImpl.java:166)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.enableEventRequest(DataCollector.java:539)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.callMethod(DataCollector.java:475)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.callMethods(DataCollector.java:399)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collectMethods(DataCollector.java:281)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collectFieldAndMethodOnTheValueOf(DataCollector.java:154)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.recurse(DataCollector.java:138)
+	at fr.inria.lille.repair.synthesis.collect.DataCollector.collect(DataCollector.java:121)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.collectRuntimeValues(DynamothCodeGenesisImpl.java:388)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processBreakPointEvents(DynamothCodeGenesisImpl.java:290)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processVMEvents(DynamothCodeGenesisImpl.java:187)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.run(DynamothCodeGenesisImpl.java:156)
+	at fr.inria.lille.repair.nopol.synth.dynamoth.DynamothSynthesizer.buildPatch(DynamothSynthesizer.java:150)
+	at fr.inria.lille.repair.nopol.NoPol.runNopolProcessor(NoPol.java:244)
+	at fr.inria.lille.repair.nopol.NoPol.access$000(NoPol.java:68)
+	at fr.inria.lille.repair.nopol.NoPol$1.call(NoPol.java:211)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+442.99user 4.70system 5:55.93elapsed 125%CPU (0avgtext+0avgdata 1159460maxresident)k
+8inputs+6928outputs (0major+658727minor)pagefaults 0swaps

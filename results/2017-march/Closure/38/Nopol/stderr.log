@@ -1,0 +1,156 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Mar 09, 2017 1:27:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 77.8% typed
+Mar 09, 2017 1:27:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:2: ERROR - unreachable code
+ 3; }
+ ^
+
+Mar 09, 2017 1:27:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 100% typed
+Mar 09, 2017 1:27:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+INFO: 0 error(s), 0 warning(s), 92.6% typed
+Mar 09, 2017 1:27:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Missing return statement. Function expected to return number.
+/** @return {number} */ function f() { if (f) { return 3; } }
+                        ^
+
+Mar 09, 2017 1:27:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Mar 09, 2017 1:27:16 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - variables, functions, and arguments cannot be deleted in ES5 strict mode
+var a  = 2; delete a;
+            ^
+
+Mar 09, 2017 1:27:16 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:16 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Rename prototypes and inline variables cannot be used together
+
+Mar 09, 2017 1:27:16 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:21 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Mar 09, 2017 1:27:21 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Mar 09, 2017 1:27:21 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:2: ERROR - unreachable code
+ 3; }
+ ^
+
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Missing return statement. Function expected to return number.
+/** @return {number} */ function f() { if (f) { return 3; } }
+                        ^
+
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - variables, functions, and arguments cannot be deleted in ES5 strict mode
+var a  = 2; delete a;
+            ^
+
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Rename prototypes and inline variables cannot be used together
+
+Mar 09, 2017 1:27:26 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Mar 09, 2017 1:27:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Mar 09, 2017 1:27:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Mar 09, 2017 1:27:32 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Mar 09, 2017 1:27:32 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Mar 09, 2017 1:27:32 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:2: ERROR - unreachable code
+ 3; }
+ ^
+
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Missing return statement. Function expected to return number.
+/** @return {number} */ function f() { if (f) { return 3; } }
+                        ^
+
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - variables, functions, and arguments cannot be deleted in ES5 strict mode
+var a  = 2; delete a;
+            ^
+
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Rename prototypes and inline variables cannot be used together
+
+Mar 09, 2017 1:27:37 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Mar 09, 2017 1:27:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Mar 09, 2017 1:27:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Mar 09, 2017 1:27:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+443.43user 8.44system 3:21.75elapsed 223%CPU (0avgtext+0avgdata 3873436maxresident)k
+29136inputs+8840outputs (4major+2027480minor)pagefaults 0swaps

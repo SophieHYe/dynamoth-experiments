@@ -1,0 +1,54 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:1460)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:396)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-2" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:984)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:173)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-3" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:1460)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:396)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-4" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:984)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:173)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-5" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:1460)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:396)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-6" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:984)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:173)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-7" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:1460)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:396)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "Thread-9" java.lang.NullPointerException
+	at org.joda.time.tz.ZoneInfoCompiler.verbose(ZoneInfoCompiler.java:78)
+	at org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone.create(DateTimeZoneBuilder.java:990)
+	at org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone(DateTimeZoneBuilder.java:173)
+	at org.joda.time.tz.TestCompiler$1.run(TestCompiler.java:94)
+	at java.lang.Thread.run(Thread.java:745)
+146.47user 3.74system 1:10.62elapsed 212%CPU (0avgtext+0avgdata 1166252maxresident)k
+432inputs+5680outputs (0major+523242minor)pagefaults 0swaps

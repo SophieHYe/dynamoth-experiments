@@ -1,0 +1,47 @@
+cd /tmp/chart_25_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 4 --source /tmp/chart_25_Brutpol/source/ --classpath /tmp/chart_25_Brutpol/build/:/tmp/chart_25_Brutpol/build-tests/:/tmp/chart_25_Brutpol/lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:/tmp/chart_25_Brutpol/lib/servlet.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+03:47:31.943 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 559
+03:47:31.943 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 5847
+03:47:31.943 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 1
+03:47:31.943 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+03:47:31.943 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 70741ms
+03:47:31.943 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+03:47:31.943 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.equals((java.lang.Object) g2)
+03:47:32.149 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 10
+03:47:32.149 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.jfree.chart.renderer.category.StatisticalBarRenderer:207: PRECONDITION
+03:47:32.172 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/chart_25_Brutpol/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
++++ /tmp/chart_25_Brutpol/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
+@@ -206,10 +206,12 @@
+         PlotOrientation orientation = plot.getOrientation();
+-        if (orientation == PlotOrientation.HORIZONTAL) {
+-            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+-                    rangeAxis, statData, row, column);
++        if (this.equals((java.lang.Object) g2)) {
++            if (orientation == PlotOrientation.HORIZONTAL) {
++                drawHorizontalItem(g2, state, dataArea, plot, domainAxis,
++                rangeAxis, statData, row, column);
++            }
++            else if (orientation == PlotOrientation.VERTICAL) {
++                drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis,
++                statData, row, column);
++            }
+         }
+-        else if (orientation == PlotOrientation.VERTICAL) {
+-            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+-                    statData, row, column);
+-        }
+     }
+
+
+
+Node: griffon-11.nancy.grid5000.fr
+
+
+Date: Sun Mar  5 04:47:32 CET 2017
+
+

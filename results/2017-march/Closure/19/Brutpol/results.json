@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 09:46:57 UTC 2017", 
+    "executionTime": 279815, 
+    "nbAngelicValue": 2, 
+    "nbStatement": 21, 
+    "nb_classes": 403, 
+    "nb_methods": 4723, 
+    "node": "griffon-14.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 50, 
+            "patch": "--- /tmp/closure_19_Brutpol/src/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java\n+++ /tmp/closure_19_Brutpol/src/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java\n@@ -238,3 +238,5 @@\n       FlowScope informed = blindScope.createChildFlowScope();\n-      declareNameInScope(informed, parameter, type);\n+      if (parameter.hasChildren() || parameter.isUnscopedQualifiedName()) {\n+        declareNameInScope(informed, parameter, type);\n+      }\n       return informed;\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter", 
+                "line": 239
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

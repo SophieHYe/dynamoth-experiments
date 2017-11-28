@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 00:45:31 UTC 2017", 
+    "executionTime": 1049127, 
+    "nbAngelicValue": 3, 
+    "nbStatement": 60, 
+    "nb_classes": 414, 
+    "nb_methods": 4891, 
+    "node": "griffon-14.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 254, 
+            "patch": "--- /tmp/closure_133_Brutpol/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java\n+++ /tmp/closure_133_Brutpol/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java\n@@ -1412,4 +1412,3 @@\n \n-    if (token == JsDocToken.EOC || token == JsDocToken.EOL ||\n-        token == JsDocToken.EOF) {\n+    if (this.unreadToken != null) {\n       return new ExtractionInfo(\"\", token);\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.jscomp.parsing.JsDocInfoParser", 
+                "line": 1413
+            }, 
+            "patchType": "CONDITIONAL"
+        }
+    ]
+}

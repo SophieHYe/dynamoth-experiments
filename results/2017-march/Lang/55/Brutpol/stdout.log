@@ -1,0 +1,35 @@
+cd /tmp/lang_55_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 3 --source /tmp/lang_55_Brutpol/src/java/ --classpath /tmp/lang_55_Brutpol/target/classes/:/tmp/lang_55_Brutpol/target/tests/:/tmp/lang_55_Brutpol/lib/asm.jar:/tmp/lang_55_Brutpol/lib/cglib.jar:/tmp/lang_55_Brutpol/lib/commons-io.jar:/tmp/lang_55_Brutpol/lib/easymock.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+12:17:46.491 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 77
+12:17:46.492 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1721
+12:17:46.492 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 8
+12:17:46.492 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 2
+12:17:46.492 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 114187ms
+12:17:46.492 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+12:17:46.492 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.runningState == 1
+12:17:46.539 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 5
+12:17:46.540 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.lang.time.StopWatch:118: PRECONDITION
+12:17:46.559 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/lang_55_Brutpol/src/java/org/apache/commons/lang/time/StopWatch.java
++++ /tmp/lang_55_Brutpol/src/java/org/apache/commons/lang/time/StopWatch.java
+@@ -117,3 +117,5 @@
+         }
+-            stopTime = System.currentTimeMillis();
++            if (this.runningState == 1) {
++                stopTime = System.currentTimeMillis();
++            }
+         this.runningState = STATE_STOPPED;
+
+PATCH
+
+
+Node: griffon-14.nancy.grid5000.fr
+
+
+Date: Fri Mar 10 13:17:46 CET 2017
+
+

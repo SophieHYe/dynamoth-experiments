@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 05:43:21 UTC 2017", 
+    "executionTime": 197211, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 7, 
+    "nb_classes": 391, 
+    "nb_methods": 4433, 
+    "node": "griffon-15.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 166, 
+            "patch": "--- /tmp/closure_66_Brutpol/src/com/google/javascript/jscomp/TypeCheck.java\n+++ /tmp/closure_66_Brutpol/src/com/google/javascript/jscomp/TypeCheck.java\n@@ -821,3 +821,5 @@\n     if (type == null) {\n-      nullCount++;\n+      if (this.inExterns) {\n+        nullCount++;\n+      }\n     } else if (type.isUnknownType()) {\n", 
+            "patchLocation": {
+                "class": "com.google.javascript.jscomp.TypeCheck", 
+                "line": 822
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+java.lang.NullPointerException
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processBreakPointEvents(DynamothCodeGenesisImpl.java:289)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.processVMEvents(DynamothCodeGenesisImpl.java:187)
+	at fr.inria.lille.repair.synthesis.DynamothCodeGenesisImpl.run(DynamothCodeGenesisImpl.java:156)
+	at fr.inria.lille.repair.nopol.synth.dynamoth.DynamothSynthesizer.buildPatch(DynamothSynthesizer.java:150)
+	at fr.inria.lille.repair.nopol.NoPol.runNopolProcessor(NoPol.java:287)
+	at fr.inria.lille.repair.nopol.NoPol.access$000(NoPol.java:90)
+	at fr.inria.lille.repair.nopol.NoPol$1.call(NoPol.java:254)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+422.11user 6.11system 2:54.58elapsed 245%CPU (0avgtext+0avgdata 4553700maxresident)k
+108224inputs+7040outputs (44major+2056991minor)pagefaults 0swaps

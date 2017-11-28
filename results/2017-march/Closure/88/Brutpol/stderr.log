@@ -1,0 +1,220 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing test init code:init: Compilation produced 1 syntax errors. (test init code:init#1)
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: processGoogScopeAliases
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkRequires
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: processProvidesAndRequires
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: renameCssNames
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: replaceMessages
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: processDefines
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeStandardOptimizations
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: closureCodeRemoval
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeMainOptimizations
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeModuleMotion
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: afterModuleMotion
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: markUnnormalized
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: denormalize
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: invertNames
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: foo.js:1: WARNING - 'foo.bar.goo' used but not goog.require'd
+
+Nov 28, 2017 2:25:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Nov 28, 2017 2:25:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: foo.js:1: WARNING - 'foo.bar.goo' used but not goog.require'd
+
+Nov 28, 2017 2:25:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: Unversioned directory
+Built on: 2017/11/27 23:24
+357.27user 8.99system 2:22.27elapsed 257%CPU (0avgtext+0avgdata 1887608maxresident)k
+101856inputs+5664outputs (42major+975096minor)pagefaults 0swaps

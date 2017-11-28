@@ -1,0 +1,20 @@
+{
+    "date": "Fri Mar 10 12:17:46 UTC 2017", 
+    "executionTime": 114187, 
+    "nbAngelicValue": 2, 
+    "nbStatement": 8, 
+    "nb_classes": 77, 
+    "nb_methods": 1721, 
+    "node": "griffon-14.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 5, 
+            "patch": "--- /tmp/lang_55_Brutpol/src/java/org/apache/commons/lang/time/StopWatch.java\n+++ /tmp/lang_55_Brutpol/src/java/org/apache/commons/lang/time/StopWatch.java\n@@ -117,3 +117,5 @@\n         }\n-            stopTime = System.currentTimeMillis();\n+            if (this.runningState == 1) {\n+                stopTime = System.currentTimeMillis();\n+            }\n         this.runningState = STATE_STOPPED;\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.lang.time.StopWatch", 
+                "line": 118
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

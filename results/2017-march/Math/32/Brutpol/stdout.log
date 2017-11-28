@@ -1,0 +1,32 @@
+cd /tmp/math_32_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/math_32_Brutpol/src/main/java/ --classpath /tmp/math_32_Brutpol/target/classes/:/tmp/math_32_Brutpol/target/test-classes/:/tmp/math_32_Brutpol/lib/commons-discovery-0.5.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+18:25:17.129 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 576
+18:25:17.130 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 3767
+18:25:17.130 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 3
+18:25:17.130 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+18:25:17.130 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 559588ms
+18:25:17.130 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+18:25:17.130 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.isEmpty((org.apache.commons.math3.geometry.partitioning.BSPTree) tree)
+18:25:17.341 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 1
+18:25:17.341 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet:136: CONDITIONAL
+18:25:17.366 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/math_32_Brutpol/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
++++ /tmp/math_32_Brutpol/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+@@ -135,3 +135,3 @@
+             final BSPTree<Euclidean2D> tree = getTree(false);
+-            if ((Boolean) tree.getAttribute()) {
++            if ((Boolean) this.isEmpty((org.apache.commons.math3.geometry.partitioning.BSPTree) tree)) {
+                 // the instance covers the whole space
+
+
+
+Node: griffon-11.nancy.grid5000.fr
+
+
+Date: Sat Mar  4 19:25:17 CET 2017
+
+

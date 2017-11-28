@@ -1,0 +1,25 @@
+cd /tmp/closure_97_Nopol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/home/tdurieux/jdk1.7.0_79/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/home/tdurieux/jdk1.7.0_79/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis smt --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 7 --source /tmp/closure_97_Nopol/src/ --classpath /tmp/closure_97_Nopol/build/classes:/tmp/closure_97_Nopol/build/test:/tmp/closure_97_Nopol/lib/ant_deploy.jar:/tmp/closure_97_Nopol/lib/args4j_deploy.jar:/tmp/closure_97_Nopol/lib/json.jar:/tmp/closure_97_Nopol/lib/junit.jar:/tmp/closure_97_Nopol/lib/protobuf_deploy.jar:/tmp/closure_97_Nopol/lib/google_common_deploy.jar:/tmp/closure_97_Nopol/lib/hamcrest-core-1.1.jar:/tmp/closure_97_Nopol/lib/libtrunk_rhino_parser_jarjared.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 333
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 3542
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 4305
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 2
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 7
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 15
+19:09:48.620 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2525227ms
+
+
+Node: graphene-65.nancy.grid5000.fr
+
+
+Date: Thu Mar  2 20:09:49 CET 2017
+
+

@@ -1,0 +1,34 @@
+cd /tmp/math_50_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 5 --source /tmp/math_50_Brutpol/src/main/java/ --classpath /tmp/math_50_Brutpol/target/classes/:/tmp/math_50_Brutpol/target/test-classes/:/tmp/math_50_Brutpol/lib/commons-discovery-0.5.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+17:03:49.803 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 569
+17:03:49.803 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 3619
+17:03:49.803 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 2
+17:03:49.803 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+17:03:49.803 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 238859ms
+17:03:49.804 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+17:03:49.804 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - this.isBracketing((double) x0, (double) f0)
+17:03:49.980 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 1
+17:03:49.981 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.apache.commons.math.analysis.solvers.BaseSecantSolver:188: PRECONDITION
+17:03:49.999 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/math_50_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
++++ /tmp/math_50_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
+@@ -187,3 +187,5 @@
+                     if (x == x1) {
+-                        x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
++                        if (this.isBracketing((double) x0, (double) f0)) {
++                            x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
++                        }
+                         f0 = computeObjectiveValue(x0);
+
+
+
+Node: griffon-12.nancy.grid5000.fr
+
+
+Date: Sat Mar  4 18:03:50 CET 2017
+
+

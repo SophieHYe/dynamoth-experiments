@@ -1,0 +1,7 @@
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+Command exited with non-zero status 255
+890.37user 162.75system 15:41.62elapsed 111%CPU (0avgtext+0avgdata 3964056maxresident)k
+0inputs+29504outputs (0major+1556779minor)pagefaults 0swaps

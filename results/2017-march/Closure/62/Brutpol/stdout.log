@@ -1,0 +1,33 @@
+cd /tmp/closure_62_Brutpol;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cp -r /home/tdurieux/dynamoth-experiments/src/python/core/../../../libs/z3 lib/z3;time java -d64 -Xmx4g -Xms1g -XX:MaxPermSize=1024m -XX:+UseConcMarkSweepGC -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -cp /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar:/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin//../lib/tools.jar fr.inria.lille.repair.Main --flocal gzoltar  --maxTime 300  --json  --mode repair --type pre_then_cond --oracle angelic --synthesis dynamoth --solver z3 --solver-path /home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/z3/z3 --complianceLevel 6 --source /tmp/closure_62_Brutpol/src/ --classpath /tmp/closure_62_Brutpol/build/classes:/tmp/closure_62_Brutpol/build/test:/tmp/closure_62_Brutpol/build/lib/rhino.jar:/tmp/closure_62_Brutpol/lib/ant.jar:/tmp/closure_62_Brutpol/lib/ant-launcher.jar:/tmp/closure_62_Brutpol/lib/args4j.jar:/tmp/closure_62_Brutpol/lib/guava.jar:/tmp/closure_62_Brutpol/lib/jarjar.jar:/tmp/closure_62_Brutpol/lib/json.jar:/tmp/closure_62_Brutpol/lib/jsr305.jar:/tmp/closure_62_Brutpol/lib/junit.jar:/tmp/closure_62_Brutpol/lib/caja-r4314.jar:/tmp/closure_62_Brutpol/lib/protobuf-java.jar:/home/tdurieux/dynamoth-experiments/src/python/core/../../..//libs/nopol.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";
+
+06:02:14.415 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 396
+06:02:14.415 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4488
+06:02:14.415 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 2
+06:02:14.416 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+06:02:14.416 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 140230ms
+06:02:14.416 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+06:02:14.416 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - error.equals((java.lang.Object) error)
+06:02:17.070 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 5
+06:02:17.070 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - com.google.javascript.jscomp.LightweightMessageFormatter:97: CONDITIONAL
+06:02:17.093 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /tmp/closure_62_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
++++ /tmp/closure_62_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
+@@ -96,4 +96,3 @@
+       // at the end of the line
+-      if (excerpt.equals(LINE)
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++      if (error.equals((java.lang.Object) error)) {
+         for (int i = 0; i < charno; i++) {
+
+
+
+Node: griffon-5.nancy.grid5000.fr
+
+
+Date: Sat Mar  4 07:02:20 CET 2017
+
+

@@ -1,0 +1,9 @@
+{
+    "date": "Sat Mar 04 04:44:25 UTC 2017", 
+    "executionTime": 2434324, 
+    "nbAngelicValue": 11, 
+    "nbStatement": 1600, 
+    "nb_classes": 312, 
+    "nb_methods": 3287, 
+    "node": "griffon-12.nancy.grid5000.fr\n"
+}

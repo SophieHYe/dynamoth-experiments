@@ -1,0 +1,20 @@
+{
+    "date": "Fri Mar 03 22:57:32 UTC 2017", 
+    "executionTime": 19584, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 1, 
+    "nb_classes": 169, 
+    "nb_methods": 623, 
+    "node": "griffon-18.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 32, 
+            "patch": "--- /tmp/mockito_38_Brutpol/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java\n+++ /tmp/mockito_38_Brutpol/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java\n@@ -27,7 +27,9 @@\n         for (Matcher m : matchers) {\n-            if (m instanceof ContainsExtraTypeInformation \n-                    && !safelyMatches(m, arguments[i]) \n-                    && toStringEquals(m, arguments[i])\n-                    && !((ContainsExtraTypeInformation) m).typeMatches(arguments[i])) {\n-                suspicious.add(i);\n+            if (arguments[0] != null) {\n+                if (m instanceof ContainsExtraTypeInformation\n+                && !safelyMatches(m, arguments[i])\n+                && toStringEquals(m, arguments[i])\n+                && !((ContainsExtraTypeInformation) m).typeMatches(arguments[i])) {\n+                    suspicious.add(i);\n+                }\n             }\n", 
+            "patchLocation": {
+                "class": "org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool", 
+                "line": 28
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

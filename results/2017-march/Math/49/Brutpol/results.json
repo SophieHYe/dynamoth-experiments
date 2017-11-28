@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 17:09:24 UTC 2017", 
+    "executionTime": 243605, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 1, 
+    "nb_classes": 569, 
+    "nb_methods": 3620, 
+    "node": "griffon-12.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 2, 
+            "patch": "--- /tmp/math_49_Brutpol/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java\n+++ /tmp/math_49_Brutpol/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java\n@@ -563,3 +563,5 @@\n             if (referenceCount != count) {\n-                throw MathRuntimeException.createConcurrentModificationException(LocalizedFormats.MAP_MODIFIED_WHILE_ITERATING);\n+                if (this.next == 0) {\n+                    throw MathRuntimeException.createConcurrentModificationException(LocalizedFormats.MAP_MODIFIED_WHILE_ITERATING);\n+                }\n             }\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator", 
+                "line": 564
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

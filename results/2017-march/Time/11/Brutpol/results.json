@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 12:58:57 UTC 2017", 
+    "executionTime": 68304, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 4, 
+    "nb_classes": 157, 
+    "nb_methods": 2880, 
+    "node": "griffon-15.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 3, 
+            "patch": "--- /tmp/time_11_Brutpol/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java\n+++ /tmp/time_11_Brutpol/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java\n@@ -1459,5 +1459,7 @@\n                     .equals(tailZone.iEndRecurrence.getNameKey())) {\n-                    if (ZoneInfoCompiler.verbose()) {\n-                        System.out.println(\"Fixing duplicate recurrent name key - \" +\n-                                           tailZone.iStartRecurrence.getNameKey());\n+                    if (org.joda.time.PeriodType.yearMonthDay().equals((java.lang.Object) id)) {\n+                        if (ZoneInfoCompiler.verbose()) {\n+                            System.out.println(\"Fixing duplicate recurrent name key - \" +\n+                            tailZone.iStartRecurrence.getNameKey());\n+                        }\n                     }\n", 
+            "patchLocation": {
+                "class": "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone", 
+                "line": 1460
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}

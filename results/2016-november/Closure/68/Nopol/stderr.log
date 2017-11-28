@@ -1,0 +1,134 @@
+mkdir: cannot create directory ‘lib/’: File exists
+cp: cannot stat ‘/home/tdurieux/defects4j/framework/projects/Closure/lib/*’: No such file or directory
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the future
+
+
+The system is out of resources.
+Consult the following stack trace for details.
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.Integer.valueOf(Integer.java:642)
+	at com.sun.tools.javac.parser.EndPosParser.storeEnd(EndPosParser.java:64)
+	at com.sun.tools.javac.parser.EndPosParser.toP(EndPosParser.java:77)
+	at com.sun.tools.javac.parser.JavacParser.term3(JavacParser.java:1008)
+	at com.sun.tools.javac.parser.JavacParser.term3(JavacParser.java:904)
+	at com.sun.tools.javac.parser.JavacParser.term3(JavacParser.java:895)
+	at com.sun.tools.javac.parser.JavacParser.term2(JavacParser.java:701)
+	at com.sun.tools.javac.parser.JavacParser.term1(JavacParser.java:672)
+	at com.sun.tools.javac.parser.JavacParser.term(JavacParser.java:628)
+	at com.sun.tools.javac.parser.JavacParser.term(JavacParser.java:610)
+	at com.sun.tools.javac.parser.JavacParser.parseExpression(JavacParser.java:600)
+	at com.sun.tools.javac.parser.JavacParser.parExpression(JavacParser.java:1552)
+	at com.sun.tools.javac.parser.EndPosParser.parExpression(EndPosParser.java:92)
+	at com.sun.tools.javac.parser.JavacParser.parseStatement(JavacParser.java:1709)
+	at com.sun.tools.javac.parser.JavacParser.blockStatements(JavacParser.java:1598)
+	at com.sun.tools.javac.parser.JavacParser.switchBlockStatementGroups(JavacParser.java:1910)
+	at com.sun.tools.javac.parser.JavacParser.parseStatement(JavacParser.java:1789)
+	at com.sun.tools.javac.parser.JavacParser.blockStatements(JavacParser.java:1598)
+	at com.sun.tools.javac.parser.JavacParser.block(JavacParser.java:1561)
+	at com.sun.tools.javac.parser.JavacParser.block(JavacParser.java:1575)
+	at com.sun.tools.javac.parser.JavacParser.parseStatement(JavacParser.java:1706)
+	at com.sun.tools.javac.parser.JavacParser.parseStatement(JavacParser.java:1714)
+	at com.sun.tools.javac.parser.JavacParser.blockStatements(JavacParser.java:1598)
+	at com.sun.tools.javac.parser.JavacParser.block(JavacParser.java:1561)
+	at com.sun.tools.javac.parser.JavacParser.block(JavacParser.java:1575)
+	at com.sun.tools.javac.parser.JavacParser.parseStatement(JavacParser.java:1706)
+	at com.sun.tools.javac.parser.JavacParser.parseStatement(JavacParser.java:1710)
+	at com.sun.tools.javac.parser.JavacParser.blockStatements(JavacParser.java:1598)
+	at com.sun.tools.javac.parser.JavacParser.switchBlockStatementGroups(JavacParser.java:1910)
+	at com.sun.tools.javac.parser.JavacParser.parseStatement(JavacParser.java:1789)
+	at com.sun.tools.javac.parser.JavacParser.blockStatements(JavacParser.java:1598)
+	at com.sun.tools.javac.parser.JavacParser.block(JavacParser.java:1561)
+java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+	at fr.inria.lille.repair.Main.main(Main.java:98)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2367)
+	at java.lang.String.<init>(String.java:168)
+	at spoon.support.compiler.jdt.ReferenceBuilder.getPackageReference(ReferenceBuilder.java:440)
+	at spoon.support.compiler.jdt.ReferenceBuilder.getTypeReference(ReferenceBuilder.java:667)
+	at spoon.support.compiler.jdt.ContextBuilder.enter(ContextBuilder.java:110)
+	at spoon.support.compiler.jdt.JDTTreeBuilder.visit(JDTTreeBuilder.java:881)
+	at org.eclipse.jdt.internal.compiler.ast.Assignment.traverse(Assignment.java:262)
+	at org.eclipse.jdt.internal.compiler.ast.SwitchStatement.traverse(SwitchStatement.java:625)
+	at org.eclipse.jdt.internal.compiler.ast.Block.traverse(Block.java:139)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.traverse(IfStatement.java:287)
+	at org.eclipse.jdt.internal.compiler.ast.Block.traverse(Block.java:139)
+	at org.eclipse.jdt.internal.compiler.ast.IfStatement.traverse(IfStatement.java:285)
+	at org.eclipse.jdt.internal.compiler.ast.SwitchStatement.traverse(SwitchStatement.java:625)
+	at org.eclipse.jdt.internal.compiler.ast.Block.traverse(Block.java:139)
+	at org.eclipse.jdt.internal.compiler.ast.ForStatement.traverse(ForStatement.java:428)
+	at org.eclipse.jdt.internal.compiler.ast.LabeledStatement.traverse(LabeledStatement.java:139)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse(MethodDeclaration.java:354)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse(TypeDeclaration.java:1367)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:751)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.traverse(CompilationUnitDeclaration.java:712)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:426)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:375)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:348)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:119)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:102)
+	at fr.inria.lille.commons.spoon.util.SpoonModelLibrary.modelFor(SpoonModelLibrary.java:56)
+	at fr.inria.lille.commons.spoon.SpoonedFile.<init>(SpoonedFile.java:62)
+	at fr.inria.lille.commons.spoon.SpoonedClass.<init>(SpoonedClass.java:14)
+	at fr.inria.lille.commons.spoon.SpoonedProject.forked(SpoonedProject.java:47)
+	at fr.inria.lille.repair.nopol.NoPol.runOnStatement(NoPol.java:175)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:166)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:133)
+
+Usage: java -jar nopol.jar
+                          [(-m|--mode) <repair|ranking>] [(-e|--type) <pre_then_cond|loop|condition|precondition|arithmetic>] [(-o|--oracle) <angelic|symbolic>] [(-y|--synthesis) <smt|dynamoth>] [(-l|--solver) <z3|cvc4>] [(-p|--solver-path) <solverPath>] (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> [(-t|--test) test1:test2:...:testN ] [--complianceLevel <complianceLevel>] [--maxTime <maxTime>] [--maxTimeType <maxTimeType>] [(-z|--flocal) < ochiai|dumb|gzoltar>] [--output <outputFolder>] [--json[:<outputJson>]]
+
+  [(-m|--mode) <repair|ranking>]
+        Define the mode of execution. (default: repair)
+
+  [(-e|--type) <pre_then_cond|loop|condition|precondition|arithmetic>]
+        The type of statement to analyze (only used with repair mode). (default:
+        pre_then_cond)
+
+  [(-o|--oracle) <angelic|symbolic>]
+        Define the oracle (only used with repair mode). (default: angelic)
+
+  [(-y|--synthesis) <smt|dynamoth>]
+        Define the patch synthesis. (default: smt)
+
+  [(-l|--solver) <z3|cvc4>]
+        Define the solver (only used with smt synthesis). (default: z3)
+
+  [(-p|--solver-path) <solverPath>]
+        Define the solver binary path (only used with smt synthesis).
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  [(-t|--test) test1:test2:...:testN ]
+        Define the tests of the project.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [--maxTime <maxTime>]
+        The maximum time execution in minute for the whole execution of
+        Nopol.(default: 10)
+
+  [--maxTimeType <maxTimeType>]
+        The maximum time execution in minute for one type of patch. (default: 5)
+
+  [(-z|--flocal) < ochiai|dumb|gzoltar>]
+        Define the fault localizer to be used. (default: ochiai)
+
+  [--output <outputFolder>]
+        Define the location where the patches will be saved. (default: .)
+
+  [--json[:<outputJson>]]
+        Output a json file in the current working directory.
+
+Command exited with non-zero status 255
+7148.85user 23.46system 1:44:13elapsed 114%CPU (0avgtext+0avgdata 4581180maxresident)k
+288inputs+19472outputs (0major+1949273minor)pagefaults 0swaps

@@ -1,0 +1,20 @@
+{
+    "date": "Sat Mar 04 14:54:19 UTC 2017", 
+    "executionTime": 83803, 
+    "nbAngelicValue": 1, 
+    "nbStatement": 24, 
+    "nb_classes": 393, 
+    "nb_methods": 2901, 
+    "node": "griffon-2.nancy.grid5000.fr\n", 
+    "patch": [
+        {
+            "nb_test_that_execute_statement": 85, 
+            "patch": "--- /tmp/math_78_Brutpol/src/main/java/org/apache/commons/math/ode/events/EventState.java\n+++ /tmp/math_78_Brutpol/src/main/java/org/apache/commons/math/ode/events/EventState.java\n@@ -215,3 +215,5 @@\n                     final BrentSolver solver = new BrentSolver();\n-                    solver.setAbsoluteAccuracy(convergence);\n+                    if (t1 <= this.maxIterationCount) {\n+                        solver.setAbsoluteAccuracy(convergence);\n+                    }\n                     solver.setMaximalIterationCount(maxIterationCount);\n", 
+            "patchLocation": {
+                "class": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216
+            }, 
+            "patchType": "PRECONDITION"
+        }
+    ]
+}
