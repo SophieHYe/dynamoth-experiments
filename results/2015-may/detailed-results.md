@@ -2,45 +2,45 @@
 
 | #   | BugId             | jGenProg  | jKali     | Nopol     | Total  |
 | --- | ----------------- | --------- | --------- | --------- | ------ |
-|   5 | [C5](#chart-5)    | T_OUT     | No       | Yes       |      1 |
-|   9 | [C9](#chart-9)    | T_OUT     | No       | Yes       |      1 |
-|  13 | [C13](#chart-13)  | T_OUT     | No       | Yes       |      1 |
-|  17 | [C17](#chart-17)  | T_OUT     | No       | Yes       |      1 |
-|  21 | [C21](#chart-21)  | T_OUT     | No       | Yes       |      1 |
-|  25 | [C25](#chart-25)  | T_OUT     | No       | Yes       |      1 |
-|  70 | [L44](#lang-44)   | No    | No    | Yes       |      1 |
-|  72 | [L46](#lang-46)   | No    | No    | Yes       |      1 |
-|  77 | [L51](#lang-51)   | No    | No    | Yes       |      1 |
-|  81 | [L55](#lang-55)   | No    | No    | Yes       |      1 |
-|  84 | [L58](#lang-58)   | No       | No       | Yes       |      1 |
+|   5 | [C5](#chart-5)    | T_OUT     | 0 Reg     | Yes       |      1 |
+|   9 | [C9](#chart-9)    | T_OUT     | 0 Reg     | Yes       |      1 |
+|  13 | [C13](#chart-13)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  17 | [C17](#chart-17)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  21 | [C21](#chart-21)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  25 | [C25](#chart-25)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  70 | [L44](#lang-44)   | 1798 Reg  | 1798 Reg  | Yes       |      1 |
+|  72 | [L46](#lang-46)   | 1748 Reg  | 1748 Reg  | Yes       |      1 |
+|  77 | [L51](#lang-51)   | 1644 Reg  | 1644 Reg  | Yes       |      1 |
+|  81 | [L55](#lang-55)   | 1629 Reg  | 1629 Reg  | Yes       |      1 |
+|  84 | [L58](#lang-58)   | 0 Reg     | 0 Reg     | Yes       |      1 |
 |  93 | [M2](#math-2)     | Yes       | Yes       | T_OUT     |      2 |
-|  99 | [M8](#math-8)     | Yes       | Yes       | No        |      2 |
-| 123 | [M32](#math-32)   | No       | No       | Yes       |      1 |
-| 124 | [M33](#math-33)   | No       | No       | Yes       |      1 |
-| 131 | [M40](#math-40)   | Yes       | No       | Yes       |      2 |
-| 132 | [M41](#math-41)   | No       | No       | Yes       |      1 |
-| 133 | [M42](#math-42)   | No    | No       | Yes       |      1 |
+|  99 | [M8](#math-8)     | Yes       | Yes       | 0 AV      |      2 |
+| 123 | [M32](#math-32)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 124 | [M33](#math-33)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 131 | [M40](#math-40)   | Yes       | 0 Reg     | Yes       |      2 |
+| 132 | [M41](#math-41)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 133 | [M42](#math-42)   | 3042 Reg  | 0 Reg     | Yes       |      1 |
 | 140 | [M49](#math-49)   | Yes       | Yes       | Yes       |      3 |
 | 141 | [M50](#math-50)   | Yes       | Yes       | Yes       |      3 |
-| 148 | [M57](#math-57)   | No       | No       | Yes       |      1 |
-| 149 | [M58](#math-58)   | No    | No    | Yes       |      1 |
-| 155 | [M64](#math-64)   | Yes       | No       | T_OUT     |      1 |
-| 160 | [M69](#math-69)   | No       | No       | Yes       |      1 |
-| 161 | [M70](#math-70)   | Yes       | No       | No        |      1 |
-| 164 | [M73](#math-73)   | Yes       | No       | Yes       |      2 |
+| 148 | [M57](#math-57)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 149 | [M58](#math-58)   | 2224 Reg  | 2224 Reg  | Yes       |      1 |
+| 155 | [M64](#math-64)   | Yes       | 0 Reg     | T_OUT     |      1 |
+| 160 | [M69](#math-69)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 161 | [M70](#math-70)   | Yes       | 0 Reg     | 0 AV      |      1 |
+| 164 | [M73](#math-73)   | Yes       | 0 Reg     | Yes       |      2 |
 | 169 | [M78](#math-78)   | Yes       | Yes       | Yes       |      3 |
-| 170 | [M79](#math-79)   | No    | No       | Yes       |      1 |
+| 170 | [M79](#math-79)   | 1996 Reg  | 0 Reg     | Yes       |      1 |
 | 171 | [M80](#math-80)   | Yes       | Yes       | Yes       |      3 |
 | 172 | [M81](#math-81)   | Yes       | Yes       | Yes       |      3 |
 | 173 | [M82](#math-82)   | Yes       | Yes       | Yes       |      3 |
-| 175 | [M84](#math-84)   | Yes       | No       | No        |      1 |
+| 175 | [M84](#math-84)   | Yes       | 0 Reg     | 0 AV      |      1 |
 | 176 | [M85](#math-85)   | Yes       | Yes       | Yes       |      3 |
-| 178 | [M87](#math-87)   | No       | No       | Yes       |      1 |
-| 179 | [M88](#math-88)   | No       | No       | Yes       |      1 |
-| 186 | [M95](#math-95)   | Yes       | No       | T_OUT     |      1 |
-| 188 | [M97](#math-97)   | No       | No       | Yes       |      1 |
-| 195 | [M104](#math-104) | No       | No       | Yes       |      1 |
-| 196 | [M105](#math-105) | No       | No       | Yes       |      1 |
+| 178 | [M87](#math-87)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 179 | [M88](#math-88)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 186 | [M95](#math-95)   | Yes       | 0 Reg     | T_OUT     |      1 |
+| 188 | [M97](#math-97)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 195 | [M104](#math-104) | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 196 | [M105](#math-105) | 0 Reg     | 0 Reg     | Yes       |      1 |
 |     | Total             | 15 (6%)   | 9 (4%)    | 33 (14%)  |     57 |
 
 Fixed bugs: 39/224 (17%)
@@ -56,229 +56,229 @@ Total execution time: 12 days, 20:22:03.714000
 
 | #   | BugId             | jGenProg  | jKali     | Nopol     | Total  |
 | --- | ----------------- | --------- | --------- | --------- | ------ |
-|   1 | [C1](#chart-1)    | T_OUT     | No       | No        |      0 |
-|   2 | [C2](#chart-2)    | T_OUT     | No       | No        |      0 |
-|   3 | [C3](#chart-3)    | T_OUT     | No       | No        |      0 |
-|   4 | [C4](#chart-4)    | T_OUT     | No       | No        |      0 |
-|   5 | [C5](#chart-5)    | T_OUT     | No       | Yes       |      1 |
-|   6 | [C6](#chart-6)    | T_OUT     | No       | No        |      0 |
-|   7 | [C7](#chart-7)    | T_OUT     | No       | No        |      0 |
+|   1 | [C1](#chart-1)    | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|   2 | [C2](#chart-2)    | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|   3 | [C3](#chart-3)    | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|   4 | [C4](#chart-4)    | T_OUT     | 0 Reg     | 3 AV      |      0 |
+|   5 | [C5](#chart-5)    | T_OUT     | 0 Reg     | Yes       |      1 |
+|   6 | [C6](#chart-6)    | T_OUT     | 0 Reg     | 4 AV      |      0 |
+|   7 | [C7](#chart-7)    | T_OUT     | 0 Reg     | 0 AV      |      0 |
 |   8 | [C8](#chart-8)    | IGNORED   | IGNORED   | IGNORED   |      0 |
-|   9 | [C9](#chart-9)    | T_OUT     | No       | Yes       |      1 |
-|  10 | [C10](#chart-10)  | T_OUT     | No       | No        |      0 |
-|  11 | [C11](#chart-11)  | T_OUT     | No       | No        |      0 |
-|  12 | [C12](#chart-12)  | T_OUT     | No       | No        |      0 |
-|  13 | [C13](#chart-13)  | T_OUT     | No       | Yes       |      1 |
-|  14 | [C14](#chart-14)  | T_OUT     | No       | No        |      0 |
-|  15 | [C15](#chart-15)  | T_OUT     | No       | No        |      0 |
-|  16 | [C16](#chart-16)  | T_OUT     | No       | T_OUT     |      0 |
-|  17 | [C17](#chart-17)  | T_OUT     | No       | Yes       |      1 |
-|  18 | [C18](#chart-18)  | T_OUT     | No       | No        |      0 |
-|  19 | [C19](#chart-19)  | T_OUT     | No       | No        |      0 |
-|  20 | [C20](#chart-20)  | T_OUT     | No       | No        |      0 |
-|  21 | [C21](#chart-21)  | T_OUT     | No       | Yes       |      1 |
-|  22 | [C22](#chart-22)  | T_OUT     | No       | No        |      0 |
-|  23 | [C23](#chart-23)  | T_OUT     | No       | No        |      0 |
-|  24 | [C24](#chart-24)  | T_OUT     | No       | No        |      0 |
-|  25 | [C25](#chart-25)  | T_OUT     | No       | Yes       |      1 |
-|  26 | [C26](#chart-26)  | T_OUT     | No       | T_OUT     |      0 |
-|  27 | [L1](#lang-1)     | T_OUT     | No       | No        |      0 |
-|  28 | [L2](#lang-2)     | T_OUT     | No       | No        |      0 |
-|  29 | [L3](#lang-3)     | T_OUT     | No       | No        |      0 |
-|  30 | [L4](#lang-4)     | T_OUT     | No       | No        |      0 |
-|  31 | [L5](#lang-5)     | T_OUT     | No       | No        |      0 |
-|  32 | [L6](#lang-6)     | T_OUT     | No       | No        |      0 |
-|  33 | [L7](#lang-7)     | T_OUT     | No    | T_OUT     |      0 |
-|  34 | [L8](#lang-8)     | T_OUT     | No       | T_OUT     |      0 |
-|  35 | [L9](#lang-9)     | T_OUT     | No       | T_OUT     |      0 |
-|  36 | [L10](#lang-10)   | T_OUT     | No       | T_OUT     |      0 |
-|  37 | [L11](#lang-11)   | T_OUT     | No       | T_OUT     |      0 |
-|  38 | [L12](#lang-12)   | T_OUT     | No       | No        |      0 |
-|  39 | [L13](#lang-13)   | T_OUT     | No       | No        |      0 |
-|  40 | [L14](#lang-14)   | T_OUT     | No       | No        |      0 |
-|  41 | [L15](#lang-15)   | T_OUT     | No       | No        |      0 |
-|  42 | [L16](#lang-16)   | T_OUT     | No    | No        |      0 |
-|  43 | [L17](#lang-17)   | T_OUT     | No    | No        |      0 |
-|  44 | [L18](#lang-18)   | T_OUT     | No    | T_OUT     |      0 |
-|  45 | [L19](#lang-19)   | T_OUT     | No       | No        |      0 |
-|  46 | [L20](#lang-20)   | No    | No    | No        |      0 |
-|  47 | [L21](#lang-21)   | No    | No    | No        |      0 |
-|  48 | [L22](#lang-22)   | No    | No    | T_OUT     |      0 |
-|  49 | [L23](#lang-23)   | No       | No       | ERROR     |      0 |
-|  50 | [L24](#lang-24)   | No       | No       | No        |      0 |
-|  51 | [L25](#lang-25)   | No    | No    | No        |      0 |
-|  52 | [L26](#lang-26)   | No       | No       | T_OUT     |      0 |
-|  53 | [L27](#lang-27)   | No       | No       | No        |      0 |
-|  54 | [L28](#lang-28)   | No       | No       | No        |      0 |
-|  55 | [L29](#lang-29)   | No       | No       | No        |      0 |
-|  56 | [L30](#lang-30)   | No       | No       | No        |      0 |
-|  57 | [L31](#lang-31)   | No       | No       | No        |      0 |
-|  58 | [L32](#lang-32)   | No       | No       | No        |      0 |
-|  59 | [L33](#lang-33)   | No       | No       | No        |      0 |
-|  60 | [L34](#lang-34)   | No       | No       | T_OUT     |      0 |
-|  61 | [L35](#lang-35)   | No    | No    | No        |      0 |
-|  62 | [L36](#lang-36)   | No       | No       | No        |      0 |
-|  63 | [L37](#lang-37)   | No       | No       | No        |      0 |
-|  64 | [L38](#lang-38)   | No    | No       | T_OUT     |      0 |
-|  65 | [L39](#lang-39)   | No       | No       | T_OUT     |      0 |
-|  66 | [L40](#lang-40)   | No    | No    | No        |      0 |
-|  67 | [L41](#lang-41)   | No       | No       | No        |      0 |
-|  68 | [L42](#lang-42)   | No       | No       | No        |      0 |
-|  69 | [L43](#lang-43)   | No    | No    | T_OUT     |      0 |
-|  70 | [L44](#lang-44)   | No    | No    | Yes       |      1 |
-|  71 | [L45](#lang-45)   | No    | No    | No        |      0 |
-|  72 | [L46](#lang-46)   | No    | No    | Yes       |      1 |
-|  73 | [L47](#lang-47)   | No    | No    | No        |      0 |
-|  74 | [L48](#lang-48)   | No       | No       | T_OUT     |      0 |
-|  75 | [L49](#lang-49)   | No    | No    | T_OUT     |      0 |
-|  76 | [L50](#lang-50)   | No    | No    | T_OUT     |      0 |
-|  77 | [L51](#lang-51)   | No    | No    | Yes       |      1 |
-|  78 | [L52](#lang-52)   | No    | No    | No        |      0 |
-|  79 | [L53](#lang-53)   | No       | No       | T_OUT     |      0 |
-|  80 | [L54](#lang-54)   | No    | No    | No        |      0 |
-|  81 | [L55](#lang-55)   | No    | No    | Yes       |      1 |
-|  82 | [L56](#lang-56)   | No    | No    | No        |      0 |
-|  83 | [L57](#lang-57)   | No    | No    | No        |      0 |
-|  84 | [L58](#lang-58)   | No       | No       | Yes       |      1 |
-|  85 | [L59](#lang-59)   | No    | No    | No        |      0 |
-|  86 | [L60](#lang-60)   | No    | No    | No        |      0 |
-|  87 | [L61](#lang-61)   | No    | No    | No        |      0 |
-|  88 | [L62](#lang-62)   | No       | No       | No        |      0 |
-|  89 | [L63](#lang-63)   | No    | No    | No        |      0 |
-|  90 | [L64](#lang-64)   | No    | No    | No        |      0 |
-|  91 | [L65](#lang-65)   | No       | No       | No        |      0 |
-|  92 | [M1](#math-1)     | No       | No       | No        |      0 |
+|   9 | [C9](#chart-9)    | T_OUT     | 0 Reg     | Yes       |      1 |
+|  10 | [C10](#chart-10)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  11 | [C11](#chart-11)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  12 | [C12](#chart-12)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  13 | [C13](#chart-13)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  14 | [C14](#chart-14)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  15 | [C15](#chart-15)  | T_OUT     | 0 Reg     | 1 AV      |      0 |
+|  16 | [C16](#chart-16)  | T_OUT     | 0 Reg     | T_OUT     |      0 |
+|  17 | [C17](#chart-17)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  18 | [C18](#chart-18)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  19 | [C19](#chart-19)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  20 | [C20](#chart-20)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  21 | [C21](#chart-21)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  22 | [C22](#chart-22)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  23 | [C23](#chart-23)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  24 | [C24](#chart-24)  | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  25 | [C25](#chart-25)  | T_OUT     | 0 Reg     | Yes       |      1 |
+|  26 | [C26](#chart-26)  | T_OUT     | 0 Reg     | T_OUT     |      0 |
+|  27 | [L1](#lang-1)     | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  28 | [L2](#lang-2)     | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  29 | [L3](#lang-3)     | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  30 | [L4](#lang-4)     | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  31 | [L5](#lang-5)     | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  32 | [L6](#lang-6)     | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  33 | [L7](#lang-7)     | T_OUT     | 2261 Reg  | T_OUT     |      0 |
+|  34 | [L8](#lang-8)     | T_OUT     | 0 Reg     | T_OUT     |      0 |
+|  35 | [L9](#lang-9)     | T_OUT     | 0 Reg     | T_OUT     |      0 |
+|  36 | [L10](#lang-10)   | T_OUT     | 0 Reg     | T_OUT     |      0 |
+|  37 | [L11](#lang-11)   | T_OUT     | 0 Reg     | T_OUT     |      0 |
+|  38 | [L12](#lang-12)   | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  39 | [L13](#lang-13)   | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  40 | [L14](#lang-14)   | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  41 | [L15](#lang-15)   | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  42 | [L16](#lang-16)   | T_OUT     | 2046 Reg  | 0 AV      |      0 |
+|  43 | [L17](#lang-17)   | T_OUT     | 1903 Reg  | 0 AV      |      0 |
+|  44 | [L18](#lang-18)   | T_OUT     | 1902 Reg  | T_OUT     |      0 |
+|  45 | [L19](#lang-19)   | T_OUT     | 0 Reg     | 0 AV      |      0 |
+|  46 | [L20](#lang-20)   | 1876 Reg  | 1876 Reg  | 0 AV      |      0 |
+|  47 | [L21](#lang-21)   | 1827 Reg  | 1827 Reg  | 0 AV      |      0 |
+|  48 | [L22](#lang-22)   | 1825 Reg  | 1825 Reg  | T_OUT     |      0 |
+|  49 | [L23](#lang-23)   | 0 Reg     | 0 Reg     | ERROR     |      0 |
+|  50 | [L24](#lang-24)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  51 | [L25](#lang-25)   | 1821 Reg  | 1821 Reg  | 0 AV      |      0 |
+|  52 | [L26](#lang-26)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+|  53 | [L27](#lang-27)   | 0 Reg     | 0 Reg     | 1 AV      |      0 |
+|  54 | [L28](#lang-28)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  55 | [L29](#lang-29)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  56 | [L30](#lang-30)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  57 | [L31](#lang-31)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  58 | [L32](#lang-32)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  59 | [L33](#lang-33)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  60 | [L34](#lang-34)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+|  61 | [L35](#lang-35)   | 1644 Reg  | 1644 Reg  | 0 AV      |      0 |
+|  62 | [L36](#lang-36)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  63 | [L37](#lang-37)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  64 | [L38](#lang-38)   | 1624 Reg  | 0 Reg     | T_OUT     |      0 |
+|  65 | [L39](#lang-39)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+|  66 | [L40](#lang-40)   | 1643 Reg  | 1643 Reg  | 0 AV      |      0 |
+|  67 | [L41](#lang-41)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  68 | [L42](#lang-42)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  69 | [L43](#lang-43)   | 1821 Reg  | 1821 Reg  | T_OUT     |      0 |
+|  70 | [L44](#lang-44)   | 1798 Reg  | 1798 Reg  | Yes       |      1 |
+|  71 | [L45](#lang-45)   | 1796 Reg  | 1796 Reg  | 0 AV      |      0 |
+|  72 | [L46](#lang-46)   | 1748 Reg  | 1748 Reg  | Yes       |      1 |
+|  73 | [L47](#lang-47)   | 1748 Reg  | 1748 Reg  | 0 AV      |      0 |
+|  74 | [L48](#lang-48)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+|  75 | [L49](#lang-49)   | 1669 Reg  | 1669 Reg  | T_OUT     |      0 |
+|  76 | [L50](#lang-50)   | 1733 Reg  | 1733 Reg  | T_OUT     |      0 |
+|  77 | [L51](#lang-51)   | 1644 Reg  | 1644 Reg  | Yes       |      1 |
+|  78 | [L52](#lang-52)   | 1644 Reg  | 1644 Reg  | 0 AV      |      0 |
+|  79 | [L53](#lang-53)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+|  80 | [L54](#lang-54)   | 1629 Reg  | 1629 Reg  | 0 AV      |      0 |
+|  81 | [L55](#lang-55)   | 1629 Reg  | 1629 Reg  | Yes       |      1 |
+|  82 | [L56](#lang-56)   | 1610 Reg  | 1610 Reg  | 2 AV      |      0 |
+|  83 | [L57](#lang-57)   | 1609 Reg  | 1609 Reg  | 0 AV      |      0 |
+|  84 | [L58](#lang-58)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+|  85 | [L59](#lang-59)   | 1606 Reg  | 1606 Reg  | 0 AV      |      0 |
+|  86 | [L60](#lang-60)   | 1603 Reg  | 1603 Reg  | 4 AV      |      0 |
+|  87 | [L61](#lang-61)   | 1602 Reg  | 1602 Reg  | 0 AV      |      0 |
+|  88 | [L62](#lang-62)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  89 | [L63](#lang-63)   | 1590 Reg  | 1590 Reg  | 1 AV      |      0 |
+|  90 | [L64](#lang-64)   | 1586 Reg  | 1586 Reg  | 0 AV      |      0 |
+|  91 | [L65](#lang-65)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  92 | [M1](#math-1)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
 |  93 | [M2](#math-2)     | Yes       | Yes       | T_OUT     |      2 |
-|  94 | [M3](#math-3)     | No       | No       | No        |      0 |
-|  95 | [M4](#math-4)     | No       | No       | T_OUT     |      0 |
-|  96 | [M5](#math-5)     | No       | No       | No        |      0 |
+|  94 | [M3](#math-3)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+|  95 | [M4](#math-4)     | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+|  96 | [M5](#math-5)     | 0 Reg     | 0 Reg     | 2 AV      |      0 |
 |  97 | [M6](#math-6)     | ERROR     | ERROR     | T_OUT     |      0 |
-|  98 | [M7](#math-7)     | No       | No       | T_OUT     |      0 |
-|  99 | [M8](#math-8)     | Yes       | Yes       | No        |      2 |
-| 100 | [M9](#math-9)     | No       | No       | No        |      0 |
-| 101 | [M10](#math-10)   | No       | No       | T_OUT     |      0 |
-| 102 | [M11](#math-11)   | No       | No       | No        |      0 |
-| 103 | [M12](#math-12)   | No       | No       | T_OUT     |      0 |
-| 104 | [M13](#math-13)   | No       | No       | No        |      0 |
-| 105 | [M14](#math-14)   | No       | No       | No        |      0 |
-| 106 | [M15](#math-15)   | No    | No    | T_OUT     |      0 |
-| 107 | [M16](#math-16)   | No       | No       | T_OUT     |      0 |
-| 108 | [M17](#math-17)   | No       | No       | T_OUT     |      0 |
-| 109 | [M18](#math-18)   | No       | No       | T_OUT     |      0 |
-| 110 | [M19](#math-19)   | No       | No       | T_OUT     |      0 |
+|  98 | [M7](#math-7)     | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+|  99 | [M8](#math-8)     | Yes       | Yes       | 0 AV      |      2 |
+| 100 | [M9](#math-9)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 101 | [M10](#math-10)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 102 | [M11](#math-11)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 103 | [M12](#math-12)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 104 | [M13](#math-13)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 105 | [M14](#math-14)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 106 | [M15](#math-15)   | 4240 Reg  | 4240 Reg  | T_OUT     |      0 |
+| 107 | [M16](#math-16)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 108 | [M17](#math-17)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 109 | [M18](#math-18)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 110 | [M19](#math-19)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
 | 111 | [M20](#math-20)   | ERROR     | ERROR     | T_OUT     |      0 |
-| 112 | [M21](#math-21)   | No       | No       | No        |      0 |
-| 113 | [M22](#math-22)   | No       | No       | No        |      0 |
-| 114 | [M23](#math-23)   | No    | No       | No        |      0 |
-| 115 | [M24](#math-24)   | No    | No    | No        |      0 |
-| 116 | [M25](#math-25)   | No       | No       | No        |      0 |
-| 117 | [M26](#math-26)   | No       | No       | No        |      0 |
-| 118 | [M27](#math-27)   | No       | No       | T_OUT     |      0 |
-| 119 | [M28](#math-28)   | No       | No       | T_OUT     |      0 |
-| 120 | [M29](#math-29)   | No       | No       | T_OUT     |      0 |
-| 121 | [M30](#math-30)   | No    | No       | No        |      0 |
-| 122 | [M31](#math-31)   | No       | No       | T_OUT     |      0 |
-| 123 | [M32](#math-32)   | No       | No       | Yes       |      1 |
-| 124 | [M33](#math-33)   | No       | No       | Yes       |      1 |
-| 125 | [M34](#math-34)   | No       | No       | No        |      0 |
+| 112 | [M21](#math-21)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 113 | [M22](#math-22)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 114 | [M23](#math-23)   | 4073 Reg  | 0 Reg     | 0 AV      |      0 |
+| 115 | [M24](#math-24)   | 4072 Reg  | 4072 Reg  | 1 AV      |      0 |
+| 116 | [M25](#math-25)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 117 | [M26](#math-26)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 118 | [M27](#math-27)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 119 | [M28](#math-28)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 120 | [M29](#math-29)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 121 | [M30](#math-30)   | 3694 Reg  | 0 Reg     | 1 AV      |      0 |
+| 122 | [M31](#math-31)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 123 | [M32](#math-32)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 124 | [M33](#math-33)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 125 | [M34](#math-34)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
 | 126 | [M35](#math-35)   | ERROR     | ERROR     | ERROR     |      0 |
-| 127 | [M36](#math-36)   | No       | No       | No        |      0 |
-| 128 | [M37](#math-37)   | No       | No       | T_OUT     |      0 |
-| 129 | [M38](#math-38)   | No       | No       | T_OUT     |      0 |
-| 130 | [M39](#math-39)   | No       | No       | T_OUT     |      0 |
-| 131 | [M40](#math-40)   | Yes       | No       | Yes       |      2 |
-| 132 | [M41](#math-41)   | No       | No       | Yes       |      1 |
-| 133 | [M42](#math-42)   | No    | No       | Yes       |      1 |
-| 134 | [M43](#math-43)   | No       | No       | No        |      0 |
-| 135 | [M44](#math-44)   | No    | No       | T_OUT     |      0 |
-| 136 | [M45](#math-45)   | No       | No       | No        |      0 |
-| 137 | [M46](#math-46)   | No       | No       | No        |      0 |
-| 138 | [M47](#math-47)   | No       | No       | No        |      0 |
-| 139 | [M48](#math-48)   | No       | No       | T_OUT     |      0 |
+| 127 | [M36](#math-36)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 128 | [M37](#math-37)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 129 | [M38](#math-38)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 130 | [M39](#math-39)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 131 | [M40](#math-40)   | Yes       | 0 Reg     | Yes       |      2 |
+| 132 | [M41](#math-41)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 133 | [M42](#math-42)   | 3042 Reg  | 0 Reg     | Yes       |      1 |
+| 134 | [M43](#math-43)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 135 | [M44](#math-44)   | 2988 Reg  | 0 Reg     | T_OUT     |      0 |
+| 136 | [M45](#math-45)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 137 | [M46](#math-46)   | 0 Reg     | 0 Reg     | 4 AV      |      0 |
+| 138 | [M47](#math-47)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 139 | [M48](#math-48)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
 | 140 | [M49](#math-49)   | Yes       | Yes       | Yes       |      3 |
 | 141 | [M50](#math-50)   | Yes       | Yes       | Yes       |      3 |
 | 142 | [M51](#math-51)   | ERROR     | ERROR     | T_OUT     |      0 |
-| 143 | [M52](#math-52)   | No       | No       | No        |      0 |
-| 144 | [M53](#math-53)   | No    | No       | No        |      0 |
-| 145 | [M54](#math-54)   | No       | EMPTY     | T_OUT     |      0 |
-| 146 | [M55](#math-55)   | No       | No       | No        |      0 |
-| 147 | [M56](#math-56)   | No       | No       | No        |      0 |
-| 148 | [M57](#math-57)   | No       | No       | Yes       |      1 |
-| 149 | [M58](#math-58)   | No    | No    | Yes       |      1 |
-| 150 | [M59](#math-59)   | No       | No       | T_OUT     |      0 |
-| 151 | [M60](#math-60)   | No       | No       | ERROR     |      0 |
-| 152 | [M61](#math-61)   | No       | No       | No        |      0 |
-| 153 | [M62](#math-62)   | No       | No       | No        |      0 |
-| 154 | [M63](#math-63)   | No       | No       | No        |      0 |
-| 155 | [M64](#math-64)   | Yes       | No       | T_OUT     |      1 |
-| 156 | [M65](#math-65)   | No       | No       | No        |      0 |
-| 157 | [M66](#math-66)   | No       | No       | No        |      0 |
-| 158 | [M67](#math-67)   | No       | No       | No        |      0 |
-| 159 | [M68](#math-68)   | No    | No       | No        |      0 |
-| 160 | [M69](#math-69)   | No       | No       | Yes       |      1 |
-| 161 | [M70](#math-70)   | Yes       | No       | No        |      1 |
-| 162 | [M71](#math-71)   | No       | ERROR     | T_OUT     |      0 |
-| 163 | [M72](#math-72)   | No    | No       | No        |      0 |
-| 164 | [M73](#math-73)   | Yes       | No       | Yes       |      2 |
-| 165 | [M74](#math-74)   | No       | EMPTY     | T_OUT     |      0 |
-| 166 | [M75](#math-75)   | No       | No       | No        |      0 |
-| 167 | [M76](#math-76)   | No       | No       | No        |      0 |
-| 168 | [M77](#math-77)   | No       | No       | No        |      0 |
+| 143 | [M52](#math-52)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 144 | [M53](#math-53)   | 2395 Reg  | 0 Reg     | 0 AV      |      0 |
+| 145 | [M54](#math-54)   | 0 Reg     | EMPTY     | T_OUT     |      0 |
+| 146 | [M55](#math-55)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 147 | [M56](#math-56)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 148 | [M57](#math-57)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 149 | [M58](#math-58)   | 2224 Reg  | 2224 Reg  | Yes       |      1 |
+| 150 | [M59](#math-59)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 151 | [M60](#math-60)   | 0 Reg     | 0 Reg     | ERROR     |      0 |
+| 152 | [M61](#math-61)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 153 | [M62](#math-62)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 154 | [M63](#math-63)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 155 | [M64](#math-64)   | Yes       | 0 Reg     | T_OUT     |      1 |
+| 156 | [M65](#math-65)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 157 | [M66](#math-66)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 158 | [M67](#math-67)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 159 | [M68](#math-68)   | 2076 Reg  | 0 Reg     | 0 AV      |      0 |
+| 160 | [M69](#math-69)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 161 | [M70](#math-70)   | Yes       | 0 Reg     | 0 AV      |      1 |
+| 162 | [M71](#math-71)   | 0 Reg     | ERROR     | T_OUT     |      0 |
+| 163 | [M72](#math-72)   | 2032 Reg  | 0 Reg     | 0 AV      |      0 |
+| 164 | [M73](#math-73)   | Yes       | 0 Reg     | Yes       |      2 |
+| 165 | [M74](#math-74)   | 0 Reg     | EMPTY     | T_OUT     |      0 |
+| 166 | [M75](#math-75)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 167 | [M76](#math-76)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 168 | [M77](#math-77)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
 | 169 | [M78](#math-78)   | Yes       | Yes       | Yes       |      3 |
-| 170 | [M79](#math-79)   | No    | No       | Yes       |      1 |
+| 170 | [M79](#math-79)   | 1996 Reg  | 0 Reg     | Yes       |      1 |
 | 171 | [M80](#math-80)   | Yes       | Yes       | Yes       |      3 |
 | 172 | [M81](#math-81)   | Yes       | Yes       | Yes       |      3 |
 | 173 | [M82](#math-82)   | Yes       | Yes       | Yes       |      3 |
-| 174 | [M83](#math-83)   | No       | No       | No        |      0 |
-| 175 | [M84](#math-84)   | Yes       | No       | No        |      1 |
+| 174 | [M83](#math-83)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 175 | [M84](#math-84)   | Yes       | 0 Reg     | 0 AV      |      1 |
 | 176 | [M85](#math-85)   | Yes       | Yes       | Yes       |      3 |
-| 177 | [M86](#math-86)   | No       | No       | No        |      0 |
-| 178 | [M87](#math-87)   | No       | No       | Yes       |      1 |
-| 179 | [M88](#math-88)   | No       | No       | Yes       |      1 |
-| 180 | [M89](#math-89)   | No       | No       | No        |      0 |
-| 181 | [M90](#math-90)   | No       | No       | No        |      0 |
-| 182 | [M91](#math-91)   | No       | No       | T_OUT     |      0 |
-| 183 | [M92](#math-92)   | No       | No       | No        |      0 |
-| 184 | [M93](#math-93)   | No       | No       | No        |      0 |
-| 185 | [M94](#math-94)   | No       | No       | T_OUT     |      0 |
-| 186 | [M95](#math-95)   | Yes       | No       | T_OUT     |      1 |
-| 187 | [M96](#math-96)   | No       | No       | No        |      0 |
-| 188 | [M97](#math-97)   | No       | No       | Yes       |      1 |
-| 189 | [M98](#math-98)   | No       | No       | No        |      0 |
+| 177 | [M86](#math-86)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 178 | [M87](#math-87)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 179 | [M88](#math-88)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 180 | [M89](#math-89)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 181 | [M90](#math-90)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 182 | [M91](#math-91)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 183 | [M92](#math-92)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 184 | [M93](#math-93)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 185 | [M94](#math-94)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 186 | [M95](#math-95)   | Yes       | 0 Reg     | T_OUT     |      1 |
+| 187 | [M96](#math-96)   | 0 Reg     | 0 Reg     | 1 AV      |      0 |
+| 188 | [M97](#math-97)   | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 189 | [M98](#math-98)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
 | 190 | [M99](#math-99)   | IGNORED   | IGNORED   | IGNORED   |      0 |
-| 191 | [M100](#math-100) | No       | No       | No        |      0 |
-| 192 | [M101](#math-101) | No       | No       | No        |      0 |
-| 193 | [M102](#math-102) | No       | No       | T_OUT     |      0 |
-| 194 | [M103](#math-103) | No       | No       | No        |      0 |
-| 195 | [M104](#math-104) | No       | No       | Yes       |      1 |
-| 196 | [M105](#math-105) | No       | No       | Yes       |      1 |
-| 197 | [M106](#math-106) | No       | No       | No        |      0 |
-| 198 | [T1](#time-1)     | No       | No       | No        |      0 |
-| 199 | [T2](#time-2)     | No       | No       | No        |      0 |
-| 200 | [T3](#time-3)     | No       | No       | T_OUT     |      0 |
-| 201 | [T4](#time-4)     | No       | No       | No        |      0 |
-| 202 | [T5](#time-5)     | No       | No       | No        |      0 |
-| 203 | [T6](#time-6)     | No       | No       | No        |      0 |
-| 204 | [T7](#time-7)     | No       | No       | T_OUT     |      0 |
-| 205 | [T8](#time-8)     | No       | No       | No        |      0 |
-| 206 | [T9](#time-9)     | No       | No       | No        |      0 |
-| 207 | [T10](#time-10)   | No       | No       | T_OUT     |      0 |
-| 208 | [T11](#time-11)   | No       | No       | T_OUT     |      0 |
-| 209 | [T12](#time-12)   | ERROR     | No       | T_OUT     |      0 |
-| 210 | [T13](#time-13)   | No       | No       | No        |      0 |
-| 211 | [T14](#time-14)   | No       | No       | No        |      0 |
-| 212 | [T15](#time-15)   | No       | No       | No        |      0 |
-| 213 | [T16](#time-16)   | No       | No       | T_OUT     |      0 |
-| 214 | [T17](#time-17)   | No       | No       | T_OUT     |      0 |
-| 215 | [T18](#time-18)   | No       | No       | T_OUT     |      0 |
-| 216 | [T19](#time-19)   | No       | No       | T_OUT     |      0 |
-| 217 | [T20](#time-20)   | No       | No       | T_OUT     |      0 |
-| 218 | [T21](#time-21)   | No       | No       | T_OUT     |      0 |
-| 219 | [T22](#time-22)   | No       | No       | ERROR     |      0 |
-| 220 | [T23](#time-23)   | No       | No       | T_OUT     |      0 |
+| 191 | [M100](#math-100) | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 192 | [M101](#math-101) | 0 Reg     | 0 Reg     | 1 AV      |      0 |
+| 193 | [M102](#math-102) | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 194 | [M103](#math-103) | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 195 | [M104](#math-104) | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 196 | [M105](#math-105) | 0 Reg     | 0 Reg     | Yes       |      1 |
+| 197 | [M106](#math-106) | 0 Reg     | 0 Reg     | 7 AV      |      0 |
+| 198 | [T1](#time-1)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 199 | [T2](#time-2)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 200 | [T3](#time-3)     | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 201 | [T4](#time-4)     | 1 Reg     | 0 Reg     | 2 AV      |      0 |
+| 202 | [T5](#time-5)     | 0 Reg     | 0 Reg     | 1 AV      |      0 |
+| 203 | [T6](#time-6)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 204 | [T7](#time-7)     | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 205 | [T8](#time-8)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 206 | [T9](#time-9)     | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 207 | [T10](#time-10)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 208 | [T11](#time-11)   | 1 Reg     | 1 Reg     | T_OUT     |      0 |
+| 209 | [T12](#time-12)   | ERROR     | 0 Reg     | T_OUT     |      0 |
+| 210 | [T13](#time-13)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 211 | [T14](#time-14)   | 0 Reg     | 0 Reg     | 2 AV      |      0 |
+| 212 | [T15](#time-15)   | 0 Reg     | 0 Reg     | 0 AV      |      0 |
+| 213 | [T16](#time-16)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 214 | [T17](#time-17)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 215 | [T18](#time-18)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 216 | [T19](#time-19)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 217 | [T20](#time-20)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 218 | [T21](#time-21)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 219 | [T22](#time-22)   | 0 Reg     | 0 Reg     | ERROR     |      0 |
+| 220 | [T23](#time-23)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
 | 221 | [T24](#time-24)   | ERROR     | ERROR     | T_OUT     |      0 |
-| 222 | [T25](#time-25)   | No       | No       | T_OUT     |      0 |
-| 223 | [T26](#time-26)   | No       | No       | T_OUT     |      0 |
+| 222 | [T25](#time-25)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
+| 223 | [T26](#time-26)   | 0 Reg     | 0 Reg     | T_OUT     |      0 |
 | 224 | [T27](#time-27)   | ERROR     | ERROR     | T_OUT     |      0 |
 |     | Total             | 15 (6%)   | 9 (4%)    | 33 (14%)  |     57 |
 
