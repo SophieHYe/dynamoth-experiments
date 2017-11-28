@@ -5,6 +5,43 @@ import re
 import json
 from core.Config import conf
 
+def get_java_version_in_file(propertiesPath):
+    target = None
+    source = None         
+    with open(propertiesPath) as file:
+        for line in file:
+            m = re.search('compile.target ?= ?1.([0-9])', line)
+            if m:
+                target = m.group(1)
+            else:
+                m = re.search('target>1.([0-9])', line)
+                if m:
+                    target = m.group(1)
+                else:
+                    m = re.search('target="1.([0-9])"', line)
+                    if m:
+                        target = m.group(1)
+                    else:
+                        m = re.search('name="ant.build.javac.target" value="1.([0-9])"', line)
+                        if m:
+                            target = m.group(1)
+
+            m = re.search('compile.source ?= ?1.([0-9])', line)
+            if m:
+                source = m.group(1)
+            else:
+                m = re.search('source>1.([0-9])', line)
+                if m:
+                    source = m.group(1)
+                else:
+                    m = re.search('source="1.([0-9])"', line)
+                    if m:
+                        source = m.group(1)
+                    else:
+                        m = re.search('name="ant.build.javac.source" value="1.([0-9])"', line)
+                        if m:
+                            source = m.group(1)
+    return (source, target)
 
 rootProjects = conf.projectsRoot
 rootProjectsData = os.path.join(conf.defects4jRepairRoot, "src", "python", "data", "projects")
@@ -24,55 +61,15 @@ for project in sorted(os.listdir(rootProjects)):
         bugPath = os.path.join(projectPath, bugId)
         if os.path.isfile(bugPath):
             continue
-        propertiesPath = os.path.join(bugPath, "pom.xml")
-        if not os.path.exists(propertiesPath):
-            propertiesPath = os.path.join(bugPath, "project.properties")
-            if not os.path.exists(propertiesPath):
-                propertiesPath = os.path.join(bugPath, "default.properties")
-                if not os.path.exists(propertiesPath):
-                    propertiesPath = os.path.join(bugPath, "ant/build.xml")
-                    if not os.path.exists(propertiesPath):
-                        propertiesPath = os.path.join(bugPath, "build.xml")
-                        if not os.path.exists(propertiesPath):
-                            propertiesPath = None
+        files = ["pom.xml", "project.properties", "default.properties", "ant/build.xml", "build.xml"]
         target = None
         source = None
-        if propertiesPath:
-            
-            with open(propertiesPath) as file:
-                for line in file:
-                    m = re.search('compile.target ?= ?1.([0-9])', line)
-                    if m:
-                        target = m.group(1)
-                    else:
-                        m = re.search('target>1.([0-9])', line)
-                        if m:
-                            target = m.group(1)
-                        else:
-                            m = re.search('target="1.([0-9])"', line)
-                            if m:
-                                target = m.group(1)
-                            else:
-                                m = re.search('name="ant.build.javac.target" value="1.([0-9])"', line)
-                                if m:
-                                    target = m.group(1)
-
-                    m = re.search('compile.source ?= ?1.([0-9])', line)
-                    if m:
-                        source = m.group(1)
-                    else:
-                        m = re.search('source>1.([0-9])', line)
-                        if m:
-                            source = m.group(1)
-                        else:
-                            m = re.search('source="1.([0-9])"', line)
-                            if m:
-                                source = m.group(1)
-                            else:
-                                m = re.search('name="ant.build.javac.source" value="1.([0-9])"', line)
-                                if m:
-                                    source = m.group(1)
-            print bugId, source, target
+        for file in files:
+            propertiesPath = os.path.join(bugPath, file)
+            if os.path.exists(propertiesPath):
+                (source, target) = get_java_version_in_file(propertiesPath)
+                if (target is not None):
+                    break
         if target is None:
             target = "7"
             source = "7"
