@@ -97,14 +97,14 @@ def getToolsHeader(tools, separator="|"):
 line += getToolsHeader(tools, "|")
 texTable += getToolsHeader(tools, "&")
 
-tableHeader = "%sTotal |\n----- | ----------------- | " % line
+tableHeader = "%sTotal  |\n| --- | ----------------- | " % line
 texTable += "Total \\\\\n\\hline\n"
 for tool in tools:
     tool = get_tool_name(tool)
     if tool is None:
         continue
     tableHeader += "--------- | "
-tableHeader += "------\n"
+tableHeader += "------ |\n"
 result += tableHeader
 resultSimple = result
 
@@ -142,7 +142,7 @@ for project in sorted(os.listdir(root)):
         ranking = None
 
         totalBugs += 1
-        line = " {0:3} | {1:17} |"
+        line = "| {0:3} | {1:17} |"
         lineArgs = []
         texLineArgs = []
         texLineTable = "{0:17} &"
@@ -378,7 +378,7 @@ for project in sorted(os.listdir(root)):
                 else:
                     lineArgs += ["No"]
                 texLineArgs += ["--"]
-        line += "{%d:7}" % (index + 2)
+        line += "{%d:7} |" % (index + 2)
         texLineTable += "{%d:7} \\\\" % (index + 1)
         lineArgs += [lineCount]
         if lineCount > 0:
@@ -392,7 +392,7 @@ for project in sorted(os.listdir(root)):
 
     texTable += "\hline\n"
 
-totalLine = "     | {0:17} | ".format("Total")
+totalLine = "|     | {0:17} | ".format("Total")
 texLineTable = "{0:17} & ".format("Total")
 total = 0
 for tool in sorted(tools):
@@ -407,7 +407,7 @@ for tool in sorted(tools):
         percent = float(count[tool]) / float(totalBugs) * 100
     totalLine += "{0:9} | ".format("%d (%d%%)" % (value, percent))
     texLineTable += "{0:9} & ".format("%d (%d\\%%)" % (value, percent))
-totalLine += "{0:6}\n".format(total)
+totalLine += "{0:6} |\n\n".format(total)
 totalLine += "Fixed bugs: %d/%d (%d%%)\n\n" % (fixedBugs, totalBugs, float(fixedBugs) / float(totalBugs) * 100)
 totalLine += "Nb bugs ends with an execution error: %d\n\n" % (nbError)
 totalLine += "Nb bugs ends with an empty log: %d\n\n" % (nbEmpty)

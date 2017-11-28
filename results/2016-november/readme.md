@@ -1,589 +1,532 @@
 # All fixed bugs
 
- #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
----- | ----------------- | --------- | --------- | --------- | --------- | ------
-   1 | [C1](#chart-1)    | Yes       |           |           | ERROR     |      1
-   3 | [C3](#chart-3)    |           |           |           | Yes       |      1
-   4 | [C4](#chart-4)    | Yes       |           |           | Yes       |      2
-   5 | [C5](#chart-5)    | Yes       |           |           | Yes       |      2
-   9 | [C9](#chart-9)    | Yes       |           |           | Yes       |      2
-  13 | [C13](#chart-13)  | Yes       |           |           | Yes       |      2
-  15 | [C15](#chart-15)  | Yes       |           |           | No        |      1
-  17 | [C17](#chart-17)  | Yes       |           |           | Yes       |      2
-  21 | [C21](#chart-21)  |           |           |           | Yes       |      1
-  25 | [C25](#chart-25)  | Yes       |           |           | Yes       |      2
-  26 | [C26](#chart-26)  | Yes       |           |           | Yes       |      2
-  27 | [C1](#closure-1)  | Yes       |           |           | Yes       |      2
-  28 | [C2](#closure-2)  | Yes       |           |           | Yes       |      2
-  29 | [C3](#closure-3)  | Yes       |           |           | Yes       |      2
-  31 | [C5](#closure-5)  | Yes       |           |           | Yes       |      2
-  33 | [C7](#closure-7)  | ERROR     |           |           | Yes       |      1
-  34 | [C8](#closure-8)  | Yes       |           |           | Yes       |      2
-  36 | [C10](#closure-10) | Yes       |           |           | Yes       |      2
-  38 | [C12](#closure-12) | ERROR     |           |           | Yes       |      1
-  40 | [C14](#closure-14) | ERROR     |           |           | Yes       |      1
-  41 | [C15](#closure-15) | No        |           |           | Yes       |      1
-  42 | [C16](#closure-16) | Yes       |           |           | Yes       |      2
-  43 | [C17](#closure-17) | Yes       |           |           | Yes       |      2
-  44 | [C18](#closure-18) | Yes       |           |           | Yes       |      2
-  45 | [C19](#closure-19) | Yes       |           |           | ERROR     |      1
-  46 | [C20](#closure-20) | Yes       |           |           | Yes       |      2
-  47 | [C21](#closure-21) | Yes       |           |           | Yes       |      2
-  48 | [C22](#closure-22) | Yes       |           |           | Yes       |      2
-  52 | [C26](#closure-26) | Yes       |           |           | Yes       |      2
-  54 | [C28](#closure-28) | Yes       |           |           | Yes       |      2
-  55 | [C29](#closure-29) | Yes       |           |           | Yes       |      2
-  56 | [C30](#closure-30) | Yes       |           |           | Yes       |      2
-  57 | [C31](#closure-31) | Yes       |           |           | Yes       |      2
-  59 | [C33](#closure-33) | Yes       |           |           | Yes       |      2
-  61 | [C35](#closure-35) | ERROR     |           |           | Yes       |      1
-  62 | [C36](#closure-36) | Yes       |           |           | Yes       |      2
-  64 | [C38](#closure-38) | No        |           |           | Yes       |      1
-  66 | [C40](#closure-40) | Yes       |           |           | Yes       |      2
-  71 | [C45](#closure-45) | Yes       |           |           | Yes       |      2
-  74 | [C48](#closure-48) | Yes       |           |           | No        |      1
-  75 | [C49](#closure-49) | Yes       |           |           | Yes       |      2
-  76 | [C50](#closure-50) | Yes       |           |           | Yes       |      2
-  81 | [C55](#closure-55) | Yes       |           |           | Yes       |      2
-  85 | [C59](#closure-59) | Yes       |           |           | ERROR     |      1
-  86 | [C60](#closure-60) | Yes       |           |           | Yes       |      2
-  87 | [C61](#closure-61) | Yes       |           |           | Yes       |      2
-  88 | [C62](#closure-62) | Yes       |           |           | Yes       |      2
-  89 | [C63](#closure-63) | Yes       |           |           | Yes       |      2
-  92 | [C66](#closure-66) | Yes       |           |           | Yes       |      2
-  93 | [C67](#closure-67) | Yes       |           |           | Yes       |      2
-  98 | [C72](#closure-72) | Yes       |           |           | Yes       |      2
- 101 | [C75](#closure-75) | Yes       |           |           | Yes       |      2
- 102 | [C76](#closure-76) | Yes       |           |           | Yes       |      2
- 104 | [C78](#closure-78) | Yes       |           |           | Yes       |      2
- 137 | [C111](#closure-111) | ERROR     |           |           | Yes       |      1
- 139 | [C113](#closure-113) | Yes       |           |           | Yes       |      2
- 140 | [C114](#closure-114) | Yes       |           |           | Yes       |      2
- 141 | [C115](#closure-115) | Yes       |           |           | Yes       |      2
- 142 | [C116](#closure-116) | Yes       |           |           | Yes       |      2
- 145 | [C119](#closure-119) | ERROR     |           |           | Yes       |      1
- 146 | [C120](#closure-120) | Yes       |           |           | Yes       |      2
- 147 | [C121](#closure-121) | No        |           |           | Yes       |      1
- 150 | [C124](#closure-124) | Yes       |           |           | Yes       |      2
- 152 | [C126](#closure-126) | Yes       |           |           | Yes       |      2
- 153 | [C127](#closure-127) | Yes       |           |           | Yes       |      2
- 155 | [C129](#closure-129) | Yes       |           |           | Yes       |      2
- 156 | [C130](#closure-130) | Yes       |           |           | Yes       |      2
- 157 | [C131](#closure-131) | Yes       |           |           | Yes       |      2
- 158 | [C132](#closure-132) | Yes       |           |           | Yes       |      2
- 159 | [C133](#closure-133) | Yes       |           |           | Yes       |      2
- 203 | [L44](#lang-44)   | Yes       |           |           | Yes       |      2
- 210 | [L51](#lang-51)   | Yes       |           |           | Yes       |      2
- 212 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
- 214 | [L55](#lang-55)   | Yes       |           |           | No        |      1
- 217 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
- 222 | [L63](#lang-63)   | Yes       |           |           | No        |      1
- 226 | [M2](#math-2)     | Yes       |           |           | Yes       |      2
- 228 | [M4](#math-4)     | ERROR     |           |           | Yes       |      1
- 229 | [M5](#math-5)     | Yes       |           |           | No        |      1
- 231 | [M7](#math-7)     | ERROR     |           |           | Yes       |      1
- 248 | [M24](#math-24)   | Yes       |           |           | Yes       |      2
- 252 | [M28](#math-28)   | Yes       |           |           | Yes       |      2
- 256 | [M32](#math-32)   | Yes       |           |           | ERROR     |      1
- 257 | [M33](#math-33)   | Yes       |           |           | Yes       |      2
- 263 | [M39](#math-39)   | ERROR     |           |           | Yes       |      1
- 264 | [M40](#math-40)   | Yes       |           |           | Yes       |      2
- 265 | [M41](#math-41)   | Yes       |           |           | Yes       |      2
- 266 | [M42](#math-42)   | Yes       |           |           | Yes       |      2
- 268 | [M44](#math-44)   | Yes       |           |           | Yes       |      2
- 270 | [M46](#math-46)   | Yes       |           |           | No        |      1
- 273 | [M49](#math-49)   | Yes       |           |           | Yes       |      2
- 274 | [M50](#math-50)   | Yes       |           |           | Yes       |      2
- 281 | [M57](#math-57)   | Yes       |           |           | Yes       |      2
- 282 | [M58](#math-58)   | Yes       |           |           | Yes       |      2
- 293 | [M69](#math-69)   | Yes       |           |           | Yes       |      2
- 295 | [M71](#math-71)   | Yes       |           |           | No        |      1
- 297 | [M73](#math-73)   | No        |           |           | Yes       |      1
- 302 | [M78](#math-78)   | Yes       |           |           | Yes       |      2
- 304 | [M80](#math-80)   | Yes       |           |           | Yes       |      2
- 305 | [M81](#math-81)   | ERROR     |           |           | Yes       |      1
- 306 | [M82](#math-82)   | Yes       |           |           | No        |      1
- 309 | [M85](#math-85)   | Yes       |           |           | Yes       |      2
- 311 | [M87](#math-87)   | Yes       |           |           | Yes       |      2
- 312 | [M88](#math-88)   | Yes       |           |           | Yes       |      2
- 321 | [M97](#math-97)   | Yes       |           |           | No        |      1
- 325 | [M101](#math-101) | Yes       |           |           | No        |      1
- 329 | [M105](#math-105) | Yes       |           |           | Yes       |      2
- 359 | [M29](#mockito-29) | Yes       |           |           | Yes       |      2
- 368 | [M38](#mockito-38) | Yes       |           |           | Yes       |      2
- 372 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
- 375 | [T7](#time-7)     | Yes       |           |           | Yes       |      2
- 379 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
- 380 | [T12](#time-12)   | No        |           |           | Yes       |      1
- 382 | [T14](#time-14)   | Yes       |           |           | Yes       |      2
- 384 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
- 386 | [T18](#time-18)   | ERROR     |           |           | Yes       |      1
- 387 | [T19](#time-19)   | ERROR     |           |           | Yes       |      1
-     | Total             | 98 (24%)  | 0 (0%)    | 0 (0%)    | 103 (26%) |    201
-Fixed bugs: 117/395 (29%)
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total  |
+| --- | ----------------- | --------- | --------- | --------- | --------- | ------ |
+|   3 | [C3](#chart-3)    |           |           |           | Yes       |      1 |
+|   4 | [C4](#chart-4)    |           |           |           | Yes       |      1 |
+|   5 | [C5](#chart-5)    |           |           |           | Yes       |      1 |
+|   9 | [C9](#chart-9)    |           |           |           | Yes       |      1 |
+|  13 | [C13](#chart-13)  |           |           |           | Yes       |      1 |
+|  17 | [C17](#chart-17)  |           |           |           | Yes       |      1 |
+|  21 | [C21](#chart-21)  |           |           |           | Yes       |      1 |
+|  25 | [C25](#chart-25)  |           |           |           | Yes       |      1 |
+|  26 | [C26](#chart-26)  |           |           |           | Yes       |      1 |
+|  27 | [C1](#closure-1)  |           |           |           | Yes       |      1 |
+|  28 | [C2](#closure-2)  |           |           |           | Yes       |      1 |
+|  29 | [C3](#closure-3)  |           |           |           | Yes       |      1 |
+|  31 | [C5](#closure-5)  |           |           |           | Yes       |      1 |
+|  33 | [C7](#closure-7)  |           |           |           | Yes       |      1 |
+|  34 | [C8](#closure-8)  |           |           |           | Yes       |      1 |
+|  36 | [C10](#closure-10) |           |           |           | Yes       |      1 |
+|  38 | [C12](#closure-12) |           |           |           | Yes       |      1 |
+|  40 | [C14](#closure-14) |           |           |           | Yes       |      1 |
+|  41 | [C15](#closure-15) |           |           |           | Yes       |      1 |
+|  42 | [C16](#closure-16) |           |           |           | Yes       |      1 |
+|  43 | [C17](#closure-17) |           |           |           | Yes       |      1 |
+|  44 | [C18](#closure-18) |           |           |           | Yes       |      1 |
+|  46 | [C20](#closure-20) |           |           |           | Yes       |      1 |
+|  47 | [C21](#closure-21) |           |           |           | Yes       |      1 |
+|  48 | [C22](#closure-22) |           |           |           | Yes       |      1 |
+|  52 | [C26](#closure-26) |           |           |           | Yes       |      1 |
+|  54 | [C28](#closure-28) |           |           |           | Yes       |      1 |
+|  55 | [C29](#closure-29) |           |           |           | Yes       |      1 |
+|  56 | [C30](#closure-30) |           |           |           | Yes       |      1 |
+|  57 | [C31](#closure-31) |           |           |           | Yes       |      1 |
+|  59 | [C33](#closure-33) |           |           |           | Yes       |      1 |
+|  61 | [C35](#closure-35) |           |           |           | Yes       |      1 |
+|  62 | [C36](#closure-36) |           |           |           | Yes       |      1 |
+|  64 | [C38](#closure-38) |           |           |           | Yes       |      1 |
+|  66 | [C40](#closure-40) |           |           |           | Yes       |      1 |
+|  71 | [C45](#closure-45) |           |           |           | Yes       |      1 |
+|  75 | [C49](#closure-49) |           |           |           | Yes       |      1 |
+|  76 | [C50](#closure-50) |           |           |           | Yes       |      1 |
+|  81 | [C55](#closure-55) |           |           |           | Yes       |      1 |
+|  86 | [C60](#closure-60) |           |           |           | Yes       |      1 |
+|  87 | [C61](#closure-61) |           |           |           | Yes       |      1 |
+|  88 | [C62](#closure-62) |           |           |           | Yes       |      1 |
+|  89 | [C63](#closure-63) |           |           |           | Yes       |      1 |
+|  92 | [C66](#closure-66) |           |           |           | Yes       |      1 |
+|  93 | [C67](#closure-67) |           |           |           | Yes       |      1 |
+|  98 | [C72](#closure-72) |           |           |           | Yes       |      1 |
+| 101 | [C75](#closure-75) |           |           |           | Yes       |      1 |
+| 102 | [C76](#closure-76) |           |           |           | Yes       |      1 |
+| 104 | [C78](#closure-78) |           |           |           | Yes       |      1 |
+| 137 | [C111](#closure-111) |           |           |           | Yes       |      1 |
+| 139 | [C113](#closure-113) |           |           |           | Yes       |      1 |
+| 140 | [C114](#closure-114) |           |           |           | Yes       |      1 |
+| 141 | [C115](#closure-115) |           |           |           | Yes       |      1 |
+| 142 | [C116](#closure-116) |           |           |           | Yes       |      1 |
+| 145 | [C119](#closure-119) |           |           |           | Yes       |      1 |
+| 146 | [C120](#closure-120) |           |           |           | Yes       |      1 |
+| 147 | [C121](#closure-121) |           |           |           | Yes       |      1 |
+| 150 | [C124](#closure-124) |           |           |           | Yes       |      1 |
+| 152 | [C126](#closure-126) |           |           |           | Yes       |      1 |
+| 153 | [C127](#closure-127) |           |           |           | Yes       |      1 |
+| 155 | [C129](#closure-129) |           |           |           | Yes       |      1 |
+| 156 | [C130](#closure-130) |           |           |           | Yes       |      1 |
+| 157 | [C131](#closure-131) |           |           |           | Yes       |      1 |
+| 158 | [C132](#closure-132) |           |           |           | Yes       |      1 |
+| 159 | [C133](#closure-133) |           |           |           | Yes       |      1 |
+| 203 | [L44](#lang-44)   |           |           |           | Yes       |      1 |
+| 210 | [L51](#lang-51)   |           |           |           | Yes       |      1 |
+| 212 | [L53](#lang-53)   |           |           |           | Yes       |      1 |
+| 217 | [L58](#lang-58)   |           |           |           | Yes       |      1 |
+| 226 | [M2](#math-2)     |           |           |           | Yes       |      1 |
+| 228 | [M4](#math-4)     |           |           |           | Yes       |      1 |
+| 231 | [M7](#math-7)     |           |           |           | Yes       |      1 |
+| 248 | [M24](#math-24)   |           |           |           | Yes       |      1 |
+| 252 | [M28](#math-28)   |           |           |           | Yes       |      1 |
+| 257 | [M33](#math-33)   |           |           |           | Yes       |      1 |
+| 263 | [M39](#math-39)   |           |           |           | Yes       |      1 |
+| 264 | [M40](#math-40)   |           |           |           | Yes       |      1 |
+| 265 | [M41](#math-41)   |           |           |           | Yes       |      1 |
+| 266 | [M42](#math-42)   |           |           |           | Yes       |      1 |
+| 268 | [M44](#math-44)   |           |           |           | Yes       |      1 |
+| 273 | [M49](#math-49)   |           |           |           | Yes       |      1 |
+| 274 | [M50](#math-50)   |           |           |           | Yes       |      1 |
+| 281 | [M57](#math-57)   |           |           |           | Yes       |      1 |
+| 282 | [M58](#math-58)   |           |           |           | Yes       |      1 |
+| 293 | [M69](#math-69)   |           |           |           | Yes       |      1 |
+| 297 | [M73](#math-73)   |           |           |           | Yes       |      1 |
+| 302 | [M78](#math-78)   |           |           |           | Yes       |      1 |
+| 304 | [M80](#math-80)   |           |           |           | Yes       |      1 |
+| 305 | [M81](#math-81)   |           |           |           | Yes       |      1 |
+| 309 | [M85](#math-85)   |           |           |           | Yes       |      1 |
+| 311 | [M87](#math-87)   |           |           |           | Yes       |      1 |
+| 312 | [M88](#math-88)   |           |           |           | Yes       |      1 |
+| 329 | [M105](#math-105) |           |           |           | Yes       |      1 |
+| 359 | [M29](#mockito-29) |           |           |           | Yes       |      1 |
+| 368 | [M38](#mockito-38) |           |           |           | Yes       |      1 |
+| 372 | [T4](#time-4)     |           |           |           | Yes       |      1 |
+| 375 | [T7](#time-7)     |           |           |           | Yes       |      1 |
+| 379 | [T11](#time-11)   |           |           |           | Yes       |      1 |
+| 380 | [T12](#time-12)   |           |           |           | Yes       |      1 |
+| 382 | [T14](#time-14)   |           |           |           | Yes       |      1 |
+| 384 | [T16](#time-16)   |           |           |           | Yes       |      1 |
+| 386 | [T18](#time-18)   |           |           |           | Yes       |      1 |
+| 387 | [T19](#time-19)   |           |           |           | Yes       |      1 |
+|     | Total             | 0 (0%)    | 0 (0%)    | 0 (0%)    | 103 (26%) |    103 |
 
-Nb bugs ends with an execution error: 150
+Fixed bugs: 103/395 (26%)
+
+Nb bugs ends with an execution error: 46
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 92
+Nb bugs ends with the Grid5000 timeout: 57
 
-Total execution time: 16 days, 23:12:29.001000
+Total execution time: 9 days, 23:52:20.824000
 # All bugs
 
- #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total
----- | ----------------- | --------- | --------- | --------- | --------- | ------
-   1 | [C1](#chart-1)    | Yes       |           |           | ERROR     |      1
-   2 | [C2](#chart-2)    |           |           |           | ERROR     |      0
-   3 | [C3](#chart-3)    |           |           |           | Yes       |      1
-   4 | [C4](#chart-4)    | Yes       |           |           | Yes       |      2
-   5 | [C5](#chart-5)    | Yes       |           |           | Yes       |      2
-   6 | [C6](#chart-6)    | No       |           |           | ERROR     |      0
-   7 | [C7](#chart-7)    | No        |           |           | No        |      0
-   8 | [C8](#chart-8)    | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0
-   9 | [C9](#chart-9)    | Yes       |           |           | Yes       |      2
-  10 | [C10](#chart-10)  | No        |           |           | ERROR     |      0
-  11 | [C11](#chart-11)  | No        |           |           | No        |      0
-  12 | [C12](#chart-12)  | No        |           |           | No        |      0
-  13 | [C13](#chart-13)  | Yes       |           |           | Yes       |      2
-  14 | [C14](#chart-14)  | No        |           |           | No        |      0
-  15 | [C15](#chart-15)  | Yes       |           |           | No        |      1
-  16 | [C16](#chart-16)  | No        |           |           | No        |      0
-  17 | [C17](#chart-17)  | Yes       |           |           | Yes       |      2
-  18 | [C18](#chart-18)  | No        |           |           | No        |      0
-  19 | [C19](#chart-19)  | No        |           |           | No        |      0
-  20 | [C20](#chart-20)  | No        |           |           | No        |      0
-  21 | [C21](#chart-21)  |           |           |           | Yes       |      1
-  22 | [C22](#chart-22)  | No        |           |           | No        |      0
-  23 | [C23](#chart-23)  | No        |           |           | No        |      0
-  24 | [C24](#chart-24)  | No        |           |           | No        |      0
-  25 | [C25](#chart-25)  | Yes       |           |           | Yes       |      2
-  26 | [C26](#chart-26)  | Yes       |           |           | Yes       |      2
-  27 | [C1](#closure-1)  | Yes       |           |           | Yes       |      2
-  28 | [C2](#closure-2)  | Yes       |           |           | Yes       |      2
-  29 | [C3](#closure-3)  | Yes       |           |           | Yes       |      2
-  30 | [C4](#closure-4)  | No        |           |           | ERROR     |      0
-  31 | [C5](#closure-5)  | Yes       |           |           | Yes       |      2
-  32 | [C6](#closure-6)  | ERROR     |           |           | ERROR     |      0
-  33 | [C7](#closure-7)  | ERROR     |           |           | Yes       |      1
-  34 | [C8](#closure-8)  | Yes       |           |           | Yes       |      2
-  35 | [C9](#closure-9)  | No        |           |           | No        |      0
-  36 | [C10](#closure-10) | Yes       |           |           | Yes       |      2
-  37 | [C11](#closure-11) | ERROR     |           |           | ERROR     |      0
-  38 | [C12](#closure-12) | ERROR     |           |           | Yes       |      1
-  39 | [C13](#closure-13) | ERROR     |           |           | ERROR     |      0
-  40 | [C14](#closure-14) | ERROR     |           |           | Yes       |      1
-  41 | [C15](#closure-15) | No        |           |           | Yes       |      1
-  42 | [C16](#closure-16) | Yes       |           |           | Yes       |      2
-  43 | [C17](#closure-17) | Yes       |           |           | Yes       |      2
-  44 | [C18](#closure-18) | Yes       |           |           | Yes       |      2
-  45 | [C19](#closure-19) | Yes       |           |           | ERROR     |      1
-  46 | [C20](#closure-20) | Yes       |           |           | Yes       |      2
-  47 | [C21](#closure-21) | Yes       |           |           | Yes       |      2
-  48 | [C22](#closure-22) | Yes       |           |           | Yes       |      2
-  49 | [C23](#closure-23) | ERROR     |           |           | No        |      0
-  50 | [C24](#closure-24) | ERROR     |           |           | No        |      0
-  51 | [C25](#closure-25) | ERROR     |           |           | ERROR     |      0
-  52 | [C26](#closure-26) | Yes       |           |           | Yes       |      2
-  53 | [C27](#closure-27) | No        |           |           | No        |      0
-  54 | [C28](#closure-28) | Yes       |           |           | Yes       |      2
-  55 | [C29](#closure-29) | Yes       |           |           | Yes       |      2
-  56 | [C30](#closure-30) | Yes       |           |           | Yes       |      2
-  57 | [C31](#closure-31) | Yes       |           |           | Yes       |      2
-  58 | [C32](#closure-32) | No        |           |           | ERROR     |      0
-  59 | [C33](#closure-33) | Yes       |           |           | Yes       |      2
-  60 | [C34](#closure-34) | No        |           |           | No        |      0
-  61 | [C35](#closure-35) | ERROR     |           |           | Yes       |      1
-  62 | [C36](#closure-36) | Yes       |           |           | Yes       |      2
-  63 | [C37](#closure-37) | No        |           |           | ERROR     |      0
-  64 | [C38](#closure-38) | No        |           |           | Yes       |      1
-  65 | [C39](#closure-39) | No        |           |           | No        |      0
-  66 | [C40](#closure-40) | Yes       |           |           | Yes       |      2
-  67 | [C41](#closure-41) | ERROR     |           |           | ERROR     |      0
-  68 | [C42](#closure-42) | No        |           |           | No        |      0
-  69 | [C43](#closure-43) | No        |           |           | ERROR     |      0
-  70 | [C44](#closure-44) | No        |           |           | No        |      0
-  71 | [C45](#closure-45) | Yes       |           |           | Yes       |      2
-  72 | [C46](#closure-46) | ERROR     |           |           | No        |      0
-  73 | [C47](#closure-47) | No        |           |           | ERROR     |      0
-  74 | [C48](#closure-48) | Yes       |           |           | No        |      1
-  75 | [C49](#closure-49) | Yes       |           |           | Yes       |      2
-  76 | [C50](#closure-50) | Yes       |           |           | Yes       |      2
-  77 | [C51](#closure-51) | No        |           |           | No        |      0
-  78 | [C52](#closure-52) | No        |           |           | No        |      0
-  79 | [C53](#closure-53) | No        |           |           | No        |      0
-  80 | [C54](#closure-54) | No        |           |           | No        |      0
-  81 | [C55](#closure-55) | Yes       |           |           | Yes       |      2
-  82 | [C56](#closure-56) | No        |           |           | No        |      0
-  83 | [C57](#closure-57) | No        |           |           | No        |      0
-  84 | [C58](#closure-58) | No        |           |           | No        |      0
-  85 | [C59](#closure-59) | Yes       |           |           | ERROR     |      1
-  86 | [C60](#closure-60) | Yes       |           |           | Yes       |      2
-  87 | [C61](#closure-61) | Yes       |           |           | Yes       |      2
-  88 | [C62](#closure-62) | Yes       |           |           | Yes       |      2
-  89 | [C63](#closure-63) | Yes       |           |           | Yes       |      2
-  90 | [C64](#closure-64) | ERROR     |           |           | ERROR     |      0
-  91 | [C65](#closure-65) | No        |           |           | No        |      0
-  92 | [C66](#closure-66) | Yes       |           |           | Yes       |      2
-  93 | [C67](#closure-67) | Yes       |           |           | Yes       |      2
-  94 | [C68](#closure-68) | No        |           |           | ERROR     |      0
-  95 | [C69](#closure-69) | No        |           |           | No        |      0
-  96 | [C70](#closure-70) | ERROR     |           |           | ERROR     |      0
-  97 | [C71](#closure-71) | No        |           |           | ERROR     |      0
-  98 | [C72](#closure-72) | Yes       |           |           | Yes       |      2
-  99 | [C73](#closure-73) | No        |           |           | No        |      0
- 100 | [C74](#closure-74) | ERROR     |           |           | No        |      0
- 101 | [C75](#closure-75) | Yes       |           |           | Yes       |      2
- 102 | [C76](#closure-76) | Yes       |           |           | Yes       |      2
- 103 | [C77](#closure-77) | No        |           |           | No        |      0
- 104 | [C78](#closure-78) | Yes       |           |           | Yes       |      2
- 105 | [C79](#closure-79) | No        |           |           | No        |      0
- 106 | [C80](#closure-80) | No        |           |           | No        |      0
- 107 | [C81](#closure-81) | No        |           |           | No        |      0
- 108 | [C82](#closure-82) | No        |           |           | No        |      0
- 109 | [C83](#closure-83) | No        |           |           | No        |      0
- 110 | [C84](#closure-84) | No        |           |           | No        |      0
- 111 | [C85](#closure-85) | No        |           |           | No        |      0
- 112 | [C86](#closure-86) | No        |           |           | No        |      0
- 113 | [C87](#closure-87) | No        |           |           | No        |      0
- 114 | [C88](#closure-88) | ERROR     |           |           | ERROR     |      0
- 115 | [C89](#closure-89) | No        |           |           | No        |      0
- 116 | [C90](#closure-90) | ERROR     |           |           | ERROR     |      0
- 117 | [C91](#closure-91) | ERROR     |           |           | ERROR     |      0
- 118 | [C92](#closure-92) | ERROR     |           |           | ERROR     |      0
- 119 | [C93](#closure-93) | ERROR     |           |           | ERROR     |      0
- 120 | [C94](#closure-94) | ERROR     |           |           | ERROR     |      0
- 121 | [C95](#closure-95) | ERROR     |           |           | ERROR     |      0
- 122 | [C96](#closure-96) | ERROR     |           |           | ERROR     |      0
- 123 | [C97](#closure-97) | No        |           |           | No        |      0
- 124 | [C98](#closure-98) | No        |           |           | No        |      0
- 125 | [C99](#closure-99) | No        |           |           | No        |      0
- 126 | [C100](#closure-100) | No        |           |           | No        |      0
- 127 | [C101](#closure-101) | No       |           |           | No        |      0
- 128 | [C102](#closure-102) | No       |           |           | No        |      0
- 129 | [C103](#closure-103) | No       |           |           | No        |      0
- 130 | [C104](#closure-104) | No       |           |           | No        |      0
- 131 | [C105](#closure-105) | No       |           |           | No        |      0
- 132 | [C106](#closure-106) | No       |           |           | No        |      0
- 133 | [C107](#closure-107) | No        |           |           | ERROR     |      0
- 134 | [C108](#closure-108) | No        |           |           | No        |      0
- 135 | [C109](#closure-109) | No        |           |           | ERROR     |      0
- 136 | [C110](#closure-110) | No        |           |           | No        |      0
- 137 | [C111](#closure-111) | ERROR     |           |           | Yes       |      1
- 138 | [C112](#closure-112) | ERROR     |           |           | ERROR     |      0
- 139 | [C113](#closure-113) | Yes       |           |           | Yes       |      2
- 140 | [C114](#closure-114) | Yes       |           |           | Yes       |      2
- 141 | [C115](#closure-115) | Yes       |           |           | Yes       |      2
- 142 | [C116](#closure-116) | Yes       |           |           | Yes       |      2
- 143 | [C117](#closure-117) | ERROR     |           |           | No        |      0
- 144 | [C118](#closure-118) | ERROR     |           |           | ERROR     |      0
- 145 | [C119](#closure-119) | ERROR     |           |           | Yes       |      1
- 146 | [C120](#closure-120) | Yes       |           |           | Yes       |      2
- 147 | [C121](#closure-121) | No        |           |           | Yes       |      1
- 148 | [C122](#closure-122) | No        |           |           | No        |      0
- 149 | [C123](#closure-123) | No        |           |           | No        |      0
- 150 | [C124](#closure-124) | Yes       |           |           | Yes       |      2
- 151 | [C125](#closure-125) | ERROR     |           |           | ERROR     |      0
- 152 | [C126](#closure-126) | Yes       |           |           | Yes       |      2
- 153 | [C127](#closure-127) | Yes       |           |           | Yes       |      2
- 154 | [C128](#closure-128) | ERROR     |           |           | No        |      0
- 155 | [C129](#closure-129) | Yes       |           |           | Yes       |      2
- 156 | [C130](#closure-130) | Yes       |           |           | Yes       |      2
- 157 | [C131](#closure-131) | Yes       |           |           | Yes       |      2
- 158 | [C132](#closure-132) | Yes       |           |           | Yes       |      2
- 159 | [C133](#closure-133) | Yes       |           |           | Yes       |      2
- 160 | [L1](#lang-1)     | No        |           |           | No        |      0
- 161 | [L2](#lang-2)     | No        |           |           | No        |      0
- 162 | [L3](#lang-3)     | No        |           |           | No        |      0
- 163 | [L4](#lang-4)     | No        |           |           | No        |      0
- 164 | [L5](#lang-5)     | No        |           |           | No        |      0
- 165 | [L6](#lang-6)     | No        |           |           | No        |      0
- 166 | [L7](#lang-7)     | No        |           |           | No        |      0
- 167 | [L8](#lang-8)     | No        |           |           | No        |      0
- 168 | [L9](#lang-9)     | No        |           |           | No        |      0
- 169 | [L10](#lang-10)   | No        |           |           | No        |      0
- 170 | [L11](#lang-11)   | No        |           |           | No        |      0
- 171 | [L12](#lang-12)   | No        |           |           | No        |      0
- 172 | [L13](#lang-13)   | No        |           |           | No        |      0
- 173 | [L14](#lang-14)   | No        |           |           | No        |      0
- 174 | [L15](#lang-15)   | No        |           |           | No        |      0
- 175 | [L16](#lang-16)   | No        |           |           | No        |      0
- 176 | [L17](#lang-17)   | No        |           |           | No        |      0
- 177 | [L18](#lang-18)   | No        |           |           | No        |      0
- 178 | [L19](#lang-19)   | No        |           |           | No        |      0
- 179 | [L20](#lang-20)   | No        |           |           | No        |      0
- 180 | [L21](#lang-21)   | No        |           |           | No        |      0
- 181 | [L22](#lang-22)   | No        |           |           | No        |      0
- 182 | [L23](#lang-23)   | No        |           |           | No        |      0
- 183 | [L24](#lang-24)   | No        |           |           | No        |      0
- 184 | [L25](#lang-25)   | No        |           |           | No        |      0
- 185 | [L26](#lang-26)   | No        |           |           | No        |      0
- 186 | [L27](#lang-27)   | No        |           |           | No        |      0
- 187 | [L28](#lang-28)   | No        |           |           | No        |      0
- 188 | [L29](#lang-29)   | No        |           |           | No        |      0
- 189 | [L30](#lang-30)   | No        |           |           | No        |      0
- 190 | [L31](#lang-31)   | No        |           |           | No        |      0
- 191 | [L32](#lang-32)   | No        |           |           | No        |      0
- 192 | [L33](#lang-33)   | No        |           |           | No        |      0
- 193 | [L34](#lang-34)   | No        |           |           | No        |      0
- 194 | [L35](#lang-35)   | No        |           |           | No        |      0
- 195 | [L36](#lang-36)   | No        |           |           | No        |      0
- 196 | [L37](#lang-37)   | No        |           |           | No        |      0
- 197 | [L38](#lang-38)   | No        |           |           | No        |      0
- 198 | [L39](#lang-39)   | No        |           |           | No        |      0
- 199 | [L40](#lang-40)   | No        |           |           | No        |      0
- 200 | [L41](#lang-41)   | No        |           |           | No        |      0
- 201 | [L42](#lang-42)   | No        |           |           | No        |      0
- 202 | [L43](#lang-43)   | No        |           |           | No        |      0
- 203 | [L44](#lang-44)   | Yes       |           |           | Yes       |      2
- 204 | [L45](#lang-45)   | No        |           |           | No        |      0
- 205 | [L46](#lang-46)   | No        |           |           | No        |      0
- 206 | [L47](#lang-47)   | No        |           |           | No        |      0
- 207 | [L48](#lang-48)   | No        |           |           | No        |      0
- 208 | [L49](#lang-49)   | No        |           |           | No        |      0
- 209 | [L50](#lang-50)   | No        |           |           | No        |      0
- 210 | [L51](#lang-51)   | Yes       |           |           | Yes       |      2
- 211 | [L52](#lang-52)   | No        |           |           | No        |      0
- 212 | [L53](#lang-53)   | Yes       |           |           | Yes       |      2
- 213 | [L54](#lang-54)   | No        |           |           | No        |      0
- 214 | [L55](#lang-55)   | Yes       |           |           | No        |      1
- 215 | [L56](#lang-56)   | No        |           |           | No        |      0
- 216 | [L57](#lang-57)   | ERROR     |           |           | No        |      0
- 217 | [L58](#lang-58)   | Yes       |           |           | Yes       |      2
- 218 | [L59](#lang-59)   | ERROR     |           |           | No        |      0
- 219 | [L60](#lang-60)   | ERROR     |           |           | No        |      0
- 220 | [L61](#lang-61)   | ERROR     |           |           | No        |      0
- 221 | [L62](#lang-62)   | ERROR     |           |           | No        |      0
- 222 | [L63](#lang-63)   | Yes       |           |           | No        |      1
- 223 | [L64](#lang-64)   | ERROR     |           |           | No        |      0
- 224 | [L65](#lang-65)   | ERROR     |           |           | No        |      0
- 225 | [M1](#math-1)     | ERROR     |           |           | No        |      0
- 226 | [M2](#math-2)     | Yes       |           |           | Yes       |      2
- 227 | [M3](#math-3)     | ERROR     |           |           | No        |      0
- 228 | [M4](#math-4)     | ERROR     |           |           | Yes       |      1
- 229 | [M5](#math-5)     | Yes       |           |           | No        |      1
- 230 | [M6](#math-6)     | ERROR     |           |           | No        |      0
- 231 | [M7](#math-7)     | ERROR     |           |           | Yes       |      1
- 232 | [M8](#math-8)     | ERROR     |           |           | No        |      0
- 233 | [M9](#math-9)     | ERROR     |           |           | No        |      0
- 234 | [M10](#math-10)   | ERROR     |           |           | No        |      0
- 235 | [M11](#math-11)   | ERROR     |           |           | No        |      0
- 236 | [M12](#math-12)   | ERROR     |           |           | No        |      0
- 237 | [M13](#math-13)   | ERROR     |           |           | No        |      0
- 238 | [M14](#math-14)   | ERROR     |           |           | No        |      0
- 239 | [M15](#math-15)   | ERROR     |           |           | No        |      0
- 240 | [M16](#math-16)   | ERROR     |           |           | No        |      0
- 241 | [M17](#math-17)   | ERROR     |           |           | ERROR     |      0
- 242 | [M18](#math-18)   | ERROR     |           |           | No        |      0
- 243 | [M19](#math-19)   | ERROR     |           |           | No        |      0
- 244 | [M20](#math-20)   | ERROR     |           |           | No        |      0
- 245 | [M21](#math-21)   | ERROR     |           |           | No        |      0
- 246 | [M22](#math-22)   | ERROR     |           |           | No        |      0
- 247 | [M23](#math-23)   | ERROR     |           |           | No        |      0
- 248 | [M24](#math-24)   | Yes       |           |           | Yes       |      2
- 249 | [M25](#math-25)   | ERROR     |           |           | No        |      0
- 250 | [M26](#math-26)   | ERROR     |           |           | No        |      0
- 251 | [M27](#math-27)   | ERROR     |           |           | No        |      0
- 252 | [M28](#math-28)   | Yes       |           |           | Yes       |      2
- 253 | [M29](#math-29)   | ERROR     |           |           | No        |      0
- 254 | [M30](#math-30)   | ERROR     |           |           | No        |      0
- 255 | [M31](#math-31)   | ERROR     |           |           | No        |      0
- 256 | [M32](#math-32)   | Yes       |           |           | ERROR     |      1
- 257 | [M33](#math-33)   | Yes       |           |           | Yes       |      2
- 258 | [M34](#math-34)   | ERROR     |           |           | No        |      0
- 259 | [M35](#math-35)   | ERROR     |           |           | No        |      0
- 260 | [M36](#math-36)   | ERROR     |           |           | No        |      0
- 261 | [M37](#math-37)   | ERROR     |           |           | ERROR     |      0
- 262 | [M38](#math-38)   | ERROR     |           |           | No        |      0
- 263 | [M39](#math-39)   | ERROR     |           |           | Yes       |      1
- 264 | [M40](#math-40)   | Yes       |           |           | Yes       |      2
- 265 | [M41](#math-41)   | Yes       |           |           | Yes       |      2
- 266 | [M42](#math-42)   | Yes       |           |           | Yes       |      2
- 267 | [M43](#math-43)   | ERROR     |           |           | No        |      0
- 268 | [M44](#math-44)   | Yes       |           |           | Yes       |      2
- 269 | [M45](#math-45)   | ERROR     |           |           | No        |      0
- 270 | [M46](#math-46)   | Yes       |           |           | No        |      1
- 271 | [M47](#math-47)   | ERROR     |           |           | No        |      0
- 272 | [M48](#math-48)   | ERROR     |           |           | No        |      0
- 273 | [M49](#math-49)   | Yes       |           |           | Yes       |      2
- 274 | [M50](#math-50)   | Yes       |           |           | Yes       |      2
- 275 | [M51](#math-51)   | ERROR     |           |           | No        |      0
- 276 | [M52](#math-52)   | No        |           |           | No        |      0
- 277 | [M53](#math-53)   | No        |           |           | No        |      0
- 278 | [M54](#math-54)   | ERROR     |           |           | ERROR     |      0
- 279 | [M55](#math-55)   | No        |           |           | No        |      0
- 280 | [M56](#math-56)   | No        |           |           | No        |      0
- 281 | [M57](#math-57)   | Yes       |           |           | Yes       |      2
- 282 | [M58](#math-58)   | Yes       |           |           | Yes       |      2
- 283 | [M59](#math-59)   | No        |           |           | No        |      0
- 284 | [M60](#math-60)   | No        |           |           | No        |      0
- 285 | [M61](#math-61)   | No        |           |           | No        |      0
- 286 | [M62](#math-62)   | No        |           |           | No        |      0
- 287 | [M63](#math-63)   | No        |           |           | No        |      0
- 288 | [M64](#math-64)   | No        |           |           | No        |      0
- 289 | [M65](#math-65)   | No        |           |           | No        |      0
- 290 | [M66](#math-66)   | No        |           |           | ERROR     |      0
- 291 | [M67](#math-67)   | No        |           |           | ERROR     |      0
- 292 | [M68](#math-68)   | No        |           |           | No        |      0
- 293 | [M69](#math-69)   | Yes       |           |           | Yes       |      2
- 294 | [M70](#math-70)   | No        |           |           | No        |      0
- 295 | [M71](#math-71)   | Yes       |           |           | No        |      1
- 296 | [M72](#math-72)   | No        |           |           | No        |      0
- 297 | [M73](#math-73)   | No        |           |           | Yes       |      1
- 298 | [M74](#math-74)   | ERROR     |           |           | ERROR     |      0
- 299 | [M75](#math-75)   | No        |           |           | No        |      0
- 300 | [M76](#math-76)   | No        |           |           | No        |      0
- 301 | [M77](#math-77)   | No        |           |           | No        |      0
- 302 | [M78](#math-78)   | Yes       |           |           | Yes       |      2
- 303 | [M79](#math-79)   | No        |           |           | No        |      0
- 304 | [M80](#math-80)   | Yes       |           |           | Yes       |      2
- 305 | [M81](#math-81)   | ERROR     |           |           | Yes       |      1
- 306 | [M82](#math-82)   | Yes       |           |           | No        |      1
- 307 | [M83](#math-83)   | No        |           |           | No        |      0
- 308 | [M84](#math-84)   | No        |           |           | No        |      0
- 309 | [M85](#math-85)   | Yes       |           |           | Yes       |      2
- 310 | [M86](#math-86)   | ERROR     |           |           | No        |      0
- 311 | [M87](#math-87)   | Yes       |           |           | Yes       |      2
- 312 | [M88](#math-88)   | Yes       |           |           | Yes       |      2
- 313 | [M89](#math-89)   | No        |           |           | No        |      0
- 314 | [M90](#math-90)   | No        |           |           | No        |      0
- 315 | [M91](#math-91)   | No        |           |           | No        |      0
- 316 | [M92](#math-92)   | No        |           |           | No        |      0
- 317 | [M93](#math-93)   | No        |           |           | No        |      0
- 318 | [M94](#math-94)   | No        |           |           | No        |      0
- 319 | [M95](#math-95)   | No        |           |           | No        |      0
- 320 | [M96](#math-96)   | No        |           |           | No        |      0
- 321 | [M97](#math-97)   | Yes       |           |           | No        |      1
- 322 | [M98](#math-98)   | No        |           |           | No        |      0
- 323 | [M99](#math-99)   | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0
- 324 | [M100](#math-100) | No        |           |           | No        |      0
- 325 | [M101](#math-101) | Yes       |           |           | No        |      1
- 326 | [M102](#math-102) | No        |           |           | No        |      0
- 327 | [M103](#math-103) | No        |           |           | No        |      0
- 328 | [M104](#math-104) | No        |           |           | No        |      0
- 329 | [M105](#math-105) | Yes       |           |           | Yes       |      2
- 330 | [M106](#math-106) | No        |           |           | No        |      0
- 331 | [M1](#mockito-1)  | ERROR     |           |           | ERROR     |      0
- 332 | [M2](#mockito-2)  | ERROR     |           |           | No        |      0
- 333 | [M3](#mockito-3)  | ERROR     |           |           | ERROR     |      0
- 334 | [M4](#mockito-4)  | ERROR     |           |           | No        |      0
- 335 | [M5](#mockito-5)  | ERROR     |           |           | No        |      0
- 336 | [M6](#mockito-6)  | ERROR     |           |           | No        |      0
- 337 | [M7](#mockito-7)  | ERROR     |           |           | No        |      0
- 338 | [M8](#mockito-8)  | ERROR     |           |           | No        |      0
- 339 | [M9](#mockito-9)  | ERROR     |           |           | No        |      0
- 340 | [M10](#mockito-10) | ERROR     |           |           | ERROR     |      0
- 341 | [M11](#mockito-11) | ERROR     |           |           | No        |      0
- 342 | [M12](#mockito-12) | No        |           |           | No        |      0
- 343 | [M13](#mockito-13) | No        |           |           | No        |      0
- 344 | [M14](#mockito-14) | No        |           |           | No        |      0
- 345 | [M15](#mockito-15) | No        |           |           | No       |      0
- 346 | [M16](#mockito-16) | No        |           |           | No        |      0
- 347 | [M17](#mockito-17) | No        |           |           | No        |      0
- 348 | [M18](#mockito-18) | ERROR     |           |           | ERROR     |      0
- 349 | [M19](#mockito-19) | ERROR     |           |           | ERROR     |      0
- 350 | [M20](#mockito-20) | ERROR     |           |           | ERROR     |      0
- 351 | [M21](#mockito-21) | ERROR     |           |           | No        |      0
- 352 | [M22](#mockito-22) | No        |           |           | No        |      0
- 353 | [M23](#mockito-23) | ERROR     |           |           | No        |      0
- 354 | [M24](#mockito-24) | ERROR     |           |           | No        |      0
- 355 | [M25](#mockito-25) | ERROR     |           |           | No        |      0
- 356 | [M26](#mockito-26) | ERROR     |           |           | No        |      0
- 357 | [M27](#mockito-27) | ERROR     |           |           | No        |      0
- 358 | [M28](#mockito-28) | No        |           |           | No        |      0
- 359 | [M29](#mockito-29) | Yes       |           |           | Yes       |      2
- 360 | [M30](#mockito-30) | No        |           |           | No        |      0
- 361 | [M31](#mockito-31) | No        |           |           | No        |      0
- 362 | [M32](#mockito-32) | No        |           |           | No        |      0
- 363 | [M33](#mockito-33) | No        |           |           | No        |      0
- 364 | [M34](#mockito-34) | No        |           |           | No        |      0
- 365 | [M35](#mockito-35) | No        |           |           | No        |      0
- 366 | [M36](#mockito-36) | No        |           |           | No        |      0
- 367 | [M37](#mockito-37) | No        |           |           | No        |      0
- 368 | [M38](#mockito-38) | Yes       |           |           | Yes       |      2
- 369 | [T1](#time-1)     | No        |           |           | No        |      0
- 370 | [T2](#time-2)     | No        |           |           | No        |      0
- 371 | [T3](#time-3)     | No       |           |           | No        |      0
- 372 | [T4](#time-4)     | Yes       |           |           | Yes       |      2
- 373 | [T5](#time-5)     | ERROR     |           |           | No        |      0
- 374 | [T6](#time-6)     | ERROR     |           |           | No        |      0
- 375 | [T7](#time-7)     | Yes       |           |           | Yes       |      2
- 376 | [T8](#time-8)     | No        |           |           | No        |      0
- 377 | [T9](#time-9)     | No        |           |           | No        |      0
- 378 | [T10](#time-10)   | No        |           |           | No        |      0
- 379 | [T11](#time-11)   | Yes       |           |           | Yes       |      2
- 380 | [T12](#time-12)   | No        |           |           | Yes       |      1
- 381 | [T13](#time-13)   | No       |           |           | No        |      0
- 382 | [T14](#time-14)   | Yes       |           |           | Yes       |      2
- 383 | [T15](#time-15)   | No        |           |           | No        |      0
- 384 | [T16](#time-16)   | Yes       |           |           | Yes       |      2
- 385 | [T17](#time-17)   | ERROR     |           |           | No        |      0
- 386 | [T18](#time-18)   | ERROR     |           |           | Yes       |      1
- 387 | [T19](#time-19)   | ERROR     |           |           | Yes       |      1
- 388 | [T20](#time-20)   | No       |           |           | No        |      0
- 389 | [T21](#time-21)   | No       |           |           | No        |      0
- 390 | [T22](#time-22)   | No        |           |           | No        |      0
- 391 | [T23](#time-23)   | No        |           |           | No        |      0
- 392 | [T24](#time-24)   | No       |           |           | No        |      0
- 393 | [T25](#time-25)   | No        |           |           | No        |      0
- 394 | [T26](#time-26)   | No       |           |           | No        |      0
- 395 | [T27](#time-27)   | No        |           |           | No        |      0
-     | Total             | 98 (24%)  | 0 (0%)    | 0 (0%)    | 103 (26%) |    201
-Fixed bugs: 117/395 (29%)
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total  |
+| --- | ----------------- | --------- | --------- | --------- | --------- | ------ |
+|   1 | [C1](#chart-1)    |           |           |           | ERROR     |      0 |
+|   2 | [C2](#chart-2)    |           |           |           | ERROR     |      0 |
+|   3 | [C3](#chart-3)    |           |           |           | Yes       |      1 |
+|   4 | [C4](#chart-4)    |           |           |           | Yes       |      1 |
+|   5 | [C5](#chart-5)    |           |           |           | Yes       |      1 |
+|   6 | [C6](#chart-6)    |           |           |           | ERROR     |      0 |
+|   7 | [C7](#chart-7)    |           |           |           | No        |      0 |
+|   8 | [C8](#chart-8)    | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0 |
+|   9 | [C9](#chart-9)    |           |           |           | Yes       |      1 |
+|  10 | [C10](#chart-10)  |           |           |           | ERROR     |      0 |
+|  11 | [C11](#chart-11)  |           |           |           | No        |      0 |
+|  12 | [C12](#chart-12)  |           |           |           | No        |      0 |
+|  13 | [C13](#chart-13)  |           |           |           | Yes       |      1 |
+|  14 | [C14](#chart-14)  |           |           |           | No        |      0 |
+|  15 | [C15](#chart-15)  |           |           |           | No        |      0 |
+|  16 | [C16](#chart-16)  |           |           |           | No        |      0 |
+|  17 | [C17](#chart-17)  |           |           |           | Yes       |      1 |
+|  18 | [C18](#chart-18)  |           |           |           | No        |      0 |
+|  19 | [C19](#chart-19)  |           |           |           | No        |      0 |
+|  20 | [C20](#chart-20)  |           |           |           | No        |      0 |
+|  21 | [C21](#chart-21)  |           |           |           | Yes       |      1 |
+|  22 | [C22](#chart-22)  |           |           |           | No        |      0 |
+|  23 | [C23](#chart-23)  |           |           |           | No        |      0 |
+|  24 | [C24](#chart-24)  |           |           |           | No        |      0 |
+|  25 | [C25](#chart-25)  |           |           |           | Yes       |      1 |
+|  26 | [C26](#chart-26)  |           |           |           | Yes       |      1 |
+|  27 | [C1](#closure-1)  |           |           |           | Yes       |      1 |
+|  28 | [C2](#closure-2)  |           |           |           | Yes       |      1 |
+|  29 | [C3](#closure-3)  |           |           |           | Yes       |      1 |
+|  30 | [C4](#closure-4)  |           |           |           | ERROR     |      0 |
+|  31 | [C5](#closure-5)  |           |           |           | Yes       |      1 |
+|  32 | [C6](#closure-6)  |           |           |           | ERROR     |      0 |
+|  33 | [C7](#closure-7)  |           |           |           | Yes       |      1 |
+|  34 | [C8](#closure-8)  |           |           |           | Yes       |      1 |
+|  35 | [C9](#closure-9)  |           |           |           | T_OUT     |      0 |
+|  36 | [C10](#closure-10) |           |           |           | Yes       |      1 |
+|  37 | [C11](#closure-11) |           |           |           | ERROR     |      0 |
+|  38 | [C12](#closure-12) |           |           |           | Yes       |      1 |
+|  39 | [C13](#closure-13) |           |           |           | ERROR     |      0 |
+|  40 | [C14](#closure-14) |           |           |           | Yes       |      1 |
+|  41 | [C15](#closure-15) |           |           |           | Yes       |      1 |
+|  42 | [C16](#closure-16) |           |           |           | Yes       |      1 |
+|  43 | [C17](#closure-17) |           |           |           | Yes       |      1 |
+|  44 | [C18](#closure-18) |           |           |           | Yes       |      1 |
+|  45 | [C19](#closure-19) |           |           |           | ERROR     |      0 |
+|  46 | [C20](#closure-20) |           |           |           | Yes       |      1 |
+|  47 | [C21](#closure-21) |           |           |           | Yes       |      1 |
+|  48 | [C22](#closure-22) |           |           |           | Yes       |      1 |
+|  49 | [C23](#closure-23) |           |           |           | T_OUT     |      0 |
+|  50 | [C24](#closure-24) |           |           |           | T_OUT     |      0 |
+|  51 | [C25](#closure-25) |           |           |           | ERROR     |      0 |
+|  52 | [C26](#closure-26) |           |           |           | Yes       |      1 |
+|  53 | [C27](#closure-27) |           |           |           | T_OUT     |      0 |
+|  54 | [C28](#closure-28) |           |           |           | Yes       |      1 |
+|  55 | [C29](#closure-29) |           |           |           | Yes       |      1 |
+|  56 | [C30](#closure-30) |           |           |           | Yes       |      1 |
+|  57 | [C31](#closure-31) |           |           |           | Yes       |      1 |
+|  58 | [C32](#closure-32) |           |           |           | ERROR     |      0 |
+|  59 | [C33](#closure-33) |           |           |           | Yes       |      1 |
+|  60 | [C34](#closure-34) |           |           |           | T_OUT     |      0 |
+|  61 | [C35](#closure-35) |           |           |           | Yes       |      1 |
+|  62 | [C36](#closure-36) |           |           |           | Yes       |      1 |
+|  63 | [C37](#closure-37) |           |           |           | ERROR     |      0 |
+|  64 | [C38](#closure-38) |           |           |           | Yes       |      1 |
+|  65 | [C39](#closure-39) |           |           |           | T_OUT     |      0 |
+|  66 | [C40](#closure-40) |           |           |           | Yes       |      1 |
+|  67 | [C41](#closure-41) |           |           |           | ERROR     |      0 |
+|  68 | [C42](#closure-42) |           |           |           | T_OUT     |      0 |
+|  69 | [C43](#closure-43) |           |           |           | ERROR     |      0 |
+|  70 | [C44](#closure-44) |           |           |           | T_OUT     |      0 |
+|  71 | [C45](#closure-45) |           |           |           | Yes       |      1 |
+|  72 | [C46](#closure-46) |           |           |           | T_OUT     |      0 |
+|  73 | [C47](#closure-47) |           |           |           | ERROR     |      0 |
+|  74 | [C48](#closure-48) |           |           |           | T_OUT     |      0 |
+|  75 | [C49](#closure-49) |           |           |           | Yes       |      1 |
+|  76 | [C50](#closure-50) |           |           |           | Yes       |      1 |
+|  77 | [C51](#closure-51) |           |           |           | T_OUT     |      0 |
+|  78 | [C52](#closure-52) |           |           |           | T_OUT     |      0 |
+|  79 | [C53](#closure-53) |           |           |           | T_OUT     |      0 |
+|  80 | [C54](#closure-54) |           |           |           | T_OUT     |      0 |
+|  81 | [C55](#closure-55) |           |           |           | Yes       |      1 |
+|  82 | [C56](#closure-56) |           |           |           | T_OUT     |      0 |
+|  83 | [C57](#closure-57) |           |           |           | T_OUT     |      0 |
+|  84 | [C58](#closure-58) |           |           |           | T_OUT     |      0 |
+|  85 | [C59](#closure-59) |           |           |           | ERROR     |      0 |
+|  86 | [C60](#closure-60) |           |           |           | Yes       |      1 |
+|  87 | [C61](#closure-61) |           |           |           | Yes       |      1 |
+|  88 | [C62](#closure-62) |           |           |           | Yes       |      1 |
+|  89 | [C63](#closure-63) |           |           |           | Yes       |      1 |
+|  90 | [C64](#closure-64) |           |           |           | ERROR     |      0 |
+|  91 | [C65](#closure-65) |           |           |           | T_OUT     |      0 |
+|  92 | [C66](#closure-66) |           |           |           | Yes       |      1 |
+|  93 | [C67](#closure-67) |           |           |           | Yes       |      1 |
+|  94 | [C68](#closure-68) |           |           |           | ERROR     |      0 |
+|  95 | [C69](#closure-69) |           |           |           | T_OUT     |      0 |
+|  96 | [C70](#closure-70) |           |           |           | ERROR     |      0 |
+|  97 | [C71](#closure-71) |           |           |           | ERROR     |      0 |
+|  98 | [C72](#closure-72) |           |           |           | Yes       |      1 |
+|  99 | [C73](#closure-73) |           |           |           | T_OUT     |      0 |
+| 100 | [C74](#closure-74) |           |           |           |           |      0 |
+| 101 | [C75](#closure-75) |           |           |           | Yes       |      1 |
+| 102 | [C76](#closure-76) |           |           |           | Yes       |      1 |
+| 103 | [C77](#closure-77) |           |           |           | T_OUT     |      0 |
+| 104 | [C78](#closure-78) |           |           |           | Yes       |      1 |
+| 105 | [C79](#closure-79) |           |           |           | No        |      0 |
+| 106 | [C80](#closure-80) |           |           |           | No        |      0 |
+| 107 | [C81](#closure-81) |           |           |           | No        |      0 |
+| 108 | [C82](#closure-82) |           |           |           | No        |      0 |
+| 109 | [C83](#closure-83) |           |           |           | No        |      0 |
+| 110 | [C84](#closure-84) |           |           |           | No        |      0 |
+| 111 | [C85](#closure-85) |           |           |           | No        |      0 |
+| 112 | [C86](#closure-86) |           |           |           | No        |      0 |
+| 113 | [C87](#closure-87) |           |           |           | No        |      0 |
+| 114 | [C88](#closure-88) |           |           |           | ERROR     |      0 |
+| 115 | [C89](#closure-89) |           |           |           | No        |      0 |
+| 116 | [C90](#closure-90) |           |           |           | ERROR     |      0 |
+| 117 | [C91](#closure-91) |           |           |           | ERROR     |      0 |
+| 118 | [C92](#closure-92) |           |           |           | ERROR     |      0 |
+| 119 | [C93](#closure-93) |           |           |           | ERROR     |      0 |
+| 120 | [C94](#closure-94) |           |           |           | ERROR     |      0 |
+| 121 | [C95](#closure-95) |           |           |           | ERROR     |      0 |
+| 122 | [C96](#closure-96) |           |           |           | ERROR     |      0 |
+| 123 | [C97](#closure-97) |           |           |           | No        |      0 |
+| 124 | [C98](#closure-98) |           |           |           | No        |      0 |
+| 125 | [C99](#closure-99) |           |           |           | No        |      0 |
+| 126 | [C100](#closure-100) |           |           |           | No        |      0 |
+| 127 | [C101](#closure-101) |           |           |           | No        |      0 |
+| 128 | [C102](#closure-102) |           |           |           | No        |      0 |
+| 129 | [C103](#closure-103) |           |           |           | No        |      0 |
+| 130 | [C104](#closure-104) |           |           |           | No        |      0 |
+| 131 | [C105](#closure-105) |           |           |           | No        |      0 |
+| 132 | [C106](#closure-106) |           |           |           | No        |      0 |
+| 133 | [C107](#closure-107) |           |           |           | ERROR     |      0 |
+| 134 | [C108](#closure-108) |           |           |           | No        |      0 |
+| 135 | [C109](#closure-109) |           |           |           | ERROR     |      0 |
+| 136 | [C110](#closure-110) |           |           |           | T_OUT     |      0 |
+| 137 | [C111](#closure-111) |           |           |           | Yes       |      1 |
+| 138 | [C112](#closure-112) |           |           |           | ERROR     |      0 |
+| 139 | [C113](#closure-113) |           |           |           | Yes       |      1 |
+| 140 | [C114](#closure-114) |           |           |           | Yes       |      1 |
+| 141 | [C115](#closure-115) |           |           |           | Yes       |      1 |
+| 142 | [C116](#closure-116) |           |           |           | Yes       |      1 |
+| 143 | [C117](#closure-117) |           |           |           | T_OUT     |      0 |
+| 144 | [C118](#closure-118) |           |           |           | ERROR     |      0 |
+| 145 | [C119](#closure-119) |           |           |           | Yes       |      1 |
+| 146 | [C120](#closure-120) |           |           |           | Yes       |      1 |
+| 147 | [C121](#closure-121) |           |           |           | Yes       |      1 |
+| 148 | [C122](#closure-122) |           |           |           | T_OUT     |      0 |
+| 149 | [C123](#closure-123) |           |           |           | T_OUT     |      0 |
+| 150 | [C124](#closure-124) |           |           |           | Yes       |      1 |
+| 151 | [C125](#closure-125) |           |           |           | ERROR     |      0 |
+| 152 | [C126](#closure-126) |           |           |           | Yes       |      1 |
+| 153 | [C127](#closure-127) |           |           |           | Yes       |      1 |
+| 154 | [C128](#closure-128) |           |           |           | T_OUT     |      0 |
+| 155 | [C129](#closure-129) |           |           |           | Yes       |      1 |
+| 156 | [C130](#closure-130) |           |           |           | Yes       |      1 |
+| 157 | [C131](#closure-131) |           |           |           | Yes       |      1 |
+| 158 | [C132](#closure-132) |           |           |           | Yes       |      1 |
+| 159 | [C133](#closure-133) |           |           |           | Yes       |      1 |
+| 160 | [L1](#lang-1)     |           |           |           | No        |      0 |
+| 161 | [L2](#lang-2)     |           |           |           | No        |      0 |
+| 162 | [L3](#lang-3)     |           |           |           | No        |      0 |
+| 163 | [L4](#lang-4)     |           |           |           | No        |      0 |
+| 164 | [L5](#lang-5)     |           |           |           | No        |      0 |
+| 165 | [L6](#lang-6)     |           |           |           | No        |      0 |
+| 166 | [L7](#lang-7)     |           |           |           | No        |      0 |
+| 167 | [L8](#lang-8)     |           |           |           | No        |      0 |
+| 168 | [L9](#lang-9)     |           |           |           | No        |      0 |
+| 169 | [L10](#lang-10)   |           |           |           | No        |      0 |
+| 170 | [L11](#lang-11)   |           |           |           | No        |      0 |
+| 171 | [L12](#lang-12)   |           |           |           | No        |      0 |
+| 172 | [L13](#lang-13)   |           |           |           | No        |      0 |
+| 173 | [L14](#lang-14)   |           |           |           | No        |      0 |
+| 174 | [L15](#lang-15)   |           |           |           | No        |      0 |
+| 175 | [L16](#lang-16)   |           |           |           | No        |      0 |
+| 176 | [L17](#lang-17)   |           |           |           | No        |      0 |
+| 177 | [L18](#lang-18)   |           |           |           | No        |      0 |
+| 178 | [L19](#lang-19)   |           |           |           | No        |      0 |
+| 179 | [L20](#lang-20)   |           |           |           | No        |      0 |
+| 180 | [L21](#lang-21)   |           |           |           | No        |      0 |
+| 181 | [L22](#lang-22)   |           |           |           | No        |      0 |
+| 182 | [L23](#lang-23)   |           |           |           | No        |      0 |
+| 183 | [L24](#lang-24)   |           |           |           | No        |      0 |
+| 184 | [L25](#lang-25)   |           |           |           | No        |      0 |
+| 185 | [L26](#lang-26)   |           |           |           | No        |      0 |
+| 186 | [L27](#lang-27)   |           |           |           | No        |      0 |
+| 187 | [L28](#lang-28)   |           |           |           | No        |      0 |
+| 188 | [L29](#lang-29)   |           |           |           | No        |      0 |
+| 189 | [L30](#lang-30)   |           |           |           | No        |      0 |
+| 190 | [L31](#lang-31)   |           |           |           | No        |      0 |
+| 191 | [L32](#lang-32)   |           |           |           | No        |      0 |
+| 192 | [L33](#lang-33)   |           |           |           | No        |      0 |
+| 193 | [L34](#lang-34)   |           |           |           | No        |      0 |
+| 194 | [L35](#lang-35)   |           |           |           | No        |      0 |
+| 195 | [L36](#lang-36)   |           |           |           | No        |      0 |
+| 196 | [L37](#lang-37)   |           |           |           | No        |      0 |
+| 197 | [L38](#lang-38)   |           |           |           | No        |      0 |
+| 198 | [L39](#lang-39)   |           |           |           | No        |      0 |
+| 199 | [L40](#lang-40)   |           |           |           | No        |      0 |
+| 200 | [L41](#lang-41)   |           |           |           | No        |      0 |
+| 201 | [L42](#lang-42)   |           |           |           | No        |      0 |
+| 202 | [L43](#lang-43)   |           |           |           | No        |      0 |
+| 203 | [L44](#lang-44)   |           |           |           | Yes       |      1 |
+| 204 | [L45](#lang-45)   |           |           |           | No        |      0 |
+| 205 | [L46](#lang-46)   |           |           |           | No        |      0 |
+| 206 | [L47](#lang-47)   |           |           |           | No        |      0 |
+| 207 | [L48](#lang-48)   |           |           |           | No        |      0 |
+| 208 | [L49](#lang-49)   |           |           |           | No        |      0 |
+| 209 | [L50](#lang-50)   |           |           |           | No        |      0 |
+| 210 | [L51](#lang-51)   |           |           |           | Yes       |      1 |
+| 211 | [L52](#lang-52)   |           |           |           | No        |      0 |
+| 212 | [L53](#lang-53)   |           |           |           | Yes       |      1 |
+| 213 | [L54](#lang-54)   |           |           |           | No        |      0 |
+| 214 | [L55](#lang-55)   |           |           |           | No        |      0 |
+| 215 | [L56](#lang-56)   |           |           |           | No        |      0 |
+| 216 | [L57](#lang-57)   |           |           |           | No        |      0 |
+| 217 | [L58](#lang-58)   |           |           |           | Yes       |      1 |
+| 218 | [L59](#lang-59)   |           |           |           | No        |      0 |
+| 219 | [L60](#lang-60)   |           |           |           | No        |      0 |
+| 220 | [L61](#lang-61)   |           |           |           | No        |      0 |
+| 221 | [L62](#lang-62)   |           |           |           | No        |      0 |
+| 222 | [L63](#lang-63)   |           |           |           | No        |      0 |
+| 223 | [L64](#lang-64)   |           |           |           | No        |      0 |
+| 224 | [L65](#lang-65)   |           |           |           | No        |      0 |
+| 225 | [M1](#math-1)     |           |           |           | T_OUT     |      0 |
+| 226 | [M2](#math-2)     |           |           |           | Yes       |      1 |
+| 227 | [M3](#math-3)     |           |           |           | No        |      0 |
+| 228 | [M4](#math-4)     |           |           |           | Yes       |      1 |
+| 229 | [M5](#math-5)     |           |           |           | T_OUT     |      0 |
+| 230 | [M6](#math-6)     |           |           |           | T_OUT     |      0 |
+| 231 | [M7](#math-7)     |           |           |           | Yes       |      1 |
+| 232 | [M8](#math-8)     |           |           |           | T_OUT     |      0 |
+| 233 | [M9](#math-9)     |           |           |           | No        |      0 |
+| 234 | [M10](#math-10)   |           |           |           | T_OUT     |      0 |
+| 235 | [M11](#math-11)   |           |           |           | No        |      0 |
+| 236 | [M12](#math-12)   |           |           |           | T_OUT     |      0 |
+| 237 | [M13](#math-13)   |           |           |           | T_OUT     |      0 |
+| 238 | [M14](#math-14)   |           |           |           | No        |      0 |
+| 239 | [M15](#math-15)   |           |           |           | No        |      0 |
+| 240 | [M16](#math-16)   |           |           |           | No        |      0 |
+| 241 | [M17](#math-17)   |           |           |           | ERROR     |      0 |
+| 242 | [M18](#math-18)   |           |           |           | T_OUT     |      0 |
+| 243 | [M19](#math-19)   |           |           |           | No        |      0 |
+| 244 | [M20](#math-20)   |           |           |           | T_OUT     |      0 |
+| 245 | [M21](#math-21)   |           |           |           | No        |      0 |
+| 246 | [M22](#math-22)   |           |           |           | No        |      0 |
+| 247 | [M23](#math-23)   |           |           |           | No        |      0 |
+| 248 | [M24](#math-24)   |           |           |           | Yes       |      1 |
+| 249 | [M25](#math-25)   |           |           |           | No        |      0 |
+| 250 | [M26](#math-26)   |           |           |           | No        |      0 |
+| 251 | [M27](#math-27)   |           |           |           | T_OUT     |      0 |
+| 252 | [M28](#math-28)   |           |           |           | Yes       |      1 |
+| 253 | [M29](#math-29)   |           |           |           | T_OUT     |      0 |
+| 254 | [M30](#math-30)   |           |           |           | No        |      0 |
+| 255 | [M31](#math-31)   |           |           |           | T_OUT     |      0 |
+| 256 | [M32](#math-32)   |           |           |           | ERROR     |      0 |
+| 257 | [M33](#math-33)   |           |           |           | Yes       |      1 |
+| 258 | [M34](#math-34)   |           |           |           | No        |      0 |
+| 259 | [M35](#math-35)   |           |           |           | No        |      0 |
+| 260 | [M36](#math-36)   |           |           |           | No        |      0 |
+| 261 | [M37](#math-37)   |           |           |           | ERROR     |      0 |
+| 262 | [M38](#math-38)   |           |           |           | No        |      0 |
+| 263 | [M39](#math-39)   |           |           |           | Yes       |      1 |
+| 264 | [M40](#math-40)   |           |           |           | Yes       |      1 |
+| 265 | [M41](#math-41)   |           |           |           | Yes       |      1 |
+| 266 | [M42](#math-42)   |           |           |           | Yes       |      1 |
+| 267 | [M43](#math-43)   |           |           |           | No        |      0 |
+| 268 | [M44](#math-44)   |           |           |           | Yes       |      1 |
+| 269 | [M45](#math-45)   |           |           |           | No        |      0 |
+| 270 | [M46](#math-46)   |           |           |           | No        |      0 |
+| 271 | [M47](#math-47)   |           |           |           | No        |      0 |
+| 272 | [M48](#math-48)   |           |           |           | No        |      0 |
+| 273 | [M49](#math-49)   |           |           |           | Yes       |      1 |
+| 274 | [M50](#math-50)   |           |           |           | Yes       |      1 |
+| 275 | [M51](#math-51)   |           |           |           | T_OUT     |      0 |
+| 276 | [M52](#math-52)   |           |           |           | No        |      0 |
+| 277 | [M53](#math-53)   |           |           |           | No        |      0 |
+| 278 | [M54](#math-54)   |           |           |           | ERROR     |      0 |
+| 279 | [M55](#math-55)   |           |           |           | No        |      0 |
+| 280 | [M56](#math-56)   |           |           |           | No        |      0 |
+| 281 | [M57](#math-57)   |           |           |           | Yes       |      1 |
+| 282 | [M58](#math-58)   |           |           |           | Yes       |      1 |
+| 283 | [M59](#math-59)   |           |           |           | No        |      0 |
+| 284 | [M60](#math-60)   |           |           |           | No        |      0 |
+| 285 | [M61](#math-61)   |           |           |           | No        |      0 |
+| 286 | [M62](#math-62)   |           |           |           | No        |      0 |
+| 287 | [M63](#math-63)   |           |           |           | No        |      0 |
+| 288 | [M64](#math-64)   |           |           |           | No        |      0 |
+| 289 | [M65](#math-65)   |           |           |           | No        |      0 |
+| 290 | [M66](#math-66)   |           |           |           | ERROR     |      0 |
+| 291 | [M67](#math-67)   |           |           |           | ERROR     |      0 |
+| 292 | [M68](#math-68)   |           |           |           | No        |      0 |
+| 293 | [M69](#math-69)   |           |           |           | Yes       |      1 |
+| 294 | [M70](#math-70)   |           |           |           | No        |      0 |
+| 295 | [M71](#math-71)   |           |           |           | T_OUT     |      0 |
+| 296 | [M72](#math-72)   |           |           |           | No        |      0 |
+| 297 | [M73](#math-73)   |           |           |           | Yes       |      1 |
+| 298 | [M74](#math-74)   |           |           |           | ERROR     |      0 |
+| 299 | [M75](#math-75)   |           |           |           | No        |      0 |
+| 300 | [M76](#math-76)   |           |           |           | No        |      0 |
+| 301 | [M77](#math-77)   |           |           |           | No        |      0 |
+| 302 | [M78](#math-78)   |           |           |           | Yes       |      1 |
+| 303 | [M79](#math-79)   |           |           |           | No        |      0 |
+| 304 | [M80](#math-80)   |           |           |           | Yes       |      1 |
+| 305 | [M81](#math-81)   |           |           |           | Yes       |      1 |
+| 306 | [M82](#math-82)   |           |           |           | No        |      0 |
+| 307 | [M83](#math-83)   |           |           |           | No        |      0 |
+| 308 | [M84](#math-84)   |           |           |           | No        |      0 |
+| 309 | [M85](#math-85)   |           |           |           | Yes       |      1 |
+| 310 | [M86](#math-86)   |           |           |           | No        |      0 |
+| 311 | [M87](#math-87)   |           |           |           | Yes       |      1 |
+| 312 | [M88](#math-88)   |           |           |           | Yes       |      1 |
+| 313 | [M89](#math-89)   |           |           |           | No        |      0 |
+| 314 | [M90](#math-90)   |           |           |           | No        |      0 |
+| 315 | [M91](#math-91)   |           |           |           | No        |      0 |
+| 316 | [M92](#math-92)   |           |           |           | No        |      0 |
+| 317 | [M93](#math-93)   |           |           |           | No        |      0 |
+| 318 | [M94](#math-94)   |           |           |           | No        |      0 |
+| 319 | [M95](#math-95)   |           |           |           | No        |      0 |
+| 320 | [M96](#math-96)   |           |           |           | No        |      0 |
+| 321 | [M97](#math-97)   |           |           |           | No        |      0 |
+| 322 | [M98](#math-98)   |           |           |           | No        |      0 |
+| 323 | [M99](#math-99)   | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0 |
+| 324 | [M100](#math-100) |           |           |           | No        |      0 |
+| 325 | [M101](#math-101) |           |           |           | No        |      0 |
+| 326 | [M102](#math-102) |           |           |           | No        |      0 |
+| 327 | [M103](#math-103) |           |           |           | No        |      0 |
+| 328 | [M104](#math-104) |           |           |           | No        |      0 |
+| 329 | [M105](#math-105) |           |           |           | Yes       |      1 |
+| 330 | [M106](#math-106) |           |           |           | No        |      0 |
+| 331 | [M1](#mockito-1)  |           |           |           | ERROR     |      0 |
+| 332 | [M2](#mockito-2)  |           |           |           | T_OUT     |      0 |
+| 333 | [M3](#mockito-3)  |           |           |           | ERROR     |      0 |
+| 334 | [M4](#mockito-4)  |           |           |           | T_OUT     |      0 |
+| 335 | [M5](#mockito-5)  |           |           |           | T_OUT     |      0 |
+| 336 | [M6](#mockito-6)  |           |           |           | T_OUT     |      0 |
+| 337 | [M7](#mockito-7)  |           |           |           | T_OUT     |      0 |
+| 338 | [M8](#mockito-8)  |           |           |           | T_OUT     |      0 |
+| 339 | [M9](#mockito-9)  |           |           |           | T_OUT     |      0 |
+| 340 | [M10](#mockito-10) |           |           |           | ERROR     |      0 |
+| 341 | [M11](#mockito-11) |           |           |           | T_OUT     |      0 |
+| 342 | [M12](#mockito-12) |           |           |           | No        |      0 |
+| 343 | [M13](#mockito-13) |           |           |           | No        |      0 |
+| 344 | [M14](#mockito-14) |           |           |           | No        |      0 |
+| 345 | [M15](#mockito-15) |           |           |           | No       |      0 |
+| 346 | [M16](#mockito-16) |           |           |           | No        |      0 |
+| 347 | [M17](#mockito-17) |           |           |           | No        |      0 |
+| 348 | [M18](#mockito-18) |           |           |           | ERROR     |      0 |
+| 349 | [M19](#mockito-19) |           |           |           | ERROR     |      0 |
+| 350 | [M20](#mockito-20) |           |           |           | ERROR     |      0 |
+| 351 | [M21](#mockito-21) |           |           |           | T_OUT     |      0 |
+| 352 | [M22](#mockito-22) |           |           |           | T_OUT     |      0 |
+| 353 | [M23](#mockito-23) |           |           |           | T_OUT     |      0 |
+| 354 | [M24](#mockito-24) |           |           |           | T_OUT     |      0 |
+| 355 | [M25](#mockito-25) |           |           |           | T_OUT     |      0 |
+| 356 | [M26](#mockito-26) |           |           |           | T_OUT     |      0 |
+| 357 | [M27](#mockito-27) |           |           |           | T_OUT     |      0 |
+| 358 | [M28](#mockito-28) |           |           |           | No        |      0 |
+| 359 | [M29](#mockito-29) |           |           |           | Yes       |      1 |
+| 360 | [M30](#mockito-30) |           |           |           | No        |      0 |
+| 361 | [M31](#mockito-31) |           |           |           | No        |      0 |
+| 362 | [M32](#mockito-32) |           |           |           | T_OUT     |      0 |
+| 363 | [M33](#mockito-33) |           |           |           | No        |      0 |
+| 364 | [M34](#mockito-34) |           |           |           | No        |      0 |
+| 365 | [M35](#mockito-35) |           |           |           | No        |      0 |
+| 366 | [M36](#mockito-36) |           |           |           | No        |      0 |
+| 367 | [M37](#mockito-37) |           |           |           | No        |      0 |
+| 368 | [M38](#mockito-38) |           |           |           | Yes       |      1 |
+| 369 | [T1](#time-1)     |           |           |           | No        |      0 |
+| 370 | [T2](#time-2)     |           |           |           | No        |      0 |
+| 371 | [T3](#time-3)     |           |           |           | No        |      0 |
+| 372 | [T4](#time-4)     |           |           |           | Yes       |      1 |
+| 373 | [T5](#time-5)     |           |           |           | No        |      0 |
+| 374 | [T6](#time-6)     |           |           |           | No        |      0 |
+| 375 | [T7](#time-7)     |           |           |           | Yes       |      1 |
+| 376 | [T8](#time-8)     |           |           |           | No        |      0 |
+| 377 | [T9](#time-9)     |           |           |           | No        |      0 |
+| 378 | [T10](#time-10)   |           |           |           | No        |      0 |
+| 379 | [T11](#time-11)   |           |           |           | Yes       |      1 |
+| 380 | [T12](#time-12)   |           |           |           | Yes       |      1 |
+| 381 | [T13](#time-13)   |           |           |           | No        |      0 |
+| 382 | [T14](#time-14)   |           |           |           | Yes       |      1 |
+| 383 | [T15](#time-15)   |           |           |           | No        |      0 |
+| 384 | [T16](#time-16)   |           |           |           | Yes       |      1 |
+| 385 | [T17](#time-17)   |           |           |           | No        |      0 |
+| 386 | [T18](#time-18)   |           |           |           | Yes       |      1 |
+| 387 | [T19](#time-19)   |           |           |           | Yes       |      1 |
+| 388 | [T20](#time-20)   |           |           |           | No        |      0 |
+| 389 | [T21](#time-21)   |           |           |           | No        |      0 |
+| 390 | [T22](#time-22)   |           |           |           | No        |      0 |
+| 391 | [T23](#time-23)   |           |           |           | No        |      0 |
+| 392 | [T24](#time-24)   |           |           |           | No        |      0 |
+| 393 | [T25](#time-25)   |           |           |           | No        |      0 |
+| 394 | [T26](#time-26)   |           |           |           | T_OUT     |      0 |
+| 395 | [T27](#time-27)   |           |           |           | No        |      0 |
+|     | Total             | 0 (0%)    | 0 (0%)    | 0 (0%)    | 103 (26%) |    103 |
 
-Nb bugs ends with an execution error: 150
+Fixed bugs: 103/395 (26%)
+
+Nb bugs ends with an execution error: 46
 
 Nb bugs ends with an empty log: 0
 
-Nb bugs ends with the Grid5000 timeout: 92
+Nb bugs ends with the Grid5000 timeout: 57
 
-Total execution time: 16 days, 23:12:29.001000
+Total execution time: 9 days, 23:52:20.824000
 
-
-
-# Chart 1
-
-
-## Human Patch 
-
-```Java
-Index: source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
-===================================================================
---- source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	(revision 2266)
-+++ source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	(revision 2264)
-@@ -1794,7 +1794,7 @@
-         }
-         int index = this.plot.getIndexOf(this);
-         CategoryDataset dataset = this.plot.getDataset(index);
-+        if (dataset == null) {
--        if (dataset != null) {
-             return result;
-         }
-         int seriesCount = dataset.getRowCount();
-
-```
-
-## Patch #1 DynaMoth 
-
-org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797
-
-```Java
---- /tmp/chart_1_Brutpol/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
-+++ /tmp/chart_1_Brutpol/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
-@@ -1796,4 +1796,6 @@
-         CategoryDataset dataset = this.plot.getDataset(index);
--        if (dataset != null) {
--            return result;
-+        if (this.equals((java.lang.Object) result)) {
-+            if (dataset != null) {
-+                return result;
-+            }
-         }
-
-```
-Execution time: 0:01:55.750000
-
-Grid5000 node: griffon-2.nancy.grid5000.fr
 
 
 # Chart 3
@@ -608,7 +551,7 @@ index 72bb2ea..795d791 100644
 
 ```
 
-## Patch #2 Nopol 
+## Patch #1 Nopol 
 
 org.jfree.data.time.TimeSeries:885
 
@@ -656,28 +599,7 @@ index 6536d1d..ec26162 100644
 
 ```
 
-## Patch #3 DynaMoth 
-
-org.jfree.chart.plot.XYPlot:1607
-
-```Java
---- /tmp/chart_4_Brutpol/source/org/jfree/chart/plot/XYPlot.java
-+++ /tmp/chart_4_Brutpol/source/org/jfree/chart/plot/XYPlot.java
-@@ -1606,3 +1606,5 @@
-     public void setRenderer(XYItemRenderer renderer) {
--        setRenderer(0, renderer);
-+        if (renderer != null) {
-+            setRenderer(0, renderer);
-+        }
-     }
-
-```
-Execution time: 0:12:04.014000
-
-Grid5000 node: griffon-27.nancy.grid5000.fr
-
-
-## Patch #4 Nopol 
+## Patch #2 Nopol 
 
 org.jfree.chart.plot.XYPlot:1607
 
@@ -728,26 +650,7 @@ index b26e11e..0b37e6e 100644
 
 ```
 
-## Patch #5 DynaMoth 
-
-org.jfree.data.xy.XYSeries:563
-
-```Java
---- /tmp/chart_5_Brutpol/source/org/jfree/data/xy/XYSeries.java
-+++ /tmp/chart_5_Brutpol/source/org/jfree/data/xy/XYSeries.java
-@@ -562,3 +562,3 @@
-             // append the value to the list...
--            if (this.autoSort) {
-+            if (this.equals((java.lang.Object) x)) {
-                 this.data.add(-index - 1, new XYDataItem(x, y));
-
-```
-Execution time: 0:00:49.995000
-
-Grid5000 node: graphene-75.nancy.grid5000.fr
-
-
-## Patch #6 Nopol 
+## Patch #3 Nopol 
 
 org.jfree.data.xy.XYSeries:563
 
@@ -788,26 +691,7 @@ index d16d447..4067e3e 100644
 
 ```
 
-## Patch #7 DynaMoth 
-
-org.jfree.data.time.TimeSeries:947
-
-```Java
---- /tmp/chart_9_Brutpol/source/org/jfree/data/time/TimeSeries.java
-+++ /tmp/chart_9_Brutpol/source/org/jfree/data/time/TimeSeries.java
-@@ -946,3 +946,3 @@
-         }
--        if (emptyRange) {
-+        if (endIndex < startIndex) {
-             TimeSeries copy = (TimeSeries) super.clone();
-
-```
-Execution time: 0:01:01.272000
-
-Grid5000 node: griffon-27.nancy.grid5000.fr
-
-
-## Patch #8 Nopol 
+## Patch #4 Nopol 
 
 org.jfree.data.time.TimeSeries:883
 
@@ -850,40 +734,7 @@ index b3ae54b..730aeb3 100644
 
 ```
 
-## Patch #9 DynaMoth 
-
-org.jfree.chart.block.BorderArrangement:453
-
-```Java
---- /tmp/chart_13_Brutpol/source/org/jfree/chart/block/BorderArrangement.java
-+++ /tmp/chart_13_Brutpol/source/org/jfree/chart/block/BorderArrangement.java
-@@ -452,9 +452,11 @@
-         h[3] = h[2];
--        if (this.rightBlock != null) {
--            RectangleConstraint c4 = new RectangleConstraint(0.0,
--                    new Range(0.0, constraint.getWidth() - w[2]),
--                    LengthConstraintType.RANGE, h[2], null,
--                    LengthConstraintType.FIXED);
--            Size2D size = this.rightBlock.arrange(g2, c4);
--            w[3] = size.width;
-+        if (this.equals((java.lang.Object) container)) {
-+            if (this.rightBlock != null) {
-+                RectangleConstraint c4 = new RectangleConstraint(0.0,
-+                new Range(0.0, constraint.getWidth() - w[2]),
-+                LengthConstraintType.RANGE, h[2], null,
-+                LengthConstraintType.FIXED);
-+                Size2D size = this.rightBlock.arrange(g2, c4);
-+                w[3] = size.width;
-+            }
-         }
-
-```
-Execution time: 0:00:56.670000
-
-Grid5000 node: graphene-78.nancy.grid5000.fr
-
-
-## Patch #10 Nopol 
+## Patch #5 Nopol 
 
 org.jfree.chart.block.BorderArrangement:453
 
@@ -916,61 +767,6 @@ Execution time: 0:00:42.100000
 Grid5000 node: graphene-32.nancy.grid5000.fr
 
 
-# Chart 15
-
-
-## Human Patch 
-
-```Java
-diff --git a/source/org/jfree/chart/plot/PiePlot.java b/source/org/jfree/chart/plot/PiePlot.java
-index 7c3cd04..f575e72 100644
---- a/source/org/jfree/chart/plot/PiePlot.java
-+++ b/source/org/jfree/chart/plot/PiePlot.java
-@@ -1375,9 +1375,6 @@ public class PiePlot extends Plot implements Cloneable, Serializable {
-      * @return The percent.
-      */
-     public double getMaximumExplodePercent() {
-+        if (this.dataset == null) {
-+            return 0.0;
-+        }
-         double result = 0.0;
-         Iterator iterator = this.dataset.getKeys().iterator();
-         while (iterator.hasNext()) {
-@@ -2051,10 +2048,8 @@ public class PiePlot extends Plot implements Cloneable, Serializable {
-      
-         PiePlotState state = new PiePlotState(info);
-         state.setPassesRequired(2);
-+        if (this.dataset != null) {
-             state.setTotal(DatasetUtilities.calculatePieDatasetTotal(
-                     plot.getDataset()));
-+        }
-         state.setLatestAngle(plot.getStartAngle());
-         return state;
-         
-
-```
-
-## Patch #11 DynaMoth 
-
-org.jfree.chart.JFreeChart:1219
-
-```Java
---- /tmp/chart_15_Brutpol/source/org/jfree/chart/JFreeChart.java
-+++ /tmp/chart_15_Brutpol/source/org/jfree/chart/JFreeChart.java
-@@ -1218,3 +1218,5 @@
-         }
--        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
-+        if (this.borderVisible) {
-+            this.plot.draw(g2, plotArea, anchor, null, plotInfo);
-+        }
- 
-
-```
-Execution time: 0:04:57.469000
-
-Grid5000 node: griffon-21.nancy.grid5000.fr
-
-
 # Chart 17
 
 
@@ -994,28 +790,7 @@ index 907fc20..ffd1dff 100644
 
 ```
 
-## Patch #12 DynaMoth 
-
-org.jfree.data.time.TimeSeries:880
-
-```Java
---- /tmp/chart_17_Brutpol/source/org/jfree/data/time/TimeSeries.java
-+++ /tmp/chart_17_Brutpol/source/org/jfree/data/time/TimeSeries.java
-@@ -879,3 +879,5 @@
-         if (end < start) {
--            throw new IllegalArgumentException("Requires start <= end.");
-+            if (end == 0) {
-+                throw new IllegalArgumentException("Requires start <= end.");
-+            }
-         }
-
-```
-Execution time: 0:00:53.497000
-
-Grid5000 node: griffon-58.nancy.grid5000.fr
-
-
-## Patch #13 Nopol 
+## Patch #6 Nopol 
 
 org.jfree.data.time.TimeSeries:880
 
@@ -1110,7 +885,7 @@ index a973da9..7fd86f4 100644
 
 ```
 
-## Patch #14 Nopol 
+## Patch #7 Nopol 
 
 org.jfree.data.Range:335
 
@@ -1202,41 +977,7 @@ index 6ff5e36..ab65ba3 100644
 
 ```
 
-## Patch #15 DynaMoth 
-
-org.jfree.chart.renderer.category.StatisticalBarRenderer:207
-
-```Java
---- /tmp/chart_25_Brutpol/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
-+++ /tmp/chart_25_Brutpol/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
-@@ -206,10 +206,12 @@
-         PlotOrientation orientation = plot.getOrientation();
--        if (orientation == PlotOrientation.HORIZONTAL) {
--            drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
--                    rangeAxis, statData, row, column);
-+        if (this.equals((java.lang.Object) g2)) {
-+            if (orientation == PlotOrientation.HORIZONTAL) {
-+                drawHorizontalItem(g2, state, dataArea, plot, domainAxis,
-+                rangeAxis, statData, row, column);
-+            }
-+            else if (orientation == PlotOrientation.VERTICAL) {
-+                drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis,
-+                statData, row, column);
-+            }
-         }
--        else if (orientation == PlotOrientation.VERTICAL) {
--            drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
--                    statData, row, column);
--        }
-     }
-
-```
-Execution time: 0:01:11.726000
-
-Grid5000 node: griffon-26.nancy.grid5000.fr
-
-
-## Patch #16 Nopol 
+## Patch #8 Nopol 
 
 org.jfree.chart.renderer.category.StatisticalBarRenderer:207
 
@@ -1297,26 +1038,7 @@ index 3f74811..78a6c66 100644
 
 ```
 
-## Patch #17 DynaMoth 
-
-org.jfree.chart.plot.CategoryPlot:2538
-
-```Java
---- /tmp/chart_26_Brutpol/source/org/jfree/chart/plot/CategoryPlot.java
-+++ /tmp/chart_26_Brutpol/source/org/jfree/chart/plot/CategoryPlot.java
-@@ -2537,3 +2537,3 @@
-         boolean b2 = (area.getHeight() <= MINIMUM_HEIGHT_TO_DRAW);
--        if (b1 || b2) {
-+        if (this.rangeGridlinesVisible) {
-             return;
-
-```
-Execution time: 0:02:07.902000
-
-Grid5000 node: graphene-91.nancy.grid5000.fr
-
-
-## Patch #18 Nopol 
+## Patch #9 Nopol 
 
 org.jfree.chart.plot.CategoryPlot:2538
 
@@ -1358,36 +1080,7 @@ index 4c84735..dfad51b 100644
 
 ```
 
-## Patch #19 DynaMoth 
-
-[com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/9fedb84d9af478d5767af43dc3e0cafacc56f06c/src//com/google/javascript/rhino/Node.java#L1411)
-
-```Java
---- /tmp/closure_1_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_1_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1410,7 +1410,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:03:23.521000
-
-Grid5000 node: graphene-53.nancy.grid5000.fr
-
-
-## Patch #20 Nopol 
+## Patch #10 Nopol 
 
 [com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/9fedb84d9af478d5767af43dc3e0cafacc56f06c/src//com/google/javascript/rhino/Node.java#L1411)
 
@@ -1443,30 +1136,7 @@ index 96f256d..a0f95db 100644
 
 ```
 
-## Patch #21 DynaMoth 
-
-[com.google.javascript.jscomp.TypeCheck:1664](https://github.com/google/closure-compiler/blob/050922cf8041194a6c68624a24c5ed94c70c2936/src//com/google/javascript/jscomp/TypeCheck.java#L1664)
-
-```Java
---- /tmp/closure_2_Brutpol/src/com/google/javascript/jscomp/TypeCheck.java
-+++ /tmp/closure_2_Brutpol/src/com/google/javascript/jscomp/TypeCheck.java
-@@ -1663,4 +1663,6 @@
-           currentProperties.clear();
--          checkInterfaceConflictProperties(t, n, functionPrivateName,
--              properties, currentProperties, interfaceType);
-+          if (interfaceType.hasCachedValues()) {
-+            checkInterfaceConflictProperties(t, n, functionPrivateName,
-+            properties, currentProperties, interfaceType);
-+          }
-           properties.putAll(currentProperties);
-
-```
-Execution time: 0:03:49.362000
-
-Grid5000 node: graphene-24.nancy.grid5000.fr
-
-
-## Patch #22 Nopol 
+## Patch #11 Nopol 
 
 [com.google.javascript.jscomp.TypeCheck:1664](https://github.com/google/closure-compiler/blob/050922cf8041194a6c68624a24c5ed94c70c2936/src//com/google/javascript/jscomp/TypeCheck.java#L1664)
 
@@ -1533,36 +1203,7 @@ index c46ee7d..a77221a 100644
 
 ```
 
-## Patch #23 DynaMoth 
-
-[com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/ee12b8deee9403ff847940a0f19b9e4dbb8555ef/src//com/google/javascript/rhino/Node.java#L1411)
-
-```Java
---- /tmp/closure_3_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_3_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1410,7 +1410,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:04:57.193000
-
-Grid5000 node: graphene-29.nancy.grid5000.fr
-
-
-## Patch #24 Nopol 
+## Patch #12 Nopol 
 
 [com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/ee12b8deee9403ff847940a0f19b9e4dbb8555ef/src//com/google/javascript/rhino/Node.java#L1411)
 
@@ -1614,36 +1255,7 @@ index d03988c..2b85d84 100644
 
 ```
 
-## Patch #25 DynaMoth 
-
-[com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/9c91a088c44b970a0dab4a022f8097ae76c30dc2/src//com/google/javascript/rhino/Node.java#L1411)
-
-```Java
---- /tmp/closure_5_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_5_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1410,7 +1410,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:14.055000
-
-Grid5000 node: graphene-29.nancy.grid5000.fr
-
-
-## Patch #26 Nopol 
+## Patch #13 Nopol 
 
 [com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/9c91a088c44b970a0dab4a022f8097ae76c30dc2/src//com/google/javascript/rhino/Node.java#L1411)
 
@@ -1700,7 +1312,7 @@ index fa7d47d..0afabc8 100644
 
 ```
 
-## Patch #27 Nopol 
+## Patch #14 Nopol 
 
 [com.google.javascript.rhino.testing.Asserts:103](https://github.com/google/closure-compiler/blob/cb942ca0b4d8dc8a3ee23aaa66ce62a17cb3e4d1/src//com/google/javascript/rhino/testing/Asserts.java#L103)
 
@@ -1747,36 +1359,7 @@ index e0466ea..f2d36f5 100644
 
 ```
 
-## Patch #28 DynaMoth 
-
-[com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/a6fe1aed66ed1fedf69ff4077aa2c8608e0d5500/src//com/google/javascript/rhino/Node.java#L1411)
-
-```Java
---- /tmp/closure_8_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_8_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1410,7 +1410,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:16.327000
-
-Grid5000 node: graphene-48.nancy.grid5000.fr
-
-
-## Patch #29 Nopol 
+## Patch #15 Nopol 
 
 [com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/a6fe1aed66ed1fedf69ff4077aa2c8608e0d5500/src//com/google/javascript/rhino/Node.java#L1411)
 
@@ -1827,36 +1410,7 @@ index eeb12d4..eef2792 100644
 
 ```
 
-## Patch #30 DynaMoth 
-
-[com.google.javascript.rhino.Node:1433](https://github.com/google/closure-compiler/blob/bb61f738f57cb77c0a75b3469a6201e620043bbf/src//com/google/javascript/rhino/Node.java#L1433)
-
-```Java
---- /tmp/closure_10_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_10_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1432,7 +1432,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:03:59.473000
-
-Grid5000 node: graphene-57.nancy.grid5000.fr
-
-
-## Patch #31 Nopol 
+## Patch #16 Nopol 
 
 [com.google.javascript.rhino.Node:1433](https://github.com/google/closure-compiler/blob/bb61f738f57cb77c0a75b3469a6201e620043bbf/src//com/google/javascript/rhino/Node.java#L1433)
 
@@ -1911,7 +1465,7 @@ index 8361ac9..add5c66 100644
 
 ```
 
-## Patch #32 Nopol 
+## Patch #17 Nopol 
 
 [com.google.javascript.rhino.Node:1433](https://github.com/google/closure-compiler/blob/41988e1cd05e8ced1bebffba6fc0801aaefc2960/src//com/google/javascript/rhino/Node.java#L1433)
 
@@ -1962,7 +1516,7 @@ index 980deff..5c6927f 100644
 
 ```
 
-## Patch #33 Nopol 
+## Patch #18 Nopol 
 
 [com.google.javascript.jscomp.ControlFlowAnalysis:664](https://github.com/google/closure-compiler/blob/d97570fa45b9cc20a4cb094bdddc63d4556c2c49/src//com/google/javascript/jscomp/ControlFlowAnalysis.java#L664)
 
@@ -2006,7 +1560,7 @@ index 20196bf..a8e92fc 100644
 
 ```
 
-## Patch #34 Nopol 
+## Patch #19 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/0eaf00955843010256ddf10e9475a0a16b208d88/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -2083,36 +1637,7 @@ index e2f0538..26fb230 100644
 
 ```
 
-## Patch #35 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/ce38d60d28faa4342337c95030a21d8512b796f5/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_16_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_16_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:03:07.813000
-
-Grid5000 node: graphene-67.nancy.grid5000.fr
-
-
-## Patch #36 Nopol 
+## Patch #20 Nopol 
 
 [com.google.javascript.rhino.Node:1446](https://github.com/google/closure-compiler/blob/ce38d60d28faa4342337c95030a21d8512b796f5/src//com/google/javascript/rhino/Node.java#L1446)
 
@@ -2160,36 +1685,7 @@ index 8bc7bda..efaba2c 100644
 
 ```
 
-## Patch #37 DynaMoth 
-
-[com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder:1291](https://github.com/google/closure-compiler/blob/262f8f28fb1654d728431370294682ad1002367d/src//com/google/javascript/jscomp/TypedScopeCreator$AbstractScopeBuilder.java#L1291)
-
-```Java
---- /tmp/closure_17_Brutpol/src/com/google/javascript/jscomp/TypedScopeCreator.java
-+++ /tmp/closure_17_Brutpol/src/com/google/javascript/jscomp/TypedScopeCreator.java
-@@ -1290,3 +1290,3 @@
-             if (rValue != null) {
--              if (rValue.getJSType() != null && !rValue.getJSType().isUnknownType()) {
-+              if (lValue.getIndexOfChild((com.google.javascript.rhino.Node) rValue) == rValue.getChildCount()) {
-                 // If rValue has a type-cast, we use the type in the type-cast.
-@@ -1303,6 +1303,6 @@
-                 boolean namesMatch = firstClause.isName()
--                    && lValue.isName()
--                    && firstClause.getString().equals(lValue.getString());
-+                && lValue.isName()
-+                && firstClause.getString().equals(lValue.getString());
-                 if (namesMatch && secondClause.getJSType() != null
--                    && !secondClause.getJSType().isUnknownType()) {
-+                && !secondClause.getJSType().isUnknownType()) {
-                   return secondClause.getJSType();
-
-```
-Execution time: 0:03:19.091000
-
-Grid5000 node: graphene-54.nancy.grid5000.fr
-
-
-## Patch #38 Nopol 
+## Patch #21 Nopol 
 
 [com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder:1295](https://github.com/google/closure-compiler/blob/262f8f28fb1654d728431370294682ad1002367d/src//com/google/javascript/jscomp/TypedScopeCreator$AbstractScopeBuilder.java#L1295)
 
@@ -2232,36 +1728,7 @@ index 3756b99..8898f77 100644
 
 ```
 
-## Patch #39 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/7716527b0932b832ca6ac9c1551a93ae42c44687/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_18_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_18_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:05.690000
-
-Grid5000 node: graphene-4.nancy.grid5000.fr
-
-
-## Patch #40 Nopol 
+## Patch #22 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/7716527b0932b832ca6ac9c1551a93ae42c44687/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -2290,50 +1757,6 @@ Execution time: 0:01:51.671000
 Grid5000 node: graphene-35.nancy.grid5000.fr
 
 
-# Closure 19
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java b/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java
-index 752e04f..0345c85 100644
---- a/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java
-+++ b/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java
-@@ -169,9 +169,7 @@ public abstract class ChainableReverseAbstractInterpreter
-         scope.inferQualifiedSlot(node, qualifiedName, origType, type);
-         break;
- 
-+      case Token.THIS:
-         // "this" references aren't currently modeled in the CFG.
-+        break;
- 
-       default:
-         throw new IllegalArgumentException("Node cannot be refined. \n" +
-
-```
-
-## Patch #41 DynaMoth 
-
-[com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter:239](https://github.com/google/closure-compiler/blob/32b5c97666e817a1a7808571fd17e1e5cb80da18/src//com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java#L239)
-
-```Java
---- /tmp/closure_19_Brutpol/src/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java
-+++ /tmp/closure_19_Brutpol/src/com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java
-@@ -238,3 +238,5 @@
-       FlowScope informed = blindScope.createChildFlowScope();
--      declareNameInScope(informed, parameter, type);
-+      if (parameter.hasChildren() || parameter.isUnscopedQualifiedName()) {
-+        declareNameInScope(informed, parameter, type);
-+      }
-       return informed;
-
-```
-Execution time: 0:03:50.940000
-
-Grid5000 node: graphene-5.nancy.grid5000.fr
-
-
 # Closure 20
 
 
@@ -2357,36 +1780,7 @@ index 86521bd..bfa1707 100644
 
 ```
 
-## Patch #42 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/adb216dd387359923170fd7bdba64e7818de967a/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_20_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_20_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:22.747000
-
-Grid5000 node: graphene-67.nancy.grid5000.fr
-
-
-## Patch #43 Nopol 
+## Patch #23 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/adb216dd387359923170fd7bdba64e7818de967a/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -2463,36 +1857,7 @@ index 722d225..0d1e95a 100644
 
 ```
 
-## Patch #44 DynaMoth 
-
-[com.google.javascript.jscomp.CheckSideEffects:118](https://github.com/google/closure-compiler/blob/786629c775c5eabc52f8e67118aa67f0c918ff86/src//com/google/javascript/jscomp/CheckSideEffects.java#L118)
-
-```Java
---- /tmp/closure_21_Brutpol/src/com/google/javascript/jscomp/CheckSideEffects.java
-+++ /tmp/closure_21_Brutpol/src/com/google/javascript/jscomp/CheckSideEffects.java
-@@ -117,7 +117,9 @@
-       if (n == parent.getLastChild()) {
--        for (Node an : parent.getAncestors()) {
--          int ancestorType = an.getType();
--          if (ancestorType == Token.COMMA) continue;
--          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
--          else break;
-+        if (isResultUsed) {
-+          for (Node an : parent.getAncestors()) {
-+            int ancestorType = an.getType();
-+            if (ancestorType == Token.COMMA) continue;
-+            if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
-+            else break;
-+          }
-         }
-
-```
-Execution time: 0:02:09.083000
-
-Grid5000 node: graphene-4.nancy.grid5000.fr
-
-
-## Patch #45 Nopol 
+## Patch #24 Nopol 
 
 [com.google.javascript.jscomp.CheckSideEffects:118](https://github.com/google/closure-compiler/blob/786629c775c5eabc52f8e67118aa67f0c918ff86/src//com/google/javascript/jscomp/CheckSideEffects.java#L118)
 
@@ -2581,32 +1946,7 @@ index 722d225..b9aa412 100644
 
 ```
 
-## Patch #46 DynaMoth 
-
-[com.google.javascript.jscomp.CheckSideEffects:116](https://github.com/google/closure-compiler/blob/6ebbc3a68f5986b786fb1dffb88f517e57934301/src//com/google/javascript/jscomp/CheckSideEffects.java#L116)
-
-```Java
---- /tmp/closure_22_Brutpol/src/com/google/javascript/jscomp/CheckSideEffects.java
-+++ /tmp/closure_22_Brutpol/src/com/google/javascript/jscomp/CheckSideEffects.java
-@@ -115,6 +115,8 @@
-             continue;
--          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
-+          if (n.getBooleanProp((int) ancestorType)) {
-+            if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
-             return;
--          else
-+            else
-             break;
-+          }
-         }
-
-```
-Execution time: 0:02:10.710000
-
-Grid5000 node: graphene-69.nancy.grid5000.fr
-
-
-## Patch #47 Nopol 
+## Patch #25 Nopol 
 
 [com.google.javascript.jscomp.CheckSideEffects:116](https://github.com/google/closure-compiler/blob/6ebbc3a68f5986b786fb1dffb88f517e57934301/src//com/google/javascript/jscomp/CheckSideEffects.java#L116)
 
@@ -2670,36 +2010,7 @@ index fa01cd9..1744a58 100644
 
 ```
 
-## Patch #48 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/4c0c5b199d9588820d5c1ffabb618d47ff6f53f1/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_26_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_26_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:04:16.388000
-
-Grid5000 node: graphene-5.nancy.grid5000.fr
-
-
-## Patch #49 Nopol 
+## Patch #26 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/4c0c5b199d9588820d5c1ffabb618d47ff6f53f1/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -2751,36 +2062,7 @@ index 65694ab..76a5d0a 100644
 
 ```
 
-## Patch #50 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/bc14ffbe06f6ad96d3699159802596721564906e/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_28_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_28_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:12.910000
-
-Grid5000 node: graphene-54.nancy.grid5000.fr
-
-
-## Patch #51 Nopol 
+## Patch #27 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/bc14ffbe06f6ad96d3699159802596721564906e/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -2853,36 +2135,7 @@ index 8c3159d..9f5c607 100644
 
 ```
 
-## Patch #52 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/1a2bc905854a2f422228298d2f80b88a614b8484/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_29_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_29_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:20.209000
-
-Grid5000 node: graphene-44.nancy.grid5000.fr
-
-
-## Patch #53 Nopol 
+## Patch #28 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/1a2bc905854a2f422228298d2f80b88a614b8484/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -2970,36 +2223,7 @@ index 589f673..1487af3 100644
 
 ```
 
-## Patch #54 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/8b87a7c18bcdc0563fb5e65fbf83fc3f5a5c0fb2/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_30_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_30_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:08.854000
-
-Grid5000 node: graphene-44.nancy.grid5000.fr
-
-
-## Patch #55 Nopol 
+## Patch #29 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/8b87a7c18bcdc0563fb5e65fbf83fc3f5a5c0fb2/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -3049,36 +2273,7 @@ index d98be4a..b76bbb5 100644
 
 ```
 
-## Patch #56 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/c6009b383432570a869181eb98abbb23e61d899f/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_31_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_31_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:10.317000
-
-Grid5000 node: graphene-44.nancy.grid5000.fr
-
-
-## Patch #57 Nopol 
+## Patch #30 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/c6009b383432570a869181eb98abbb23e61d899f/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -3130,30 +2325,7 @@ index 81a7d89..b6e3fc7 100644
 
 ```
 
-## Patch #58 DynaMoth 
-
-[com.google.javascript.rhino.jstype.PrototypeObjectType:573](https://github.com/google/closure-compiler/blob/159b1a5b37616b87a5c86cebc1dd04e13e212d0f/src//com/google/javascript/rhino/jstype/PrototypeObjectType.java#L573)
-
-```Java
---- /tmp/closure_33_Brutpol/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java
-+++ /tmp/closure_33_Brutpol/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java
-@@ -572,4 +572,6 @@
-           if (!hasProperty(prop)) {
--            typeToInfer = getNativeType(JSTypeNative.VOID_TYPE)
--                .getLeastSupertype(propType);
-+            if (this.prettyPrint) {
-+              typeToInfer = getNativeType(JSTypeNative.VOID_TYPE)
-+              .getLeastSupertype(propType);
-+            }
-           }
-
-```
-Execution time: 0:02:12.389000
-
-Grid5000 node: graphene-44.nancy.grid5000.fr
-
-
-## Patch #59 Nopol 
+## Patch #31 Nopol 
 
 [com.google.javascript.rhino.jstype.PrototypeObjectType:573](https://github.com/google/closure-compiler/blob/159b1a5b37616b87a5c86cebc1dd04e13e212d0f/src//com/google/javascript/rhino/jstype/PrototypeObjectType.java#L573)
 
@@ -3213,7 +2385,7 @@ index fb6be1e..13e1092 100644
 
 ```
 
-## Patch #60 Nopol 
+## Patch #32 Nopol 
 
 [com.google.javascript.rhino.jstype.JSTypeRegistry:1655](https://github.com/google/closure-compiler/blob/bac02649246344af43201bf01eec685e47a90c01/src//com/google/javascript/rhino/jstype/JSTypeRegistry.java#L1655)
 
@@ -3267,36 +2439,7 @@ index 47b8e8a..0b4b3de 100644
 
 ```
 
-## Patch #61 DynaMoth 
-
-[com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/e91a3a7ef306d66d8773093796158b082a97835f/src//com/google/javascript/rhino/Node.java#L1417)
-
-```Java
---- /tmp/closure_36_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_36_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1416,7 +1416,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:25.145000
-
-Grid5000 node: graphene-41.nancy.grid5000.fr
-
-
-## Patch #62 Nopol 
+## Patch #33 Nopol 
 
 [com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/e91a3a7ef306d66d8773093796158b082a97835f/src//com/google/javascript/rhino/Node.java#L1417)
 
@@ -3347,7 +2490,7 @@ index 3522e89..4381487 100644
 
 ```
 
-## Patch #63 Nopol 
+## Patch #34 Nopol 
 
 [com.google.javascript.jscomp.CodeConsumer:245](https://github.com/google/closure-compiler/blob/eb10aad288e565e1def3433b95eabfb747ac3c9e/src//com/google/javascript/jscomp/CodeConsumer.java#L245)
 
@@ -3392,36 +2535,7 @@ index 6e9e470..088a993 100644
 
 ```
 
-## Patch #64 DynaMoth 
-
-[com.google.javascript.rhino.Node:1412](https://github.com/google/closure-compiler/blob/5c212b25238afc5fe06ff49299bb970f3be0b0f5/src//com/google/javascript/rhino/Node.java#L1412)
-
-```Java
---- /tmp/closure_40_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_40_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1411,7 +1411,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:30.515000
-
-Grid5000 node: graphene-50.nancy.grid5000.fr
-
-
-## Patch #65 Nopol 
+## Patch #35 Nopol 
 
 [com.google.javascript.rhino.Node:1412](https://github.com/google/closure-compiler/blob/5c212b25238afc5fe06ff49299bb970f3be0b0f5/src//com/google/javascript/rhino/Node.java#L1412)
 
@@ -3494,36 +2608,7 @@ index c93a073..be72a58 100644
 
 ```
 
-## Patch #66 DynaMoth 
-
-[com.google.javascript.rhino.Node:1404](https://github.com/google/closure-compiler/blob/c1b0cff652751bcedccc786931873ff2c9b1572c/src//com/google/javascript/rhino/Node.java#L1404)
-
-```Java
---- /tmp/closure_45_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_45_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1403,7 +1403,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:01:57.604000
-
-Grid5000 node: graphene-60.nancy.grid5000.fr
-
-
-## Patch #67 Nopol 
+## Patch #36 Nopol 
 
 [com.google.javascript.rhino.Node:1404](https://github.com/google/closure-compiler/blob/c1b0cff652751bcedccc786931873ff2c9b1572c/src//com/google/javascript/rhino/Node.java#L1404)
 
@@ -3550,59 +2635,6 @@ Grid5000 node: graphene-60.nancy.grid5000.fr
 Execution time: 0:01:41.011000
 
 Grid5000 node: graphene-137.nancy.grid5000.fr
-
-
-# Closure 48
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/com/google/javascript/jscomp/TypedScopeCreator.java b/src/com/google/javascript/jscomp/TypedScopeCreator.java
-index 09aba12..3fb4813 100644
---- a/src/com/google/javascript/jscomp/TypedScopeCreator.java
-+++ b/src/com/google/javascript/jscomp/TypedScopeCreator.java
-@@ -1518,14 +1518,11 @@ final class TypedScopeCreator implements ScopeCreator {
-             || FunctionTypeBuilder.isFunctionTypeDeclaration(info));
-       }
- 
-+      if (inferred && rhsValue != null && rhsValue.isFunction()) {
--      if (inferred) {
-         // Determining declaration for #2
-+        if (info != null) {
-+          inferred = false;
-+        } else if (!scope.isDeclared(qName, false) &&
-+                   n.isUnscopedQualifiedName()) {
-+          inferred = false;
-+        }
--        inferred = !(rhsValue != null &&
--            rhsValue.isFunction() &&
--            (info != null || !scope.isDeclared(qName, false)));
-       }
- 
-       if (!inferred) {
-
-```
-
-## Patch #68 DynaMoth 
-
-[com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder:1441](https://github.com/google/closure-compiler/blob/579b3ca885233ad7d987e1f58650ce9222cd70b1/src//com/google/javascript/jscomp/TypedScopeCreator$AbstractScopeBuilder.java#L1441)
-
-```Java
---- /tmp/closure_48_Brutpol/src/com/google/javascript/jscomp/TypedScopeCreator.java
-+++ /tmp/closure_48_Brutpol/src/com/google/javascript/jscomp/TypedScopeCreator.java
-@@ -1440,3 +1440,5 @@
-         // Determining type for #5
--        valueType = rhsValue.getJSType();
-+        if (n.getBooleanProp((int) 0)) {
-+          valueType = rhsValue.getJSType();
-+        }
-       }
-
-```
-Execution time: 0:04:30.657000
-
-Grid5000 node: graphene-60.nancy.grid5000.fr
 
 
 # Closure 49
@@ -3673,36 +2705,7 @@ index 0fcb778..627271f 100644
 
 ```
 
-## Patch #69 DynaMoth 
-
-[com.google.javascript.rhino.Node:1567](https://github.com/google/closure-compiler/blob/9ee18283e02713d69dc96016d778a7f9fecaf15f/src//com/google/javascript/rhino/Node.java#L1567)
-
-```Java
---- /tmp/closure_49_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_49_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1566,7 +1566,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:35.075000
-
-Grid5000 node: graphene-53.nancy.grid5000.fr
-
-
-## Patch #70 Nopol 
+## Patch #37 Nopol 
 
 [com.google.javascript.rhino.Node:1567](https://github.com/google/closure-compiler/blob/9ee18283e02713d69dc96016d778a7f9fecaf15f/src//com/google/javascript/rhino/Node.java#L1567)
 
@@ -3766,36 +2769,7 @@ index afaf85a..ffe47d3 100644
 
 ```
 
-## Patch #71 DynaMoth 
-
-[com.google.javascript.rhino.Node:1567](https://github.com/google/closure-compiler/blob/aad2ce0e53f9de6118bea89f38d779e7e53b15c0/src//com/google/javascript/rhino/Node.java#L1567)
-
-```Java
---- /tmp/closure_50_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_50_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1566,7 +1566,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:21.644000
-
-Grid5000 node: graphene-20.nancy.grid5000.fr
-
-
-## Patch #72 Nopol 
+## Patch #38 Nopol 
 
 [com.google.javascript.rhino.Node:1567](https://github.com/google/closure-compiler/blob/aad2ce0e53f9de6118bea89f38d779e7e53b15c0/src//com/google/javascript/rhino/Node.java#L1567)
 
@@ -3847,28 +2821,7 @@ index 9d8ebc3..dbf0006 100644
 
 ```
 
-## Patch #73 DynaMoth 
-
-[com.google.javascript.jscomp.FunctionRewriter$GetterReducer:451](https://github.com/google/closure-compiler/blob/e9a107e11909077b17eab80073aa7b089464d6f4/src//com/google/javascript/jscomp/FunctionRewriter$GetterReducer.java#L451)
-
-```Java
---- /tmp/closure_55_Brutpol/src/com/google/javascript/jscomp/FunctionRewriter.java
-+++ /tmp/closure_55_Brutpol/src/com/google/javascript/jscomp/FunctionRewriter.java
-@@ -450,3 +450,5 @@
-           NodeUtil.isThis(value.getFirstChild())) {
--        return value.getLastChild();
-+        if (functionNode.getLineno() == 1) {
-+          return value.getLastChild();
-+        }
-       }
-
-```
-Execution time: 0:01:57.997000
-
-Grid5000 node: graphene-50.nancy.grid5000.fr
-
-
-## Patch #74 Nopol 
+## Patch #39 Nopol 
 
 [com.google.javascript.jscomp.FunctionRewriter:93](https://github.com/google/closure-compiler/blob/e9a107e11909077b17eab80073aa7b089464d6f4/src//com/google/javascript/jscomp/FunctionRewriter.java#L93)
 
@@ -3900,50 +2853,6 @@ Grid5000 node: graphene-50.nancy.grid5000.fr
 Execution time: 0:02:14.650000
 
 Grid5000 node: graphene-24.nancy.grid5000.fr
-
-
-# Closure 59
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/com/google/javascript/jscomp/Compiler.java b/src/com/google/javascript/jscomp/Compiler.java
-index 1d6e494..b3ca246 100644
---- a/src/com/google/javascript/jscomp/Compiler.java
-+++ b/src/com/google/javascript/jscomp/Compiler.java
-@@ -252,8 +252,7 @@ public class Compiler extends AbstractCompiler {
-           CheckLevel.OFF);
-     }
- 
-+    if (options.checkGlobalThisLevel.isOn() &&
-+        !options.disables(DiagnosticGroups.GLOBAL_THIS)) {
--    if (options.checkGlobalThisLevel.isOn()) {
-       options.setWarningLevel(
-           DiagnosticGroups.GLOBAL_THIS,
-           options.checkGlobalThisLevel);
-
-```
-
-## Patch #75 DynaMoth 
-
-[com.google.javascript.jscomp.WarningLevel:79](https://github.com/google/closure-compiler/blob/2ca707d9b2c41776916744ca7031c9b7b340cccc/src//com/google/javascript/jscomp/WarningLevel.java#L79)
-
-```Java
---- /tmp/closure_59_Brutpol/src/com/google/javascript/jscomp/WarningLevel.java
-+++ /tmp/closure_59_Brutpol/src/com/google/javascript/jscomp/WarningLevel.java
-@@ -78,3 +78,5 @@
-     options.checkSuspiciousCode = true;
--    options.checkGlobalThisLevel = CheckLevel.WARNING;
-+    if (options.shouldColorizeErrorOutput()) {
-+      options.checkGlobalThisLevel = CheckLevel.WARNING;
-+    }
-     options.checkSymbols = true;
-
-```
-Execution time: 0:03:47.973000
-
-Grid5000 node: graphene-20.nancy.grid5000.fr
 
 
 # Closure 60
@@ -3979,36 +2888,7 @@ index 43a296f..7f20c2e 100644
 
 ```
 
-## Patch #76 DynaMoth 
-
-[com.google.javascript.rhino.Node:1500](https://github.com/google/closure-compiler/blob/1b0a167cab534ca5dec916729b0a12af1a00bbc6/src//com/google/javascript/rhino/Node.java#L1500)
-
-```Java
---- /tmp/closure_60_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_60_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1499,7 +1499,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:01:55.526000
-
-Grid5000 node: graphene-50.nancy.grid5000.fr
-
-
-## Patch #77 Nopol 
+## Patch #40 Nopol 
 
 [com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax:1197](https://github.com/google/closure-compiler/blob/1b0a167cab534ca5dec916729b0a12af1a00bbc6/src//com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java#L1197)
 
@@ -4055,36 +2935,7 @@ index f9ce42e..1844b18 100644
 
 ```
 
-## Patch #78 DynaMoth 
-
-[com.google.javascript.rhino.Node:1461](https://github.com/google/closure-compiler/blob/4f301973f7250537084d4d15edc00694365fdba7/src//com/google/javascript/rhino/Node.java#L1461)
-
-```Java
---- /tmp/closure_61_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_61_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1460,7 +1460,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:01:53.611000
-
-Grid5000 node: graphene-60.nancy.grid5000.fr
-
-
-## Patch #79 Nopol 
+## Patch #41 Nopol 
 
 [com.google.javascript.rhino.Node:1461](https://github.com/google/closure-compiler/blob/4f301973f7250537084d4d15edc00694365fdba7/src//com/google/javascript/rhino/Node.java#L1461)
 
@@ -4135,27 +2986,7 @@ index 420dbc0..5a4f884 100644
 
 ```
 
-## Patch #80 DynaMoth 
-
-[com.google.javascript.jscomp.LightweightMessageFormatter:97](https://github.com/google/closure-compiler/blob/a14b71db4e2b765474f3eed6cb98617a77183415/src//com/google/javascript/jscomp/LightweightMessageFormatter.java#L97)
-
-```Java
---- /tmp/closure_62_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
-+++ /tmp/closure_62_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
-@@ -96,4 +96,3 @@
-       // at the end of the line
--      if (excerpt.equals(LINE)
--          && 0 <= charno && charno < sourceExcerpt.length()) {
-+      if (error.equals((java.lang.Object) error)) {
-         for (int i = 0; i < charno; i++) {
-
-```
-Execution time: 0:01:45.898000
-
-Grid5000 node: graphene-70.nancy.grid5000.fr
-
-
-## Patch #81 Nopol 
+## Patch #42 Nopol 
 
 [com.google.javascript.jscomp.LightweightMessageFormatter:97](https://github.com/google/closure-compiler/blob/a14b71db4e2b765474f3eed6cb98617a77183415/src//com/google/javascript/jscomp/LightweightMessageFormatter.java#L97)
 
@@ -4197,27 +3028,7 @@ index 420dbc0..5a4f884 100644
 
 ```
 
-## Patch #82 DynaMoth 
-
-[com.google.javascript.jscomp.LightweightMessageFormatter:97](https://github.com/google/closure-compiler/blob/764ebd361b7346a8b17ff663d12e5db49cc17442/src//com/google/javascript/jscomp/LightweightMessageFormatter.java#L97)
-
-```Java
---- /tmp/closure_63_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
-+++ /tmp/closure_63_Brutpol/src/com/google/javascript/jscomp/LightweightMessageFormatter.java
-@@ -96,4 +96,3 @@
-       // at the end of the line
--      if (excerpt.equals(LINE)
--          && 0 <= charno && charno < sourceExcerpt.length()) {
-+      if (error.equals((java.lang.Object) error)) {
-         for (int i = 0; i < charno; i++) {
-
-```
-Execution time: 0:01:49.518000
-
-Grid5000 node: graphene-53.nancy.grid5000.fr
-
-
-## Patch #83 Nopol 
+## Patch #43 Nopol 
 
 [com.google.javascript.jscomp.LightweightMessageFormatter:97](https://github.com/google/closure-compiler/blob/764ebd361b7346a8b17ff663d12e5db49cc17442/src//com/google/javascript/jscomp/LightweightMessageFormatter.java#L97)
 
@@ -4260,28 +3071,7 @@ index d3def01..edb7805 100644
 
 ```
 
-## Patch #84 DynaMoth 
-
-[com.google.javascript.jscomp.TypeCheck:822](https://github.com/google/closure-compiler/blob/2e902f066499c8ce18867117768fc85ebc9c950a/src//com/google/javascript/jscomp/TypeCheck.java#L822)
-
-```Java
---- /tmp/closure_66_Brutpol/src/com/google/javascript/jscomp/TypeCheck.java
-+++ /tmp/closure_66_Brutpol/src/com/google/javascript/jscomp/TypeCheck.java
-@@ -821,3 +821,5 @@
-     if (type == null) {
--      nullCount++;
-+      if (this.inExterns) {
-+        nullCount++;
-+      }
-     } else if (type.isUnknownType()) {
-
-```
-Execution time: 0:02:38.164000
-
-Grid5000 node: graphene-50.nancy.grid5000.fr
-
-
-## Patch #85 Nopol 
+## Patch #44 Nopol 
 
 [com.google.javascript.jscomp.TypeCheck:822](https://github.com/google/closure-compiler/blob/2e902f066499c8ce18867117768fc85ebc9c950a/src//com/google/javascript/jscomp/TypeCheck.java#L822)
 
@@ -4324,36 +3114,7 @@ index 4472638..30b19e0 100644
 
 ```
 
-## Patch #86 DynaMoth 
-
-[com.google.javascript.rhino.Node:1385](https://github.com/google/closure-compiler/blob/495f7acb35b5802c8d90dbf46c4cc4429e765695/src//com/google/javascript/rhino/Node.java#L1385)
-
-```Java
---- /tmp/closure_67_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_67_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1384,7 +1384,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:01:50.829000
-
-Grid5000 node: graphene-26.nancy.grid5000.fr
-
-
-## Patch #87 Nopol 
+## Patch #45 Nopol 
 
 [com.google.javascript.rhino.Node:1385](https://github.com/google/closure-compiler/blob/495f7acb35b5802c8d90dbf46c4cc4429e765695/src//com/google/javascript/rhino/Node.java#L1385)
 
@@ -4417,36 +3178,7 @@ index 28e52ee..a2f53cf 100644
 
 ```
 
-## Patch #88 DynaMoth 
-
-[com.google.javascript.rhino.Node:1382](https://github.com/google/closure-compiler/blob/f4dbf0cf3525586cec52509189e5559a6e09df68/src//com/google/javascript/rhino/Node.java#L1382)
-
-```Java
---- /tmp/closure_72_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_72_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1381,7 +1381,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:01:48.431000
-
-Grid5000 node: graphene-2.nancy.grid5000.fr
-
-
-## Patch #89 Nopol 
+## Patch #46 Nopol 
 
 [com.google.javascript.rhino.Node:1382](https://github.com/google/closure-compiler/blob/f4dbf0cf3525586cec52509189e5559a6e09df68/src//com/google/javascript/rhino/Node.java#L1382)
 
@@ -4508,36 +3240,7 @@ index c97e091..7a882de 100644
 
 ```
 
-## Patch #90 DynaMoth 
-
-[com.google.javascript.rhino.Node:1371](https://github.com/google/closure-compiler/blob/5bb06b8ce602d037a8ed77583a4a110018e58ce4/src//com/google/javascript/rhino/Node.java#L1371)
-
-```Java
---- /tmp/closure_75_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_75_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1370,7 +1370,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:55.691000
-
-Grid5000 node: graphene-58.nancy.grid5000.fr
-
-
-## Patch #91 Nopol 
+## Patch #47 Nopol 
 
 [com.google.javascript.rhino.Node:1411](https://github.com/google/closure-compiler/blob/5bb06b8ce602d037a8ed77583a4a110018e58ce4/src//com/google/javascript/rhino/Node.java#L1411)
 
@@ -4666,36 +3369,7 @@ index aaab0d6..63a7f29 100644
 
 ```
 
-## Patch #92 DynaMoth 
-
-[com.google.javascript.rhino.Node:1369](https://github.com/google/closure-compiler/blob/59114084029697dbff042b43e360360e8ca439b5/src//com/google/javascript/rhino/Node.java#L1369)
-
-```Java
---- /tmp/closure_76_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_76_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1368,7 +1368,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.getChildCount() == 0) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:01:45.039000
-
-Grid5000 node: graphene-57.nancy.grid5000.fr
-
-
-## Patch #93 Nopol 
+## Patch #48 Nopol 
 
 [com.google.javascript.rhino.Node:1369](https://github.com/google/closure-compiler/blob/59114084029697dbff042b43e360360e8ca439b5/src//com/google/javascript/rhino/Node.java#L1369)
 
@@ -4752,28 +3426,7 @@ index 1afb7a8..c5ef4b0 100644
 
 ```
 
-## Patch #94 DynaMoth 
-
-[com.google.javascript.jscomp.PeepholeFoldConstants:718](https://github.com/google/closure-compiler/blob/2130dd16970db475c7392fd19f1f072f0f418ed2/src//com/google/javascript/jscomp/PeepholeFoldConstants.java#L718)
-
-```Java
---- /tmp/closure_78_Brutpol/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
-+++ /tmp/closure_78_Brutpol/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
-@@ -717,3 +717,5 @@
-         if (rval == 0) {
--          error(DiagnosticType.error("JSC_DIVIDE_BY_0_ERROR", "Divide by 0"), right);
-+          if (this.areNodesEqualForInlining((com.google.javascript.rhino.Node) left, (com.google.javascript.rhino.Node) right)) {
-+            error(DiagnosticType.error("JSC_DIVIDE_BY_0_ERROR", "Divide by 0"), right);
-+          }
-           return null;
-
-```
-Execution time: 0:01:42.142000
-
-Grid5000 node: graphene-143.nancy.grid5000.fr
-
-
-## Patch #95 Nopol 
+## Patch #49 Nopol 
 
 [com.google.javascript.jscomp.PeepholeFoldConstants:718](https://github.com/google/closure-compiler/blob/2130dd16970db475c7392fd19f1f072f0f418ed2/src//com/google/javascript/jscomp/PeepholeFoldConstants.java#L718)
 
@@ -4817,7 +3470,7 @@ index e3c599d..1706e34 100644
 
 ```
 
-## Patch #96 Nopol 
+## Patch #50 Nopol 
 
 [com.google.javascript.rhino.testing.Asserts:103](https://github.com/google/closure-compiler/blob/0896ac3d034d32a73788a78a1c450b30439a8ff7/src//com/google/javascript/rhino/testing/Asserts.java#L103)
 
@@ -4858,28 +3511,7 @@ index 85cee7c..70bf1b0 100644
 
 ```
 
-## Patch #97 DynaMoth 
-
-[com.google.javascript.jscomp.VarCheck:188](https://github.com/google/closure-compiler/blob/b928dc1e9a92c2a8fce3c19ea15b2d640d64dad0/src//com/google/javascript/jscomp/VarCheck.java#L188)
-
-```Java
---- /tmp/closure_113_Brutpol/src/com/google/javascript/jscomp/VarCheck.java
-+++ /tmp/closure_113_Brutpol/src/com/google/javascript/jscomp/VarCheck.java
-@@ -187,3 +187,5 @@
-         if (!strictExternCheck || !t.getInput().isExtern()) {
--          t.report(n, UNDEFINED_VAR_ERROR, varName);
-+          if (parent == parent.getLastSibling()) {
-+            t.report(n, UNDEFINED_VAR_ERROR, varName);
-+          }
-         }
-
-```
-Execution time: 0:09:21.739000
-
-Grid5000 node: graphene-63.nancy.grid5000.fr
-
-
-## Patch #98 Nopol 
+## Patch #51 Nopol 
 
 [com.google.javascript.jscomp.ProcessClosurePrimitives:329](https://github.com/google/closure-compiler/blob/b928dc1e9a92c2a8fce3c19ea15b2d640d64dad0/src//com/google/javascript/jscomp/ProcessClosurePrimitives.java#L329)
 
@@ -4920,36 +3552,7 @@ index a7b95b0..0fc5ae8 100644
 
 ```
 
-## Patch #99 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/9f410c3cc9cc52650acd57bddf97f09a64cbb1f5/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_114_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_114_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:34.261000
-
-Grid5000 node: graphene-51.nancy.grid5000.fr
-
-
-## Patch #100 Nopol 
+## Patch #52 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/9f410c3cc9cc52650acd57bddf97f09a64cbb1f5/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -5016,30 +3619,7 @@ index 5b38600..73d6a4b 100644
 
 ```
 
-## Patch #101 DynaMoth 
-
-[com.google.javascript.jscomp.FunctionInjector:730](https://github.com/google/closure-compiler/blob/9459ea2afe7c383adb1536dbc34a7a9ed14786b0/src//com/google/javascript/jscomp/FunctionInjector.java#L730)
-
-```Java
---- /tmp/closure_115_Brutpol/src/com/google/javascript/jscomp/FunctionInjector.java
-+++ /tmp/closure_115_Brutpol/src/com/google/javascript/jscomp/FunctionInjector.java
-@@ -729,4 +729,6 @@
-         if (cArg != null) {
--          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
--            return CanInlineResult.NO;
-+          if (this.assumeStrictThis) {
-+            if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
-+              return CanInlineResult.NO;
-+            }
-           }
-
-```
-Execution time: 0:40:13.024000
-
-Grid5000 node: graphene-29.nancy.grid5000.fr
-
-
-## Patch #102 Nopol 
+## Patch #53 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/9459ea2afe7c383adb1536dbc34a7a9ed14786b0/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -5107,36 +3687,7 @@ index accf4c5..c3fc14b 100644
 
 ```
 
-## Patch #103 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/d8529cf497f8ac44693d07681af3e22d950e553b/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_116_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_116_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:37.274000
-
-Grid5000 node: graphene-51.nancy.grid5000.fr
-
-
-## Patch #104 Nopol 
+## Patch #54 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/d8529cf497f8ac44693d07681af3e22d950e553b/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -5186,7 +3737,7 @@ index 0e9c4d3..639318d 100644
 
 ```
 
-## Patch #105 Nopol 
+## Patch #55 Nopol 
 
 [com.google.javascript.jscomp.GlobalNamespace$BuildGlobalNamespace:691](https://github.com/google/closure-compiler/blob/a3fcb28f4f337e6e1ce687846eb77fe25251d21b/src//com/google/javascript/jscomp/GlobalNamespace$BuildGlobalNamespace.java#L691)
 
@@ -5230,36 +3781,7 @@ index 0af61d0..cdacc5f 100644
 
 ```
 
-## Patch #106 DynaMoth 
-
-[com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/0d908a45f2d09421f1e676f27a72620ee8a612c0/src//com/google/javascript/rhino/Node.java#L1430)
-
-```Java
---- /tmp/closure_120_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_120_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1429,7 +1429,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:31.751000
-
-Grid5000 node: graphene-63.nancy.grid5000.fr
-
-
-## Patch #107 Nopol 
+## Patch #56 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/0d908a45f2d09421f1e676f27a72620ee8a612c0/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -5315,7 +3837,7 @@ index 5c9df61..376abd4 100644
 
 ```
 
-## Patch #108 Nopol 
+## Patch #57 Nopol 
 
 [com.google.javascript.rhino.Node:1430](https://github.com/google/closure-compiler/blob/32d9b19b1b262862e52760a86ae7eac0a92e1514/src//com/google/javascript/rhino/Node.java#L1430)
 
@@ -5367,36 +3889,7 @@ index 1639f2c..0f03e35 100644
 
 ```
 
-## Patch #109 DynaMoth 
-
-[com.google.javascript.rhino.Node:1428](https://github.com/google/closure-compiler/blob/37e681ee94e2cd4a7e980194c9036d193563156c/src//com/google/javascript/rhino/Node.java#L1428)
-
-```Java
---- /tmp/closure_124_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_124_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1427,7 +1427,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:12:10.204000
-
-Grid5000 node: graphene-20.nancy.grid5000.fr
-
-
-## Patch #110 Nopol 
+## Patch #58 Nopol 
 
 [com.google.javascript.rhino.Node:1428](https://github.com/google/closure-compiler/blob/37e681ee94e2cd4a7e980194c9036d193563156c/src//com/google/javascript/rhino/Node.java#L1428)
 
@@ -5449,28 +3942,7 @@ index bc9befe..4146f17 100644
 
 ```
 
-## Patch #111 DynaMoth 
-
-[com.google.javascript.jscomp.MinimizeExitPoints:143](https://github.com/google/closure-compiler/blob/3dc51408fe6f2b229311717af31f93fdc7e9cc11/src//com/google/javascript/jscomp/MinimizeExitPoints.java#L143)
-
-```Java
---- /tmp/closure_126_Brutpol/src/com/google/javascript/jscomp/MinimizeExitPoints.java
-+++ /tmp/closure_126_Brutpol/src/com/google/javascript/jscomp/MinimizeExitPoints.java
-@@ -142,3 +142,5 @@
-         Node finallyBlock = n.getLastChild();
--        tryMinimizeExits(finallyBlock, exitType, labelName);
-+        if (n.getBooleanProp((int) exitType)) {
-+          tryMinimizeExits(finallyBlock, exitType, labelName);
-+        }
-       }
-
-```
-Execution time: 0:02:19.753000
-
-Grid5000 node: graphene-55.nancy.grid5000.fr
-
-
-## Patch #112 Nopol 
+## Patch #59 Nopol 
 
 [com.google.javascript.jscomp.MinimizeExitPoints:143](https://github.com/google/closure-compiler/blob/3dc51408fe6f2b229311717af31f93fdc7e9cc11/src//com/google/javascript/jscomp/MinimizeExitPoints.java#L143)
 
@@ -5528,36 +4000,7 @@ index e6d88a8..d819874 100644
 
 ```
 
-## Patch #113 DynaMoth 
-
-[com.google.javascript.rhino.Node:1428](https://github.com/google/closure-compiler/blob/3c26a6615e9c5a37919cc613d574cfd07236c347/src//com/google/javascript/rhino/Node.java#L1428)
-
-```Java
---- /tmp/closure_127_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_127_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1427,7 +1427,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:27.022000
-
-Grid5000 node: graphene-63.nancy.grid5000.fr
-
-
-## Patch #114 Nopol 
+## Patch #60 Nopol 
 
 [com.google.javascript.rhino.Node:1428](https://github.com/google/closure-compiler/blob/3c26a6615e9c5a37919cc613d574cfd07236c347/src//com/google/javascript/rhino/Node.java#L1428)
 
@@ -5609,36 +4052,7 @@ index 42982af..d993bee 100644
 
 ```
 
-## Patch #115 DynaMoth 
-
-[com.google.javascript.rhino.Node:1428](https://github.com/google/closure-compiler/blob/066479c61dc2e8444791acd2663f71cbcb476657/src//com/google/javascript/rhino/Node.java#L1428)
-
-```Java
---- /tmp/closure_129_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_129_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1427,7 +1427,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:03:36.727000
-
-Grid5000 node: graphene-37.nancy.grid5000.fr
-
-
-## Patch #116 Nopol 
+## Patch #61 Nopol 
 
 [com.google.javascript.rhino.Node:1428](https://github.com/google/closure-compiler/blob/066479c61dc2e8444791acd2663f71cbcb476657/src//com/google/javascript/rhino/Node.java#L1428)
 
@@ -5689,36 +4103,7 @@ index f86625f..ab2d2c7 100644
 
 ```
 
-## Patch #117 DynaMoth 
-
-[com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/d5edb68ee7174a328cccf918bc28c47b323e2146/src//com/google/javascript/rhino/Node.java#L1417)
-
-```Java
---- /tmp/closure_130_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_130_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1416,7 +1416,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:20.986000
-
-Grid5000 node: graphene-73.nancy.grid5000.fr
-
-
-## Patch #118 Nopol 
+## Patch #62 Nopol 
 
 [com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/d5edb68ee7174a328cccf918bc28c47b323e2146/src//com/google/javascript/rhino/Node.java#L1417)
 
@@ -5775,36 +4160,7 @@ index cadb536..144a4ad 100644
 
 ```
 
-## Patch #119 DynaMoth 
-
-[com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/e36d7cba04f575196b44aa101dc65daf6bb68de1/src//com/google/javascript/rhino/Node.java#L1417)
-
-```Java
---- /tmp/closure_131_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_131_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1416,7 +1416,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:02:36.436000
-
-Grid5000 node: graphene-48.nancy.grid5000.fr
-
-
-## Patch #120 Nopol 
+## Patch #63 Nopol 
 
 [com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/e36d7cba04f575196b44aa101dc65daf6bb68de1/src//com/google/javascript/rhino/Node.java#L1417)
 
@@ -5857,36 +4213,7 @@ index 520c592..ae568e8 100644
 
 ```
 
-## Patch #121 DynaMoth 
-
-[com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/6dfe9725a058a395768787a3d2c6e438e83b783a/src//com/google/javascript/rhino/Node.java#L1417)
-
-```Java
---- /tmp/closure_132_Brutpol/src/com/google/javascript/rhino/Node.java
-+++ /tmp/closure_132_Brutpol/src/com/google/javascript/rhino/Node.java
-@@ -1416,7 +1416,9 @@
-       if (diff != null) {
--        return "Node tree inequality:" +
--            "\nTree1:\n" + toStringTree() +
--            "\n\nTree2:\n" + node2.toStringTree() +
--            "\n\nSubtree1: " + diff.nodeA.toStringTree() +
--            "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        if (this.isAdd()) {
-+          return "Node tree inequality:" +
-+          "\nTree1:\n" + toStringTree() +
-+          "\n\nTree2:\n" + node2.toStringTree() +
-+          "\n\nSubtree1: " + diff.nodeA.toStringTree() +
-+          "\n\nSubtree2: " + diff.nodeB.toStringTree();
-+        }
-       }
-
-```
-Execution time: 0:03:00.837000
-
-Grid5000 node: graphene-55.nancy.grid5000.fr
-
-
-## Patch #122 Nopol 
+## Patch #64 Nopol 
 
 [com.google.javascript.rhino.Node:1417](https://github.com/google/closure-compiler/blob/6dfe9725a058a395768787a3d2c6e438e83b783a/src//com/google/javascript/rhino/Node.java#L1417)
 
@@ -5936,27 +4263,7 @@ index ce94573..6e3294b 100644
 
 ```
 
-## Patch #123 DynaMoth 
-
-[com.google.javascript.jscomp.parsing.JsDocInfoParser:1413](https://github.com/google/closure-compiler/blob/d11c54f6f281b23dcf2df17743d157d5a5a61b54/src//com/google/javascript/jscomp/parsing/JsDocInfoParser.java#L1413)
-
-```Java
---- /tmp/closure_133_Brutpol/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
-+++ /tmp/closure_133_Brutpol/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
-@@ -1412,4 +1412,3 @@
- 
--    if (token == JsDocToken.EOC || token == JsDocToken.EOL ||
--        token == JsDocToken.EOF) {
-+    if (this.unreadToken != null) {
-       return new ExtractionInfo("", token);
-
-```
-Execution time: 0:12:14.855000
-
-Grid5000 node: graphene-51.nancy.grid5000.fr
-
-
-## Patch #124 Nopol 
+## Patch #65 Nopol 
 
 [com.google.javascript.jscomp.parsing.JsDocInfoParser:1413](https://github.com/google/closure-compiler/blob/d11c54f6f281b23dcf2df17743d157d5a5a61b54/src//com/google/javascript/jscomp/parsing/JsDocInfoParser.java#L1413)
 
@@ -5999,33 +4306,7 @@ index c5ca8cd..18a05ef 100644
 
 ```
 
-## Patch #125 DynaMoth 
-
-[org.apache.commons.lang.NumberUtils:193](https://github.com/apache/commons-lang/blob/cf28c89dcf72d27573c478eb91e3b470de060edd/src/java//org/apache/commons/lang/NumberUtils.java#L193)
-
-```Java
---- /tmp/lang_44_Brutpol/src/java/org/apache/commons/lang/NumberUtils.java
-+++ /tmp/lang_44_Brutpol/src/java/org/apache/commons/lang/NumberUtils.java
-@@ -192,5 +192,3 @@
-                 case 'L' :
--                    if (dec == null
--                        && exp == null
--                        && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
-+                    if (exp == dec) {
-                         try {
-@@ -201,3 +199,3 @@
-                         return createBigInteger(numeric);
--
-+                        
-                     }
-
-```
-Execution time: 0:00:37.890000
-
-Grid5000 node: griffon-12.nancy.grid5000.fr
-
-
-## Patch #126 Nopol 
+## Patch #66 Nopol 
 
 [org.apache.commons.lang.NumberUtils:193](https://github.com/apache/commons-lang/blob/cf28c89dcf72d27573c478eb91e3b470de060edd/src/java//org/apache/commons/lang/NumberUtils.java#L193)
 
@@ -6072,32 +4353,7 @@ index 8b5028c..3fda4ec 100644
 
 ```
 
-## Patch #127 DynaMoth 
-
-[org.apache.commons.lang.BooleanUtils:677](https://github.com/apache/commons-lang/blob/3b46d611b2d595131ce0bce9bdb3209c55391be7/src/java//org/apache/commons/lang/BooleanUtils.java#L677)
-
-```Java
---- /tmp/lang_51_Brutpol/src/java/org/apache/commons/lang/BooleanUtils.java
-+++ /tmp/lang_51_Brutpol/src/java/org/apache/commons/lang/BooleanUtils.java
-@@ -676,6 +676,6 @@
-                 }
--                if (ch == 'Y') {
--                    return 
--                        (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
--                        (str.charAt(2) == 'S' || str.charAt(2) == 's');
-+                if (str != null) {
-+                    return
-+                    (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
-+                    (str.charAt(2) == 'S' || str.charAt(2) == 's');
-                 }
-
-```
-Execution time: 0:00:32.223000
-
-Grid5000 node: graphene-77.nancy.grid5000.fr
-
-
-## Patch #128 Nopol 
+## Patch #67 Nopol 
 
 [org.apache.commons.lang.BooleanUtils:677](https://github.com/apache/commons-lang/blob/3b46d611b2d595131ce0bce9bdb3209c55391be7/src/java//org/apache/commons/lang/BooleanUtils.java#L677)
 
@@ -6156,28 +4412,7 @@ index e5138b5..0dd0ded 100644
 
 ```
 
-## Patch #129 DynaMoth 
-
-[org.apache.commons.lang.time.DateUtils:666](https://github.com/apache/commons-lang/blob/b6f7a8a8be57c9525c59e9f21e958e76cee0dbaf/src/java//org/apache/commons/lang/time/DateUtils.java#L666)
-
-```Java
---- /tmp/lang_53_Brutpol/src/java/org/apache/commons/lang/time/DateUtils.java
-+++ /tmp/lang_53_Brutpol/src/java/org/apache/commons/lang/time/DateUtils.java
-@@ -665,3 +665,5 @@
-             date.setTime(time);
--            val.setTime(date);
-+            if (millisecs <= field) {
-+                val.setTime(date);
-+            }
-         }
-
-```
-Execution time: 0:00:41.018000
-
-Grid5000 node: graphene-77.nancy.grid5000.fr
-
-
-## Patch #130 Nopol 
+## Patch #68 Nopol 
 
 [org.apache.commons.lang.time.DateUtils:666](https://github.com/apache/commons-lang/blob/b6f7a8a8be57c9525c59e9f21e958e76cee0dbaf/src/java//org/apache/commons/lang/time/DateUtils.java#L666)
 
@@ -6196,50 +4431,6 @@ Grid5000 node: graphene-77.nancy.grid5000.fr
 Execution time: 0:00:35.692000
 
 Grid5000 node: graphene-53.nancy.grid5000.fr
-
-
-# Lang 55
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/time/StopWatch.java b/src/java/org/apache/commons/lang/time/StopWatch.java
-index 0f0786a..8f39421 100644
---- a/src/java/org/apache/commons/lang/time/StopWatch.java
-+++ b/src/java/org/apache/commons/lang/time/StopWatch.java
-@@ -115,9 +115,7 @@ public class StopWatch {
-         if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
-             throw new IllegalStateException("Stopwatch is not running. ");
-         }
-+        if(this.runningState == STATE_RUNNING) {
-             stopTime = System.currentTimeMillis();
-+        }
-         this.runningState = STATE_STOPPED;
-     }
- 
-
-```
-
-## Patch #131 DynaMoth 
-
-[org.apache.commons.lang.time.StopWatch:118](https://github.com/apache/commons-lang/blob/d8c22b8e1c8592bc8c6f6169a5b090082969acd4/src/java//org/apache/commons/lang/time/StopWatch.java#L118)
-
-```Java
---- /tmp/lang_55_Brutpol/src/java/org/apache/commons/lang/time/StopWatch.java
-+++ /tmp/lang_55_Brutpol/src/java/org/apache/commons/lang/time/StopWatch.java
-@@ -117,3 +117,5 @@
-         }
--            stopTime = System.currentTimeMillis();
-+            if (this.runningState == 1) {
-+                stopTime = System.currentTimeMillis();
-+            }
-         this.runningState = STATE_STOPPED;
-
-```
-Execution time: 0:01:40.999000
-
-Grid5000 node: graphene-77.nancy.grid5000.fr
 
 
 # Lang 58
@@ -6265,34 +4456,7 @@ index eb74e72..c0f06a4 100644
 
 ```
 
-## Patch #132 DynaMoth 
-
-[org.apache.commons.lang.math.NumberUtils:452](https://github.com/apache/commons-lang/blob/8185a5f63e23be852d600a80daa5b848fa836a65/src/java//org/apache/commons/lang/math/NumberUtils.java#L452)
-
-```Java
---- /tmp/lang_58_Brutpol/src/java/org/apache/commons/lang/math/NumberUtils.java
-+++ /tmp/lang_58_Brutpol/src/java/org/apache/commons/lang/math/NumberUtils.java
-@@ -451,6 +451,3 @@
-                 case 'L' :
--                    if (dec == null
--                        && exp == null
--                        && isDigits(numeric.substring(1))
--                        && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0)))) {
-+                    if (exp == dec) {
-                         try {
-@@ -461,3 +458,3 @@
-                         return createBigInteger(numeric);
--
-+                        
-                     }
-
-```
-Execution time: 0:00:35.559000
-
-Grid5000 node: graphene-64.nancy.grid5000.fr
-
-
-## Patch #133 Nopol 
+## Patch #69 Nopol 
 
 [org.apache.commons.lang.math.NumberUtils:452](https://github.com/apache/commons-lang/blob/8185a5f63e23be852d600a80daa5b848fa836a65/src/java//org/apache/commons/lang/math/NumberUtils.java#L452)
 
@@ -6319,88 +4483,6 @@ Execution time: 0:10:26.801000
 Grid5000 node: graphene-62.nancy.grid5000.fr
 
 
-# Lang 63
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
-index 3a9d9f6..127b927 100644
---- a/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
-+++ b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
-@@ -303,20 +303,25 @@ public class DurationFormatUtils {
-             days -= 1;
-         }
-         while (days < 0) {
-+            end.add(Calendar.MONTH, -1);
-+            days += end.getActualMaximum(Calendar.DAY_OF_MONTH);
--            days += 31;
- //days += 31; // TODO: Need tests to show this is bad and the new code is good.
- // HEN: It's a tricky subject. Jan 15th to March 10th. If I count days-first it is 
- // 1 month and 26 days, but if I count month-first then it is 1 month and 23 days.
- // Also it's contextual - if asked for no M in the format then I should probably 
- // be doing no calculating here.
-             months -= 1;
-+            end.add(Calendar.MONTH, 1);
-         }
-         while (months < 0) {
-             months += 12;
-             years -= 1;
-         }
--        milliseconds -= reduceAndCorrect(start, end, Calendar.MILLISECOND, milliseconds);
--        seconds -= reduceAndCorrect(start, end, Calendar.SECOND, seconds);
--        minutes -= reduceAndCorrect(start, end, Calendar.MINUTE, minutes);
--        hours -= reduceAndCorrect(start, end, Calendar.HOUR_OF_DAY, hours);
--        days -= reduceAndCorrect(start, end, Calendar.DAY_OF_MONTH, days);
--        months -= reduceAndCorrect(start, end, Calendar.MONTH, months);
--        years -= reduceAndCorrect(start, end, Calendar.YEAR, years);
- 
-         // This next block of code adds in values that 
-         // aren't requested. This allows the user to ask for the 
-@@ -424,6 +429,18 @@ public class DurationFormatUtils {
-         }
-         return buffer.toString();
-     }
--    static int reduceAndCorrect(Calendar start, Calendar end, int field, int difference) {
--        end.add( field, -1 * difference );
--        int endValue = end.get(field);
--        int startValue = start.get(field);
--        if (endValue < startValue) {
--            int newdiff = startValue - endValue;
--            end.add( field, newdiff );
--            return newdiff;
--        } else {
--            return 0;
--        }
--    }
- 
-     static final Object y = "y";
-     static final Object M = "M";
-
-```
-
-## Patch #134 DynaMoth 
-
-[org.apache.commons.lang.time.DurationFormatUtils:438](https://github.com/apache/commons-lang/blob/3333dcc11f2d65ee99043945502102dcf3bca50c/src/java//org/apache/commons/lang/time/DurationFormatUtils.java#L438)
-
-```Java
---- /tmp/lang_63_Brutpol/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
-+++ /tmp/lang_63_Brutpol/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
-@@ -437,3 +437,5 @@
-             int newdiff = startValue - endValue;
--            end.add( field, newdiff );
-+            if (newdiff == 0) {
-+                end.add( field, newdiff );
-+            }
-             return newdiff;
-
-```
-Execution time: 0:00:28.117000
-
-Grid5000 node: graphene-72.nancy.grid5000.fr
-
-
 # Math 2
 
 
@@ -6423,32 +4505,7 @@ index 81e180c..2769127 100644
 
 ```
 
-## Patch #135 DynaMoth 
-
-[org.apache.commons.math3.distribution.HypergeometricDistribution:279](https://github.com/apache/commons-math/blob/6d66a863b5c0049926330ef217accba4e022a1db/src/main/java//org/apache/commons/math3/distribution/HypergeometricDistribution.java#L279)
-
-```Java
---- /tmp/math_2_Brutpol/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java
-+++ /tmp/math_2_Brutpol/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java
-@@ -278,5 +278,7 @@
-     public double getNumericalVariance() {
--        if (!numericalVarianceIsCalculated) {
--            numericalVariance = calculateNumericalVariance();
--            numericalVarianceIsCalculated = true;
-+        if (this.numberOfSuccesses == this.getSupportUpperBound()) {
-+            if (!numericalVarianceIsCalculated) {
-+                numericalVariance = calculateNumericalVariance();
-+                numericalVarianceIsCalculated = true;
-+            }
-         }
-
-```
-Execution time: 0:06:27.816000
-
-Grid5000 node: graphene-72.nancy.grid5000.fr
-
-
-## Patch #136 Nopol 
+## Patch #70 Nopol 
 
 [org.apache.commons.math3.distribution.AbstractIntegerDistribution:138](https://github.com/apache/commons-math/blob/6d66a863b5c0049926330ef217accba4e022a1db/src/main/java//org/apache/commons/math3/distribution/AbstractIntegerDistribution.java#L138)
 
@@ -6506,7 +4563,7 @@ index ea9e96a..a9d621a 100644
 
 ```
 
-## Patch #137 Nopol 
+## Patch #71 Nopol 
 
 [org.apache.commons.math3.geometry.euclidean.twod.Line:200](https://github.com/apache/commons-math/blob/0ee817712b9e8330fdfd6985752aa8f1b25ba9d9/src/main/java//org/apache/commons/math3/geometry/euclidean/twod/Line.java#L200)
 
@@ -6525,47 +4582,6 @@ index ea9e96a..a9d621a 100644
 Execution time: 0:06:07.642000
 
 Grid5000 node: graphene-70.nancy.grid5000.fr
-
-
-# Math 5
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math3/complex/Complex.java b/src/main/java/org/apache/commons/math3/complex/Complex.java
-index ac8185b..22b23f2 100644
---- a/src/main/java/org/apache/commons/math3/complex/Complex.java
-+++ b/src/main/java/org/apache/commons/math3/complex/Complex.java
-@@ -302,7 +302,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
-         }
- 
-         if (real == 0.0 && imaginary == 0.0) {
-+            return INF;
--            return NaN;
-         }
- 
-         if (isInfinite) {
-
-```
-
-## Patch #138 DynaMoth 
-
-[org.apache.commons.math3.complex.Complex:345](https://github.com/apache/commons-math/blob/8c2199df0f613c63bd362303c953cee66712d56c/src/main/java//org/apache/commons/math3/complex/Complex.java#L345)
-
-```Java
---- /tmp/math_5_Brutpol/src/main/java/org/apache/commons/math3/complex/Complex.java
-+++ /tmp/math_5_Brutpol/src/main/java/org/apache/commons/math3/complex/Complex.java
-@@ -344,3 +344,3 @@
-             Complex c = (Complex)other;
--            if (c.isNaN) {
-+            if (this.isNaN) {
-                 return isNaN;
-
-```
-Execution time: 0:14:57.200000
-
-Grid5000 node: graphene-7.nancy.grid5000.fr
 
 
 # Math 7
@@ -6621,7 +4637,7 @@ index 6e0237f..f24f87c 100644
 
 ```
 
-## Patch #139 Nopol 
+## Patch #72 Nopol 
 
 [org.apache.commons.math3.ode.AbstractIntegrator:373](https://github.com/apache/commons-math/blob/d18a6b851035818e38637a7b2f60e6f5c6367480/src/main/java//org/apache/commons/math3/ode/AbstractIntegrator.java#L373)
 
@@ -6673,28 +4689,7 @@ index cff5bfd..b6ce68e 100644
 
 ```
 
-## Patch #140 DynaMoth 
-
-[org.apache.commons.math3.analysis.FunctionUtils$4:146](https://github.com/apache/commons-math/blob/04b34cc1a560fd334c5602c62fc6efdcb8f90581/src/main/java//org/apache/commons/math3/analysis/FunctionUtils$4.java#L146)
-
-```Java
---- /tmp/math_24_Brutpol/src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java
-+++ /tmp/math_24_Brutpol/src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java
-@@ -145,3 +145,5 @@
-                 for (int i = 1; i < f.length; i++) {
--                    r += f[i].value(x);
-+                    if ((i != 1) || (0 <= r)) {
-+                        r += f[i].value(x);
-+                    }
-                 }
-
-```
-Execution time: 0:10:05.944000
-
-Grid5000 node: graphene-71.nancy.grid5000.fr
-
-
-## Patch #141 Nopol 
+## Patch #73 Nopol 
 
 [org.apache.commons.math3.analysis.FunctionUtils$4:146](https://github.com/apache/commons-math/blob/04b34cc1a560fd334c5602c62fc6efdcb8f90581/src/main/java//org/apache/commons/math3/analysis/FunctionUtils$4.java#L146)
 
@@ -6760,28 +4755,7 @@ index dec310b..a84438d 100644
 
 ```
 
-## Patch #142 DynaMoth 
-
-[org.apache.commons.math3.optimization.linear.SimplexSolver:151](https://github.com/apache/commons-math/blob/107d7f3ea8db440cb2f0a9d626c87a34ad061bae/src/main/java//org/apache/commons/math3/optimization/linear/SimplexSolver.java#L151)
-
-```Java
---- /tmp/math_28_Brutpol/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
-+++ /tmp/math_28_Brutpol/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
-@@ -150,3 +150,5 @@
-                 }
--                return minRow;
-+                if (tableau.equals((java.lang.Object) this)) {
-+                    return minRow;
-+                }
-         }
-
-```
-Execution time: 0:11:29.457000
-
-Grid5000 node: griffon-25.nancy.grid5000.fr
-
-
-## Patch #143 Nopol 
+## Patch #74 Nopol 
 
 [org.apache.commons.math3.optimization.linear.SimplexSolver:151](https://github.com/apache/commons-math/blob/107d7f3ea8db440cb2f0a9d626c87a34ad061bae/src/main/java//org/apache/commons/math3/optimization/linear/SimplexSolver.java#L151)
 
@@ -6800,47 +4774,6 @@ Grid5000 node: griffon-25.nancy.grid5000.fr
 Execution time: 0:10:31.572000
 
 Grid5000 node: graphene-41.nancy.grid5000.fr
-
-
-# Math 32
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-index add24ac..c6e7cf1 100644
---- a/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-+++ b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-@@ -133,7 +133,7 @@ public class PolygonsSet extends AbstractRegion<Euclidean2D, Euclidean1D> {
- 
-         if (v.length == 0) {
-             final BSPTree<Euclidean2D> tree = getTree(false);
-+            if (tree.getCut() == null && (Boolean) tree.getAttribute()) {
--            if ((Boolean) tree.getAttribute()) {
-                 // the instance covers the whole space
-                 setSize(Double.POSITIVE_INFINITY);
-                 setBarycenter(Vector2D.NaN);
-
-```
-
-## Patch #144 DynaMoth 
-
-[org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet:136](https://github.com/apache/commons-math/blob/8f423828e0d9f34896f87d803c559adf2d953f30/src/main/java//org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java#L136)
-
-```Java
---- /tmp/math_32_Brutpol/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-+++ /tmp/math_32_Brutpol/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
-@@ -135,3 +135,3 @@
-             final BSPTree<Euclidean2D> tree = getTree(false);
--            if ((Boolean) tree.getAttribute()) {
-+            if ((Boolean) this.isEmpty((org.apache.commons.math3.geometry.partitioning.BSPTree) tree)) {
-                 // the instance covers the whole space
-
-```
-Execution time: 0:09:48.520000
-
-Grid5000 node: graphene-74.nancy.grid5000.fr
 
 
 # Math 33
@@ -6865,28 +4798,7 @@ index 327b2ae..9a6993a 100644
 
 ```
 
-## Patch #145 DynaMoth 
-
-[org.apache.commons.math3.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/450456208cf75b865fd3c0878b6b4f70f6b329b1/src/main/java//org/apache/commons/math3/optimization/linear/SimplexTableau.java#L339)
-
-```Java
---- /tmp/math_33_Brutpol/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
-+++ /tmp/math_33_Brutpol/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
-@@ -338,3 +338,5 @@
-             if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
--                columnsToDrop.add(i);
-+                if (this.restrictToNonNegative == this.isOptimal()) {
-+                    columnsToDrop.add(i);
-+                }
-             }
-
-```
-Execution time: 0:09:49.096000
-
-Grid5000 node: graphene-62.nancy.grid5000.fr
-
-
-## Patch #146 Nopol 
+## Patch #75 Nopol 
 
 [org.apache.commons.math3.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/450456208cf75b865fd3c0878b6b4f70f6b329b1/src/main/java//org/apache/commons/math3/optimization/linear/SimplexTableau.java#L339)
 
@@ -6936,7 +4848,7 @@ index d2bbf67..13ced27 100644
 
 ```
 
-## Patch #147 Nopol 
+## Patch #76 Nopol 
 
 [org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator:264](https://github.com/apache/commons-math/blob/ead76ad6aceb93de5bcef423ace01650f0558804/src/main/java//org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java#L264)
 
@@ -6989,28 +4901,7 @@ index 59dc461..93dd3bb 100644
 
 ```
 
-## Patch #148 DynaMoth 
-
-[org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:317](https://github.com/apache/commons-math/blob/b241c3962faa9b71726ce47d9315c2af0d5c8ad7/src/main/java//org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java#L317)
-
-```Java
---- /tmp/math_40_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
-+++ /tmp/math_40_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
-@@ -316,3 +316,5 @@
-             System.arraycopy(x, signChangeIndex, x, signChangeIndex + 1, nbPoints - signChangeIndex);
--            x[signChangeIndex] = nextX;
-+            if (this.DEFAULT_ABSOLUTE_ACCURACY <= org.apache.commons.math.util.FastMath.max((double) xA, (double) yB)) {
-+                x[signChangeIndex] = nextX;
-+            }
-             System.arraycopy(y, signChangeIndex, y, signChangeIndex + 1, nbPoints - signChangeIndex);
-
-```
-Execution time: 0:06:09.680000
-
-Grid5000 node: graphene-62.nancy.grid5000.fr
-
-
-## Patch #149 Nopol 
+## Patch #77 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260](https://github.com/apache/commons-math/blob/b241c3962faa9b71726ce47d9315c2af0d5c8ad7/src/main/java//org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java#L260)
 
@@ -7051,30 +4942,7 @@ index 1de139f..e5518e3 100644
 
 ```
 
-## Patch #150 DynaMoth 
-
-[org.apache.commons.math.stat.descriptive.moment.Variance:520](https://github.com/apache/commons-math/blob/d099c7c3436bd43094e7b3087c64e0552cfbec5b/src/main/java//org/apache/commons/math/stat/descriptive/moment/Variance.java#L520)
-
-```Java
---- /tmp/math_41_Brutpol/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java
-+++ /tmp/math_41_Brutpol/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java
-@@ -519,4 +519,6 @@
-                 double sumWts = 0;
--                for (int i = 0; i < weights.length; i++) {
--                    sumWts += weights[i];
-+                if (mean <= length) {
-+                    for (int i = 0; i < weights.length; i++) {
-+                        sumWts += weights[i];
-+                    }
-                 }
-
-```
-Execution time: 0:04:37.975000
-
-Grid5000 node: graphene-59.nancy.grid5000.fr
-
-
-## Patch #151 Nopol 
+## Patch #78 Nopol 
 
 [org.apache.commons.math.stat.descriptive.moment.Mean:217](https://github.com/apache/commons-math/blob/d099c7c3436bd43094e7b3087c64e0552cfbec5b/src/main/java//org/apache/commons/math/stat/descriptive/moment/Mean.java#L217)
 
@@ -7122,28 +4990,7 @@ index d96c916..02c22b5 100644
 
 ```
 
-## Patch #152 DynaMoth 
-
-[org.apache.commons.math.optimization.linear.SimplexTableau:347](https://github.com/apache/commons-math/blob/f14fdb5447f4ed1e103db2cecc148f391294f342/src/main/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L347)
-
-```Java
---- /tmp/math_42_Brutpol/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-+++ /tmp/math_42_Brutpol/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-@@ -346,3 +346,5 @@
-           if (getBasicRow(col) == null) {
--            columnsToDrop.add(col);
-+            if (this.numSlackVariables != 0) {
-+                columnsToDrop.add(col);
-+            }
-           }
-
-```
-Execution time: 0:04:29.766000
-
-Grid5000 node: graphene-43.nancy.grid5000.fr
-
-
-## Patch #153 Nopol 
+## Patch #79 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:347](https://github.com/apache/commons-math/blob/f14fdb5447f4ed1e103db2cecc148f391294f342/src/main/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L347)
 
@@ -7205,28 +5052,7 @@ index 8f315e3..544124f 100644
 
 ```
 
-## Patch #154 DynaMoth 
-
-[org.apache.commons.math.ode.AbstractIntegrator:287](https://github.com/apache/commons-math/blob/3e6a8820703bbdeb97825db66daecf5c4410bde6/src/main/java//org/apache/commons/math/ode/AbstractIntegrator.java#L287)
-
-```Java
---- /tmp/math_44_Brutpol/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java
-+++ /tmp/math_44_Brutpol/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java
-@@ -286,3 +286,5 @@
-                 }
--                statesInitialized = true;
-+                if (currentT <= y.length) {
-+                    statesInitialized = true;
-+                }
-             }
-
-```
-Execution time: 0:07:30.181000
-
-Grid5000 node: graphene-32.nancy.grid5000.fr
-
-
-## Patch #155 Nopol 
+## Patch #80 Nopol 
 
 [org.apache.commons.math.ode.AbstractIntegrator:287](https://github.com/apache/commons-math/blob/3e6a8820703bbdeb97825db66daecf5c4410bde6/src/main/java//org/apache/commons/math/ode/AbstractIntegrator.java#L287)
 
@@ -7245,58 +5071,6 @@ Grid5000 node: graphene-32.nancy.grid5000.fr
 Execution time: 0:07:10.929000
 
 Grid5000 node: graphene-141.nancy.grid5000.fr
-
-
-# Math 46
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/complex/Complex.java b/src/main/java/org/apache/commons/math/complex/Complex.java
-index dd0b00a..d55c25a 100644
---- a/src/main/java/org/apache/commons/math/complex/Complex.java
-+++ b/src/main/java/org/apache/commons/math/complex/Complex.java
-@@ -257,7 +257,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
- 
-         if (divisor.isZero) {
-             // return isZero ? NaN : INF; // See MATH-657
-+            return NaN;
--            return isZero ? NaN : INF;
-         }
- 
-         if (divisor.isInfinite() && !isInfinite()) {
-@@ -294,7 +294,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
-         }
-         if (divisor == 0d) {
-             // return isZero ? NaN : INF; // See MATH-657
-+            return NaN;
--            return isZero ? NaN : INF;
-         }
-         if (Double.isInfinite(divisor)) {
-             return !isInfinite() ? ZERO : NaN;
-
-```
-
-## Patch #156 DynaMoth 
-
-[org.apache.commons.math.complex.Complex:260](https://github.com/apache/commons-math/blob/32b0f7336b7627bc6e471a1091dfb2712b613eee/src/main/java//org/apache/commons/math/complex/Complex.java#L260)
-
-```Java
---- /tmp/math_46_Brutpol/src/main/java/org/apache/commons/math/complex/Complex.java
-+++ /tmp/math_46_Brutpol/src/main/java/org/apache/commons/math/complex/Complex.java
-@@ -259,3 +259,5 @@
-             // return isZero ? NaN : INF; // See MATH-657
--            return isZero ? NaN : INF;
-+            if (this.real == this.imaginary) {
-+                return isZero ? NaN : INF;
-+            }
-         }
-
-```
-Execution time: 0:03:14.455000
-
-Grid5000 node: graphene-59.nancy.grid5000.fr
 
 
 # Math 49
@@ -7348,28 +5122,7 @@ index 13ebfd2..5db4884 100644
 
 ```
 
-## Patch #157 DynaMoth 
-
-[org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator:564](https://github.com/apache/commons-math/blob/7c6dd40b330d85ae718e867c4d5cee0b1c4f317b/src/main/java//org/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator.java#L564)
-
-```Java
---- /tmp/math_49_Brutpol/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java
-+++ /tmp/math_49_Brutpol/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java
-@@ -563,3 +563,5 @@
-             if (referenceCount != count) {
--                throw MathRuntimeException.createConcurrentModificationException(LocalizedFormats.MAP_MODIFIED_WHILE_ITERATING);
-+                if (this.next == 0) {
-+                    throw MathRuntimeException.createConcurrentModificationException(LocalizedFormats.MAP_MODIFIED_WHILE_ITERATING);
-+                }
-             }
-
-```
-Execution time: 0:03:22.837000
-
-Grid5000 node: graphene-32.nancy.grid5000.fr
-
-
-## Patch #158 Nopol 
+## Patch #81 Nopol 
 
 [org.apache.commons.math.linear.OpenMapRealVector:667](https://github.com/apache/commons-math/blob/7c6dd40b330d85ae718e867c4d5cee0b1c4f317b/src/main/java//org/apache/commons/math/linear/OpenMapRealVector.java#L667)
 
@@ -7414,28 +5167,7 @@ index c781a90..e47d982 100644
 
 ```
 
-## Patch #159 DynaMoth 
-
-[org.apache.commons.math.analysis.solvers.BaseSecantSolver:188](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L188)
-
-```Java
---- /tmp/math_50_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
-+++ /tmp/math_50_Brutpol/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
-@@ -187,3 +187,5 @@
-                     if (x == x1) {
--                        x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
-+                        if (this.isBracketing((double) x0, (double) f0)) {
-+                            x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
-+                        }
-                         f0 = computeObjectiveValue(x0);
-
-```
-Execution time: 0:03:21.443000
-
-Grid5000 node: graphene-32.nancy.grid5000.fr
-
-
-## Patch #160 Nopol 
+## Patch #82 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BaseSecantSolver:237](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L237)
 
@@ -7502,30 +5234,7 @@ index e09bbc3..b73ac9d 100644
 
 ```
 
-## Patch #161 DynaMoth 
-
-[org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:85](https://github.com/apache/commons-math/blob/35a0923edfe498c58bfb1e86099fed85fde0c353/src/main/java//org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java#L85)
-
-```Java
---- /tmp/math_57_Brutpol/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java
-+++ /tmp/math_57_Brutpol/src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java
-@@ -84,4 +84,6 @@
-         for (int i = 0; i < point.length; i++) {
--            if (point[i] != otherPoint[i]) {
--                return false;
-+            if (otherPoint.length != 1) {
-+                if (point[i] != otherPoint[i]) {
-+                    return false;
-+                }
-             }
-
-```
-Execution time: 0:03:54.905000
-
-Grid5000 node: graphene-29.nancy.grid5000.fr
-
-
-## Patch #162 Nopol 
+## Patch #83 Nopol 
 
 [org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:85](https://github.com/apache/commons-math/blob/35a0923edfe498c58bfb1e86099fed85fde0c353/src/main/java//org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java#L85)
 
@@ -7570,28 +5279,7 @@ index e1b54f4..ae7ac39 100644
 
 ```
 
-## Patch #163 DynaMoth 
-
-[org.apache.commons.math.analysis.function.Gaussian$Parametric:183](https://github.com/apache/commons-math/blob/73a227619d6671f69f9dcfb614f1b6abd83e2d62/src/main/java//org/apache/commons/math/analysis/function/Gaussian$Parametric.java#L183)
-
-```Java
---- /tmp/math_58_Brutpol/src/main/java/org/apache/commons/math/analysis/function/Gaussian.java
-+++ /tmp/math_58_Brutpol/src/main/java/org/apache/commons/math/analysis/function/Gaussian.java
-@@ -182,3 +182,5 @@
-             if (param[2] <= 0) {
--                throw new NotStrictlyPositiveException(param[2]);
-+                if (param[0] <= 0) {
-+                    throw new NotStrictlyPositiveException(param[2]);
-+                }
-             }
-
-```
-Execution time: 0:02:42.975000
-
-Grid5000 node: graphene-29.nancy.grid5000.fr
-
-
-## Patch #164 Nopol 
+## Patch #84 Nopol 
 
 [org.apache.commons.math.analysis.function.Gaussian$Parametric:182](https://github.com/apache/commons-math/blob/73a227619d6671f69f9dcfb614f1b6abd83e2d62/src/main/java//org/apache/commons/math/analysis/function/Gaussian$Parametric.java#L182)
 
@@ -7636,28 +5324,7 @@ index dc83314..83b4c41 100644
 
 ```
 
-## Patch #165 DynaMoth 
-
-[org.apache.commons.math.stat.correlation.PearsonsCorrelation:193](https://github.com/apache/commons-math/blob/eb74f8f418f9da4adb52628fe775022efc4b0467/src/main/java//org/apache/commons/math/stat/correlation/PearsonsCorrelation.java#L193)
-
-```Java
---- /tmp/math_69_Brutpol/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java
-+++ /tmp/math_69_Brutpol/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java
-@@ -192,3 +192,5 @@
-               outMatrix.setEntry(i, j, corr);
--              outMatrix.setEntry(j, i, corr);
-+              if (outMatrix.getDeterminant() != matrix.getEntry((int) j, (int) 0)) {
-+                  outMatrix.setEntry(j, i, corr);
-+              }
-             }
-
-```
-Execution time: 0:01:13.294000
-
-Grid5000 node: graphene-74.nancy.grid5000.fr
-
-
-## Patch #166 Nopol 
+## Patch #85 Nopol 
 
 [org.apache.commons.math.stat.correlation.PearsonsCorrelation:193](https://github.com/apache/commons-math/blob/eb74f8f418f9da4adb52628fe775022efc4b0467/src/main/java//org/apache/commons/math/stat/correlation/PearsonsCorrelation.java#L193)
 
@@ -7676,65 +5343,6 @@ Grid5000 node: graphene-74.nancy.grid5000.fr
 Execution time: 0:00:33.410000
 
 Grid5000 node: graphene-53.nancy.grid5000.fr
-
-
-# Math 71
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java b/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
-index e03be9e..0840ac1 100644
---- a/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
-+++ b/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
-@@ -297,10 +297,6 @@ public abstract class EmbeddedRungeKuttaIntegrator
-                   // it is so small (much probably exactly 0 due to limited accuracy)
-                   // that the code above would fail handling it.
-                   // So we set up an artificial 0 size step by copying states
-+                  interpolator.storeTime(stepStart);
-+                  System.arraycopy(y, 0, yTmp, 0, y0.length);
-+                  hNew     = 0;
-+                  stepSize = 0;
-                   loop     = false;
-               } else {
-                   // reject the step to match exactly the next switch time
-diff --git a/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java b/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java
-index b61b0b1..255b1f4 100644
---- a/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java
-+++ b/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java
-@@ -177,9 +177,6 @@ public abstract class RungeKuttaIntegrator extends AbstractIntegrator {
-                 // it is so small (much probably exactly 0 due to limited accuracy)
-                 // that the code above would fail handling it.
-                 // So we set up an artificial 0 size step by copying states
-+                interpolator.storeTime(stepStart);
-+                System.arraycopy(y, 0, yTmp, 0, y0.length);
-+                stepSize = 0;
-                 loop     = false;
-             } else {
-                 // reject the step to match exactly the next switch time
-
-```
-
-## Patch #167 DynaMoth 
-
-[org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator:211](https://github.com/apache/commons-math/blob/7d81702ace2819d326bbe49c8249cae60850cc0c/src/main/java//org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java#L211)
-
-```Java
---- /tmp/math_71_Brutpol/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
-+++ /tmp/math_71_Brutpol/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
-@@ -210,3 +210,5 @@
-       // use the user provided value
--      return forward ? initialStep : -initialStep;
-+      if (this.requiresDenseOutput()) {
-+        return forward ? initialStep : -initialStep;
-+      }
-     }
-
-```
-Execution time: 0:00:47.330000
-
-Grid5000 node: graphene-27.nancy.grid5000.fr
 
 
 # Math 73
@@ -7761,7 +5369,7 @@ index e0cb427..8142b5e 100644
 
 ```
 
-## Patch #168 Nopol 
+## Patch #86 Nopol 
 
 [org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225](https://github.com/apache/commons-math/blob/05361c5a3409a9ca8e4e3438eb87d1cd55b713a8/src/main/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java#L225)
 
@@ -7824,28 +5432,7 @@ index ff09646..5006065 100644
 
 ```
 
-## Patch #169 DynaMoth 
-
-[org.apache.commons.math.ode.events.EventState:216](https://github.com/apache/commons-math/blob/335572b99ea84b7b0665e6a818cba41e34f97203/src/main/java//org/apache/commons/math/ode/events/EventState.java#L216)
-
-```Java
---- /tmp/math_78_Brutpol/src/main/java/org/apache/commons/math/ode/events/EventState.java
-+++ /tmp/math_78_Brutpol/src/main/java/org/apache/commons/math/ode/events/EventState.java
-@@ -215,3 +215,5 @@
-                     final BrentSolver solver = new BrentSolver();
--                    solver.setAbsoluteAccuracy(convergence);
-+                    if (t1 <= this.maxIterationCount) {
-+                        solver.setAbsoluteAccuracy(convergence);
-+                    }
-                     solver.setMaximalIterationCount(maxIterationCount);
-
-```
-Execution time: 0:01:09.825000
-
-Grid5000 node: graphene-76.nancy.grid5000.fr
-
-
-## Patch #170 Nopol 
+## Patch #87 Nopol 
 
 [org.apache.commons.math.analysis.solvers.BrentSolver:261](https://github.com/apache/commons-math/blob/335572b99ea84b7b0665e6a818cba41e34f97203/src/main/java//org/apache/commons/math/analysis/solvers/BrentSolver.java#L261)
 
@@ -7886,34 +5473,7 @@ index 9d1b797..3fc328d 100644
 
 ```
 
-## Patch #171 DynaMoth 
-
-[org.apache.commons.math.linear.EigenDecompositionImpl:1137](https://github.com/apache/commons-math/blob/c78a0e3b003ac36d57a3c895fc8240ef66546a56/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1137)
-
-```Java
---- /tmp/math_80_Brutpol/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
-+++ /tmp/math_80_Brutpol/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
-@@ -1136,6 +1136,8 @@
-             for (int i = 0; i < j; i += 4) {
--                for (int k = 0; k < 4; k += step) {
--                    final double tmp = work[i + k];
--                    work[i + k] = work[j - k];
--                    work[j - k] = tmp;
-+                if (step == j) {
-+                    for (int k = 0; k < 4; k += step) {
-+                        final double tmp = work[i + k];
-+                        work[i + k] = work[j - k];
-+                        work[j - k] = tmp;
-+                    }
-                 }
-
-```
-Execution time: 0:05:45.298000
-
-Grid5000 node: graphene-14.nancy.grid5000.fr
-
-
-## Patch #172 Nopol 
+## Patch #88 Nopol 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1139](https://github.com/apache/commons-math/blob/c78a0e3b003ac36d57a3c895fc8240ef66546a56/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1139)
 
@@ -7975,7 +5535,7 @@ index 3fc328d..2d0d72f 100644
 
 ```
 
-## Patch #173 Nopol 
+## Patch #89 Nopol 
 
 [org.apache.commons.math.linear.EigenDecompositionImpl:1586](https://github.com/apache/commons-math/blob/0596e3145c1a8a9c42185fe688c42b0830b64516/src/main/java//org/apache/commons/math/linear/EigenDecompositionImpl.java#L1586)
 
@@ -8001,49 +5561,6 @@ Execution time: 0:00:40.676000
 Grid5000 node: graphene-70.nancy.grid5000.fr
 
 
-# Math 82
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java b/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-index 60a1b3a..8309d7b 100644
---- a/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-+++ b/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-@@ -79,7 +79,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
-         for (int i = tableau.getNumObjectiveFunctions(); i < tableau.getHeight(); i++) {
-             final double rhs = tableau.getEntry(i, tableau.getWidth() - 1);
-             final double entry = tableau.getEntry(i, col);
-+            if (MathUtils.compareTo(entry, 0, epsilon) > 0) {
--            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
-                 final double ratio = rhs / entry;
-                 if (ratio < minRatio) {
-                     minRatio = ratio;
-
-```
-
-## Patch #174 DynaMoth 
-
-[org.apache.commons.math.optimization.linear.SimplexSolver:63](https://github.com/apache/commons-math/blob/dbdff0758b40601238e88b2cffbf7ceb58ed8977/src/main/java//org/apache/commons/math/optimization/linear/SimplexSolver.java#L63)
-
-```Java
---- /tmp/math_82_Brutpol/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-+++ /tmp/math_82_Brutpol/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-@@ -62,3 +62,5 @@
-             if (MathUtils.compareTo(tableau.getEntry(0, i), minValue, epsilon) < 0) {
--                minValue = tableau.getEntry(0, i);
-+                if (this.isOptimal((org.apache.commons.math.optimization.linear.SimplexTableau) tableau)) {
-+                    minValue = tableau.getEntry(0, i);
-+                }
-                 minPos = i;
-
-```
-Execution time: 0:05:33.244000
-
-Grid5000 node: graphene-43.nancy.grid5000.fr
-
-
 # Math 85
 
 
@@ -8066,37 +5583,7 @@ index e6398f6..bf3e4bf 100644
 
 ```
 
-## Patch #175 DynaMoth 
-
-[org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198](https://github.com/apache/commons-math/blob/26281773d85fa96594c16aee56e36805f3254064/src/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java#L198)
-
-```Java
---- /tmp/math_85_Brutpol/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-+++ /tmp/math_85_Brutpol/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-@@ -197,9 +197,9 @@
-    
--        if (fa * fb >= 0.0 ) {
-+        if (fa == 0.0) {
-             throw new ConvergenceException(
--                      "number of iterations={0}, maximum iterations={1}, " +
--                      "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " +
--                      "final b value={6}, f(a)={7}, f(b)={8}",
--                      numIterations, maximumIterations, initial,
--                      lowerBound, upperBound, a, b, fa, fb);
-+            "number of iterations={0}, maximum iterations={1}, " +
-+            "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " +
-+            "final b value={6}, f(a)={7}, f(b)={8}",
-+            numIterations, maximumIterations, initial,
-+            lowerBound, upperBound, a, b, fa, fb);
-         }
-
-```
-Execution time: 0:02:24.192000
-
-Grid5000 node: graphene-51.nancy.grid5000.fr
-
-
-## Patch #176 Nopol 
+## Patch #90 Nopol 
 
 [org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198](https://github.com/apache/commons-math/blob/26281773d85fa96594c16aee56e36805f3254064/src/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java#L198)
 
@@ -8154,30 +5641,7 @@ index b0d114e..0ab790c 100644
 
 ```
 
-## Patch #177 DynaMoth 
-
-[org.apache.commons.math.optimization.linear.SimplexTableau:261](https://github.com/apache/commons-math/blob/10cdc1066f9ae92219382bee25aeeac724298bc9/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L261)
-
-```Java
---- /tmp/math_87_Brutpol/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-+++ /tmp/math_87_Brutpol/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-@@ -260,4 +260,6 @@
-         double sum = 0;
--        for (double coefficient : coefficients.getData()) {
--            sum -= coefficient;
-+        if (coefficients.getDimension() != 1) {
-+            for (double coefficient : coefficients.getData()) {
-+                sum -= coefficient;
-+            }
-         }
-
-```
-Execution time: 0:01:21.381000
-
-Grid5000 node: graphene-7.nancy.grid5000.fr
-
-
-## Patch #178 Nopol 
+## Patch #91 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:161](https://github.com/apache/commons-math/blob/10cdc1066f9ae92219382bee25aeeac724298bc9/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L161)
 
@@ -8237,28 +5701,7 @@ index a6d7419..3bcb17f 100644
 
 ```
 
-## Patch #179 DynaMoth 
-
-[org.apache.commons.math.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/ca9d46257a9d4026d790adec555096d453e3f629/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L339)
-
-```Java
---- /tmp/math_88_Brutpol/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-+++ /tmp/math_88_Brutpol/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
-@@ -338,3 +338,5 @@
-                     if (tableau.getEntry(basicRow, j) == 1) {
--                         coefficients[i] = 0;
-+                         if (basicRow == this.getBasicRow((int) i)) {
-+                             coefficients[i] = 0;
-+                         }
-                     }
-
-```
-Execution time: 0:00:39.956000
-
-Grid5000 node: graphene-51.nancy.grid5000.fr
-
-
-## Patch #180 Nopol 
+## Patch #92 Nopol 
 
 [org.apache.commons.math.optimization.linear.SimplexTableau:339](https://github.com/apache/commons-math/blob/ca9d46257a9d4026d790adec555096d453e3f629/src/java//org/apache/commons/math/optimization/linear/SimplexTableau.java#L339)
 
@@ -8274,129 +5717,9 @@ Grid5000 node: graphene-51.nancy.grid5000.fr
                      }
 
 ```
-Execution time: 0:00:23.085000
+Execution time: 0:00:25.077000
 
-Grid5000 node: graphene-77.nancy.grid5000.fr
-
-
-# Math 97
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/math/analysis/BrentSolver.java b/src/java/org/apache/commons/math/analysis/BrentSolver.java
-index 57f64a9..766d87e 100644
---- a/src/java/org/apache/commons/math/analysis/BrentSolver.java
-+++ b/src/java/org/apache/commons/math/analysis/BrentSolver.java
-@@ -135,31 +135,17 @@ public class BrentSolver extends UnivariateRealSolverImpl {
-         
-         // Verify bracketing
-         double sign = yMin * yMax;
-+        if (sign > 0) {
--        if (sign >= 0) {
-             // check if either value is close to a zero
-+            if (Math.abs(yMin) <= functionValueAccuracy) {
-+                setResult(min, 0);
-+                ret = min;
-+            } else if (Math.abs(yMax) <= functionValueAccuracy) {
-+                setResult(max, 0);
-+                ret = max;
-+            } else {
-                 // neither value is close to zero and min and max do not bracket root.
-                 throw new IllegalArgumentException
-                 ("Function values at endpoints do not have different signs." +
-                         "  Endpoints: [" + min + "," + max + "]" + 
-                         "  Values: [" + yMin + "," + yMax + "]");
-+            }
-+        } else if (sign < 0){
--        } else {
-             // solve using only the first endpoint as initial guess
-             ret = solve(min, yMin, max, yMax, min, yMin);
-+        } else {
-             // either min or max is a root
-+            if (yMin == 0.0) {
-+                ret = min;
-+            } else {
-+                ret = max;
-+            }
-         }
- 
-         return ret;
-
-```
-
-## Patch #181 DynaMoth 
-
-[org.apache.commons.math.analysis.BrentSolver:138](https://github.com/apache/commons-math/blob/0010754c0b2eb5a5dc490acdf4f4948330363e23/src/java//org/apache/commons/math/analysis/BrentSolver.java#L138)
-
-```Java
---- /tmp/math_97_Brutpol/src/java/org/apache/commons/math/analysis/BrentSolver.java
-+++ /tmp/math_97_Brutpol/src/java/org/apache/commons/math/analysis/BrentSolver.java
-@@ -137,9 +137,9 @@
-         double sign = yMin * yMax;
--        if (sign >= 0) {
-+        if (this.relativeAccuracy <= sign) {
-             // check if either value is close to a zero
--                // neither value is close to zero and min and max do not bracket root.
--                throw new IllegalArgumentException
--                ("Function values at endpoints do not have different signs." +
--                        "  Endpoints: [" + min + "," + max + "]" + 
--                        "  Values: [" + yMin + "," + yMax + "]");
-+            // neither value is close to zero and min and max do not bracket root.
-+            throw new IllegalArgumentException
-+            ("Function values at endpoints do not have different signs." +
-+            "  Endpoints: [" + min + "," + max + "]" +
-+            "  Values: [" + yMin + "," + yMax + "]");
-         } else {
-
-```
-Execution time: 0:00:45.445000
-
-Grid5000 node: graphene-62.nancy.grid5000.fr
-
-
-# Math 101
-
-
-## Human Patch 
-
-```Java
-diff --git a/src/java/org/apache/commons/math/complex/ComplexFormat.java b/src/java/org/apache/commons/math/complex/ComplexFormat.java
-index 0757d9b..b404bc4 100644
---- a/src/java/org/apache/commons/math/complex/ComplexFormat.java
-+++ b/src/java/org/apache/commons/math/complex/ComplexFormat.java
-@@ -374,8 +374,7 @@ public class ComplexFormat extends Format implements Serializable {
-         int n = getImaginaryCharacter().length();
-         startIndex = pos.getIndex();
-         int endIndex = startIndex + n;
-+        if ((startIndex >= source.length()) ||
-+            (endIndex > source.length()) ||
--        if (
-             source.substring(startIndex, endIndex).compareTo(
-             getImaginaryCharacter()) != 0) {
-             // set index back to initial, error index should be the start index
-
-```
-
-## Patch #182 DynaMoth 
-
-[org.apache.commons.math.complex.ComplexFormat:377](https://github.com/apache/commons-math/blob/07b329c5fd484d63106bf80c155bbbbbfb3b241e/src/java//org/apache/commons/math/complex/ComplexFormat.java#L377)
-
-```Java
---- /tmp/math_101_Brutpol/src/java/org/apache/commons/math/complex/ComplexFormat.java
-+++ /tmp/math_101_Brutpol/src/java/org/apache/commons/math/complex/ComplexFormat.java
-@@ -377,4 +377,3 @@
-         if (
--            source.substring(startIndex, endIndex).compareTo(
--            getImaginaryCharacter()) != 0) {
-+            startIndex == source.length()) {
-             // set index back to initial, error index should be the start index
-
-```
-Execution time: 0:00:33.918000
-
-Grid5000 node: graphene-71.nancy.grid5000.fr
+Grid5000 node: graphene-93.nancy.grid5000.fr
 
 
 # Math 105
@@ -8421,28 +5744,7 @@ index d9fa592..dcf512b 100644
 
 ```
 
-## Patch #183 DynaMoth 
-
-[org.apache.commons.math.stat.regression.SimpleRegression:116](https://github.com/apache/commons-math/blob/00b139a1c49c230bfb7b0f1ec5b8c22d560d3447/src/java//org/apache/commons/math/stat/regression/SimpleRegression.java#L116)
-
-```Java
---- /tmp/math_105_Brutpol/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
-+++ /tmp/math_105_Brutpol/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
-@@ -115,3 +115,5 @@
-             xbar += dx / (double) (n + 1.0);
--            ybar += dy / (double) (n + 1.0);
-+            if (dy <= this.getRegressionSumSquares((double) x)) {
-+                ybar += dy / (double) (n + 1.0);
-+            }
-         }
-
-```
-Execution time: 0:00:30.906000
-
-Grid5000 node: graphene-27.nancy.grid5000.fr
-
-
-## Patch #184 Nopol 
+## Patch #93 Nopol 
 
 [org.apache.commons.math.stat.regression.SimpleRegression:108](https://github.com/apache/commons-math/blob/00b139a1c49c230bfb7b0f1ec5b8c22d560d3447/src/java//org/apache/commons/math/stat/regression/SimpleRegression.java#L108)
 
@@ -8485,28 +5787,7 @@ index b8267b9..6c172fe 100644
 
 ```
 
-## Patch #185 DynaMoth 
-
-org.mockito.internal.matchers.Same:29
-
-```Java
---- /tmp/mockito_29_Brutpol/src/org/mockito/internal/matchers/Same.java
-+++ /tmp/mockito_29_Brutpol/src/org/mockito/internal/matchers/Same.java
-@@ -28,3 +28,5 @@
-         appendQuoting(description);
--        description.appendText(wanted.toString());
-+        if (this.wanted != null) {
-+            description.appendText(wanted.toString());
-+        }
-         appendQuoting(description);
-
-```
-Execution time: 0:00:21.417000
-
-Grid5000 node: graphene-24.nancy.grid5000.fr
-
-
-## Patch #186 Nopol 
+## Patch #94 Nopol 
 
 org.mockito.internal.matchers.Same:29
 
@@ -8548,36 +5829,7 @@ index 9d4f834..671fbc5 100644
 
 ```
 
-## Patch #187 DynaMoth 
-
-org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool:28
-
-```Java
---- /tmp/mockito_38_Brutpol/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java
-+++ /tmp/mockito_38_Brutpol/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java
-@@ -27,7 +27,9 @@
-         for (Matcher m : matchers) {
--            if (m instanceof ContainsExtraTypeInformation 
--                    && !safelyMatches(m, arguments[i]) 
--                    && toStringEquals(m, arguments[i])
--                    && !((ContainsExtraTypeInformation) m).typeMatches(arguments[i])) {
--                suspicious.add(i);
-+            if (arguments[0] != null) {
-+                if (m instanceof ContainsExtraTypeInformation
-+                && !safelyMatches(m, arguments[i])
-+                && toStringEquals(m, arguments[i])
-+                && !((ContainsExtraTypeInformation) m).typeMatches(arguments[i])) {
-+                    suspicious.add(i);
-+                }
-             }
-
-```
-Execution time: 0:00:15.555000
-
-Grid5000 node: graphene-60.nancy.grid5000.fr
-
-
-## Patch #188 Nopol 
+## Patch #95 Nopol 
 
 org.mockito.internal.matchers.Equals:20
 
@@ -8618,28 +5870,7 @@ index 8e8e603..0d4edf4 100644
 
 ```
 
-## Patch #189 DynaMoth 
-
-[org.joda.time.Partial:459](https://github.com/JodaOrg/joda-time/blob/bcb044669b4d1f8d334861ccbd169924d6ef3b54/src/main/java//org/joda/time/Partial.java#L459)
-
-```Java
---- /tmp/time_4_Brutpol/src/main/java/org/joda/time/Partial.java
-+++ /tmp/time_4_Brutpol/src/main/java/org/joda/time/Partial.java
-@@ -458,3 +458,5 @@
-             newTypes[i] = fieldType;
--            newValues[i] = value;
-+            if (fieldType != fieldType.clockhourOfDay()) {
-+                newValues[i] = value;
-+            }
-             System.arraycopy(iTypes, i, newTypes, i + 1, newTypes.length - i - 1);
-
-```
-Execution time: 0:00:58.291000
-
-Grid5000 node: graphene-58.nancy.grid5000.fr
-
-
-## Patch #190 Nopol 
+## Patch #96 Nopol 
 
 [org.joda.time.Partial:459](https://github.com/JodaOrg/joda-time/blob/bcb044669b4d1f8d334861ccbd169924d6ef3b54/src/main/java//org/joda/time/Partial.java#L459)
 
@@ -8684,28 +5915,7 @@ index 913d036..447674a 100644
 
 ```
 
-## Patch #191 DynaMoth 
-
-[org.joda.time.format.DateTimeParserBucket:359](https://github.com/JodaOrg/joda-time/blob/6bf5bba0f77f3023dec23a1de6e0a8cef8585f61/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L359)
-
-```Java
---- /tmp/time_7_Brutpol/src/main/java/org/joda/time/format/DateTimeParserBucket.java
-+++ /tmp/time_7_Brutpol/src/main/java/org/joda/time/format/DateTimeParserBucket.java
-@@ -358,3 +358,5 @@
-                 saveField(DateTimeFieldType.year(), iDefaultYear);
--                return computeMillis(resetFields, text);
-+                if (resetFields) {
-+                    return computeMillis(resetFields, text);
-+                }
-             }
-
-```
-Execution time: 0:00:53.446000
-
-Grid5000 node: graphene-53.nancy.grid5000.fr
-
-
-## Patch #192 Nopol 
+## Patch #97 Nopol 
 
 [org.joda.time.format.DateTimeParserBucket:359](https://github.com/JodaOrg/joda-time/blob/6bf5bba0f77f3023dec23a1de6e0a8cef8585f61/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L359)
 
@@ -8755,32 +5965,7 @@ index 64da5ea..6efe071 100644
 
 ```
 
-## Patch #193 DynaMoth 
-
-[org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:1460](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone.java#L1460)
-
-```Java
---- /tmp/time_11_Brutpol/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java
-+++ /tmp/time_11_Brutpol/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java
-@@ -1459,5 +1459,7 @@
-                     .equals(tailZone.iEndRecurrence.getNameKey())) {
--                    if (ZoneInfoCompiler.verbose()) {
--                        System.out.println("Fixing duplicate recurrent name key - " +
--                                           tailZone.iStartRecurrence.getNameKey());
-+                    if (org.joda.time.PeriodType.yearMonthDay().equals((java.lang.Object) id)) {
-+                        if (ZoneInfoCompiler.verbose()) {
-+                            System.out.println("Fixing duplicate recurrent name key - " +
-+                            tailZone.iStartRecurrence.getNameKey());
-+                        }
-                     }
-
-```
-Execution time: 0:00:52.517000
-
-Grid5000 node: graphene-141.nancy.grid5000.fr
-
-
-## Patch #194 Nopol 
+## Patch #98 Nopol 
 
 [org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:1458](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone.java#L1458)
 
@@ -8892,7 +6077,7 @@ index e75deca..f37db3e 100644
 
 ```
 
-## Patch #195 Nopol 
+## Patch #99 Nopol 
 
 [org.joda.time.LocalDateTime:663](https://github.com/JodaOrg/joda-time/blob/f2f9c8146446eff341dc7b66b5237b56d50abec0/src/main/java//org/joda/time/LocalDateTime.java#L663)
 
@@ -8937,26 +6122,7 @@ index 2892a2d..afca44e 100644
 
 ```
 
-## Patch #196 DynaMoth 
-
-[org.joda.time.chrono.BasicMonthOfYearDateTimeField:210](https://github.com/JodaOrg/joda-time/blob/cc3262ff42e41f3b1f64290262704da3895fbe85/src/main/java//org/joda/time/chrono/BasicMonthOfYearDateTimeField.java#L210)
-
-```Java
---- /tmp/time_14_Brutpol/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java
-+++ /tmp/time_14_Brutpol/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java
-@@ -209,3 +209,3 @@
-             // month is largest field and being added to, such as month-day
--        if (DateTimeUtils.isContiguous(partial)) {
-+        if (partial.getValue((int) 1) <= this.iMax) {
-             long instant = 0L;
-
-```
-Execution time: 0:00:47.347000
-
-Grid5000 node: graphene-54.nancy.grid5000.fr
-
-
-## Patch #197 Nopol 
+## Patch #100 Nopol 
 
 [org.joda.time.chrono.BasicMonthOfYearDateTimeField:210](https://github.com/JodaOrg/joda-time/blob/cc3262ff42e41f3b1f64290262704da3895fbe85/src/main/java//org/joda/time/chrono/BasicMonthOfYearDateTimeField.java#L210)
 
@@ -8997,28 +6163,7 @@ index baa276a..a4b1612 100644
 
 ```
 
-## Patch #198 DynaMoth 
-
-[org.joda.time.format.DateTimeParserBucket:358](https://github.com/JodaOrg/joda-time/blob/dba7c37ea3d83b32779d3bb13cb184aedf761a8a/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L358)
-
-```Java
---- /tmp/time_16_Brutpol/src/main/java/org/joda/time/format/DateTimeParserBucket.java
-+++ /tmp/time_16_Brutpol/src/main/java/org/joda/time/format/DateTimeParserBucket.java
-@@ -357,3 +357,5 @@
-                 saveField(DateTimeFieldType.year(), iDefaultYear);
--                return computeMillis(resetFields, text);
-+                if (resetFields) {
-+                    return computeMillis(resetFields, text);
-+                }
-             }
-
-```
-Execution time: 0:00:54.176000
-
-Grid5000 node: graphene-54.nancy.grid5000.fr
-
-
-## Patch #199 Nopol 
+## Patch #101 Nopol 
 
 [org.joda.time.format.DateTimeParserBucket:358](https://github.com/JodaOrg/joda-time/blob/dba7c37ea3d83b32779d3bb13cb184aedf761a8a/src/main/java//org/joda/time/format/DateTimeParserBucket.java#L358)
 
@@ -9074,7 +6219,7 @@ index 0a19aa6..29e559d 100644
 
 ```
 
-## Patch #200 Nopol 
+## Patch #102 Nopol 
 
 [org.joda.time.chrono.BasicChronology:605](https://github.com/JodaOrg/joda-time/blob/e16eb72a29d06ce36030b109156bea3244273fb8/src/main/java//org/joda/time/chrono/BasicChronology.java#L605)
 
@@ -9117,7 +6262,7 @@ index ec05941..855cad0 100644
 
 ```
 
-## Patch #201 Nopol 
+## Patch #103 Nopol 
 
 [org.joda.time.DateTimeZone:900](https://github.com/JodaOrg/joda-time/blob/a92450e88df85d6b7a0fa53517da46286c24f53f/src/main/java//org/joda/time/DateTimeZone.java#L900)
 

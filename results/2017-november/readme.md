@@ -1,161 +1,162 @@
 # All fixed bugs
 
-| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total |
------ | ----------------- | --------- | --------- | --------- | --------- | ------
-   1 | [C1](#chart-1)    | Yes       |           |           |           |      1
-   4 | [C4](#chart-4)    | Yes       |           |           |           |      1
-   5 | [C5](#chart-5)    | Yes       |           |           |           |      1
-   6 | [C6](#chart-6)    | Yes       |           |           |           |      1
-   9 | [C9](#chart-9)    | Yes       |           |           |           |      1
-  13 | [C13](#chart-13)  | Yes       |           |           |           |      1
-  15 | [C15](#chart-15)  | Yes       |           |           |           |      1
-  17 | [C17](#chart-17)  | Yes       |           |           |           |      1
-  21 | [C21](#chart-21)  | Yes       |           |           |           |      1
-  25 | [C25](#chart-25)  | Yes       |           |           |           |      1
-  26 | [C26](#chart-26)  | Yes       |           |           |           |      1
-  27 | [C1](#closure-1)  | Yes       |           |           |           |      1
-  28 | [C2](#closure-2)  | Yes       |           |           | T_OUT     |      1
-  29 | [C3](#closure-3)  | Yes       |           |           |           |      1
-  30 | [C4](#closure-4)  | Yes       |           |           |           |      1
-  31 | [C5](#closure-5)  | Yes       |           |           |           |      1
-  32 | [C6](#closure-6)  | Yes       |           |           |           |      1
-  33 | [C7](#closure-7)  | Yes       |           |           | Yes       |      2
-  34 | [C8](#closure-8)  | Yes       |           |           |           |      1
-  35 | [C9](#closure-9)  | Yes       |           |           |           |      1
-  36 | [C10](#closure-10) | Yes       |           |           |           |      1
-  37 | [C11](#closure-11) | Yes       |           |           |           |      1
-  38 | [C12](#closure-12) | Yes       |           |           |           |      1
-  39 | [C13](#closure-13) | Yes       |           |           |           |      1
-  40 | [C14](#closure-14) | Yes       |           |           | Yes       |      2
-  41 | [C15](#closure-15) | Yes       |           |           | Yes       |      2
-  42 | [C16](#closure-16) | Yes       |           |           |           |      1
-  43 | [C17](#closure-17) | Yes       |           |           |           |      1
-  44 | [C18](#closure-18) | Yes       |           |           |           |      1
-  45 | [C19](#closure-19) | Yes       |           |           |           |      1
-  46 | [C20](#closure-20) | Yes       |           |           |           |      1
-  47 | [C21](#closure-21) | Yes       |           |           |           |      1
-  48 | [C22](#closure-22) | Yes       |           |           |           |      1
-  49 | [C23](#closure-23) | Yes       |           |           |           |      1
-  50 | [C24](#closure-24) | Yes       |           |           |           |      1
-  51 | [C25](#closure-25) | Yes       |           |           |           |      1
-  52 | [C26](#closure-26) | Yes       |           |           |           |      1
-  53 | [C27](#closure-27) | Yes       |           |           |           |      1
-  54 | [C28](#closure-28) | Yes       |           |           |           |      1
-  55 | [C29](#closure-29) | Yes       |           |           |           |      1
-  56 | [C30](#closure-30) | Yes       |           |           |           |      1
-  57 | [C31](#closure-31) | Yes       |           |           |           |      1
-  58 | [C32](#closure-32) | Yes       |           |           |           |      1
-  59 | [C33](#closure-33) | Yes       |           |           |           |      1
-  60 | [C34](#closure-34) | Yes       |           |           |           |      1
-  61 | [C35](#closure-35) | Yes       |           |           |           |      1
-  62 | [C36](#closure-36) | Yes       |           |           | Yes       |      2
-  63 | [C37](#closure-37) | Yes       |           |           |           |      1
-  64 | [C38](#closure-38) | Yes       |           |           | Yes       |      2
-  65 | [C39](#closure-39) | Yes       |           |           |           |      1
-  66 | [C40](#closure-40) | Yes       |           |           |           |      1
-  67 | [C41](#closure-41) | Yes       |           |           |           |      1
-  68 | [C42](#closure-42) | Yes       |           |           |           |      1
-  69 | [C43](#closure-43) | Yes       |           |           |           |      1
-  70 | [C44](#closure-44) | Yes       |           |           |           |      1
-  71 | [C45](#closure-45) | Yes       |           |           |           |      1
-  72 | [C46](#closure-46) | Yes       |           |           |           |      1
-  73 | [C47](#closure-47) | Yes       |           |           |           |      1
-  74 | [C48](#closure-48) | Yes       |           |           |           |      1
-  75 | [C49](#closure-49) | Yes       |           |           |           |      1
-  76 | [C50](#closure-50) | Yes       |           |           |           |      1
-  77 | [C51](#closure-51) | Yes       |           |           |           |      1
-  78 | [C52](#closure-52) | Yes       |           |           |           |      1
-  79 | [C53](#closure-53) | Yes       |           |           |           |      1
-  80 | [C54](#closure-54) | Yes       |           |           |           |      1
-  81 | [C55](#closure-55) | Yes       |           |           |           |      1
-  82 | [C56](#closure-56) | Yes       |           |           |           |      1
-  83 | [C57](#closure-57) | Yes       |           |           |           |      1
-  84 | [C58](#closure-58) | Yes       |           |           |           |      1
-  85 | [C59](#closure-59) | Yes       |           |           |           |      1
-  86 | [C60](#closure-60) | Yes       |           |           |           |      1
-  87 | [C61](#closure-61) | Yes       |           |           |           |      1
-  88 | [C62](#closure-62) | Yes       |           |           |           |      1
-  89 | [C63](#closure-63) | Yes       |           |           |           |      1
-  90 | [C64](#closure-64) | Yes       |           |           |           |      1
-  91 | [C65](#closure-65) | Yes       |           |           |           |      1
-  92 | [C66](#closure-66) | Yes       |           |           |           |      1
-  93 | [C67](#closure-67) | Yes       |           |           |           |      1
-  94 | [C68](#closure-68) | Yes       |           |           |           |      1
-  95 | [C69](#closure-69) | Yes       |           |           |           |      1
-  96 | [C70](#closure-70) | Yes       |           |           |           |      1
-  97 | [C71](#closure-71) | Yes       |           |           |           |      1
-  98 | [C72](#closure-72) | Yes       |           |           |           |      1
-  99 | [C73](#closure-73) | Yes       |           |           |           |      1
- 101 | [C75](#closure-75) | Yes       |           |           |           |      1
- 102 | [C76](#closure-76) | Yes       |           |           |           |      1
- 103 | [C77](#closure-77) | Yes       |           |           |           |      1
- 104 | [C78](#closure-78) | Yes       |           |           |           |      1
- 135 | [C109](#closure-109) | Yes       |           |           |           |      1
- 136 | [C110](#closure-110) | Yes       |           |           |           |      1
- 137 | [C111](#closure-111) | Yes       |           |           | Yes       |      2
- 140 | [C114](#closure-114) | Yes       |           |           | Yes       |      2
- 141 | [C115](#closure-115) | Yes       |           |           | Yes       |      2
- 142 | [C116](#closure-116) | Yes       |           |           |           |      1
- 145 | [C119](#closure-119) | Yes       |           |           | T_OUT     |      1
- 146 | [C120](#closure-120) | Yes       |           |           | Yes       |      2
- 147 | [C121](#closure-121) | Yes       |           |           | Yes       |      2
- 148 | [C122](#closure-122) | Yes       |           |           |           |      1
- 149 | [C123](#closure-123) | Yes       |           |           |           |      1
- 150 | [C124](#closure-124) | Yes       |           |           |           |      1
- 151 | [C125](#closure-125) | Yes       |           |           |           |      1
- 152 | [C126](#closure-126) | Yes       |           |           |           |      1
- 153 | [C127](#closure-127) | Yes       |           |           |           |      1
- 154 | [C128](#closure-128) | Yes       |           |           |           |      1
- 155 | [C129](#closure-129) | Yes       |           |           |           |      1
- 156 | [C130](#closure-130) | Yes       |           |           |           |      1
- 157 | [C131](#closure-131) | Yes       |           |           |           |      1
- 158 | [C132](#closure-132) | Yes       |           |           |           |      1
- 159 | [C133](#closure-133) | Yes       |           |           |           |      1
- 198 | [L39](#lang-39)   | Yes       |           |           |           |      1
- 203 | [L44](#lang-44)   | Yes       |           |           |           |      1
- 210 | [L51](#lang-51)   | Yes       |           |           |           |      1
- 214 | [L55](#lang-55)   | Yes       |           |           |           |      1
- 217 | [L58](#lang-58)   | Yes       |           |           |           |      1
- 222 | [L63](#lang-63)   | Yes       |           |           |           |      1
- 226 | [M2](#math-2)     | Yes       |           |           |           |      1
- 228 | [M4](#math-4)     | Yes       |           |           |           |      1
- 229 | [M5](#math-5)     | Yes       |           |           |           |      1
- 248 | [M24](#math-24)   | Yes       |           |           |           |      1
- 252 | [M28](#math-28)   | Yes       |           |           |           |      1
- 256 | [M32](#math-32)   | Yes       |           |           |           |      1
- 257 | [M33](#math-33)   | Yes       |           |           |           |      1
- 264 | [M40](#math-40)   | Yes       |           |           |           |      1
- 265 | [M41](#math-41)   | Yes       |           |           |           |      1
- 266 | [M42](#math-42)   | Yes       |           |           |           |      1
- 268 | [M44](#math-44)   | Yes       |           |           |           |      1
- 270 | [M46](#math-46)   | Yes       |           |           |           |      1
- 273 | [M49](#math-49)   | Yes       |           |           |           |      1
- 274 | [M50](#math-50)   | Yes       |           |           |           |      1
- 281 | [M57](#math-57)   | Yes       |           |           |           |      1
- 282 | [M58](#math-58)   | Yes       |           |           |           |      1
- 293 | [M69](#math-69)   | Yes       |           |           |           |      1
- 295 | [M71](#math-71)   | Yes       |           |           |           |      1
- 302 | [M78](#math-78)   | Yes       |           |           |           |      1
- 304 | [M80](#math-80)   | Yes       |           |           |           |      1
- 306 | [M82](#math-82)   | Yes       |           |           |           |      1
- 309 | [M85](#math-85)   | Yes       |           |           |           |      1
- 311 | [M87](#math-87)   | Yes       |           |           |           |      1
- 312 | [M88](#math-88)   | Yes       |           |           |           |      1
- 320 | [M96](#math-96)   | Yes       |           |           |           |      1
- 321 | [M97](#math-97)   | Yes       |           |           |           |      1
- 325 | [M101](#math-101) | Yes       |           |           |           |      1
- 329 | [M105](#math-105) | Yes       |           |           |           |      1
- 359 | [M29](#mockito-29) | Yes       |           |           |           |      1
- 368 | [M38](#mockito-38) | Yes       |           |           |           |      1
- 372 | [T4](#time-4)     | Yes       |           |           |           |      1
- 375 | [T7](#time-7)     | Yes       |           |           |           |      1
- 379 | [T11](#time-11)   | Yes       |           |           |           |      1
- 380 | [T12](#time-12)   | T_OUT     |           |           | Yes       |      1
- 382 | [T14](#time-14)   | Yes       |           |           |           |      1
- 384 | [T16](#time-16)   | Yes       |           |           |           |      1
- 386 | [T18](#time-18)   | T_OUT     |           |           | Yes       |      1
- 387 | [T19](#time-19)   | T_OUT     |           |           | Yes       |      1
-     | Total             | 150 (37%) | 0 (0%)    | 0 (0%)    | 13 (3%)   |    163
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total  |
+| --- | ----------------- | --------- | --------- | --------- | --------- | ------ |
+|   1 | [C1](#chart-1)    | Yes       |           |           |           |      1 |
+|   4 | [C4](#chart-4)    | Yes       |           |           |           |      1 |
+|   5 | [C5](#chart-5)    | Yes       |           |           |           |      1 |
+|   6 | [C6](#chart-6)    | Yes       |           |           |           |      1 |
+|   9 | [C9](#chart-9)    | Yes       |           |           |           |      1 |
+|  13 | [C13](#chart-13)  | Yes       |           |           |           |      1 |
+|  15 | [C15](#chart-15)  | Yes       |           |           |           |      1 |
+|  17 | [C17](#chart-17)  | Yes       |           |           |           |      1 |
+|  21 | [C21](#chart-21)  | Yes       |           |           |           |      1 |
+|  25 | [C25](#chart-25)  | Yes       |           |           |           |      1 |
+|  26 | [C26](#chart-26)  | Yes       |           |           |           |      1 |
+|  27 | [C1](#closure-1)  | Yes       |           |           |           |      1 |
+|  28 | [C2](#closure-2)  | Yes       |           |           | T_OUT     |      1 |
+|  29 | [C3](#closure-3)  | Yes       |           |           |           |      1 |
+|  30 | [C4](#closure-4)  | Yes       |           |           |           |      1 |
+|  31 | [C5](#closure-5)  | Yes       |           |           |           |      1 |
+|  32 | [C6](#closure-6)  | Yes       |           |           |           |      1 |
+|  33 | [C7](#closure-7)  | Yes       |           |           | Yes       |      2 |
+|  34 | [C8](#closure-8)  | Yes       |           |           |           |      1 |
+|  35 | [C9](#closure-9)  | Yes       |           |           |           |      1 |
+|  36 | [C10](#closure-10) | Yes       |           |           |           |      1 |
+|  37 | [C11](#closure-11) | Yes       |           |           |           |      1 |
+|  38 | [C12](#closure-12) | Yes       |           |           |           |      1 |
+|  39 | [C13](#closure-13) | Yes       |           |           |           |      1 |
+|  40 | [C14](#closure-14) | Yes       |           |           | Yes       |      2 |
+|  41 | [C15](#closure-15) | Yes       |           |           | Yes       |      2 |
+|  42 | [C16](#closure-16) | Yes       |           |           |           |      1 |
+|  43 | [C17](#closure-17) | Yes       |           |           |           |      1 |
+|  44 | [C18](#closure-18) | Yes       |           |           |           |      1 |
+|  45 | [C19](#closure-19) | Yes       |           |           |           |      1 |
+|  46 | [C20](#closure-20) | Yes       |           |           |           |      1 |
+|  47 | [C21](#closure-21) | Yes       |           |           |           |      1 |
+|  48 | [C22](#closure-22) | Yes       |           |           |           |      1 |
+|  49 | [C23](#closure-23) | Yes       |           |           |           |      1 |
+|  50 | [C24](#closure-24) | Yes       |           |           |           |      1 |
+|  51 | [C25](#closure-25) | Yes       |           |           |           |      1 |
+|  52 | [C26](#closure-26) | Yes       |           |           |           |      1 |
+|  53 | [C27](#closure-27) | Yes       |           |           |           |      1 |
+|  54 | [C28](#closure-28) | Yes       |           |           |           |      1 |
+|  55 | [C29](#closure-29) | Yes       |           |           |           |      1 |
+|  56 | [C30](#closure-30) | Yes       |           |           |           |      1 |
+|  57 | [C31](#closure-31) | Yes       |           |           |           |      1 |
+|  58 | [C32](#closure-32) | Yes       |           |           |           |      1 |
+|  59 | [C33](#closure-33) | Yes       |           |           |           |      1 |
+|  60 | [C34](#closure-34) | Yes       |           |           |           |      1 |
+|  61 | [C35](#closure-35) | Yes       |           |           |           |      1 |
+|  62 | [C36](#closure-36) | Yes       |           |           | Yes       |      2 |
+|  63 | [C37](#closure-37) | Yes       |           |           |           |      1 |
+|  64 | [C38](#closure-38) | Yes       |           |           | Yes       |      2 |
+|  65 | [C39](#closure-39) | Yes       |           |           |           |      1 |
+|  66 | [C40](#closure-40) | Yes       |           |           |           |      1 |
+|  67 | [C41](#closure-41) | Yes       |           |           |           |      1 |
+|  68 | [C42](#closure-42) | Yes       |           |           |           |      1 |
+|  69 | [C43](#closure-43) | Yes       |           |           |           |      1 |
+|  70 | [C44](#closure-44) | Yes       |           |           |           |      1 |
+|  71 | [C45](#closure-45) | Yes       |           |           |           |      1 |
+|  72 | [C46](#closure-46) | Yes       |           |           |           |      1 |
+|  73 | [C47](#closure-47) | Yes       |           |           |           |      1 |
+|  74 | [C48](#closure-48) | Yes       |           |           |           |      1 |
+|  75 | [C49](#closure-49) | Yes       |           |           |           |      1 |
+|  76 | [C50](#closure-50) | Yes       |           |           |           |      1 |
+|  77 | [C51](#closure-51) | Yes       |           |           |           |      1 |
+|  78 | [C52](#closure-52) | Yes       |           |           |           |      1 |
+|  79 | [C53](#closure-53) | Yes       |           |           |           |      1 |
+|  80 | [C54](#closure-54) | Yes       |           |           |           |      1 |
+|  81 | [C55](#closure-55) | Yes       |           |           |           |      1 |
+|  82 | [C56](#closure-56) | Yes       |           |           |           |      1 |
+|  83 | [C57](#closure-57) | Yes       |           |           |           |      1 |
+|  84 | [C58](#closure-58) | Yes       |           |           |           |      1 |
+|  85 | [C59](#closure-59) | Yes       |           |           |           |      1 |
+|  86 | [C60](#closure-60) | Yes       |           |           |           |      1 |
+|  87 | [C61](#closure-61) | Yes       |           |           |           |      1 |
+|  88 | [C62](#closure-62) | Yes       |           |           |           |      1 |
+|  89 | [C63](#closure-63) | Yes       |           |           |           |      1 |
+|  90 | [C64](#closure-64) | Yes       |           |           |           |      1 |
+|  91 | [C65](#closure-65) | Yes       |           |           |           |      1 |
+|  92 | [C66](#closure-66) | Yes       |           |           |           |      1 |
+|  93 | [C67](#closure-67) | Yes       |           |           |           |      1 |
+|  94 | [C68](#closure-68) | Yes       |           |           |           |      1 |
+|  95 | [C69](#closure-69) | Yes       |           |           |           |      1 |
+|  96 | [C70](#closure-70) | Yes       |           |           |           |      1 |
+|  97 | [C71](#closure-71) | Yes       |           |           |           |      1 |
+|  98 | [C72](#closure-72) | Yes       |           |           |           |      1 |
+|  99 | [C73](#closure-73) | Yes       |           |           |           |      1 |
+| 101 | [C75](#closure-75) | Yes       |           |           |           |      1 |
+| 102 | [C76](#closure-76) | Yes       |           |           |           |      1 |
+| 103 | [C77](#closure-77) | Yes       |           |           |           |      1 |
+| 104 | [C78](#closure-78) | Yes       |           |           |           |      1 |
+| 135 | [C109](#closure-109) | Yes       |           |           |           |      1 |
+| 136 | [C110](#closure-110) | Yes       |           |           |           |      1 |
+| 137 | [C111](#closure-111) | Yes       |           |           | Yes       |      2 |
+| 140 | [C114](#closure-114) | Yes       |           |           | Yes       |      2 |
+| 141 | [C115](#closure-115) | Yes       |           |           | Yes       |      2 |
+| 142 | [C116](#closure-116) | Yes       |           |           |           |      1 |
+| 145 | [C119](#closure-119) | Yes       |           |           | T_OUT     |      1 |
+| 146 | [C120](#closure-120) | Yes       |           |           | Yes       |      2 |
+| 147 | [C121](#closure-121) | Yes       |           |           | Yes       |      2 |
+| 148 | [C122](#closure-122) | Yes       |           |           |           |      1 |
+| 149 | [C123](#closure-123) | Yes       |           |           |           |      1 |
+| 150 | [C124](#closure-124) | Yes       |           |           |           |      1 |
+| 151 | [C125](#closure-125) | Yes       |           |           |           |      1 |
+| 152 | [C126](#closure-126) | Yes       |           |           |           |      1 |
+| 153 | [C127](#closure-127) | Yes       |           |           |           |      1 |
+| 154 | [C128](#closure-128) | Yes       |           |           |           |      1 |
+| 155 | [C129](#closure-129) | Yes       |           |           |           |      1 |
+| 156 | [C130](#closure-130) | Yes       |           |           |           |      1 |
+| 157 | [C131](#closure-131) | Yes       |           |           |           |      1 |
+| 158 | [C132](#closure-132) | Yes       |           |           |           |      1 |
+| 159 | [C133](#closure-133) | Yes       |           |           |           |      1 |
+| 198 | [L39](#lang-39)   | Yes       |           |           |           |      1 |
+| 203 | [L44](#lang-44)   | Yes       |           |           |           |      1 |
+| 210 | [L51](#lang-51)   | Yes       |           |           |           |      1 |
+| 214 | [L55](#lang-55)   | Yes       |           |           |           |      1 |
+| 217 | [L58](#lang-58)   | Yes       |           |           |           |      1 |
+| 222 | [L63](#lang-63)   | Yes       |           |           |           |      1 |
+| 226 | [M2](#math-2)     | Yes       |           |           |           |      1 |
+| 228 | [M4](#math-4)     | Yes       |           |           |           |      1 |
+| 229 | [M5](#math-5)     | Yes       |           |           |           |      1 |
+| 248 | [M24](#math-24)   | Yes       |           |           |           |      1 |
+| 252 | [M28](#math-28)   | Yes       |           |           |           |      1 |
+| 256 | [M32](#math-32)   | Yes       |           |           |           |      1 |
+| 257 | [M33](#math-33)   | Yes       |           |           |           |      1 |
+| 264 | [M40](#math-40)   | Yes       |           |           |           |      1 |
+| 265 | [M41](#math-41)   | Yes       |           |           |           |      1 |
+| 266 | [M42](#math-42)   | Yes       |           |           |           |      1 |
+| 268 | [M44](#math-44)   | Yes       |           |           |           |      1 |
+| 270 | [M46](#math-46)   | Yes       |           |           |           |      1 |
+| 273 | [M49](#math-49)   | Yes       |           |           |           |      1 |
+| 274 | [M50](#math-50)   | Yes       |           |           |           |      1 |
+| 281 | [M57](#math-57)   | Yes       |           |           |           |      1 |
+| 282 | [M58](#math-58)   | Yes       |           |           |           |      1 |
+| 293 | [M69](#math-69)   | Yes       |           |           |           |      1 |
+| 295 | [M71](#math-71)   | Yes       |           |           |           |      1 |
+| 302 | [M78](#math-78)   | Yes       |           |           |           |      1 |
+| 304 | [M80](#math-80)   | Yes       |           |           |           |      1 |
+| 306 | [M82](#math-82)   | Yes       |           |           |           |      1 |
+| 309 | [M85](#math-85)   | Yes       |           |           |           |      1 |
+| 311 | [M87](#math-87)   | Yes       |           |           |           |      1 |
+| 312 | [M88](#math-88)   | Yes       |           |           |           |      1 |
+| 320 | [M96](#math-96)   | Yes       |           |           |           |      1 |
+| 321 | [M97](#math-97)   | Yes       |           |           |           |      1 |
+| 325 | [M101](#math-101) | Yes       |           |           |           |      1 |
+| 329 | [M105](#math-105) | Yes       |           |           |           |      1 |
+| 359 | [M29](#mockito-29) | Yes       |           |           |           |      1 |
+| 368 | [M38](#mockito-38) | Yes       |           |           |           |      1 |
+| 372 | [T4](#time-4)     | Yes       |           |           |           |      1 |
+| 375 | [T7](#time-7)     | Yes       |           |           |           |      1 |
+| 379 | [T11](#time-11)   | Yes       |           |           |           |      1 |
+| 380 | [T12](#time-12)   | T_OUT     |           |           | Yes       |      1 |
+| 382 | [T14](#time-14)   | Yes       |           |           |           |      1 |
+| 384 | [T16](#time-16)   | Yes       |           |           |           |      1 |
+| 386 | [T18](#time-18)   | T_OUT     |           |           | Yes       |      1 |
+| 387 | [T19](#time-19)   | T_OUT     |           |           | Yes       |      1 |
+|     | Total             | 150 (37%) | 0 (0%)    | 0 (0%)    | 13 (3%)   |    163 |
+
 Fixed bugs: 153/395 (38%)
 
 Nb bugs ends with an execution error: 18
@@ -167,404 +168,405 @@ Nb bugs ends with the Grid5000 timeout: 18
 Total execution time: 9 days, 4:35:49.977000
 # All bugs
 
-| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total |
------ | ----------------- | --------- | --------- | --------- | --------- | ------
-   1 | [C1](#chart-1)    | Yes       |           |           |           |      1
-   2 | [C2](#chart-2)    | T_OUT     |           |           |           |      0
-   3 | [C3](#chart-3)    | T_OUT     |           |           |           |      0
-   4 | [C4](#chart-4)    | Yes       |           |           |           |      1
-   5 | [C5](#chart-5)    | Yes       |           |           |           |      1
-   6 | [C6](#chart-6)    | Yes       |           |           |           |      1
-   7 | [C7](#chart-7)    | No        |           |           |           |      0
-   8 | [C8](#chart-8)    | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0
-   9 | [C9](#chart-9)    | Yes       |           |           |           |      1
-  10 | [C10](#chart-10)  | No        |           |           |           |      0
-  11 | [C11](#chart-11)  | No        |           |           |           |      0
-  12 | [C12](#chart-12)  | No        |           |           |           |      0
-  13 | [C13](#chart-13)  | Yes       |           |           |           |      1
-  14 | [C14](#chart-14)  | No        |           |           |           |      0
-  15 | [C15](#chart-15)  | Yes       |           |           |           |      1
-  16 | [C16](#chart-16)  | No        |           |           |           |      0
-  17 | [C17](#chart-17)  | Yes       |           |           |           |      1
-  18 | [C18](#chart-18)  | No        |           |           |           |      0
-  19 | [C19](#chart-19)  | No        |           |           |           |      0
-  20 | [C20](#chart-20)  | No        |           |           |           |      0
-  21 | [C21](#chart-21)  | Yes       |           |           |           |      1
-  22 | [C22](#chart-22)  | No        |           |           |           |      0
-  23 | [C23](#chart-23)  | No        |           |           |           |      0
-  24 | [C24](#chart-24)  | No        |           |           |           |      0
-  25 | [C25](#chart-25)  | Yes       |           |           |           |      1
-  26 | [C26](#chart-26)  | Yes       |           |           |           |      1
-  27 | [C1](#closure-1)  | Yes       |           |           |           |      1
-  28 | [C2](#closure-2)  | Yes       |           |           | T_OUT     |      1
-  29 | [C3](#closure-3)  | Yes       |           |           |           |      1
-  30 | [C4](#closure-4)  | Yes       |           |           |           |      1
-  31 | [C5](#closure-5)  | Yes       |           |           |           |      1
-  32 | [C6](#closure-6)  | Yes       |           |           |           |      1
-  33 | [C7](#closure-7)  | Yes       |           |           | Yes       |      2
-  34 | [C8](#closure-8)  | Yes       |           |           |           |      1
-  35 | [C9](#closure-9)  | Yes       |           |           |           |      1
-  36 | [C10](#closure-10) | Yes       |           |           |           |      1
-  37 | [C11](#closure-11) | Yes       |           |           |           |      1
-  38 | [C12](#closure-12) | Yes       |           |           |           |      1
-  39 | [C13](#closure-13) | Yes       |           |           |           |      1
-  40 | [C14](#closure-14) | Yes       |           |           | Yes       |      2
-  41 | [C15](#closure-15) | Yes       |           |           | Yes       |      2
-  42 | [C16](#closure-16) | Yes       |           |           |           |      1
-  43 | [C17](#closure-17) | Yes       |           |           |           |      1
-  44 | [C18](#closure-18) | Yes       |           |           |           |      1
-  45 | [C19](#closure-19) | Yes       |           |           |           |      1
-  46 | [C20](#closure-20) | Yes       |           |           |           |      1
-  47 | [C21](#closure-21) | Yes       |           |           |           |      1
-  48 | [C22](#closure-22) | Yes       |           |           |           |      1
-  49 | [C23](#closure-23) | Yes       |           |           |           |      1
-  50 | [C24](#closure-24) | Yes       |           |           |           |      1
-  51 | [C25](#closure-25) | Yes       |           |           |           |      1
-  52 | [C26](#closure-26) | Yes       |           |           |           |      1
-  53 | [C27](#closure-27) | Yes       |           |           |           |      1
-  54 | [C28](#closure-28) | Yes       |           |           |           |      1
-  55 | [C29](#closure-29) | Yes       |           |           |           |      1
-  56 | [C30](#closure-30) | Yes       |           |           |           |      1
-  57 | [C31](#closure-31) | Yes       |           |           |           |      1
-  58 | [C32](#closure-32) | Yes       |           |           |           |      1
-  59 | [C33](#closure-33) | Yes       |           |           |           |      1
-  60 | [C34](#closure-34) | Yes       |           |           |           |      1
-  61 | [C35](#closure-35) | Yes       |           |           |           |      1
-  62 | [C36](#closure-36) | Yes       |           |           | Yes       |      2
-  63 | [C37](#closure-37) | Yes       |           |           |           |      1
-  64 | [C38](#closure-38) | Yes       |           |           | Yes       |      2
-  65 | [C39](#closure-39) | Yes       |           |           |           |      1
-  66 | [C40](#closure-40) | Yes       |           |           |           |      1
-  67 | [C41](#closure-41) | Yes       |           |           |           |      1
-  68 | [C42](#closure-42) | Yes       |           |           |           |      1
-  69 | [C43](#closure-43) | Yes       |           |           |           |      1
-  70 | [C44](#closure-44) | Yes       |           |           |           |      1
-  71 | [C45](#closure-45) | Yes       |           |           |           |      1
-  72 | [C46](#closure-46) | Yes       |           |           |           |      1
-  73 | [C47](#closure-47) | Yes       |           |           |           |      1
-  74 | [C48](#closure-48) | Yes       |           |           |           |      1
-  75 | [C49](#closure-49) | Yes       |           |           |           |      1
-  76 | [C50](#closure-50) | Yes       |           |           |           |      1
-  77 | [C51](#closure-51) | Yes       |           |           |           |      1
-  78 | [C52](#closure-52) | Yes       |           |           |           |      1
-  79 | [C53](#closure-53) | Yes       |           |           |           |      1
-  80 | [C54](#closure-54) | Yes       |           |           |           |      1
-  81 | [C55](#closure-55) | Yes       |           |           |           |      1
-  82 | [C56](#closure-56) | Yes       |           |           |           |      1
-  83 | [C57](#closure-57) | Yes       |           |           |           |      1
-  84 | [C58](#closure-58) | Yes       |           |           |           |      1
-  85 | [C59](#closure-59) | Yes       |           |           |           |      1
-  86 | [C60](#closure-60) | Yes       |           |           |           |      1
-  87 | [C61](#closure-61) | Yes       |           |           |           |      1
-  88 | [C62](#closure-62) | Yes       |           |           |           |      1
-  89 | [C63](#closure-63) | Yes       |           |           |           |      1
-  90 | [C64](#closure-64) | Yes       |           |           |           |      1
-  91 | [C65](#closure-65) | Yes       |           |           |           |      1
-  92 | [C66](#closure-66) | Yes       |           |           |           |      1
-  93 | [C67](#closure-67) | Yes       |           |           |           |      1
-  94 | [C68](#closure-68) | Yes       |           |           |           |      1
-  95 | [C69](#closure-69) | Yes       |           |           |           |      1
-  96 | [C70](#closure-70) | Yes       |           |           |           |      1
-  97 | [C71](#closure-71) | Yes       |           |           |           |      1
-  98 | [C72](#closure-72) | Yes       |           |           |           |      1
-  99 | [C73](#closure-73) | Yes       |           |           |           |      1
- 100 | [C74](#closure-74) | ERROR     |           |           |           |      0
- 101 | [C75](#closure-75) | Yes       |           |           |           |      1
- 102 | [C76](#closure-76) | Yes       |           |           |           |      1
- 103 | [C77](#closure-77) | Yes       |           |           |           |      1
- 104 | [C78](#closure-78) | Yes       |           |           |           |      1
- 105 | [C79](#closure-79) | No        |           |           |           |      0
- 106 | [C80](#closure-80) | No        |           |           |           |      0
- 107 | [C81](#closure-81) | No        |           |           |           |      0
- 108 | [C82](#closure-82) | No        |           |           |           |      0
- 109 | [C83](#closure-83) | No        |           |           |           |      0
- 110 | [C84](#closure-84) | No        |           |           |           |      0
- 111 | [C85](#closure-85) | No        |           |           |           |      0
- 112 | [C86](#closure-86) | No        |           |           |           |      0
- 113 | [C87](#closure-87) | No        |           |           |           |      0
- 114 | [C88](#closure-88) | ERROR     |           |           |           |      0
- 115 | [C89](#closure-89) | No        |           |           |           |      0
- 116 | [C90](#closure-90) | ERROR     |           |           |           |      0
- 117 | [C91](#closure-91) | ERROR     |           |           |           |      0
- 118 | [C92](#closure-92) | ERROR     |           |           |           |      0
- 119 | [C93](#closure-93) | ERROR     |           |           |           |      0
- 120 | [C94](#closure-94) | ERROR     |           |           |           |      0
- 121 | [C95](#closure-95) | ERROR     |           |           |           |      0
- 122 | [C96](#closure-96) | ERROR     |           |           |           |      0
- 123 | [C97](#closure-97) | No        |           |           |           |      0
- 124 | [C98](#closure-98) | No        |           |           |           |      0
- 125 | [C99](#closure-99) | No        |           |           |           |      0
- 126 | [C100](#closure-100) | No        |           |           |           |      0
- 127 | [C101](#closure-101) | No       |           |           |           |      0
- 128 | [C102](#closure-102) | No       |           |           |           |      0
- 129 | [C103](#closure-103) | No       |           |           |           |      0
- 130 | [C104](#closure-104) | No       |           |           |           |      0
- 131 | [C105](#closure-105) | No       |           |           |           |      0
- 132 | [C106](#closure-106) | No       |           |           |           |      0
- 133 | [C107](#closure-107) | ERROR     |           |           |           |      0
- 134 | [C108](#closure-108) | No        |           |           |           |      0
- 135 | [C109](#closure-109) | Yes       |           |           |           |      1
- 136 | [C110](#closure-110) | Yes       |           |           |           |      1
- 137 | [C111](#closure-111) | Yes       |           |           | Yes       |      2
- 138 | [C112](#closure-112) | T_OUT     |           |           |           |      0
- 139 | [C113](#closure-113) | T_OUT     |           |           | ERROR     |      0
- 140 | [C114](#closure-114) | Yes       |           |           | Yes       |      2
- 141 | [C115](#closure-115) | Yes       |           |           | Yes       |      2
- 142 | [C116](#closure-116) | Yes       |           |           |           |      1
- 143 | [C117](#closure-117) | ERROR     |           |           |           |      0
- 144 | [C118](#closure-118) | T_OUT     |           |           |           |      0
- 145 | [C119](#closure-119) | Yes       |           |           | T_OUT     |      1
- 146 | [C120](#closure-120) | Yes       |           |           | Yes       |      2
- 147 | [C121](#closure-121) | Yes       |           |           | Yes       |      2
- 148 | [C122](#closure-122) | Yes       |           |           |           |      1
- 149 | [C123](#closure-123) | Yes       |           |           |           |      1
- 150 | [C124](#closure-124) | Yes       |           |           |           |      1
- 151 | [C125](#closure-125) | Yes       |           |           |           |      1
- 152 | [C126](#closure-126) | Yes       |           |           |           |      1
- 153 | [C127](#closure-127) | Yes       |           |           |           |      1
- 154 | [C128](#closure-128) | Yes       |           |           |           |      1
- 155 | [C129](#closure-129) | Yes       |           |           |           |      1
- 156 | [C130](#closure-130) | Yes       |           |           |           |      1
- 157 | [C131](#closure-131) | Yes       |           |           |           |      1
- 158 | [C132](#closure-132) | Yes       |           |           |           |      1
- 159 | [C133](#closure-133) | Yes       |           |           |           |      1
- 160 | [L1](#lang-1)     | No        |           |           |           |      0
- 161 | [L2](#lang-2)     | No        |           |           |           |      0
- 162 | [L3](#lang-3)     | No        |           |           |           |      0
- 163 | [L4](#lang-4)     | No        |           |           |           |      0
- 164 | [L5](#lang-5)     | No        |           |           |           |      0
- 165 | [L6](#lang-6)     | No        |           |           |           |      0
- 166 | [L7](#lang-7)     | No        |           |           |           |      0
- 167 | [L8](#lang-8)     | No        |           |           |           |      0
- 168 | [L9](#lang-9)     | No        |           |           |           |      0
- 169 | [L10](#lang-10)   | No        |           |           |           |      0
- 170 | [L11](#lang-11)   | No        |           |           |           |      0
- 171 | [L12](#lang-12)   | No        |           |           |           |      0
- 172 | [L13](#lang-13)   | No        |           |           |           |      0
- 173 | [L14](#lang-14)   | No        |           |           |           |      0
- 174 | [L15](#lang-15)   | No        |           |           |           |      0
- 175 | [L16](#lang-16)   | No        |           |           |           |      0
- 176 | [L17](#lang-17)   | No        |           |           |           |      0
- 177 | [L18](#lang-18)   | No        |           |           |           |      0
- 178 | [L19](#lang-19)   | No        |           |           |           |      0
- 179 | [L20](#lang-20)   | No        |           |           |           |      0
- 180 | [L21](#lang-21)   | No        |           |           |           |      0
- 181 | [L22](#lang-22)   | No        |           |           |           |      0
- 182 | [L23](#lang-23)   | No        |           |           |           |      0
- 183 | [L24](#lang-24)   | No        |           |           |           |      0
- 184 | [L25](#lang-25)   | No        |           |           |           |      0
- 185 | [L26](#lang-26)   | No        |           |           |           |      0
- 186 | [L27](#lang-27)   | No        |           |           |           |      0
- 187 | [L28](#lang-28)   | No        |           |           |           |      0
- 188 | [L29](#lang-29)   | No        |           |           |           |      0
- 189 | [L30](#lang-30)   | No        |           |           |           |      0
- 190 | [L31](#lang-31)   | No        |           |           |           |      0
- 191 | [L32](#lang-32)   | No        |           |           |           |      0
- 192 | [L33](#lang-33)   | No        |           |           |           |      0
- 193 | [L34](#lang-34)   | No        |           |           |           |      0
- 194 | [L35](#lang-35)   | No        |           |           |           |      0
- 195 | [L36](#lang-36)   | No        |           |           |           |      0
- 196 | [L37](#lang-37)   | No        |           |           |           |      0
- 197 | [L38](#lang-38)   | No        |           |           |           |      0
- 198 | [L39](#lang-39)   | Yes       |           |           |           |      1
- 199 | [L40](#lang-40)   | No        |           |           |           |      0
- 200 | [L41](#lang-41)   | No        |           |           |           |      0
- 201 | [L42](#lang-42)   | No        |           |           |           |      0
- 202 | [L43](#lang-43)   | No        |           |           |           |      0
- 203 | [L44](#lang-44)   | Yes       |           |           |           |      1
- 204 | [L45](#lang-45)   | No        |           |           |           |      0
- 205 | [L46](#lang-46)   | No        |           |           |           |      0
- 206 | [L47](#lang-47)   | No        |           |           |           |      0
- 207 | [L48](#lang-48)   | No        |           |           |           |      0
- 208 | [L49](#lang-49)   | No        |           |           |           |      0
- 209 | [L50](#lang-50)   | No        |           |           |           |      0
- 210 | [L51](#lang-51)   | Yes       |           |           |           |      1
- 211 | [L52](#lang-52)   | No        |           |           |           |      0
- 212 | [L53](#lang-53)   | No        |           |           |           |      0
- 213 | [L54](#lang-54)   | No        |           |           |           |      0
- 214 | [L55](#lang-55)   | Yes       |           |           |           |      1
- 215 | [L56](#lang-56)   | No        |           |           |           |      0
- 216 | [L57](#lang-57)   | No        |           |           |           |      0
- 217 | [L58](#lang-58)   | Yes       |           |           |           |      1
- 218 | [L59](#lang-59)   | No        |           |           |           |      0
- 219 | [L60](#lang-60)   | No        |           |           |           |      0
- 220 | [L61](#lang-61)   | No        |           |           |           |      0
- 221 | [L62](#lang-62)   | No        |           |           |           |      0
- 222 | [L63](#lang-63)   | Yes       |           |           |           |      1
- 223 | [L64](#lang-64)   | No        |           |           |           |      0
- 224 | [L65](#lang-65)   | No        |           |           |           |      0
- 225 | [M1](#math-1)     | No        |           |           |           |      0
- 226 | [M2](#math-2)     | Yes       |           |           |           |      1
- 227 | [M3](#math-3)     | No        |           |           |           |      0
- 228 | [M4](#math-4)     | Yes       |           |           |           |      1
- 229 | [M5](#math-5)     | Yes       |           |           |           |      1
- 230 | [M6](#math-6)     | T_OUT     |           |           |           |      0
- 231 | [M7](#math-7)     | T_OUT     |           |           |           |      0
- 232 | [M8](#math-8)     | No        |           |           |           |      0
- 233 | [M9](#math-9)     | No        |           |           |           |      0
- 234 | [M10](#math-10)   | No        |           |           |           |      0
- 235 | [M11](#math-11)   | No        |           |           |           |      0
- 236 | [M12](#math-12)   | T_OUT     |           |           |           |      0
- 237 | [M13](#math-13)   | No        |           |           |           |      0
- 238 | [M14](#math-14)   | No        |           |           |           |      0
- 239 | [M15](#math-15)   | No        |           |           |           |      0
- 240 | [M16](#math-16)   | No        |           |           |           |      0
- 241 | [M17](#math-17)   | No        |           |           |           |      0
- 242 | [M18](#math-18)   | No        |           |           |           |      0
- 243 | [M19](#math-19)   | No        |           |           |           |      0
- 244 | [M20](#math-20)   | No        |           |           |           |      0
- 245 | [M21](#math-21)   | No        |           |           |           |      0
- 246 | [M22](#math-22)   | No        |           |           |           |      0
- 247 | [M23](#math-23)   | No        |           |           |           |      0
- 248 | [M24](#math-24)   | Yes       |           |           |           |      1
- 249 | [M25](#math-25)   | No        |           |           |           |      0
- 250 | [M26](#math-26)   | No        |           |           |           |      0
- 251 | [M27](#math-27)   | T_OUT     |           |           |           |      0
- 252 | [M28](#math-28)   | Yes       |           |           |           |      1
- 253 | [M29](#math-29)   | No        |           |           |           |      0
- 254 | [M30](#math-30)   | T_OUT     |           |           |           |      0
- 255 | [M31](#math-31)   | T_OUT     |           |           |           |      0
- 256 | [M32](#math-32)   | Yes       |           |           |           |      1
- 257 | [M33](#math-33)   | Yes       |           |           |           |      1
- 258 | [M34](#math-34)   | No        |           |           |           |      0
- 259 | [M35](#math-35)   | No        |           |           |           |      0
- 260 | [M36](#math-36)   | No        |           |           |           |      0
- 261 | [M37](#math-37)   | No        |           |           |           |      0
- 262 | [M38](#math-38)   | No        |           |           |           |      0
- 263 | [M39](#math-39)   | ERROR     |           |           |           |      0
- 264 | [M40](#math-40)   | Yes       |           |           |           |      1
- 265 | [M41](#math-41)   | Yes       |           |           |           |      1
- 266 | [M42](#math-42)   | Yes       |           |           |           |      1
- 267 | [M43](#math-43)   | No        |           |           |           |      0
- 268 | [M44](#math-44)   | Yes       |           |           |           |      1
- 269 | [M45](#math-45)   | No        |           |           |           |      0
- 270 | [M46](#math-46)   | Yes       |           |           |           |      1
- 271 | [M47](#math-47)   | No        |           |           |           |      0
- 272 | [M48](#math-48)   | No        |           |           |           |      0
- 273 | [M49](#math-49)   | Yes       |           |           |           |      1
- 274 | [M50](#math-50)   | Yes       |           |           |           |      1
- 275 | [M51](#math-51)   | No        |           |           |           |      0
- 276 | [M52](#math-52)   | No        |           |           |           |      0
- 277 | [M53](#math-53)   | No        |           |           |           |      0
- 278 | [M54](#math-54)   | No        |           |           |           |      0
- 279 | [M55](#math-55)   | No        |           |           |           |      0
- 280 | [M56](#math-56)   | No        |           |           |           |      0
- 281 | [M57](#math-57)   | Yes       |           |           |           |      1
- 282 | [M58](#math-58)   | Yes       |           |           |           |      1
- 283 | [M59](#math-59)   | No        |           |           |           |      0
- 284 | [M60](#math-60)   | No        |           |           |           |      0
- 285 | [M61](#math-61)   | No        |           |           |           |      0
- 286 | [M62](#math-62)   | No        |           |           |           |      0
- 287 | [M63](#math-63)   | No        |           |           |           |      0
- 288 | [M64](#math-64)   | No        |           |           |           |      0
- 289 | [M65](#math-65)   | No        |           |           |           |      0
- 290 | [M66](#math-66)   | No        |           |           |           |      0
- 291 | [M67](#math-67)   | No        |           |           |           |      0
- 292 | [M68](#math-68)   | No        |           |           |           |      0
- 293 | [M69](#math-69)   | Yes       |           |           |           |      1
- 294 | [M70](#math-70)   | No        |           |           |           |      0
- 295 | [M71](#math-71)   | Yes       |           |           |           |      1
- 296 | [M72](#math-72)   | No        |           |           |           |      0
- 297 | [M73](#math-73)   | No        |           |           |           |      0
- 298 | [M74](#math-74)   | T_OUT     |           |           |           |      0
- 299 | [M75](#math-75)   | No        |           |           |           |      0
- 300 | [M76](#math-76)   | No        |           |           |           |      0
- 301 | [M77](#math-77)   | No        |           |           |           |      0
- 302 | [M78](#math-78)   | Yes       |           |           |           |      1
- 303 | [M79](#math-79)   | No        |           |           |           |      0
- 304 | [M80](#math-80)   | Yes       |           |           |           |      1
- 305 | [M81](#math-81)   | No       |           |           |           |      0
- 306 | [M82](#math-82)   | Yes       |           |           |           |      1
- 307 | [M83](#math-83)   | No        |           |           |           |      0
- 308 | [M84](#math-84)   | No        |           |           |           |      0
- 309 | [M85](#math-85)   | Yes       |           |           |           |      1
- 310 | [M86](#math-86)   | No        |           |           |           |      0
- 311 | [M87](#math-87)   | Yes       |           |           |           |      1
- 312 | [M88](#math-88)   | Yes       |           |           |           |      1
- 313 | [M89](#math-89)   | No        |           |           |           |      0
- 314 | [M90](#math-90)   | No        |           |           |           |      0
- 315 | [M91](#math-91)   | No        |           |           |           |      0
- 316 | [M92](#math-92)   | No        |           |           |           |      0
- 317 | [M93](#math-93)   | No        |           |           |           |      0
- 318 | [M94](#math-94)   | No        |           |           |           |      0
- 319 | [M95](#math-95)   | No        |           |           |           |      0
- 320 | [M96](#math-96)   | Yes       |           |           |           |      1
- 321 | [M97](#math-97)   | Yes       |           |           |           |      1
- 322 | [M98](#math-98)   | No        |           |           |           |      0
- 323 | [M99](#math-99)   | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0
- 324 | [M100](#math-100) | No        |           |           |           |      0
- 325 | [M101](#math-101) | Yes       |           |           |           |      1
- 326 | [M102](#math-102) | No        |           |           |           |      0
- 327 | [M103](#math-103) | No        |           |           |           |      0
- 328 | [M104](#math-104) | No        |           |           |           |      0
- 329 | [M105](#math-105) | Yes       |           |           |           |      1
- 330 | [M106](#math-106) | No       |           |           |           |      0
- 331 | [M1](#mockito-1)  | ERROR     |           |           |           |      0
- 332 | [M2](#mockito-2)  | No        |           |           |           |      0
- 333 | [M3](#mockito-3)  | ERROR     |           |           |           |      0
- 334 | [M4](#mockito-4)  | No        |           |           |           |      0
- 335 | [M5](#mockito-5)  | No        |           |           |           |      0
- 336 | [M6](#mockito-6)  | No        |           |           |           |      0
- 337 | [M7](#mockito-7)  | No        |           |           |           |      0
- 338 | [M8](#mockito-8)  | No        |           |           |           |      0
- 339 | [M9](#mockito-9)  | No        |           |           |           |      0
- 340 | [M10](#mockito-10) | No        |           |           |           |      0
- 341 | [M11](#mockito-11) | No        |           |           |           |      0
- 342 | [M12](#mockito-12) | No        |           |           |           |      0
- 343 | [M13](#mockito-13) | No        |           |           |           |      0
- 344 | [M14](#mockito-14) | No        |           |           |           |      0
- 345 | [M15](#mockito-15) | No        |           |           |           |      0
- 346 | [M16](#mockito-16) | No        |           |           |           |      0
- 347 | [M17](#mockito-17) | No        |           |           |           |      0
- 348 | [M18](#mockito-18) | ERROR     |           |           |           |      0
- 349 | [M19](#mockito-19) | ERROR     |           |           |           |      0
- 350 | [M20](#mockito-20) | ERROR     |           |           |           |      0
- 351 | [M21](#mockito-21) | No        |           |           |           |      0
- 352 | [M22](#mockito-22) | No        |           |           |           |      0
- 353 | [M23](#mockito-23) | No        |           |           |           |      0
- 354 | [M24](#mockito-24) | No        |           |           |           |      0
- 355 | [M25](#mockito-25) | No        |           |           |           |      0
- 356 | [M26](#mockito-26) | No        |           |           |           |      0
- 357 | [M27](#mockito-27) | No       |           |           |           |      0
- 358 | [M28](#mockito-28) | No        |           |           |           |      0
- 359 | [M29](#mockito-29) | Yes       |           |           |           |      1
- 360 | [M30](#mockito-30) | No        |           |           |           |      0
- 361 | [M31](#mockito-31) | No        |           |           |           |      0
- 362 | [M32](#mockito-32) | No        |           |           |           |      0
- 363 | [M33](#mockito-33) | No        |           |           |           |      0
- 364 | [M34](#mockito-34) | No        |           |           |           |      0
- 365 | [M35](#mockito-35) | No        |           |           |           |      0
- 366 | [M36](#mockito-36) | No        |           |           |           |      0
- 367 | [M37](#mockito-37) | No        |           |           |           |      0
- 368 | [M38](#mockito-38) | Yes       |           |           |           |      1
- 369 | [T1](#time-1)     | No        |           |           |           |      0
- 370 | [T2](#time-2)     | No        |           |           |           |      0
- 371 | [T3](#time-3)     | No       |           |           |           |      0
- 372 | [T4](#time-4)     | Yes       |           |           |           |      1
- 373 | [T5](#time-5)     | T_OUT     |           |           |           |      0
- 374 | [T6](#time-6)     | No      |           |           |           |      0
- 375 | [T7](#time-7)     | Yes       |           |           |           |      1
- 376 | [T8](#time-8)     | No       |           |           |           |      0
- 377 | [T9](#time-9)     | No       |           |           |           |      0
- 378 | [T10](#time-10)   | No       |           |           |           |      0
- 379 | [T11](#time-11)   | Yes       |           |           |           |      1
- 380 | [T12](#time-12)   | T_OUT     |           |           | Yes       |      1
- 381 | [T13](#time-13)   | No       |           |           |           |      0
- 382 | [T14](#time-14)   | Yes       |           |           |           |      1
- 383 | [T15](#time-15)   | No       |           |           |           |      0
- 384 | [T16](#time-16)   | Yes       |           |           |           |      1
- 385 | [T17](#time-17)   | No       |           |           |           |      0
- 386 | [T18](#time-18)   | T_OUT     |           |           | Yes       |      1
- 387 | [T19](#time-19)   | T_OUT     |           |           | Yes       |      1
- 388 | [T20](#time-20)   | No       |           |           |           |      0
- 389 | [T21](#time-21)   | No       |           |           |           |      0
- 390 | [T22](#time-22)   | No       |           |           |           |      0
- 391 | [T23](#time-23)   | No       |           |           |           |      0
- 392 | [T24](#time-24)   | No       |           |           |           |      0
- 393 | [T25](#time-25)   | No       |           |           |           |      0
- 394 | [T26](#time-26)   | No       |           |           |           |      0
- 395 | [T27](#time-27)   | No       |           |           |           |      0
-     | Total             | 150 (37%) | 0 (0%)    | 0 (0%)    | 13 (3%)   |    163
+| #   | BugId             | DynaMoth  | jGenProg  | jKali     | Nopol     | Total  |
+| --- | ----------------- | --------- | --------- | --------- | --------- | ------ |
+|   1 | [C1](#chart-1)    | Yes       |           |           |           |      1 |
+|   2 | [C2](#chart-2)    | T_OUT     |           |           |           |      0 |
+|   3 | [C3](#chart-3)    | T_OUT     |           |           |           |      0 |
+|   4 | [C4](#chart-4)    | Yes       |           |           |           |      1 |
+|   5 | [C5](#chart-5)    | Yes       |           |           |           |      1 |
+|   6 | [C6](#chart-6)    | Yes       |           |           |           |      1 |
+|   7 | [C7](#chart-7)    | No        |           |           |           |      0 |
+|   8 | [C8](#chart-8)    | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0 |
+|   9 | [C9](#chart-9)    | Yes       |           |           |           |      1 |
+|  10 | [C10](#chart-10)  | No        |           |           |           |      0 |
+|  11 | [C11](#chart-11)  | No        |           |           |           |      0 |
+|  12 | [C12](#chart-12)  | No        |           |           |           |      0 |
+|  13 | [C13](#chart-13)  | Yes       |           |           |           |      1 |
+|  14 | [C14](#chart-14)  | No        |           |           |           |      0 |
+|  15 | [C15](#chart-15)  | Yes       |           |           |           |      1 |
+|  16 | [C16](#chart-16)  | No        |           |           |           |      0 |
+|  17 | [C17](#chart-17)  | Yes       |           |           |           |      1 |
+|  18 | [C18](#chart-18)  | No        |           |           |           |      0 |
+|  19 | [C19](#chart-19)  | No        |           |           |           |      0 |
+|  20 | [C20](#chart-20)  | No        |           |           |           |      0 |
+|  21 | [C21](#chart-21)  | Yes       |           |           |           |      1 |
+|  22 | [C22](#chart-22)  | No        |           |           |           |      0 |
+|  23 | [C23](#chart-23)  | No        |           |           |           |      0 |
+|  24 | [C24](#chart-24)  | No        |           |           |           |      0 |
+|  25 | [C25](#chart-25)  | Yes       |           |           |           |      1 |
+|  26 | [C26](#chart-26)  | Yes       |           |           |           |      1 |
+|  27 | [C1](#closure-1)  | Yes       |           |           |           |      1 |
+|  28 | [C2](#closure-2)  | Yes       |           |           | T_OUT     |      1 |
+|  29 | [C3](#closure-3)  | Yes       |           |           |           |      1 |
+|  30 | [C4](#closure-4)  | Yes       |           |           |           |      1 |
+|  31 | [C5](#closure-5)  | Yes       |           |           |           |      1 |
+|  32 | [C6](#closure-6)  | Yes       |           |           |           |      1 |
+|  33 | [C7](#closure-7)  | Yes       |           |           | Yes       |      2 |
+|  34 | [C8](#closure-8)  | Yes       |           |           |           |      1 |
+|  35 | [C9](#closure-9)  | Yes       |           |           |           |      1 |
+|  36 | [C10](#closure-10) | Yes       |           |           |           |      1 |
+|  37 | [C11](#closure-11) | Yes       |           |           |           |      1 |
+|  38 | [C12](#closure-12) | Yes       |           |           |           |      1 |
+|  39 | [C13](#closure-13) | Yes       |           |           |           |      1 |
+|  40 | [C14](#closure-14) | Yes       |           |           | Yes       |      2 |
+|  41 | [C15](#closure-15) | Yes       |           |           | Yes       |      2 |
+|  42 | [C16](#closure-16) | Yes       |           |           |           |      1 |
+|  43 | [C17](#closure-17) | Yes       |           |           |           |      1 |
+|  44 | [C18](#closure-18) | Yes       |           |           |           |      1 |
+|  45 | [C19](#closure-19) | Yes       |           |           |           |      1 |
+|  46 | [C20](#closure-20) | Yes       |           |           |           |      1 |
+|  47 | [C21](#closure-21) | Yes       |           |           |           |      1 |
+|  48 | [C22](#closure-22) | Yes       |           |           |           |      1 |
+|  49 | [C23](#closure-23) | Yes       |           |           |           |      1 |
+|  50 | [C24](#closure-24) | Yes       |           |           |           |      1 |
+|  51 | [C25](#closure-25) | Yes       |           |           |           |      1 |
+|  52 | [C26](#closure-26) | Yes       |           |           |           |      1 |
+|  53 | [C27](#closure-27) | Yes       |           |           |           |      1 |
+|  54 | [C28](#closure-28) | Yes       |           |           |           |      1 |
+|  55 | [C29](#closure-29) | Yes       |           |           |           |      1 |
+|  56 | [C30](#closure-30) | Yes       |           |           |           |      1 |
+|  57 | [C31](#closure-31) | Yes       |           |           |           |      1 |
+|  58 | [C32](#closure-32) | Yes       |           |           |           |      1 |
+|  59 | [C33](#closure-33) | Yes       |           |           |           |      1 |
+|  60 | [C34](#closure-34) | Yes       |           |           |           |      1 |
+|  61 | [C35](#closure-35) | Yes       |           |           |           |      1 |
+|  62 | [C36](#closure-36) | Yes       |           |           | Yes       |      2 |
+|  63 | [C37](#closure-37) | Yes       |           |           |           |      1 |
+|  64 | [C38](#closure-38) | Yes       |           |           | Yes       |      2 |
+|  65 | [C39](#closure-39) | Yes       |           |           |           |      1 |
+|  66 | [C40](#closure-40) | Yes       |           |           |           |      1 |
+|  67 | [C41](#closure-41) | Yes       |           |           |           |      1 |
+|  68 | [C42](#closure-42) | Yes       |           |           |           |      1 |
+|  69 | [C43](#closure-43) | Yes       |           |           |           |      1 |
+|  70 | [C44](#closure-44) | Yes       |           |           |           |      1 |
+|  71 | [C45](#closure-45) | Yes       |           |           |           |      1 |
+|  72 | [C46](#closure-46) | Yes       |           |           |           |      1 |
+|  73 | [C47](#closure-47) | Yes       |           |           |           |      1 |
+|  74 | [C48](#closure-48) | Yes       |           |           |           |      1 |
+|  75 | [C49](#closure-49) | Yes       |           |           |           |      1 |
+|  76 | [C50](#closure-50) | Yes       |           |           |           |      1 |
+|  77 | [C51](#closure-51) | Yes       |           |           |           |      1 |
+|  78 | [C52](#closure-52) | Yes       |           |           |           |      1 |
+|  79 | [C53](#closure-53) | Yes       |           |           |           |      1 |
+|  80 | [C54](#closure-54) | Yes       |           |           |           |      1 |
+|  81 | [C55](#closure-55) | Yes       |           |           |           |      1 |
+|  82 | [C56](#closure-56) | Yes       |           |           |           |      1 |
+|  83 | [C57](#closure-57) | Yes       |           |           |           |      1 |
+|  84 | [C58](#closure-58) | Yes       |           |           |           |      1 |
+|  85 | [C59](#closure-59) | Yes       |           |           |           |      1 |
+|  86 | [C60](#closure-60) | Yes       |           |           |           |      1 |
+|  87 | [C61](#closure-61) | Yes       |           |           |           |      1 |
+|  88 | [C62](#closure-62) | Yes       |           |           |           |      1 |
+|  89 | [C63](#closure-63) | Yes       |           |           |           |      1 |
+|  90 | [C64](#closure-64) | Yes       |           |           |           |      1 |
+|  91 | [C65](#closure-65) | Yes       |           |           |           |      1 |
+|  92 | [C66](#closure-66) | Yes       |           |           |           |      1 |
+|  93 | [C67](#closure-67) | Yes       |           |           |           |      1 |
+|  94 | [C68](#closure-68) | Yes       |           |           |           |      1 |
+|  95 | [C69](#closure-69) | Yes       |           |           |           |      1 |
+|  96 | [C70](#closure-70) | Yes       |           |           |           |      1 |
+|  97 | [C71](#closure-71) | Yes       |           |           |           |      1 |
+|  98 | [C72](#closure-72) | Yes       |           |           |           |      1 |
+|  99 | [C73](#closure-73) | Yes       |           |           |           |      1 |
+| 100 | [C74](#closure-74) | ERROR     |           |           |           |      0 |
+| 101 | [C75](#closure-75) | Yes       |           |           |           |      1 |
+| 102 | [C76](#closure-76) | Yes       |           |           |           |      1 |
+| 103 | [C77](#closure-77) | Yes       |           |           |           |      1 |
+| 104 | [C78](#closure-78) | Yes       |           |           |           |      1 |
+| 105 | [C79](#closure-79) | No        |           |           |           |      0 |
+| 106 | [C80](#closure-80) | No        |           |           |           |      0 |
+| 107 | [C81](#closure-81) | No        |           |           |           |      0 |
+| 108 | [C82](#closure-82) | No        |           |           |           |      0 |
+| 109 | [C83](#closure-83) | No        |           |           |           |      0 |
+| 110 | [C84](#closure-84) | No        |           |           |           |      0 |
+| 111 | [C85](#closure-85) | No        |           |           |           |      0 |
+| 112 | [C86](#closure-86) | No        |           |           |           |      0 |
+| 113 | [C87](#closure-87) | No        |           |           |           |      0 |
+| 114 | [C88](#closure-88) | ERROR     |           |           |           |      0 |
+| 115 | [C89](#closure-89) | No        |           |           |           |      0 |
+| 116 | [C90](#closure-90) | ERROR     |           |           |           |      0 |
+| 117 | [C91](#closure-91) | ERROR     |           |           |           |      0 |
+| 118 | [C92](#closure-92) | ERROR     |           |           |           |      0 |
+| 119 | [C93](#closure-93) | ERROR     |           |           |           |      0 |
+| 120 | [C94](#closure-94) | ERROR     |           |           |           |      0 |
+| 121 | [C95](#closure-95) | ERROR     |           |           |           |      0 |
+| 122 | [C96](#closure-96) | ERROR     |           |           |           |      0 |
+| 123 | [C97](#closure-97) | No        |           |           |           |      0 |
+| 124 | [C98](#closure-98) | No        |           |           |           |      0 |
+| 125 | [C99](#closure-99) | No        |           |           |           |      0 |
+| 126 | [C100](#closure-100) | No        |           |           |           |      0 |
+| 127 | [C101](#closure-101) | No       |           |           |           |      0 |
+| 128 | [C102](#closure-102) | No       |           |           |           |      0 |
+| 129 | [C103](#closure-103) | No       |           |           |           |      0 |
+| 130 | [C104](#closure-104) | No       |           |           |           |      0 |
+| 131 | [C105](#closure-105) | No       |           |           |           |      0 |
+| 132 | [C106](#closure-106) | No       |           |           |           |      0 |
+| 133 | [C107](#closure-107) | ERROR     |           |           |           |      0 |
+| 134 | [C108](#closure-108) | No        |           |           |           |      0 |
+| 135 | [C109](#closure-109) | Yes       |           |           |           |      1 |
+| 136 | [C110](#closure-110) | Yes       |           |           |           |      1 |
+| 137 | [C111](#closure-111) | Yes       |           |           | Yes       |      2 |
+| 138 | [C112](#closure-112) | T_OUT     |           |           |           |      0 |
+| 139 | [C113](#closure-113) | T_OUT     |           |           | ERROR     |      0 |
+| 140 | [C114](#closure-114) | Yes       |           |           | Yes       |      2 |
+| 141 | [C115](#closure-115) | Yes       |           |           | Yes       |      2 |
+| 142 | [C116](#closure-116) | Yes       |           |           |           |      1 |
+| 143 | [C117](#closure-117) | ERROR     |           |           |           |      0 |
+| 144 | [C118](#closure-118) | T_OUT     |           |           |           |      0 |
+| 145 | [C119](#closure-119) | Yes       |           |           | T_OUT     |      1 |
+| 146 | [C120](#closure-120) | Yes       |           |           | Yes       |      2 |
+| 147 | [C121](#closure-121) | Yes       |           |           | Yes       |      2 |
+| 148 | [C122](#closure-122) | Yes       |           |           |           |      1 |
+| 149 | [C123](#closure-123) | Yes       |           |           |           |      1 |
+| 150 | [C124](#closure-124) | Yes       |           |           |           |      1 |
+| 151 | [C125](#closure-125) | Yes       |           |           |           |      1 |
+| 152 | [C126](#closure-126) | Yes       |           |           |           |      1 |
+| 153 | [C127](#closure-127) | Yes       |           |           |           |      1 |
+| 154 | [C128](#closure-128) | Yes       |           |           |           |      1 |
+| 155 | [C129](#closure-129) | Yes       |           |           |           |      1 |
+| 156 | [C130](#closure-130) | Yes       |           |           |           |      1 |
+| 157 | [C131](#closure-131) | Yes       |           |           |           |      1 |
+| 158 | [C132](#closure-132) | Yes       |           |           |           |      1 |
+| 159 | [C133](#closure-133) | Yes       |           |           |           |      1 |
+| 160 | [L1](#lang-1)     | No        |           |           |           |      0 |
+| 161 | [L2](#lang-2)     | No        |           |           |           |      0 |
+| 162 | [L3](#lang-3)     | No        |           |           |           |      0 |
+| 163 | [L4](#lang-4)     | No        |           |           |           |      0 |
+| 164 | [L5](#lang-5)     | No        |           |           |           |      0 |
+| 165 | [L6](#lang-6)     | No        |           |           |           |      0 |
+| 166 | [L7](#lang-7)     | No        |           |           |           |      0 |
+| 167 | [L8](#lang-8)     | No        |           |           |           |      0 |
+| 168 | [L9](#lang-9)     | No        |           |           |           |      0 |
+| 169 | [L10](#lang-10)   | No        |           |           |           |      0 |
+| 170 | [L11](#lang-11)   | No        |           |           |           |      0 |
+| 171 | [L12](#lang-12)   | No        |           |           |           |      0 |
+| 172 | [L13](#lang-13)   | No        |           |           |           |      0 |
+| 173 | [L14](#lang-14)   | No        |           |           |           |      0 |
+| 174 | [L15](#lang-15)   | No        |           |           |           |      0 |
+| 175 | [L16](#lang-16)   | No        |           |           |           |      0 |
+| 176 | [L17](#lang-17)   | No        |           |           |           |      0 |
+| 177 | [L18](#lang-18)   | No        |           |           |           |      0 |
+| 178 | [L19](#lang-19)   | No        |           |           |           |      0 |
+| 179 | [L20](#lang-20)   | No        |           |           |           |      0 |
+| 180 | [L21](#lang-21)   | No        |           |           |           |      0 |
+| 181 | [L22](#lang-22)   | No        |           |           |           |      0 |
+| 182 | [L23](#lang-23)   | No        |           |           |           |      0 |
+| 183 | [L24](#lang-24)   | No        |           |           |           |      0 |
+| 184 | [L25](#lang-25)   | No        |           |           |           |      0 |
+| 185 | [L26](#lang-26)   | No        |           |           |           |      0 |
+| 186 | [L27](#lang-27)   | No        |           |           |           |      0 |
+| 187 | [L28](#lang-28)   | No        |           |           |           |      0 |
+| 188 | [L29](#lang-29)   | No        |           |           |           |      0 |
+| 189 | [L30](#lang-30)   | No        |           |           |           |      0 |
+| 190 | [L31](#lang-31)   | No        |           |           |           |      0 |
+| 191 | [L32](#lang-32)   | No        |           |           |           |      0 |
+| 192 | [L33](#lang-33)   | No        |           |           |           |      0 |
+| 193 | [L34](#lang-34)   | No        |           |           |           |      0 |
+| 194 | [L35](#lang-35)   | No        |           |           |           |      0 |
+| 195 | [L36](#lang-36)   | No        |           |           |           |      0 |
+| 196 | [L37](#lang-37)   | No        |           |           |           |      0 |
+| 197 | [L38](#lang-38)   | No        |           |           |           |      0 |
+| 198 | [L39](#lang-39)   | Yes       |           |           |           |      1 |
+| 199 | [L40](#lang-40)   | No        |           |           |           |      0 |
+| 200 | [L41](#lang-41)   | No        |           |           |           |      0 |
+| 201 | [L42](#lang-42)   | No        |           |           |           |      0 |
+| 202 | [L43](#lang-43)   | No        |           |           |           |      0 |
+| 203 | [L44](#lang-44)   | Yes       |           |           |           |      1 |
+| 204 | [L45](#lang-45)   | No        |           |           |           |      0 |
+| 205 | [L46](#lang-46)   | No        |           |           |           |      0 |
+| 206 | [L47](#lang-47)   | No        |           |           |           |      0 |
+| 207 | [L48](#lang-48)   | No        |           |           |           |      0 |
+| 208 | [L49](#lang-49)   | No        |           |           |           |      0 |
+| 209 | [L50](#lang-50)   | No        |           |           |           |      0 |
+| 210 | [L51](#lang-51)   | Yes       |           |           |           |      1 |
+| 211 | [L52](#lang-52)   | No        |           |           |           |      0 |
+| 212 | [L53](#lang-53)   | No        |           |           |           |      0 |
+| 213 | [L54](#lang-54)   | No        |           |           |           |      0 |
+| 214 | [L55](#lang-55)   | Yes       |           |           |           |      1 |
+| 215 | [L56](#lang-56)   | No        |           |           |           |      0 |
+| 216 | [L57](#lang-57)   | No        |           |           |           |      0 |
+| 217 | [L58](#lang-58)   | Yes       |           |           |           |      1 |
+| 218 | [L59](#lang-59)   | No        |           |           |           |      0 |
+| 219 | [L60](#lang-60)   | No        |           |           |           |      0 |
+| 220 | [L61](#lang-61)   | No        |           |           |           |      0 |
+| 221 | [L62](#lang-62)   | No        |           |           |           |      0 |
+| 222 | [L63](#lang-63)   | Yes       |           |           |           |      1 |
+| 223 | [L64](#lang-64)   | No        |           |           |           |      0 |
+| 224 | [L65](#lang-65)   | No        |           |           |           |      0 |
+| 225 | [M1](#math-1)     | No        |           |           |           |      0 |
+| 226 | [M2](#math-2)     | Yes       |           |           |           |      1 |
+| 227 | [M3](#math-3)     | No        |           |           |           |      0 |
+| 228 | [M4](#math-4)     | Yes       |           |           |           |      1 |
+| 229 | [M5](#math-5)     | Yes       |           |           |           |      1 |
+| 230 | [M6](#math-6)     | T_OUT     |           |           |           |      0 |
+| 231 | [M7](#math-7)     | T_OUT     |           |           |           |      0 |
+| 232 | [M8](#math-8)     | No        |           |           |           |      0 |
+| 233 | [M9](#math-9)     | No        |           |           |           |      0 |
+| 234 | [M10](#math-10)   | No        |           |           |           |      0 |
+| 235 | [M11](#math-11)   | No        |           |           |           |      0 |
+| 236 | [M12](#math-12)   | T_OUT     |           |           |           |      0 |
+| 237 | [M13](#math-13)   | No        |           |           |           |      0 |
+| 238 | [M14](#math-14)   | No        |           |           |           |      0 |
+| 239 | [M15](#math-15)   | No        |           |           |           |      0 |
+| 240 | [M16](#math-16)   | No        |           |           |           |      0 |
+| 241 | [M17](#math-17)   | No        |           |           |           |      0 |
+| 242 | [M18](#math-18)   | No        |           |           |           |      0 |
+| 243 | [M19](#math-19)   | No        |           |           |           |      0 |
+| 244 | [M20](#math-20)   | No        |           |           |           |      0 |
+| 245 | [M21](#math-21)   | No        |           |           |           |      0 |
+| 246 | [M22](#math-22)   | No        |           |           |           |      0 |
+| 247 | [M23](#math-23)   | No        |           |           |           |      0 |
+| 248 | [M24](#math-24)   | Yes       |           |           |           |      1 |
+| 249 | [M25](#math-25)   | No        |           |           |           |      0 |
+| 250 | [M26](#math-26)   | No        |           |           |           |      0 |
+| 251 | [M27](#math-27)   | T_OUT     |           |           |           |      0 |
+| 252 | [M28](#math-28)   | Yes       |           |           |           |      1 |
+| 253 | [M29](#math-29)   | No        |           |           |           |      0 |
+| 254 | [M30](#math-30)   | T_OUT     |           |           |           |      0 |
+| 255 | [M31](#math-31)   | T_OUT     |           |           |           |      0 |
+| 256 | [M32](#math-32)   | Yes       |           |           |           |      1 |
+| 257 | [M33](#math-33)   | Yes       |           |           |           |      1 |
+| 258 | [M34](#math-34)   | No        |           |           |           |      0 |
+| 259 | [M35](#math-35)   | No        |           |           |           |      0 |
+| 260 | [M36](#math-36)   | No        |           |           |           |      0 |
+| 261 | [M37](#math-37)   | No        |           |           |           |      0 |
+| 262 | [M38](#math-38)   | No        |           |           |           |      0 |
+| 263 | [M39](#math-39)   | ERROR     |           |           |           |      0 |
+| 264 | [M40](#math-40)   | Yes       |           |           |           |      1 |
+| 265 | [M41](#math-41)   | Yes       |           |           |           |      1 |
+| 266 | [M42](#math-42)   | Yes       |           |           |           |      1 |
+| 267 | [M43](#math-43)   | No        |           |           |           |      0 |
+| 268 | [M44](#math-44)   | Yes       |           |           |           |      1 |
+| 269 | [M45](#math-45)   | No        |           |           |           |      0 |
+| 270 | [M46](#math-46)   | Yes       |           |           |           |      1 |
+| 271 | [M47](#math-47)   | No        |           |           |           |      0 |
+| 272 | [M48](#math-48)   | No        |           |           |           |      0 |
+| 273 | [M49](#math-49)   | Yes       |           |           |           |      1 |
+| 274 | [M50](#math-50)   | Yes       |           |           |           |      1 |
+| 275 | [M51](#math-51)   | No        |           |           |           |      0 |
+| 276 | [M52](#math-52)   | No        |           |           |           |      0 |
+| 277 | [M53](#math-53)   | No        |           |           |           |      0 |
+| 278 | [M54](#math-54)   | No        |           |           |           |      0 |
+| 279 | [M55](#math-55)   | No        |           |           |           |      0 |
+| 280 | [M56](#math-56)   | No        |           |           |           |      0 |
+| 281 | [M57](#math-57)   | Yes       |           |           |           |      1 |
+| 282 | [M58](#math-58)   | Yes       |           |           |           |      1 |
+| 283 | [M59](#math-59)   | No        |           |           |           |      0 |
+| 284 | [M60](#math-60)   | No        |           |           |           |      0 |
+| 285 | [M61](#math-61)   | No        |           |           |           |      0 |
+| 286 | [M62](#math-62)   | No        |           |           |           |      0 |
+| 287 | [M63](#math-63)   | No        |           |           |           |      0 |
+| 288 | [M64](#math-64)   | No        |           |           |           |      0 |
+| 289 | [M65](#math-65)   | No        |           |           |           |      0 |
+| 290 | [M66](#math-66)   | No        |           |           |           |      0 |
+| 291 | [M67](#math-67)   | No        |           |           |           |      0 |
+| 292 | [M68](#math-68)   | No        |           |           |           |      0 |
+| 293 | [M69](#math-69)   | Yes       |           |           |           |      1 |
+| 294 | [M70](#math-70)   | No        |           |           |           |      0 |
+| 295 | [M71](#math-71)   | Yes       |           |           |           |      1 |
+| 296 | [M72](#math-72)   | No        |           |           |           |      0 |
+| 297 | [M73](#math-73)   | No        |           |           |           |      0 |
+| 298 | [M74](#math-74)   | T_OUT     |           |           |           |      0 |
+| 299 | [M75](#math-75)   | No        |           |           |           |      0 |
+| 300 | [M76](#math-76)   | No        |           |           |           |      0 |
+| 301 | [M77](#math-77)   | No        |           |           |           |      0 |
+| 302 | [M78](#math-78)   | Yes       |           |           |           |      1 |
+| 303 | [M79](#math-79)   | No        |           |           |           |      0 |
+| 304 | [M80](#math-80)   | Yes       |           |           |           |      1 |
+| 305 | [M81](#math-81)   | No       |           |           |           |      0 |
+| 306 | [M82](#math-82)   | Yes       |           |           |           |      1 |
+| 307 | [M83](#math-83)   | No        |           |           |           |      0 |
+| 308 | [M84](#math-84)   | No        |           |           |           |      0 |
+| 309 | [M85](#math-85)   | Yes       |           |           |           |      1 |
+| 310 | [M86](#math-86)   | No        |           |           |           |      0 |
+| 311 | [M87](#math-87)   | Yes       |           |           |           |      1 |
+| 312 | [M88](#math-88)   | Yes       |           |           |           |      1 |
+| 313 | [M89](#math-89)   | No        |           |           |           |      0 |
+| 314 | [M90](#math-90)   | No        |           |           |           |      0 |
+| 315 | [M91](#math-91)   | No        |           |           |           |      0 |
+| 316 | [M92](#math-92)   | No        |           |           |           |      0 |
+| 317 | [M93](#math-93)   | No        |           |           |           |      0 |
+| 318 | [M94](#math-94)   | No        |           |           |           |      0 |
+| 319 | [M95](#math-95)   | No        |           |           |           |      0 |
+| 320 | [M96](#math-96)   | Yes       |           |           |           |      1 |
+| 321 | [M97](#math-97)   | Yes       |           |           |           |      1 |
+| 322 | [M98](#math-98)   | No        |           |           |           |      0 |
+| 323 | [M99](#math-99)   | IGNORED   | IGNORED   | IGNORED   | IGNORED   |      0 |
+| 324 | [M100](#math-100) | No        |           |           |           |      0 |
+| 325 | [M101](#math-101) | Yes       |           |           |           |      1 |
+| 326 | [M102](#math-102) | No        |           |           |           |      0 |
+| 327 | [M103](#math-103) | No        |           |           |           |      0 |
+| 328 | [M104](#math-104) | No        |           |           |           |      0 |
+| 329 | [M105](#math-105) | Yes       |           |           |           |      1 |
+| 330 | [M106](#math-106) | No       |           |           |           |      0 |
+| 331 | [M1](#mockito-1)  | ERROR     |           |           |           |      0 |
+| 332 | [M2](#mockito-2)  | No        |           |           |           |      0 |
+| 333 | [M3](#mockito-3)  | ERROR     |           |           |           |      0 |
+| 334 | [M4](#mockito-4)  | No        |           |           |           |      0 |
+| 335 | [M5](#mockito-5)  | No        |           |           |           |      0 |
+| 336 | [M6](#mockito-6)  | No        |           |           |           |      0 |
+| 337 | [M7](#mockito-7)  | No        |           |           |           |      0 |
+| 338 | [M8](#mockito-8)  | No        |           |           |           |      0 |
+| 339 | [M9](#mockito-9)  | No        |           |           |           |      0 |
+| 340 | [M10](#mockito-10) | No        |           |           |           |      0 |
+| 341 | [M11](#mockito-11) | No        |           |           |           |      0 |
+| 342 | [M12](#mockito-12) | No        |           |           |           |      0 |
+| 343 | [M13](#mockito-13) | No        |           |           |           |      0 |
+| 344 | [M14](#mockito-14) | No        |           |           |           |      0 |
+| 345 | [M15](#mockito-15) | No        |           |           |           |      0 |
+| 346 | [M16](#mockito-16) | No        |           |           |           |      0 |
+| 347 | [M17](#mockito-17) | No        |           |           |           |      0 |
+| 348 | [M18](#mockito-18) | ERROR     |           |           |           |      0 |
+| 349 | [M19](#mockito-19) | ERROR     |           |           |           |      0 |
+| 350 | [M20](#mockito-20) | ERROR     |           |           |           |      0 |
+| 351 | [M21](#mockito-21) | No        |           |           |           |      0 |
+| 352 | [M22](#mockito-22) | No        |           |           |           |      0 |
+| 353 | [M23](#mockito-23) | No        |           |           |           |      0 |
+| 354 | [M24](#mockito-24) | No        |           |           |           |      0 |
+| 355 | [M25](#mockito-25) | No        |           |           |           |      0 |
+| 356 | [M26](#mockito-26) | No        |           |           |           |      0 |
+| 357 | [M27](#mockito-27) | No       |           |           |           |      0 |
+| 358 | [M28](#mockito-28) | No        |           |           |           |      0 |
+| 359 | [M29](#mockito-29) | Yes       |           |           |           |      1 |
+| 360 | [M30](#mockito-30) | No        |           |           |           |      0 |
+| 361 | [M31](#mockito-31) | No        |           |           |           |      0 |
+| 362 | [M32](#mockito-32) | No        |           |           |           |      0 |
+| 363 | [M33](#mockito-33) | No        |           |           |           |      0 |
+| 364 | [M34](#mockito-34) | No        |           |           |           |      0 |
+| 365 | [M35](#mockito-35) | No        |           |           |           |      0 |
+| 366 | [M36](#mockito-36) | No        |           |           |           |      0 |
+| 367 | [M37](#mockito-37) | No        |           |           |           |      0 |
+| 368 | [M38](#mockito-38) | Yes       |           |           |           |      1 |
+| 369 | [T1](#time-1)     | No        |           |           |           |      0 |
+| 370 | [T2](#time-2)     | No        |           |           |           |      0 |
+| 371 | [T3](#time-3)     | No       |           |           |           |      0 |
+| 372 | [T4](#time-4)     | Yes       |           |           |           |      1 |
+| 373 | [T5](#time-5)     | T_OUT     |           |           |           |      0 |
+| 374 | [T6](#time-6)     | No      |           |           |           |      0 |
+| 375 | [T7](#time-7)     | Yes       |           |           |           |      1 |
+| 376 | [T8](#time-8)     | No       |           |           |           |      0 |
+| 377 | [T9](#time-9)     | No       |           |           |           |      0 |
+| 378 | [T10](#time-10)   | No       |           |           |           |      0 |
+| 379 | [T11](#time-11)   | Yes       |           |           |           |      1 |
+| 380 | [T12](#time-12)   | T_OUT     |           |           | Yes       |      1 |
+| 381 | [T13](#time-13)   | No       |           |           |           |      0 |
+| 382 | [T14](#time-14)   | Yes       |           |           |           |      1 |
+| 383 | [T15](#time-15)   | No       |           |           |           |      0 |
+| 384 | [T16](#time-16)   | Yes       |           |           |           |      1 |
+| 385 | [T17](#time-17)   | No       |           |           |           |      0 |
+| 386 | [T18](#time-18)   | T_OUT     |           |           | Yes       |      1 |
+| 387 | [T19](#time-19)   | T_OUT     |           |           | Yes       |      1 |
+| 388 | [T20](#time-20)   | No       |           |           |           |      0 |
+| 389 | [T21](#time-21)   | No       |           |           |           |      0 |
+| 390 | [T22](#time-22)   | No       |           |           |           |      0 |
+| 391 | [T23](#time-23)   | No       |           |           |           |      0 |
+| 392 | [T24](#time-24)   | No       |           |           |           |      0 |
+| 393 | [T25](#time-25)   | No       |           |           |           |      0 |
+| 394 | [T26](#time-26)   | No       |           |           |           |      0 |
+| 395 | [T27](#time-27)   | No       |           |           |           |      0 |
+|     | Total             | 150 (37%) | 0 (0%)    | 0 (0%)    | 13 (3%)   |    163 |
+
 Fixed bugs: 153/395 (38%)
 
 Nb bugs ends with an execution error: 18
